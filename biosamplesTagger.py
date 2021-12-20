@@ -50,7 +50,7 @@ def main():
 
 def biosamples_tagger():
 
-    byc = initialize_service()
+    initialize_service(byc)
     _get_args(byc)
 
     if byc["args"].test:

@@ -46,7 +46,7 @@ def main():
 
 def collations_creator():
 
-    byc = initialize_service()
+    initialize_service(byc)
     _get_args(byc)
 
     if byc["args"].test:

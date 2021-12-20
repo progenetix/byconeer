@@ -47,7 +47,7 @@ def main():
 
 def callsets_refresher():
 
-    byc = initialize_service()
+    initialize_service(byc)
     _get_args(byc)
 
     if byc["args"].test:

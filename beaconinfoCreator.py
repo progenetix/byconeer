@@ -37,7 +37,7 @@ def main():
 
 def beaconinfo_creator():
 
-    byc = initialize_service("collations_creator")
+    initialize_service(byc, "collations_creator")
 
     b_info = { "date": date_isoformat(datetime.datetime.now()), "datasets": { } }
 

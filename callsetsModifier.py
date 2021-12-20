@@ -30,7 +30,7 @@ def main():
 
 def callsets_modifier():
 
-    byc = initialize_service()
+    initialize_service(byc)
     _get_args(byc)
 
     select_dataset_ids(byc)

@@ -54,7 +54,7 @@ def biosamples_refresher():
 
     # TODO: Clean solution?
 
-    byc = initialize_service()
+    initialize_service(byc)
     _get_args(byc)
 
     if not byc["args"].scopes:

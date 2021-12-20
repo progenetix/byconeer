@@ -44,7 +44,7 @@ def main():
 
 def publications_refresher():
 
-    byc = initialize_service()
+    initialize_service(byc)
     _get_args(byc)
 
     test_mode = False

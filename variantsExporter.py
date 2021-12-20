@@ -48,7 +48,7 @@ def main():
 
 def variants_exporter():
 
-    byc = initialize_service()
+    initialize_service(byc)
     _get_args(byc)
 
     select_dataset_ids(byc)
