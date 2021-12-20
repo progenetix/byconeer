@@ -81,7 +81,7 @@ def _create_collations_from_dataset( ds_id, byc ):
     for coll_type, coll_defs in byc["collation_definitions"].items():
 
         pre = coll_defs["prefix"]
-        pre_h_f = path.join( byc["pkg_path"], "byconeer", "rsrc", coll_type, "numbered-hierarchies.tsv" )
+        pre_h_f = path.join( parent_path, "byconeer", "rsrc", coll_type, "numbered-hierarchies.tsv" )
         collection = coll_defs["scope"]
         db_key = coll_defs["db_key"]
 

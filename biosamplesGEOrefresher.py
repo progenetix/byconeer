@@ -10,7 +10,6 @@ import statistics
 from progress.bar import Bar
 import requests
 
-
 # bycon is supposed to be in the same parent directory
 dir_path = path.dirname( path.abspath(__file__) )
 parent_path = path.join( dir_path, pardir )
@@ -152,7 +151,7 @@ def biosamples_refresher():
             bar.next()
             continue
 
-        gsm_soft = _read_retrieve_save_gsm_soft(pkg_path, gsm, gse, byc)
+        gsm_soft = _read_retrieve_save_gsm_soft(gsm, gse, byc)
 
         if not gsm_soft:
             print("\n!!!! No soft file for {}".format(gsm))
@@ -230,9 +229,9 @@ def biosamples_refresher():
 
 ################################################################################
 
-def _read_retrieve_save_gsm_soft(pkg_path, gsm, gse, byc):
+def _read_retrieve_save_gsm_soft(gsm, gse, byc):
 
-    gse_path = path.join( pkg_path, *byc["config"]["paths"]["geosoft_file_root"], gse )
+    gse_path = path.join( dir_path, *byc["config"]["paths"]["geosoft_file_root"], gse )
     gsm_path = path.join( gse_path, gsm+".txt" )
 
     if path.isfile(gsm_path):               
@@ -264,7 +263,7 @@ def _filter_gsm_soft(gsm_soft):
 
 def _save_tmp_file(filename, content, byc):
 
-    f_p = path.join( pkg_path, *byc["config"]["paths"]["tmp_file_root"], filename )
+    f_p = path.join( dir_path, *byc["config"]["paths"]["tmp_file_root"], filename )
     t_f = open(f_p, 'w')
     for l in content:
         t_f.write(l+"\n")
