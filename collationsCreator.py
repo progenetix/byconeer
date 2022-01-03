@@ -62,13 +62,13 @@ def collations_creator():
     if byc["args"].collationtypes:
         s_p = {}
         for p in re.split(",", byc["args"].collationtypes):
-            if p in byc["collation_definitions"].keys():
-                s_p.update({p:byc["collation_definitions"][p]})
+            if p in byc["filter_definitions"].keys():
+                s_p.update({p:byc["filter_definitions"][p]})
         if len(s_p.keys()) < 1:
             print("No existing collation type was provided with -c ...")
             exit()
 
-        byc.update({"collation_definitions":s_p})
+        byc.update({"filter_definitions":s_p})
 
     for ds_id in byc["dataset_ids"]:
         print( "Creating collations for " + ds_id)
@@ -78,7 +78,12 @@ def collations_creator():
 
 def _create_collations_from_dataset( ds_id, byc ):
 
-    for coll_type, coll_defs in byc["collation_definitions"].items():
+    for coll_type, coll_defs in byc["filter_definitions"].items():
+
+        collationed = coll_defs.get("collationed", True)
+
+        if collationed is False:
+            continue
 
         pre = coll_defs["prefix"]
         pre_h_f = path.join( parent_path, "byconeer", "rsrc", coll_type, "numbered-hierarchies.tsv" )
@@ -88,8 +93,8 @@ def _create_collations_from_dataset( ds_id, byc ):
         if  path.exists( pre_h_f ):
             print( "Creating hierarchy for " + coll_type)
             hier =  get_prefix_hierarchy( ds_id, coll_type, pre_h_f, byc)
-        elif "PMID" in pre:
-            hier =  _make_dummy_publication_hierarchy(**byc)
+        elif "PMID" in coll_type:
+            hier =  _make_dummy_publication_hierarchy(byc)
         else:
             # create /retrieve hierarchy tree; method to be developed
             print( "Creating dummy hierarchy for " + coll_type)
@@ -178,7 +183,7 @@ def _create_collations_from_dataset( ds_id, byc ):
 
 def get_prefix_hierarchy( ds_id, coll_type, pre_h_f, byc):
 
-    coll_defs = byc["collation_definitions"][coll_type]
+    coll_defs = byc["filter_definitions"][coll_type]
     hier = { }
 
     f = open(pre_h_f, 'r+')
@@ -302,10 +307,10 @@ def get_prefix_hierarchy( ds_id, coll_type, pre_h_f, byc):
 
 ################################################################################
 
-def _make_dummy_publication_hierarchy(**byc):
+def _make_dummy_publication_hierarchy(byc):
 
     coll_type = "PMID"
-    coll_defs = byc["collation_definitions"][coll_type]
+    coll_defs = byc["filter_definitions"][coll_type]
     data_db = byc["config"]["info_db"]
     data_coll = MongoClient( )[ data_db ][ "publications" ]
     query = { "id": { "$regex": coll_defs["pattern"] } }
@@ -347,7 +352,9 @@ def _get_dummy_hierarchy(ds_id, coll_type, coll_defs, byc):
     data_pat = coll_defs["pattern"]
     db_key = coll_defs["db_key"]
 
-    if coll_defs["is_series"]: 
+    is_series = coll_defs.get("is_series", False)
+
+    if is_series is True: 
         s_pat = coll_defs["child_pattern"]
         s_re = re.compile( s_pat )
 
@@ -362,7 +369,7 @@ def _get_dummy_hierarchy(ds_id, coll_type, coll_defs, byc):
         bar.next()
         hier.update( { c: _get_hierarchy_item( data_coll, coll_defs, coll_type, c, order, 0, [ c ] ) } )
 
-        if coll_defs["is_series"]:
+        if is_series is True:
 
             ser_ids = data_coll.distinct( db_key, { db_key: c } )
             ser_ids = list(filter(lambda d: s_re.match(d), ser_ids))

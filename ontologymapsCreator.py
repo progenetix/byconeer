@@ -74,7 +74,7 @@ def ontologymaps_creator():
                     for o_t in mv["ontology_types"]:
                         data_key = byc["filter_definitions"][ o_t ]["db_key"]
                         list_key = re.sub(".id", "", data_key)
-                        data_re = re.compile( byc["filter_definitions"][ o_t ]["pattern_strict"] )
+                        data_re = re.compile( byc["filter_definitions"][ o_t ]["pattern"] )
 
                         for o in s[ list_key ]:
                             if data_re.match( o["id"] ):
@@ -183,7 +183,7 @@ def _read_mapping_defaults(dir_path, map_type, **byc):
                 cell_val = table[ i, col_inds[ col_name ] ]
                 if "id" in col_name:
                     o_t, code = re.split("[:-]", cell_val)
-                    data_re = re.compile( byc["filter_definitions"][ o_t ]["pattern_strict"] )
+                    data_re = re.compile( byc["filter_definitions"][ o_t ]["pattern"] )
                     if data_re.match( cell_val ):
                         bioc = { "id": cell_val }
                         id_s.append( cell_val )
