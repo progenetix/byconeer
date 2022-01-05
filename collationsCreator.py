@@ -159,7 +159,7 @@ def _create_collations_from_dataset( ds_id, byc ):
                     "code": code,
                     "count": child_no,
                     "dataset_id": ds_id,
-                    "date": date_isoformat(datetime.datetime.now()),
+                    "updated": date_isoformat(datetime.datetime.now()),
                     "db_key": db_key
                 })
 
@@ -420,6 +420,8 @@ def _get_ids_for_prefix(data_coll, coll_defs):
 
 def _get_label_for_code(data_coll, coll_defs, code):
 
+    label_keys = ["label", "description"]
+
     db_key = coll_defs["db_key"]
     id_key = re.sub(".id", "", db_key)
     example = data_coll.find_one( { db_key: code } )
@@ -428,14 +430,16 @@ def _get_label_for_code(data_coll, coll_defs, code):
         if isinstance(example[ id_key ], list):
             for o_t in example[ id_key ]:
                 if code in o_t["id"]:
-                    if "label" in o_t:
-                        return o_t["label"]
+                    for k in label_keys:
+                        if k in o_t:
+                            return o_t[k]
                     continue
         else:
             o_t = example[ id_key ]
             if code in o_t["id"]:
-                if "label" in o_t:
-                    return o_t["label"]
+                for k in label_keys:
+                        if k in o_t:
+                            return o_t[k]
 
     return ""
 
