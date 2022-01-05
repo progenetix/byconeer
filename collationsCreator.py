@@ -152,6 +152,7 @@ def _create_collations_from_dataset( ds_id, byc ):
                     "id": sub_id,
                     "type": coll_defs.get("type", ""),
                     "collation_type": coll_type,
+                    "reference": "https://progenetix.org/services/ids/"+code,
                     "prefix": coll_defs.get("prefix", ""),
                     "scope": coll_defs.get("scope", ""),
                     "code_matches": code_no,
@@ -161,6 +162,13 @@ def _create_collations_from_dataset( ds_id, byc ):
                     "date": date_isoformat(datetime.datetime.now()),
                     "db_key": db_key
                 })
+
+                if "reference" in coll_defs:
+                    url = coll_defs["reference"].get("root", "https://progenetix.org/services/ids/")
+                    r = coll_defs["reference"].get("replace", ["___nothing___", ""])
+                    ref = url+re.sub(r[0], r[1], code)
+                    update_obj.update({"reference": ref })
+
                 matched += 1
 
                 if not byc["args"].test:
