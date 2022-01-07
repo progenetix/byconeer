@@ -138,6 +138,9 @@ def _create_collations_from_dataset( ds_id, byc ):
 
             code_no = data_coll.count_documents( { db_key: code } )
 
+            if code_no < 1:
+                code_no = 0
+
             if len( children ) < 2:
                 child_no = code_no
             else:
@@ -150,7 +153,7 @@ def _create_collations_from_dataset( ds_id, byc ):
                 update_obj = hier[ code ].copy()
                 update_obj.update({
                     "id": sub_id,
-                    "type": coll_defs.get("type", ""),
+                    "type": coll_defs.get("name", ""),
                     "collation_type": coll_type,
                     "reference": "https://progenetix.org/services/ids/"+code,
                     "prefix": coll_defs.get("prefix", ""),
