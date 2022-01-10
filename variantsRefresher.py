@@ -15,6 +15,7 @@ parent_path = path.join( dir_path, pardir )
 sys.path.append( parent_path )
 
 from bycon import *
+from byconeer import *
 
 """
 
@@ -26,18 +27,6 @@ from bycon import *
 ################################################################################
 ################################################################################
 
-def _get_args(byc):
-
-    parser = argparse.ArgumentParser()
-    parser.add_argument("-d", "--datasetids", help="datasets, comma-separated")
-    parser.add_argument("-a", "--alldatasets", action='store_true', help="process all datasets")
-    parser.add_argument("-t", "--test", help="test setting")
-    byc.update({ "args": parser.parse_args() })
-
-    return byc
-
-################################################################################
-
 def main():
 
     variants_refresher()
@@ -47,10 +36,8 @@ def main():
 def variants_refresher():
 
     initialize_service(byc)
-    _get_args(byc)
-
-    if byc["args"].test:
-        print( "¡¡¡ TEST MODE - no db update !!!")
+    get_args(byc)
+    set_test_mode(byc)
 
     select_dataset_ids(byc)
     check_dataset_ids(byc)
@@ -75,36 +62,7 @@ def variants_refresher():
         for v in var_coll.find({}):
             update_obj = { "id": str(v["_id"]) }
 
-            
-
-            """
- 
-            """
-            # if "variant_type" in v:
-            #     if "DUP" in v["variant_type"] or "DEL" in v["variant_type"]:
-            #         try:
-            #             cnv_l = int( v["end"] - v["start"])
-            #             if cnv_l < min_l:
-            #                 v_short += 1
-            #                 if byc["args"].test:
-            #                     print("!!! too short {}".format(cnv_l))
-            #                 else:
-            #                     var_coll.delete_one( { "_id": v["_id"] }  )
-            #                     continue
-            #             else:
-            #                 update_obj.update( { "info.var_length": cnv_l } )
-            #         except:
-            #             update_obj.update( { "error.start_end": 1 } )
-            #     else:
-            #         v_no_type += 1
-            #         # update_obj.update( { "error.variant_type": v["variant_type"] } )
-            # else:
-            #     v_no_type += 1
-            #     print("!!! no type".format(v["_id"]))
-
-            ####################################################################
-
-            if not byc["args"].test:
+            if not byc["test_mode"]:
                 var_coll.update_one( { "_id": v["_id"] }, { '$set': update_obj }  )
             
             bar.next()

@@ -14,6 +14,7 @@ parent_path = path.join( dir_path, pardir )
 sys.path.append( parent_path )
 
 from bycon import *
+from byconeer import *
 
 """
 * pubUpdater.py -t 1 -f "../rsrc/publications.txt"
@@ -46,9 +47,7 @@ def update_publications():
 
     initialize_service(byc)
     _get_args(byc)
-
-    if byc["args"].test:
-        print( "¡¡¡ TEST MODE - no db update !!!")
+    set_test_mode(byc)    
 
     ##########################################
     # for Sofia => testing ... ###############
@@ -153,7 +152,7 @@ def update_publications():
                             pass
                 n_p["counts"]["ngs"] = n_p["counts"]["wes"] + n_p["counts"]["wgs"]
 
-                if not byc["args"].test:
+                if not byc["test_mode"]:
                     entry = pub_coll.update_one({"id": n_p["id"] }, {"$set": n_p }, upsert=True )
                     up_count += 1
                     print(n_p["id"]+": inserting this into progenetix.publications")

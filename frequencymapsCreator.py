@@ -27,20 +27,6 @@ from byconeer import *
 ################################################################################
 ################################################################################
 
-def _get_args(byc):
-
-    parser = argparse.ArgumentParser()
-    parser.add_argument("-d", "--datasetids", help="datasets, comma-separated")
-    parser.add_argument("-a", "--alldatasets", action='store_true', help="process all datasets")
-    parser.add_argument("-t", "--test", help="test setting")
-    parser.add_argument("-c", "--collationtypes", help='selected collation types, e.g. "EFO"')
-    parser.add_argument("-s", "--selectedcodes", help='selected codes , e.g. "NCIT:C2955"')
-    byc.update({ "args": parser.parse_args() })
-
-    return byc
-
-################################################################################
-
 def main():
     frequencymaps_creator()
 
@@ -49,9 +35,8 @@ def main():
 def frequencymaps_creator():
 
     initialize_service(byc)
-    _get_args(byc)
-
-    test_mode = set_test_mode(byc)
+    get_args(byc)
+    set_test_mode(byc)
 
     select_dataset_ids(byc)
     check_dataset_ids(byc)
@@ -64,8 +49,8 @@ def frequencymaps_creator():
     if byc["args"].collationtypes:
         byc.update({"coll_types": re.split(",", byc["args"].collationtypes)})
 
-    if byc["args"].selectedcodes:
-        byc.update({"coll_filters": re.split(",", byc["args"].selectedcodes)})
+    if byc["args"].ontologycodes:
+        byc.update({"coll_filters": re.split(",", byc["args"].ontologycodes)})
 
     generate_genomic_intervals(byc)
  
@@ -176,7 +161,7 @@ def _create_frequencymaps_for_collations( ds_id, byc ):
         if cs_no > 1000:
             print(" => Processed in {:.2f}s: {:.4f}s per callset".format(proc_time, (proc_time/cs_no)))
 
-        if not test_mode:
+        if not byc["test_mode"]:
             fm_coll.update_one( { "id": coll["id"] }, { '$set': update_obj }, upsert=True )
 
         if coll["code_matches"] > 0:
@@ -197,7 +182,7 @@ def _create_frequencymaps_for_collations( ds_id, byc ):
 
                     print("{}: {} exact of {} total code matches".format(coll["id"], cs_no_cm, cs_no))
 
-            if not test_mode:
+            if not byc["test_mode"]:
                 fm_coll.update_one( { "id": coll["id"] }, { '$set': cm_obj }, upsert=False )
 
 ################################################################################

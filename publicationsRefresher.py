@@ -15,6 +15,7 @@ parent_path = path.join( dir_path, pardir )
 sys.path.append( parent_path )
 
 from bycon import *
+from byconeer import *
 
 """
 

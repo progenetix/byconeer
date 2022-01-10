@@ -16,23 +16,10 @@ parent_path = path.join( dir_path, pardir )
 sys.path.append( parent_path )
 
 from bycon import *
-
-"""
-"""
+from byconeer import *
 
 ################################################################################
 ################################################################################
-################################################################################
-
-def _get_args(byc):
-
-    parser = argparse.ArgumentParser()
-    parser.add_argument("-d", "--datasetids", help="datasets, comma-separated")
-    parser.add_argument("-t", "--test", help="test setting")
-    byc.update({ "args": parser.parse_args() })
-
-    return byc
-
 ################################################################################
 
 def main():
@@ -44,10 +31,8 @@ def main():
 def individuals_refresher():
 
     initialize_service(byc)
-    _get_args(byc)
-
-    if byc["args"].test:
-        print( "¡¡¡ TEST MODE - no db update !!!")
+    get_args(byc)
+    set_test_mode(byc)
 
     select_dataset_ids(byc)
     check_dataset_ids(byc)
@@ -135,7 +120,7 @@ def individuals_refresher():
 
             update_obj["diseases"].append(disease)
 
-        if not byc["args"].test:
+        if not byc["test_mode"]:
             ind_coll.update_one( { "_id": ind["_id"] }, { '$set': update_obj }  )
 
     bar.finish()

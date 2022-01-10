@@ -15,6 +15,7 @@ parent_path = path.join( dir_path, pardir )
 sys.path.append( parent_path )
 
 from bycon import *
+from byconeer import *
 
 """
 ## `variantsExporter`
@@ -30,7 +31,6 @@ def _get_args(byc):
 
     parser = argparse.ArgumentParser()
     parser.add_argument("-d", "--datasetids", help="dataset")
-    parser.add_argument("-o", "--outfile", help="output file")
     parser.add_argument("-f", "--filters", help="prefixed filter values, comma concatenated")
     parser.add_argument("--value-only", dest='value_only', action='store_true', help="only output variants with values")
     parser.set_defaults(value_only=False)

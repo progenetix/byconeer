@@ -10,16 +10,7 @@ parent_path = path.join( dir_path, pardir )
 sys.path.append( parent_path )
 
 from bycon import *
-
-################################################################################
-
-def _get_args(byc):
-
-    parser = argparse.ArgumentParser()
-    parser.add_argument("-d", "--datasetids", help="datasets, comma-separated")
-    byc.update({ "args": parser.parse_args() })
-
-    return byc
+from byconeer import *
 
 ################################################################################
 def main():
@@ -31,7 +22,7 @@ def main():
 def callsets_modifier():
 
     initialize_service(byc)
-    _get_args(byc)
+    get_args(byc)
 
     select_dataset_ids(byc)
     check_dataset_ids(byc)

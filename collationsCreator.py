@@ -26,20 +26,6 @@ from byconeer import *
 ################################################################################
 ################################################################################
 
-def _get_args(byc):
-
-    parser = argparse.ArgumentParser()
-    parser.add_argument("-d", "--datasetids", help="datasets, comma-separated")
-    parser.add_argument("-a", "--alldatasets", action='store_true', help="process all datasets")
-    parser.add_argument("-t", "--test", help="test setting")
-    parser.add_argument("-c", "--collationtypes", help='selected collation types, e.g. "EFO"')
-   
-    byc.update({ "args": parser.parse_args() })
-
-    return byc
-
-################################################################################
-
 def main():
     collations_creator()
 
@@ -48,9 +34,8 @@ def main():
 def collations_creator():
 
     initialize_service(byc)
-    _get_args(byc)
-
-    test_mode = set_test_mode(byc)
+    get_args(byc)
+    set_test_mode(byc)
 
     select_dataset_ids(byc)
     check_dataset_ids(byc)
@@ -120,19 +105,19 @@ def _create_collations_from_dataset( ds_id, byc ):
         no = len(hier.keys())
         matched = 0
         
-        if not test_mode:
+        if not byc["test_mode"]:
             bar = Bar("Writing "+pre, max = no, suffix='%(percent)d%%'+" of "+str(no) )
         
         for count, code in enumerate(hier.keys(), start=1):
 
-            if not test_mode:
+            if not byc["test_mode"]:
                 bar.next()
  
             children = list( set( hier[ code ][ "child_terms" ] ) & set( data_parents ) )
             hier[ code ].update(  { "child_terms": children } )
 
             if len( children ) < 1:
-                if test_mode:
+                if byc["test_mode"]:
                     print(code+" w/o children")
                 continue
 
@@ -174,14 +159,14 @@ def _create_collations_from_dataset( ds_id, byc ):
 
                 matched += 1
 
-                if not test_mode:
+                if not byc["test_mode"]:
                     sel_hiers.append( update_obj )
                 else:
                     print("{}:\t{} ({} deep) samples - {} / {} {}".format(sub_id, code_no, child_no, count, no, pre))
 
 
         # UPDATE   
-        if not test_mode:
+        if not byc["test_mode"]:
             bar.finish()
             print("==> Updating database ...")
             if matched > 0:

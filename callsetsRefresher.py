@@ -15,6 +15,7 @@ parent_path = path.join( dir_path, pardir )
 sys.path.append( parent_path )
 
 from bycon import *
+from byconeer import *
 
 ################################################################################
 """
@@ -23,20 +24,6 @@ from bycon import *
 * `byconeer/callsetsRefresher.py`
   - default; new statusmaps for all `progenetix` callsets
 """
-################################################################################
-
-def _get_args(byc):
-
-    parser = argparse.ArgumentParser()
-    parser.add_argument("-d", "--datasetids", nargs='?', default="progenetix", help="datasets, comma-separated")
-    parser.add_argument("-a", "--alldatasets", action='store_true', help="process all datasets")
-    parser.add_argument("-f", "--filters", help="prefixed filter values, comma concatenated")
-    parser.add_argument("-s", "--source", nargs='?', default="callsets", help="id source")
-    parser.add_argument("-t", "--test", help="test setting")   
-    byc.update({ "args": parser.parse_args() })
-
-    return byc
-
 ################################################################################
 
 def main():
@@ -48,10 +35,8 @@ def main():
 def callsets_refresher():
 
     initialize_service(byc)
-    _get_args(byc)
-
-    if byc["args"].test:
-        print( "¡¡¡ TEST MODE - no db update !!!")
+    get_args(byc)
+    set_test_mode(byc)
 
     select_dataset_ids(byc)
     check_dataset_ids(byc)
@@ -139,7 +124,7 @@ def _process_dataset(ds_id, byc):
         cs_update_obj["info"].update({"cnvstatistics": cs_cnv_stats})
         cs_update_obj.update({ "updated": date_isoformat(datetime.datetime.now()) })
 
-        if not byc["args"].test:
+        if not byc["test_mode"]:
             if not cs:
                 cs_coll.insert_one( cs_update_obj  )
             else:

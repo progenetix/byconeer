@@ -15,6 +15,7 @@ parent_path = path.join( dir_path, pardir )
 sys.path.append( parent_path )
 
 from bycon import *
+from byconeer import *
 
 """
 
@@ -28,21 +29,6 @@ from bycon import *
 ################################################################################
 ################################################################################
 
-def _get_args(byc):
-
-    parser = argparse.ArgumentParser()
-    parser.add_argument("-d", "--datasetids", help="datasets, comma-separated")
-    parser.add_argument("-a", "--alldatasets", action='store_true', help="process all datasets")
-    parser.add_argument("-f", "--filters", help="prefixed filter values, comma concatenated")
-    parser.add_argument("-t", "--test", help="test setting")
-    parser.add_argument('-i', '--inputfile', help='a custom file to specify input data')
-    parser.add_argument('-m', '--mode', help='update modus')
-    byc.update({ "args": parser.parse_args() })
-
-    return byc
-
-################################################################################
-
 def main():
 
     biosamples_refresher()
@@ -52,10 +38,8 @@ def main():
 def biosamples_refresher():
 
     initialize_service(byc)
-    _get_args(byc)
-
-    if byc["args"].test:
-        print( "¡¡¡ TEST MODE - no db update !!!")
+    get_args(byc)
+    set_test_mode(byc)
 
     select_dataset_ids(byc)
     check_dataset_ids(byc)
@@ -105,7 +89,7 @@ def _process_dataset(ds_id, pub_labels, byc):
 
     no =  len(bs_ids)
 
-    if not byc["args"].test:
+    if not byc["test_mode"]:
         bar = Bar("{} {} samples".format(no, ds_id), max = no, suffix='%(percent)d%%'+" of "+str(no) )
 
     counts = { "pathological_tnm_findings": 0, "pathological_stage": 0, "tumor_grade": 0 }
@@ -166,11 +150,11 @@ def _process_dataset(ds_id, pub_labels, byc):
 
         ####################################################################
 
-        if not byc["args"].test:
+        if not byc["test_mode"]:
             bios_coll.update_one( { "_id": s["_id"] }, { '$set': update_obj }  )
             bar.next()
 
-    if not byc["args"].test:
+    if not byc["test_mode"]:
         bar.finish()
 
     for k, n in counts.items():

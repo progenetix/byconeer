@@ -16,6 +16,7 @@ parent_path = path.join( dir_path, pardir )
 sys.path.append( parent_path )
 
 from bycon import *
+from byconeer import *
 
 """
 
@@ -32,10 +33,7 @@ from bycon import *
 def _get_args(byc):
 
     parser = argparse.ArgumentParser()
-    parser.add_argument("-d", "--datasetids", help="datasets, comma-separated")
     parser.add_argument("-f", "--filters", help="prefixed filter value for ext. identifier")
-    # parser.add_argument("-t", "--test", help="test setting")
-    parser.add_argument('-i', '--inputfile', help='a custom file to specify input data')
     parser.add_argument('-s', '--scopes', help='scopes, e.g. "stage", comma-separated')
     byc.update({ "args": parser.parse_args() })
 
@@ -199,19 +197,6 @@ def biosamples_refresher():
             bar.next()
             continue
 
-        # TODO: make sure the DB update is being handled by dedicated script
-        #     update_obj = {
-        #         "analysis_info": {
-        #             "experiment_id": gsm,
-        #             "platform_id": geosoft_extract_gpl(gsm_soft, platform_re),
-        #             "series_id": gse
-        #         },
-        #         "info": new_info
-        #     }
-        #     print("\nupdating {}".format(s["id"]))
-        #     bios_coll.update_one( { "_id": s["_id"] }, { '$set': update_obj }  )
-        #     bar.next()
-
     bar.finish()
 
     tmp_path = _save_tmp_file("gsm-metadata_"+"_".join(sel_scopes)+".tsv", coll_lines, byc)
@@ -224,8 +209,6 @@ def biosamples_refresher():
             if len(c[ s_scopes[scp]["db_key"] ]) > 0:
                 scp_dists.update({ c[ s_scopes[scp]["db_key"] ] :1})
         print("=> Values in scope \"{}\":\n{}".format(s_scopes[scp]["id"], "\n".join(list(scp_dists.keys()))))
-
-
 
 ################################################################################
 
