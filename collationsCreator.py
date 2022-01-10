@@ -14,6 +14,7 @@ parent_path = path.join( dir_path, pardir )
 sys.path.append( parent_path )
 
 from bycon import *
+from byconeer import *
 
 """
 
@@ -49,8 +50,7 @@ def collations_creator():
     initialize_service(byc)
     _get_args(byc)
 
-    if byc["args"].test:
-        print( "¡¡¡ TEST MODE - no db update !!!")
+    test_mode = set_test_mode(byc)
 
     select_dataset_ids(byc)
     check_dataset_ids(byc)
@@ -120,19 +120,19 @@ def _create_collations_from_dataset( ds_id, byc ):
         no = len(hier.keys())
         matched = 0
         
-        if not byc["args"].test:
+        if not test_mode:
             bar = Bar("Writing "+pre, max = no, suffix='%(percent)d%%'+" of "+str(no) )
         
         for count, code in enumerate(hier.keys(), start=1):
 
-            if not byc["args"].test:
+            if not test_mode:
                 bar.next()
  
             children = list( set( hier[ code ][ "child_terms" ] ) & set( data_parents ) )
             hier[ code ].update(  { "child_terms": children } )
 
             if len( children ) < 1:
-                if byc["args"].test:
+                if test_mode:
                     print(code+" w/o children")
                 continue
 
@@ -174,14 +174,14 @@ def _create_collations_from_dataset( ds_id, byc ):
 
                 matched += 1
 
-                if not byc["args"].test:
+                if not test_mode:
                     sel_hiers.append( update_obj )
                 else:
                     print("{}:\t{} ({} deep) samples - {} / {} {}".format(sub_id, code_no, child_no, count, no, pre))
 
 
         # UPDATE   
-        if not byc["args"].test:
+        if not test_mode:
             bar.finish()
             print("==> Updating database ...")
             if matched > 0:

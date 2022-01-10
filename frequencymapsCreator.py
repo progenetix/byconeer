@@ -15,6 +15,7 @@ parent_path = path.join( dir_path, pardir )
 sys.path.append( parent_path )
 
 from bycon import *
+from byconeer import *
 
 """
 
@@ -33,6 +34,7 @@ def _get_args(byc):
     parser.add_argument("-a", "--alldatasets", action='store_true', help="process all datasets")
     parser.add_argument("-t", "--test", help="test setting")
     parser.add_argument("-c", "--collationtypes", help='selected collation types, e.g. "EFO"')
+    parser.add_argument("-s", "--selectedcodes", help='selected codes , e.g. "NCIT:C2955"')
     byc.update({ "args": parser.parse_args() })
 
     return byc
@@ -49,8 +51,7 @@ def frequencymaps_creator():
     initialize_service(byc)
     _get_args(byc)
 
-    if byc["args"].test:
-        print( "¡¡¡ TEST MODE - no db update !!!")
+    test_mode = set_test_mode(byc)
 
     select_dataset_ids(byc)
     check_dataset_ids(byc)
@@ -61,8 +62,10 @@ def frequencymaps_creator():
         exit()
 
     if byc["args"].collationtypes:
-        # using "coll_filters" in contrast to the standard objects
-        byc.update({"coll_filters": re.split(",", byc["args"].collationtypes)})
+        byc.update({"coll_types": re.split(",", byc["args"].collationtypes)})
+
+    if byc["args"].selectedcodes:
+        byc.update({"coll_filters": re.split(",", byc["args"].selectedcodes)})
 
     generate_genomic_intervals(byc)
  
@@ -91,17 +94,35 @@ def _create_frequencymaps_for_collations( ds_id, byc ):
     cs_coll = data_client[ ds_id ]["callsets"]
 
     id_query = {}
+    id_ql = []
+
+    if "coll_types" in byc:
+        if len(byc["coll_types"]) > 0:
+            f_l = []
+            for c_t in byc["coll_types"]:
+                f_l.append( { "collation_type": { "$regex": "^"+c_t } })
+            if len(f_l) > 1:
+                id_ql.append( { "$or": f_l } )
+            else:
+                id_ql.append(f_l[0])
 
     if "coll_filters" in byc:
-
         if len(byc["coll_filters"]) > 0:
             f_l = []
             for c_t in byc["coll_filters"]:
-                f_l.append( { "collation_type": { "$regex": "^"+c_t } })
+                f_l.append( { "id": { "$regex": "^"+c_t } })
             if len(f_l) > 1:
-                id_query = { "$or": f_l }
+                id_ql.append( { "$or": f_l } )
             else:
-                id_query = f_l[0]
+                id_ql.append(f_l[0])
+
+    if len(id_ql) == 1:
+        id_query = id_ql[0]
+    elif len(id_ql) > 1:
+        id_query = { "$and":id_ql }
+
+    # print(id_query)
+    # exit()
 
     coll_no = coll_coll.count_documents(id_query)
    
@@ -132,8 +153,6 @@ def _create_frequencymaps_for_collations( ds_id, byc ):
         if i_t == 0 or cs_no > 1000:
             print("{}: {} bios, {} cs\t{}/{}\t{:.1f}%".format(coll["id"], bios_no, cs_no, coll_i, coll_no, 100*coll_i/coll_no))
 
-        intf = interval_counts_from_callsets(cs_cursor, byc)
-
         update_obj = {
             "id": coll["id"],
             "label": coll["label"],
@@ -149,36 +168,37 @@ def _create_frequencymaps_for_collations( ds_id, byc ):
                 "binning": byc["genome_binning"],
                 "biosample_count": bios_no,
                 "analysis_count": cs_no,
-                "intervals": intf
+                "intervals": interval_counts_from_callsets(cs_cursor, byc)
             }
         }
-
-        if coll["code_matches"] > 0:
-            if cs_no != coll["code_matches"]:
-                query = { db_key: coll["id"] }
-                bios_no, cs_cursor = _cs_cursor_from_bios_query(bios_coll, ind_coll, cs_coll, coll["scope"], query)
-                cs_no = len(list(cs_cursor))
-                if cs_no > 0:
-                    intf = interval_counts_from_callsets(cs_cursor, byc)
-
-                    print("found {} exact code matches".format(cs_no))
-
-                    update_obj.update({ "frequencymap_codematches": {
-                            "interval_count": len(byc["genomic_intervals"]),
-                            "binning": byc["genome_binning"],
-                            "biosample_count": bios_no,
-                            "analysis_count": cs_no,
-                            "intervals": intf
-                        }
-                    })
 
         proc_time = time.time() - start_time
         if cs_no > 1000:
             print(" => Processed in {:.2f}s: {:.4f}s per callset".format(proc_time, (proc_time/cs_no)))
 
-        if not byc["args"].test:
+        if not test_mode:
             fm_coll.update_one( { "id": coll["id"] }, { '$set': update_obj }, upsert=True )
 
+        if coll["code_matches"] > 0:
+            if cs_no != coll["code_matches"]:
+                query_cm = { db_key: coll["id"] }
+                bios_no_cm, cs_cursor_cm = _cs_cursor_from_bios_query(bios_coll, ind_coll, cs_coll, coll["scope"], query_cm)
+                cs_no_cm = len(list(cs_cursor_cm))
+                if cs_no_cm > 0:
+
+                    cm_obj = { "frequencymap_codematches": {
+                            "interval_count": len(byc["genomic_intervals"]),
+                            "binning": byc["genome_binning"],
+                            "biosample_count": bios_no_cm,
+                            "analysis_count": cs_no_cm,
+                            "intervals": interval_counts_from_callsets(cs_cursor_cm, byc)
+                        }
+                    }
+
+                    print("{}: {} exact of {} total code matches".format(coll["id"], cs_no_cm, cs_no))
+
+            if not test_mode:
+                fm_coll.update_one( { "id": coll["id"] }, { '$set': cm_obj }, upsert=False )
 
 ################################################################################
 
