@@ -14,6 +14,7 @@ def get_args(byc):
     parser.add_argument("-o", "--outfile", help="output file")
     parser.add_argument('-m', '--mode', help='update modus')
     parser.add_argument("-s", "--source", help="id source", nargs='?', default="callsets")
+    parser.add_argument("-u", "--update", help='update existing records')
     parser.add_argument("-y", "--ontologycodes", help='selected codes , e.g. "NCIT:C2955"')
 
     byc.update({ "args": parser.parse_args() })

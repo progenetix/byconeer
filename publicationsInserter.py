@@ -24,20 +24,6 @@ from byconeer import *
 ##############################################################################
 ##############################################################################
 
-def _get_args(byc):
-
-    parser = argparse.ArgumentParser(description="Read publication annotations, create MongoDB posts and update the database.")
-    parser.add_argument("-f", "--filepath", help="Path of the .tsv file containing the annotations on the publications.", type=str)
-    parser.add_argument("-t", "--test", help="test setting")
-    parser.add_argument('-u', '--update', help='overwrite existing publications')
-    parser.add_argument('-x', '--pgxuse', help='add entry for progenetix_use')    
-
-    byc.update({"args": parser.parse_args() })
-
-    return byc
-
-##############################################################################
-
 def main():
     update_publications()
 
@@ -46,23 +32,12 @@ def main():
 def update_publications():
 
     initialize_service(byc)
-    _get_args(byc)
+    get_args(byc)
     set_test_mode(byc)    
 
-    ##########################################
-    # for Sofia => testing ... ###############
-    ##########################################
-
-    form_data = cgi.FieldStorage()
-    new_pmid = form_data.getfirst("newPMID", "")
-    if len(new_pmid) > 0:
-        set_debug_state(1)
-        print(new_pmid)
+    if not byc["args"].inputfile:
+        print("No inputfile file specified => quitting ...")
         exit()
-
-    ##########################################
-    ##########################################
-    ##########################################
 
     rows = []
 
@@ -81,7 +56,7 @@ def update_publications():
 
     up_count = 0
 
-    with open(byc["args"].filepath, newline='') as csvfile:
+    with open(byc["args"].inputfile, newline='') as csvfile:
 
         in_pubs = list(csv.DictReader(csvfile, delimiter="\t", quotechar='"'))
 
@@ -131,7 +106,7 @@ def update_publications():
 
                 epmc = retrieve_epmc_publications(pmid)
                 update_from_epmc_publication(n_p, epmc)            
-                create_short_publication_label(n_p)
+                publication_update_label(n_p)
                 get_ncit_tumor_types(n_p, pub)
 
                 if p_k in progenetix_ids:
