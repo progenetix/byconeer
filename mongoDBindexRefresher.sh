@@ -22,7 +22,7 @@ done
 
 for db in progenetix 1000genomesDRAGEN cellosaurus
 do
-	for field in \"variant_state.id\" variant_type reference_bases reference_name callset_id alternate_bases individual_id biosample_id start end \"info.var_length\" variant_internal_id
+	for field in updated \"variant_state.id\" variant_type reference_bases reference_name callset_id alternate_bases individual_id biosample_id start end \"info.var_length\" variant_internal_id
 		do
 			echo "=> index for $db.variants.$field"
 			mongo $db --eval "db.variants.createIndex( { $field : 1 } )"
@@ -50,7 +50,7 @@ do
 	
     for dbcoll in collations
 	do
-		for field in child_terms id label count collation_type prefix
+		for field in child_terms id label count collation_type name_space_prefix
 		do
 			echo "=> index for $db.collations.$field"
 			mongo $db --eval "db.collations.createIndex( { $field : 1 } )"

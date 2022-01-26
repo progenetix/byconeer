@@ -118,7 +118,6 @@ def _create_frequencymaps_for_collations( ds_id, byc ):
     for coll in coll_coll.find(id_query):
 
         pre, code = re.split("[:-]", coll["id"], 1)
-
         coll_type = coll["collation_type"]
 
         db_key = coll["db_key"]
@@ -126,7 +125,6 @@ def _create_frequencymaps_for_collations( ds_id, byc ):
         coll_i += 1
 
         query = { db_key: { '$in': coll["child_terms"] } }
-
         bios_no, cs_cursor = _cs_cursor_from_bios_query(bios_coll, ind_coll, cs_coll, coll["scope"], query)
         cs_no = len(list(cs_cursor))
 
@@ -182,8 +180,8 @@ def _create_frequencymaps_for_collations( ds_id, byc ):
 
                     print("{}: {} exact of {} total code matches".format(coll["id"], cs_no_cm, cs_no))
 
-            if not byc["test_mode"]:
-                fm_coll.update_one( { "id": coll["id"] }, { '$set': cm_obj }, upsert=False )
+                if not byc["test_mode"]:
+                    fm_coll.update_one( { "id": coll["id"] }, { '$set': cm_obj }, upsert=False )
 
 ################################################################################
 
@@ -192,6 +190,8 @@ def _cs_cursor_from_bios_query(bios_coll, ind_coll, cs_coll, scope, query):
     if scope == "individuals":
         ind_ids = ind_coll.distinct( "id" , query )
         bios_ids = bios_coll.distinct( "id" , {"individual_id":{"$in": ind_ids } } )
+    elif scope == "callsets":
+        bios_ids = cs_coll.distinct( "biosample_id" , query )
     else:
         bios_ids = bios_coll.distinct( "id" , query )
 

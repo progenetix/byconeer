@@ -70,7 +70,7 @@ def _create_collations_from_dataset( ds_id, byc ):
         if collationed is False:
             continue
 
-        pre = coll_defs["prefix"]
+        pre = coll_defs["name_space_prefix"]
         pre_h_f = path.join( parent_path, "byconeer", "rsrc", coll_type, "numbered-hierarchies.tsv" )
         collection = coll_defs["scope"]
         db_key = coll_defs["db_key"]
@@ -94,13 +94,21 @@ def _create_collations_from_dataset( ds_id, byc ):
 
         onto_ids = _get_ids_for_prefix( data_coll, coll_defs )
 
-        sel_hiers = [ ]
+        is_series = coll_defs.get("is_series", False)
+
+        onto_keys = list( set( onto_ids ) & hier.keys() )
 
         # get the set of all parents for sample codes
-        data_parents = set()
+        onto_keys = set()
         for o_id in onto_ids:
             if o_id in hier.keys():
-                data_parents.update( hier[ o_id ][ "parent_terms" ] )
+                onto_keys.update( hier[ o_id ][ "parent_terms" ] )
+
+        if is_series is True:
+            child_ids = _get_child_ids_for_prefix(data_coll, coll_defs)
+            onto_keys.update(child_ids)
+
+        sel_hiers = [ ]
 
         no = len(hier.keys())
         matched = 0
@@ -112,8 +120,10 @@ def _create_collations_from_dataset( ds_id, byc ):
 
             if not byc["test_mode"]:
                 bar.next()
- 
-            children = list( set( hier[ code ][ "child_terms" ] ) & set( data_parents ) )
+
+            children = list( set( hier[ code ][ "child_terms" ] ) & onto_keys )
+
+            # print("\n{} : {} / {} children".format(code, len( children ), len(hier[ code ][ "child_terms" ])))
             hier[ code ].update(  { "child_terms": children } )
 
             if len( children ) < 1:
@@ -141,7 +151,7 @@ def _create_collations_from_dataset( ds_id, byc ):
                     "type": coll_defs.get("name", ""),
                     "collation_type": coll_type,
                     "reference": "https://progenetix.org/services/ids/"+code,
-                    "prefix": coll_defs.get("prefix", ""),
+                    "name_space_prefix": coll_defs.get("name_space_prefix", ""),
                     "scope": coll_defs.get("scope", ""),
                     "code_matches": code_no,
                     "code": code,
@@ -224,6 +234,8 @@ def get_prefix_hierarchy( ds_id, coll_type, pre_h_f, byc):
     data_client = MongoClient( )
     data_db = data_client[ ds_id ]
     data_coll = data_db[coll_defs["scope"]]
+
+    db_key = coll_defs.get("db_key", "")
     
     onto_ids = _get_ids_for_prefix( data_coll, coll_defs )
 
@@ -238,7 +250,7 @@ def get_prefix_hierarchy( ds_id, coll_type, pre_h_f, byc):
                 "label": "Unplaced Entities",
                 "type": coll_defs.get("type", ""),
                 "collation_type": coll_type,
-                "prefix": coll_defs.get("prefix", ""),
+                "name_space_prefix": coll_defs.get("name_space_prefix", ""),
                 "scope": coll_defs.get("scope", ""),
                 "db_key": coll_defs.get("db_key", ""),
                 "hierarchy_paths": [ { "order": no, "depth": 1, "path": [ "NCIT:C3262", "NCIT:C000000" ] } ]
@@ -291,11 +303,22 @@ def get_prefix_hierarchy( ds_id, coll_type, pre_h_f, byc):
 
     for c, h in hier.items():
         bar.next()
-        all_children = { }
+        all_children = set()
         for c_2, h_2 in hier.items():
             if c in h_2["parent_terms"]:
-                all_children.update( { c_2: 1 } )
-        hier[ c ].update( { "child_terms": list( all_children.keys() ) } )
+                all_children.add( c_2 )
+        hier[ c ].update( { "child_terms": list( all_children ) } )
+
+    if "series_pattern" in coll_defs:
+        ch_re = re.compile( coll_defs["series_pattern"] )
+        for c, h in hier.items():
+            all_children = set( )
+            for p in h["child_terms"]:
+                gsms = data_coll.distinct( db_key, { db_key: p } )
+                gsms = list(filter(lambda d: ch_re.match(d), gsms))
+                all_children.update(gsms)
+                all_children.add(p)
+            h.update({ "child_terms": list(all_children) })
     
     bar.finish()
 
@@ -325,7 +348,7 @@ def _make_dummy_publication_hierarchy(byc):
                 "label": pub["label"],
                 "type": coll_defs.get("type", ""),
                 "collation_type": coll_type,
-                "prefix": coll_defs.get("prefix", ""),
+                "name_space_prefix": coll_defs.get("name_space_prefix", ""),
                 "scope": coll_defs.get("scope", ""),
                 "db_key": coll_defs.get("db_key", ""),
                 "hierarchy_paths": [ { "order": int(order), "depth": 0, "path": [ code ] } ],
@@ -351,7 +374,7 @@ def _get_dummy_hierarchy(ds_id, coll_type, coll_defs, byc):
     is_series = coll_defs.get("is_series", False)
 
     if is_series is True: 
-        s_pat = coll_defs["child_pattern"]
+        s_pat = coll_defs["series_pattern"]
         s_re = re.compile( s_pat )
 
     pre_ids = _get_ids_for_prefix( data_coll, coll_defs )
@@ -384,7 +407,7 @@ def _get_hierarchy_item(data_coll, coll_defs, coll_type, code, order, depth, pat
         "label": _get_label_for_code(data_coll, coll_defs, code),
         "type": coll_defs.get("type", ""),
         "collation_type": coll_type,
-        "prefix": coll_defs.get("prefix", ""),
+        "name_space_prefix": coll_defs.get("name_space_prefix", ""),
         "scope": coll_defs.get("scope", ""),
         "db_key": coll_defs.get("db_key", ""),
         "hierarchy_paths": [ { "order": int(order), "depth": int(depth), "path": list(path) } ],
@@ -403,6 +426,24 @@ def _get_ids_for_prefix(data_coll, coll_defs):
     pre_ids = list(filter(lambda d: pre_re.match(d), pre_ids))
 
     return pre_ids
+
+################################################################################
+
+def _get_child_ids_for_prefix(data_coll, coll_defs):
+
+    child_ids = []
+
+    if not "series_pattern" in coll_defs:
+        return child_ids
+
+    db_key = coll_defs["db_key"]
+
+    child_re = re.compile( coll_defs["series_pattern"] )
+
+    child_ids = data_coll.distinct( db_key, { db_key: { "$regex": child_re } } )
+    child_ids = list(filter(lambda d: child_re.match(d), child_ids))
+
+    return child_ids
 
 ################################################################################
 
