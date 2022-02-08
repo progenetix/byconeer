@@ -46,9 +46,7 @@ def biosamples_refresher():
     parse_filters(byc)
     parse_variants(byc)
     initialize_beacon_queries(byc)
-
-    generate_genomic_intervals(byc)
-
+    
     if len(byc["dataset_ids"]) < 1:
         print("No existing dataset was provided with -d ...")
         exit()

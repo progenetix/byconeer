@@ -53,6 +53,16 @@ def fmp_refresher():
     initialize_beacon_queries(byc)
     generate_genomic_intervals(byc)
 
+    io_params = byc["datatable_mappings"]["io_params"][ "biosample" ]
+    io_prefixes = byc["datatable_mappings"]["io_prefixes"][ "biosample" ]
+
+    with open( path.join(byconeer_path, *byc["this_config"]["biosample_id_path"]) ) as lif:
+        bs_legacy_ids = yaml.load( lif, Loader=yaml.FullLoader)
+
+    legacy_ids = {}
+    for bs_id, l_id in bs_legacy_ids.items():
+        legacy_ids.update({l_id: bs_id})
+
     data_client = MongoClient( )
     data_db = data_client[ ds_id ]
     bios_coll = data_db[ "biosamples" ]
@@ -61,105 +71,316 @@ def fmp_refresher():
     v_coll = data_db[ "variants" ]
     no_match = 0
     counter = 0
-    max_count = 100000
+    max_count = 1000000
 
-    logfile = byc["args"].inputfile + ".log.tab"
+    logfile = path.splitext(byc["args"].inputfile)[0]
+    if byc["test_mode"]:
+        logfile += "_test.tsv"
+        max_count = 2000
+    else:
+        logfile += "_processed.tsv"
     log = open(logfile, "w")
-    
+
+    fmp_samples, fmp_pmids, fieldnames = _read_samplefile(counter, max_count, byc)
+    fmp_no = len(fmp_samples)
+    print("=> The samplefile contains {} samples from {} studies".format(fmp_no, len(fmp_pmids)))
+
+    missing_ids = []
+    incomplete_pubs = set()
+
+    # for f_s in fmp_samples:
+    #     bios_id = legacy_ids.get(f_s["pgx_fmp_sample_id"], None)
+    #     if bios_id is None:
+    #         missing_ids.append(f_s["pgx_fmp_sample_id"])
+    #         incomplete_pubs.add(f_s["external_references__id___PMID"])
+    #         print(f_s["pgx_fmp_sample_id"])
+
+    csv_writer = csv.DictWriter(log, delimiter="\t", fieldnames=fieldnames)
+    csv_writer.writeheader()
+
+    sel_pmids = []
+    sel_fmp_samples = []
+
+    for fmp_pmid in fmp_pmids:
+
+        this_study = False
+
+        f_p_samples = list(filter(lambda p: p["external_references__id___PMID"] == fmp_pmid, fmp_samples))
+
+        for f_s in f_p_samples:
+            # TODO: move away from hard coded criterium ...
+            if "ISCN" in f_s["data_provenance"]:
+                this_study = True
+ 
+        if this_study is True:
+            sel_pmids.append(fmp_pmid)
+            for f_s in f_p_samples:
+                sel_fmp_samples.append(f_s)
+
+    sel_no = len(sel_fmp_samples)
+
+    print("=> {} of {} studies were selected for processing".format(len(sel_pmids), len(fmp_pmids)))
+
+    pgx_samples, pgx_pmids = _get_pmids_samples(sel_pmids, bios_coll, byc)
+    print("=> The database contains {} samples for {} of those studies".format(len(pgx_samples), len(pgx_pmids)))
+
+    for fmp_pmid in sel_pmids:
+
+        f_p_samples = list(filter(lambda p: p["external_references__id___PMID"] == fmp_pmid, sel_fmp_samples))
+        f_p_no = len(f_p_samples)
+
+        p_p_samples = list(filter(lambda p: p["external_references__id___PMID"] == fmp_pmid, pgx_samples))
+        p_p_no = len(p_p_samples)
+
+        if p_p_no >= f_p_no:
+            continue
+
+        print("{} has {} samples in import and {} in pgx".format(fmp_pmid, f_p_no, p_p_no))
+
+        for f_s in f_p_samples:
+
+            legacy_id_construct = "PGX_AM_BS_"+f_s["pgx_fmp_sample_id"]
+            legacy_id = legacy_ids.get(f_s["pgx_fmp_sample_id"], "___nothing___")
+
+            pgx_s_ids = []
+            for p_s in p_p_samples:
+                pgx_s_ids.append(p_s["id"])
+
+            if legacy_id in pgx_s_ids:
+                continue
+
+            pgx_s_l_ids = []
+            for p_s in p_p_samples:
+                pgx_s_l_ids += p_s["info"]["legacy_ids"]
+
+            if legacy_id_construct in pgx_s_l_ids:
+                continue
+
+            no_match += 1
+
+            # now updating sample data ...
+
+            h_query = {
+                "icdo_morphology.id": f_s["icdo_morphology__id"],
+                "icdo_topography.id": f_s["icdo_topography__id"]
+            }
+
+            histomatch = bios_coll.find_one(h_query)
+            if histomatch:
+                try:
+                    f_s.update({
+                        "histological_diagnosis__id": histomatch["histological_diagnosis"].get("id", ""),
+                        "histological_diagnosis__label": histomatch["histological_diagnosis"].get("label", ""),
+                        "sampled_tissue__id": histomatch["sampled_tissue"].get("id", ""),
+                        "sampled_tissue__label": histomatch["sampled_tissue"].get("label", "")
+                    })
+                except:
+                    pass
+
+            csv_writer.writerow(f_s)
+
+        for p_s in p_p_samples:
+            match_status = p_s.get("_progenetix_status", None)
+            if not match_status:
+                p_e_s = {
+                    "id": p_s["id"],
+                    "external_references__id___PMID": fmp_pmid,
+                    "info__legacy_ids": ""
+                }
+
+                try:
+                    p_e_s.update({"info__legacy_ids": ",".join(p_s["info"].get("legacy_ids", []))})
+                except:
+                    pass
+
+                # TODO: Obviously should be generalized/moved/subbed
+                for p, k in io_params.items():
+                    if p in fieldnames:
+                        v = get_nested_value(p_s, k["db_key"])
+                        if isinstance(v, list):
+                            p_e_s.update({ p: "::".join(v) } )
+                        else:
+                            if "integer" in k["type"]:
+                                 p_e_s.update({ p: int(v) })
+                            p_e_s.update({ p: str(v) })
+
+                        # if len(p_e_s[p]) > 0:
+                        #     print("found some {}: {}".format(p, p_e_s[p]))
+
+                for par, d in io_prefixes.items():
+
+                    exts = ["id", "label"]
+
+                    if "string" in d["type"]:
+                        if par in p_s:
+                            for e in exts:
+                                p = par+"__"+e
+                                if p in fieldnames:
+                                    v = p_s[par].get(e, "")
+                                    p_e_s.update({ p: v })
+                                    # print("found some {}: {}".format(p, p_e_s[p]))
+                    elif "array" in d["type"]:
+                        for pre in d["pres"]:
+                            for o in p_s[par]:
+                                if pre in o["id"]:
+                                    for e in exts:
+                                        p = par+"__"+e+"___"+pre
+                                        if p in fieldnames:
+                                            v = o.get(e, "")
+                                            p_e_s.update({ p: v })
+                                            # print("found some {}: {}".format(p, p_e_s[p]))
+
+                csv_writer.writerow(p_e_s)
+
+    print("=> {} / {} samples were not found".format(no_match, len(sel_fmp_samples)))
+    exit()
+
+################################################################################
+##### TBD but probably elsewhere ###############################################
+################################################################################
+
+    # WARNING - ONLY FOR THE NEW SAMPLES
+
+def _recreate_all_variants_from_ISCN(sample, byc):
+
+    if not "ISCN" in sample["data_provenance"]:
+        return
+
+    if not "id" in sample:
+        print("¡¡¡ No sample id - skipping !!!")
+        return
+
+    bs_id = sample["id"]
+    if "callset_id" in sample:
+        cs_id = sample["callset_id"]
+    else:
+        cs_id = re.sub("pgxbs", "pgxcs", bs_id)
+    if "individual_id" in sample:
+        ind_id = sample["individual_id"]
+    else:
+        ind_id = re.sub("pgxbs", "pgxind", bs_id)
+
+    technique = "aCGH"
+    iscn_field = "iscn_acgh"
+    platform_id = "EFO:0002701"
+    platform_label = "DNA array"
+
+    if "cCGH" in sample["data_provenance"]:
+        technique = "cCGH"
+        iscn_field = "iscn_ccgh"
+        platform_id = "EFO:0010937"
+        platform_label = "comparative genomic hybridization (CGH)"
+
+    cs_update_obj = {
+        "id": cs_id,
+        "biosample_id": bs_id,
+        "individual_id": ind_id,
+        "info": { "provenance": technique+" ISCN conversion" },
+        "platform_model": {"id": platform_id, "label":platform_label},
+        "provenance": sample["data_provenance"]
+    }
+
+    v_s = list(v_coll.find({"biosample_id": bs_id }))
+
+    print("\n{} ({}): {} - {}".format(bs_id, cs_id, technique, sample[iscn_field]))
+    variants, variant_error = _deparse_rev_ish_CGH(bs_id, cs_id, technique, sample[iscn_field])
+
+    if not byc["test_mode"]:
+
+        cs_coll.delete_one({"biosample_id": bs_id })
+        v_coll.delete_many({"biosample_id": bs_id })
+
+        for v in variants:
+            v_id = v_coll.insert_one(v).inserted_id
+            v_coll.update_one({"_id": v_id}, {"$set": {"id": str(v_id)}})
+            # print(v["biosample_id"])
+
+        cs_update_obj = {
+            "id": cs_id,
+            "biosample_id": bs_id,
+            "individual_id": ind_id,
+            "info": { "provenance": technique+" ISCN conversion" },
+            "platform_model": {"id": "EFO:0010937", "label":"comparative genomic hybridization (CGH)"},
+            "provenance": bios["provenance"]
+        }
+
+        maps, cs_cnv_stats = interval_cnv_arrays(v_coll, { "callset_id": cs_id }, byc)
+        cs_update_obj["info"].update({"statusmaps": maps})
+        cs_update_obj["info"].update({"cnvstatistics": cs_cnv_stats})
+
+        cs_coll.insert_one(cs_update_obj)
+
+        ####################################################################
+
+        ind = ind_coll.find_one({"id": ind_id})
+        if not ind:
+            ind = ind_coll.insert_one({"id": ind_id})
+
+        if "y" in what["survival"] and len(sample["death"]) > 0:
+            _ind_update_survival(ind, sample, ind_coll, byc)
+
+        if "y" in what["sex"] and len(sample["sex"]) > 0:
+            _ind_update_sex(ind, sample, ind_coll, byc)
+
+    if not byc["test_mode"]:
+        bar.finish()
+
+
+################################################################################
+
+def _read_samplefile(counter, max_count, byc):
+
+    fmp_samples = []
+    fmp_pmids = set()
+    fieldnames = [ "id" , "info__legacy_ids" ]
 
     with open(byc["args"].inputfile, newline='') as csvfile:
         
         fmp_in = csv.DictReader(csvfile, delimiter="\t", quotechar='"')
 
-        fieldnames = fmp_in.fieldnames
-        fmp_in = list(fmp_in)
-        fmp_no = len(fmp_in)
-
-        csv_writer = csv.DictWriter(log, delimiter="\t", fieldnames=fieldnames)
-        csv_writer.writeheader()
-
-        if not byc["test_mode"]:
-            bar = Bar("{} samples will be looked up".format(fmp_no), max = fmp_no, suffix='%(percent)d%%'+" of "+str(fmp_no) )
+        fieldnames += fmp_in.fieldnames
 
         for fmp_s in fmp_in:
 
-            if counter > max_count:
-                return
+            fmp_s = dict(fmp_s)
 
+            if counter > max_count:
+                return fmp_samples, fmp_pmids, fieldnames
             counter += 1
 
-            if not byc["test_mode"]:
-                max_count = fmp_no
-                bar.next()
+            pmid = fmp_s["external_references__id___PMID"]
+            if not "PMID:" in pmid:
+                pmid = "PMID:"+pmid
 
-            legacy_id = "PGX_AM_BS_"+fmp_s["sample_id"]
+            fmp_s.update({"external_references__id___PMID":pmid})
 
-            bios = bios_coll.find_one({"info.legacy_ids": legacy_id})
-            if not bios:
-                print("??? Not found: {}".format(legacy_id))
-                no_match += 1
-                csv_writer.writerow(fmp_s)
-                continue
+            fmp_pmids.add(pmid)
+            fmp_samples.append(dict(fmp_s))
 
-            bs_id = bios["id"]
-            ind_id = bios["individual_id"]
+    fieldnames += [
+        "histological_diagnosis__id",
+        "histological_diagnosis__label",
+        "sampled_tissue__id",
+        "sampled_tissue__label",
+        "_progenetix_status"
+    ]
 
-            if "cCGH" in fmp_s["technique"]:
+    return fmp_samples, list(fmp_pmids), fieldnames
 
-                technique = "cCGH"
-           
-                v_s = list(v_coll.find({"biosample_id": bs_id }))
-                cs_coll.delete_one({"biosample_id": bs_id })
-                v_coll.delete_many({"biosample_id": bs_id }) 
-                cs_id = re.sub("bs", "cs", bs_id)
+################################################################################
 
-                # print("\n{} ({}): {}".format(fmp_s["sample_id"], bios["id"], cs_id, fmp_s["iscn_ccgh"]))
-                variants = _deparse_rev_ish_CGH(bs_id, cs_id, technique, fmp_s["iscn_ccgh"])
+def _get_pmids_samples(fmp_pmids, bios_coll, byc):
 
-                if not byc["test_mode"]:
+    pgx_samples = []
+    pgx_pmids = set()
 
-                    for v in variants:
-                        v_id = v_coll.insert_one(v).inserted_id
-                        v_coll.update_one({"_id": v_id}, {"$set": {"id": str(v_id)}})
-                        # print(v["biosample_id"])
+    for pmid in fmp_pmids:
+        for bios in bios_coll.find( {"external_references.id":pmid }):
+            pgx_pmids.add(pmid)
+            bios.update({"external_references__id___PMID":pmid})
+            pgx_samples.append(bios)
 
-                    cs_update_obj = {
-                        "id": cs_id,
-                        "biosample_id": bs_id,
-                        "individual_id": ind_id,
-                        "info": { "provenance": technique+" ISCN conversion" },
-                        "platform_model": {"id": "EFO:0010937", "label":"comparative genomic hybridization (CGH)"},
-                        "provenance": bios["provenance"]
-                    }
-
-                    maps, cs_cnv_stats = interval_cnv_arrays(v_coll, { "callset_id": cs_id }, byc)
-                    cs_update_obj["info"].update({"statusmaps": maps})
-                    cs_update_obj["info"].update({"cnvstatistics": cs_cnv_stats})
-
-                    cs_coll.insert_one(cs_update_obj)
-
-            ####################################################################
-
-            ind = ind_coll.find_one({"id": ind_id})
-            
-            if "y" in what["survival"] and len(fmp_s["death"]) > 0:
-                _ind_update_survival(ind, fmp_s, ind_coll, byc)
-
-            if "y" in what["sex"] and len(fmp_s["sex"]) > 0:
-                _ind_update_sex(ind, fmp_s, ind_coll, byc)
- 
-            cs_up = {}
-            cs = cs_coll.find_one({"biosample_id": bs_id})
-
-            if "y" in what["sex"] and "cCGH" in fmp_s["technique"]:
-                if not "aCGH" in fmp_s["technique"]:
-                    cs_up.update({"platform_model": {"id": "EFO:0010937", "label":"comparative genomic hybridization (CGH)"}})
-                    if not byc["test_mode"]:
-                        cs_coll.update_one({"_id": cs["_id"]}, {"$set": cs_up })
-    if not byc["test_mode"]:
-        bar.finish()
-
-    print("=> {} / {} samples were not found".format(no_match, fmp_no))
+    return pgx_samples, pgx_pmids
 
 ################################################################################
 
@@ -175,27 +396,26 @@ def _ind_update_survival(ind, fmp_s, ind_coll, byc):
         "diseases": ind.get("diseases", [{}])
         })
 
-    if fmp_s["death"] == "1":
-        if not "DECEASED" in ind["vital_status"]["status"]:
-            ind_up.update({"vital_status":{"status":"DECEASED"}})
-            ind_up["diseases"][0].update({"followup_state":{"id":"EFO:0030049", "label":"dead (follow-up status)"}})
+    if fmp_s["followup_state__id"] == "EFO:0030049":
+        ind_up.update({"vital_status":{"status":"DECEASED"}})
+        ind_up["diseases"][0].update({"followup_state":{"id":"EFO:0030049", "label":"dead (follow-up status)"}})
 
-    if fmp_s["death"] == "DOD":
+    if fmp_s["followup_state__id"] == "EFO:0030050":
         if not "DECEASED" in ind["vital_status"]["status"]:
             ind_up.update({"vital_status":{"status":"DECEASED"}})
         ind_up["diseases"][0].update({"followup_state":{"id":"EFO:0030050", "label":"death from disease"}})
 
-    if fmp_s["death"] == "0":
+    if fmp_s["followup_state__id"] == "EFO:0030041":
         if not "ALIVE" in ind["vital_status"]["status"]:
             ind_up.update({"vital_status":{"status":"ALIVE"}})
             ind_up["diseases"][0].update({"followup_state":{"id":"EFO:0030041", "label":"alive (follow-up status)"}})
 
-    if fmp_s["death"] == "ACR":
+    if fmp_s["followup_state__id"] == "EFO:0030048":
         if not "ALIVE" in ind["vital_status"]["status"]:
             ind_up.update({"vital_status":{"status":"ALIVE"}})
         ind_up["diseases"][0].update({"followup_state":{"id":"EFO:0030048", "label":"alive in complete remission"}})
 
-    if fmp_s["death"] == "AWD":
+    if fmp_s["followup_state__id"] == "EFO:0030042":
         if not "ALIVE" in ind["vital_status"]["status"]:
             ind_up.update({"vital_status":{"status":"ALIVE"}})
         ind_up["diseases"][0].update({"followup_state":{"id":"EFO:0030042", "label":"alive with disease"}})
@@ -207,73 +427,35 @@ def _ind_update_survival(ind, fmp_s, ind_coll, byc):
 
 def _ind_update_sex(ind, fmp_s, ind_coll, byc):
 
-    ind_up.update({
-        "sex": ind.get("sex", { "id": 'PATO:0020000', "label": 'genotypic sex' })
-        })
+    ind_up = { "sex": ind.get("sex", { "id": 'PATO:0020000', "label": 'genotypic sex' }) }
 
-    if "female" in fmp_s["sex"]:
-        if not "PATO:0020002" in ind["sex"]["id"]:
-            print("\nnew female")
-            ind_up["sex"].update({"id": 'PATO:0020002', "label": 'female genotypic sex'})
-    elif "male" in fmp_s["sex"]:
-        if not "PATO:0020001" in ind["sex"]["id"]:
-            print("\nnew male")
-            ind_up["sex"].update({"id": 'PATO:0020001', "label": 'male genotypic sex'})
+    if "PATO:0020002" in fmp_s["sex_id"]:
+        ind_up["sex"].update({"id": 'PATO:0020002', "label": 'female genotypic sex'})
+    elif "PATO:0020001" in fmp_s["sex_id"]:
+        ind_up["sex"].update({"id": 'PATO:0020001', "label": 'male genotypic sex'})
+
+    if not byc["test_mode"]:
+        ind_coll.update_one({"_id": ind["_id"]}, {"$set": ind_up })
 
 ################################################################################
 
 def _deparse_rev_ish_CGH(bs_id, cs_id, technique, iscn):
 
-    iscn = "".join(iscn.split())
+    v_s, v_e = deparse_ISCN_to_variants(iscn, technique, byc)
     variants = []
 
-    cb_pat = re.compile( byc["variant_definitions"]["parameters"]["cytoBands"]["pattern"] )
+    for v in v_s:
 
-    for cnv_t, cnv_defs in byc["variant_definitions"]["cnv_iscn_defs"].items():
+        v.update({
+            "variant_internal_id": variant_create_digest(v),
+            "biosample_id": bs_id,
+            "callset_id": cs_id,
+            "updated": date_isoformat(datetime.datetime.now())
+        })
 
-        revish = cnv_defs["info"]["revish_label"]
+        variants.append(v)
 
-        cnv_dummy_value = byc["variant_definitions"]["cnv_dummy_values"][cnv_t]
-
-        # print("parsing {}".format(cnv_t))
-
-        iscn_re = re.compile(rf"^.*?{revish}\(([\w.,]+)\).*?$", re.IGNORECASE)
-        if iscn_re.match(iscn):
-            m = iscn_re.match(iscn).group(1)
-            for i_v in re.split(",", m):
-
-                if not cb_pat.match(i_v):
-                    continue
-
-                cytoBands, chro, start, end, error = bands_from_cytobands(i_v, byc)
-                if len(error) > 0:
-                    continue
-
-                v = cnv_defs.copy()
-                v.update({
-                    "biosample_id": bs_id,
-                    "callset_id": cs_id, 
-                    "reference_name": chro,
-                    "start": start,
-                    "end": end,
-                    "type": "CopyNumber",
-                    "info": {
-                        "var_length": (end - start),
-                        "cnv_value": cnv_dummy_value,
-                        "provenance": technique+" ISCN conversion"
-                    },
-                    "updated": date_isoformat(datetime.datetime.now())
-                })
-
-                v.update({"variant_internal_id": variant_create_digest(v)})
-
-                variants.append(v)
-                # print(v["variant_internal_id"])
-
-                # if byc["test_mode"]:
-                #     prjsonnice(v)
-
-    return variants
+    return variants, v_e
 
 ################################################################################
 ################################################################################

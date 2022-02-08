@@ -16,6 +16,7 @@ def get_args(byc):
     parser.add_argument("-s", "--source", help="id source", nargs='?', default="callsets")
     parser.add_argument("-u", "--update", help='update existing records')
     parser.add_argument("-y", "--ontologycodes", help='selected codes , e.g. "NCIT:C2955"')
+    parser.add_argument("-q", "--query", help='complete query string, e.g. `{"biosamples":{"external_references.id":"geo:GSE7428"}}`')
 
     byc.update({ "args": parser.parse_args() })
 

@@ -87,4 +87,12 @@ do
     done
 done
 
+for db in progenetix
+do
+    for dbcoll in geolocs
+    do
+        echo "=> index for $db.$dbcoll.geo_location.geometry"
+        mongo $db --eval "db.$dbcoll.createIndex( { \"geo_location.geometry\" : \"2dsphere\" } )"
+    done
+done
 
