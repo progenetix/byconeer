@@ -94,10 +94,10 @@ def _process_dataset(ds_id, byc):
         for cs in cs_coll.find({}):
             cs_id_ks.update({cs["id"]: cs["biosample_id"]})
 
+    print("Re-generating statusmaps with {} intervals...".format(len(byc["genomic_intervals"])))
+
     cs_ids = list(cs_id_ks.keys())
-
     no =  len(cs_ids)
-
     bar = Bar("{} callsets from {}".format(no, ds_id), max = no, suffix='%(percent)d%%'+" of "+str(no) )
     
     for csid in cs_ids:

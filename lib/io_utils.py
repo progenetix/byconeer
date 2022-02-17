@@ -5,6 +5,7 @@ import argparse
 def get_args(byc):
 
     parser = argparse.ArgumentParser()
+
     parser.add_argument("-d", "--datasetids", help="datasets, comma-separated")
     parser.add_argument("-a", "--alldatasets", help="process all datasets", action='store_true' )
     parser.add_argument("-c", "--collationtypes", help='selected collation types, e.g. "EFO"')

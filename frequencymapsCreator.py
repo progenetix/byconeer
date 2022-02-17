@@ -67,7 +67,6 @@ def _create_frequencymaps_for_collations( ds_id, byc ):
 
     fm_client = MongoClient()
     fm_coll = fm_client[ ds_id ][ byc["config"]["frequencymaps_coll"] ]
-    print(byc["config"]["frequencymaps_coll"])
 
     bios_client = MongoClient()
     bios_coll = bios_client[ ds_id ][ byc["config"]["collations_source"] ]
@@ -111,11 +110,12 @@ def _create_frequencymaps_for_collations( ds_id, byc ):
 
     coll_no = coll_coll.count_documents(id_query)
    
-    print("Writing {} {} fMaps".format(coll_no, ds_id))
+    print("Writing {} {} fMaps for {} intervals".format(coll_no, ds_id, len(byc["genomic_intervals"])))
 
     coll_i = 0
 
     for coll in coll_coll.find(id_query):
+
 
         pre, code = re.split("[:-]", coll["id"], 1)
         coll_type = coll["collation_type"]
@@ -127,6 +127,8 @@ def _create_frequencymaps_for_collations( ds_id, byc ):
         query = { db_key: { '$in': coll["child_terms"] } }
         bios_no, cs_cursor = _cs_cursor_from_bios_query(bios_coll, ind_coll, cs_coll, coll["scope"], query)
         cs_no = len(list(cs_cursor))
+
+        # print("{}: {}".format(coll["id"], cs_no))
 
         if cs_no < 1:
             continue
@@ -160,7 +162,9 @@ def _create_frequencymaps_for_collations( ds_id, byc ):
             print(" => Processed in {:.2f}s: {:.4f}s per callset".format(proc_time, (proc_time/cs_no)))
 
         if not byc["test_mode"]:
-            fm_coll.update_one( { "id": coll["id"] }, { '$set': update_obj }, upsert=True )
+            print("Updating {}...".format(coll["id"]))
+            fm_coll.delete_one( { "id": coll["id"] } )
+            fm_coll.insert_one( update_obj )
 
         if coll["code_matches"] > 0:
             if cs_no != coll["code_matches"]:
@@ -180,8 +184,8 @@ def _create_frequencymaps_for_collations( ds_id, byc ):
 
                     print("{}: {} exact of {} total code matches".format(coll["id"], cs_no_cm, cs_no))
 
-                if not byc["test_mode"]:
-                    fm_coll.update_one( { "id": coll["id"] }, { '$set': cm_obj }, upsert=False )
+                    if not byc["test_mode"]:
+                        fm_coll.update_one( { "id": coll["id"] }, { '$set': cm_obj }, upsert=False )
 
 ################################################################################
 
@@ -194,6 +198,7 @@ def _cs_cursor_from_bios_query(bios_coll, ind_coll, cs_coll, scope, query):
         bios_ids = cs_coll.distinct( "biosample_id" , query )
     else:
         bios_ids = bios_coll.distinct( "id" , query )
+
 
     bios_no = len(bios_ids)
     cs_query = { "biosample_id": { "$in": bios_ids } }

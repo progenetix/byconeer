@@ -1,6 +1,6 @@
 EFO:0001456	DNA assay	0	1
 EFO:0002701	DNA array	1	2
-EFO:9000001	cDNA array (provisional)	2	3
+EFO:0030075	cDNA microarray	2	3
 geo:GPL6468	Stanford Microarray Facility cDNA array [Print_1185]	3	4
 geo:GPL1282	Stanford Microarray Facility cDNA array [SHBX]	3	5
 geo:GPL3254	Stanford Microarray Facility cDNA array [SHCK]	3	6
@@ -151,116 +151,144 @@ geo:GPL3443	VUMC MACF human 5K BAC v21	3	150
 geo:GPL2842	VUMC MACF human 5K BAC v22	3	151
 geo:GPL2843	VUMC MACF human 6K BAC v45	3	152
 EFO:0010939	oligonucleotide DNA microarray	2	153
-geo:GPL6745	Eppendorf DualChip Human Cancer v1.1	3	154
-geo:GPL5144	Nimblegen Homo sapiens 4 array Tiling Set	3	155
-geo:GPL11365	Agilent-029830 Human Genome CGH + SNP Microarray (Probe Name version)	3	156
-geo:GPL17052	Agilent-021924 SurePrint G3 Human CGH Microarray 8x60K (Probe Name version)	3	157
-geo:GPL10001	VUMC MACF Human 30K oligo (batch68.gal)	3	158
-geo:GPL10123	Agilent-022060 SurePrint G3 Human CGH Microarray 4x180K (Feature Number version)	3	159
-geo:GPL10150	Agilent-022060 SurePrint G3 Human CGH Microarray 4x180K (Probe Name version)	3	160
-geo:GPL10152	Agilent-021924 SurePrint G3 Human CGH Microarray 8x60K (Feature Number version)	3	161
-geo:GPL10197	Nimblegen Human 12x135K array [090527_HG18_WG_CGH_v3.1_HX12]	3	162
-geo:GPL10383	Agilent MQD Lab Human 60K probes v1.0 - custom oligo array of 2Kb resolutoin covering 7q region	3	163
-geo:GPL10461	NimbleGen_Homo Sapiens_720k_080530_HG18_WG_CGH_v2_HX3	3	164
-geo:GPL10722	021764 Agilent Human Genotypic Designed CGH 105k Microarray	3	165
-geo:GPL11068	Agilent-013282 Human Genome CGH Microarray 44B (Probe name version)	3	166
-geo:GPL11069	Agilent-012750 Human Genome CGH Microarray 44A (Probe name version)	3	167
-geo:GPL11340	Agilent-014068 Homo sapiens 185K microarray	3	168
-geo:GPL13171	German Cancer Research Center human 33K BAC array	3	169
-geo:GPL13190	NimbleGen Human CGH 2.1M Whole-Genome Tiling Array [080131_HG18_WG_CGH_v2D_HX1]	3	170
-geo:GPL13314	Illumina HumanOmni2.5-Quad BeadChip	3	171
-geo:GPL13346	Agilent custom 2 x 415K human CGH	3	172
-geo:GPL13519	Custom Agilent Human Chromosome 5q21 Tiling Array	3	173
-geo:GPL13786	NCI NimbleGen Homo sapiens HG19 Whole Genome 385K Tiling Set version 1	3	174
-geo:GPL14791	Agilent-018519 Human Chromosome 17 Custom Tiling Array	3	175
-geo:GPL14965	NimbleGen Human 3x720k Whole Genome CGH [100718_HG18_WG_CGH_v3.1_HX3]	3	176
-geo:GPL15068	Agilent-021825 3q7q_nov2008	3	177
-geo:GPL15436	NimbleGen Human CGH 3x720K Whole-Genome Tiling v3.0 Array [090527_HG18_WG_CGH_v3.1_HX3]	3	178
-geo:GPL16050	Agilent-023797 Lymphoma (Agilent Probe ID)	3	179
-geo:GPL16110	Illumina HumanOmni2.5 BeadChip (hg19)	3	180
-geo:GPL16131	[CytoScanHD_Array] Affymetrix CytoScan HD Array	3	181
-geo:GPL16237	Agilent-030587 CCMC CGH plus SNP 180k Microarray	3	182
-geo:GPL16573	Illumina HumanOmni1-Quad BeadChip (15004098)	3	183
-geo:GPL16694	Agilent-022522 SurePrint G3 CGH array 4X180K (Probe Name version)	3	184
-geo:GPL16707	NimbleGen Human Whole Genome CGH array [100718_HG18_WG_CGH_v3.1_HX12]	3	185
-geo:GPL18586	Human 1 Mb - resolution CGH array	3	186
-geo:GPL18602	[OncoScan] Affymetrix OncoScan FFPE Assay	3	187
-geo:GPL18636	Illumina Human660W-Quad v1.0 BeadChip (hg19)	3	188
-geo:GPL18637	[CytoScan750K_Array] Affymetrix CytoScan 750K Array	3	189
-geo:GPL2014	Affymetrix GeneChip Human Mapping 50K Hind - prerelease	3	190
-geo:GPL2015	Affymetrix GeneChip Human Mapping 50K Xba - prerelease	3	191
-geo:GPL21558	[OncoScan_CNV] Affymetrix OncoScan CNV FFPE Assay	3	192
-geo:GPL2641	[Mapping10K_Xba142] Affymetrix Human Mapping 10K 2.0 Array	3	193
-geo:GPL2819	VUMC MACF human 30K oligo v42	3	194
-geo:GPL2826	VUMC MACF human 30K oligo v31	3	195
-geo:GPL2827	VUMC MACF human 30K oligo v44	3	196
-geo:GPL2834	VUMC MACF human 30K oligo v36	3	197
-geo:GPL2873	Agilent-012750 Human Genome CGH Microarray 44A (Feature number version)	3	198
-geo:GPL2879	Agilent-013282 Human Genome CGH Microarray 44B (Feature number version)	3	199
-geo:GPL3055	VUMC MACF human 30K oligo v30	3	200
-geo:GPL3896	Sentrix庐 Linkage IV Panel BeadChip	3	201
-geo:GPL4091	Agilent-014693 Human Genome CGH Microarray 244A (Feature number version)	3	202
-geo:GPL4093	Agilent-014698 Human Genome CGH Microarray 105A (G4412A)	3	203
-geo:GPL4544	Agilent-014584 Human Genome 244K CGH Microarray (Alpha Test)	3	204
-geo:GPL5046	nhgri_qiagenv3_cgh	3	205
-geo:GPL5149	Agilent Homo sapiens 185K array	3	206
-geo:GPL5326	NCI Qiagen Homo sapiens 36K v3 cgh expression	3	207
-geo:GPL5477	Agilent-014950 Human Genome CGH Microarray 4x44K (Feature Number version)	3	208
-geo:GPL5571	Agilent-015092 Whole Human Genome Microarray 4x44K	3	209
-geo:GPL5711	Sentrix BeadChip Array HumanHap300 Genotyping BeadChip 317K, TagSNP Phase I, v1.1	3	210
-geo:GPL5737	Human 30K 60-mer oligo array	3	211
-geo:GPL6254	Phalanx Human OneArray	3	212
-geo:GPL6400	NCI NimbleGen Homo sapiens HG17 Whole Genome 385K Tiling Set version 1	3	213
-geo:GPL6639	Nimblegen 385K custom array (Human tiling array of hg16 at 50bp resolution (chr17q, chr20q, etc)).	3	214
-geo:GPL6979	Illumina HumanHap300v1 Genotyping BeadChip (HumanHap300_(v1.0.0))	3	215
-geo:GPL6980	Illumina HumanHap300-Duov2 Genotyping BeadChip (HumanHap300v2_A)	3	216
-geo:GPL6981	Illumina HumanHap550v3 Genotyping BeadChip (HumanHap550v3_B)	3	217
-geo:GPL6982	Illumina HumanHap550-Duov3 Genotyping BeadChip (HumanHap550-2v3_B)	3	218
-geo:GPL6983	Illumina Human1Mv1 DNA Analysis BeadChip (Human1Mv1_C)	3	219
-geo:GPL6984	Illumina Human1M-Duov3 DNA Analysis BeadChip (Human1M-Duov3_B)	3	220
-geo:GPL6985	Illumina HumanCNV370-QuadV3 DNA Analysis BeadChip (HumanCNV370-QuadV3_C)	3	221
-geo:GPL6986	Illumina HumanCNV370-Duov1 DNA Analysis BeadChip (HumanCNV370v1)	3	222
-geo:GPL6988	Illumina HumanExon510-Sv1 DNA Analysis BeadChip (HumanExon510Sv1_D)	3	223
-geo:GPL7203	LUH Human Genome CGH Microarray 244A	3	224
-geo:GPL7313	CSHL Homo Sapiens 85k oligo array 4.0	3	225
-geo:GPL7314	CSHL Homo Sapiens 385k oligo array 1.0	3	226
-geo:GPL8233	Nimblegen 2006-08-02_GRI4489_HG18_ChIP array	3	227
-geo:GPL8355	Agilent-012700 Human Genome CGH Microarray 44A G4410A_beta (Feature Number version)	3	228
-geo:GPL8368	VUMC MACF Human 30k oligo v62	3	229
-geo:GPL8581	85KV4 ROMA Custom Human Microarray (Format 28)	3	230
-geo:GPL8687	Agilent SurePrint G3 CGH array (4X180K) CCA_VUMC design AMADID#022522	3	231
-geo:GPL8693	Agilent-019015 HD CGH Microarray (2X105K) Oxford design AMADID#019015 (Feature number version)	3	232
-geo:GPL8720	ROMA 390K Rubble Rep Human Microarray (Design 36)	3	233
-geo:GPL8736	Agilent-021529 Human CGH Whole Genome Microarray 1x1M (G4447A) (Feature Number version)	3	234
-geo:GPL8737	Agilent-021529 Human CGH Whole Genome Microarray 1x1M (G4447A) (Probe Name version)	3	235
-geo:GPL8841	Agilent-014950 Human Genome CGH Microarray 4x44K (Probe Name version)	3	236
-geo:GPL8876	Agilent custom 105K array (Agilent-019507)	3	237
-geo:GPL8882	Illumina HumanOmni1-Quad BeadChip	3	238
-geo:GPL8887	Illumina Human610-Quad v1.0 BeadChip	3	239
-geo:GPL8888	Illumina Human660W-Quad v1.0 BeadChip	3	240
-geo:GPL9041	NimbleGen_HG18_WG_385k_v2	3	241
-geo:GPL9042	NimbleGen_HG18_WG_385k_v2	3	242
-geo:GPL9075	Agilent-014698 Human Genome CGH Microarray 105A (G4412A) [Probe Name version]	3	243
-geo:GPL9128	Agilent-014693 Human Genome CGH Microarray 244A (Probe name version)	3	244
-geo:GPL9202	Agilent/FIMM Human 95K Array	3	245
-geo:GPL9708	NimbleGen Human CGH 385K Whole-Genome Tiling Array v1.0	3	246
-geo:GPL9775	85KBGL2V3 ROMA Custom Human Microarray	3	247
-geo:GPL9776	85KBGL2V4 ROMA Custom Human Microarray	3	248
-geo:GPL9777	Agilent-021850 SurePrint G3 Human CGH Microarray (Feature Number version)	3	249
-geo:GPL9798	IRCL Human Genome CGH Microarray 44B G4410B (probe version)	3	250
-geo:GPL9852	UMR745 INSERM Human NF1 8x15K v1.0	3	251
-geo:GPL9944	NimbleGen Human 2.1M array [HG18_CGH_LISOv1_HX1]	3	252
-EFO:0002703	SNP array	3	253
-geo:GPL13135	HumanOmniExpress BeadChip	4	254
-geo:GPL1266	[Mapping10K_Xba131] Affymetrix Human Mapping 10K SNP Array	4	255
-geo:GPL13829	Illumina HumanCytoSNP-12 v2.1 BeadChip	4	256
-geo:GPL2004	[Mapping50K_Hind240] Affymetrix Human Mapping 50K Hind240 SNP Array	4	257
-geo:GPL2005	[Mapping50K_Xba240] Affymetrix Human Mapping 50K Xba240 SNP Array	4	258
-geo:GPL3718	[Mapping250K_Nsp] Affymetrix Mapping 250K Nsp SNP Array	4	259
-geo:GPL3720	[Mapping250K_Sty] Affymetrix Mapping 250K Sty2 SNP Array	4	260
-geo:GPL6801	[GenomeWideSNP_6] Affymetrix Genome-Wide Human SNP 6.0 Array	4	261
-geo:GPL6804	[GenomeWideSNP_5] Affymetrix Genome-Wide Human SNP 5.0 Array	4	262
-geo:GPL8226	Johns Hopkins University/Affymetrix GeneChip Genome-Wide Human SNP Array 6.0	4	263
-geo:GPL8855	Illumina HumanCytoSnp-12 Beadchip version 2.0	4	264
-geo:GPL8856	Illumina HumanCytoSnp-12 Beadchip version 1.0	4	265
-EFO:0010937	comparative genomic hybridization (CGH)	1	266
+geo:GPL21558	[OncoScan_CNV] Affymetrix OncoScan CNV FFPE Assay	3	154
+geo:GPL18602	[OncoScan] Affymetrix OncoScan FFPE Assay	3	155
+geo:GPL10722	021764 Agilent Human Genotypic Designed CGH 105k Microarray	3	156
+geo:GPL9775	85KBGL2V3 ROMA Custom Human Microarray	3	157
+geo:GPL9776	85KBGL2V4 ROMA Custom Human Microarray	3	158
+geo:GPL8581	85KV4 ROMA Custom Human Microarray (Format 28)	3	159
+geo:GPL2014	Affymetrix GeneChip Human Mapping 50K Hind - prerelease	3	160
+geo:GPL2015	Affymetrix GeneChip Human Mapping 50K Xba - prerelease	3	161
+geo:GPL8876	Agilent custom 105K array (Agilent-019507)	3	162
+geo:GPL13346	Agilent custom 2 x 415K human CGH	3	163
+geo:GPL5149	Agilent Homo sapiens 185K array	3	164
+arrayexpress:A-MEXP-1134	"Agilent Human Genome CGH Microarray 44K 014950 G4426B
+"	3	165
+arrayexpress:A-MEXP-1886	Agilent Human Genome CGH Microarray 4x180K	3	166
+geo:GPL10383	Agilent MQD Lab Human 60K probes v1.0 - custom oligo array of 2Kb resolutoin covering 7q region	3	167
+geo:GPL8687	Agilent SurePrint G3 CGH array (4X180K) CCA_VUMC design AMADID#022522	3	168
+arrayexpress:A-MEXP-1981	Agilent SurePrint G3 Human CGH Microarray 1x1M 021529	3	169
+geo:GPL8355	Agilent-012700 Human Genome CGH Microarray 44A G4410A_beta (Feature Number version)	3	170
+geo:GPL2873	Agilent-012750 Human Genome CGH Microarray 44A (Feature number version)	3	171
+geo:GPL11069	Agilent-012750 Human Genome CGH Microarray 44A (Probe name version)	3	172
+geo:GPL2879	Agilent-013282 Human Genome CGH Microarray 44B (Feature number version)	3	173
+geo:GPL11068	Agilent-013282 Human Genome CGH Microarray 44B (Probe name version)	3	174
+geo:GPL11340	Agilent-014068 Homo sapiens 185K microarray	3	175
+geo:GPL4544	Agilent-014584 Human Genome 244K CGH Microarray (Alpha Test)	3	176
+geo:GPL4091	Agilent-014693 Human Genome CGH Microarray 244A (Feature number version)	3	177
+geo:GPL9128	Agilent-014693 Human Genome CGH Microarray 244A (Probe name version)	3	178
+geo:GPL4093	Agilent-014698 Human Genome CGH Microarray 105A (G4412A)	3	179
+geo:GPL9075	Agilent-014698 Human Genome CGH Microarray 105A (G4412A) [Probe Name version]	3	180
+geo:GPL5477	Agilent-014950 Human Genome CGH Microarray 4x44K (Feature Number version)	3	181
+geo:GPL8841	Agilent-014950 Human Genome CGH Microarray 4x44K (Probe Name version)	3	182
+geo:GPL5571	Agilent-015092 Whole Human Genome Microarray 4x44K	3	183
+geo:GPL14791	Agilent-018519 Human Chromosome 17 Custom Tiling Array	3	184
+geo:GPL8693	Agilent-019015 HD CGH Microarray (2X105K) Oxford design AMADID#019015 (Feature number version)	3	185
+geo:GPL8736	Agilent-021529 Human CGH Whole Genome Microarray 1x1M (G4447A) (Feature Number version)	3	186
+geo:GPL8737	Agilent-021529 Human CGH Whole Genome Microarray 1x1M (G4447A) (Probe Name version)	3	187
+geo:GPL15068	Agilent-021825 3q7q_nov2008	3	188
+geo:GPL9777	Agilent-021850 SurePrint G3 Human CGH Microarray (Feature Number version)	3	189
+geo:GPL10152	Agilent-021924 SurePrint G3 Human CGH Microarray 8x60K (Feature Number version)	3	190
+geo:GPL17052	Agilent-021924 SurePrint G3 Human CGH Microarray 8x60K (Probe Name version)	3	191
+geo:GPL10123	Agilent-022060 SurePrint G3 Human CGH Microarray 4x180K (Feature Number version)	3	192
+geo:GPL10150	Agilent-022060 SurePrint G3 Human CGH Microarray 4x180K (Probe Name version)	3	193
+geo:GPL16694	Agilent-022522 SurePrint G3 CGH array 4X180K (Probe Name version)	3	194
+geo:GPL16050	Agilent-023797 Lymphoma (Agilent Probe ID)	3	195
+geo:GPL7314	CSHL Homo Sapiens 385k oligo array 1.0	3	196
+geo:GPL7313	CSHL Homo Sapiens 85k oligo array 4.0	3	197
+geo:GPL13519	Custom Agilent Human Chromosome 5q21 Tiling Array	3	198
+geo:GPL6745	Eppendorf DualChip Human Cancer v1.1	3	199
+geo:GPL13171	German Cancer Research Center human 33K BAC array	3	200
+geo:GPL18586	Human 1 Mb - resolution CGH array	3	201
+geo:GPL5737	Human 30K 60-mer oligo array	3	202
+geo:GPL6984	Illumina Human1M-Duov3 DNA Analysis BeadChip (Human1M-Duov3_B)	3	203
+geo:GPL6983	Illumina Human1Mv1 DNA Analysis BeadChip (Human1Mv1_C)	3	204
+geo:GPL8887	Illumina Human610-Quad v1.0 BeadChip	3	205
+arrayexpress:A-GEOD-8887	Illumina Human610-Quad v1.0 BeadChip	4	206
+geo:GPL8888	Illumina Human660W-Quad v1.0 BeadChip	3	207
+arrayexpress:A-GEOD-8888	Illumina Human660W-Quad v1.0 BeadChip	4	208
+geo:GPL18636	Illumina Human660W-Quad v1.0 BeadChip (hg19)	3	209
+geo:GPL6986	Illumina HumanCNV370-Duov1 DNA Analysis BeadChip (HumanCNV370v1)	3	210
+arrayexpress:A-GEOD-6986	Illumina HumanCNV370-Duov1 DNA Analysis BeadChip (HumanCNV370v1)	4	211
+geo:GPL6985	Illumina HumanCNV370-QuadV3 DNA Analysis BeadChip (HumanCNV370-QuadV3_C)	3	212
+arrayexpress:A-GEOD-6985	"Illumina HumanCNV370-QuadV3 DNA Analysis BeadChip (HumanCNV370-QuadV3_C)
+"	4	213
+geo:GPL6988	Illumina HumanExon510-Sv1 DNA Analysis BeadChip (HumanExon510Sv1_D)	3	214
+geo:GPL9798	IRCL Human Genome CGH Microarray 44B G4410B (probe version)	3	215
+geo:GPL7203	LUH Human Genome CGH Microarray 244A	3	216
+geo:GPL6400	NCI NimbleGen Homo sapiens HG17 Whole Genome 385K Tiling Set version 1	3	217
+geo:GPL13786	NCI NimbleGen Homo sapiens HG19 Whole Genome 385K Tiling Set version 1	3	218
+geo:GPL5326	NCI Qiagen Homo sapiens 36K v3 cgh expression	3	219
+geo:GPL5046	nhgri_qiagenv3_cgh	3	220
+geo:GPL8233	Nimblegen 2006-08-02_GRI4489_HG18_ChIP array	3	221
+geo:GPL6639	Nimblegen 385K custom array (Human tiling array of hg16 at 50bp resolution (chr17q, chr20q, etc)).	3	222
+geo:GPL5144	Nimblegen Homo sapiens 4 array Tiling Set	3	223
+geo:GPL10197	Nimblegen Human 12x135K array [090527_HG18_WG_CGH_v3.1_HX12]	3	224
+geo:GPL9944	NimbleGen Human 2.1M array [HG18_CGH_LISOv1_HX1]	3	225
+geo:GPL14965	NimbleGen Human 3x720k Whole Genome CGH [100718_HG18_WG_CGH_v3.1_HX3]	3	226
+geo:GPL13190	NimbleGen Human CGH 2.1M Whole-Genome Tiling Array [080131_HG18_WG_CGH_v2D_HX1]	3	227
+geo:GPL9708	NimbleGen Human CGH 385K Whole-Genome Tiling Array v1.0	3	228
+geo:GPL15436	NimbleGen Human CGH 3x720K Whole-Genome Tiling v3.0 Array [090527_HG18_WG_CGH_v3.1_HX3]	3	229
+geo:GPL16707	NimbleGen Human Whole Genome CGH array [100718_HG18_WG_CGH_v3.1_HX12]	3	230
+geo:GPL9041	NimbleGen_HG18_WG_385k_v2	3	231
+geo:GPL9042	NimbleGen_HG18_WG_385k_v2	3	232
+geo:GPL10461	NimbleGen_Homo Sapiens_720k_080530_HG18_WG_CGH_v2_HX3	3	233
+geo:GPL6254	Phalanx Human OneArray	3	234
+geo:GPL8720	ROMA 390K Rubble Rep Human Microarray (Design 36)	3	235
+geo:GPL3896	Sentrix庐 Linkage IV Panel BeadChip	3	236
+geo:GPL9852	UMR745 INSERM Human NF1 8x15K v1.0	3	237
+geo:GPL10001	VUMC MACF Human 30K oligo (batch68.gal)	3	238
+geo:GPL3055	VUMC MACF human 30K oligo v30	3	239
+geo:GPL2826	VUMC MACF human 30K oligo v31	3	240
+geo:GPL2834	VUMC MACF human 30K oligo v36	3	241
+geo:GPL2819	VUMC MACF human 30K oligo v42	3	242
+geo:GPL2827	VUMC MACF human 30K oligo v44	3	243
+geo:GPL8368	VUMC MACF Human 30k oligo v62	3	244
+EFO:0002703	SNP array	3	245
+geo:GPL18637	[CytoScan750K_Array] Affymetrix CytoScan 750K Array	4	246
+arrayexpress:A-GEOD-18637	"[CytoScan750K_Array] Affymetrix CytoScan 750K Array
+"	5	247
+geo:GPL16131	[CytoScanHD_Array] Affymetrix CytoScan HD Array	4	248
+arrayexpress:A-GEOD-16131	[CytoScanHD_Array] Affymetrix CytoScan HD array 2.8M	5	249
+geo:GPL6804	[GenomeWideSNP_5] Affymetrix Genome-Wide Human SNP 5.0 Array	4	250
+geo:GPL6801	[GenomeWideSNP_6] Affymetrix Genome-Wide Human SNP 6.0 Array	4	251
+geo:GPL8226	Johns Hopkins University/Affymetrix GeneChip Genome-Wide Human SNP Array 6.0	5	252
+geo:GPL1266	[Mapping10K_Xba131] Affymetrix Human Mapping 10K SNP Array	4	253
+geo:GPL2641	[Mapping10K_Xba142] Affymetrix Human Mapping 10K 2.0 Array	4	254
+arrayexpress:A-AFFY-65	Affymetrix GeneChip Human Mapping 10K 2.0 Array Xba 142	5	255
+geo:GPL3718	[Mapping250K_Nsp] Affymetrix Mapping 250K Nsp SNP Array	4	256
+arrayexpress:A-AFFY-107	Affymetrix GeneChip Human Mapping 250K Array Nsp [Mapping250K_Nsp]	5	257
+geo:GPL3720	[Mapping250K_Sty] Affymetrix Mapping 250K Sty2 SNP Array	4	258
+arrayexpress:A-AFFY-72	Affymetrix GeneChip Human Mapping 250K Array Sty [Mapping250K_Sty]	5	259
+geo:GPL16237	Agilent-030587 CCMC CGH plus SNP 180k Microarray	4	260
+geo:GPL9202	Agilent/FIMM Human 95K Array	4	261
+geo:GPL2004	[Mapping50K_Hind240] Affymetrix Human Mapping 50K Hind240 SNP Array	4	262
+arrayexpress:A-AFFY-69	Affymetrix GeneChip Human Mapping 50K Array Hind 240 [Mapping50K_Hind240]	5	263
+geo:GPL2005	[Mapping50K_Xba240] Affymetrix Human Mapping 50K Xba240 SNP Array	4	264
+arrayexpress:A-AFFY-70	Affymetrix GeneChip Human Mapping 50K Array Xba 240 [Mapping50K_Xba240]	5	265
+geo:GPL13135	HumanOmniExpress BeadChip	4	266
+arrayexpress:A-GEOD-17913	Illumina HumanCore-12v1 SNP array	4	267
+geo:GPL8856	Illumina HumanCytoSnp-12 Beadchip version 1.0	4	268
+geo:GPL8855	Illumina HumanCytoSnp-12 Beadchip version 2.0	4	269
+geo:GPL13829	Illumina HumanCytoSNP-12 v2.1 BeadChip	4	270
+arrayexpress:A-MEXP-1677	Illumina Human Custom GoldenGate 1536 SNPs	4	271
+arrayexpress:A-GEOD-17886	Illumina GoldenGate custom 96 SNP microarray	4	272
+arrayexpress:A-MTAB-613	Illumina HumanOmni1-Quad v1.0	4	273
+arrayexpress:A-MTAB-614	Illumina HumanOmniExpress-12 v1.0	4	274
+arrayexpress:A-GEOD-18643	Illumina HumanOmniExpressFFPE-12 BeadChip	4	275
+arrayexpress:A-GEOD-14157	Illumina HumanOmni5-Quad BeadChip (HumanOmni5-4v1_B)	4	276
+geo:GPL6980	Illumina HumanHap300-Duov2 Genotyping BeadChip (HumanHap300v2_A)	4	277
+geo:GPL6979	Illumina HumanHap300v1 Genotyping BeadChip (HumanHap300_(v1.0.0))	4	278
+geo:GPL6982	Illumina HumanHap550-Duov3 Genotyping BeadChip (HumanHap550-2v3_B)	4	279
+geo:GPL6981	Illumina HumanHap550v3 Genotyping BeadChip (HumanHap550v3_B)	4	280
+geo:GPL8882	Illumina HumanOmni1-Quad BeadChip	4	281
+arrayexpress:A-GEOD-8882	Illumina HumanOmni1-Quad BeadChip	5	282
+geo:GPL16573	Illumina HumanOmni1-Quad BeadChip (15004098)	4	283
+geo:GPL16110	Illumina HumanOmni2.5 BeadChip (hg19)	4	284
+geo:GPL13314	Illumina HumanOmni2.5-Quad BeadChip	4	285
+arrayexpress:A-GEOD-13314	Illumina HumanOmni2.5-Quad BeadChip	5	286
+geo:GPL5711	Sentrix BeadChip Array HumanHap300 Genotyping BeadChip 317K, TagSNP Phase I, v1.1	4	287
+geo:GPL11365	Agilent-029830 Human Genome CGH + SNP Microarray (Probe Name version)	4	288
+EFO:0030076	methylation-specific microarray	3	289
+geo:GPL23976	Illumina Infinium HumanMethylation850 BeadChip	4	290
+EFO:0010937	comparative genomic hybridization (CGH)	1	291

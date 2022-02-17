@@ -60,35 +60,45 @@ def ontologymaps_creator():
                     if "description" in s:
                         d = s["description"].strip()
 
+                    o_t_l = len(mv["ontology_types"])
+
                     for o_t in mv["ontology_types"]:
+
                         data_key = byc["filter_definitions"][ o_t ]["db_key"]
-                        list_key = re.sub(".id", "", data_key)
+                        parent_key = re.sub(".id", "", data_key)
                         data_re = re.compile( byc["filter_definitions"][ o_t ]["pattern"] )
 
-                        for o in s[ list_key ]:
-                            if data_re.match( o["id"] ):
-                                k_l.append( o["id"] )
-                                o_l.append( o )
-                                o_l_c += 1
-                                if o_l_max > o_l_c:
-                                    break
+                        try:
+                            o_p = s[ parent_key ]
+                        except:
+                            continue
 
-                                k = "::".join(k_l)
+                        if not "id" in o_p:
+                            continue
 
+                        if not data_re.match( o_p["id"] ):
+                            continue
+
+                        k_l.append( o_p["id"] )
+                        o_l.append( o_p )
+
+                    if len(k_l) < o_t_l:
+                        continue
+                    k = "::".join(k_l)
+                         
                     if byc["test_mode"]:
                         print(k)
-                    # if k == 'NCIT:C3372::icdom-80003::icdot-C44.9':
-                    #     print(d, o_l)
+
                     if k in o_m:
                         if len(o_m[k]["examples"]) < byc["this_config"]["example_length"]:
-                            o_m[k]["examples"].update([d])
+                            o_m[k]["examples"].add(d)
 
                     else:
-                        o_m[k]={
-                                "id": k,
-                                "examples": set([d]),
-                                "code_group": o_l
-                                }
+                        o_m[k] = {
+                            "id": k,
+                            "examples": set([d]),
+                            "code_group": o_l
+                        }
 
                     if not byc["test_mode"]:
                         bar.next()
