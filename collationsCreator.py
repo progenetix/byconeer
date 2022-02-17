@@ -192,6 +192,8 @@ def get_prefix_hierarchy( ds_id, coll_type, pre_h_f, byc):
     coll_defs = byc["filter_definitions"][coll_type]
     hier = hierarchy_from_file(ds_id, coll_type, pre_h_f, byc)
 
+    no = len(hier.keys())
+
     # now adding terms missing from the tree ###################################
 
     print("Looking for missing {} codes in {}.{} ...".format(coll_type, ds_id, byc["config"]["collations_source"]))
