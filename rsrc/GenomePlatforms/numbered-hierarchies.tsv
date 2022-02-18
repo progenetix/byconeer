@@ -162,8 +162,7 @@ geo:GPL2015	Affymetrix GeneChip Human Mapping 50K Xba - prerelease	3	161
 geo:GPL8876	Agilent custom 105K array (Agilent-019507)	3	162
 geo:GPL13346	Agilent custom 2 x 415K human CGH	3	163
 geo:GPL5149	Agilent Homo sapiens 185K array	3	164
-arrayexpress:A-MEXP-1134	"Agilent Human Genome CGH Microarray 44K 014950 G4426B
-"	3	165
+arrayexpress:A-MEXP-1134	Agilent Human Genome CGH Microarray 44K 014950 G4426B	3	165
 arrayexpress:A-MEXP-1886	Agilent Human Genome CGH Microarray 4x180K	3	166
 geo:GPL10383	Agilent MQD Lab Human 60K probes v1.0 - custom oligo array of 2Kb resolutoin covering 7q region	3	167
 geo:GPL8687	Agilent SurePrint G3 CGH array (4X180K) CCA_VUMC design AMADID#022522	3	168
@@ -211,8 +210,7 @@ geo:GPL18636	Illumina Human660W-Quad v1.0 BeadChip (hg19)	3	209
 geo:GPL6986	Illumina HumanCNV370-Duov1 DNA Analysis BeadChip (HumanCNV370v1)	3	210
 arrayexpress:A-GEOD-6986	Illumina HumanCNV370-Duov1 DNA Analysis BeadChip (HumanCNV370v1)	4	211
 geo:GPL6985	Illumina HumanCNV370-QuadV3 DNA Analysis BeadChip (HumanCNV370-QuadV3_C)	3	212
-arrayexpress:A-GEOD-6985	"Illumina HumanCNV370-QuadV3 DNA Analysis BeadChip (HumanCNV370-QuadV3_C)
-"	4	213
+arrayexpress:A-GEOD-6985	Illumina HumanCNV370-QuadV3 DNA Analysis BeadChip (HumanCNV370-QuadV3_C)	4	213
 geo:GPL6988	Illumina HumanExon510-Sv1 DNA Analysis BeadChip (HumanExon510Sv1_D)	3	214
 geo:GPL9798	IRCL Human Genome CGH Microarray 44B G4410B (probe version)	3	215
 geo:GPL7203	LUH Human Genome CGH Microarray 244A	3	216
@@ -246,49 +244,49 @@ geo:GPL2827	VUMC MACF human 30K oligo v44	3	243
 geo:GPL8368	VUMC MACF Human 30k oligo v62	3	244
 EFO:0002703	SNP array	3	245
 geo:GPL18637	[CytoScan750K_Array] Affymetrix CytoScan 750K Array	4	246
-arrayexpress:A-GEOD-18637	"[CytoScan750K_Array] Affymetrix CytoScan 750K Array
-"	5	247
+arrayexpress:A-GEOD-18637	[CytoScan750K_Array] Affymetrix CytoScan 750K Array	5	247
 geo:GPL16131	[CytoScanHD_Array] Affymetrix CytoScan HD Array	4	248
 arrayexpress:A-GEOD-16131	[CytoScanHD_Array] Affymetrix CytoScan HD array 2.8M	5	249
 geo:GPL6804	[GenomeWideSNP_5] Affymetrix Genome-Wide Human SNP 5.0 Array	4	250
 geo:GPL6801	[GenomeWideSNP_6] Affymetrix Genome-Wide Human SNP 6.0 Array	4	251
-geo:GPL8226	Johns Hopkins University/Affymetrix GeneChip Genome-Wide Human SNP Array 6.0	5	252
-geo:GPL1266	[Mapping10K_Xba131] Affymetrix Human Mapping 10K SNP Array	4	253
-geo:GPL2641	[Mapping10K_Xba142] Affymetrix Human Mapping 10K 2.0 Array	4	254
-arrayexpress:A-AFFY-65	Affymetrix GeneChip Human Mapping 10K 2.0 Array Xba 142	5	255
-geo:GPL3718	[Mapping250K_Nsp] Affymetrix Mapping 250K Nsp SNP Array	4	256
-arrayexpress:A-AFFY-107	Affymetrix GeneChip Human Mapping 250K Array Nsp [Mapping250K_Nsp]	5	257
-geo:GPL3720	[Mapping250K_Sty] Affymetrix Mapping 250K Sty2 SNP Array	4	258
-arrayexpress:A-AFFY-72	Affymetrix GeneChip Human Mapping 250K Array Sty [Mapping250K_Sty]	5	259
-geo:GPL16237	Agilent-030587 CCMC CGH plus SNP 180k Microarray	4	260
-geo:GPL9202	Agilent/FIMM Human 95K Array	4	261
-geo:GPL2004	[Mapping50K_Hind240] Affymetrix Human Mapping 50K Hind240 SNP Array	4	262
-arrayexpress:A-AFFY-69	Affymetrix GeneChip Human Mapping 50K Array Hind 240 [Mapping50K_Hind240]	5	263
-geo:GPL2005	[Mapping50K_Xba240] Affymetrix Human Mapping 50K Xba240 SNP Array	4	264
-arrayexpress:A-AFFY-70	Affymetrix GeneChip Human Mapping 50K Array Xba 240 [Mapping50K_Xba240]	5	265
-geo:GPL13135	HumanOmniExpress BeadChip	4	266
-arrayexpress:A-GEOD-17913	Illumina HumanCore-12v1 SNP array	4	267
-geo:GPL8856	Illumina HumanCytoSnp-12 Beadchip version 1.0	4	268
-geo:GPL8855	Illumina HumanCytoSnp-12 Beadchip version 2.0	4	269
-geo:GPL13829	Illumina HumanCytoSNP-12 v2.1 BeadChip	4	270
-arrayexpress:A-MEXP-1677	Illumina Human Custom GoldenGate 1536 SNPs	4	271
-arrayexpress:A-GEOD-17886	Illumina GoldenGate custom 96 SNP microarray	4	272
-arrayexpress:A-MTAB-613	Illumina HumanOmni1-Quad v1.0	4	273
-arrayexpress:A-MTAB-614	Illumina HumanOmniExpress-12 v1.0	4	274
-arrayexpress:A-GEOD-18643	Illumina HumanOmniExpressFFPE-12 BeadChip	4	275
-arrayexpress:A-GEOD-14157	Illumina HumanOmni5-Quad BeadChip (HumanOmni5-4v1_B)	4	276
-geo:GPL6980	Illumina HumanHap300-Duov2 Genotyping BeadChip (HumanHap300v2_A)	4	277
-geo:GPL6979	Illumina HumanHap300v1 Genotyping BeadChip (HumanHap300_(v1.0.0))	4	278
-geo:GPL6982	Illumina HumanHap550-Duov3 Genotyping BeadChip (HumanHap550-2v3_B)	4	279
-geo:GPL6981	Illumina HumanHap550v3 Genotyping BeadChip (HumanHap550v3_B)	4	280
-geo:GPL8882	Illumina HumanOmni1-Quad BeadChip	4	281
-arrayexpress:A-GEOD-8882	Illumina HumanOmni1-Quad BeadChip	5	282
-geo:GPL16573	Illumina HumanOmni1-Quad BeadChip (15004098)	4	283
-geo:GPL16110	Illumina HumanOmni2.5 BeadChip (hg19)	4	284
-geo:GPL13314	Illumina HumanOmni2.5-Quad BeadChip	4	285
-arrayexpress:A-GEOD-13314	Illumina HumanOmni2.5-Quad BeadChip	5	286
-geo:GPL5711	Sentrix BeadChip Array HumanHap300 Genotyping BeadChip 317K, TagSNP Phase I, v1.1	4	287
-geo:GPL11365	Agilent-029830 Human Genome CGH + SNP Microarray (Probe Name version)	4	288
-EFO:0030076	methylation-specific microarray	3	289
-geo:GPL23976	Illumina Infinium HumanMethylation850 BeadChip	4	290
-EFO:0010937	comparative genomic hybridization (CGH)	1	291
+arrayexpress:A-AFFY-142	[GenomeWideSNP_6] Affymetrix Genome-Wide Human SNP 6.0 Array	5	252
+geo:GPL8226	Johns Hopkins University/Affymetrix GeneChip Genome-Wide Human SNP Array 6.0	5	253
+geo:GPL1266	[Mapping10K_Xba131] Affymetrix Human Mapping 10K SNP Array	4	254
+geo:GPL2641	[Mapping10K_Xba142] Affymetrix Human Mapping 10K 2.0 Array	4	255
+arrayexpress:A-AFFY-65	Affymetrix GeneChip Human Mapping 10K 2.0 Array Xba 142	5	256
+geo:GPL3718	[Mapping250K_Nsp] Affymetrix Mapping 250K Nsp SNP Array	4	257
+arrayexpress:A-AFFY-107	Affymetrix GeneChip Human Mapping 250K Array Nsp [Mapping250K_Nsp]	5	258
+geo:GPL3720	[Mapping250K_Sty] Affymetrix Mapping 250K Sty2 SNP Array	4	259
+arrayexpress:A-AFFY-72	Affymetrix GeneChip Human Mapping 250K Array Sty [Mapping250K_Sty]	5	260
+geo:GPL16237	Agilent-030587 CCMC CGH plus SNP 180k Microarray	4	261
+geo:GPL9202	Agilent/FIMM Human 95K Array	4	262
+geo:GPL2004	[Mapping50K_Hind240] Affymetrix Human Mapping 50K Hind240 SNP Array	4	263
+arrayexpress:A-AFFY-69	Affymetrix GeneChip Human Mapping 50K Array Hind 240 [Mapping50K_Hind240]	5	264
+geo:GPL2005	[Mapping50K_Xba240] Affymetrix Human Mapping 50K Xba240 SNP Array	4	265
+arrayexpress:A-AFFY-70	Affymetrix GeneChip Human Mapping 50K Array Xba 240 [Mapping50K_Xba240]	5	266
+geo:GPL13135	HumanOmniExpress BeadChip	4	267
+arrayexpress:A-GEOD-17913	Illumina HumanCore-12v1 SNP array	4	268
+geo:GPL8856	Illumina HumanCytoSnp-12 Beadchip version 1.0	4	269
+geo:GPL8855	Illumina HumanCytoSnp-12 Beadchip version 2.0	4	270
+geo:GPL13829	Illumina HumanCytoSNP-12 v2.1 BeadChip	4	271
+arrayexpress:A-MEXP-1677	Illumina Human Custom GoldenGate 1536 SNPs	4	272
+arrayexpress:A-GEOD-17886	Illumina GoldenGate custom 96 SNP microarray	4	273
+arrayexpress:A-MTAB-613	Illumina HumanOmni1-Quad v1.0	4	274
+arrayexpress:A-MTAB-614	Illumina HumanOmniExpress-12 v1.0	4	275
+arrayexpress:A-GEOD-18643	Illumina HumanOmniExpressFFPE-12 BeadChip	4	276
+arrayexpress:A-GEOD-14157	Illumina HumanOmni5-Quad BeadChip (HumanOmni5-4v1_B)	4	277
+geo:GPL6980	Illumina HumanHap300-Duov2 Genotyping BeadChip (HumanHap300v2_A)	4	278
+geo:GPL6979	Illumina HumanHap300v1 Genotyping BeadChip (HumanHap300_(v1.0.0))	4	279
+geo:GPL6982	Illumina HumanHap550-Duov3 Genotyping BeadChip (HumanHap550-2v3_B)	4	280
+geo:GPL6981	Illumina HumanHap550v3 Genotyping BeadChip (HumanHap550v3_B)	4	281
+geo:GPL8882	Illumina HumanOmni1-Quad BeadChip	4	282
+arrayexpress:A-GEOD-8882	Illumina HumanOmni1-Quad BeadChip	5	283
+geo:GPL16573	Illumina HumanOmni1-Quad BeadChip (15004098)	4	284
+geo:GPL16110	Illumina HumanOmni2.5 BeadChip (hg19)	4	285
+geo:GPL13314	Illumina HumanOmni2.5-Quad BeadChip	4	286
+arrayexpress:A-GEOD-13314	Illumina HumanOmni2.5-Quad BeadChip	5	287
+geo:GPL5711	Sentrix BeadChip Array HumanHap300 Genotyping BeadChip 317K, TagSNP Phase I, v1.1	4	288
+geo:GPL11365	Agilent-029830 Human Genome CGH + SNP Microarray (Probe Name version)	4	289
+EFO:0030076	methylation-specific microarray	3	290
+geo:GPL23976	Illumina Infinium HumanMethylation850 BeadChip	4	291
+EFO:0010937	comparative genomic hybridization (CGH)	1	292

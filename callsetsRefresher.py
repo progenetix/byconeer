@@ -46,6 +46,8 @@ def callsets_refresher():
 
     generate_genomic_intervals(byc)
 
+    exit()
+
     if len(byc["dataset_ids"]) < 1:
         print("No existing dataset was provided with -d => using progenetix")
 

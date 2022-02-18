@@ -116,16 +116,19 @@ def _create_frequencymaps_for_collations( ds_id, byc ):
 
     for coll in coll_coll.find(id_query):
 
-
         pre, code = re.split("[:-]", coll["id"], 1)
         coll_type = coll["collation_type"]
+
+        exclude_normals = True
+        if "EFO:0009654" in coll["id"]:
+            exclude_normals = False
 
         db_key = coll["db_key"]
 
         coll_i += 1
 
         query = { db_key: { '$in': coll["child_terms"] } }
-        bios_no, cs_cursor = _cs_cursor_from_bios_query(bios_coll, ind_coll, cs_coll, coll["scope"], query)
+        bios_no, cs_cursor = _cs_cursor_from_bios_query(bios_coll, ind_coll, cs_coll, coll["scope"], query, exclude_normals)
         cs_no = len(list(cs_cursor))
 
         # print("{}: {}".format(coll["id"], cs_no))
@@ -189,7 +192,7 @@ def _create_frequencymaps_for_collations( ds_id, byc ):
 
 ################################################################################
 
-def _cs_cursor_from_bios_query(bios_coll, ind_coll, cs_coll, scope, query):
+def _cs_cursor_from_bios_query(bios_coll, ind_coll, cs_coll, scope, query, exclude_normals=True):
 
     if scope == "individuals":
         ind_ids = ind_coll.distinct( "id" , query )
@@ -200,7 +203,14 @@ def _cs_cursor_from_bios_query(bios_coll, ind_coll, cs_coll, scope, query):
         bios_ids = bios_coll.distinct( "id" , query )
 
 
+    pre_b = len(bios_ids)
+    if exclude_normals:
+        bios_ids = bios_coll.distinct( "id" , { "id": { "$in": bios_ids } , "biosample_status.id": {"$ne": "EFO:0009654" }} )
     bios_no = len(bios_ids)
+    
+    if pre_b > bios_no:
+        print("WARNING: {} samples for this code, while {} after excluding normals (EFO:0009654)".format(pre_b bios_no))
+       
     cs_query = { "biosample_id": { "$in": bios_ids } }
     cs_cursor = cs_coll.find(cs_query)
 
