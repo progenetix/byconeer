@@ -3,9 +3,7 @@
 import re, json, yaml
 from os import path, environ, pardir, mkdir
 import sys, datetime
-from isodate import date_isoformat
 from pymongo import MongoClient
-import argparse
 import statistics
 from progress.bar import Bar
 import requests
@@ -32,7 +30,7 @@ def individuals_refresher():
 
     initialize_service(byc)
     get_args(byc)
-    set_test_mode(byc)
+    set_processing_modes(byc)
 
     select_dataset_ids(byc)
     check_dataset_ids(byc)
@@ -51,7 +49,7 @@ def individuals_refresher():
     ind_no = 0
 
     f_u_def = { "id": "EFO:0030039", "label": "no followup status" }
-    age_def = { "age": "" }
+    age_def = { "age": { "iso8601duration": "" } }
     stage_def = { "id": "NCIT:C92207", "label": "Stage Unknown"}
 
     for bios in bios_coll.find ({}):

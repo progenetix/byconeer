@@ -3,7 +3,6 @@
 import re, json, yaml
 from os import path, environ, pardir, mkdir
 import sys, datetime
-from isodate import date_isoformat
 from pymongo import MongoClient
 import argparse
 import statistics

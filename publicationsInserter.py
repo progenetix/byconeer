@@ -33,7 +33,7 @@ def update_publications():
 
     initialize_service(byc)
     get_args(byc)
-    set_test_mode(byc)    
+    set_processing_modes(byc)    
 
     if not byc["args"].inputfile:
         print("No inputfile file specified => quitting ...")
@@ -80,7 +80,7 @@ def update_publications():
                 `-u 1` taken from the existing one."""
 
                 if p_k in publication_ids:
-                    if not byc["args"].update:
+                    if not byc["update_mode"]:
                         print(p_k, ": skipped - already in progenetix.publications")
                         continue
                     else:

@@ -46,7 +46,7 @@ def biosamples_remover():
 
     query = json.loads(byc["args"].query)
 
-    set_test_mode(byc)
+    set_processing_modes(byc)
 
     select_dataset_ids(byc)
     check_dataset_ids(byc)

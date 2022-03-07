@@ -1,11 +1,8 @@
 #!/usr/local/bin/python3
 
-import re, json, yaml
+import re, json, yaml, sys, datetime
 from os import path, environ, pardir
-import sys, datetime
-from isodate import date_isoformat
 from pymongo import MongoClient
-import argparse
 import statistics
 from progress.bar import Bar
 
@@ -18,7 +15,6 @@ from bycon import *
 from byconeer import *
 
 """
-
 ## `biosamplesRefresher`
 
 """
@@ -37,7 +33,7 @@ def variants_refresher():
 
     initialize_service(byc)
     get_args(byc)
-    set_test_mode(byc)
+    set_processing_modes(byc)
 
     select_dataset_ids(byc)
     check_dataset_ids(byc)

@@ -3,7 +3,6 @@
 import re, json, yaml
 from os import path, environ, pardir
 import sys, datetime
-from isodate import date_isoformat
 from pymongo import MongoClient
 import argparse
 import statistics
@@ -36,22 +35,21 @@ def callsets_refresher():
 
     initialize_service(byc)
     get_args(byc)
-    set_test_mode(byc)
+    set_processing_modes(byc)
 
     select_dataset_ids(byc)
     check_dataset_ids(byc)
-    parse_filters(byc)
+    filters_from_args(byc)
     parse_variants(byc)
-    initialize_beacon_queries(byc)
-
     generate_genomic_intervals(byc)
 
-    exit()
+    if byc["args"].query:
+        byc.update({"queries":json.loads(byc["args"].query)})
+
+    initialize_beacon_queries(byc)
 
     if len(byc["dataset_ids"]) < 1:
         print("No existing dataset was provided with -d => using progenetix")
-
-    generate_genomic_intervals(byc)
 
     for ds_id in byc["dataset_ids"]:
         print("=> Using callset_id values from {}.{}".format(ds_id, byc["args"].source))
@@ -73,27 +71,29 @@ def _process_dataset(ds_id, byc):
     cs_coll = data_db[ "callsets" ]
     v_coll = data_db[ "variants" ]
 
+    query = {}
+
     if byc["args"].source == "biosamples":
-        bios_query = {}
         if "biosamples" in byc["queries"]:
-            bios_query = byc["queries"]["biosamples"]
+            query = byc["queries"]["biosamples"]
         bios_coll = data_db[ "biosamples" ]
         bs_ids = []
-        for bs in bios_coll.find (bios_query, {"id":1} ):
+        for bs in bios_coll.find (query, {"id":1} ):
             bs_ids.append(bs["id"])
 
         for bsid in bs_ids:
             cs_query = { "biosample_id": bsid }
             for cs in cs_coll.find (cs_query ):
-                cs_id_ks.update({cs["callset_id"]: cs["biosample_id"]})
+                cs_id_ks.update({cs["id"]: cs["biosample_id"]})
     elif byc["args"].source == "variants":
-        v_query = {}
         if "variants" in byc["queries"]:
-            v_query = byc["queries"]["variants"]
-        for v in v_coll.find (v_query ):
+            query = byc["queries"]["variants"]
+        for v in v_coll.find (query):
             cs_id_ks.update({v["callset_id"]: v["biosample_id"]})
     else:
-        for cs in cs_coll.find({}):
+        if "callsets" in byc["queries"]:
+            query = byc["queries"]["callsets"]
+        for cs in cs_coll.find(query):
             cs_id_ks.update({cs["id"]: cs["biosample_id"]})
 
     print("Re-generating statusmaps with {} intervals...".format(len(byc["genomic_intervals"])))
@@ -120,11 +120,14 @@ def _process_dataset(ds_id, byc):
         else:
             cs_update_obj = { "info": cs["info"] }
 
-        maps, cs_cnv_stats = interval_cnv_arrays(v_coll, { "callset_id": csid }, byc)
+        cs["info"].pop("statusmaps", None)
+        cs["info"].pop("cnvstatistics", None)
 
-        cs_update_obj["info"].update({"statusmaps": maps})
-        cs_update_obj["info"].update({"cnvstatistics": cs_cnv_stats})
-        cs_update_obj.update({ "updated": date_isoformat(datetime.datetime.now()) })
+        maps, cs_cnv_stats, cs_chro_stats = interval_cnv_arrays(v_coll, { "callset_id": csid }, byc)
+        cs_update_obj.update({"cnv_statusmaps": maps})
+        cs_update_obj.update({"cnv_stats": cs_cnv_stats})
+        cs_update_obj.update({"cnv_chro_stats": cs_chro_stats})
+        cs_update_obj.update({ "updated": datetime.datetime.now().isoformat() })
 
         if not byc["test_mode"]:
             if not cs:

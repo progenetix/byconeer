@@ -3,7 +3,6 @@
 import re, json, yaml
 from os import path, environ, pardir
 import sys, datetime
-from isodate import date_isoformat
 from pymongo import MongoClient
 import argparse
 import statistics
@@ -35,7 +34,7 @@ def fmp_refresher():
 
     initialize_service(byc, "biosamples_refresher")
     get_args(byc)
-    set_test_mode(byc)
+    set_processing_modes(byc)
 
     if not byc["args"].inputfile:
         print("No inputfile file specified => quitting ...")
@@ -236,97 +235,6 @@ def fmp_refresher():
     exit()
 
 ################################################################################
-##### TBD but probably elsewhere ###############################################
-################################################################################
-
-    # WARNING - ONLY FOR THE NEW SAMPLES
-
-def _recreate_all_variants_from_ISCN(sample, byc):
-
-    if not "ISCN" in sample["data_provenance"]:
-        return
-
-    if not "id" in sample:
-        print("¡¡¡ No sample id - skipping !!!")
-        return
-
-    bs_id = sample["id"]
-    if "callset_id" in sample:
-        cs_id = sample["callset_id"]
-    else:
-        cs_id = re.sub("pgxbs", "pgxcs", bs_id)
-    if "individual_id" in sample:
-        ind_id = sample["individual_id"]
-    else:
-        ind_id = re.sub("pgxbs", "pgxind", bs_id)
-
-    technique = "aCGH"
-    iscn_field = "iscn_acgh"
-    platform_id = "EFO:0002701"
-    platform_label = "DNA array"
-
-    if "cCGH" in sample["data_provenance"]:
-        technique = "cCGH"
-        iscn_field = "iscn_ccgh"
-        platform_id = "EFO:0010937"
-        platform_label = "comparative genomic hybridization (CGH)"
-
-    cs_update_obj = {
-        "id": cs_id,
-        "biosample_id": bs_id,
-        "individual_id": ind_id,
-        "info": { "provenance": technique+" ISCN conversion" },
-        "platform_model": {"id": platform_id, "label":platform_label},
-        "provenance": sample["data_provenance"]
-    }
-
-    v_s = list(v_coll.find({"biosample_id": bs_id }))
-
-    print("\n{} ({}): {} - {}".format(bs_id, cs_id, technique, sample[iscn_field]))
-    variants, variant_error = _deparse_rev_ish_CGH(bs_id, cs_id, technique, sample[iscn_field])
-
-    if not byc["test_mode"]:
-
-        cs_coll.delete_one({"biosample_id": bs_id })
-        v_coll.delete_many({"biosample_id": bs_id })
-
-        for v in variants:
-            v_id = v_coll.insert_one(v).inserted_id
-            v_coll.update_one({"_id": v_id}, {"$set": {"id": str(v_id)}})
-            # print(v["biosample_id"])
-
-        cs_update_obj = {
-            "id": cs_id,
-            "biosample_id": bs_id,
-            "individual_id": ind_id,
-            "info": { "provenance": technique+" ISCN conversion" },
-            "platform_model": {"id": "EFO:0010937", "label":"comparative genomic hybridization (CGH)"},
-            "provenance": bios["provenance"]
-        }
-
-        maps, cs_cnv_stats = interval_cnv_arrays(v_coll, { "callset_id": cs_id }, byc)
-        cs_update_obj["info"].update({"statusmaps": maps})
-        cs_update_obj["info"].update({"cnvstatistics": cs_cnv_stats})
-
-        cs_coll.insert_one(cs_update_obj)
-
-        ####################################################################
-
-        ind = ind_coll.find_one({"id": ind_id})
-        if not ind:
-            ind = ind_coll.insert_one({"id": ind_id})
-
-        if "y" in what["survival"] and len(sample["death"]) > 0:
-            _ind_update_survival(ind, sample, ind_coll, byc)
-
-        if "y" in what["sex"] and len(sample["sex"]) > 0:
-            _ind_update_sex(ind, sample, ind_coll, byc)
-
-    if not byc["test_mode"]:
-        bar.finish()
-
-
-################################################################################
 
 def _read_samplefile(counter, max_count, byc):
 
@@ -450,7 +358,7 @@ def _deparse_rev_ish_CGH(bs_id, cs_id, technique, iscn):
             "variant_internal_id": variant_create_digest(v),
             "biosample_id": bs_id,
             "callset_id": cs_id,
-            "updated": date_isoformat(datetime.datetime.now())
+            "updated": datetime.datetime.now().isoformat()
         })
 
         variants.append(v)

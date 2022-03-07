@@ -36,7 +36,7 @@ def frequencymaps_creator():
 
     initialize_service(byc)
     get_args(byc)
-    set_test_mode(byc)
+    set_processing_modes(byc)
 
     select_dataset_ids(byc)
     check_dataset_ids(byc)
@@ -128,7 +128,7 @@ def _create_frequencymaps_for_collations( ds_id, byc ):
         coll_i += 1
 
         query = { db_key: { '$in': coll["child_terms"] } }
-        bios_no, cs_cursor = _cs_cursor_from_bios_query(bios_coll, ind_coll, cs_coll, coll["scope"], query, exclude_normals)
+        bios_no, cs_cursor = _cs_cursor_from_bios_query(bios_coll, ind_coll, cs_coll, coll["id"], coll["scope"], query, exclude_normals)
         cs_no = len(list(cs_cursor))
 
         # print("{}: {}".format(coll["id"], cs_no))
@@ -172,7 +172,7 @@ def _create_frequencymaps_for_collations( ds_id, byc ):
         if coll["code_matches"] > 0:
             if cs_no != coll["code_matches"]:
                 query_cm = { db_key: coll["id"] }
-                bios_no_cm, cs_cursor_cm = _cs_cursor_from_bios_query(bios_coll, ind_coll, cs_coll, coll["scope"], query_cm)
+                bios_no_cm, cs_cursor_cm = _cs_cursor_from_bios_query(bios_coll, ind_coll, cs_coll, coll["id"], coll["scope"], query_cm)
                 cs_no_cm = len(list(cs_cursor_cm))
                 if cs_no_cm > 0:
 
@@ -192,7 +192,7 @@ def _create_frequencymaps_for_collations( ds_id, byc ):
 
 ################################################################################
 
-def _cs_cursor_from_bios_query(bios_coll, ind_coll, cs_coll, scope, query, exclude_normals=True):
+def _cs_cursor_from_bios_query(bios_coll, ind_coll, cs_coll, coll_id, scope, query, exclude_normals=True):
 
     if scope == "individuals":
         ind_ids = ind_coll.distinct( "id" , query )
@@ -202,14 +202,15 @@ def _cs_cursor_from_bios_query(bios_coll, ind_coll, cs_coll, scope, query, exclu
     else:
         bios_ids = bios_coll.distinct( "id" , query )
 
-
     pre_b = len(bios_ids)
+
+    # for most entities samples labeled as "normal" will be excluded for frequency calculations
     if exclude_normals:
         bios_ids = bios_coll.distinct( "id" , { "id": { "$in": bios_ids } , "biosample_status.id": {"$ne": "EFO:0009654" }} )
     bios_no = len(bios_ids)
     
     if pre_b > bios_no:
-        print("WARNING: {} samples for this code, while {} after excluding normals (EFO:0009654)".format(pre_b bios_no))
+        print("WARNING: {} samples for {}, while {} after excluding normals by EFO:0009654".format(pre_b, coll_id, bios_no))
        
     cs_query = { "biosample_id": { "$in": bios_ids } }
     cs_cursor = cs_coll.find(cs_query)

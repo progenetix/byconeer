@@ -3,9 +3,7 @@
 import re, json, yaml
 from os import path, environ, pardir
 import sys, datetime
-from isodate import date_isoformat
 from pymongo import MongoClient
-import argparse
 from progress.bar import Bar
 from pyexcel import get_sheet
 
@@ -37,7 +35,7 @@ def ontologymaps_creator():
 
     initialize_service(byc)
     get_args(byc)
-    set_test_mode(byc)
+    set_processing_modes(byc)
 
     mongo_client = MongoClient( )
     o_m = { }

@@ -1,0 +1,31 @@
+---
+biosample:
+  histological_diagnosis:
+    id: NCIT:C132256
+    label: Unspecified Tissue
+  data_use_conditions:
+    id: DUO:0000004
+    label: no restriction
+  sampled_tissue:
+    id: UBERON:0001062
+    label: anatomical entity
+
+
+callset:
+  platform_model:
+    id: EFO:0001456
+    label: DNA assay
+  data_use_conditions:
+    id: DUO:0000004
+    label: no restriction
+
+variant: {}
+
+individual:
+  sex:
+    id: PATO:0020000
+    label: genotypic sex
+  data_use_conditions:
+    id: DUO:0000004
+    label: no restriction
+
