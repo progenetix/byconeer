@@ -3,6 +3,7 @@ from pymongo import MongoClient
 from os import path, environ, pardir
 import sys, datetime, time
 from progress.bar import Bar
+from copy import deepcopy as deepcopy
 
 # bycon is supposed to be in the same parent directory
 dir_path = path.dirname( path.abspath(__file__) )
@@ -40,16 +41,16 @@ def callsets_variants_importer():
 	parse_variants(byc)
 	generate_genomic_intervals(byc)
 
+	processsed_root = byc["args"].source # "~/switchdrive/baudisgroup/2022-arrayexpress-reimport"
+	var_temp = object_instance_from_schema_name(byc, "pgxVariant")
+	prjsonnice(var_temp)
+
 	if not byc["args"].inputfile:
 		print("No inputfile file specified => quitting ...")
 		exit()
 	if not byc["args"].source:
 		print("No source directory specified => quitting ...")
 		exit()
-
-	processsed_root = byc["args"].source # "~/switchdrive/baudisgroup/2022-arrayexpress-reimport"
-	var_temp = read_schema_files("pgxVariant", "properties", byc)
-	cs_temp = read_schema_files("pgxCallset", "properties", byc)
 
 	v_defs = byc["variant_definitions"]
 
@@ -123,7 +124,7 @@ def callsets_variants_importer():
 				v_coll.delete_many({"callset_id": csid})
 
 		for v_in in vs_d:
-			v = create_empty_instance(var_temp)
+			v = deepcopy(var_temp)
 			v.update({
 				"variant_internal_id": v_in["digest"],
 				"callset_id": cs["id"],

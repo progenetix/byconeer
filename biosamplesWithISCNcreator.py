@@ -62,7 +62,7 @@ def biosamples_ISCN_updater():
 
     max_count = 1000000
 
-    bios_temp = read_schema_files("pgxBiosample", "properties", byc)
+    bios_temp = object_instance_from_schema_name(byc, "pgxBiosample")
 
     logfile = path.splitext(byc["args"].inputfile)[0]
     logfile += "_log.tsv"
@@ -101,7 +101,7 @@ def biosamples_ISCN_updater():
             f_s.update({"biosample_id":bios_id})
             cs_id = re.sub("pgxbs", "pgxcs", bios_id)
             ind_id = re.sub("pgxbs", "pgxind", bios_id)
-            bios = create_empty_instance(bios_temp)
+            bios = deepcopy(bios_temp)
             bios.update({
                 "id": bios_id,
                 "individual_id": ind_id,

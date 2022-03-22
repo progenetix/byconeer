@@ -1,11 +1,8 @@
 #!/usr/local/bin/python3
 
-import re, json, yaml
+import datetime, json, re, sys, yaml
 from os import path, environ, pardir
-import sys, datetime
-from isodate import date_isoformat
 from pymongo import MongoClient
-import argparse
 from progress.bar import Bar
 
 # bycon is supposed to be in the same parent directory
@@ -17,7 +14,6 @@ from bycon import *
 from byconeer import *
 
 """
-
 ## `collationsCreator`
 
 """
@@ -157,7 +153,7 @@ def _create_collations_from_dataset( ds_id, byc ):
                     "code": code,
                     "count": child_no,
                     "dataset_id": ds_id,
-                    "updated": date_isoformat(datetime.datetime.now()),
+                    "updated": datetime.datetime.now().isoformat(),
                     "db_key": db_key
                 })
 
@@ -236,12 +232,12 @@ def get_prefix_hierarchy( ds_id, coll_type, pre_h_f, byc):
         if coll_type == "NCIT":
             hier.update( {
                     o: { "id": o, "label": l, "hierarchy_paths":
-                        [ { "order": no, "depth": 3, "path": [ "NCIT:C3262", "NCIT:C000000", o ] } ]
+                        [ { "order": int(no), "depth": 3, "path": [ "NCIT:C3262", "NCIT:C000000", o ] } ]
                     }
                 }
             )
         else:
-            o_p = { "order": no, "depth": 0, "path": [ o ] }
+            o_p = { "order": int(no), "depth": 0, "path": [ o ] }
             hier.update( { o: { "id": o, "label": l, "hierarchy_paths": [ o_p ] } } )
         print("Added:\t{}\t{}".format(o, l))
 
