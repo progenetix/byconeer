@@ -6,6 +6,7 @@ bycon_definition_files:
   - interval_definitions
   - handover_definitions
   - variant_definitions
+  - beacon_mappings
 defaults:
     genome_binning: 1Mb
 dataset_ids:

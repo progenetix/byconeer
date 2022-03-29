@@ -1,9 +1,9 @@
 #!/usr/local/bin/python3
 
-import re, json, yaml, sys, datetime
+import re, json, yaml, sys, datetime, statistics
 from os import path, environ, pardir
 from pymongo import MongoClient
-import statistics
+from isodate import date_isoformat
 from progress.bar import Bar
 
 # bycon is supposed to be in the same parent directory
@@ -42,9 +42,14 @@ def variants_refresher():
         print("No existing dataset was provided with -d ...")
         exit()
 
+    if byc["test_mode"]:
+        max_count = 10
+    else:
+        max_count = int(byc["args"].randno)
+
     mongo_client = MongoClient( )
 
-    min_l = byc["this_config"]["refreshing"]["cnv_min_length"]
+    v_d = byc["variant_definitions"]
 
     for ds_id in byc["dataset_ids"]:
 
@@ -54,18 +59,34 @@ def variants_refresher():
         data_db = mongo_client[ ds_id ]
         var_coll = data_db[ "variants" ]
         no =  var_coll.estimated_document_count()
+        if max_count < 1:
+            max_count = no
+        count = 0
         bar = Bar("{} vars".format(ds_id), max = no, suffix='%(percent)d%%'+" of "+str(no) )
-        for v in var_coll.find({}):
-            update_obj = { "id": str(v["_id"]) }
+        for v_p in var_coll.find({}):
+
+            if count > max_count:
+                break
+            count += 1
+
+            update_obj = vrsify_variant(v_p, v_d)
+            update_obj.update({ "updated": datetime.datetime.now().isoformat() })
+            
+            # for p in ["callset_id", "biosample_id", "variant_internal_id", "variant_type", "variant_state", "reference_bases", "alternate_bases", "info"]:
+            #     p_v = v_p.get(p, None)
+            #     if p_v is not None:
+            #         update_obj.update({p:p_v})
+
+            if not "start" in v_p:
+                break
 
             if not byc["test_mode"]:
-                var_coll.update_one( { "_id": v["_id"] }, { '$set': update_obj }  )
+                var_coll.update_one( { "_id": v_p["_id"] }, { '$set': update_obj }  )
+            else:
+                prjsonnice(update_obj)
             
             bar.next()
         bar.finish()
-
-        print("{} {} variants had no type {}".format(v_no_type, ds_id, min_l))
-        print("{} {} CNV variants had a length below {}".format(v_short, ds_id, min_l))
 
 ################################################################################
 ################################################################################

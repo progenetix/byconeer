@@ -22,11 +22,11 @@ done
 
 for db in progenetix 1000genomesDRAGEN cellosaurus
 do
-	for field in updated \"variant_state.id\" variant_type reference_bases reference_name callset_id alternate_bases individual_id biosample_id start end \"info.var_length\" variant_internal_id
-		do
-			echo "=> index for $db.variants.$field"
-			mongo $db --eval "db.variants.createIndex( { $field : 1 } )"
-		done
+	for field in updated \"variant_state.id\" variant_type reference_bases reference_name callset_id alternate_bases individual_id biosample_id \"type\" \"location.sequence_id\" \"location.interval.start.value\" \"location.interval.end.value\" \"info.var_length\" variant_internal_id
+	do
+		echo "=> index for $db.variants.$field"
+		mongo $db --eval "db.variants.createIndex( { $field : 1 } )"
+	done
 
     for dbcoll in biosamples callsets individuals collations
 	do
