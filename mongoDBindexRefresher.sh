@@ -50,7 +50,7 @@ do
 	
     for dbcoll in collations
 	do
-		for field in child_terms id label count collation_type name_space_prefix
+		for field in child_terms id label count collation_type namespace_prefix
 		do
 			echo "=> index for $db.collations.$field"
 			mongo $db --eval "db.collations.createIndex( { $field : 1 } )"

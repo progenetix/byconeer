@@ -66,7 +66,7 @@ def _create_collations_from_dataset( ds_id, byc ):
         if collationed is False:
             continue
 
-        pre = coll_defs["name_space_prefix"]
+        pre = coll_defs["namespace_prefix"]
         pre_h_f = path.join( parent_path, "byconeer", "rsrc", coll_type, "numbered-hierarchies.tsv" )
         collection = coll_defs["scope"]
         db_key = coll_defs["db_key"]
@@ -147,7 +147,7 @@ def _create_collations_from_dataset( ds_id, byc ):
                     "type": coll_defs.get("name", ""),
                     "collation_type": coll_type,
                     "reference": "https://progenetix.org/services/ids/"+code,
-                    "name_space_prefix": coll_defs.get("name_space_prefix", ""),
+                    "namespace_prefix": coll_defs.get("namespace_prefix", ""),
                     "scope": coll_defs.get("scope", ""),
                     "code_matches": code_no,
                     "code": code,
@@ -212,7 +212,7 @@ def get_prefix_hierarchy( ds_id, coll_type, pre_h_f, byc):
                 "label": "Unplaced Entities",
                 "type": coll_defs.get("type", ""),
                 "collation_type": coll_type,
-                "name_space_prefix": coll_defs.get("name_space_prefix", ""),
+                "namespace_prefix": coll_defs.get("namespace_prefix", ""),
                 "scope": coll_defs.get("scope", ""),
                 "db_key": coll_defs.get("db_key", ""),
                 "hierarchy_paths": [ { "order": no, "depth": 1, "path": [ "NCIT:C3262", "NCIT:C000000" ] } ]
@@ -310,7 +310,7 @@ def _make_dummy_publication_hierarchy(byc):
                 "label": pub["label"],
                 "type": coll_defs.get("type", ""),
                 "collation_type": coll_type,
-                "name_space_prefix": coll_defs.get("name_space_prefix", ""),
+                "namespace_prefix": coll_defs.get("namespace_prefix", ""),
                 "scope": coll_defs.get("scope", ""),
                 "db_key": coll_defs.get("db_key", ""),
                 "hierarchy_paths": [ { "order": int(order), "depth": 0, "path": [ code ] } ],
@@ -369,7 +369,7 @@ def _get_hierarchy_item(data_coll, coll_defs, coll_type, code, order, depth, pat
         "label": _get_label_for_code(data_coll, coll_defs, code),
         "type": coll_defs.get("type", ""),
         "collation_type": coll_type,
-        "name_space_prefix": coll_defs.get("name_space_prefix", ""),
+        "namespace_prefix": coll_defs.get("namespace_prefix", ""),
         "scope": coll_defs.get("scope", ""),
         "db_key": coll_defs.get("db_key", ""),
         "hierarchy_paths": [ { "order": int(order), "depth": int(depth), "path": list(path) } ],

@@ -49,6 +49,27 @@ def variants_refresher():
 
     mongo_client = MongoClient( )
 
+    for ds_id in byc["dataset_ids"]:
+
+        data_db = mongo_client[ ds_id ]
+        var_coll = data_db[ "variants" ]
+        bios_coll = data_db[ "biosamples" ]
+        no =  bios_coll.estimated_document_count()
+        if max_count < 1:
+            max_count = no
+        count = 0
+        bar = Bar("{} vars".format(ds_id), max = no, suffix='%(percent)d%%'+" of {} biosamples".format(no) )
+        for bios in bios_coll.find({}):
+            bios_id = bios["id"]
+            ind_id = bios.get("individual_id", "")
+
+            for v_p in var_coll.find({"biosample_id": bios_id}):
+                var_coll.update_one( { "_id": v_p["_id"] }, { '$set': {"individual_id": ind_id} }  )            
+            bar.next()
+        bar.finish()
+
+    exit()
+
     v_d = byc["variant_definitions"]
 
     for ds_id in byc["dataset_ids"]:
@@ -58,6 +79,7 @@ def variants_refresher():
 
         data_db = mongo_client[ ds_id ]
         var_coll = data_db[ "variants" ]
+        bios_coll = data_db[ "biosamples" ]
         no =  var_coll.estimated_document_count()
         if max_count < 1:
             max_count = no
