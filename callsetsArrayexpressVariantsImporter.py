@@ -42,7 +42,7 @@ def callsets_variants_importer():
 	generate_genomic_intervals(byc)
 
 	processsed_root = byc["args"].source # "~/switchdrive/baudisgroup/2022-arrayexpress-reimport"
-	var_temp = object_instance_from_schema_name(byc, "pgxVariant")
+	var_temp = object_instance_from_schema_name(byc, "pgxVariant", "properties")
 	prjsonnice(var_temp)
 
 	if not byc["args"].inputfile:

@@ -81,7 +81,7 @@ def individuals_refresher():
                 "clinical_tnm_finding": bios.get("pathological_tnm_findings", []),
                 "followup_state": bios.get("followup_state", {}),
                 "followup_time": bios["info"].get("followup_months", None),
-                "age_of_onset": bios.get("time_of_collection", age_def)
+                "onset": bios.get("time_of_collection", age_def)
             }
 
             if not "id" in disease["stage"]:
@@ -96,7 +96,7 @@ def individuals_refresher():
                 disease.update({"followup_time": "P"+str(disease["followup_time"])+"M" })
 
             try:
-                disease.update({"age_of_onset": bios.get("time_of_collection", {})})
+                disease.update({"onset": bios.get("time_of_collection", {})})
             except:
                 pass
 

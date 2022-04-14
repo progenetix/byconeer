@@ -52,7 +52,9 @@ def beaconinfo_creator():
             print("¡¡¡ Dataset "+ds_id+" doesn't exist !!!")
         else:
         # elif ds_id == "cellosaurus":
-            b_info["datasets"].update( { ds_id: _dataset_update_counts(byc["dataset_definitions"][ds_id], **byc) } )
+            b_info["datasets"].update( {
+                ds_id: _dataset_update_counts(byc["dataset_definitions"][ds_id], byc)
+            } )
         # else:
         #     continue
     info_db = mongo_client[ byc[ "config" ][ "info_db" ] ]
@@ -66,13 +68,13 @@ def beaconinfo_creator():
 ################################################################################
 ################################################################################
 
-def _dataset_update_counts(ds, **byc):
+def _dataset_update_counts(ds, byc):
 
     mongo_client = MongoClient( )
 
     ds_id = ds["id"]
     ds_db = mongo_client[ ds_id ]
-    b_i_ds = { "counts": { } }
+    b_i_ds = { "counts": { }, "updated": datetime.datetime.now().isoformat() }
     c_n = ds_db.list_collection_names()
     for c in byc["config"]["collections"]:
         if c in c_n:
@@ -81,14 +83,13 @@ def _dataset_update_counts(ds, **byc):
             if c == "variants":
                 v_d = { }
                 bar = Bar(ds_id+' variants', max = no, suffix='%(percent)d%%'+" of "+str(no) )
-                for v in ds_db[ c ].find({}):
-                    if "variant_id" in v:
-                        v_d[ v["variant_id"] ] = 1
+                for v in ds_db[ c ].find({ "variant_internal_id": {"$exists": True }}):
+                    v_d[ v["variant_internal_id"] ] = 1
                     bar.next()
                 bar.finish()
                 b_i_ds["counts"].update( { "variants_distinct": len(v_d.keys()) } )
     
-    return(b_i_ds)
+    return b_i_ds
 
 #################################################################################
 ################################################################################

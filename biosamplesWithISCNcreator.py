@@ -62,7 +62,7 @@ def biosamples_ISCN_updater():
 
     max_count = 1000000
 
-    bios_temp = object_instance_from_schema_name(byc, "pgxBiosample")
+    bios_temp = object_instance_from_schema_name(byc, "pgxBiosample", "properties")
 
     logfile = path.splitext(byc["args"].inputfile)[0]
     logfile += "_log.tsv"
