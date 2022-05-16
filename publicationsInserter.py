@@ -32,8 +32,7 @@ def main():
 def update_publications():
 
     initialize_service(byc)
-    get_args(byc)
-    set_processing_modes(byc)    
+    
 
     if not byc["args"].inputfile:
         print("No inputfile file specified => quitting ...")

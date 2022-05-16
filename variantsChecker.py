@@ -36,8 +36,7 @@ def variants_checker():
     set_processing_modes(byc)
 
     select_dataset_ids(byc)
-    check_dataset_ids(byc)
-
+    
     if len(byc["dataset_ids"]) < 1:
         print("No existing dataset was provided with -d ...")
         exit()

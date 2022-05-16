@@ -30,13 +30,11 @@ def main():
 def biosamples_tagger():
 
     initialize_service(byc)
-    get_args(byc)
-    set_processing_modes(byc)
+
 
     select_dataset_ids(byc)
-    check_dataset_ids(byc)
     parse_filters(byc)
-    parse_variants(byc)
+    parse_variant_parameters(byc)
     initialize_beacon_queries(byc)
 
     generate_genomic_intervals(byc)

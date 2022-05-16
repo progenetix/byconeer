@@ -36,13 +36,9 @@ def main():
 def biosamples_refresher():
 
     initialize_service(byc)
-    get_args(byc)
-    set_processing_modes(byc)
-
     select_dataset_ids(byc)
-    check_dataset_ids(byc)
     parse_filters(byc)
-    parse_variants(byc)
+    parse_variant_parameters(byc)
     initialize_beacon_queries(byc)
     
     if len(byc["dataset_ids"]) < 1:
@@ -96,7 +92,7 @@ def _process_dataset(ds_id, pub_labels, byc):
 
     for bsid in bs_ids:
 
-        s = bios_coll.find_one({ "id":bsid })
+        s = bios_coll.find_one({ "id": bsid })
 
         update_obj = {}
         update_key = "external_references"

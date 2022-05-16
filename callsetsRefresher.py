@@ -33,93 +33,50 @@ def main():
 
 def callsets_refresher():
 
-    initialize_service(byc)
-    get_args(byc)
-    set_processing_modes(byc)
+    initialize_service(byc, "callsets")
+    run_beacon_init_stack(byc)
 
-    select_dataset_ids(byc)
-    check_dataset_ids(byc)
-    filters_from_args(byc)
-    parse_variants(byc)
+    if len(byc["dataset_ids"]) > 1:
+        print("Please give only one dataset using -d")
+        exit()
+
+    ds_id = byc["dataset_ids"][0]
+
+    # for non-standard CNV binning
+    genome_binning_from_args(byc)
     generate_genomic_intervals(byc)
-
-    if byc["args"].query:
-        byc.update({"queries":json.loads(byc["args"].query)})
-
-    initialize_beacon_queries(byc)
-
-    if len(byc["dataset_ids"]) < 1:
-        print("No existing dataset was provided with -d => using progenetix")
-
-    for ds_id in byc["dataset_ids"]:
-        print("=> Using callset_id values from {}.{}".format(ds_id, byc["args"].source))
-        _process_dataset(ds_id, byc)
-
-################################################################################
-################################################################################
-################################################################################
-
-def _process_dataset(ds_id, byc):
-
-    no_cs_no = 0
-    no_stats_no = 0
-
-    cs_id_ks = {}
+    
+    print("=> Using data values from {}".format(ds_id))
 
     data_client = MongoClient( )
     data_db = data_client[ ds_id ]
     cs_coll = data_db[ "callsets" ]
     v_coll = data_db[ "variants" ]
 
-    query = {}
+    execute_bycon_queries( ds_id, byc )
 
-    if byc["args"].source == "biosamples":
-        if "biosamples" in byc["queries"]:
-            query = byc["queries"]["biosamples"]
-        bios_coll = data_db[ "biosamples" ]
-        bs_ids = []
-        for bs in bios_coll.find (query, {"id":1} ):
-            bs_ids.append(bs["id"])
+    ds_results = byc["dataset_results"][ds_id]
 
-        for bsid in bs_ids:
-            cs_query = { "biosample_id": bsid }
-            for cs in cs_coll.find (cs_query ):
-                cs_id_ks.update({cs["id"]: cs["biosample_id"]})
-    elif byc["args"].source == "variants":
-        if "variants" in byc["queries"]:
-            query = byc["queries"]["variants"]
-        for v in v_coll.find (query):
-            cs_id_ks.update({v["callset_id"]: v["biosample_id"]})
+    if not "callsets._id" in ds_results.keys():
+        cs_ids = cs_coll.distinct("_id", {})
+        print("¡¡¡ Using all {} callsets from {} !!!".format(len(cs_ids), ds_id))
     else:
-        if "callsets" in byc["queries"]:
-            query = byc["queries"]["callsets"]
-        for cs in cs_coll.find(query):
-            cs_id_ks.update({cs["id"]: cs["biosample_id"]})
+        cs_ids = ds_results["callsets._id"]["target_values"]
 
-    print("Re-generating statusmaps with {} intervals...".format(len(byc["genomic_intervals"])))
+    print("Re-generating statusmaps with {} intervals for {} callsets...".format(len(byc["genomic_intervals"]), len(cs_ids)))
 
-    cs_ids = list(cs_id_ks.keys())
     no =  len(cs_ids)
-    bar = Bar("{} callsets from {}".format(no, ds_id), max = no, suffix='%(percent)d%%'+" of "+str(no) )
-    
-    for csid in cs_ids:
+    bar = Bar("{} callsets".format(ds_id), max = no, suffix='%(percent)d%%'+" of "+str(no) )
 
-        cs = cs_coll.find_one( { "id": csid } )
+    for _id in cs_ids:
+
+        cs = cs_coll.find_one( { "_id": _id } )
+        csid = cs["id"]
 
         bar.next()
 
-        if not cs:
-            no_cs_no += 1
-            cs_update_obj = {
-                "id": csid,
-                "biosample_id": cs_id_ks[csid],
-                "info": {}
-            }
-        elif not "info" in cs:
-            cs_update_obj = { "info":{} }
-        else:
-            cs_update_obj = { "info": cs["info"] }
-
+        # only the defined parameters will be overwritten
+        cs_update_obj = { "info": cs.get("info", {}) }
         cs["info"].pop("statusmaps", None)
         cs["info"].pop("cnvstatistics", None)
 
@@ -130,20 +87,15 @@ def _process_dataset(ds_id, byc):
         cs_update_obj.update({ "updated": datetime.datetime.now().isoformat() })
 
         if not byc["test_mode"]:
-            if not cs:
-                cs_coll.insert_one( cs_update_obj  )
-            else:
-                cs_coll.update_one( { "_id": cs["_id"] }, { '$set': cs_update_obj }  )
+            cs_coll.update_one( { "_id": _id }, { '$set': cs_update_obj }  )
         else:
-            print(json.dumps(camelize(maps), sort_keys=True, default=str))
+            prjsonnice(maps)
 
         ####################################################################
         ####################################################################
         ####################################################################
 
     bar.finish()
-
-    print("{} {} biosamples had no callsets".format(no_cs_no, ds_id))
 
 ################################################################################
 ################################################################################

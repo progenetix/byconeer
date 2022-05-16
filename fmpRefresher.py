@@ -48,7 +48,7 @@ def fmp_refresher():
 
     ds_id = "progenetix"
     parse_filters(byc)
-    parse_variants(byc)
+    parse_variant_parameters(byc)
     initialize_beacon_queries(byc)
     generate_genomic_intervals(byc)
 

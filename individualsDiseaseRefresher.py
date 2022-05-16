@@ -29,13 +29,14 @@ def main():
 def individuals_refresher():
 
     initialize_service(byc)
-    get_args(byc)
-    set_processing_modes(byc)
+
 
     select_dataset_ids(byc)
-    check_dataset_ids(byc)
-
+    
     ds_id = byc["dataset_ids"][0]
+
+    # ind_temp = object_instance_from_schema_name(byc, "individual", "properties")
+    # print(ind_temp)
 
     data_client = MongoClient( )
     data_db = data_client[ ds_id ]
@@ -61,7 +62,7 @@ def individuals_refresher():
             continue
 
         update_obj = {
-            "diseases": [],
+            "auxiliary_diseases": [],
             "vital_status": {
                 "status": "UNKNOWN_STATUS"
             },
@@ -88,8 +89,8 @@ def individuals_refresher():
                 disease.update({"stage": stage_def})
             if not "id" in disease["followup_state"]:
                 disease.update({"followup_state": f_u_def})
-            if not "age" in disease["age_of_onset"]:
-                disease.update({"age_of_onset": age_def})
+            if not "age" in disease["onset"]:
+                disease.update({"onset": age_def})
 
             if disease["followup_time"] is not None:
                 update_obj["vital_status"].update({"survival_time_in_days": int(disease["followup_time"] * 30.25) })
@@ -116,7 +117,7 @@ def individuals_refresher():
                 if disease[d_k] == {}:
                     disease.pop(d_k, None)
 
-            update_obj["diseases"].append(disease)
+            update_obj.update({"index_disease": disease })
 
         if not byc["test_mode"]:
             ind_coll.update_one( { "_id": ind["_id"] }, { '$set': update_obj }  )

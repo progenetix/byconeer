@@ -35,32 +35,19 @@ def main():
 def frequencymaps_creator():
 
     initialize_service(byc)
-    get_args(byc)
-    set_processing_modes(byc)
+    run_beacon_init_stack(byc)
 
-    select_dataset_ids(byc)
-    check_dataset_ids(byc)
-    parse_variants(byc)
-
-    if len(byc["dataset_ids"]) < 1:
-        print("No existing dataset was provided with -d ...")
+    if len(byc["dataset_ids"]) > 1:
+        print("Please give only one dataset using -d")
         exit()
 
-    if byc["args"].collationtypes:
-        byc.update({"coll_types": re.split(",", byc["args"].collationtypes)})
+    ds_id = byc["dataset_ids"][0]
 
-    if byc["args"].ontologycodes:
-        byc.update({"coll_filters": re.split(",", byc["args"].ontologycodes)})
-
+    # for non-standard CNV binning
+    genome_binning_from_args(byc)
     generate_genomic_intervals(byc)
- 
-    for ds_id in byc["dataset_ids"]:
-        print( "Creating collations for " + ds_id)
-        _create_frequencymaps_for_collations( ds_id, byc )
-
-################################################################################
-
-def _create_frequencymaps_for_collations( ds_id, byc ):
+    
+    print("=> Using data values from {}".format(ds_id))
 
     coll_client = MongoClient()
     coll_coll = coll_client[ ds_id ][ byc["config"]["collations_coll"] ]
@@ -80,48 +67,44 @@ def _create_frequencymaps_for_collations( ds_id, byc ):
     id_query = {}
     id_ql = []
 
-    if "coll_types" in byc:
-        if len(byc["coll_types"]) > 0:
-            f_l = []
-            for c_t in byc["coll_types"]:
-                f_l.append( { "collation_type": { "$regex": "^"+c_t } })
-            if len(f_l) > 1:
-                id_ql.append( { "$or": f_l } )
-            else:
-                id_ql.append(f_l[0])
-
-    if "coll_filters" in byc:
-        if len(byc["coll_filters"]) > 0:
-            f_l = []
-            for c_t in byc["coll_filters"]:
-                f_l.append( { "id": { "$regex": "^"+c_t } })
-            if len(f_l) > 1:
-                id_ql.append( { "$or": f_l } )
-            else:
-                id_ql.append(f_l[0])
+    if len(byc["filters"]) > 0:
+        f_l = []
+        for c_t in byc["filters"]:
+            f_l.append( { "id": { "$regex": "^"+c_t["id"] } })
+        if len(f_l) > 1:
+            id_ql.append( { "$or": f_l } )
+        else:
+            id_ql.append(f_l[0])
 
     if len(id_ql) == 1:
         id_query = id_ql[0]
     elif len(id_ql) > 1:
         id_query = { "$and":id_ql }
 
-    # print(id_query)
-    # exit()
-
-    coll_no = coll_coll.count_documents(id_query)
+    coll_ids = coll_coll.distinct("_id", id_query)
+    coll_no = len(coll_ids)
    
     print("Writing {} {} fMaps for {} intervals".format(coll_no, ds_id, len(byc["genomic_intervals"])))
 
     coll_i = 0
 
-    for coll in coll_coll.find(id_query):
+    for c_id in coll_ids:
+
+        coll = coll_coll.find_one({"_id":c_id})
+
+        if not coll:
+            print("¡¡¡ some error - collation {} not found !!!".format(c_id))
+            continue
 
         pre, code = re.split("[:-]", coll["id"], 1)
-        coll_type = coll["collation_type"]
+        coll_type = coll.get("collation_type", "undefined")
 
         exclude_normals = True
-        if "EFO:0009654" in coll["id"]:
-            exclude_normals = False
+
+        for normal in byc["service_config"]["keep_normals"]:
+            if normal in coll["id"]:
+                print("---> keeping normals for {}".format(coll["id"]))
+                exclude_normals = False
 
         db_key = coll["db_key"]
 
@@ -130,8 +113,6 @@ def _create_frequencymaps_for_collations( ds_id, byc ):
         query = { db_key: { '$in': coll["child_terms"] } }
         bios_no, cs_cursor = _cs_cursor_from_bios_query(bios_coll, ind_coll, cs_coll, coll["id"], coll["scope"], query, exclude_normals)
         cs_no = len(list(cs_cursor))
-
-        # print("{}: {}".format(coll["id"], cs_no))
 
         if cs_no < 1:
             continue

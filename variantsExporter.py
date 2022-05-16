@@ -29,7 +29,7 @@ from byconeer import *
 def _get_args(byc):
 
     parser = argparse.ArgumentParser()
-    parser.add_argument("-d", "--datasetids", help="dataset")
+    parser.add_argument("-d", "--datasetIds", help="dataset")
     parser.add_argument("-f", "--filters", help="prefixed filter values, comma concatenated")
     parser.add_argument("--value-only", dest='value_only', action='store_true', help="only output variants with values")
     parser.set_defaults(value_only=False)
@@ -51,8 +51,7 @@ def variants_exporter():
     _get_args(byc)
 
     select_dataset_ids(byc)
-    check_dataset_ids(byc)
-
+    
     if len(byc["dataset_ids"]) < 1:
         print("No existing dataset was provided with -d ...")
         exit()

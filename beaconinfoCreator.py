@@ -76,7 +76,7 @@ def _dataset_update_counts(ds, byc):
     ds_db = mongo_client[ ds_id ]
     b_i_ds = { "counts": { }, "updated": datetime.datetime.now().isoformat() }
     c_n = ds_db.list_collection_names()
-    for c in byc["config"]["collections"]:
+    for c in byc["config"]["queried_collections"]:
         if c in c_n:
             no = ds_db[ c ].estimated_document_count()
             b_i_ds["counts"].update( { c: no } )

@@ -30,8 +30,6 @@ def main():
 def biosamples_ISCN_updater():
 
     initialize_service(byc, "biosamples_refresher")
-    get_args(byc)
-    set_processing_modes(byc)
 
     if not byc["args"].inputfile:
         print("No inputfile file specified => quitting ...")
@@ -39,7 +37,7 @@ def biosamples_ISCN_updater():
 
     ds_id = "progenetix"
     parse_filters(byc)
-    parse_variants(byc)
+    parse_variant_parameters(byc)
     initialize_beacon_queries(byc)
     generate_genomic_intervals(byc)
 

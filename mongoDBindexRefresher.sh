@@ -14,39 +14,39 @@ done
 #
 # progenetix genes
 #
-for field in symbol reference_name start end gene_id swiss_prot_accessions
+for field in symbol accession_version reference_name start end gene_id swiss_prot_accessions
 do
   mongo progenetix --eval "db.genes.createIndex( { $field : 1 } )"
 done
 
 
-for db in progenetix 1000genomesDRAGEN cellosaurus
+for db in progenetix
 do
-	for field in updated \"variant_state.id\" variant_type reference_bases reference_name callset_id alternate_bases individual_id biosample_id \"type\" \"location.sequence_id\" \"location.interval.start.value\" \"location.interval.end.value\" \"info.var_length\" variant_internal_id
+	for field in updated \"variant_state.id\" variant_type reference_bases callset_id alternate_bases individual_id biosample_id \"type\" \"location.sequence_id\" \"location.interval.start.value\" \"location.interval.end.value\" \"info.var_length\" variant_internal_id
 	do
 		echo "=> index for $db.variants.$field"
 		mongo $db --eval "db.variants.createIndex( { $field : 1 } )"
 	done
 
-    for dbcoll in biosamples callsets individuals collations
+    for dbcoll in biosamples callsets individuals
 	do
 		echo "=> index for $db.$dbcoll.id"
 		mongo $db --eval "db.$dbcoll.createIndex( { 'id' : 1 }, { 'unique': true } )"
-
 	
-		for field in \"external_references.id\" \"external_references.description\" description \"provenance.geo_location.properties.city\" \"provenance.geo_location.properties.country\" individual_id age_at_collection biosample_status.id
+		for field in \"external_references.id\" \"external_references.label\" description \"provenance.geo_location.properties.city\" \"provenance.geo_location.properties.country\" individual_id age_at_collection biosample_status.id
 		do
 			echo "=> index for $db.biosamples.$field"
 			mongo $db --eval "db.biosamples.createIndex( { $field : 1 } )"
 		done
 	
-		for field in \"provenance.geo_location.properties.city\" \"provenance.geo_location.properties.country\" biosample_id individual_id
-		do
-			echo "=> index for $db.callsets.$field"
-			mongo $db --eval "db.callsets.createIndex( { $field : 1 } )"
-		done
-	
 	done
+
+	for field in biosample_id individual_id
+	do
+		echo "=> index for $db.callsets.$field"
+		mongo $db --eval "db.callsets.createIndex( { $field : 1 } )"
+	done
+
 	
     for dbcoll in collations
 	do
@@ -71,6 +71,19 @@ do
 	do
 		echo "=> index for $db.$dbcoll histologies etc."
 		for field in \"histological_diagnosis.id\" \"sampled_tissue.id\" \"icdo_morphology.id\" \"icdo_topography.id\" \"pathological_tnm_findings.id\" \"tumor_grade.id\" \"pathological_stage.id\"
+		do
+			echo "=> index for $db.$dbcoll.$field"
+			mongo $db --eval "db.$dbcoll.createIndex( { $field : 1 } )"
+		done
+	done
+done
+
+for db in progenetix
+do
+	for dbcoll in individuals
+	do
+		echo "=> index for $db.$dbcoll histologies etc."
+		for field in \"index_disease.disease_code.id\" \"auxiliary_disease.disease_code.id\" 
 		do
 			echo "=> index for $db.$dbcoll.$field"
 			mongo $db --eval "db.$dbcoll.createIndex( { $field : 1 } )"

@@ -34,8 +34,7 @@ def main():
 def ontologymaps_creator():
 
     initialize_service(byc)
-    get_args(byc)
-    set_processing_modes(byc)
+
 
     mongo_client = MongoClient( )
     o_m = { }

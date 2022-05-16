@@ -49,9 +49,8 @@ def biosamples_remover():
     set_processing_modes(byc)
 
     select_dataset_ids(byc)
-    check_dataset_ids(byc)
-    parse_filters(byc)
-    parse_variants(byc)
+        parse_filters(byc)
+    parse_variant_parameters(byc)
     initialize_beacon_queries(byc)
     if len(byc["dataset_ids"]) < 1:
         print("No existing dataset was provided with -d ...")

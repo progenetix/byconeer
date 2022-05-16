@@ -69,7 +69,7 @@ def biosamples_refresher():
     byc["dataset_ids"] = ["progenetix"]
 
     parse_filters(byc)
-    parse_variants(byc)
+    parse_variant_parameters(byc)
     initialize_beacon_queries(byc)
     generate_genomic_intervals(byc)
 

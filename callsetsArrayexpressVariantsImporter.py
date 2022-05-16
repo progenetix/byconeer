@@ -38,7 +38,7 @@ def callsets_variants_importer():
 	set_processing_modes(byc)
 	select_dataset_ids(byc)
 	filters_from_args(byc)
-	parse_variants(byc)
+	parse_variant_parameters(byc)
 	generate_genomic_intervals(byc)
 
 	processsed_root = byc["args"].source # "~/switchdrive/baudisgroup/2022-arrayexpress-reimport"
