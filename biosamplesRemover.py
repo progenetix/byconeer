@@ -5,7 +5,6 @@ from os import path, environ, pardir
 import sys, datetime
 from isodate import date_isoformat
 from pymongo import MongoClient
-import argparse
 import statistics
 from progress.bar import Bar
 

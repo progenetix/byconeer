@@ -1,0 +1,8 @@
+google_spreadsheet_tsv_url:
+  base_url: https://docs.google.com/spreadsheets/d/e/2PACX-1vTtXHn655F6jBrvWX_qe5a__3wxGyDYXc5ozkWJnoicFfSsImLkUrMtFVIQaAdY-7Z5P5OIj6SH2o_o/pub
+  params:
+    output: tsv
+    single: true
+    gid: 0
+
+# "https://docs.google.com/spreadsheets/d/e/2PACX-1vTtXHn655F6jBrvWX_qe5a__3wxGyDYXc5ozkWJnoicFfSsImLkUrMtFVIQaAdY-7Z5P5OIj6SH2o_o/pub?gid=0&single=true&output=tsv"

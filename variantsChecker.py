@@ -1,10 +1,8 @@
 #!/usr/local/bin/python3
 
-import re, json, yaml
+import datetime, re, json, yaml, statistics, sys
 from os import path, environ, pardir
-import sys, datetime
 from pymongo import MongoClient
-import statistics
 from progress.bar import Bar
 
 # bycon is supposed to be in the same parent directory

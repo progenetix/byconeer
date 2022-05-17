@@ -2,11 +2,8 @@
 
 from os import path, pardir
 from pymongo import MongoClient
-import argparse, datetime
 from isodate import date_isoformat
-import cgi, cgitb
-import sys
-import csv
+import cgi, cgitb, csv, datetime, requests, sys
 
 # bycon is supposed to be in the same parent directory
 dir_path = path.dirname( path.abspath(__file__) )
@@ -25,18 +22,31 @@ from byconeer import *
 ##############################################################################
 
 def main():
-    update_publications()
+    publications_inserter()
 
 ##############################################################################
 
-def update_publications():
+def publications_inserter():
 
     initialize_service(byc)
-    
+    get_args(byc)
+    set_processing_modes(byc)
 
-    if not byc["args"].inputfile:
-        print("No inputfile file specified => quitting ...")
-        exit()
+    g_url = byc["service_config"]["google_spreadsheet_tsv_url"]
+
+    if byc["args"].inputfile:
+        pub_file = yc["args"].inputfile
+    else:
+        # print("No inputfile file specified => quitting ...")
+        # exit()
+        pub_file = path.join( dir_path, "tmp", "pubtable.tsv" )
+        r =  requests.get(g_url["base_url"], params=g_url["params"])
+        if r.ok:
+            with open(pub_file, 'wb') as f:
+                f.write(r.content)
+            print("Wrote file to {}".format(pub_file))
+        else:
+            print("Download failed: status code {}\n{}".format(r.status_code, r.text))
 
     rows = []
 
@@ -55,7 +65,7 @@ def update_publications():
 
     up_count = 0
 
-    with open(byc["args"].inputfile, newline='') as csvfile:
+    with open(pub_file, newline='') as csvfile:
 
         in_pubs = list(csv.DictReader(csvfile, delimiter="\t", quotechar='"'))
 

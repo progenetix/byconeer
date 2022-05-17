@@ -4,7 +4,6 @@ import re, json, yaml
 from os import path, environ, pardir
 import sys, datetime
 from pymongo import MongoClient
-import argparse
 import statistics
 from progress.bar import Bar
 
