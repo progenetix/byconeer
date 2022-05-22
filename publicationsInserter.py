@@ -33,13 +33,15 @@ def publications_inserter():
     set_processing_modes(byc)
 
     g_url = byc["service_config"]["google_spreadsheet_tsv_url"]
+    skip_cols = byc["service_config"]["skipped_columns"]
 
     if byc["args"].inputfile:
         pub_file = yc["args"].inputfile
     else:
-        # print("No inputfile file specified => quitting ...")
+        print("No inputfile file specified => pulling the online table ...")
         # exit()
         pub_file = path.join( dir_path, "tmp", "pubtable.tsv" )
+        print("... reading from {}".format(g_url["base_url"]))
         r =  requests.get(g_url["base_url"], params=g_url["params"])
         if r.ok:
             with open(pub_file, 'wb') as f:
@@ -71,77 +73,81 @@ def publications_inserter():
 
         print("=> {} publications will be looked up".format(len(in_pubs)))
 
+        l_i = 0
         for pub in in_pubs:
 
-            if not "pubmedid" in pub:
+            l_i += 1
+            pmid = str(pub.get("pubmedid", "empty")).strip()
+            if not re.match(r'^\d{6,9}$', pmid):
+                print('¡¡¡ Line {}: skipped due to empty or strange pubmedid entry ("{}") !!!'.format(l_i, pmid))
                 continue
-            if "#" in pub:
-                if "#" in pub["#"]:
-                    print(pub["pubmedid"], ": skipped due to skip mark")
-                    continue
+
+            skip_mark = pub.get("SKIP", "")
+            if len(skip_mark) > 0:
+                print('¡¡¡ Line {} ({}): skipped due to non-empty skip field ("{}") !!!'.format(l_i, pmid, skip_mark))
+                continue
 
             include = False
-            if len(pub["pubmedid"]) > 5:
-                pmid = pub["pubmedid"]
-                p_k = "PMID:"+pmid
 
-                """Publications are either created from an empty dummy or - if id exists and
-                `-u 1` taken from the existing one."""
+            p_k = "PMID:"+pmid
 
-                if p_k in publication_ids:
-                    if not byc["update_mode"]:
-                        print(p_k, ": skipped - already in progenetix.publications")
+            """Publications are either created from an empty dummy or - if id exists and
+            `-u 1` taken from the existing one."""
+
+            if p_k in publication_ids:
+                if not byc["update_mode"]:
+                    print(p_k, ": skipped - already in progenetix.publications")
+                    continue
+                else:
+                    n_p = mongo_client["progenetix"]["publications"].find_one({"id": p_k })
+                    print(p_k, ": existed but overwritten since *update* in effect")
+            else:
+                n_p = get_empty_publication(byc)
+                n_p.update({"id":p_k})
+
+            for k, v in pub.items():
+                if k:
+                    if k in skip_cols:
                         continue
-                    else:
-                        n_p = mongo_client["progenetix"]["publications"].find_one({"id": p_k })
-                        print(p_k, ": existed but overwritten since *update* in effect")
-                else:
-                    n_p = get_empty_publication(byc)
-                    n_p.update({"id":p_k})
+                    assign_nested_value(n_p, k, v)
 
-                for k, v in pub.items():
-                    if k:
-                        if k[0].isalpha():
-                            # TODO: create dotted
-                            assign_nested_value(n_p, k, v)
+            try:
+                if len(pub["PROVENANCE_ID"]) > 4:
+                    geo_info = mongo_client["progenetix"]["geolocs"].find_one({"id": pub["PROVENANCE_ID"]}, {"_id": 0, "id": 0})
+                    if geo_info is not None:
+                        n_p["provenance"].update({"geo_location":geo_info["geo_location"]})
+            except KeyError:
+                pass
 
-                try:
-                    if len(pub["#provenance_id"]) > 4:
-                        geo_info = mongo_client["progenetix"]["geolocs"].find_one({"id": pub["#provenance_id"]}, {"_id": 0, "id": 0})
-                        if geo_info is not None:
-                            n_p["provenance"].update({"geo_location":geo_info["geo_location"]})
-                except KeyError:
-                    pass
+            epmc = retrieve_epmc_publications(pmid)
+            update_from_epmc_publication(n_p, epmc)            
+            publication_update_label(n_p)
+            get_ncit_tumor_types(n_p, pub)
 
-                epmc = retrieve_epmc_publications(pmid)
-                update_from_epmc_publication(n_p, epmc)            
-                publication_update_label(n_p)
-                get_ncit_tumor_types(n_p, pub)
+            if p_k in progenetix_ids:
 
-                if p_k in progenetix_ids:
+                n_p["counts"].update({ "progenetix" : 0 })
+                n_p["counts"].update({ "arraymap" : 0 })
 
-                    n_p["counts"].update({ "progenetix" : 0 })
-                    n_p["counts"].update({ "arraymap" : 0 })
+                for s in bios_coll.find({ "external_references.id" : p_k }):
+                    n_p["counts"]["progenetix"] += 1
+                for s in bios_coll.find({ "cohorts.id" : "pgxcohort-arraymap" }):
+                    n_p["counts"]["arraymap"] += 1
 
-                    for s in bios_coll.find({ "external_references.id" : p_k }):
-                        n_p["counts"]["progenetix"] += 1
-                    for s in bios_coll.find({ "cohorts.id" : "pgxcohort-arraymap" }):
-                        n_p["counts"]["arraymap"] += 1
+            for c in n_p["counts"].keys():
+                if isinstance(n_p["counts"][c], str):
+                    try:
+                        n_p["counts"].update({c: int(n_p["counts"][c])})
+                    except:
+                        pass
+            n_p["counts"]["ngs"] = n_p["counts"]["wes"] + n_p["counts"]["wgs"]
 
-                for c in n_p["counts"].keys():
-                    if isinstance(n_p["counts"][c], str):
-                        try:
-                            n_p["counts"].update({c: int(n_p["counts"][c])})
-                        except:
-                            pass
-                n_p["counts"]["ngs"] = n_p["counts"]["wes"] + n_p["counts"]["wgs"]
-
-                if not byc["test_mode"]:
-                    entry = pub_coll.update_one({"id": n_p["id"] }, {"$set": n_p }, upsert=True )
-                    up_count += 1
-                    print(n_p["id"]+": inserting this into progenetix.publications")
-                else:
-                    jprint(n_p)
+            if not byc["test_mode"]:
+                entry = pub_coll.update_one({"id": n_p["id"] }, {"$set": n_p }, upsert=True )
+                up_count += 1
+                print(n_p["id"]+": inserting this into progenetix.publications")
+            else:
+                jprint(n_p)
                     
     print("{} publications were inserted or updated".format(up_count))
 
