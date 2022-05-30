@@ -9,3 +9,6 @@ EFO:0030070	copy number gain	2	8
 EFO:0030071	low-level copy number gain	3	9
 EFO:0030072	high-level copy number gain	3	10
 EFO:0030073	focal genome amplification	4	11
+
+# VRS note: relative_copy_class MUST be one of “complete loss”, “partial loss”, “copy neutral”, “low-level gain” or “high-level gain”
+# i.e. 0030072 & 0030073 both are high-level gain

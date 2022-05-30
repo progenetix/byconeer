@@ -6,6 +6,17 @@
 #
 # progenetix publications
 #
+
+for db in progenetix
+do
+    for dbcoll in publications
+    do
+        echo "=> index for $db.$dbcoll.provenance.geo_location.geometry"
+        mongo $db --eval "db.$dbcoll.createIndex( { \"provenance.geo_location.geometry\" : \"2dsphere\" } )"
+    done
+done
+
+
 for field in \"id\" \"provenance.geo.city\" \"counts.ccgh\" \"counts.acgh\" \"counts.wes\" \"counts.wgs\" \"counts.ngs\" \"counts.genomes\" \"external_references.type.id\"
 do
   mongo progenetix --eval "db.publications.createIndex( { $field : 1 } )"
@@ -33,7 +44,7 @@ do
 		echo "=> index for $db.$dbcoll.id"
 		mongo $db --eval "db.$dbcoll.createIndex( { 'id' : 1 }, { 'unique': true } )"
 	
-		for field in \"external_references.id\" \"external_references.label\" description \"provenance.geo_location.properties.city\" \"provenance.geo_location.properties.country\" individual_id age_at_collection biosample_status.id
+		for field in id \"external_references.id\" \"external_references.label\" description \"provenance.geo_location.properties.city\" \"provenance.geo_location.properties.country\" individual_id age_at_collection biosample_status.id
 		do
 			echo "=> index for $db.biosamples.$field"
 			mongo $db --eval "db.biosamples.createIndex( { $field : 1 } )"
@@ -65,12 +76,12 @@ do
 done
 
 	
-for db in progenetix 1000genomesDRAGEN cellosaurus
+for db in progenetix 
 do
 	for dbcoll in biosamples
 	do
 		echo "=> index for $db.$dbcoll histologies etc."
-		for field in \"histological_diagnosis.id\" \"sampled_tissue.id\" \"icdo_morphology.id\" \"icdo_topography.id\" \"pathological_tnm_findings.id\" \"tumor_grade.id\" \"pathological_stage.id\"
+		for field in \"cohorts.id\" \"histological_diagnosis.id\" \"sampled_tissue.id\" \"icdo_morphology.id\" \"icdo_topography.id\" \"pathological_tnm_findings.id\" \"tumor_grade.id\" \"pathological_stage.id\"
 		do
 			echo "=> index for $db.$dbcoll.$field"
 			mongo $db --eval "db.$dbcoll.createIndex( { $field : 1 } )"
@@ -91,14 +102,6 @@ do
 	done
 done
 
-for db in progenetix
-do
-    for dbcoll in publications
-    do
-        echo "=> index for $db.$dbcoll.provenance.geo_location.geometry"
-        mongo $db --eval "db.$dbcoll.createIndex( { \"provenance.geo_location.geometry\" : \"2dsphere\" } )"
-    done
-done
 
 for db in progenetix
 do
