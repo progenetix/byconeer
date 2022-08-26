@@ -39,7 +39,7 @@ def schema_parser():
 	schema_name = byc["args"].parse
 	ext = byc["args"].mode
 	if not byc["args"].mode:
-		ext = "yaml"
+		ext = "json"
 
 	s_f_p = get_schema_file_path(schema_name, byc, ext)
 	print("=> Using schema {} from {}".format(schema_name, s_f_p))

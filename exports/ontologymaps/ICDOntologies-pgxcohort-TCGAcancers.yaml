@@ -1,0 +1,6291 @@
+- code_group:
+  - id: NCIT:C126594
+    label: Follicular Variant Thyroid Gland Papillary Carcinoma
+  - id: pgx:icdom-83403
+    label: Papillary carcinoma, follicular variant
+  - id: pgx:icdot-C73.9
+    label: Thyroid gland
+  examples:
+  - Primary Tumor
+  id: NCIT:C126594::pgx:icdom-83403::pgx:icdot-C73.9
+  note: TCGA-THCA
+- code_group:
+  - id: NCIT:C129857
+    label: Gingival Squamous Cell Carcinoma
+  - id: pgx:icdom-80703
+    label: Squamous cell carcinoma, NOS
+  - id: pgx:icdot-C03.0
+    label: Upper Gum
+  examples:
+  - Primary Tumor
+  id: NCIT:C129857::pgx:icdom-80703::pgx:icdot-C03.0
+  note: TCGA-HNSC
+- code_group:
+  - id: NCIT:C129857
+    label: Gingival Squamous Cell Carcinoma
+  - id: pgx:icdom-80703
+    label: Squamous cell carcinoma, NOS
+  - id: pgx:icdot-C03.9
+    label: Gum, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C129857::pgx:icdom-80703::pgx:icdot-C03.9
+  note: TCGA-HNSC
+- code_group:
+  - id: NCIT:C132256
+    label: Unspecified Tissue
+  - id: pgx:icdom-85073
+    label: null
+  - id: pgx:icdot-C34.1
+    label: Upper lobe, lung
+  examples:
+  - Primary Tumor
+  id: NCIT:C132256::pgx:icdom-85073::pgx:icdot-C34.1
+  note: TCGA-LUAD
+- code_group:
+  - id: NCIT:C132256
+    label: Unspecified Tissue
+  - id: pgx:icdom-85073
+    label: null
+  - id: pgx:icdot-C34.3
+    label: Lower lobe, lung
+  examples:
+  - Primary Tumor
+  id: NCIT:C132256::pgx:icdom-85073::pgx:icdot-C34.3
+  note: TCGA-LUAD
+- code_group:
+  - id: NCIT:C132256
+    label: Unspecified Tissue
+  - id: pgx:icdom-85073
+    label: null
+  - id: pgx:icdot-C50.9
+    label: Breast, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C132256::pgx:icdom-85073::pgx:icdot-C50.9
+  note: TCGA-BRCA
+- code_group:
+  - id: NCIT:C132256
+    label: Unspecified Tissue
+  - id: pgx:icdom-85211
+    label: Ductular carcinoma, borderline malignancy
+  - id: pgx:icdot-C38.1
+    label: Anterior mediastinum
+  examples:
+  - Primary Tumor
+  id: NCIT:C132256::pgx:icdom-85211::pgx:icdot-C38.1
+  note: TCGA-THYM
+- code_group:
+  - id: NCIT:C26712
+    label: Mucinous Adenocarcinoma
+  - id: pgx:icdom-84803
+    label: Mucinous adenocarcinoma
+  - id: pgx:icdot-C15.5
+    label: Lower third of esophagus
+  examples:
+  - Primary Tumor
+  id: NCIT:C26712::pgx:icdom-84803::pgx:icdot-C15.5
+  note: TCGA-ESCA
+- code_group:
+  - id: NCIT:C26712
+    label: Mucinous Adenocarcinoma
+  - id: pgx:icdom-84803
+    label: Mucinous adenocarcinoma
+  - id: pgx:icdot-C25.0
+    label: Head of pancreas
+  examples:
+  - Primary Tumor
+  id: NCIT:C26712::pgx:icdom-84803::pgx:icdot-C25.0
+  note: TCGA-PAAD
+- code_group:
+  - id: NCIT:C26712
+    label: Mucinous Adenocarcinoma
+  - id: pgx:icdom-84803
+    label: Mucinous adenocarcinoma
+  - id: pgx:icdot-C34.1
+    label: Upper lobe, lung
+  examples:
+  - Primary Tumor
+  id: NCIT:C26712::pgx:icdom-84803::pgx:icdot-C34.1
+  note: TCGA-LUAD
+- code_group:
+  - id: NCIT:C26712
+    label: Mucinous Adenocarcinoma
+  - id: pgx:icdom-84803
+    label: Mucinous adenocarcinoma
+  - id: pgx:icdot-C34.3
+    label: Lower lobe, lung
+  examples:
+  - Primary Tumor
+  id: NCIT:C26712::pgx:icdom-84803::pgx:icdot-C34.3
+  note: TCGA-LUAD
+- code_group:
+  - id: NCIT:C26712
+    label: Mucinous Adenocarcinoma
+  - id: pgx:icdom-84803
+    label: Mucinous adenocarcinoma
+  - id: pgx:icdot-C50.9
+    label: Breast, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C26712::pgx:icdom-84803::pgx:icdot-C50.9
+  note: TCGA-BRCA
+- code_group:
+  - id: NCIT:C26712
+    label: Mucinous Adenocarcinoma
+  - id: pgx:icdom-84803
+    label: Mucinous adenocarcinoma
+  - id: pgx:icdot-C53.9
+    label: Cervix uteri
+  examples:
+  - Primary Tumor
+  id: NCIT:C26712::pgx:icdom-84803::pgx:icdot-C53.9
+  note: TCGA-CESC
+- code_group:
+  - id: NCIT:C26712
+    label: Mucinous Adenocarcinoma
+  - id: pgx:icdom-84803
+    label: Mucinous adenocarcinoma
+  - id: pgx:icdot-C61.9
+    label: Prostate gland
+  examples:
+  - Primary Tumor
+  id: NCIT:C26712::pgx:icdom-84803::pgx:icdot-C61.9
+  note: TCGA-PRAD
+- code_group:
+  - id: NCIT:C26712
+    label: Mucinous Adenocarcinoma
+  - id: pgx:icdom-84803
+    label: Mucinous adenocarcinoma
+  - id: pgx:icdot-C80.9
+    label: Unknown primary site
+  examples:
+  - Primary Tumor
+  id: NCIT:C26712::pgx:icdom-84803::pgx:icdot-C80.9
+  note: TCGA-READ
+- code_group:
+  - id: NCIT:C27007
+    label: Spitz Nevus
+  - id: pgx:icdom-87720
+    label: Spindle cell nevus, NOS
+  - id: pgx:icdot-C34.3
+    label: Lower lobe, lung
+  examples:
+  - Metastatic
+  id: NCIT:C27007::pgx:icdom-87720::pgx:icdot-C34.3
+  note: TCGA-SKCM
+- code_group:
+  - id: NCIT:C27084
+    label: Sarcomatoid Squamous Cell Carcinoma
+  - id: pgx:icdom-80743
+    label: Squamous cell carcinoma, spindle cell
+  - id: pgx:icdot-C01.9
+    label: Base of tongue, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C27084::pgx:icdom-80743::pgx:icdot-C01.9
+  note: TCGA-HNSC
+- code_group:
+  - id: NCIT:C27096
+    label: Undifferentiated (Embryonal) Sarcoma
+  - id: pgx:icdom-88053
+    label: Undifferentiated sarcoma
+  - id: pgx:icdot-C48.0
+    label: Retroperitoneum
+  examples:
+  - Primary Tumor
+  id: NCIT:C27096::pgx:icdom-88053::pgx:icdot-C48.0
+  note: TCGA-SARC
+- code_group:
+  - id: NCIT:C27096
+    label: Undifferentiated (Embryonal) Sarcoma
+  - id: pgx:icdom-88053
+    label: Undifferentiated sarcoma
+  - id: pgx:icdot-C49.0
+    label: Connective, Subcutaneous and other soft tissues of head, face, and neck
+  examples:
+  - Primary Tumor
+  id: NCIT:C27096::pgx:icdom-88053::pgx:icdot-C49.0
+  note: TCGA-SARC
+- code_group:
+  - id: NCIT:C27096
+    label: Undifferentiated (Embryonal) Sarcoma
+  - id: pgx:icdom-88053
+    label: Undifferentiated sarcoma
+  - id: pgx:icdot-C49.1
+    label: Connective, Subcutaneous and other soft tissues of upper limb and shoulder
+  examples:
+  - Primary Tumor
+  id: NCIT:C27096::pgx:icdom-88053::pgx:icdot-C49.1
+  note: TCGA-SARC
+- code_group:
+  - id: NCIT:C27096
+    label: Undifferentiated (Embryonal) Sarcoma
+  - id: pgx:icdom-88053
+    label: Undifferentiated sarcoma
+  - id: pgx:icdot-C49.2
+    label: Connective, Subcutaneous and other soft tissues of lower limb and hip
+  examples:
+  - Primary Tumor
+  - Recurrent Tumor
+  id: NCIT:C27096::pgx:icdom-88053::pgx:icdot-C49.2
+  note: TCGA-SARC
+- code_group:
+  - id: NCIT:C27096
+    label: Undifferentiated (Embryonal) Sarcoma
+  - id: pgx:icdom-88053
+    label: Undifferentiated sarcoma
+  - id: pgx:icdot-C49.3
+    label: Connective, Subcutaneous and other soft tissues of thorax
+  examples:
+  - Primary Tumor
+  id: NCIT:C27096::pgx:icdom-88053::pgx:icdot-C49.3
+  note: TCGA-SARC
+- code_group:
+  - id: NCIT:C27096
+    label: Undifferentiated (Embryonal) Sarcoma
+  - id: pgx:icdom-88053
+    label: Undifferentiated sarcoma
+  - id: pgx:icdot-C49.5
+    label: Connective, Subcutaneous and other soft tissues of pelvis
+  examples:
+  - Primary Tumor
+  id: NCIT:C27096::pgx:icdom-88053::pgx:icdot-C49.5
+  note: TCGA-SARC
+- code_group:
+  - id: NCIT:C27096
+    label: Undifferentiated (Embryonal) Sarcoma
+  - id: pgx:icdom-88053
+    label: Undifferentiated sarcoma
+  - id: pgx:icdot-C49.6
+    label: Connective, Subcutaneous and other soft tissues of trunk, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C27096::pgx:icdom-88053::pgx:icdot-C49.6
+  note: TCGA-SARC
+- code_group:
+  - id: NCIT:C27096
+    label: Undifferentiated (Embryonal) Sarcoma
+  - id: pgx:icdom-88053
+    label: Undifferentiated sarcoma
+  - id: pgx:icdot-C49.9
+    label: Connective, Subcutaneous and other soft tissues, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C27096::pgx:icdom-88053::pgx:icdot-C49.9
+  note: TCGA-SARC
+- code_group:
+  - id: NCIT:C27753
+    label: Acute Myeloid Leukemia Not Otherwise Specified
+  - id: pgx:icdom-98613
+    label: Acute myeloid leukemia, NOS
+  - id: pgx:icdot-C42.1
+    label: Bone marrow
+  examples:
+  - Primary Blood Derived Cancer - Peripheral Blood
+  id: NCIT:C27753::pgx:icdom-98613::pgx:icdot-C42.1
+  note: TCGA-LAML
+- code_group:
+  - id: NCIT:C27839
+    label: Endometrial Endometrioid Adenocarcinoma, Secretory Variant
+  - id: pgx:icdom-83823
+    label: Endometrioid adenocarcinoma, secretory variant
+  - id: pgx:icdot-C54.1
+    label: Endometrium
+  examples:
+  - Primary Tumor
+  id: NCIT:C27839::pgx:icdom-83823::pgx:icdot-C54.1
+  note: TCGA-UCEC
+- code_group:
+  - id: NCIT:C2852
+    label: Adenocarcinoma
+  - id: pgx:icdom-81403
+    label: Adenocarcinoma, NOS
+  - id: pgx:icdot-C49.4
+    label: Connective, Subcutaneous and other soft tissues of abdomen
+  examples:
+  - Primary Tumor
+  id: NCIT:C2852::pgx:icdom-81403::pgx:icdot-C49.4
+  note: TCGA-READ
+- code_group:
+  - id: NCIT:C2852
+    label: Adenocarcinoma
+  - id: pgx:icdom-84013
+    label: Apocrine adenocarcinoma
+  - id: pgx:icdot-C50.9
+    label: Breast, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C2852::pgx:icdom-84013::pgx:icdot-C50.9
+  note: TCGA-BRCA
+- code_group:
+  - id: NCIT:C2853
+    label: Papillary Adenocarcinoma
+  - id: pgx:icdom-82603
+    label: Papillary adenocarcinoma, NOS
+  - id: pgx:icdot-C18.2
+    label: Ascending colon
+  examples:
+  - Primary Tumor
+  id: NCIT:C2853::pgx:icdom-82603::pgx:icdot-C18.2
+  note: TCGA-COAD
+- code_group:
+  - id: NCIT:C2853
+    label: Papillary Adenocarcinoma
+  - id: pgx:icdom-82603
+    label: Papillary adenocarcinoma, NOS
+  - id: pgx:icdot-C18.7
+    label: Sigmoid colon
+  examples:
+  - Primary Tumor
+  id: NCIT:C2853::pgx:icdom-82603::pgx:icdot-C18.7
+  note: TCGA-COAD
+- code_group:
+  - id: NCIT:C2853
+    label: Papillary Adenocarcinoma
+  - id: pgx:icdom-82603
+    label: Papillary adenocarcinoma, NOS
+  - id: pgx:icdot-C34.1
+    label: Upper lobe, lung
+  examples:
+  - Primary Tumor
+  id: NCIT:C2853::pgx:icdom-82603::pgx:icdot-C34.1
+  note: TCGA-LUAD
+- code_group:
+  - id: NCIT:C2853
+    label: Papillary Adenocarcinoma
+  - id: pgx:icdom-82603
+    label: Papillary adenocarcinoma, NOS
+  - id: pgx:icdot-C34.2
+    label: Middle lobe, lung
+  examples:
+  - Primary Tumor
+  id: NCIT:C2853::pgx:icdom-82603::pgx:icdot-C34.2
+  note: TCGA-LUAD
+- code_group:
+  - id: NCIT:C2853
+    label: Papillary Adenocarcinoma
+  - id: pgx:icdom-82603
+    label: Papillary adenocarcinoma, NOS
+  - id: pgx:icdot-C34.3
+    label: Lower lobe, lung
+  examples:
+  - Primary Tumor
+  id: NCIT:C2853::pgx:icdom-82603::pgx:icdot-C34.3
+  note: TCGA-LUAD
+- code_group:
+  - id: NCIT:C2853
+    label: Papillary Adenocarcinoma
+  - id: pgx:icdom-82603
+    label: Papillary adenocarcinoma, NOS
+  - id: pgx:icdot-C34.8
+    label: Overlapping lesion of lung
+  examples:
+  - Primary Tumor
+  id: NCIT:C2853::pgx:icdom-82603::pgx:icdot-C34.8
+  note: TCGA-LUAD
+- code_group:
+  - id: NCIT:C2853
+    label: Papillary Adenocarcinoma
+  - id: pgx:icdom-82603
+    label: Papillary adenocarcinoma, NOS
+  - id: pgx:icdot-C67.1
+    label: Dome of bladder
+  examples:
+  - Primary Tumor
+  id: NCIT:C2853::pgx:icdom-82603::pgx:icdot-C67.1
+  note: TCGA-BLCA
+- code_group:
+  - id: NCIT:C2919
+    label: Prostate Adenocarcinoma
+  - id: pgx:icdom-81403
+    label: Adenocarcinoma, NOS
+  - id: pgx:icdot-C61.9
+    label: Prostate gland
+  examples:
+  - Metastatic
+  - Primary Tumor
+  id: NCIT:C2919::pgx:icdom-81403::pgx:icdot-C61.9
+  note: TCGA-PRAD
+- code_group:
+  - id: NCIT:C2921
+    label: Skin Basal Cell Carcinoma
+  - id: pgx:icdom-80903
+    label: Basal cell carcinoma, NOS
+  - id: pgx:icdot-C50.9
+    label: Breast, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C2921::pgx:icdom-80903::pgx:icdot-C50.9
+  note: TCGA-BRCA
+- code_group:
+  - id: NCIT:C2921
+    label: Skin Basal Cell Carcinoma
+  - id: pgx:icdom-80903
+    label: Basal cell carcinoma, NOS
+  - id: pgx:icdot-C54.9
+    label: Corpus uteri
+  examples:
+  - Primary Tumor
+  id: NCIT:C2921::pgx:icdom-80903::pgx:icdot-C54.9
+  note: TCGA-UCS
+- code_group:
+  - id: NCIT:C2923
+    label: Bronchioloalveolar Carcinoma
+  - id: pgx:icdom-82503
+    label: Bronchiolo-alveolar adenocarcinoma, NOS
+  - id: pgx:icdot-C34.1
+    label: Upper lobe, lung
+  examples:
+  - Primary Tumor
+  id: NCIT:C2923::pgx:icdom-82503::pgx:icdot-C34.1
+  note: TCGA-LUAD
+- code_group:
+  - id: NCIT:C2923
+    label: Bronchioloalveolar Carcinoma
+  - id: pgx:icdom-82503
+    label: Bronchiolo-alveolar adenocarcinoma, NOS
+  - id: pgx:icdot-C34.3
+    label: Lower lobe, lung
+  examples:
+  - Primary Tumor
+  id: NCIT:C2923::pgx:icdom-82503::pgx:icdot-C34.3
+  note: TCGA-LUAD
+- code_group:
+  - id: NCIT:C2927
+    label: Papillary Carcinoma
+  - id: pgx:icdom-80503
+    label: Papillary carcinoma, NOS
+  - id: pgx:icdot-C50.9
+    label: Breast, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C2927::pgx:icdom-80503::pgx:icdot-C50.9
+  note: TCGA-BRCA
+- code_group:
+  - id: NCIT:C2927
+    label: Papillary Carcinoma
+  - id: pgx:icdom-80503
+    label: Papillary carcinoma, NOS
+  - id: pgx:icdot-C73.9
+    label: Thyroid gland
+  examples:
+  - Primary Tumor
+  id: NCIT:C2927::pgx:icdom-80503::pgx:icdot-C73.9
+  note: TCGA-THCA
+- code_group:
+  - id: NCIT:C2929
+    label: Squamous Cell Carcinoma
+  - id: pgx:icdom-80703
+    label: Squamous cell carcinoma, NOS
+  - id: pgx:icdot-C00.9
+    label: Lip, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C2929::pgx:icdom-80703::pgx:icdot-C00.9
+  note: TCGA-HNSC
+- code_group:
+  - id: NCIT:C2929
+    label: Squamous Cell Carcinoma
+  - id: pgx:icdom-80703
+    label: Squamous cell carcinoma, NOS
+  - id: pgx:icdot-C09.9
+    label: Tonsil, NOS
+  examples:
+  - Metastatic
+  - Primary Tumor
+  id: NCIT:C2929::pgx:icdom-80703::pgx:icdot-C09.9
+  note: TCGA-HNSC
+- code_group:
+  - id: NCIT:C2929
+    label: Squamous Cell Carcinoma
+  - id: pgx:icdom-80703
+    label: Squamous cell carcinoma, NOS
+  - id: pgx:icdot-C13.9
+    label: Hypopharynx, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C2929::pgx:icdom-80703::pgx:icdot-C13.9
+  note: TCGA-HNSC
+- code_group:
+  - id: NCIT:C2929
+    label: Squamous Cell Carcinoma
+  - id: pgx:icdom-80703
+    label: Squamous cell carcinoma, NOS
+  - id: pgx:icdot-C14.8
+    label: Overlapping lesion of lip, oral cavity and pharynx
+  examples:
+  - Primary Tumor
+  id: NCIT:C2929::pgx:icdom-80703::pgx:icdot-C14.8
+  note: TCGA-HNSC
+- code_group:
+  - id: NCIT:C2929
+    label: Squamous Cell Carcinoma
+  - id: pgx:icdom-80703
+    label: Squamous cell carcinoma, NOS
+  - id: pgx:icdot-C16.0
+    label: Cardia, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C2929::pgx:icdom-80703::pgx:icdot-C16.0
+  note: TCGA-ESCA
+- code_group:
+  - id: NCIT:C2929
+    label: Squamous Cell Carcinoma
+  - id: pgx:icdom-80703
+    label: Squamous cell carcinoma, NOS
+  - id: pgx:icdot-C32.1
+    label: Supraglottis
+  examples:
+  - Primary Tumor
+  id: NCIT:C2929::pgx:icdom-80703::pgx:icdot-C32.1
+  note: TCGA-HNSC
+- code_group:
+  - id: NCIT:C2929
+    label: Squamous Cell Carcinoma
+  - id: pgx:icdom-80703
+    label: Squamous cell carcinoma, NOS
+  - id: pgx:icdot-C41.1
+    label: Mandible
+  examples:
+  - Primary Tumor
+  id: NCIT:C2929::pgx:icdom-80703::pgx:icdot-C41.1
+  note: TCGA-HNSC
+- code_group:
+  - id: NCIT:C2929
+    label: Squamous Cell Carcinoma
+  - id: pgx:icdom-80703
+    label: Squamous cell carcinoma, NOS
+  - id: pgx:icdot-C56.9
+    label: Ovary
+  examples:
+  - Metastatic
+  - Primary Tumor
+  id: NCIT:C2929::pgx:icdom-80703::pgx:icdot-C56.9
+  note: TCGA-CESC
+- code_group:
+  - id: NCIT:C2970
+    label: Adenoid Cystic Carcinoma
+  - id: pgx:icdom-82003
+    label: Adenoid cystic carcinoma
+  - id: pgx:icdot-C50.9
+    label: Breast, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C2970::pgx:icdom-82003::pgx:icdot-C50.9
+  note: TCGA-BRCA
+- code_group:
+  - id: NCIT:C3011
+    label: Yolk Sac Tumor
+  - id: pgx:icdom-90713
+    label: Yolk sac tumor
+  - id: pgx:icdot-C62.9
+    label: Testis, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C3011::pgx:icdom-90713::pgx:icdot-C62.9
+  note: TCGA-TGCT
+- code_group:
+  - id: NCIT:C3058
+    label: Glioblastoma
+  - id: pgx:icdom-94403
+    label: Glioblastoma
+  - id: pgx:icdot-C71.1
+    label: Frontal lobe
+  examples:
+  - Primary Tumor
+  id: NCIT:C3058::pgx:icdom-94403::pgx:icdot-C71.1
+  note: TCGA-GBM
+- code_group:
+  - id: NCIT:C3058
+    label: Glioblastoma
+  - id: pgx:icdom-94403
+    label: Glioblastoma
+  - id: pgx:icdot-C71.2
+    label: Temporal lobe
+  examples:
+  - Primary Tumor
+  id: NCIT:C3058::pgx:icdom-94403::pgx:icdot-C71.2
+  note: TCGA-GBM
+- code_group:
+  - id: NCIT:C3058
+    label: Glioblastoma
+  - id: pgx:icdom-94403
+    label: Glioblastoma
+  - id: pgx:icdot-C71.4
+    label: Occipital lobe
+  examples:
+  - Primary Tumor
+  id: NCIT:C3058::pgx:icdom-94403::pgx:icdot-C71.4
+  note: TCGA-GBM
+- code_group:
+  - id: NCIT:C3058
+    label: Glioblastoma
+  - id: pgx:icdom-94403
+    label: Glioblastoma
+  - id: pgx:icdot-C71.8
+    label: Overlapping lesion of brain
+  examples:
+  - Primary Tumor
+  id: NCIT:C3058::pgx:icdom-94403::pgx:icdot-C71.8
+  note: TCGA-GBM
+- code_group:
+  - id: NCIT:C3058
+    label: Glioblastoma
+  - id: pgx:icdom-94403
+    label: Glioblastoma
+  - id: pgx:icdot-C71.9
+    label: Brain, NOS
+  examples:
+  - Primary Tumor
+  - Recurrent Tumor
+  id: NCIT:C3058::pgx:icdom-94403::pgx:icdot-C71.9
+  note: TCGA-GBM
+- code_group:
+  - id: NCIT:C3099
+    label: Hepatocellular Carcinoma
+  - id: pgx:icdom-81703
+    label: Hepatocellular carcinoma, NOS
+  - id: pgx:icdot-C22.0
+    label: Liver
+  examples:
+  - Primary Tumor
+  - Recurrent Tumor
+  id: NCIT:C3099::pgx:icdom-81703::pgx:icdot-C22.0
+  note: TCGA-LIHC
+- code_group:
+  - id: NCIT:C3099
+    label: Hepatocellular Carcinoma
+  - id: pgx:icdom-81733
+    label: Hepatocellular carcinoma, spindle cell variant
+  - id: pgx:icdot-C22.0
+    label: Liver
+  examples:
+  - Primary Tumor
+  id: NCIT:C3099::pgx:icdom-81733::pgx:icdot-C22.0
+  note: TCGA-LIHC
+- code_group:
+  - id: NCIT:C3099
+    label: Hepatocellular Carcinoma
+  - id: pgx:icdom-81743
+    label: Hepatocellular carcinoma, clear cell type
+  - id: pgx:icdot-C22.0
+    label: Liver
+  examples:
+  - Primary Tumor
+  id: NCIT:C3099::pgx:icdom-81743::pgx:icdot-C22.0
+  note: TCGA-LIHC
+- code_group:
+  - id: NCIT:C3158
+    label: Leiomyosarcoma
+  - id: pgx:icdom-88903
+    label: Leiomyosarcoma, NOS
+  - id: pgx:icdot-C02.9
+    label: Tongue, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C3158::pgx:icdom-88903::pgx:icdot-C02.9
+  note: TCGA-SARC
+- code_group:
+  - id: NCIT:C3158
+    label: Leiomyosarcoma
+  - id: pgx:icdom-88903
+    label: Leiomyosarcoma, NOS
+  - id: pgx:icdot-C16.9
+    label: Stomach, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C3158::pgx:icdom-88903::pgx:icdot-C16.9
+  note: TCGA-SARC
+- code_group:
+  - id: NCIT:C3158
+    label: Leiomyosarcoma
+  - id: pgx:icdom-88903
+    label: Leiomyosarcoma, NOS
+  - id: pgx:icdot-C40.2
+    label: Long bones of lower limb and associated joints
+  examples:
+  - Primary Tumor
+  id: NCIT:C3158::pgx:icdom-88903::pgx:icdot-C40.2
+  note: TCGA-SARC
+- code_group:
+  - id: NCIT:C3158
+    label: Leiomyosarcoma
+  - id: pgx:icdom-88903
+    label: Leiomyosarcoma, NOS
+  - id: pgx:icdot-C40.3
+    label: Short bones of lower limb and associated joints
+  examples:
+  - Primary Tumor
+  id: NCIT:C3158::pgx:icdom-88903::pgx:icdot-C40.3
+  note: TCGA-SARC
+- code_group:
+  - id: NCIT:C3158
+    label: Leiomyosarcoma
+  - id: pgx:icdom-88903
+    label: Leiomyosarcoma, NOS
+  - id: pgx:icdot-C48.0
+    label: Retroperitoneum
+  examples:
+  - Primary Tumor
+  id: NCIT:C3158::pgx:icdom-88903::pgx:icdot-C48.0
+  note: TCGA-SARC
+- code_group:
+  - id: NCIT:C3158
+    label: Leiomyosarcoma
+  - id: pgx:icdom-88903
+    label: Leiomyosarcoma, NOS
+  - id: pgx:icdot-C49.1
+    label: Connective, Subcutaneous and other soft tissues of upper limb and shoulder
+  examples:
+  - Primary Tumor
+  id: NCIT:C3158::pgx:icdom-88903::pgx:icdot-C49.1
+  note: TCGA-SARC
+- code_group:
+  - id: NCIT:C3158
+    label: Leiomyosarcoma
+  - id: pgx:icdom-88903
+    label: Leiomyosarcoma, NOS
+  - id: pgx:icdot-C49.2
+    label: Connective, Subcutaneous and other soft tissues of lower limb and hip
+  examples:
+  - Primary Tumor
+  id: NCIT:C3158::pgx:icdom-88903::pgx:icdot-C49.2
+  note: TCGA-SARC
+- code_group:
+  - id: NCIT:C3158
+    label: Leiomyosarcoma
+  - id: pgx:icdom-88903
+    label: Leiomyosarcoma, NOS
+  - id: pgx:icdot-C49.3
+    label: Connective, Subcutaneous and other soft tissues of thorax
+  examples:
+  - Primary Tumor
+  id: NCIT:C3158::pgx:icdom-88903::pgx:icdot-C49.3
+  note: TCGA-SARC
+- code_group:
+  - id: NCIT:C3158
+    label: Leiomyosarcoma
+  - id: pgx:icdom-88903
+    label: Leiomyosarcoma, NOS
+  - id: pgx:icdot-C49.4
+    label: Connective, Subcutaneous and other soft tissues of abdomen
+  examples:
+  - Primary Tumor
+  id: NCIT:C3158::pgx:icdom-88903::pgx:icdot-C49.4
+  note: TCGA-SARC
+- code_group:
+  - id: NCIT:C3158
+    label: Leiomyosarcoma
+  - id: pgx:icdom-88903
+    label: Leiomyosarcoma, NOS
+  - id: pgx:icdot-C49.5
+    label: Connective, Subcutaneous and other soft tissues of pelvis
+  examples:
+  - Primary Tumor
+  id: NCIT:C3158::pgx:icdom-88903::pgx:icdot-C49.5
+  note: TCGA-SARC
+- code_group:
+  - id: NCIT:C3158
+    label: Leiomyosarcoma
+  - id: pgx:icdom-88903
+    label: Leiomyosarcoma, NOS
+  - id: pgx:icdot-C49.6
+    label: Connective, Subcutaneous and other soft tissues of trunk, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C3158::pgx:icdom-88903::pgx:icdot-C49.6
+  note: TCGA-SARC
+- code_group:
+  - id: NCIT:C3158
+    label: Leiomyosarcoma
+  - id: pgx:icdom-88903
+    label: Leiomyosarcoma, NOS
+  - id: pgx:icdot-C49.8
+    label: Overlapping lesion of connective, subcutaneous and other soft tissues
+  examples:
+  - Primary Tumor
+  id: NCIT:C3158::pgx:icdom-88903::pgx:icdot-C49.8
+  note: TCGA-SARC
+- code_group:
+  - id: NCIT:C3158
+    label: Leiomyosarcoma
+  - id: pgx:icdom-88903
+    label: Leiomyosarcoma, NOS
+  - id: pgx:icdot-C49.9
+    label: Connective, Subcutaneous and other soft tissues, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C3158::pgx:icdom-88903::pgx:icdot-C49.9
+  note: TCGA-SARC
+- code_group:
+  - id: NCIT:C3194
+    label: Liposarcoma
+  - id: pgx:icdom-88503
+    label: Liposarcoma, NOS
+  - id: pgx:icdot-C49.9
+    label: Connective, Subcutaneous and other soft tissues, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C3194::pgx:icdom-88503::pgx:icdot-C49.9
+  note: TCGA-SARC
+- code_group:
+  - id: NCIT:C3224
+    label: Melanoma
+  - id: pgx:icdom-87203
+    label: Malignant melanoma, NOS
+  - id: pgx:icdot-C22.0
+    label: Liver
+  examples:
+  - Metastatic
+  id: NCIT:C3224::pgx:icdom-87203::pgx:icdot-C22.0
+  note: TCGA-SKCM
+- code_group:
+  - id: NCIT:C3288
+    label: Oligodendroglioma
+  - id: pgx:icdom-94503
+    label: Oligodendroglioma, NOS
+  - id: pgx:icdot-C71.0
+    label: Cerebrum
+  examples:
+  - Primary Tumor
+  - Recurrent Tumor
+  id: NCIT:C3288::pgx:icdom-94503::pgx:icdot-C71.0
+  note: TCGA-LGG
+- code_group:
+  - id: NCIT:C3288
+    label: Oligodendroglioma
+  - id: pgx:icdom-94503
+    label: Oligodendroglioma, NOS
+  - id: pgx:icdot-C71.2
+    label: Temporal lobe
+  examples:
+  - Primary Tumor
+  - Recurrent Tumor
+  id: NCIT:C3288::pgx:icdom-94503::pgx:icdot-C71.2
+  note: TCGA-LGG
+- code_group:
+  - id: NCIT:C3288
+    label: Oligodendroglioma
+  - id: pgx:icdom-94503
+    label: Oligodendroglioma, NOS
+  - id: pgx:icdot-C71.9
+    label: Brain, NOS
+  examples:
+  - Primary Tumor
+  - Recurrent Tumor
+  id: NCIT:C3288::pgx:icdom-94503::pgx:icdot-C71.9
+  note: TCGA-LGG
+- code_group:
+  - id: NCIT:C3308
+    label: Paraganglioma
+  - id: pgx:icdom-86801
+    label: Paraganglioma, NOS
+  - id: pgx:icdot-C48.0
+    label: Retroperitoneum
+  examples:
+  - Primary Tumor
+  id: NCIT:C3308::pgx:icdom-86801::pgx:icdot-C48.0
+  note: TCGA-PCPG
+- code_group:
+  - id: NCIT:C3308
+    label: Paraganglioma
+  - id: pgx:icdom-86801
+    label: Paraganglioma, NOS
+  - id: pgx:icdot-C49.3
+    label: Connective, Subcutaneous and other soft tissues of thorax
+  examples:
+  - Primary Tumor
+  id: NCIT:C3308::pgx:icdom-86801::pgx:icdot-C49.3
+  note: TCGA-PCPG
+- code_group:
+  - id: NCIT:C3308
+    label: Paraganglioma
+  - id: pgx:icdom-86801
+    label: Paraganglioma, NOS
+  - id: pgx:icdot-C49.4
+    label: Connective, Subcutaneous and other soft tissues of abdomen
+  examples:
+  - Primary Tumor
+  id: NCIT:C3308::pgx:icdom-86801::pgx:icdot-C49.4
+  note: TCGA-PCPG
+- code_group:
+  - id: NCIT:C3309
+    label: Extra-Adrenal Paraganglioma
+  - id: pgx:icdom-86931
+    label: Extra-adrenal paraganglioma, NOS
+  - id: pgx:icdot-C38.0
+    label: Heart
+  examples:
+  - Primary Tumor
+  id: NCIT:C3309::pgx:icdom-86931::pgx:icdot-C38.0
+  note: TCGA-PCPG
+- code_group:
+  - id: NCIT:C3309
+    label: Extra-Adrenal Paraganglioma
+  - id: pgx:icdom-86931
+    label: Extra-adrenal paraganglioma, NOS
+  - id: pgx:icdot-C48.0
+    label: Retroperitoneum
+  examples:
+  - Primary Tumor
+  id: NCIT:C3309::pgx:icdom-86931::pgx:icdot-C48.0
+  note: TCGA-PCPG
+- code_group:
+  - id: NCIT:C3309
+    label: Extra-Adrenal Paraganglioma
+  - id: pgx:icdom-86931
+    label: Extra-adrenal paraganglioma, NOS
+  - id: pgx:icdot-C49.3
+    label: Connective, Subcutaneous and other soft tissues of thorax
+  examples:
+  - Primary Tumor
+  id: NCIT:C3309::pgx:icdom-86931::pgx:icdot-C49.3
+  note: TCGA-PCPG
+- code_group:
+  - id: NCIT:C3309
+    label: Extra-Adrenal Paraganglioma
+  - id: pgx:icdom-86931
+    label: Extra-adrenal paraganglioma, NOS
+  - id: pgx:icdot-C49.4
+    label: Connective, Subcutaneous and other soft tissues of abdomen
+  examples:
+  - Primary Tumor
+  id: NCIT:C3309::pgx:icdom-86931::pgx:icdot-C49.4
+  note: TCGA-PCPG
+- code_group:
+  - id: NCIT:C3309
+    label: Extra-Adrenal Paraganglioma
+  - id: pgx:icdom-86931
+    label: Extra-adrenal paraganglioma, NOS
+  - id: pgx:icdot-C49.5
+    label: Connective, Subcutaneous and other soft tissues of pelvis
+  examples:
+  - Primary Tumor
+  id: NCIT:C3309::pgx:icdom-86931::pgx:icdot-C49.5
+  note: TCGA-PCPG
+- code_group:
+  - id: NCIT:C3309
+    label: Extra-Adrenal Paraganglioma
+  - id: pgx:icdom-86931
+    label: Extra-adrenal paraganglioma, NOS
+  - id: pgx:icdot-C49.6
+    label: Connective, Subcutaneous and other soft tissues of trunk, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C3309::pgx:icdom-86931::pgx:icdot-C49.6
+  note: TCGA-PCPG
+- code_group:
+  - id: NCIT:C3309
+    label: Extra-Adrenal Paraganglioma
+  - id: pgx:icdom-86931
+    label: Extra-adrenal paraganglioma, NOS
+  - id: pgx:icdot-C76.1
+    label: Thorax, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C3309::pgx:icdom-86931::pgx:icdot-C76.1
+  note: TCGA-PCPG
+- code_group:
+  - id: NCIT:C3326
+    label: Adrenal Gland Pheochromocytoma
+  - id: pgx:icdom-87000
+    label: Pheochromocytoma, NOS
+  - id: pgx:icdot-C48.0
+    label: Retroperitoneum
+  examples:
+  - Primary Tumor
+  id: NCIT:C3326::pgx:icdom-87000::pgx:icdot-C48.0
+  note: TCGA-PCPG
+- code_group:
+  - id: NCIT:C3326
+    label: Adrenal Gland Pheochromocytoma
+  - id: pgx:icdom-87000
+    label: Pheochromocytoma, NOS
+  - id: pgx:icdot-C74.0
+    label: Cortex of adrenal gland
+  examples:
+  - Primary Tumor
+  id: NCIT:C3326::pgx:icdom-87000::pgx:icdot-C74.0
+  note: TCGA-PCPG
+- code_group:
+  - id: NCIT:C3326
+    label: Adrenal Gland Pheochromocytoma
+  - id: pgx:icdom-87000
+    label: Pheochromocytoma, NOS
+  - id: pgx:icdot-C74.1
+    label: Medulla of adrenal gland
+  examples:
+  - Primary Tumor
+  id: NCIT:C3326::pgx:icdom-87000::pgx:icdot-C74.1
+  note: TCGA-PCPG
+- code_group:
+  - id: NCIT:C3326
+    label: Adrenal Gland Pheochromocytoma
+  - id: pgx:icdom-87000
+    label: Pheochromocytoma, NOS
+  - id: pgx:icdot-C74.9
+    label: Adrenal gland, NOS
+  examples:
+  - Additional - New Primary
+  - Primary Tumor
+  id: NCIT:C3326::pgx:icdom-87000::pgx:icdot-C74.9
+  note: TCGA-PCPG
+- code_group:
+  - id: NCIT:C3400
+    label: Synovial Sarcoma
+  - id: pgx:icdom-90403
+    label: Synovial sarcoma, NOS
+  - id: pgx:icdot-C49.1
+    label: Connective, Subcutaneous and other soft tissues of upper limb and shoulder
+  examples:
+  - Primary Tumor
+  id: NCIT:C3400::pgx:icdom-90403::pgx:icdot-C49.1
+  note: TCGA-SARC
+- code_group:
+  - id: NCIT:C3400
+    label: Synovial Sarcoma
+  - id: pgx:icdom-90403
+    label: Synovial sarcoma, NOS
+  - id: pgx:icdot-C49.3
+    label: Connective, Subcutaneous and other soft tissues of thorax
+  examples:
+  - Primary Tumor
+  id: NCIT:C3400::pgx:icdom-90403::pgx:icdot-C49.3
+  note: TCGA-SARC
+- code_group:
+  - id: NCIT:C3493
+    label: Squamous Cell Lung Carcinoma
+  - id: pgx:icdom-80703
+    label: Squamous cell carcinoma, NOS
+  - id: pgx:icdot-C34.0
+    label: Main bronchus
+  examples:
+  - Primary Tumor
+  id: NCIT:C3493::pgx:icdom-80703::pgx:icdot-C34.0
+  note: TCGA-LUSC
+- code_group:
+  - id: NCIT:C3493
+    label: Squamous Cell Lung Carcinoma
+  - id: pgx:icdom-80703
+    label: Squamous cell carcinoma, NOS
+  - id: pgx:icdot-C34.1
+    label: Upper lobe, lung
+  examples:
+  - Primary Tumor
+  id: NCIT:C3493::pgx:icdom-80703::pgx:icdot-C34.1
+  note: TCGA-LUSC
+- code_group:
+  - id: NCIT:C3493
+    label: Squamous Cell Lung Carcinoma
+  - id: pgx:icdom-80703
+    label: Squamous cell carcinoma, NOS
+  - id: pgx:icdot-C34.2
+    label: Middle lobe, lung
+  examples:
+  - Primary Tumor
+  id: NCIT:C3493::pgx:icdom-80703::pgx:icdot-C34.2
+  note: TCGA-LUSC
+- code_group:
+  - id: NCIT:C3493
+    label: Squamous Cell Lung Carcinoma
+  - id: pgx:icdom-80703
+    label: Squamous cell carcinoma, NOS
+  - id: pgx:icdot-C34.3
+    label: Lower lobe, lung
+  examples:
+  - Primary Tumor
+  id: NCIT:C3493::pgx:icdom-80703::pgx:icdot-C34.3
+  note: TCGA-LUSC
+- code_group:
+  - id: NCIT:C3493
+    label: Squamous Cell Lung Carcinoma
+  - id: pgx:icdom-80703
+    label: Squamous cell carcinoma, NOS
+  - id: pgx:icdot-C34.8
+    label: Overlapping lesion of lung
+  examples:
+  - Primary Tumor
+  id: NCIT:C3493::pgx:icdom-80703::pgx:icdot-C34.8
+  note: TCGA-LUSC
+- code_group:
+  - id: NCIT:C3493
+    label: Squamous Cell Lung Carcinoma
+  - id: pgx:icdom-80703
+    label: Squamous cell carcinoma, NOS
+  - id: pgx:icdot-C34.9
+    label: Lung, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C3493::pgx:icdom-80703::pgx:icdot-C34.9
+  note: TCGA-LUSC
+- code_group:
+  - id: NCIT:C3510
+    label: Cutaneous Melanoma
+  - id: pgx:icdom-87203
+    label: Malignant melanoma, NOS
+  - id: pgx:icdot-C44.4
+    label: Skin of scalp and neck
+  examples:
+  - Metastatic
+  - Primary Tumor
+  id: NCIT:C3510::pgx:icdom-87203::pgx:icdot-C44.4
+  note: TCGA-SKCM
+- code_group:
+  - id: NCIT:C3510
+    label: Cutaneous Melanoma
+  - id: pgx:icdom-87203
+    label: Malignant melanoma, NOS
+  - id: pgx:icdot-C44.5
+    label: Skin of trunk
+  examples:
+  - Metastatic
+  - Primary Tumor
+  id: NCIT:C3510::pgx:icdom-87203::pgx:icdot-C44.5
+  note: TCGA-SKCM
+- code_group:
+  - id: NCIT:C3510
+    label: Cutaneous Melanoma
+  - id: pgx:icdom-87203
+    label: Malignant melanoma, NOS
+  - id: pgx:icdot-C44.6
+    label: Skin of upper limb and shoulder
+  examples:
+  - Metastatic
+  - Primary Tumor
+  id: NCIT:C3510::pgx:icdom-87203::pgx:icdot-C44.6
+  note: TCGA-SKCM
+- code_group:
+  - id: NCIT:C3510
+    label: Cutaneous Melanoma
+  - id: pgx:icdom-87203
+    label: Malignant melanoma, NOS
+  - id: pgx:icdot-C44.7
+    label: Skin of lower limb and hip
+  examples:
+  - Metastatic
+  - Primary Tumor
+  id: NCIT:C3510::pgx:icdom-87203::pgx:icdot-C44.7
+  note: TCGA-SKCM
+- code_group:
+  - id: NCIT:C3510
+    label: Cutaneous Melanoma
+  - id: pgx:icdom-87203
+    label: Malignant melanoma, NOS
+  - id: pgx:icdot-C44.9
+    label: Skin, NOS
+  examples:
+  - Metastatic
+  - Primary Tumor
+  id: NCIT:C3510::pgx:icdom-87203::pgx:icdot-C44.9
+  note: TCGA-SKCM
+- code_group:
+  - id: NCIT:C3512
+    label: Lung Adenocarcinoma
+  - id: pgx:icdom-81403
+    label: Adenocarcinoma, NOS
+  - id: pgx:icdot-C34.0
+    label: Main bronchus
+  examples:
+  - Primary Tumor
+  id: NCIT:C3512::pgx:icdom-81403::pgx:icdot-C34.0
+  note: TCGA-LUAD
+- code_group:
+  - id: NCIT:C3512
+    label: Lung Adenocarcinoma
+  - id: pgx:icdom-81403
+    label: Adenocarcinoma, NOS
+  - id: pgx:icdot-C34.1
+    label: Upper lobe, lung
+  examples:
+  - Primary Tumor
+  id: NCIT:C3512::pgx:icdom-81403::pgx:icdot-C34.1
+  note: TCGA-LUAD
+- code_group:
+  - id: NCIT:C3512
+    label: Lung Adenocarcinoma
+  - id: pgx:icdom-81403
+    label: Adenocarcinoma, NOS
+  - id: pgx:icdot-C34.2
+    label: Middle lobe, lung
+  examples:
+  - Primary Tumor
+  id: NCIT:C3512::pgx:icdom-81403::pgx:icdot-C34.2
+  note: TCGA-LUAD
+- code_group:
+  - id: NCIT:C3512
+    label: Lung Adenocarcinoma
+  - id: pgx:icdom-81403
+    label: Adenocarcinoma, NOS
+  - id: pgx:icdot-C34.3
+    label: Lower lobe, lung
+  examples:
+  - Primary Tumor
+  id: NCIT:C3512::pgx:icdom-81403::pgx:icdot-C34.3
+  note: TCGA-LUAD
+- code_group:
+  - id: NCIT:C3512
+    label: Lung Adenocarcinoma
+  - id: pgx:icdom-81403
+    label: Adenocarcinoma, NOS
+  - id: pgx:icdot-C34.9
+    label: Lung, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C3512::pgx:icdom-81403::pgx:icdot-C34.9
+  note: TCGA-LUAD
+- code_group:
+  - id: NCIT:C35417
+    label: Intrahepatic Cholangiocarcinoma
+  - id: pgx:icdom-81603
+    label: Cholangiocarcinoma
+  - id: pgx:icdot-C22.1
+    label: intrahepatic bile duct
+  examples:
+  - Primary Tumor
+  id: NCIT:C35417::pgx:icdom-81603::pgx:icdot-C22.1
+  note: TCGA-CHOL
+- code_group:
+  - id: NCIT:C35830
+    label: Columnar Cell Variant Thyroid Gland Papillary Carcinoma
+  - id: pgx:icdom-83443
+    label: Papillary carcinoma, columnar cell
+  - id: pgx:icdot-C73.9
+    label: Thyroid gland
+  examples:
+  - Primary Tumor
+  id: NCIT:C35830::pgx:icdom-83443::pgx:icdot-C73.9
+  note: TCGA-THCA
+- code_group:
+  - id: NCIT:C3679
+    label: Oxyphilic Adenocarcinoma
+  - id: pgx:icdom-82903
+    label: Oxyphilic adenocarcinoma
+  - id: pgx:icdot-C73.9
+    label: Thyroid gland
+  examples:
+  - Primary Tumor
+  id: NCIT:C3679::pgx:icdom-82903::pgx:icdot-C73.9
+  note: TCGA-THCA
+- code_group:
+  - id: NCIT:C3692
+    label: Undifferentiated Carcinoma
+  - id: pgx:icdom-80203
+    label: Carcinoma, undifferentiated, NOS
+  - id: pgx:icdot-C25.0
+    label: Head of pancreas
+  examples:
+  - Primary Tumor
+  id: NCIT:C3692::pgx:icdom-80203::pgx:icdot-C25.0
+  note: TCGA-PAAD
+- code_group:
+  - id: NCIT:C3692
+    label: Undifferentiated Carcinoma
+  - id: pgx:icdom-80203
+    label: Carcinoma, undifferentiated, NOS
+  - id: pgx:icdot-C54.1
+    label: Endometrium
+  examples:
+  - Primary Tumor
+  id: NCIT:C3692::pgx:icdom-80203::pgx:icdot-C54.1
+  note: TCGA-UCEC
+- code_group:
+  - id: NCIT:C3701
+    label: Myxoid Leiomyosarcoma
+  - id: pgx:icdom-88963
+    label: Myxoid leiomyosarcoma
+  - id: pgx:icdot-C48.0
+    label: Retroperitoneum
+  examples:
+  - Primary Tumor
+  id: NCIT:C3701::pgx:icdom-88963::pgx:icdot-C48.0
+  note: TCGA-SARC
+- code_group:
+  - id: NCIT:C3701
+    label: Myxoid Leiomyosarcoma
+  - id: pgx:icdom-88963
+    label: Myxoid leiomyosarcoma
+  - id: pgx:icdot-C54.0
+    label: Isthmus uteri
+  examples:
+  - Primary Tumor
+  id: NCIT:C3701::pgx:icdom-88963::pgx:icdot-C54.0
+  note: TCGA-SARC
+- code_group:
+  - id: NCIT:C3701
+    label: Myxoid Leiomyosarcoma
+  - id: pgx:icdom-88963
+    label: Myxoid leiomyosarcoma
+  - id: pgx:icdot-C55.9
+    label: Uterus, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C3701::pgx:icdom-88963::pgx:icdot-C55.9
+  note: TCGA-SARC
+- code_group:
+  - id: NCIT:C3704
+    label: Dedifferentiated Liposarcoma
+  - id: pgx:icdom-88583
+    label: Dedifferentiated liposarcoma
+  - id: pgx:icdot-C16.9
+    label: Stomach, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C3704::pgx:icdom-88583::pgx:icdot-C16.9
+  note: TCGA-SARC
+- code_group:
+  - id: NCIT:C3704
+    label: Dedifferentiated Liposarcoma
+  - id: pgx:icdom-88583
+    label: Dedifferentiated liposarcoma
+  - id: pgx:icdot-C18.6
+    label: Descending colon
+  examples:
+  - Primary Tumor
+  id: NCIT:C3704::pgx:icdom-88583::pgx:icdot-C18.6
+  note: TCGA-SARC
+- code_group:
+  - id: NCIT:C3704
+    label: Dedifferentiated Liposarcoma
+  - id: pgx:icdom-88583
+    label: Dedifferentiated liposarcoma
+  - id: pgx:icdot-C48.0
+    label: Retroperitoneum
+  examples:
+  - Primary Tumor
+  id: NCIT:C3704::pgx:icdom-88583::pgx:icdot-C48.0
+  note: TCGA-SARC
+- code_group:
+  - id: NCIT:C3704
+    label: Dedifferentiated Liposarcoma
+  - id: pgx:icdom-88583
+    label: Dedifferentiated liposarcoma
+  - id: pgx:icdot-C48.1
+    label: Specified parts of peritoneum
+  examples:
+  - Primary Tumor
+  id: NCIT:C3704::pgx:icdom-88583::pgx:icdot-C48.1
+  note: TCGA-SARC
+- code_group:
+  - id: NCIT:C3704
+    label: Dedifferentiated Liposarcoma
+  - id: pgx:icdom-88583
+    label: Dedifferentiated liposarcoma
+  - id: pgx:icdot-C49.1
+    label: Connective, Subcutaneous and other soft tissues of upper limb and shoulder
+  examples:
+  - Primary Tumor
+  id: NCIT:C3704::pgx:icdom-88583::pgx:icdot-C49.1
+  note: TCGA-SARC
+- code_group:
+  - id: NCIT:C3704
+    label: Dedifferentiated Liposarcoma
+  - id: pgx:icdom-88583
+    label: Dedifferentiated liposarcoma
+  - id: pgx:icdot-C49.2
+    label: Connective, Subcutaneous and other soft tissues of lower limb and hip
+  examples:
+  - Primary Tumor
+  id: NCIT:C3704::pgx:icdom-88583::pgx:icdot-C49.2
+  note: TCGA-SARC
+- code_group:
+  - id: NCIT:C3704
+    label: Dedifferentiated Liposarcoma
+  - id: pgx:icdom-88583
+    label: Dedifferentiated liposarcoma
+  - id: pgx:icdot-C49.3
+    label: Connective, Subcutaneous and other soft tissues of thorax
+  examples:
+  - Primary Tumor
+  id: NCIT:C3704::pgx:icdom-88583::pgx:icdot-C49.3
+  note: TCGA-SARC
+- code_group:
+  - id: NCIT:C3704
+    label: Dedifferentiated Liposarcoma
+  - id: pgx:icdom-88583
+    label: Dedifferentiated liposarcoma
+  - id: pgx:icdot-C49.5
+    label: Connective, Subcutaneous and other soft tissues of pelvis
+  examples:
+  - Primary Tumor
+  id: NCIT:C3704::pgx:icdom-88583::pgx:icdot-C49.5
+  note: TCGA-SARC
+- code_group:
+  - id: NCIT:C3704
+    label: Dedifferentiated Liposarcoma
+  - id: pgx:icdom-88583
+    label: Dedifferentiated liposarcoma
+  - id: pgx:icdot-C63.1
+    label: Spermatic cord
+  examples:
+  - Primary Tumor
+  id: NCIT:C3704::pgx:icdom-88583::pgx:icdot-C63.1
+  note: TCGA-SARC
+- code_group:
+  - id: NCIT:C3705
+    label: Pleomorphic Liposarcoma
+  - id: pgx:icdom-88543
+    label: Pleomorphic liposarcoma
+  - id: pgx:icdot-C49.0
+    label: Connective, Subcutaneous and other soft tissues of head, face, and neck
+  examples:
+  - Primary Tumor
+  id: NCIT:C3705::pgx:icdom-88543::pgx:icdot-C49.0
+  note: TCGA-SARC
+- code_group:
+  - id: NCIT:C3705
+    label: Pleomorphic Liposarcoma
+  - id: pgx:icdom-88543
+    label: Pleomorphic liposarcoma
+  - id: pgx:icdot-C49.2
+    label: Connective, Subcutaneous and other soft tissues of lower limb and hip
+  examples:
+  - Primary Tumor
+  id: NCIT:C3705::pgx:icdom-88543::pgx:icdot-C49.2
+  note: TCGA-SARC
+- code_group:
+  - id: NCIT:C3727
+    label: Adenosquamous Carcinoma
+  - id: pgx:icdom-85603
+    label: Adenosquamous carcinoma
+  - id: pgx:icdot-C18.2
+    label: Ascending colon
+  examples:
+  - Primary Tumor
+  id: NCIT:C3727::pgx:icdom-85603::pgx:icdot-C18.2
+  note: TCGA-COAD
+- code_group:
+  - id: NCIT:C3730
+    label: Mixed Mesodermal (Mullerian) Tumor
+  - id: pgx:icdom-89503
+    label: Mullerian mixed tumor
+  - id: pgx:icdot-C54.1
+    label: Endometrium
+  examples:
+  - Primary Tumor
+  id: NCIT:C3730::pgx:icdom-89503::pgx:icdot-C54.1
+  note: TCGA-UCS
+- code_group:
+  - id: NCIT:C3730
+    label: Mixed Mesodermal (Mullerian) Tumor
+  - id: pgx:icdom-89503
+    label: Mullerian mixed tumor
+  - id: pgx:icdot-C54.2
+    label: Myometrium
+  examples:
+  - Primary Tumor
+  id: NCIT:C3730::pgx:icdom-89503::pgx:icdot-C54.2
+  note: TCGA-UCS
+- code_group:
+  - id: NCIT:C3730
+    label: Mixed Mesodermal (Mullerian) Tumor
+  - id: pgx:icdom-89503
+    label: Mullerian mixed tumor
+  - id: pgx:icdot-C54.3
+    label: Fundus uteri
+  examples:
+  - Primary Tumor
+  id: NCIT:C3730::pgx:icdom-89503::pgx:icdot-C54.3
+  note: TCGA-UCS
+- code_group:
+  - id: NCIT:C3730
+    label: Mixed Mesodermal (Mullerian) Tumor
+  - id: pgx:icdom-89503
+    label: Mullerian mixed tumor
+  - id: pgx:icdot-C54.9
+    label: Corpus uteri
+  examples:
+  - Primary Tumor
+  id: NCIT:C3730::pgx:icdom-89503::pgx:icdot-C54.9
+  note: TCGA-UCS
+- code_group:
+  - id: NCIT:C3730
+    label: Mixed Mesodermal (Mullerian) Tumor
+  - id: pgx:icdom-89503
+    label: Mullerian mixed tumor
+  - id: pgx:icdot-C55.9
+    label: Uterus, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C3730::pgx:icdom-89503::pgx:icdot-C55.9
+  note: TCGA-UCS
+- code_group:
+  - id: NCIT:C3730
+    label: Mixed Mesodermal (Mullerian) Tumor
+  - id: pgx:icdom-89513
+    label: Mesodermal mixed tumor
+  - id: pgx:icdot-C55.9
+    label: Uterus, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C3730::pgx:icdom-89513::pgx:icdot-C55.9
+  note: TCGA-UCS
+- code_group:
+  - id: NCIT:C3741
+    label: Abdominal (Mesenteric) Fibromatosis
+  - id: pgx:icdom-88221
+    label: Abdominal fibromatosis
+  - id: pgx:icdot-C48.0
+    label: Retroperitoneum
+  examples:
+  - Primary Tumor
+  id: NCIT:C3741::pgx:icdom-88221::pgx:icdot-C48.0
+  note: TCGA-SARC
+- code_group:
+  - id: NCIT:C3752
+    label: Embryonal Carcinoma
+  - id: pgx:icdom-90703
+    label: Embryonal carcinoma, NOS
+  - id: pgx:icdot-C62.9
+    label: Testis, NOS
+  examples:
+  - Additional - New Primary
+  - Primary Tumor
+  id: NCIT:C3752::pgx:icdom-90703::pgx:icdot-C62.9
+  note: TCGA-TGCT
+- code_group:
+  - id: NCIT:C3756
+    label: Mixed Embryonal Carcinoma and Teratoma
+  - id: pgx:icdom-90813
+    label: Teratocarcinoma
+  - id: pgx:icdot-C62.9
+    label: Testis, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C3756::pgx:icdom-90813::pgx:icdot-C62.9
+  note: TCGA-TGCT
+- code_group:
+  - id: NCIT:C3766
+    label: Clear Cell Adenocarcinoma
+  - id: pgx:icdom-83103
+    label: Clear cell adenocarcinoma, NOS
+  - id: pgx:icdot-C22.0
+    label: Liver
+  examples:
+  - Primary Tumor
+  id: NCIT:C3766::pgx:icdom-83103::pgx:icdot-C22.0
+  note: TCGA-LIHC
+- code_group:
+  - id: NCIT:C3766
+    label: Clear Cell Adenocarcinoma
+  - id: pgx:icdom-83103
+    label: Clear cell adenocarcinoma, NOS
+  - id: pgx:icdot-C34.1
+    label: Upper lobe, lung
+  examples:
+  - Primary Tumor
+  id: NCIT:C3766::pgx:icdom-83103::pgx:icdot-C34.1
+  note: TCGA-LUAD
+- code_group:
+  - id: NCIT:C3766
+    label: Clear Cell Adenocarcinoma
+  - id: pgx:icdom-83103
+    label: Clear cell adenocarcinoma, NOS
+  - id: pgx:icdot-C34.3
+    label: Lower lobe, lung
+  examples:
+  - Primary Tumor
+  id: NCIT:C3766::pgx:icdom-83103::pgx:icdot-C34.3
+  note: TCGA-LUAD
+- code_group:
+  - id: NCIT:C3766
+    label: Clear Cell Adenocarcinoma
+  - id: pgx:icdom-83103
+    label: Clear cell adenocarcinoma, NOS
+  - id: pgx:icdot-C54.1
+    label: Endometrium
+  examples:
+  - Primary Tumor
+  id: NCIT:C3766::pgx:icdom-83103::pgx:icdot-C54.1
+  note: TCGA-UCEC
+- code_group:
+  - id: NCIT:C3769
+    label: Endometrioid Adenocarcinoma
+  - id: pgx:icdom-83803
+    label: Endometrioid adenocarcinoma, NOS
+  - id: pgx:icdot-C53.0
+    label: Endocervix
+  examples:
+  - Primary Tumor
+  id: NCIT:C3769::pgx:icdom-83803::pgx:icdot-C53.0
+  note: TCGA-CESC
+- code_group:
+  - id: NCIT:C3769
+    label: Endometrioid Adenocarcinoma
+  - id: pgx:icdom-83803
+    label: Endometrioid adenocarcinoma, NOS
+  - id: pgx:icdot-C53.9
+    label: Cervix uteri
+  examples:
+  - Primary Tumor
+  id: NCIT:C3769::pgx:icdom-83803::pgx:icdot-C53.9
+  note: TCGA-CESC
+- code_group:
+  - id: NCIT:C3770
+    label: Pancreatic Neuroendocrine Tumor
+  - id: pgx:icdom-82463
+    label: Neuroendocrine carcinoma, NOS
+  - id: pgx:icdot-C25.0
+    label: Head of pancreas
+  examples:
+  - Primary Tumor
+  id: NCIT:C3770::pgx:icdom-82463::pgx:icdot-C25.0
+  note: TCGA-PAAD
+- code_group:
+  - id: NCIT:C3770
+    label: Pancreatic Neuroendocrine Tumor
+  - id: pgx:icdom-82463
+    label: Neuroendocrine carcinoma, NOS
+  - id: pgx:icdot-C25.1
+    label: Body of pancreas
+  examples:
+  - Primary Tumor
+  id: NCIT:C3770::pgx:icdom-82463::pgx:icdot-C25.1
+  note: TCGA-PAAD
+- code_group:
+  - id: NCIT:C3770
+    label: Pancreatic Neuroendocrine Tumor
+  - id: pgx:icdom-82463
+    label: Neuroendocrine carcinoma, NOS
+  - id: pgx:icdot-C25.2
+    label: Tail of pancreas
+  examples:
+  - Primary Tumor
+  id: NCIT:C3770::pgx:icdom-82463::pgx:icdot-C25.2
+  note: TCGA-PAAD
+- code_group:
+  - id: NCIT:C3771
+    label: Lobular Breast Carcinoma
+  - id: pgx:icdom-85203
+    label: Lobular carcinoma, NOS
+  - id: pgx:icdot-C50.9
+    label: Breast, NOS
+  examples:
+  - Metastatic
+  - Primary Tumor
+  id: NCIT:C3771::pgx:icdom-85203::pgx:icdot-C50.9
+  note: TCGA-BRCA
+- code_group:
+  - id: NCIT:C3774
+    label: Signet Ring Cell Carcinoma
+  - id: pgx:icdom-84903
+    label: Signet ring cell carcinoma
+  - id: pgx:icdot-C16.0
+    label: Cardia, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C3774::pgx:icdom-84903::pgx:icdot-C16.0
+  note: TCGA-STAD
+- code_group:
+  - id: NCIT:C3774
+    label: Signet Ring Cell Carcinoma
+  - id: pgx:icdom-84903
+    label: Signet ring cell carcinoma
+  - id: pgx:icdot-C16.2
+    label: Body of stomach
+  examples:
+  - Primary Tumor
+  id: NCIT:C3774::pgx:icdom-84903::pgx:icdot-C16.2
+  note: TCGA-STAD
+- code_group:
+  - id: NCIT:C3774
+    label: Signet Ring Cell Carcinoma
+  - id: pgx:icdom-84903
+    label: Signet ring cell carcinoma
+  - id: pgx:icdot-C16.3
+    label: Gastric antrum
+  examples:
+  - Primary Tumor
+  id: NCIT:C3774::pgx:icdom-84903::pgx:icdot-C16.3
+  note: TCGA-STAD
+- code_group:
+  - id: NCIT:C3774
+    label: Signet Ring Cell Carcinoma
+  - id: pgx:icdom-84903
+    label: Signet ring cell carcinoma
+  - id: pgx:icdot-C34.1
+    label: Upper lobe, lung
+  examples:
+  - Primary Tumor
+  id: NCIT:C3774::pgx:icdom-84903::pgx:icdot-C34.1
+  note: TCGA-LUAD
+- code_group:
+  - id: NCIT:C3774
+    label: Signet Ring Cell Carcinoma
+  - id: pgx:icdom-84903
+    label: Signet ring cell carcinoma
+  - id: pgx:icdot-C61.9
+    label: Prostate gland
+  examples:
+  - Primary Tumor
+  id: NCIT:C3774::pgx:icdom-84903::pgx:icdot-C61.9
+  note: TCGA-PRAD
+- code_group:
+  - id: NCIT:C3778
+    label: Serous Cystadenocarcinoma
+  - id: pgx:icdom-84413
+    label: Serous cystadenocarcinoma, NOS
+  - id: pgx:icdot-C48.0
+    label: Retroperitoneum
+  examples:
+  - Primary Tumor
+  id: NCIT:C3778::pgx:icdom-84413::pgx:icdot-C48.0
+  note: TCGA-OV
+- code_group:
+  - id: NCIT:C3778
+    label: Serous Cystadenocarcinoma
+  - id: pgx:icdom-84413
+    label: Serous cystadenocarcinoma, NOS
+  - id: pgx:icdot-C48.1
+    label: Specified parts of peritoneum
+  examples:
+  - Primary Tumor
+  id: NCIT:C3778::pgx:icdom-84413::pgx:icdot-C48.1
+  note: TCGA-OV
+- code_group:
+  - id: NCIT:C3778
+    label: Serous Cystadenocarcinoma
+  - id: pgx:icdom-84413
+    label: Serous cystadenocarcinoma, NOS
+  - id: pgx:icdot-C48.2
+    label: Peritoneum, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C3778::pgx:icdom-84413::pgx:icdot-C48.2
+  note: TCGA-OV
+- code_group:
+  - id: NCIT:C3778
+    label: Serous Cystadenocarcinoma
+  - id: pgx:icdom-84413
+    label: Serous cystadenocarcinoma, NOS
+  - id: pgx:icdot-C54.1
+    label: Endometrium
+  examples:
+  - Primary Tumor
+  id: NCIT:C3778::pgx:icdom-84413::pgx:icdot-C54.1
+  note: TCGA-UCEC
+- code_group:
+  - id: NCIT:C3778
+    label: Serous Cystadenocarcinoma
+  - id: pgx:icdom-84413
+    label: Serous cystadenocarcinoma, NOS
+  - id: pgx:icdot-C54.3
+    label: Fundus uteri
+  examples:
+  - Primary Tumor
+  id: NCIT:C3778::pgx:icdom-84413::pgx:icdot-C54.3
+  note: TCGA-UCEC
+- code_group:
+  - id: NCIT:C3798
+    label: Malignant Peripheral Nerve Sheath Tumor
+  - id: pgx:icdom-95403
+    label: Malignant peripheral nerve sheath tumor
+  - id: pgx:icdot-C47.1
+    label: Peripheral nerves and autonomic nervous system of upper limb and shoulder
+  examples:
+  - Primary Tumor
+  id: NCIT:C3798::pgx:icdom-95403::pgx:icdot-C47.1
+  note: TCGA-SARC
+- code_group:
+  - id: NCIT:C3798
+    label: Malignant Peripheral Nerve Sheath Tumor
+  - id: pgx:icdom-95403
+    label: Malignant peripheral nerve sheath tumor
+  - id: pgx:icdot-C48.0
+    label: Retroperitoneum
+  examples:
+  - Primary Tumor
+  id: NCIT:C3798::pgx:icdom-95403::pgx:icdot-C48.0
+  note: TCGA-SARC
+- code_group:
+  - id: NCIT:C3798
+    label: Malignant Peripheral Nerve Sheath Tumor
+  - id: pgx:icdom-95403
+    label: Malignant peripheral nerve sheath tumor
+  - id: pgx:icdot-C49.0
+    label: Connective, Subcutaneous and other soft tissues of head, face, and neck
+  examples:
+  - Primary Tumor
+  id: NCIT:C3798::pgx:icdom-95403::pgx:icdot-C49.0
+  note: TCGA-SARC
+- code_group:
+  - id: NCIT:C3798
+    label: Malignant Peripheral Nerve Sheath Tumor
+  - id: pgx:icdom-95403
+    label: Malignant peripheral nerve sheath tumor
+  - id: pgx:icdot-C49.2
+    label: Connective, Subcutaneous and other soft tissues of lower limb and hip
+  examples:
+  - Metastatic
+  - Primary Tumor
+  id: NCIT:C3798::pgx:icdom-95403::pgx:icdot-C49.2
+  note: TCGA-SARC
+- code_group:
+  - id: NCIT:C3798
+    label: Malignant Peripheral Nerve Sheath Tumor
+  - id: pgx:icdom-95403
+    label: Malignant peripheral nerve sheath tumor
+  - id: pgx:icdot-C49.3
+    label: Connective, Subcutaneous and other soft tissues of thorax
+  examples:
+  - Primary Tumor
+  id: NCIT:C3798::pgx:icdom-95403::pgx:icdot-C49.3
+  note: TCGA-SARC
+- code_group:
+  - id: NCIT:C3798
+    label: Malignant Peripheral Nerve Sheath Tumor
+  - id: pgx:icdom-95403
+    label: Malignant peripheral nerve sheath tumor
+  - id: pgx:icdot-C49.6
+    label: Connective, Subcutaneous and other soft tissues of trunk, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C3798::pgx:icdom-95403::pgx:icdot-C49.6
+  note: TCGA-SARC
+- code_group:
+  - id: NCIT:C3798
+    label: Malignant Peripheral Nerve Sheath Tumor
+  - id: pgx:icdom-95403
+    label: Malignant peripheral nerve sheath tumor
+  - id: pgx:icdot-C70.1
+    label: Spinal meninges
+  examples:
+  - Primary Tumor
+  id: NCIT:C3798::pgx:icdom-95403::pgx:icdot-C70.1
+  note: TCGA-SARC
+- code_group:
+  - id: NCIT:C3802
+    label: Amelanotic melanoma
+  - id: pgx:icdom-87303
+    label: Amelanotic melanoma
+  - id: pgx:icdot-C44.5
+    label: Skin of trunk
+  examples:
+  - Primary Tumor
+  id: NCIT:C3802::pgx:icdom-87303::pgx:icdot-C44.5
+  note: TCGA-SKCM
+- code_group:
+  - id: NCIT:C3802
+    label: Amelanotic melanoma
+  - id: pgx:icdom-87303
+    label: Amelanotic melanoma
+  - id: pgx:icdot-C44.7
+    label: Skin of lower limb and hip
+  examples:
+  - Primary Tumor
+  id: NCIT:C3802::pgx:icdom-87303::pgx:icdot-C44.7
+  note: TCGA-SKCM
+- code_group:
+  - id: NCIT:C3802
+    label: Amelanotic Melanoma
+  - id: pgx:icdom-87303
+    label: Amelanotic melanoma
+  - id: pgx:icdot-C49.2
+    label: Connective, Subcutaneous and other soft tissues of lower limb and hip
+  examples:
+  - Metastatic
+  id: NCIT:C3802::pgx:icdom-87303::pgx:icdot-C49.2
+  note: TCGA-SKCM
+- code_group:
+  - id: NCIT:C3802
+    label: Amelanotic Melanoma
+  - id: pgx:icdom-87303
+    label: Amelanotic melanoma
+  - id: pgx:icdot-C77.3
+    label: Lymph nodes of axilla or arm
+  examples:
+  - Metastatic
+  id: NCIT:C3802::pgx:icdom-87303::pgx:icdot-C77.3
+  note: TCGA-SKCM
+- code_group:
+  - id: NCIT:C3828
+    label: Combined Hepatocellular Carcinoma and Cholangiocarcinoma
+  - id: pgx:icdom-81803
+    label: Combined hepatocellular carcinoma and cholangiocarcinoma
+  - id: pgx:icdot-C22.0
+    label: Liver
+  examples:
+  - Primary Tumor
+  id: NCIT:C3828::pgx:icdom-81803::pgx:icdot-C22.0
+  note: TCGA-LIHC
+- code_group:
+  - id: NCIT:C3903
+    label: Mixed Glioma
+  - id: pgx:icdom-93823
+    label: Mixed glioma
+  - id: pgx:icdot-C71.0
+    label: Cerebrum
+  examples:
+  - Primary Tumor
+  - Recurrent Tumor
+  id: NCIT:C3903::pgx:icdom-93823::pgx:icdot-C71.0
+  note: TCGA-LGG
+- code_group:
+  - id: NCIT:C3903
+    label: Mixed Glioma
+  - id: pgx:icdom-93823
+    label: Mixed glioma
+  - id: pgx:icdot-C71.1
+    label: Frontal lobe
+  examples:
+  - Primary Tumor
+  id: NCIT:C3903::pgx:icdom-93823::pgx:icdot-C71.1
+  note: TCGA-LGG
+- code_group:
+  - id: NCIT:C3903
+    label: Mixed Glioma
+  - id: pgx:icdom-93823
+    label: Mixed glioma
+  - id: pgx:icdot-C71.2
+    label: Temporal lobe
+  examples:
+  - Primary Tumor
+  id: NCIT:C3903::pgx:icdom-93823::pgx:icdot-C71.2
+  note: TCGA-LGG
+- code_group:
+  - id: NCIT:C3903
+    label: Mixed Glioma
+  - id: pgx:icdom-93823
+    label: Mixed glioma
+  - id: pgx:icdot-C71.3
+    label: Parietal lobe
+  examples:
+  - Primary Tumor
+  id: NCIT:C3903::pgx:icdom-93823::pgx:icdot-C71.3
+  note: TCGA-LGG
+- code_group:
+  - id: NCIT:C3903
+    label: Mixed Glioma
+  - id: pgx:icdom-93823
+    label: Mixed glioma
+  - id: pgx:icdot-C71.9
+    label: Brain, NOS
+  examples:
+  - Primary Tumor
+  - Recurrent Tumor
+  id: NCIT:C3903::pgx:icdom-93823::pgx:icdot-C71.9
+  note: TCGA-LGG
+- code_group:
+  - id: NCIT:C39851
+    label: Bladder Urothelial Carcinoma
+  - id: pgx:icdom-81203
+    label: Transitional cell carcinoma, NOS
+  - id: pgx:icdot-C67.0
+    label: Urinary bladder
+  examples:
+  - Primary Tumor
+  id: NCIT:C39851::pgx:icdom-81203::pgx:icdot-C67.0
+  note: TCGA-BLCA
+- code_group:
+  - id: NCIT:C39851
+    label: Bladder Urothelial Carcinoma
+  - id: pgx:icdom-81203
+    label: Transitional cell carcinoma, NOS
+  - id: pgx:icdot-C67.1
+    label: Dome of bladder
+  examples:
+  - Primary Tumor
+  id: NCIT:C39851::pgx:icdom-81203::pgx:icdot-C67.1
+  note: TCGA-BLCA
+- code_group:
+  - id: NCIT:C39851
+    label: Bladder Urothelial Carcinoma
+  - id: pgx:icdom-81203
+    label: Transitional cell carcinoma, NOS
+  - id: pgx:icdot-C67.2
+    label: Lateral wall of bladder
+  examples:
+  - Primary Tumor
+  id: NCIT:C39851::pgx:icdom-81203::pgx:icdot-C67.2
+  note: TCGA-BLCA
+- code_group:
+  - id: NCIT:C39851
+    label: Bladder Urothelial Carcinoma
+  - id: pgx:icdom-81203
+    label: Transitional cell carcinoma, NOS
+  - id: pgx:icdot-C67.3
+    label: Anterior wall of bladder
+  examples:
+  - Primary Tumor
+  id: NCIT:C39851::pgx:icdom-81203::pgx:icdot-C67.3
+  note: TCGA-BLCA
+- code_group:
+  - id: NCIT:C39851
+    label: Bladder Urothelial Carcinoma
+  - id: pgx:icdom-81203
+    label: Transitional cell carcinoma, NOS
+  - id: pgx:icdot-C67.4
+    label: Posterior wall of bladder
+  examples:
+  - Primary Tumor
+  id: NCIT:C39851::pgx:icdom-81203::pgx:icdot-C67.4
+  note: TCGA-BLCA
+- code_group:
+  - id: NCIT:C39851
+    label: Bladder Urothelial Carcinoma
+  - id: pgx:icdom-81203
+    label: Transitional cell carcinoma, NOS
+  - id: pgx:icdot-C67.5
+    label: Bladder neck
+  examples:
+  - Primary Tumor
+  id: NCIT:C39851::pgx:icdom-81203::pgx:icdot-C67.5
+  note: TCGA-BLCA
+- code_group:
+  - id: NCIT:C39851
+    label: Bladder Urothelial Carcinoma
+  - id: pgx:icdom-81203
+    label: Transitional cell carcinoma, NOS
+  - id: pgx:icdot-C67.9
+    label: Bladder, NOS
+  examples:
+  - Metastatic
+  - Primary Tumor
+  id: NCIT:C39851::pgx:icdom-81203::pgx:icdot-C67.9
+  note: TCGA-BLCA
+- code_group:
+  - id: NCIT:C4004
+    label: Gastric Adenocarcinoma
+  - id: pgx:icdom-81403
+    label: Adenocarcinoma, NOS
+  - id: pgx:icdot-C16.0
+    label: Cardia, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C4004::pgx:icdom-81403::pgx:icdot-C16.0
+  note: TCGA-STAD
+- code_group:
+  - id: NCIT:C4004
+    label: Gastric Adenocarcinoma
+  - id: pgx:icdom-81403
+    label: Adenocarcinoma, NOS
+  - id: pgx:icdot-C16.1
+    label: Fundus of stomach
+  examples:
+  - Primary Tumor
+  id: NCIT:C4004::pgx:icdom-81403::pgx:icdot-C16.1
+  note: TCGA-STAD
+- code_group:
+  - id: NCIT:C4004
+    label: Gastric Adenocarcinoma
+  - id: pgx:icdom-81403
+    label: Adenocarcinoma, NOS
+  - id: pgx:icdot-C16.2
+    label: Body of stomach
+  examples:
+  - Primary Tumor
+  id: NCIT:C4004::pgx:icdom-81403::pgx:icdot-C16.2
+  note: TCGA-STAD
+- code_group:
+  - id: NCIT:C4004
+    label: Gastric Adenocarcinoma
+  - id: pgx:icdom-81403
+    label: Adenocarcinoma, NOS
+  - id: pgx:icdot-C16.3
+    label: Gastric antrum
+  examples:
+  - Primary Tumor
+  id: NCIT:C4004::pgx:icdom-81403::pgx:icdot-C16.3
+  note: TCGA-STAD
+- code_group:
+  - id: NCIT:C4004
+    label: Gastric Adenocarcinoma
+  - id: pgx:icdom-81403
+    label: Adenocarcinoma, NOS
+  - id: pgx:icdot-C16.5
+    label: Lesser curvature of stomach, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C4004::pgx:icdom-81403::pgx:icdot-C16.5
+  note: TCGA-STAD
+- code_group:
+  - id: NCIT:C4004
+    label: Gastric Adenocarcinoma
+  - id: pgx:icdom-81403
+    label: Adenocarcinoma, NOS
+  - id: pgx:icdot-C16.9
+    label: Stomach, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C4004::pgx:icdom-81403::pgx:icdot-C16.9
+  note: TCGA-STAD
+- code_group:
+  - id: NCIT:C4004
+    label: Gastric Adenocarcinoma
+  - id: pgx:icdom-82553
+    label: Adenocarcinoma with mixed subtypes
+  - id: pgx:icdot-C16.3
+    label: Gastric antrum
+  examples:
+  - Primary Tumor
+  id: NCIT:C4004::pgx:icdom-82553::pgx:icdot-C16.3
+  note: TCGA-STAD
+- code_group:
+  - id: NCIT:C4004
+    label: Gastric Adenocarcinoma
+  - id: pgx:icdom-82553
+    label: Adenocarcinoma with mixed subtypes
+  - id: pgx:icdot-C16.9
+    label: Stomach, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C4004::pgx:icdom-82553::pgx:icdot-C16.9
+  note: TCGA-STAD
+- code_group:
+  - id: NCIT:C4004
+    label: Gastric Adenocarcinoma
+  - id: pgx:icdom-82603
+    label: Papillary adenocarcinoma, NOS
+  - id: pgx:icdot-C16.0
+    label: Cardia, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C4004::pgx:icdom-82603::pgx:icdot-C16.0
+  note: TCGA-STAD
+- code_group:
+  - id: NCIT:C4004
+    label: Gastric Adenocarcinoma
+  - id: pgx:icdom-82603
+    label: Papillary adenocarcinoma, NOS
+  - id: pgx:icdot-C16.1
+    label: Fundus of stomach
+  examples:
+  - Primary Tumor
+  id: NCIT:C4004::pgx:icdom-82603::pgx:icdot-C16.1
+  note: TCGA-STAD
+- code_group:
+  - id: NCIT:C4004
+    label: Gastric Adenocarcinoma
+  - id: pgx:icdom-82603
+    label: Papillary adenocarcinoma, NOS
+  - id: pgx:icdot-C16.2
+    label: Body of stomach
+  examples:
+  - Primary Tumor
+  id: NCIT:C4004::pgx:icdom-82603::pgx:icdot-C16.2
+  note: TCGA-STAD
+- code_group:
+  - id: NCIT:C4004
+    label: Gastric Adenocarcinoma
+  - id: pgx:icdom-82603
+    label: Papillary adenocarcinoma, NOS
+  - id: pgx:icdot-C16.3
+    label: Gastric antrum
+  examples:
+  - Primary Tumor
+  id: NCIT:C4004::pgx:icdom-82603::pgx:icdot-C16.3
+  note: TCGA-STAD
+- code_group:
+  - id: NCIT:C4017
+    label: Ductal Breast Carcinoma
+  - id: pgx:icdom-85003
+    label: Infiltrating duct carcinoma, NOS
+  - id: pgx:icdot-C50.2
+    label: Upper-inner quadrant of breast
+  examples:
+  - Primary Tumor
+  id: NCIT:C4017::pgx:icdom-85003::pgx:icdot-C50.2
+  note: TCGA-BRCA
+- code_group:
+  - id: NCIT:C4017
+    label: Ductal Breast Carcinoma
+  - id: pgx:icdom-85003
+    label: Infiltrating duct carcinoma, NOS
+  - id: pgx:icdot-C50.3
+    label: Lower-inner quadrant of breast
+  examples:
+  - Primary Tumor
+  id: NCIT:C4017::pgx:icdom-85003::pgx:icdot-C50.3
+  note: TCGA-BRCA
+- code_group:
+  - id: NCIT:C4017
+    label: Ductal Breast Carcinoma
+  - id: pgx:icdom-85003
+    label: Infiltrating duct carcinoma, NOS
+  - id: pgx:icdot-C50.4
+    label: Upper-outer quadrant of breast
+  examples:
+  - Metastatic
+  - Primary Tumor
+  id: NCIT:C4017::pgx:icdom-85003::pgx:icdot-C50.4
+  note: TCGA-BRCA
+- code_group:
+  - id: NCIT:C4017
+    label: Ductal Breast Carcinoma
+  - id: pgx:icdom-85003
+    label: Infiltrating duct carcinoma, NOS
+  - id: pgx:icdot-C50.5
+    label: Lower-outer quadrant of breast
+  examples:
+  - Primary Tumor
+  id: NCIT:C4017::pgx:icdom-85003::pgx:icdot-C50.5
+  note: TCGA-BRCA
+- code_group:
+  - id: NCIT:C4017
+    label: Ductal Breast Carcinoma
+  - id: pgx:icdom-85003
+    label: Infiltrating duct carcinoma, NOS
+  - id: pgx:icdot-C50.8
+    label: Overlapping lesion of breast
+  examples:
+  - Primary Tumor
+  id: NCIT:C4017::pgx:icdom-85003::pgx:icdot-C50.8
+  note: TCGA-BRCA
+- code_group:
+  - id: NCIT:C4017
+    label: Ductal Breast Carcinoma
+  - id: pgx:icdom-85003
+    label: Infiltrating duct carcinoma, NOS
+  - id: pgx:icdot-C50.9
+    label: Breast, NOS
+  examples:
+  - Metastatic
+  - Primary Tumor
+  id: NCIT:C4017::pgx:icdom-85003::pgx:icdot-C50.9
+  note: TCGA-BRCA
+- code_group:
+  - id: NCIT:C4022
+    label: Acral Lentiginous Melanoma
+  - id: pgx:icdom-87443
+    label: Acral lentiginous melanoma, malignant
+  - id: pgx:icdot-C44.7
+    label: Skin of lower limb and hip
+  examples:
+  - Metastatic
+  - Primary Tumor
+  id: NCIT:C4022::pgx:icdom-87443::pgx:icdot-C44.7
+  note: TCGA-SKCM
+- code_group:
+  - id: NCIT:C4024
+    label: Esophageal Squamous Cell Carcinoma
+  - id: pgx:icdom-80703
+    label: Squamous cell carcinoma, NOS
+  - id: pgx:icdot-C15.3
+    label: Upper third of esophagus
+  examples:
+  - Primary Tumor
+  id: NCIT:C4024::pgx:icdom-80703::pgx:icdot-C15.3
+  note: TCGA-ESCA
+- code_group:
+  - id: NCIT:C4024
+    label: Esophageal Squamous Cell Carcinoma
+  - id: pgx:icdom-80703
+    label: Squamous cell carcinoma, NOS
+  - id: pgx:icdot-C15.4
+    label: Middle third of esophagus
+  examples:
+  - Metastatic
+  - Primary Tumor
+  id: NCIT:C4024::pgx:icdom-80703::pgx:icdot-C15.4
+  note: TCGA-ESCA
+- code_group:
+  - id: NCIT:C4024
+    label: Esophageal Squamous Cell Carcinoma
+  - id: pgx:icdom-80703
+    label: Squamous cell carcinoma, NOS
+  - id: pgx:icdot-C15.5
+    label: Lower third of esophagus
+  examples:
+  - Primary Tumor
+  id: NCIT:C4024::pgx:icdom-80703::pgx:icdot-C15.5
+  note: TCGA-ESCA
+- code_group:
+  - id: NCIT:C4024
+    label: Esophageal Squamous Cell Carcinoma
+  - id: pgx:icdom-80703
+    label: Squamous cell carcinoma, NOS
+  - id: pgx:icdot-C15.9
+    label: Esophagus, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C4024::pgx:icdom-80703::pgx:icdot-C15.9
+  note: TCGA-ESCA
+- code_group:
+  - id: NCIT:C4025
+    label: Esophageal Adenocarcinoma
+  - id: pgx:icdom-81403
+    label: Adenocarcinoma, NOS
+  - id: pgx:icdot-C15.1
+    label: Thoracic esophagus
+  examples:
+  - Primary Tumor
+  id: NCIT:C4025::pgx:icdom-81403::pgx:icdot-C15.1
+  note: TCGA-ESCA
+- code_group:
+  - id: NCIT:C4025
+    label: Esophageal Adenocarcinoma
+  - id: pgx:icdom-81403
+    label: Adenocarcinoma, NOS
+  - id: pgx:icdot-C15.4
+    label: Middle third of esophagus
+  examples:
+  - Primary Tumor
+  id: NCIT:C4025::pgx:icdom-81403::pgx:icdot-C15.4
+  note: TCGA-ESCA
+- code_group:
+  - id: NCIT:C4025
+    label: Esophageal Adenocarcinoma
+  - id: pgx:icdom-81403
+    label: Adenocarcinoma, NOS
+  - id: pgx:icdot-C15.5
+    label: Lower third of esophagus
+  examples:
+  - Primary Tumor
+  id: NCIT:C4025::pgx:icdom-81403::pgx:icdot-C15.5
+  note: TCGA-ESCA
+- code_group:
+  - id: NCIT:C4025
+    label: Esophageal Adenocarcinoma
+  - id: pgx:icdom-81403
+    label: Adenocarcinoma, NOS
+  - id: pgx:icdot-C15.9
+    label: Esophagus, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C4025::pgx:icdom-81403::pgx:icdot-C15.9
+  note: TCGA-ESCA
+- code_group:
+  - id: NCIT:C4028
+    label: Cervical Squamous Cell Carcinoma, Not Otherwise Specified
+  - id: pgx:icdom-80703
+    label: Squamous cell carcinoma, NOS
+  - id: pgx:icdot-C53.0
+    label: Endocervix
+  examples:
+  - Primary Tumor
+  id: NCIT:C4028::pgx:icdom-80703::pgx:icdot-C53.0
+  note: TCGA-CESC
+- code_group:
+  - id: NCIT:C4028
+    label: Cervical Squamous Cell Carcinoma, Not Otherwise Specified
+  - id: pgx:icdom-80703
+    label: Squamous cell carcinoma, NOS
+  - id: pgx:icdot-C53.1
+    label: Exocervix
+  examples:
+  - Primary Tumor
+  id: NCIT:C4028::pgx:icdom-80703::pgx:icdot-C53.1
+  note: TCGA-CESC
+- code_group:
+  - id: NCIT:C4028
+    label: Cervical Squamous Cell Carcinoma, Not Otherwise Specified
+  - id: pgx:icdom-80703
+    label: Squamous cell carcinoma, NOS
+  - id: pgx:icdot-C53.9
+    label: Cervix uteri
+  examples:
+  - Metastatic
+  - Primary Tumor
+  id: NCIT:C4028::pgx:icdom-80703::pgx:icdot-C53.9
+  note: TCGA-CESC
+- code_group:
+  - id: NCIT:C4029
+    label: Cervical Adenocarcinoma
+  - id: pgx:icdom-81403
+    label: Adenocarcinoma, NOS
+  - id: pgx:icdot-C53.9
+    label: Cervix uteri
+  examples:
+  - Primary Tumor
+  id: NCIT:C4029::pgx:icdom-81403::pgx:icdot-C53.9
+  note: TCGA-CESC
+- code_group:
+  - id: NCIT:C4031
+    label: Bladder Squamous Cell Carcinoma
+  - id: pgx:icdom-80703
+    label: Squamous cell carcinoma, NOS
+  - id: pgx:icdot-C67.9
+    label: Bladder, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C4031::pgx:icdom-80703::pgx:icdot-C67.9
+  note: TCGA-BLCA
+- code_group:
+  - id: NCIT:C4033
+    label: Clear Cell Renal Cell Carcinoma
+  - id: pgx:icdom-83103
+    label: Clear cell adenocarcinoma, NOS
+  - id: pgx:icdot-C64.9
+    label: Kidney, NOS
+  examples:
+  - Additional - New Primary
+  - Primary Tumor
+  id: NCIT:C4033::pgx:icdom-83103::pgx:icdot-C64.9
+  note: TCGA-KIRC
+- code_group:
+  - id: NCIT:C4035
+    label: Thyroid Gland Papillary Carcinoma
+  - id: pgx:icdom-82603
+    label: Papillary adenocarcinoma, NOS
+  - id: pgx:icdot-C73.9
+    label: Thyroid gland
+  examples:
+  - Metastatic
+  - Primary Tumor
+  id: NCIT:C4035::pgx:icdom-82603::pgx:icdot-C73.9
+  note: TCGA-THCA
+- code_group:
+  - id: NCIT:C4041
+    label: Floor of Mouth Squamous Cell Carcinoma
+  - id: pgx:icdom-80703
+    label: Squamous cell carcinoma, NOS
+  - id: pgx:icdot-C04.0
+    label: Anterior floor of mouth
+  examples:
+  - Primary Tumor
+  id: NCIT:C4041::pgx:icdom-80703::pgx:icdot-C04.0
+  note: TCGA-HNSC
+- code_group:
+  - id: NCIT:C4041
+    label: Floor of Mouth Squamous Cell Carcinoma
+  - id: pgx:icdom-80703
+    label: Squamous cell carcinoma, NOS
+  - id: pgx:icdot-C04.9
+    label: Floor of mouth, NOS
+  examples:
+  - Metastatic
+  - Primary Tumor
+  id: NCIT:C4041::pgx:icdom-80703::pgx:icdot-C04.9
+  note: TCGA-HNSC
+- code_group:
+  - id: NCIT:C4044
+    label: Laryngeal Squamous Cell Carcinoma
+  - id: pgx:icdom-80703
+    label: Squamous cell carcinoma, NOS
+  - id: pgx:icdot-C32.9
+    label: Larynx, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C4044::pgx:icdom-80703::pgx:icdot-C32.9
+  note: TCGA-HNSC
+- code_group:
+  - id: NCIT:C4094
+    label: Pleomorphic Carcinoma
+  - id: pgx:icdom-80223
+    label: Pleomorphic carcinoma
+  - id: pgx:icdot-C50.8
+    label: Overlapping lesion of breast
+  examples:
+  - Primary Tumor
+  id: NCIT:C4094::pgx:icdom-80223::pgx:icdot-C50.8
+  note: TCGA-BRCA
+- code_group:
+  - id: NCIT:C4102
+    label: Papillary Squamous Cell Carcinoma
+  - id: pgx:icdom-80523
+    label: Papillary squamous cell carcinoma
+  - id: pgx:icdot-C34.1
+    label: Upper lobe, lung
+  examples:
+  - Primary Tumor
+  id: NCIT:C4102::pgx:icdom-80523::pgx:icdot-C34.1
+  note: TCGA-LUSC
+- code_group:
+  - id: NCIT:C4102
+    label: Papillary Squamous Cell Carcinoma
+  - id: pgx:icdom-80523
+    label: Papillary squamous cell carcinoma
+  - id: pgx:icdot-C34.3
+    label: Lower lobe, lung
+  examples:
+  - Primary Tumor
+  id: NCIT:C4102::pgx:icdom-80523::pgx:icdot-C34.3
+  note: TCGA-LUSC
+- code_group:
+  - id: NCIT:C4102
+    label: Papillary Squamous Cell Carcinoma
+  - id: pgx:icdom-80523
+    label: Papillary squamous cell carcinoma
+  - id: pgx:icdot-C53.9
+    label: Cervix uteri
+  examples:
+  - Primary Tumor
+  id: NCIT:C4102::pgx:icdom-80523::pgx:icdot-C53.9
+  note: TCGA-CESC
+- code_group:
+  - id: NCIT:C4105
+    label: Keratinizing Squamous Cell Carcinoma
+  - id: pgx:icdom-80713
+    label: Squamous cell carcinoma, keratinizing, NOS
+  - id: pgx:icdot-C00.9
+    label: Lip, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C4105::pgx:icdom-80713::pgx:icdot-C00.9
+  note: TCGA-HNSC
+- code_group:
+  - id: NCIT:C4105
+    label: Keratinizing Squamous Cell Carcinoma
+  - id: pgx:icdom-80713
+    label: Squamous cell carcinoma, keratinizing, NOS
+  - id: pgx:icdot-C01.9
+    label: Base of tongue, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C4105::pgx:icdom-80713::pgx:icdot-C01.9
+  note: TCGA-HNSC
+- code_group:
+  - id: NCIT:C4105
+    label: Keratinizing Squamous Cell Carcinoma
+  - id: pgx:icdom-80713
+    label: Squamous cell carcinoma, keratinizing, NOS
+  - id: pgx:icdot-C02.9
+    label: Tongue, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C4105::pgx:icdom-80713::pgx:icdot-C02.9
+  note: TCGA-HNSC
+- code_group:
+  - id: NCIT:C4105
+    label: Keratinizing Squamous Cell Carcinoma
+  - id: pgx:icdom-80713
+    label: Squamous cell carcinoma, keratinizing, NOS
+  - id: pgx:icdot-C03.9
+    label: Gum, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C4105::pgx:icdom-80713::pgx:icdot-C03.9
+  note: TCGA-HNSC
+- code_group:
+  - id: NCIT:C4105
+    label: Keratinizing Squamous Cell Carcinoma
+  - id: pgx:icdom-80713
+    label: Squamous cell carcinoma, keratinizing, NOS
+  - id: pgx:icdot-C04.0
+    label: Anterior floor of mouth
+  examples:
+  - Primary Tumor
+  id: NCIT:C4105::pgx:icdom-80713::pgx:icdot-C04.0
+  note: TCGA-HNSC
+- code_group:
+  - id: NCIT:C4105
+    label: Keratinizing Squamous Cell Carcinoma
+  - id: pgx:icdom-80713
+    label: Squamous cell carcinoma, keratinizing, NOS
+  - id: pgx:icdot-C04.9
+    label: Floor of mouth, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C4105::pgx:icdom-80713::pgx:icdot-C04.9
+  note: TCGA-HNSC
+- code_group:
+  - id: NCIT:C4105
+    label: Keratinizing Squamous Cell Carcinoma
+  - id: pgx:icdom-80713
+    label: Squamous cell carcinoma, keratinizing, NOS
+  - id: pgx:icdot-C05.9
+    label: Palate, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C4105::pgx:icdom-80713::pgx:icdot-C05.9
+  note: TCGA-HNSC
+- code_group:
+  - id: NCIT:C4105
+    label: Keratinizing Squamous Cell Carcinoma
+  - id: pgx:icdom-80713
+    label: Squamous cell carcinoma, keratinizing, NOS
+  - id: pgx:icdot-C06.0
+    label: Cheeck mucosa
+  examples:
+  - Primary Tumor
+  id: NCIT:C4105::pgx:icdom-80713::pgx:icdot-C06.0
+  note: TCGA-HNSC
+- code_group:
+  - id: NCIT:C4105
+    label: Keratinizing Squamous Cell Carcinoma
+  - id: pgx:icdom-80713
+    label: Squamous cell carcinoma, keratinizing, NOS
+  - id: pgx:icdot-C06.2
+    label: Retromolar area
+  examples:
+  - Primary Tumor
+  id: NCIT:C4105::pgx:icdom-80713::pgx:icdot-C06.2
+  note: TCGA-HNSC
+- code_group:
+  - id: NCIT:C4105
+    label: Keratinizing Squamous Cell Carcinoma
+  - id: pgx:icdom-80713
+    label: Squamous cell carcinoma, keratinizing, NOS
+  - id: pgx:icdot-C06.9
+    label: Mouth, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C4105::pgx:icdom-80713::pgx:icdot-C06.9
+  note: TCGA-HNSC
+- code_group:
+  - id: NCIT:C4105
+    label: Keratinizing Squamous Cell Carcinoma
+  - id: pgx:icdom-80713
+    label: Squamous cell carcinoma, keratinizing, NOS
+  - id: pgx:icdot-C09.9
+    label: Tonsil, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C4105::pgx:icdom-80713::pgx:icdot-C09.9
+  note: TCGA-HNSC
+- code_group:
+  - id: NCIT:C4105
+    label: Keratinizing Squamous Cell Carcinoma
+  - id: pgx:icdom-80713
+    label: Squamous cell carcinoma, keratinizing, NOS
+  - id: pgx:icdot-C10.3
+    label: Posterior wall of oropharynx
+  examples:
+  - Primary Tumor
+  id: NCIT:C4105::pgx:icdom-80713::pgx:icdot-C10.3
+  note: TCGA-HNSC
+- code_group:
+  - id: NCIT:C4105
+    label: Keratinizing Squamous Cell Carcinoma
+  - id: pgx:icdom-80713
+    label: Squamous cell carcinoma, keratinizing, NOS
+  - id: pgx:icdot-C10.9
+    label: Oropharynx, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C4105::pgx:icdom-80713::pgx:icdot-C10.9
+  note: TCGA-HNSC
+- code_group:
+  - id: NCIT:C4105
+    label: Keratinizing Squamous Cell Carcinoma
+  - id: pgx:icdom-80713
+    label: Squamous cell carcinoma, keratinizing, NOS
+  - id: pgx:icdot-C15.1
+    label: Thoracic esophagus
+  examples:
+  - Primary Tumor
+  id: NCIT:C4105::pgx:icdom-80713::pgx:icdot-C15.1
+  note: TCGA-ESCA
+- code_group:
+  - id: NCIT:C4105
+    label: Keratinizing Squamous Cell Carcinoma
+  - id: pgx:icdom-80713
+    label: Squamous cell carcinoma, keratinizing, NOS
+  - id: pgx:icdot-C15.5
+    label: Lower third of esophagus
+  examples:
+  - Primary Tumor
+  id: NCIT:C4105::pgx:icdom-80713::pgx:icdot-C15.5
+  note: TCGA-ESCA
+- code_group:
+  - id: NCIT:C4105
+    label: Keratinizing Squamous Cell Carcinoma
+  - id: pgx:icdom-80713
+    label: Squamous cell carcinoma, keratinizing, NOS
+  - id: pgx:icdot-C15.9
+    label: Esophagus, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C4105::pgx:icdom-80713::pgx:icdot-C15.9
+  note: TCGA-ESCA
+- code_group:
+  - id: NCIT:C4105
+    label: Keratinizing Squamous Cell Carcinoma
+  - id: pgx:icdom-80713
+    label: Squamous cell carcinoma, keratinizing, NOS
+  - id: pgx:icdot-C32.9
+    label: Larynx, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C4105::pgx:icdom-80713::pgx:icdot-C32.9
+  note: TCGA-HNSC
+- code_group:
+  - id: NCIT:C4105
+    label: Keratinizing Squamous Cell Carcinoma
+  - id: pgx:icdom-80713
+    label: Squamous cell carcinoma, keratinizing, NOS
+  - id: pgx:icdot-C34.1
+    label: Upper lobe, lung
+  examples:
+  - Primary Tumor
+  id: NCIT:C4105::pgx:icdom-80713::pgx:icdot-C34.1
+  note: TCGA-LUSC
+- code_group:
+  - id: NCIT:C4105
+    label: Keratinizing Squamous Cell Carcinoma
+  - id: pgx:icdom-80713
+    label: Squamous cell carcinoma, keratinizing, NOS
+  - id: pgx:icdot-C34.2
+    label: Middle lobe, lung
+  examples:
+  - Primary Tumor
+  id: NCIT:C4105::pgx:icdom-80713::pgx:icdot-C34.2
+  note: TCGA-LUSC
+- code_group:
+  - id: NCIT:C4105
+    label: Keratinizing Squamous Cell Carcinoma
+  - id: pgx:icdom-80713
+    label: Squamous cell carcinoma, keratinizing, NOS
+  - id: pgx:icdot-C34.3
+    label: Lower lobe, lung
+  examples:
+  - Primary Tumor
+  id: NCIT:C4105::pgx:icdom-80713::pgx:icdot-C34.3
+  note: TCGA-LUSC
+- code_group:
+  - id: NCIT:C4105
+    label: Keratinizing Squamous Cell Carcinoma
+  - id: pgx:icdom-80713
+    label: Squamous cell carcinoma, keratinizing, NOS
+  - id: pgx:icdot-C34.9
+    label: Lung, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C4105::pgx:icdom-80713::pgx:icdot-C34.9
+  note: TCGA-LUSC
+- code_group:
+  - id: NCIT:C4105
+    label: Keratinizing Squamous Cell Carcinoma
+  - id: pgx:icdom-80713
+    label: Squamous cell carcinoma, keratinizing, NOS
+  - id: pgx:icdot-C53.9
+    label: Cervix uteri
+  examples:
+  - Primary Tumor
+  id: NCIT:C4105::pgx:icdom-80713::pgx:icdot-C53.9
+  note: TCGA-CESC
+- code_group:
+  - id: NCIT:C4131
+    label: Fibrolamellar Carcinoma
+  - id: pgx:icdom-81713
+    label: Hepatocellular carcinoma, fibrolamellar
+  - id: pgx:icdot-C22.0
+    label: Liver
+  examples:
+  - Primary Tumor
+  id: NCIT:C4131::pgx:icdom-81713::pgx:icdot-C22.0
+  note: TCGA-LIHC
+- code_group:
+  - id: NCIT:C4137
+    label: Solid Carcinoma
+  - id: pgx:icdom-82303
+    label: Solid carcinoma, NOS
+  - id: pgx:icdot-C34.1
+    label: Upper lobe, lung
+  examples:
+  - Primary Tumor
+  id: NCIT:C4137::pgx:icdom-82303::pgx:icdot-C34.1
+  note: TCGA-LUAD
+- code_group:
+  - id: NCIT:C4145
+    label: Adenocarcinoma in Tubulovillous Adenoma
+  - id: pgx:icdom-82633
+    label: Adenocarcinoma in tubulovillous adenoma
+  - id: pgx:icdot-C20.9
+    label: Rectum, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C4145::pgx:icdom-82633::pgx:icdot-C20.9
+  note: TCGA-READ
+- code_group:
+  - id: NCIT:C4146
+    label: Chromophobe Renal Cell Carcinoma
+  - id: pgx:icdom-83173
+    label: Renal cell carcinoma, chromophobe type
+  - id: pgx:icdot-C64.9
+    label: Kidney, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C4146::pgx:icdom-83173::pgx:icdot-C64.9
+  note: TCGA-KICH
+- code_group:
+  - id: NCIT:C4182
+    label: Serous Surface Papillary Carcinoma
+  - id: pgx:icdom-84613
+    label: Serous surface papillary carcinoma
+  - id: pgx:icdot-C54.1
+    label: Endometrium
+  examples:
+  - Primary Tumor
+  id: NCIT:C4182::pgx:icdom-84613::pgx:icdot-C54.1
+  note: TCGA-UCEC
+- code_group:
+  - id: NCIT:C4182
+    label: Serous Surface Papillary Carcinoma
+  - id: pgx:icdom-84613
+    label: Serous surface papillary carcinoma
+  - id: pgx:icdot-C56.9
+    label: Ovary
+  examples:
+  - Primary Tumor
+  - Recurrent Tumor
+  id: NCIT:C4182::pgx:icdom-84613::pgx:icdot-C56.9
+  note: TCGA-OV
+- code_group:
+  - id: NCIT:C4189
+    label: Secretory Breast Carcinoma
+  - id: pgx:icdom-85023
+    label: Secretory carcinoma of breast
+  - id: pgx:icdot-C50.9
+    label: Breast, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C4189::pgx:icdom-85023::pgx:icdot-C50.9
+  note: TCGA-BRCA
+- code_group:
+  - id: NCIT:C4194
+    label: Invasive Ductal Carcinoma, Not Otherwise Specified
+  - id: pgx:icdom-85003
+    label: Infiltrating duct carcinoma, NOS
+  - id: pgx:icdot-C25.0
+    label: Head of pancreas
+  examples:
+  - Primary Tumor
+  id: NCIT:C4194::pgx:icdom-85003::pgx:icdot-C25.0
+  note: TCGA-PAAD
+- code_group:
+  - id: NCIT:C4194
+    label: Invasive Ductal Carcinoma, Not Otherwise Specified
+  - id: pgx:icdom-85003
+    label: Infiltrating duct carcinoma, NOS
+  - id: pgx:icdot-C25.1
+    label: Body of pancreas
+  examples:
+  - Primary Tumor
+  id: NCIT:C4194::pgx:icdom-85003::pgx:icdot-C25.1
+  note: TCGA-PAAD
+- code_group:
+  - id: NCIT:C4194
+    label: Invasive Ductal Carcinoma, Not Otherwise Specified
+  - id: pgx:icdom-85003
+    label: Infiltrating duct carcinoma, NOS
+  - id: pgx:icdot-C25.2
+    label: Tail of pancreas
+  examples:
+  - Primary Tumor
+  id: NCIT:C4194::pgx:icdom-85003::pgx:icdot-C25.2
+  note: TCGA-PAAD
+- code_group:
+  - id: NCIT:C4194
+    label: Invasive Ductal Carcinoma, Not Otherwise Specified
+  - id: pgx:icdom-85003
+    label: Infiltrating duct carcinoma, NOS
+  - id: pgx:icdot-C25.8
+    label: Overlapping lesion of pancreas
+  examples:
+  - Primary Tumor
+  id: NCIT:C4194::pgx:icdom-85003::pgx:icdot-C25.8
+  note: TCGA-PAAD
+- code_group:
+  - id: NCIT:C4194
+    label: Invasive Ductal Carcinoma, Not Otherwise Specified
+  - id: pgx:icdom-85003
+    label: Infiltrating duct carcinoma, NOS
+  - id: pgx:icdot-C25.9
+    label: Pancreas, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C4194::pgx:icdom-85003::pgx:icdot-C25.9
+  note: TCGA-PAAD
+- code_group:
+  - id: NCIT:C4194
+    label: Invasive Ductal Carcinoma, Not Otherwise Specified
+  - id: pgx:icdom-85003
+    label: Infiltrating duct carcinoma, NOS
+  - id: pgx:icdot-C61.9
+    label: Prostate gland
+  examples:
+  - Primary Tumor
+  id: NCIT:C4194::pgx:icdom-85003::pgx:icdot-C61.9
+  note: TCGA-PRAD
+- code_group:
+  - id: NCIT:C4218
+    label: Aorticopulmonary Paraganglioma
+  - id: pgx:icdom-86911
+    label: Aortic body tumor
+  - id: pgx:icdot-C49.3
+    label: Connective, Subcutaneous and other soft tissues of thorax
+  examples:
+  - Primary Tumor
+  id: NCIT:C4218::pgx:icdom-86911::pgx:icdot-C49.3
+  note: TCGA-PCPG
+- code_group:
+  - id: NCIT:C4219
+    label: Malignant Extra-Adrenal Paraganglioma
+  - id: pgx:icdom-86933
+    label: Extra-adrenal paraganglioma, malignant
+  - id: pgx:icdot-C38.3
+    label: Mediastinum, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C4219::pgx:icdom-86933::pgx:icdot-C38.3
+  note: TCGA-PCPG
+- code_group:
+  - id: NCIT:C4219
+    label: Malignant Extra-Adrenal Paraganglioma
+  - id: pgx:icdom-86933
+    label: Extra-adrenal paraganglioma, malignant
+  - id: pgx:icdot-C48.0
+    label: Retroperitoneum
+  examples:
+  - Primary Tumor
+  id: NCIT:C4219::pgx:icdom-86933::pgx:icdot-C48.0
+  note: TCGA-PCPG
+- code_group:
+  - id: NCIT:C4219
+    label: Malignant Extra-Adrenal Paraganglioma
+  - id: pgx:icdom-86933
+    label: Extra-adrenal paraganglioma, malignant
+  - id: pgx:icdot-C76.0
+    label: Head, face or neck, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C4219::pgx:icdom-86933::pgx:icdot-C76.0
+  note: TCGA-PCPG
+- code_group:
+  - id: NCIT:C4220
+    label: Malignant Adrenal Gland Pheochromocytoma
+  - id: pgx:icdom-87003
+    label: Pheochromocytoma, malignant
+  - id: pgx:icdot-C69.3
+    label: Choroid
+  examples:
+  - Primary Tumor
+  id: NCIT:C4220::pgx:icdom-87003::pgx:icdot-C69.3
+  note: TCGA-UVM
+- code_group:
+  - id: NCIT:C4220
+    label: Malignant Adrenal Gland Pheochromocytoma
+  - id: pgx:icdom-87003
+    label: Pheochromocytoma, malignant
+  - id: pgx:icdot-C74.1
+    label: Medulla of adrenal gland
+  examples:
+  - Primary Tumor
+  id: NCIT:C4220::pgx:icdom-87003::pgx:icdot-C74.1
+  note: TCGA-PCPG
+- code_group:
+  - id: NCIT:C4220
+    label: Malignant Adrenal Gland Pheochromocytoma
+  - id: pgx:icdom-87003
+    label: Pheochromocytoma, malignant
+  - id: pgx:icdot-C74.9
+    label: Adrenal gland, NOS
+  examples:
+  - Additional - New Primary
+  - Metastatic
+  - Primary Tumor
+  id: NCIT:C4220::pgx:icdom-87003::pgx:icdot-C74.9
+  note: TCGA-PCPG
+- code_group:
+  - id: NCIT:C4220
+    label: Malignant Adrenal Gland Pheochromocytoma
+  - id: pgx:icdom-87003
+    label: Pheochromocytoma, malignant
+  - id: pgx:icdot-C75.5
+    label: Aortic body and other paraganglia
+  examples:
+  - Primary Tumor
+  id: NCIT:C4220::pgx:icdom-87003::pgx:icdot-C75.5
+  note: TCGA-PCPG
+- code_group:
+  - id: NCIT:C4225
+    label: Nodular Melanoma
+  - id: pgx:icdom-87213
+    label: Nodular melanoma
+  - id: pgx:icdot-C44.4
+    label: Skin of scalp and neck
+  examples:
+  - Metastatic
+  - Primary Tumor
+  id: NCIT:C4225::pgx:icdom-87213::pgx:icdot-C44.4
+  note: TCGA-SKCM
+- code_group:
+  - id: NCIT:C4225
+    label: Nodular Melanoma
+  - id: pgx:icdom-87213
+    label: Nodular melanoma
+  - id: pgx:icdot-C44.5
+    label: Skin of trunk
+  examples:
+  - Primary Tumor
+  id: NCIT:C4225::pgx:icdom-87213::pgx:icdot-C44.5
+  note: TCGA-SKCM
+- code_group:
+  - id: NCIT:C4225
+    label: Nodular Melanoma
+  - id: pgx:icdom-87213
+    label: Nodular melanoma
+  - id: pgx:icdot-C44.6
+    label: Skin of upper limb and shoulder
+  examples:
+  - Primary Tumor
+  id: NCIT:C4225::pgx:icdom-87213::pgx:icdot-C44.6
+  note: TCGA-SKCM
+- code_group:
+  - id: NCIT:C4225
+    label: Nodular Melanoma
+  - id: pgx:icdom-87213
+    label: Nodular melanoma
+  - id: pgx:icdot-C44.7
+    label: Skin of lower limb and hip
+  examples:
+  - Primary Tumor
+  id: NCIT:C4225::pgx:icdom-87213::pgx:icdot-C44.7
+  note: TCGA-SKCM
+- code_group:
+  - id: NCIT:C4225
+    label: Nodular Melanoma
+  - id: pgx:icdom-87213
+    label: Nodular melanoma
+  - id: pgx:icdot-C44.9
+    label: Skin, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C4225::pgx:icdom-87213::pgx:icdot-C44.9
+  note: TCGA-SKCM
+- code_group:
+  - id: NCIT:C4225
+    label: Nodular Melanoma
+  - id: pgx:icdom-87213
+    label: Nodular melanoma
+  - id: pgx:icdot-C77.4
+    label: Lymph nodes of inguinal region or leg
+  examples:
+  - Metastatic
+  id: NCIT:C4225::pgx:icdom-87213::pgx:icdot-C77.4
+  note: TCGA-SKCM
+- code_group:
+  - id: NCIT:C4236
+    label: Epithelioid Cell Melanoma
+  - id: pgx:icdom-87713
+    label: Epithelioid cell melanoma
+  - id: pgx:icdot-C18.9
+    label: Colon, NOS
+  examples:
+  - Metastatic
+  id: NCIT:C4236::pgx:icdom-87713::pgx:icdot-C18.9
+  note: TCGA-SKCM
+- code_group:
+  - id: NCIT:C4236
+    label: Epithelioid Cell Melanoma
+  - id: pgx:icdom-87713
+    label: Epithelioid cell melanoma
+  - id: pgx:icdot-C44.5
+    label: Skin of trunk
+  examples:
+  - Primary Tumor
+  id: NCIT:C4236::pgx:icdom-87713::pgx:icdot-C44.5
+  note: TCGA-SKCM
+- code_group:
+  - id: NCIT:C4236
+    label: Epithelioid Cell Melanoma
+  - id: pgx:icdom-87713
+    label: Epithelioid cell melanoma
+  - id: pgx:icdot-C44.6
+    label: Skin of upper limb and shoulder
+  examples:
+  - Primary Tumor
+  id: NCIT:C4236::pgx:icdom-87713::pgx:icdot-C44.6
+  note: TCGA-SKCM
+- code_group:
+  - id: NCIT:C4236
+    label: Epithelioid Cell Melanoma
+  - id: pgx:icdom-87713
+    label: Epithelioid cell melanoma
+  - id: pgx:icdot-C44.7
+    label: Skin of lower limb and hip
+  examples:
+  - Primary Tumor
+  id: NCIT:C4236::pgx:icdom-87713::pgx:icdot-C44.7
+  note: TCGA-SKCM
+- code_group:
+  - id: NCIT:C4236
+    label: Epithelioid Cell Melanoma
+  - id: pgx:icdom-87713
+    label: Epithelioid cell melanoma
+  - id: pgx:icdot-C69.3
+    label: Choroid
+  examples:
+  - Primary Tumor
+  id: NCIT:C4236::pgx:icdom-87713::pgx:icdot-C69.3
+  note: TCGA-UVM
+- code_group:
+  - id: NCIT:C4236
+    label: Epithelioid Cell Melanoma
+  - id: pgx:icdom-87713
+    label: Epithelioid cell melanoma
+  - id: pgx:icdot-C69.4
+    label: Ciliary body
+  examples:
+  - Primary Tumor
+  id: NCIT:C4236::pgx:icdom-87713::pgx:icdot-C69.4
+  note: TCGA-UVM
+- code_group:
+  - id: NCIT:C4237
+    label: Spindle Cell Melanoma
+  - id: pgx:icdom-87723
+    label: Spindle cell melanoma, NOS
+  - id: pgx:icdot-C44.3
+    label: Skin of other and unspecified parts of face
+  examples:
+  - Primary Tumor
+  id: NCIT:C4237::pgx:icdom-87723::pgx:icdot-C44.3
+  note: TCGA-SKCM
+- code_group:
+  - id: NCIT:C4237
+    label: Spindle Cell Melanoma
+  - id: pgx:icdom-87723
+    label: Spindle cell melanoma, NOS
+  - id: pgx:icdot-C44.5
+    label: Skin of trunk
+  examples:
+  - Primary Tumor
+  id: NCIT:C4237::pgx:icdom-87723::pgx:icdot-C44.5
+  note: TCGA-SKCM
+- code_group:
+  - id: NCIT:C4237
+    label: Spindle Cell Melanoma
+  - id: pgx:icdom-87723
+    label: Spindle cell melanoma, NOS
+  - id: pgx:icdot-C44.6
+    label: Skin of upper limb and shoulder
+  examples:
+  - Metastatic
+  id: NCIT:C4237::pgx:icdom-87723::pgx:icdot-C44.6
+  note: TCGA-SKCM
+- code_group:
+  - id: NCIT:C4237
+    label: Spindle Cell Melanoma
+  - id: pgx:icdom-87723
+    label: Spindle cell melanoma, NOS
+  - id: pgx:icdot-C69.3
+    label: Choroid
+  examples:
+  - Primary Tumor
+  id: NCIT:C4237::pgx:icdom-87723::pgx:icdot-C69.3
+  note: TCGA-UVM
+- code_group:
+  - id: NCIT:C4237
+    label: Spindle Cell Melanoma
+  - id: pgx:icdom-87723
+    label: Spindle cell melanoma, NOS
+  - id: pgx:icdot-C69.4
+    label: Ciliary body
+  examples:
+  - Primary Tumor
+  id: NCIT:C4237::pgx:icdom-87723::pgx:icdot-C69.4
+  note: TCGA-UVM
+- code_group:
+  - id: NCIT:C4237
+    label: Spindle Cell Melanoma
+  - id: pgx:icdom-87723
+    label: Spindle cell melanoma, NOS
+  - id: pgx:icdot-C69.8
+    label: Overlapping lesion of eye and adnexa
+  examples:
+  - Primary Tumor
+  id: NCIT:C4237::pgx:icdom-87723::pgx:icdot-C69.8
+  note: TCGA-UVM
+- code_group:
+  - id: NCIT:C4237
+    label: Spindle Cell Melanoma
+  - id: pgx:icdom-87723
+    label: Spindle cell melanoma, NOS
+  - id: pgx:icdot-C69.9
+    label: Eye, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C4237::pgx:icdom-87723::pgx:icdot-C69.9
+  note: TCGA-UVM
+- code_group:
+  - id: NCIT:C4239
+    label: Type B Spindle Cell Melanoma
+  - id: pgx:icdom-87743
+    label: Spindle cell melanoma, type B
+  - id: pgx:icdot-C69.3
+    label: Choroid
+  examples:
+  - Primary Tumor
+  id: NCIT:C4239::pgx:icdom-87743::pgx:icdot-C69.3
+  note: TCGA-UVM
+- code_group:
+  - id: NCIT:C4239
+    label: Type B Spindle Cell Melanoma
+  - id: pgx:icdom-87743
+    label: Spindle cell melanoma, type B
+  - id: pgx:icdot-C69.8
+    label: Overlapping lesion of eye and adnexa
+  examples:
+  - Primary Tumor
+  id: NCIT:C4239::pgx:icdom-87743::pgx:icdot-C69.8
+  note: TCGA-UVM
+- code_group:
+  - id: NCIT:C4247
+    label: Undifferentiated Pleomorphic Sarcoma
+  - id: pgx:icdom-88303
+    label: Malignant fibrous histiocytoma
+  - id: pgx:icdot-C48.0
+    label: Retroperitoneum
+  examples:
+  - Primary Tumor
+  id: NCIT:C4247::pgx:icdom-88303::pgx:icdot-C48.0
+  note: TCGA-SARC
+- code_group:
+  - id: NCIT:C4247
+    label: Undifferentiated Pleomorphic Sarcoma
+  - id: pgx:icdom-88303
+    label: Malignant fibrous histiocytoma
+  - id: pgx:icdot-C49.2
+    label: Connective, Subcutaneous and other soft tissues of lower limb and hip
+  examples:
+  - Primary Tumor
+  id: NCIT:C4247::pgx:icdom-88303::pgx:icdot-C49.2
+  note: TCGA-SARC
+- code_group:
+  - id: NCIT:C4247
+    label: Undifferentiated Pleomorphic Sarcoma
+  - id: pgx:icdom-88303
+    label: Malignant fibrous histiocytoma
+  - id: pgx:icdot-C49.3
+    label: Connective, Subcutaneous and other soft tissues of thorax
+  examples:
+  - Primary Tumor
+  id: NCIT:C4247::pgx:icdom-88303::pgx:icdot-C49.3
+  note: TCGA-SARC
+- code_group:
+  - id: NCIT:C4247
+    label: Undifferentiated Pleomorphic Sarcoma
+  - id: pgx:icdom-88303
+    label: Malignant fibrous histiocytoma
+  - id: pgx:icdot-C49.5
+    label: Connective, Subcutaneous and other soft tissues of pelvis
+  examples:
+  - Primary Tumor
+  id: NCIT:C4247::pgx:icdom-88303::pgx:icdot-C49.5
+  note: TCGA-SARC
+- code_group:
+  - id: NCIT:C4247
+    label: Undifferentiated Pleomorphic Sarcoma
+  - id: pgx:icdom-88303
+    label: Malignant fibrous histiocytoma
+  - id: pgx:icdot-C49.6
+    label: Connective, Subcutaneous and other soft tissues of trunk, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C4247::pgx:icdom-88303::pgx:icdot-C49.6
+  note: TCGA-SARC
+- code_group:
+  - id: NCIT:C4250
+    label: Well Differentiated Liposarcoma
+  - id: pgx:icdom-88513
+    label: Liposarcoma, well differentiated
+  - id: pgx:icdot-C48.0
+    label: Retroperitoneum
+  examples:
+  - Primary Tumor
+  id: NCIT:C4250::pgx:icdom-88513::pgx:icdot-C48.0
+  note: TCGA-SARC
+- code_group:
+  - id: NCIT:C4277
+    label: Spindle Cell Synovial Sarcoma
+  - id: pgx:icdom-90413
+    label: Synovial sarcoma, spindle cell
+  - id: pgx:icdot-C49.0
+    label: Connective, Subcutaneous and other soft tissues of head, face, and neck
+  examples:
+  - Primary Tumor
+  id: NCIT:C4277::pgx:icdom-90413::pgx:icdot-C49.0
+  note: TCGA-SARC
+- code_group:
+  - id: NCIT:C4277
+    label: Spindle Cell Synovial Sarcoma
+  - id: pgx:icdom-90413
+    label: Synovial sarcoma, spindle cell
+  - id: pgx:icdot-C49.2
+    label: Connective, Subcutaneous and other soft tissues of lower limb and hip
+  examples:
+  - Primary Tumor
+  id: NCIT:C4277::pgx:icdom-90413::pgx:icdot-C49.2
+  note: TCGA-SARC
+- code_group:
+  - id: NCIT:C4277
+    label: Spindle Cell Synovial Sarcoma
+  - id: pgx:icdom-90413
+    label: Synovial sarcoma, spindle cell
+  - id: pgx:icdot-C49.3
+    label: Connective, Subcutaneous and other soft tissues of thorax
+  examples:
+  - Primary Tumor
+  id: NCIT:C4277::pgx:icdom-90413::pgx:icdot-C49.3
+  note: TCGA-SARC
+- code_group:
+  - id: NCIT:C4277
+    label: Spindle Cell Synovial Sarcoma
+  - id: pgx:icdom-90413
+    label: Synovial sarcoma, spindle cell
+  - id: pgx:icdot-C64.9
+    label: Kidney, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C4277::pgx:icdom-90413::pgx:icdot-C64.9
+  note: TCGA-SARC
+- code_group:
+  - id: NCIT:C4279
+    label: Biphasic Synovial Sarcoma
+  - id: pgx:icdom-90433
+    label: Synovial sarcoma, biphasic
+  - id: pgx:icdot-C49.2
+    label: Connective, Subcutaneous and other soft tissues of lower limb and hip
+  examples:
+  - Primary Tumor
+  id: NCIT:C4279::pgx:icdom-90433::pgx:icdot-C49.2
+  note: TCGA-SARC
+- code_group:
+  - id: NCIT:C4279
+    label: Biphasic Synovial Sarcoma
+  - id: pgx:icdom-90433
+    label: Synovial sarcoma, biphasic
+  - id: pgx:icdot-C49.6
+    label: Connective, Subcutaneous and other soft tissues of trunk, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C4279::pgx:icdom-90433::pgx:icdot-C49.6
+  note: TCGA-SARC
+- code_group:
+  - id: NCIT:C4286
+    label: Immature Teratoma
+  - id: pgx:icdom-90803
+    label: Teratoma, malignant, NOS
+  - id: pgx:icdot-C62.9
+    label: Testis, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C4286::pgx:icdom-90803::pgx:icdot-C62.9
+  note: TCGA-TGCT
+- code_group:
+  - id: NCIT:C4290
+    label: Mixed Germ Cell Tumor
+  - id: pgx:icdom-90853
+    label: Mixed germ cell tumor
+  - id: pgx:icdot-C62.9
+    label: Testis, NOS
+  examples:
+  - Additional - New Primary
+  - Primary Tumor
+  id: NCIT:C4290::pgx:icdom-90853::pgx:icdot-C62.9
+  note: TCGA-TGCT
+- code_group:
+  - id: NCIT:C4326
+    label: Anaplastic Oligodendroglioma
+  - id: pgx:icdom-94513
+    label: Oligodendroglioma, anaplastic
+  - id: pgx:icdot-C71.9
+    label: Brain, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C4326::pgx:icdom-94513::pgx:icdot-C71.9
+  note: TCGA-LGG
+- code_group:
+  - id: NCIT:C4349
+    label: Colon Adenocarcinoma
+  - id: pgx:icdom-81403
+    label: Adenocarcinoma, NOS
+  - id: pgx:icdot-C18.0
+    label: Cecum
+  examples:
+  - Primary Tumor
+  id: NCIT:C4349::pgx:icdom-81403::pgx:icdot-C18.0
+  note: TCGA-COAD
+- code_group:
+  - id: NCIT:C4349
+    label: Colon Adenocarcinoma
+  - id: pgx:icdom-81403
+    label: Adenocarcinoma, NOS
+  - id: pgx:icdot-C18.2
+    label: Ascending colon
+  examples:
+  - Primary Tumor
+  id: NCIT:C4349::pgx:icdom-81403::pgx:icdot-C18.2
+  note: TCGA-COAD
+- code_group:
+  - id: NCIT:C4349
+    label: Colon Adenocarcinoma
+  - id: pgx:icdom-81403
+    label: Adenocarcinoma, NOS
+  - id: pgx:icdot-C18.3
+    label: Hepatic flexure of colon
+  examples:
+  - Primary Tumor
+  id: NCIT:C4349::pgx:icdom-81403::pgx:icdot-C18.3
+  note: TCGA-COAD
+- code_group:
+  - id: NCIT:C4349
+    label: Colon Adenocarcinoma
+  - id: pgx:icdom-81403
+    label: Adenocarcinoma, NOS
+  - id: pgx:icdot-C18.4
+    label: Transverse colon
+  examples:
+  - Primary Tumor
+  id: NCIT:C4349::pgx:icdom-81403::pgx:icdot-C18.4
+  note: TCGA-COAD
+- code_group:
+  - id: NCIT:C4349
+    label: Colon Adenocarcinoma
+  - id: pgx:icdom-81403
+    label: Adenocarcinoma, NOS
+  - id: pgx:icdot-C18.5
+    label: Splenic flexure of colon
+  examples:
+  - Primary Tumor
+  id: NCIT:C4349::pgx:icdom-81403::pgx:icdot-C18.5
+  note: TCGA-COAD
+- code_group:
+  - id: NCIT:C4349
+    label: Colon Adenocarcinoma
+  - id: pgx:icdom-81403
+    label: Adenocarcinoma, NOS
+  - id: pgx:icdot-C18.6
+    label: Descending colon
+  examples:
+  - Primary Tumor
+  id: NCIT:C4349::pgx:icdom-81403::pgx:icdot-C18.6
+  note: TCGA-COAD
+- code_group:
+  - id: NCIT:C4349
+    label: Colon Adenocarcinoma
+  - id: pgx:icdom-81403
+    label: Adenocarcinoma, NOS
+  - id: pgx:icdot-C18.9
+    label: Colon, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C4349::pgx:icdom-81403::pgx:icdot-C18.9
+  note: TCGA-COAD
+- code_group:
+  - id: NCIT:C43584
+    label: Rectosigmoid Adenocarcinoma
+  - id: pgx:icdom-81403
+    label: Adenocarcinoma, NOS
+  - id: pgx:icdot-C18.7
+    label: Sigmoid colon
+  examples:
+  - Metastatic
+  - Primary Tumor
+  - Recurrent Tumor
+  id: NCIT:C43584::pgx:icdom-81403::pgx:icdot-C18.7
+  note: TCGA-COAD
+- code_group:
+  - id: NCIT:C43584
+    label: Rectosigmoid Adenocarcinoma
+  - id: pgx:icdom-81403
+    label: Adenocarcinoma, NOS
+  - id: pgx:icdot-C19.9
+    label: Rectosigmoid junction
+  examples:
+  - Primary Tumor
+  - Recurrent Tumor
+  id: NCIT:C43584::pgx:icdom-81403::pgx:icdot-C19.9
+  note: TCGA-READ
+- code_group:
+  - id: NCIT:C43592
+    label: Rectosigmoid Mucinous Adenocarcinoma
+  - id: pgx:icdom-84803
+    label: Mucinous adenocarcinoma
+  - id: pgx:icdot-C18.7
+    label: Sigmoid colon
+  examples:
+  - Primary Tumor
+  id: NCIT:C43592::pgx:icdom-84803::pgx:icdot-C18.7
+  note: TCGA-COAD
+- code_group:
+  - id: NCIT:C43592
+    label: Rectosigmoid Mucinous Adenocarcinoma
+  - id: pgx:icdom-84803
+    label: Mucinous adenocarcinoma
+  - id: pgx:icdot-C19.9
+    label: Rectosigmoid junction
+  examples:
+  - Primary Tumor
+  id: NCIT:C43592::pgx:icdom-84803::pgx:icdot-C19.9
+  note: TCGA-READ
+- code_group:
+  - id: NCIT:C4436
+    label: Cholangiocarcinoma
+  - id: pgx:icdom-81603
+    label: Cholangiocarcinoma
+  - id: pgx:icdot-C22.0
+    label: Liver
+  examples:
+  - Primary Tumor
+  id: NCIT:C4436::pgx:icdom-81603::pgx:icdot-C22.0
+  note: TCGA-CHOL
+- code_group:
+  - id: NCIT:C4504
+    label: Malignant Breast Phyllodes Tumor
+  - id: pgx:icdom-90203
+    label: Phyllodes tumor, malignant
+  - id: pgx:icdot-C50.9
+    label: Breast, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C4504::pgx:icdom-90203::pgx:icdot-C50.9
+  note: TCGA-BRCA
+- code_group:
+  - id: NCIT:C4519
+    label: Cervical adenosquamous carcinoma
+  - id: pgx:icdom-85603
+    label: Adenosquamous carcinoma
+  - id: pgx:icdot-C53.9
+    label: Cervix uteri
+  examples:
+  - Primary Tumor
+  id: NCIT:C4519::pgx:icdom-85603::pgx:icdot-C53.9
+  note: TCGA-CESC
+- code_group:
+  - id: NCIT:C45665
+    label: Pleural biphasic mesothelioma
+  - id: pgx:icdom-90533
+    label: Mesothelioma, biphasic, malignant
+  - id: pgx:icdot-C38.4
+    label: Pleura, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C45665::pgx:icdom-90533::pgx:icdot-C38.4
+  note: TCGA-MESO
+- code_group:
+  - id: NCIT:C4648
+    label: Tongue Squamous Cell Carcinoma
+  - id: pgx:icdom-80703
+    label: Squamous cell carcinoma, NOS
+  - id: pgx:icdot-C01.9
+    label: Base of tongue, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C4648::pgx:icdom-80703::pgx:icdot-C01.9
+  note: TCGA-HNSC
+- code_group:
+  - id: NCIT:C4648
+    label: Tongue Squamous Cell Carcinoma
+  - id: pgx:icdom-80703
+    label: Squamous cell carcinoma, NOS
+  - id: pgx:icdot-C02.1
+    label: Border of tongue
+  examples:
+  - Primary Tumor
+  id: NCIT:C4648::pgx:icdom-80703::pgx:icdot-C02.1
+  note: TCGA-HNSC
+- code_group:
+  - id: NCIT:C4648
+    label: Tongue Squamous Cell Carcinoma
+  - id: pgx:icdom-80703
+    label: Squamous cell carcinoma, NOS
+  - id: pgx:icdot-C02.2
+    label: Ventral surface of tongue, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C4648::pgx:icdom-80703::pgx:icdot-C02.2
+  note: TCGA-HNSC
+- code_group:
+  - id: NCIT:C4648
+    label: Tongue Squamous Cell Carcinoma
+  - id: pgx:icdom-80703
+    label: Squamous cell carcinoma, NOS
+  - id: pgx:icdot-C02.9
+    label: Tongue, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C4648::pgx:icdom-80703::pgx:icdot-C02.9
+  note: TCGA-HNSC
+- code_group:
+  - id: NCIT:C4649
+    label: Palate Squamous Cell Carcinoma
+  - id: pgx:icdom-80703
+    label: Squamous cell carcinoma, NOS
+  - id: pgx:icdot-C05.0
+    label: Hard palate
+  examples:
+  - Primary Tumor
+  id: NCIT:C4649::pgx:icdom-80703::pgx:icdot-C05.0
+  note: TCGA-HNSC
+- code_group:
+  - id: NCIT:C47857
+    label: Paget Disease of the Breast
+  - id: pgx:icdom-85413
+    label: Paget disease and infiltrating duct carcinoma of breast
+  - id: pgx:icdot-C50.9
+    label: Breast, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C47857::pgx:icdom-85413::pgx:icdot-C50.9
+  note: TCGA-BRCA
+- code_group:
+  - id: NCIT:C4815
+    label: Thyroid Gland Carcinoma
+  - id: pgx:icdom-80103
+    label: Carcinoma, NOS
+  - id: pgx:icdot-C73.9
+    label: Thyroid gland
+  examples:
+  - Primary Tumor
+  id: NCIT:C4815::pgx:icdom-80103::pgx:icdot-C73.9
+  note: TCGA-THCA
+- code_group:
+  - id: NCIT:C4833
+    label: Oral Cavity Squamous Cell Carcinoma
+  - id: pgx:icdom-80703
+    label: Squamous cell carcinoma, NOS
+  - id: pgx:icdot-C06.0
+    label: Cheeck mucosa
+  examples:
+  - Primary Tumor
+  id: NCIT:C4833::pgx:icdom-80703::pgx:icdot-C06.0
+  note: TCGA-HNSC
+- code_group:
+  - id: NCIT:C4833
+    label: Oral Cavity Squamous Cell Carcinoma
+  - id: pgx:icdom-80703
+    label: Squamous cell carcinoma, NOS
+  - id: pgx:icdot-C06.9
+    label: Mouth, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C4833::pgx:icdom-80703::pgx:icdot-C06.9
+  note: TCGA-HNSC
+- code_group:
+  - id: NCIT:C4872
+    label: Breast Carcinoma
+  - id: pgx:icdom-80103
+    label: Carcinoma, NOS
+  - id: pgx:icdot-C50.9
+    label: Breast, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C4872::pgx:icdom-80103::pgx:icdot-C50.9
+  note: TCGA-BRCA
+- code_group:
+  - id: NCIT:C4912
+    label: Bladder Carcinoma
+  - id: pgx:icdom-80103
+    label: Carcinoma, NOS
+  - id: pgx:icdot-C67.9
+    label: Bladder, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C4912::pgx:icdom-80103::pgx:icdot-C67.9
+  note: TCGA-BLCA
+- code_group:
+  - id: NCIT:C5142
+    label: Invasive Cribriform Breast Carcinoma
+  - id: pgx:icdom-82013
+    label: Cribriform carcinoma, NOS
+  - id: pgx:icdot-C50.9
+    label: Breast, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C5142::pgx:icdom-82013::pgx:icdot-C50.9
+  note: TCGA-BRCA
+- code_group:
+  - id: NCIT:C5161
+    label: Pleomorphic breast carcinoma
+  - id: pgx:icdom-80223
+    label: Pleomorphic carcinoma
+  - id: pgx:icdot-C50.9
+    label: Breast, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C5161::pgx:icdom-80223::pgx:icdot-C50.9
+  note: TCGA-BRCA
+- code_group:
+  - id: NCIT:C5164
+    label: Metaplastic Breast Carcinoma
+  - id: pgx:icdom-85753
+    label: Metaplastic carcinoma, NOS
+  - id: pgx:icdot-C50.9
+    label: Breast, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C5164::pgx:icdom-85753::pgx:icdot-C50.9
+  note: TCGA-BRCA
+- code_group:
+  - id: NCIT:C5214
+    label: Breast Adenocarcinoma
+  - id: pgx:icdom-85233
+    label: Infiltrating duct mixed with other types of carcinoma
+  - id: pgx:icdot-C50.3
+    label: Lower-inner quadrant of breast
+  examples:
+  - Primary Tumor
+  id: NCIT:C5214::pgx:icdom-85233::pgx:icdot-C50.3
+  note: TCGA-BRCA
+- code_group:
+  - id: NCIT:C5214
+    label: Breast Adenocarcinoma
+  - id: pgx:icdom-85233
+    label: Infiltrating duct mixed with other types of carcinoma
+  - id: pgx:icdot-C50.9
+    label: Breast, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C5214::pgx:icdom-85233::pgx:icdot-C50.9
+  note: TCGA-BRCA
+- code_group:
+  - id: NCIT:C5214
+    label: Breast Adenocarcinoma
+  - id: pgx:icdom-85243
+    label: Infiltrating lobular mixed with other types of carcinoma
+  - id: pgx:icdot-C50.2
+    label: Upper-inner quadrant of breast
+  examples:
+  - Primary Tumor
+  id: NCIT:C5214::pgx:icdom-85243::pgx:icdot-C50.2
+  note: TCGA-BRCA
+- code_group:
+  - id: NCIT:C5214
+    label: Breast Adenocarcinoma
+  - id: pgx:icdom-85243
+    label: Infiltrating lobular mixed with other types of carcinoma
+  - id: pgx:icdot-C50.9
+    label: Breast, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C5214::pgx:icdom-85243::pgx:icdot-C50.9
+  note: TCGA-BRCA
+- code_group:
+  - id: NCIT:C5228
+    label: Ovarian Cystadenocarcinoma
+  - id: pgx:icdom-84403
+    label: Cystadenocarcinoma, NOS
+  - id: pgx:icdot-C56.9
+    label: Ovary
+  examples:
+  - Primary Tumor
+  id: NCIT:C5228::pgx:icdom-84403::pgx:icdot-C56.9
+  note: TCGA-OV
+- code_group:
+  - id: NCIT:C5234
+    label: Ovarian leiomyosarcoma
+  - id: pgx:icdom-88903
+    label: Leiomyosarcoma, NOS
+  - id: pgx:icdot-C56.9
+    label: Ovary
+  examples:
+  - Primary Tumor
+  id: NCIT:C5234::pgx:icdom-88903::pgx:icdot-C56.9
+  note: TCGA-SARC
+- code_group:
+  - id: NCIT:C5248
+    label: Mucinous Gastric Adenocarcinoma
+  - id: pgx:icdom-84803
+    label: Mucinous adenocarcinoma
+  - id: pgx:icdot-C16.0
+    label: Cardia, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C5248::pgx:icdom-84803::pgx:icdot-C16.0
+  note: TCGA-STAD
+- code_group:
+  - id: NCIT:C5248
+    label: Mucinous Gastric Adenocarcinoma
+  - id: pgx:icdom-84803
+    label: Mucinous adenocarcinoma
+  - id: pgx:icdot-C16.1
+    label: Fundus of stomach
+  examples:
+  - Primary Tumor
+  id: NCIT:C5248::pgx:icdom-84803::pgx:icdot-C16.1
+  note: TCGA-STAD
+- code_group:
+  - id: NCIT:C5248
+    label: Mucinous Gastric Adenocarcinoma
+  - id: pgx:icdom-84803
+    label: Mucinous adenocarcinoma
+  - id: pgx:icdot-C16.2
+    label: Body of stomach
+  examples:
+  - Primary Tumor
+  id: NCIT:C5248::pgx:icdom-84803::pgx:icdot-C16.2
+  note: TCGA-STAD
+- code_group:
+  - id: NCIT:C5248
+    label: Mucinous Gastric Adenocarcinoma
+  - id: pgx:icdom-84803
+    label: Mucinous adenocarcinoma
+  - id: pgx:icdot-C16.3
+    label: Gastric antrum
+  examples:
+  - Primary Tumor
+  id: NCIT:C5248::pgx:icdom-84803::pgx:icdot-C16.3
+  note: TCGA-STAD
+- code_group:
+  - id: NCIT:C5248
+    label: Mucinous Gastric Adenocarcinoma
+  - id: pgx:icdom-84803
+    label: Mucinous adenocarcinoma
+  - id: pgx:icdot-C16.9
+    label: Stomach, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C5248::pgx:icdom-84803::pgx:icdot-C16.9
+  note: TCGA-STAD
+- code_group:
+  - id: NCIT:C54244
+    label: Basaloid Squamous Cell Carcinoma
+  - id: pgx:icdom-80833
+    label: Basaloid squamous cell carcinoma
+  - id: pgx:icdot-C01.9
+    label: Base of tongue, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C54244::pgx:icdom-80833::pgx:icdot-C01.9
+  note: TCGA-HNSC
+- code_group:
+  - id: NCIT:C54244
+    label: Basaloid Squamous Cell Carcinoma
+  - id: pgx:icdom-80833
+    label: Basaloid squamous cell carcinoma
+  - id: pgx:icdot-C04.9
+    label: Floor of mouth, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C54244::pgx:icdom-80833::pgx:icdot-C04.9
+  note: TCGA-HNSC
+- code_group:
+  - id: NCIT:C54244
+    label: Basaloid Squamous Cell Carcinoma
+  - id: pgx:icdom-80833
+    label: Basaloid squamous cell carcinoma
+  - id: pgx:icdot-C06.0
+    label: Cheeck mucosa
+  examples:
+  - Primary Tumor
+  id: NCIT:C54244::pgx:icdom-80833::pgx:icdot-C06.0
+  note: TCGA-HNSC
+- code_group:
+  - id: NCIT:C54244
+    label: Basaloid Squamous Cell Carcinoma
+  - id: pgx:icdom-80833
+    label: Basaloid squamous cell carcinoma
+  - id: pgx:icdot-C09.9
+    label: Tonsil, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C54244::pgx:icdom-80833::pgx:icdot-C09.9
+  note: TCGA-HNSC
+- code_group:
+  - id: NCIT:C54244
+    label: Basaloid Squamous Cell Carcinoma
+  - id: pgx:icdom-80833
+    label: Basaloid squamous cell carcinoma
+  - id: pgx:icdot-C10.9
+    label: Oropharynx, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C54244::pgx:icdom-80833::pgx:icdot-C10.9
+  note: TCGA-HNSC
+- code_group:
+  - id: NCIT:C54244
+    label: Basaloid Squamous Cell Carcinoma
+  - id: pgx:icdom-80833
+    label: Basaloid squamous cell carcinoma
+  - id: pgx:icdot-C15.5
+    label: Lower third of esophagus
+  examples:
+  - Primary Tumor
+  id: NCIT:C54244::pgx:icdom-80833::pgx:icdot-C15.5
+  note: TCGA-ESCA
+- code_group:
+  - id: NCIT:C54244
+    label: Basaloid Squamous Cell Carcinoma
+  - id: pgx:icdom-80833
+    label: Basaloid squamous cell carcinoma
+  - id: pgx:icdot-C32.9
+    label: Larynx, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C54244::pgx:icdom-80833::pgx:icdot-C32.9
+  note: TCGA-HNSC
+- code_group:
+  - id: NCIT:C54244
+    label: Basaloid Squamous Cell Carcinoma
+  - id: pgx:icdom-80833
+    label: Basaloid squamous cell carcinoma
+  - id: pgx:icdot-C34.1
+    label: Upper lobe, lung
+  examples:
+  - Primary Tumor
+  id: NCIT:C54244::pgx:icdom-80833::pgx:icdot-C34.1
+  note: TCGA-LUSC
+- code_group:
+  - id: NCIT:C54244
+    label: Basaloid Squamous Cell Carcinoma
+  - id: pgx:icdom-80833
+    label: Basaloid squamous cell carcinoma
+  - id: pgx:icdot-C34.3
+    label: Lower lobe, lung
+  examples:
+  - Primary Tumor
+  id: NCIT:C54244::pgx:icdom-80833::pgx:icdot-C34.3
+  note: TCGA-LUSC
+- code_group:
+  - id: NCIT:C54244
+    label: Basaloid Squamous Cell Carcinoma
+  - id: pgx:icdom-80833
+    label: Basaloid squamous cell carcinoma
+  - id: pgx:icdot-C53.9
+    label: Cervix uteri
+  examples:
+  - Primary Tumor
+  id: NCIT:C54244::pgx:icdom-80833::pgx:icdot-C53.9
+  note: TCGA-CESC
+- code_group:
+  - id: NCIT:C5473
+    label: Gastric tubular adenocarcinoma
+  - id: pgx:icdom-82113
+    label: Tubular adenocarcinoma
+  - id: pgx:icdot-C16.0
+    label: Cardia, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C5473::pgx:icdom-82113::pgx:icdot-C16.0
+  note: TCGA-STAD
+- code_group:
+  - id: NCIT:C5473
+    label: Gastric tubular adenocarcinoma
+  - id: pgx:icdom-82113
+    label: Tubular adenocarcinoma
+  - id: pgx:icdot-C16.1
+    label: Fundus of stomach
+  examples:
+  - Primary Tumor
+  id: NCIT:C5473::pgx:icdom-82113::pgx:icdot-C16.1
+  note: TCGA-STAD
+- code_group:
+  - id: NCIT:C5473
+    label: Gastric tubular adenocarcinoma
+  - id: pgx:icdom-82113
+    label: Tubular adenocarcinoma
+  - id: pgx:icdot-C16.2
+    label: Body of stomach
+  examples:
+  - Primary Tumor
+  id: NCIT:C5473::pgx:icdom-82113::pgx:icdot-C16.2
+  note: TCGA-STAD
+- code_group:
+  - id: NCIT:C5473
+    label: Gastric tubular adenocarcinoma
+  - id: pgx:icdom-82113
+    label: Tubular adenocarcinoma
+  - id: pgx:icdot-C16.3
+    label: Gastric antrum
+  examples:
+  - Primary Tumor
+  id: NCIT:C5473::pgx:icdom-82113::pgx:icdot-C16.3
+  note: TCGA-STAD
+- code_group:
+  - id: NCIT:C5596
+    label: Prostate Acinar Adenocarcinoma
+  - id: pgx:icdom-85503
+    label: Acinar cell carcinoma
+  - id: pgx:icdot-C61.9
+    label: Prostate gland
+  examples:
+  - Primary Tumor
+  id: NCIT:C5596::pgx:icdom-85503::pgx:icdot-C61.9
+  note: TCGA-PRAD
+- code_group:
+  - id: NCIT:C5649
+    label: Acinar Lung Adenocarcinoma
+  - id: pgx:icdom-85503
+    label: Acinar cell carcinoma
+  - id: pgx:icdot-C34.1
+    label: Upper lobe, lung
+  examples:
+  - Primary Tumor
+  id: NCIT:C5649::pgx:icdom-85503::pgx:icdot-C34.1
+  note: TCGA-LUAD
+- code_group:
+  - id: NCIT:C5649
+    label: Acinar Lung Adenocarcinoma
+  - id: pgx:icdom-85503
+    label: Acinar cell carcinoma
+  - id: pgx:icdot-C34.2
+    label: Middle lobe, lung
+  examples:
+  - Primary Tumor
+  id: NCIT:C5649::pgx:icdom-85503::pgx:icdot-C34.2
+  note: TCGA-LUAD
+- code_group:
+  - id: NCIT:C5649
+    label: Acinar Lung Adenocarcinoma
+  - id: pgx:icdom-85503
+    label: Acinar cell carcinoma
+  - id: pgx:icdot-C34.3
+    label: Lower lobe, lung
+  examples:
+  - Primary Tumor
+  id: NCIT:C5649::pgx:icdom-85503::pgx:icdot-C34.3
+  note: TCGA-LUAD
+- code_group:
+  - id: NCIT:C5650
+    label: Papillary lung adenocarcinoma
+  - id: pgx:icdom-82603
+    label: Papillary adenocarcinoma, NOS
+  - id: pgx:icdot-C34.9
+    label: Lung, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C5650::pgx:icdom-82603::pgx:icdot-C34.9
+  note: TCGA-LUAD
+- code_group:
+  - id: NCIT:C60781
+    label: Astrocytoma
+  - id: pgx:icdom-94003
+    label: Astrocytoma, NOS
+  - id: pgx:icdot-C71.0
+    label: Cerebrum
+  examples:
+  - Primary Tumor
+  - Recurrent Tumor
+  id: NCIT:C60781::pgx:icdom-94003::pgx:icdot-C71.0
+  note: TCGA-LGG
+- code_group:
+  - id: NCIT:C60781
+    label: Astrocytoma
+  - id: pgx:icdom-94003
+    label: Astrocytoma, NOS
+  - id: pgx:icdot-C71.1
+    label: Frontal lobe
+  examples:
+  - Primary Tumor
+  id: NCIT:C60781::pgx:icdom-94003::pgx:icdot-C71.1
+  note: TCGA-LGG
+- code_group:
+  - id: NCIT:C60781
+    label: Astrocytoma
+  - id: pgx:icdom-94003
+    label: Astrocytoma, NOS
+  - id: pgx:icdot-C71.9
+    label: Brain, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C60781::pgx:icdom-94003::pgx:icdot-C71.9
+  note: TCGA-LGG
+- code_group:
+  - id: NCIT:C6287
+    label: Endometrial Endometrioid Adenocarcinoma
+  - id: pgx:icdom-83803
+    label: Endometrioid adenocarcinoma, NOS
+  - id: pgx:icdot-C54.0
+    label: Isthmus uteri
+  examples:
+  - Primary Tumor
+  id: NCIT:C6287::pgx:icdom-83803::pgx:icdot-C54.0
+  note: TCGA-UCEC
+- code_group:
+  - id: NCIT:C6287
+    label: Endometrial Endometrioid Adenocarcinoma
+  - id: pgx:icdom-83803
+    label: Endometrioid adenocarcinoma, NOS
+  - id: pgx:icdot-C54.1
+    label: Endometrium
+  examples:
+  - Primary Tumor
+  - Recurrent Tumor
+  id: NCIT:C6287::pgx:icdom-83803::pgx:icdot-C54.1
+  note: TCGA-UCEC
+- code_group:
+  - id: NCIT:C6287
+    label: Endometrial Endometrioid Adenocarcinoma
+  - id: pgx:icdom-83803
+    label: Endometrioid adenocarcinoma, NOS
+  - id: pgx:icdot-C54.3
+    label: Fundus uteri
+  examples:
+  - Primary Tumor
+  id: NCIT:C6287::pgx:icdom-83803::pgx:icdot-C54.3
+  note: TCGA-UCEC
+- code_group:
+  - id: NCIT:C6287
+    label: Endometrial Endometrioid Adenocarcinoma
+  - id: pgx:icdom-83803
+    label: Endometrioid adenocarcinoma, NOS
+  - id: pgx:icdot-C54.9
+    label: Corpus uteri
+  examples:
+  - Primary Tumor
+  id: NCIT:C6287::pgx:icdom-83803::pgx:icdot-C54.9
+  note: TCGA-UCEC
+- code_group:
+  - id: NCIT:C6340
+    label: Uterine Corpus Leiomyosarcoma
+  - id: pgx:icdom-88903
+    label: Leiomyosarcoma, NOS
+  - id: pgx:icdot-C54.2
+    label: Myometrium
+  examples:
+  - Primary Tumor
+  id: NCIT:C6340::pgx:icdom-88903::pgx:icdot-C54.2
+  note: TCGA-SARC
+- code_group:
+  - id: NCIT:C6340
+    label: Uterine Corpus Leiomyosarcoma
+  - id: pgx:icdom-88903
+    label: Leiomyosarcoma, NOS
+  - id: pgx:icdot-C54.9
+    label: Corpus uteri
+  examples:
+  - Primary Tumor
+  id: NCIT:C6340::pgx:icdom-88903::pgx:icdot-C54.9
+  note: TCGA-SARC
+- code_group:
+  - id: NCIT:C6340
+    label: Uterine Corpus Leiomyosarcoma
+  - id: pgx:icdom-88903
+    label: Leiomyosarcoma, NOS
+  - id: pgx:icdot-C55.9
+    label: Uterus, NOS
+  examples:
+  - Primary Tumor
+  - Recurrent Tumor
+  id: NCIT:C6340::pgx:icdom-88903::pgx:icdot-C55.9
+  note: TCGA-SARC
+- code_group:
+  - id: NCIT:C6393
+    label: Invasive Ductal and Invasive Lobular Breast Carcinoma
+  - id: pgx:icdom-85223
+    label: Infiltrating duct and lobular carcinoma
+  - id: pgx:icdot-C50.9
+    label: Breast, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C6393::pgx:icdom-85223::pgx:icdot-C50.9
+  note: TCGA-BRCA
+- code_group:
+  - id: NCIT:C6454
+    label: Thymoma Type A
+  - id: pgx:icdom-85811
+    label: Thymoma, type A, NOS
+  - id: pgx:icdot-C37.9
+    label: Thymus
+  examples:
+  - Primary Tumor
+  id: NCIT:C6454::pgx:icdom-85811::pgx:icdot-C37.9
+  note: TCGA-THYM
+- code_group:
+  - id: NCIT:C6454
+    label: Thymoma Type A
+  - id: pgx:icdom-85811
+    label: Thymoma, type A, NOS
+  - id: pgx:icdot-C76.1
+    label: Thorax, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C6454::pgx:icdom-85811::pgx:icdot-C76.1
+  note: TCGA-THYM
+- code_group:
+  - id: NCIT:C6496
+    label: Myxofibrosarcoma
+  - id: pgx:icdom-88113
+    label: Fibromyxosarcoma
+  - id: pgx:icdot-C48.0
+    label: Retroperitoneum
+  examples:
+  - Primary Tumor
+  id: NCIT:C6496::pgx:icdom-88113::pgx:icdot-C48.0
+  note: TCGA-SARC
+- code_group:
+  - id: NCIT:C6496
+    label: Myxofibrosarcoma
+  - id: pgx:icdom-88113
+    label: Fibromyxosarcoma
+  - id: pgx:icdot-C49.2
+    label: Connective, Subcutaneous and other soft tissues of lower limb and hip
+  examples:
+  - Primary Tumor
+  id: NCIT:C6496::pgx:icdom-88113::pgx:icdot-C49.2
+  note: TCGA-SARC
+- code_group:
+  - id: NCIT:C6496
+    label: Myxofibrosarcoma
+  - id: pgx:icdom-88113
+    label: Fibromyxosarcoma
+  - id: pgx:icdot-C49.3
+    label: Connective, Subcutaneous and other soft tissues of thorax
+  examples:
+  - Primary Tumor
+  id: NCIT:C6496::pgx:icdom-88113::pgx:icdot-C49.3
+  note: TCGA-SARC
+- code_group:
+  - id: NCIT:C6496
+    label: Myxofibrosarcoma
+  - id: pgx:icdom-88113
+    label: Fibromyxosarcoma
+  - id: pgx:icdot-C49.5
+    label: Connective, Subcutaneous and other soft tissues of pelvis
+  examples:
+  - Primary Tumor
+  id: NCIT:C6496::pgx:icdom-88113::pgx:icdot-C49.5
+  note: TCGA-SARC
+- code_group:
+  - id: NCIT:C6496
+    label: Myxofibrosarcoma
+  - id: pgx:icdom-88113
+    label: Fibromyxosarcoma
+  - id: pgx:icdot-C49.6
+    label: Connective, Subcutaneous and other soft tissues of trunk, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C6496::pgx:icdom-88113::pgx:icdot-C49.6
+  note: TCGA-SARC
+- code_group:
+  - id: NCIT:C65173
+    label: Non-Keratinizing Large Cell Squamous Cell Carcinoma
+  - id: pgx:icdom-80723
+    label: Squamous cell carcinoma, large cell, nonkeratinizing, NOS
+  - id: pgx:icdot-C01.9
+    label: Base of tongue, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C65173::pgx:icdom-80723::pgx:icdot-C01.9
+  note: TCGA-HNSC
+- code_group:
+  - id: NCIT:C65173
+    label: Non-Keratinizing Large Cell Squamous Cell Carcinoma
+  - id: pgx:icdom-80723
+    label: Squamous cell carcinoma, large cell, nonkeratinizing, NOS
+  - id: pgx:icdot-C09.9
+    label: Tonsil, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C65173::pgx:icdom-80723::pgx:icdot-C09.9
+  note: TCGA-HNSC
+- code_group:
+  - id: NCIT:C65173
+    label: Non-Keratinizing Large Cell Squamous Cell Carcinoma
+  - id: pgx:icdom-80723
+    label: Squamous cell carcinoma, large cell, nonkeratinizing, NOS
+  - id: pgx:icdot-C13.9
+    label: Hypopharynx, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C65173::pgx:icdom-80723::pgx:icdot-C13.9
+  note: TCGA-HNSC
+- code_group:
+  - id: NCIT:C65173
+    label: Non-Keratinizing Large Cell Squamous Cell Carcinoma
+  - id: pgx:icdom-80723
+    label: Squamous cell carcinoma, large cell, nonkeratinizing, NOS
+  - id: pgx:icdot-C32.9
+    label: Larynx, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C65173::pgx:icdom-80723::pgx:icdot-C32.9
+  note: TCGA-HNSC
+- code_group:
+  - id: NCIT:C65173
+    label: Non-Keratinizing Large Cell Squamous Cell Carcinoma
+  - id: pgx:icdom-80723
+    label: Squamous cell carcinoma, large cell, nonkeratinizing, NOS
+  - id: pgx:icdot-C34.1
+    label: Upper lobe, lung
+  examples:
+  - Primary Tumor
+  id: NCIT:C65173::pgx:icdom-80723::pgx:icdot-C34.1
+  note: TCGA-LUSC
+- code_group:
+  - id: NCIT:C65173
+    label: Non-Keratinizing Large Cell Squamous Cell Carcinoma
+  - id: pgx:icdom-80723
+    label: Squamous cell carcinoma, large cell, nonkeratinizing, NOS
+  - id: pgx:icdot-C34.3
+    label: Lower lobe, lung
+  examples:
+  - Primary Tumor
+  id: NCIT:C65173::pgx:icdom-80723::pgx:icdot-C34.3
+  note: TCGA-LUSC
+- code_group:
+  - id: NCIT:C65173
+    label: Non-Keratinizing Large Cell Squamous Cell Carcinoma
+  - id: pgx:icdom-80723
+    label: Squamous cell carcinoma, large cell, nonkeratinizing, NOS
+  - id: pgx:icdot-C53.9
+    label: Cervix uteri
+  examples:
+  - Primary Tumor
+  id: NCIT:C65173::pgx:icdom-80723::pgx:icdot-C53.9
+  note: TCGA-CESC
+- code_group:
+  - id: NCIT:C65175
+    label: Non-Keratinizing Small Cell Squamous Cell Carcinoma
+  - id: pgx:icdom-80733
+    label: Squamous cell carcinoma, small cell, nonkeratinizing
+  - id: pgx:icdot-C34.2
+    label: Middle lobe, lung
+  examples:
+  - Primary Tumor
+  id: NCIT:C65175::pgx:icdom-80733::pgx:icdot-C34.2
+  note: TCGA-LUSC
+- code_group:
+  - id: NCIT:C65192
+    label: Tubular Adenocarcinoma
+  - id: pgx:icdom-82113
+    label: Tubular adenocarcinoma
+  - id: pgx:icdot-C15.5
+    label: Lower third of esophagus
+  examples:
+  - Primary Tumor
+  id: NCIT:C65192::pgx:icdom-82113::pgx:icdot-C15.5
+  note: TCGA-ESCA
+- code_group:
+  - id: NCIT:C65192
+    label: Tubular Adenocarcinoma
+  - id: pgx:icdom-82113
+    label: Tubular adenocarcinoma
+  - id: pgx:icdot-C20.9
+    label: Rectum, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C65192::pgx:icdom-82113::pgx:icdot-C20.9
+  note: TCGA-READ
+- code_group:
+  - id: NCIT:C65197
+    label: Lung Adenocarcinoma with Mixed Bronchioloalveolar and Invasive Components
+  - id: pgx:icdom-82553
+    label: Adenocarcinoma with mixed subtypes
+  - id: pgx:icdot-C18.9
+    label: Colon, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C65197::pgx:icdom-82553::pgx:icdot-C18.9
+  note: TCGA-COAD
+- code_group:
+  - id: NCIT:C65197
+    label: Lung Adenocarcinoma with Mixed Bronchioloalveolar and Invasive Components
+  - id: pgx:icdom-82553
+    label: Adenocarcinoma with mixed subtypes
+  - id: pgx:icdot-C20.9
+    label: Rectum, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C65197::pgx:icdom-82553::pgx:icdot-C20.9
+  note: TCGA-READ
+- code_group:
+  - id: NCIT:C65197
+    label: Lung Adenocarcinoma with Mixed Bronchioloalveolar and Invasive Components
+  - id: pgx:icdom-82553
+    label: Adenocarcinoma with mixed subtypes
+  - id: pgx:icdot-C25.0
+    label: Head of pancreas
+  examples:
+  - Primary Tumor
+  id: NCIT:C65197::pgx:icdom-82553::pgx:icdot-C25.0
+  note: TCGA-PAAD
+- code_group:
+  - id: NCIT:C65197
+    label: Lung Adenocarcinoma with Mixed Bronchioloalveolar and Invasive Components
+  - id: pgx:icdom-82553
+    label: Adenocarcinoma with mixed subtypes
+  - id: pgx:icdot-C34.1
+    label: Upper lobe, lung
+  examples:
+  - Primary Tumor
+  - Recurrent Tumor
+  id: NCIT:C65197::pgx:icdom-82553::pgx:icdot-C34.1
+  note: TCGA-LUAD
+- code_group:
+  - id: NCIT:C65197
+    label: Lung Adenocarcinoma with Mixed Bronchioloalveolar and Invasive Components
+  - id: pgx:icdom-82553
+    label: Adenocarcinoma with mixed subtypes
+  - id: pgx:icdot-C34.2
+    label: Middle lobe, lung
+  examples:
+  - Primary Tumor
+  id: NCIT:C65197::pgx:icdom-82553::pgx:icdot-C34.2
+  note: TCGA-LUAD
+- code_group:
+  - id: NCIT:C65197
+    label: Lung Adenocarcinoma with Mixed Bronchioloalveolar and Invasive Components
+  - id: pgx:icdom-82553
+    label: Adenocarcinoma with mixed subtypes
+  - id: pgx:icdot-C34.3
+    label: Lower lobe, lung
+  examples:
+  - Primary Tumor
+  id: NCIT:C65197::pgx:icdom-82553::pgx:icdot-C34.3
+  note: TCGA-LUAD
+- code_group:
+  - id: NCIT:C65197
+    label: Lung Adenocarcinoma with Mixed Bronchioloalveolar and Invasive Components
+  - id: pgx:icdom-82553
+    label: Adenocarcinoma with mixed subtypes
+  - id: pgx:icdot-C34.8
+    label: Overlapping lesion of lung
+  examples:
+  - Primary Tumor
+  id: NCIT:C65197::pgx:icdom-82553::pgx:icdot-C34.8
+  note: TCGA-LUAD
+- code_group:
+  - id: NCIT:C65197
+    label: Lung Adenocarcinoma with Mixed Bronchioloalveolar and Invasive Components
+  - id: pgx:icdom-82553
+    label: Adenocarcinoma with mixed subtypes
+  - id: pgx:icdot-C34.9
+    label: Lung, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C65197::pgx:icdom-82553::pgx:icdot-C34.9
+  note: TCGA-LUAD
+- code_group:
+  - id: NCIT:C65197
+    label: Lung Adenocarcinoma with Mixed Bronchioloalveolar and Invasive Components
+  - id: pgx:icdom-82553
+    label: Adenocarcinoma with mixed subtypes
+  - id: pgx:icdot-C54.1
+    label: Endometrium
+  examples:
+  - Primary Tumor
+  id: NCIT:C65197::pgx:icdom-82553::pgx:icdot-C54.1
+  note: TCGA-UCEC
+- code_group:
+  - id: NCIT:C65197
+    label: Lung Adenocarcinoma with Mixed Bronchioloalveolar and Invasive Components
+  - id: pgx:icdom-82553
+    label: Adenocarcinoma with mixed subtypes
+  - id: pgx:icdot-C61.9
+    label: Prostate gland
+  examples:
+  - Primary Tumor
+  id: NCIT:C65197::pgx:icdom-82553::pgx:icdot-C61.9
+  note: TCGA-PRAD
+- code_group:
+  - id: NCIT:C65200
+    label: Thyroid Gland Follicular Carcinoma, Minimally Invasive
+  - id: pgx:icdom-83353
+    label: Follicular carcinoma, minimally invasive
+  - id: pgx:icdot-C73.9
+    label: Thyroid gland
+  examples:
+  - Primary Tumor
+  id: NCIT:C65200::pgx:icdom-83353::pgx:icdot-C73.9
+  note: TCGA-THCA
+- code_group:
+  - id: NCIT:C66745
+    label: Adenocarcinoma with Neuroendocrine Differentiation
+  - id: pgx:icdom-85743
+    label: Adenocarcinoma with neuroendocrine differentiation
+  - id: pgx:icdot-C18.9
+    label: Colon, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C66745::pgx:icdom-85743::pgx:icdot-C18.9
+  note: TCGA-COAD
+- code_group:
+  - id: NCIT:C66756
+    label: Mixed Epithelioid and Spindle Cell Melanoma
+  - id: pgx:icdom-87703
+    label: Mixed epithelioid and spindle cell melanoma
+  - id: pgx:icdot-C49.2
+    label: Connective, Subcutaneous and other soft tissues of lower limb and hip
+  examples:
+  - Primary Tumor
+  id: NCIT:C66756::pgx:icdom-87703::pgx:icdot-C49.2
+  note: TCGA-SKCM
+- code_group:
+  - id: NCIT:C66756
+    label: Mixed Epithelioid and Spindle Cell Melanoma
+  - id: pgx:icdom-87703
+    label: Mixed epithelioid and spindle cell melanoma
+  - id: pgx:icdot-C69.3
+    label: Choroid
+  examples:
+  - Primary Tumor
+  id: NCIT:C66756::pgx:icdom-87703::pgx:icdot-C69.3
+  note: TCGA-UVM
+- code_group:
+  - id: NCIT:C66756
+    label: Mixed Epithelioid and Spindle Cell Melanoma
+  - id: pgx:icdom-87703
+    label: Mixed epithelioid and spindle cell melanoma
+  - id: pgx:icdot-C69.4
+    label: Ciliary body
+  examples:
+  - Primary Tumor
+  id: NCIT:C66756::pgx:icdom-87703::pgx:icdot-C69.4
+  note: TCGA-UVM
+- code_group:
+  - id: NCIT:C66756
+    label: Mixed Epithelioid and Spindle Cell Melanoma
+  - id: pgx:icdom-87703
+    label: Mixed epithelioid and spindle cell melanoma
+  - id: pgx:icdot-C69.8
+    label: Overlapping lesion of eye and adnexa
+  examples:
+  - Primary Tumor
+  id: NCIT:C66756::pgx:icdom-87703::pgx:icdot-C69.8
+  note: TCGA-UVM
+- code_group:
+  - id: NCIT:C66759
+    label: Giant Cell Sarcoma
+  - id: pgx:icdom-88023
+    label: Giant cell sarcoma
+  - id: pgx:icdot-C49.2
+    label: Connective, Subcutaneous and other soft tissues of lower limb and hip
+  examples:
+  - Primary Tumor
+  id: NCIT:C66759::pgx:icdom-88023::pgx:icdot-C49.2
+  note: TCGA-SARC
+- code_group:
+  - id: NCIT:C66759
+    label: Giant Cell Sarcoma
+  - id: pgx:icdom-88023
+    label: Giant cell sarcoma
+  - id: pgx:icdot-C64.9
+    label: Kidney, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C66759::pgx:icdom-88023::pgx:icdot-C64.9
+  note: TCGA-SARC
+- code_group:
+  - id: NCIT:C66951
+    label: Adenocarcinoma, Endocervical Type
+  - id: pgx:icdom-83843
+    label: Adenocarcinoma, endocervical type
+  - id: pgx:icdot-C53.0
+    label: Endocervix
+  examples:
+  - Primary Tumor
+  id: NCIT:C66951::pgx:icdom-83843::pgx:icdot-C53.0
+  note: TCGA-CESC
+- code_group:
+  - id: NCIT:C66951
+    label: Adenocarcinoma, Endocervical Type
+  - id: pgx:icdom-83843
+    label: Adenocarcinoma, endocervical type
+  - id: pgx:icdot-C53.9
+    label: Cervix uteri
+  examples:
+  - Primary Tumor
+  id: NCIT:C66951::pgx:icdom-83843::pgx:icdot-C53.9
+  note: TCGA-CESC
+- code_group:
+  - id: NCIT:C66953
+    label: Mucinous Adenocarcinoma, Endocervical Type
+  - id: pgx:icdom-84823
+    label: Mucinous adenocarcinoma, endocervical type
+  - id: pgx:icdot-C53.0
+    label: Endocervix
+  examples:
+  - Primary Tumor
+  id: NCIT:C66953::pgx:icdom-84823::pgx:icdot-C53.0
+  note: TCGA-CESC
+- code_group:
+  - id: NCIT:C66953
+    label: Mucinous Adenocarcinoma, Endocervical Type
+  - id: pgx:icdom-84823
+    label: Mucinous adenocarcinoma, endocervical type
+  - id: pgx:icdot-C53.9
+    label: Cervix uteri
+  examples:
+  - Primary Tumor
+  id: NCIT:C66953::pgx:icdom-84823::pgx:icdot-C53.9
+  note: TCGA-CESC
+- code_group:
+  - id: NCIT:C6747
+    label: Desmoplastic Mesothelioma
+  - id: pgx:icdom-90513
+    label: Fibrous mesothelioma, malignant
+  - id: pgx:icdot-C38.4
+    label: Pleura, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C6747::pgx:icdom-90513::pgx:icdot-C38.4
+  note: TCGA-MESO
+- code_group:
+  - id: NCIT:C6875
+    label: Large Cell Neuroendocrine Carcinoma
+  - id: pgx:icdom-80133
+    label: Large cell neuroendocrine carcinoma
+  - id: pgx:icdot-C50.9
+    label: Breast, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C6875::pgx:icdom-80133::pgx:icdot-C50.9
+  note: TCGA-BRCA
+- code_group:
+  - id: NCIT:C6885
+    label: Thymoma Type AB
+  - id: pgx:icdom-85821
+    label: Thymoma, type AB, NOS
+  - id: pgx:icdot-C37.9
+    label: Thymus
+  examples:
+  - Primary Tumor
+  id: NCIT:C6885::pgx:icdom-85821::pgx:icdot-C37.9
+  note: TCGA-THYM
+- code_group:
+  - id: NCIT:C6885
+    label: Thymoma Type AB
+  - id: pgx:icdom-85821
+    label: Thymoma, type AB, NOS
+  - id: pgx:icdot-C38.1
+    label: Anterior mediastinum
+  examples:
+  - Primary Tumor
+  id: NCIT:C6885::pgx:icdom-85821::pgx:icdot-C38.1
+  note: TCGA-THYM
+- code_group:
+  - id: NCIT:C6886
+    label: Malignant Type AB Thymoma
+  - id: pgx:icdom-85823
+    label: Thymoma, type AB, malignant
+  - id: pgx:icdot-C37.9
+    label: Thymus
+  examples:
+  - Primary Tumor
+  id: NCIT:C6886::pgx:icdom-85823::pgx:icdot-C37.9
+  note: TCGA-THYM
+- code_group:
+  - id: NCIT:C6886
+    label: Malignant Type AB Thymoma
+  - id: pgx:icdom-85823
+    label: Thymoma, type AB, malignant
+  - id: pgx:icdot-C38.1
+    label: Anterior mediastinum
+  examples:
+  - Primary Tumor
+  id: NCIT:C6886::pgx:icdom-85823::pgx:icdot-C38.1
+  note: TCGA-THYM
+- code_group:
+  - id: NCIT:C6887
+    label: Thymoma Type B1
+  - id: pgx:icdom-85831
+    label: Thymoma, type B1, NOS
+  - id: pgx:icdot-C37.9
+    label: Thymus
+  examples:
+  - Primary Tumor
+  id: NCIT:C6887::pgx:icdom-85831::pgx:icdot-C37.9
+  note: TCGA-THYM
+- code_group:
+  - id: NCIT:C6888
+    label: Thymoma Type B2
+  - id: pgx:icdom-85841
+    label: Thymoma, type B2, NOS
+  - id: pgx:icdot-C37.9
+    label: Thymus
+  examples:
+  - Primary Tumor
+  id: NCIT:C6888::pgx:icdom-85841::pgx:icdot-C37.9
+  note: TCGA-THYM
+- code_group:
+  - id: NCIT:C6888
+    label: Thymoma Type B2
+  - id: pgx:icdom-85841
+    label: Thymoma, type B2, NOS
+  - id: pgx:icdot-C38.1
+    label: Anterior mediastinum
+  examples:
+  - Primary Tumor
+  id: NCIT:C6888::pgx:icdom-85841::pgx:icdot-C38.1
+  note: TCGA-THYM
+- code_group:
+  - id: NCIT:C6889
+    label: Malignant Type B2 Thymoma
+  - id: pgx:icdom-85843
+    label: Thymoma, type B2, malignant
+  - id: pgx:icdot-C37.9
+    label: Thymus
+  examples:
+  - Primary Tumor
+  id: NCIT:C6889::pgx:icdom-85843::pgx:icdot-C37.9
+  note: TCGA-THYM
+- code_group:
+  - id: NCIT:C6889
+    label: Malignant Type B2 Thymoma
+  - id: pgx:icdom-85843
+    label: Thymoma, type B2, malignant
+  - id: pgx:icdot-C38.1
+    label: Anterior mediastinum
+  examples:
+  - Primary Tumor
+  id: NCIT:C6889::pgx:icdom-85843::pgx:icdot-C38.1
+  note: TCGA-THYM
+- code_group:
+  - id: NCIT:C6889
+    label: Malignant Type B2 Thymoma
+  - id: pgx:icdom-85843
+    label: Thymoma, type B2, malignant
+  - id: pgx:icdot-C38.3
+    label: Mediastinum, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C6889::pgx:icdom-85843::pgx:icdot-C38.3
+  note: TCGA-THYM
+- code_group:
+  - id: NCIT:C6959
+    label: Anaplastic Oligoastrocytoma
+  - id: pgx:icdom-94513
+    label: Oligodendroglioma, anaplastic
+  - id: pgx:icdot-C71.0
+    label: Cerebrum
+  examples:
+  - Primary Tumor
+  - Recurrent Tumor
+  id: NCIT:C6959::pgx:icdom-94513::pgx:icdot-C71.0
+  note: TCGA-LGG
+- code_group:
+  - id: NCIT:C6959
+    label: Anaplastic Oligoastrocytoma
+  - id: pgx:icdom-94513
+    label: Oligodendroglioma, anaplastic
+  - id: pgx:icdot-C71.1
+    label: Frontal lobe
+  examples:
+  - Primary Tumor
+  id: NCIT:C6959::pgx:icdom-94513::pgx:icdot-C71.1
+  note: TCGA-LGG
+- code_group:
+  - id: NCIT:C6975
+    label: Papillary Renal Cell Carcinoma
+  - id: pgx:icdom-82603
+    label: Papillary adenocarcinoma, NOS
+  - id: pgx:icdot-C64.9
+    label: Kidney, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C6975::pgx:icdom-82603::pgx:icdot-C64.9
+  note: TCGA-KIRP
+- code_group:
+  - id: NCIT:C7268
+    label: Mucinous Minimally Invasive Lung Adenocarcinoma
+  - id: pgx:icdom-82533
+    label: Bronchiolo-alveolar carcinoma, mucinous
+  - id: pgx:icdot-C34.1
+    label: Upper lobe, lung
+  examples:
+  - Primary Tumor
+  id: NCIT:C7268::pgx:icdom-82533::pgx:icdot-C34.1
+  note: TCGA-LUAD
+- code_group:
+  - id: NCIT:C7268
+    label: Mucinous Minimally Invasive Lung Adenocarcinoma
+  - id: pgx:icdom-82533
+    label: Bronchiolo-alveolar carcinoma, mucinous
+  - id: pgx:icdot-C34.3
+    label: Lower lobe, lung
+  examples:
+  - Primary Tumor
+  id: NCIT:C7268::pgx:icdom-82533::pgx:icdot-C34.3
+  note: TCGA-LUAD
+- code_group:
+  - id: NCIT:C7269
+    label: Non-Mucinous Minimally Invasive Lung Adenocarcinoma
+  - id: pgx:icdom-82523
+    label: Bronchiolo-alveolar carcinoma, non-mucinous
+  - id: pgx:icdot-C34.1
+    label: Upper lobe, lung
+  examples:
+  - Primary Tumor
+  id: NCIT:C7269::pgx:icdom-82523::pgx:icdot-C34.1
+  note: TCGA-LUAD
+- code_group:
+  - id: NCIT:C7269
+    label: Non-Mucinous Minimally Invasive Lung Adenocarcinoma
+  - id: pgx:icdom-82523
+    label: Bronchiolo-alveolar carcinoma, non-mucinous
+  - id: pgx:icdot-C34.3
+    label: Lower lobe, lung
+  examples:
+  - Primary Tumor
+  id: NCIT:C7269::pgx:icdom-82523::pgx:icdot-C34.3
+  note: TCGA-LUAD
+- code_group:
+  - id: NCIT:C7269
+    label: Non-Mucinous Minimally Invasive Lung Adenocarcinoma
+  - id: pgx:icdom-82523
+    label: Bronchiolo-alveolar carcinoma, non-mucinous
+  - id: pgx:icdot-C34.8
+    label: Overlapping lesion of lung
+  examples:
+  - Primary Tumor
+  id: NCIT:C7269::pgx:icdom-82523::pgx:icdot-C34.8
+  note: TCGA-LUAD
+- code_group:
+  - id: NCIT:C7359
+    label: Endometrial adenocarcinoma
+  - id: pgx:icdom-81403
+    label: Adenocarcinoma, NOS
+  - id: pgx:icdot-C54.1
+    label: Endometrium
+  examples:
+  - Primary Tumor
+  id: NCIT:C7359::pgx:icdom-81403::pgx:icdot-C54.1
+  note: TCGA-UCEC
+- code_group:
+  - id: NCIT:C7376
+    label: Pleural Malignant Mesothelioma
+  - id: pgx:icdom-90503
+    label: Mesothelioma, malignant
+  - id: pgx:icdot-C38.4
+    label: Pleura, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C7376::pgx:icdom-90503::pgx:icdot-C38.4
+  note: TCGA-MESO
+- code_group:
+  - id: NCIT:C7383
+    label: Bladder Papillary Urothelial Carcinoma
+  - id: pgx:icdom-81303
+    label: Papillary transitional cell carcinoma
+  - id: pgx:icdot-C67.0
+    label: Urinary bladder
+  examples:
+  - Primary Tumor
+  id: NCIT:C7383::pgx:icdom-81303::pgx:icdot-C67.0
+  note: TCGA-BLCA
+- code_group:
+  - id: NCIT:C7383
+    label: Bladder Papillary Urothelial Carcinoma
+  - id: pgx:icdom-81303
+    label: Papillary transitional cell carcinoma
+  - id: pgx:icdot-C67.2
+    label: Lateral wall of bladder
+  examples:
+  - Primary Tumor
+  id: NCIT:C7383::pgx:icdom-81303::pgx:icdot-C67.2
+  note: TCGA-BLCA
+- code_group:
+  - id: NCIT:C7383
+    label: Bladder Papillary Urothelial Carcinoma
+  - id: pgx:icdom-81303
+    label: Papillary transitional cell carcinoma
+  - id: pgx:icdot-C67.3
+    label: Anterior wall of bladder
+  examples:
+  - Primary Tumor
+  id: NCIT:C7383::pgx:icdom-81303::pgx:icdot-C67.3
+  note: TCGA-BLCA
+- code_group:
+  - id: NCIT:C7383
+    label: Bladder Papillary Urothelial Carcinoma
+  - id: pgx:icdom-81303
+    label: Papillary transitional cell carcinoma
+  - id: pgx:icdot-C67.4
+    label: Posterior wall of bladder
+  examples:
+  - Primary Tumor
+  id: NCIT:C7383::pgx:icdom-81303::pgx:icdot-C67.4
+  note: TCGA-BLCA
+- code_group:
+  - id: NCIT:C7383
+    label: Bladder Papillary Urothelial Carcinoma
+  - id: pgx:icdom-81303
+    label: Papillary transitional cell carcinoma
+  - id: pgx:icdot-C67.9
+    label: Bladder, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C7383::pgx:icdom-81303::pgx:icdot-C67.9
+  note: TCGA-BLCA
+- code_group:
+  - id: NCIT:C7427
+    label: Thyroid Gland Diffuse Sclerosing Papillary Carcinoma
+  - id: pgx:icdom-83503
+    label: Nonencapsulated sclerosing carcinoma
+  - id: pgx:icdot-C73.9
+    label: Thyroid gland
+  examples:
+  - Primary Tumor
+  id: NCIT:C7427::pgx:icdom-83503::pgx:icdot-C73.9
+  note: TCGA-THCA
+- code_group:
+  - id: NCIT:C7439
+    label: Intraductal Papillary Adenocarcinoma with Invasion
+  - id: pgx:icdom-85033
+    label: Intraductal papillary adenocarcinoma with invasion
+  - id: pgx:icdot-C50.9
+    label: Breast, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C7439::pgx:icdom-85033::pgx:icdot-C50.9
+  note: TCGA-BRCA
+- code_group:
+  - id: NCIT:C7569
+    label: Thymic Carcinoma
+  - id: pgx:icdom-85863
+    label: Thymic carcinoma, NOS
+  - id: pgx:icdot-C37.9
+    label: Thymus
+  examples:
+  - Primary Tumor
+  id: NCIT:C7569::pgx:icdom-85863::pgx:icdot-C37.9
+  note: TCGA-THYM
+- code_group:
+  - id: NCIT:C7569
+    label: Thymic Carcinoma
+  - id: pgx:icdom-85863
+    label: Thymic carcinoma, NOS
+  - id: pgx:icdot-C38.1
+    label: Anterior mediastinum
+  examples:
+  - Primary Tumor
+  id: NCIT:C7569::pgx:icdom-85863::pgx:icdot-C38.1
+  note: TCGA-THYM
+- code_group:
+  - id: NCIT:C7966
+    label: Colon Mucinous Adenocarcinoma
+  - id: pgx:icdom-84803
+    label: Mucinous adenocarcinoma
+  - id: pgx:icdot-C18.0
+    label: Cecum
+  examples:
+  - Primary Tumor
+  id: NCIT:C7966::pgx:icdom-84803::pgx:icdot-C18.0
+  note: TCGA-COAD
+- code_group:
+  - id: NCIT:C7966
+    label: Colon Mucinous Adenocarcinoma
+  - id: pgx:icdom-84803
+    label: Mucinous adenocarcinoma
+  - id: pgx:icdot-C18.2
+    label: Ascending colon
+  examples:
+  - Primary Tumor
+  id: NCIT:C7966::pgx:icdom-84803::pgx:icdot-C18.2
+  note: TCGA-COAD
+- code_group:
+  - id: NCIT:C7966
+    label: Colon Mucinous Adenocarcinoma
+  - id: pgx:icdom-84803
+    label: Mucinous adenocarcinoma
+  - id: pgx:icdot-C18.3
+    label: Hepatic flexure of colon
+  examples:
+  - Primary Tumor
+  id: NCIT:C7966::pgx:icdom-84803::pgx:icdot-C18.3
+  note: TCGA-COAD
+- code_group:
+  - id: NCIT:C7966
+    label: Colon Mucinous Adenocarcinoma
+  - id: pgx:icdom-84803
+    label: Mucinous adenocarcinoma
+  - id: pgx:icdot-C18.4
+    label: Transverse colon
+  examples:
+  - Primary Tumor
+  id: NCIT:C7966::pgx:icdom-84803::pgx:icdot-C18.4
+  note: TCGA-COAD
+- code_group:
+  - id: NCIT:C7966
+    label: Colon Mucinous Adenocarcinoma
+  - id: pgx:icdom-84803
+    label: Mucinous adenocarcinoma
+  - id: pgx:icdot-C18.5
+    label: Splenic flexure of colon
+  examples:
+  - Primary Tumor
+  id: NCIT:C7966::pgx:icdom-84803::pgx:icdot-C18.5
+  note: TCGA-COAD
+- code_group:
+  - id: NCIT:C7966
+    label: Colon Mucinous Adenocarcinoma
+  - id: pgx:icdom-84803
+    label: Mucinous adenocarcinoma
+  - id: pgx:icdot-C18.6
+    label: Descending colon
+  examples:
+  - Primary Tumor
+  id: NCIT:C7966::pgx:icdom-84803::pgx:icdot-C18.6
+  note: TCGA-COAD
+- code_group:
+  - id: NCIT:C7966
+    label: Colon Mucinous Adenocarcinoma
+  - id: pgx:icdom-84803
+    label: Mucinous adenocarcinoma
+  - id: pgx:icdot-C18.9
+    label: Colon, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C7966::pgx:icdom-84803::pgx:icdot-C18.9
+  note: TCGA-COAD
+- code_group:
+  - id: NCIT:C7973
+    label: Rectal Mucinous Adenocarcinoma
+  - id: pgx:icdom-84803
+    label: Mucinous adenocarcinoma
+  - id: pgx:icdot-C20.9
+    label: Rectum, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C7973::pgx:icdom-84803::pgx:icdot-C20.9
+  note: TCGA-READ
+- code_group:
+  - id: NCIT:C7975
+    label: Extrahepatic Bile Duct Adenocarcinoma
+  - id: pgx:icdom-81603
+    label: Cholangiocarcinoma
+  - id: pgx:icdot-C24.0
+    label: Extrahepatic bile duct
+  examples:
+  - Primary Tumor
+  id: NCIT:C7975::pgx:icdom-81603::pgx:icdot-C24.0
+  note: TCGA-CHOL
+- code_group:
+  - id: NCIT:C7978
+    label: Ovarian Serous Cystadenocarcinoma
+  - id: pgx:icdom-84413
+    label: Serous cystadenocarcinoma, NOS
+  - id: pgx:icdot-C56.9
+    label: Ovary
+  examples:
+  - Primary Tumor
+  - Recurrent Tumor
+  id: NCIT:C7978::pgx:icdom-84413::pgx:icdot-C56.9
+  note: TCGA-OV
+- code_group:
+  - id: NCIT:C7985
+    label: Epithelioid Mesothelioma
+  - id: pgx:icdom-90523
+    label: Epithelioid mesothelioma, malignant
+  - id: pgx:icdot-C34.9
+    label: Lung, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C7985::pgx:icdom-90523::pgx:icdot-C34.9
+  note: TCGA-MESO
+- code_group:
+  - id: NCIT:C7985
+    label: Epithelioid Mesothelioma
+  - id: pgx:icdom-90523
+    label: Epithelioid mesothelioma, malignant
+  - id: pgx:icdot-C38.4
+    label: Pleura, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C7985::pgx:icdom-90523::pgx:icdot-C38.4
+  note: TCGA-MESO
+- code_group:
+  - id: NCIT:C7996
+    label: Malignant Type B1 Thymoma
+  - id: pgx:icdom-85833
+    label: Thymoma, type B1, malignant
+  - id: pgx:icdot-C37.9
+    label: Thymus
+  examples:
+  - Primary Tumor
+  id: NCIT:C7996::pgx:icdom-85833::pgx:icdot-C37.9
+  note: TCGA-THYM
+- code_group:
+  - id: NCIT:C7996
+    label: Malignant Type B1 Thymoma
+  - id: pgx:icdom-85833
+    label: Thymoma, type B1, malignant
+  - id: pgx:icdot-C38.1
+    label: Anterior mediastinum
+  examples:
+  - Primary Tumor
+  id: NCIT:C7996::pgx:icdom-85833::pgx:icdot-C38.1
+  note: TCGA-THYM
+- code_group:
+  - id: NCIT:C7997
+    label: Thymoma Type B3
+  - id: pgx:icdom-85853
+    label: Thymoma, type B3, malignant
+  - id: pgx:icdot-C37.9
+    label: Thymus
+  examples:
+  - Primary Tumor
+  id: NCIT:C7997::pgx:icdom-85853::pgx:icdot-C37.9
+  note: TCGA-THYM
+- code_group:
+  - id: NCIT:C7997
+    label: Thymoma Type B3
+  - id: pgx:icdom-85853
+    label: Thymoma, type B3, malignant
+  - id: pgx:icdot-C38.1
+    label: Anterior mediastinum
+  examples:
+  - Primary Tumor
+  id: NCIT:C7997::pgx:icdom-85853::pgx:icdot-C38.1
+  note: TCGA-THYM
+- code_group:
+  - id: NCIT:C7999
+    label: Malignant Type A Thymoma
+  - id: pgx:icdom-85813
+    label: Thymoma, type A, malignant
+  - id: pgx:icdot-C37.9
+    label: Thymus
+  examples:
+  - Primary Tumor
+  id: NCIT:C7999::pgx:icdom-85813::pgx:icdot-C37.9
+  note: TCGA-THYM
+- code_group:
+  - id: NCIT:C7999
+    label: Malignant Type A Thymoma
+  - id: pgx:icdom-85813
+    label: Thymoma, type A, malignant
+  - id: pgx:icdot-C38.1
+    label: Anterior mediastinum
+  examples:
+  - Primary Tumor
+  id: NCIT:C7999::pgx:icdom-85813::pgx:icdot-C38.1
+  note: TCGA-THYM
+- code_group:
+  - id: NCIT:C8054
+    label: Thyroid Gland Follicular Carcinoma
+  - id: pgx:icdom-83303
+    label: Follicular adenocarcinoma, NOS
+  - id: pgx:icdot-C73.9
+    label: Thyroid gland
+  examples:
+  - Primary Tumor
+  id: NCIT:C8054::pgx:icdom-83303::pgx:icdot-C73.9
+  note: TCGA-THCA
+- code_group:
+  - id: NCIT:C8171
+    label: Lower Gingival Squamous Cell Carcinoma
+  - id: pgx:icdom-80703
+    label: Squamous cell carcinoma, NOS
+  - id: pgx:icdot-C03.1
+    label: Lower gum
+  examples:
+  - Primary Tumor
+  id: NCIT:C8171::pgx:icdom-80703::pgx:icdot-C03.1
+  note: TCGA-HNSC
+- code_group:
+  - id: NCIT:C8181
+    label: Oropharyngeal Squamous Cell Carcinoma
+  - id: pgx:icdom-80703
+    label: Squamous cell carcinoma, NOS
+  - id: pgx:icdot-C10.9
+    label: Oropharynx, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C8181::pgx:icdom-80703::pgx:icdot-C10.9
+  note: TCGA-HNSC
+- code_group:
+  - id: NCIT:C8294
+    label: Pancreatic Adenocarcinoma
+  - id: pgx:icdom-81403
+    label: Adenocarcinoma, NOS
+  - id: pgx:icdot-C25.0
+    label: Head of pancreas
+  examples:
+  - Primary Tumor
+  id: NCIT:C8294::pgx:icdom-81403::pgx:icdot-C25.0
+  note: TCGA-PAAD
+- code_group:
+  - id: NCIT:C8294
+    label: Pancreatic Adenocarcinoma
+  - id: pgx:icdom-81403
+    label: Adenocarcinoma, NOS
+  - id: pgx:icdot-C25.1
+    label: Body of pancreas
+  examples:
+  - Primary Tumor
+  id: NCIT:C8294::pgx:icdom-81403::pgx:icdot-C25.1
+  note: TCGA-PAAD
+- code_group:
+  - id: NCIT:C8294
+    label: Pancreatic Adenocarcinoma
+  - id: pgx:icdom-81403
+    label: Adenocarcinoma, NOS
+  - id: pgx:icdot-C25.2
+    label: Tail of pancreas
+  examples:
+  - Metastatic
+  - Primary Tumor
+  id: NCIT:C8294::pgx:icdom-81403::pgx:icdot-C25.2
+  note: TCGA-PAAD
+- code_group:
+  - id: NCIT:C8294
+    label: Pancreatic Adenocarcinoma
+  - id: pgx:icdom-81403
+    label: Adenocarcinoma, NOS
+  - id: pgx:icdot-C25.8
+    label: Overlapping lesion of pancreas
+  examples:
+  - Primary Tumor
+  id: NCIT:C8294::pgx:icdom-81403::pgx:icdot-C25.8
+  note: TCGA-PAAD
+- code_group:
+  - id: NCIT:C8294
+    label: Pancreatic Adenocarcinoma
+  - id: pgx:icdom-81403
+    label: Adenocarcinoma, NOS
+  - id: pgx:icdot-C25.9
+    label: Pancreas, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C8294::pgx:icdom-81403::pgx:icdot-C25.9
+  note: TCGA-PAAD
+- code_group:
+  - id: NCIT:C8377
+    label: Papillary Serous Cystadenocarcinoma
+  - id: pgx:icdom-84603
+    label: Papillary serous cystadenocarcinoma
+  - id: pgx:icdot-C48.1
+    label: Specified parts of peritoneum
+  examples:
+  - Primary Tumor
+  id: NCIT:C8377::pgx:icdom-84603::pgx:icdot-C48.1
+  note: TCGA-OV
+- code_group:
+  - id: NCIT:C8377
+    label: Papillary Serous Cystadenocarcinoma
+  - id: pgx:icdom-84603
+    label: Papillary serous cystadenocarcinoma
+  - id: pgx:icdot-C54.1
+    label: Endometrium
+  examples:
+  - Primary Tumor
+  id: NCIT:C8377::pgx:icdom-84603::pgx:icdot-C54.1
+  note: TCGA-UCEC
+- code_group:
+  - id: NCIT:C8377
+    label: Papillary Serous Cystadenocarcinoma
+  - id: pgx:icdom-84603
+    label: Papillary serous cystadenocarcinoma
+  - id: pgx:icdot-C56.9
+    label: Ovary
+  examples:
+  - Primary Tumor
+  id: NCIT:C8377::pgx:icdom-84603::pgx:icdot-C56.9
+  note: TCGA-OV
+- code_group:
+  - id: NCIT:C8559
+    label: Malignant Paraganglioma
+  - id: pgx:icdom-86803
+    label: Paraganglioma, malignant
+  - id: pgx:icdot-C72.9
+    label: Nervous system, NOS
+  examples:
+  - Additional - New Primary
+  - Metastatic
+  - Primary Tumor
+  id: NCIT:C8559::pgx:icdom-86803::pgx:icdot-C72.9
+  note: TCGA-PCPG
+- code_group:
+  - id: NCIT:C8559
+    label: Malignant Paraganglioma
+  - id: pgx:icdom-86803
+    label: Paraganglioma, malignant
+  - id: pgx:icdot-C74.9
+    label: Adrenal gland, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C8559::pgx:icdom-86803::pgx:icdot-C74.9
+  note: TCGA-PCPG
+- code_group:
+  - id: NCIT:C8711
+    label: Non-Cutaneous Melanoma
+  - id: pgx:icdom-87203
+    label: Malignant melanoma, NOS
+  - id: pgx:icdot-C07.9
+    label: Parotid gland
+  examples:
+  - Metastatic
+  id: NCIT:C8711::pgx:icdom-87203::pgx:icdot-C07.9
+  note: TCGA-SKCM
+- code_group:
+  - id: NCIT:C8711
+    label: Non-Cutaneous Melanoma
+  - id: pgx:icdom-87203
+    label: Malignant melanoma, NOS
+  - id: pgx:icdot-C17.9
+    label: Small intestine, NOS
+  examples:
+  - Metastatic
+  id: NCIT:C8711::pgx:icdom-87203::pgx:icdot-C17.9
+  note: TCGA-SKCM
+- code_group:
+  - id: NCIT:C8711
+    label: Non-Cutaneous Melanoma
+  - id: pgx:icdom-87203
+    label: Malignant melanoma, NOS
+  - id: pgx:icdot-C21.8
+    label: Overlapping lesion of rectum, anus and anal canal
+  examples:
+  - Primary Tumor
+  id: NCIT:C8711::pgx:icdom-87203::pgx:icdot-C21.8
+  note: TCGA-SKCM
+- code_group:
+  - id: NCIT:C8711
+    label: Non-Cutaneous Melanoma
+  - id: pgx:icdom-87203
+    label: Malignant melanoma, NOS
+  - id: pgx:icdot-C30.0
+    label: Nasal cavity
+  examples:
+  - Primary Tumor
+  id: NCIT:C8711::pgx:icdom-87203::pgx:icdot-C30.0
+  note: TCGA-SKCM
+- code_group:
+  - id: NCIT:C8711
+    label: Non-Cutaneous Melanoma
+  - id: pgx:icdom-87203
+    label: Malignant melanoma, NOS
+  - id: pgx:icdot-C34.1
+    label: Upper lobe, lung
+  examples:
+  - Metastatic
+  id: NCIT:C8711::pgx:icdom-87203::pgx:icdot-C34.1
+  note: TCGA-SKCM
+- code_group:
+  - id: NCIT:C8711
+    label: Non-Cutaneous Melanoma
+  - id: pgx:icdom-87203
+    label: Malignant melanoma, NOS
+  - id: pgx:icdot-C34.3
+    label: Lower lobe, lung
+  examples:
+  - Metastatic
+  id: NCIT:C8711::pgx:icdom-87203::pgx:icdot-C34.3
+  note: TCGA-SKCM
+- code_group:
+  - id: NCIT:C8711
+    label: Non-Cutaneous Melanoma
+  - id: pgx:icdom-87203
+    label: Malignant melanoma, NOS
+  - id: pgx:icdot-C34.9
+    label: Lung, NOS
+  examples:
+  - Metastatic
+  id: NCIT:C8711::pgx:icdom-87203::pgx:icdot-C34.9
+  note: TCGA-SKCM
+- code_group:
+  - id: NCIT:C8711
+    label: Non-Cutaneous Melanoma
+  - id: pgx:icdom-87203
+    label: Malignant melanoma, NOS
+  - id: pgx:icdot-C41.0
+    label: Bones of skull and face and associated joints
+  examples:
+  - Metastatic
+  id: NCIT:C8711::pgx:icdom-87203::pgx:icdot-C41.0
+  note: TCGA-SKCM
+- code_group:
+  - id: NCIT:C8711
+    label: Non-Cutaneous Melanoma
+  - id: pgx:icdom-87203
+    label: Malignant melanoma, NOS
+  - id: pgx:icdot-C48.2
+    label: Peritoneum, NOS
+  examples:
+  - Metastatic
+  id: NCIT:C8711::pgx:icdom-87203::pgx:icdot-C48.2
+  note: TCGA-SKCM
+- code_group:
+  - id: NCIT:C8711
+    label: Non-Cutaneous Melanoma
+  - id: pgx:icdom-87203
+    label: Malignant melanoma, NOS
+  - id: pgx:icdot-C49.0
+    label: Connective, Subcutaneous and other soft tissues of head, face, and neck
+  examples:
+  - Metastatic
+  - Primary Tumor
+  id: NCIT:C8711::pgx:icdom-87203::pgx:icdot-C49.0
+  note: TCGA-SKCM
+- code_group:
+  - id: NCIT:C8711
+    label: Non-Cutaneous Melanoma
+  - id: pgx:icdom-87203
+    label: Malignant melanoma, NOS
+  - id: pgx:icdot-C49.1
+    label: Connective, Subcutaneous and other soft tissues of upper limb and shoulder
+  examples:
+  - Metastatic
+  - Primary Tumor
+  id: NCIT:C8711::pgx:icdom-87203::pgx:icdot-C49.1
+  note: TCGA-SKCM
+- code_group:
+  - id: NCIT:C8711
+    label: Non-Cutaneous Melanoma
+  - id: pgx:icdom-87203
+    label: Malignant melanoma, NOS
+  - id: pgx:icdot-C49.2
+    label: Connective, Subcutaneous and other soft tissues of lower limb and hip
+  examples:
+  - Metastatic
+  - Primary Tumor
+  id: NCIT:C8711::pgx:icdom-87203::pgx:icdot-C49.2
+  note: TCGA-SKCM
+- code_group:
+  - id: NCIT:C8711
+    label: Non-Cutaneous Melanoma
+  - id: pgx:icdom-87203
+    label: Malignant melanoma, NOS
+  - id: pgx:icdot-C49.3
+    label: Connective, Subcutaneous and other soft tissues of thorax
+  examples:
+  - Metastatic
+  id: NCIT:C8711::pgx:icdom-87203::pgx:icdot-C49.3
+  note: TCGA-SKCM
+- code_group:
+  - id: NCIT:C8711
+    label: Non-Cutaneous Melanoma
+  - id: pgx:icdom-87203
+    label: Malignant melanoma, NOS
+  - id: pgx:icdot-C49.4
+    label: Connective, Subcutaneous and other soft tissues of abdomen
+  examples:
+  - Metastatic
+  id: NCIT:C8711::pgx:icdom-87203::pgx:icdot-C49.4
+  note: TCGA-SKCM
+- code_group:
+  - id: NCIT:C8711
+    label: Non-Cutaneous Melanoma
+  - id: pgx:icdom-87203
+    label: Malignant melanoma, NOS
+  - id: pgx:icdot-C49.5
+    label: Connective, Subcutaneous and other soft tissues of pelvis
+  examples:
+  - Metastatic
+  id: NCIT:C8711::pgx:icdom-87203::pgx:icdot-C49.5
+  note: TCGA-SKCM
+- code_group:
+  - id: NCIT:C8711
+    label: Non-Cutaneous Melanoma
+  - id: pgx:icdom-87203
+    label: Malignant melanoma, NOS
+  - id: pgx:icdot-C49.6
+    label: Connective, Subcutaneous and other soft tissues of trunk, NOS
+  examples:
+  - Metastatic
+  - Primary Tumor
+  id: NCIT:C8711::pgx:icdom-87203::pgx:icdot-C49.6
+  note: TCGA-SKCM
+- code_group:
+  - id: NCIT:C8711
+    label: Non-Cutaneous Melanoma
+  - id: pgx:icdom-87203
+    label: Malignant melanoma, NOS
+  - id: pgx:icdot-C49.9
+    label: Connective, Subcutaneous and other soft tissues, NOS
+  examples:
+  - Metastatic
+  id: NCIT:C8711::pgx:icdom-87203::pgx:icdot-C49.9
+  note: TCGA-SKCM
+- code_group:
+  - id: NCIT:C8711
+    label: Non-Cutaneous Melanoma
+  - id: pgx:icdom-87203
+    label: Malignant melanoma, NOS
+  - id: pgx:icdot-C50.9
+    label: Breast, NOS
+  examples:
+  - Metastatic
+  id: NCIT:C8711::pgx:icdom-87203::pgx:icdot-C50.9
+  note: TCGA-SKCM
+- code_group:
+  - id: NCIT:C8711
+    label: Non-Cutaneous Melanoma
+  - id: pgx:icdom-87203
+    label: Malignant melanoma, NOS
+  - id: pgx:icdot-C51.9
+    label: Vulva, NOS
+  examples:
+  - Metastatic
+  id: NCIT:C8711::pgx:icdom-87203::pgx:icdot-C51.9
+  note: TCGA-SKCM
+- code_group:
+  - id: NCIT:C8711
+    label: Non-Cutaneous Melanoma
+  - id: pgx:icdom-87203
+    label: Malignant melanoma, NOS
+  - id: pgx:icdot-C52.9
+    label: Vagina, NOS
+  examples:
+  - Metastatic
+  id: NCIT:C8711::pgx:icdom-87203::pgx:icdot-C52.9
+  note: TCGA-SKCM
+- code_group:
+  - id: NCIT:C8711
+    label: Non-Cutaneous Melanoma
+  - id: pgx:icdom-87203
+    label: Malignant melanoma, NOS
+  - id: pgx:icdot-C54.1
+    label: Endometrium
+  examples:
+  - Metastatic
+  id: NCIT:C8711::pgx:icdom-87203::pgx:icdot-C54.1
+  note: TCGA-SKCM
+- code_group:
+  - id: NCIT:C8711
+    label: Non-Cutaneous Melanoma
+  - id: pgx:icdom-87203
+    label: Malignant melanoma, NOS
+  - id: pgx:icdot-C69.3
+    label: Choroid
+  examples:
+  - Primary Tumor
+  id: NCIT:C8711::pgx:icdom-87203::pgx:icdot-C69.3
+  note: TCGA-UVM
+- code_group:
+  - id: NCIT:C8711
+    label: Non-Cutaneous Melanoma
+  - id: pgx:icdom-87203
+    label: Malignant melanoma, NOS
+  - id: pgx:icdot-C71.1
+    label: Frontal lobe
+  examples:
+  - Metastatic
+  id: NCIT:C8711::pgx:icdom-87203::pgx:icdot-C71.1
+  note: TCGA-SKCM
+- code_group:
+  - id: NCIT:C8711
+    label: Non-Cutaneous Melanoma
+  - id: pgx:icdom-87203
+    label: Malignant melanoma, NOS
+  - id: pgx:icdot-C71.3
+    label: Parietal lobe
+  examples:
+  - Metastatic
+  id: NCIT:C8711::pgx:icdom-87203::pgx:icdot-C71.3
+  note: TCGA-SKCM
+- code_group:
+  - id: NCIT:C8711
+    label: Non-Cutaneous Melanoma
+  - id: pgx:icdom-87203
+    label: Malignant melanoma, NOS
+  - id: pgx:icdot-C71.9
+    label: Brain, NOS
+  examples:
+  - Metastatic
+  id: NCIT:C8711::pgx:icdom-87203::pgx:icdot-C71.9
+  note: TCGA-SKCM
+- code_group:
+  - id: NCIT:C8711
+    label: Non-Cutaneous Melanoma
+  - id: pgx:icdom-87203
+    label: Malignant melanoma, NOS
+  - id: pgx:icdot-C72.0
+    label: Spinal cord
+  examples:
+  - Metastatic
+  id: NCIT:C8711::pgx:icdom-87203::pgx:icdot-C72.0
+  note: TCGA-SKCM
+- code_group:
+  - id: NCIT:C8711
+    label: Non-Cutaneous Melanoma
+  - id: pgx:icdom-87203
+    label: Malignant melanoma, NOS
+  - id: pgx:icdot-C74.9
+    label: Adrenal gland, NOS
+  examples:
+  - Metastatic
+  id: NCIT:C8711::pgx:icdom-87203::pgx:icdot-C74.9
+  note: TCGA-SKCM
+- code_group:
+  - id: NCIT:C8711
+    label: Non-Cutaneous Melanoma
+  - id: pgx:icdom-87203
+    label: Malignant melanoma, NOS
+  - id: pgx:icdot-C76.1
+    label: Thorax, NOS
+  examples:
+  - Metastatic
+  id: NCIT:C8711::pgx:icdom-87203::pgx:icdot-C76.1
+  note: TCGA-SKCM
+- code_group:
+  - id: NCIT:C8711
+    label: Non-Cutaneous Melanoma
+  - id: pgx:icdom-87203
+    label: Malignant melanoma, NOS
+  - id: pgx:icdot-C76.2
+    label: Abdomen, NOS
+  examples:
+  - Metastatic
+  id: NCIT:C8711::pgx:icdom-87203::pgx:icdot-C76.2
+  note: TCGA-SKCM
+- code_group:
+  - id: NCIT:C8711
+    label: Non-Cutaneous Melanoma
+  - id: pgx:icdom-87203
+    label: Malignant melanoma, NOS
+  - id: pgx:icdot-C76.3
+    label: Pelvis, NOS
+  examples:
+  - Metastatic
+  id: NCIT:C8711::pgx:icdom-87203::pgx:icdot-C76.3
+  note: TCGA-SKCM
+- code_group:
+  - id: NCIT:C8711
+    label: Non-Cutaneous Melanoma
+  - id: pgx:icdom-87203
+    label: Malignant melanoma, NOS
+  - id: pgx:icdot-C77.0
+    label: Lymph nodes of head, face and neck
+  examples:
+  - Metastatic
+  id: NCIT:C8711::pgx:icdom-87203::pgx:icdot-C77.0
+  note: TCGA-SKCM
+- code_group:
+  - id: NCIT:C8711
+    label: Non-Cutaneous Melanoma
+  - id: pgx:icdom-87203
+    label: Malignant melanoma, NOS
+  - id: pgx:icdot-C77.2
+    label: Intra-abdominal lymph nodes
+  examples:
+  - Metastatic
+  id: NCIT:C8711::pgx:icdom-87203::pgx:icdot-C77.2
+  note: TCGA-SKCM
+- code_group:
+  - id: NCIT:C8711
+    label: Non-Cutaneous Melanoma
+  - id: pgx:icdom-87203
+    label: Malignant melanoma, NOS
+  - id: pgx:icdot-C77.3
+    label: Lymph nodes of axilla or arm
+  examples:
+  - Metastatic
+  id: NCIT:C8711::pgx:icdom-87203::pgx:icdot-C77.3
+  note: TCGA-SKCM
+- code_group:
+  - id: NCIT:C8711
+    label: Non-Cutaneous Melanoma
+  - id: pgx:icdom-87203
+    label: Malignant melanoma, NOS
+  - id: pgx:icdot-C77.4
+    label: Lymph nodes of inguinal region or leg
+  examples:
+  - Metastatic
+  id: NCIT:C8711::pgx:icdom-87203::pgx:icdot-C77.4
+  note: TCGA-SKCM
+- code_group:
+  - id: NCIT:C8711
+    label: Non-Cutaneous Melanoma
+  - id: pgx:icdom-87203
+    label: Malignant melanoma, NOS
+  - id: pgx:icdot-C77.5
+    label: Pelvic lymph nodes
+  examples:
+  - Metastatic
+  - Primary Tumor
+  id: NCIT:C8711::pgx:icdom-87203::pgx:icdot-C77.5
+  note: TCGA-SKCM
+- code_group:
+  - id: NCIT:C8711
+    label: Non-Cutaneous Melanoma
+  - id: pgx:icdom-87203
+    label: Malignant melanoma, NOS
+  - id: pgx:icdot-C77.9
+    label: Lymph node, NOS
+  examples:
+  - Metastatic
+  id: NCIT:C8711::pgx:icdom-87203::pgx:icdot-C77.9
+  note: TCGA-SKCM
+- code_group:
+  - id: NCIT:C8851
+    label: Diffuse Large B-Cell Lymphoma
+  - id: pgx:icdom-96803
+    label: Malignant lymphoma, large B-cell, diffuse, NOS
+  - id: pgx:icdot-C08.0
+    label: Submandibular gland
+  examples:
+  - Primary Tumor
+  id: NCIT:C8851::pgx:icdom-96803::pgx:icdot-C08.0
+  note: TCGA-DLBC
+- code_group:
+  - id: NCIT:C8851
+    label: Diffuse Large B-Cell Lymphoma
+  - id: pgx:icdom-96803
+    label: Malignant lymphoma, large B-cell, diffuse, NOS
+  - id: pgx:icdot-C16.9
+    label: Stomach, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C8851::pgx:icdom-96803::pgx:icdot-C16.9
+  note: TCGA-DLBC
+- code_group:
+  - id: NCIT:C8851
+    label: Diffuse Large B-Cell Lymphoma
+  - id: pgx:icdom-96803
+    label: Malignant lymphoma, large B-cell, diffuse, NOS
+  - id: pgx:icdot-C17.1
+    label: Jejunum
+  examples:
+  - Primary Tumor
+  id: NCIT:C8851::pgx:icdom-96803::pgx:icdot-C17.1
+  note: TCGA-DLBC
+- code_group:
+  - id: NCIT:C8851
+    label: Diffuse Large B-Cell Lymphoma
+  - id: pgx:icdom-96803
+    label: Malignant lymphoma, large B-cell, diffuse, NOS
+  - id: pgx:icdot-C17.9
+    label: Small intestine, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C8851::pgx:icdom-96803::pgx:icdot-C17.9
+  note: TCGA-DLBC
+- code_group:
+  - id: NCIT:C8851
+    label: Diffuse Large B-Cell Lymphoma
+  - id: pgx:icdom-96803
+    label: Malignant lymphoma, large B-cell, diffuse, NOS
+  - id: pgx:icdot-C18.9
+    label: Colon, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C8851::pgx:icdom-96803::pgx:icdot-C18.9
+  note: TCGA-DLBC
+- code_group:
+  - id: NCIT:C8851
+    label: Diffuse Large B-Cell Lymphoma
+  - id: pgx:icdom-96803
+    label: Malignant lymphoma, large B-cell, diffuse, NOS
+  - id: pgx:icdot-C38.1
+    label: Anterior mediastinum
+  examples:
+  - Primary Tumor
+  id: NCIT:C8851::pgx:icdom-96803::pgx:icdot-C38.1
+  note: TCGA-DLBC
+- code_group:
+  - id: NCIT:C8851
+    label: Diffuse Large B-Cell Lymphoma
+  - id: pgx:icdom-96803
+    label: Malignant lymphoma, large B-cell, diffuse, NOS
+  - id: pgx:icdot-C41.0
+    label: Bones of skull and face and associated joints
+  examples:
+  - Primary Tumor
+  id: NCIT:C8851::pgx:icdom-96803::pgx:icdot-C41.0
+  note: TCGA-DLBC
+- code_group:
+  - id: NCIT:C8851
+    label: Diffuse Large B-Cell Lymphoma
+  - id: pgx:icdom-96803
+    label: Malignant lymphoma, large B-cell, diffuse, NOS
+  - id: pgx:icdot-C48.1
+    label: Specified parts of peritoneum
+  examples:
+  - Primary Tumor
+  id: NCIT:C8851::pgx:icdom-96803::pgx:icdot-C48.1
+  note: TCGA-DLBC
+- code_group:
+  - id: NCIT:C8851
+    label: Diffuse Large B-Cell Lymphoma
+  - id: pgx:icdom-96803
+    label: Malignant lymphoma, large B-cell, diffuse, NOS
+  - id: pgx:icdot-C49.0
+    label: Connective, Subcutaneous and other soft tissues of head, face, and neck
+  examples:
+  - Primary Tumor
+  id: NCIT:C8851::pgx:icdom-96803::pgx:icdot-C49.0
+  note: TCGA-DLBC
+- code_group:
+  - id: NCIT:C8851
+    label: Diffuse Large B-Cell Lymphoma
+  - id: pgx:icdom-96803
+    label: Malignant lymphoma, large B-cell, diffuse, NOS
+  - id: pgx:icdot-C49.9
+    label: Connective, Subcutaneous and other soft tissues, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C8851::pgx:icdom-96803::pgx:icdot-C49.9
+  note: TCGA-DLBC
+- code_group:
+  - id: NCIT:C8851
+    label: Diffuse Large B-Cell Lymphoma
+  - id: pgx:icdom-96803
+    label: Malignant lymphoma, large B-cell, diffuse, NOS
+  - id: pgx:icdot-C50.9
+    label: Breast, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C8851::pgx:icdom-96803::pgx:icdot-C50.9
+  note: TCGA-DLBC
+- code_group:
+  - id: NCIT:C8851
+    label: Diffuse Large B-Cell Lymphoma
+  - id: pgx:icdom-96803
+    label: Malignant lymphoma, large B-cell, diffuse, NOS
+  - id: pgx:icdot-C62.9
+    label: Testis, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C8851::pgx:icdom-96803::pgx:icdot-C62.9
+  note: TCGA-DLBC
+- code_group:
+  - id: NCIT:C8851
+    label: Diffuse Large B-Cell Lymphoma
+  - id: pgx:icdom-96803
+    label: Malignant lymphoma, large B-cell, diffuse, NOS
+  - id: pgx:icdot-C71.6
+    label: Cerebellum, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C8851::pgx:icdom-96803::pgx:icdot-C71.6
+  note: TCGA-DLBC
+- code_group:
+  - id: NCIT:C8851
+    label: Diffuse Large B-Cell Lymphoma
+  - id: pgx:icdom-96803
+    label: Malignant lymphoma, large B-cell, diffuse, NOS
+  - id: pgx:icdot-C71.7
+    label: Brain stem
+  examples:
+  - Primary Tumor
+  id: NCIT:C8851::pgx:icdom-96803::pgx:icdot-C71.7
+  note: TCGA-DLBC
+- code_group:
+  - id: NCIT:C8851
+    label: Diffuse Large B-Cell Lymphoma
+  - id: pgx:icdom-96803
+    label: Malignant lymphoma, large B-cell, diffuse, NOS
+  - id: pgx:icdot-C73.9
+    label: Thyroid gland
+  examples:
+  - Primary Tumor
+  id: NCIT:C8851::pgx:icdom-96803::pgx:icdot-C73.9
+  note: TCGA-DLBC
+- code_group:
+  - id: NCIT:C8851
+    label: Diffuse Large B-Cell Lymphoma
+  - id: pgx:icdom-96803
+    label: Malignant lymphoma, large B-cell, diffuse, NOS
+  - id: pgx:icdot-C77.0
+    label: Lymph nodes of head, face and neck
+  examples:
+  - Primary Tumor
+  id: NCIT:C8851::pgx:icdom-96803::pgx:icdot-C77.0
+  note: TCGA-DLBC
+- code_group:
+  - id: NCIT:C8851
+    label: Diffuse Large B-Cell Lymphoma
+  - id: pgx:icdom-96803
+    label: Malignant lymphoma, large B-cell, diffuse, NOS
+  - id: pgx:icdot-C77.1
+    label: Intrathoracic lymph nodes
+  examples:
+  - Primary Tumor
+  id: NCIT:C8851::pgx:icdom-96803::pgx:icdot-C77.1
+  note: TCGA-DLBC
+- code_group:
+  - id: NCIT:C8851
+    label: Diffuse Large B-Cell Lymphoma
+  - id: pgx:icdom-96803
+    label: Malignant lymphoma, large B-cell, diffuse, NOS
+  - id: pgx:icdot-C77.2
+    label: Intra-abdominal lymph nodes
+  examples:
+  - Primary Tumor
+  id: NCIT:C8851::pgx:icdom-96803::pgx:icdot-C77.2
+  note: TCGA-DLBC
+- code_group:
+  - id: NCIT:C8851
+    label: Diffuse Large B-Cell Lymphoma
+  - id: pgx:icdom-96803
+    label: Malignant lymphoma, large B-cell, diffuse, NOS
+  - id: pgx:icdot-C77.3
+    label: Lymph nodes of axilla or arm
+  examples:
+  - Primary Tumor
+  id: NCIT:C8851::pgx:icdom-96803::pgx:icdot-C77.3
+  note: TCGA-DLBC
+- code_group:
+  - id: NCIT:C8851
+    label: Diffuse Large B-Cell Lymphoma
+  - id: pgx:icdom-96803
+    label: Malignant lymphoma, large B-cell, diffuse, NOS
+  - id: pgx:icdot-C77.4
+    label: Lymph nodes of inguinal region or leg
+  examples:
+  - Primary Tumor
+  id: NCIT:C8851::pgx:icdom-96803::pgx:icdot-C77.4
+  note: TCGA-DLBC
+- code_group:
+  - id: NCIT:C8993
+    label: Ureter Carcinoma
+  - id: pgx:icdom-81203
+    label: Transitional cell carcinoma, NOS
+  - id: pgx:icdot-C67.6
+    label: Ureteric orifice
+  examples:
+  - Primary Tumor
+  id: NCIT:C8993::pgx:icdom-81203::pgx:icdot-C67.6
+  note: TCGA-BLCA
+- code_group:
+  - id: NCIT:C9003
+    label: Adrenal Cortex Adenoma
+  - id: pgx:icdom-83701
+    label: Adrenal cortical adenoma, borderline malignancy
+  - id: pgx:icdot-C74.0
+    label: Cortex of adrenal gland
+  examples:
+  - Primary Tumor
+  id: NCIT:C9003::pgx:icdom-83701::pgx:icdot-C74.0
+  note: TCGA-ACC
+- code_group:
+  - id: NCIT:C9015
+    label: Mature Teratoma
+  - id: pgx:icdom-90800
+    label: Teratoma, benign
+  - id: pgx:icdot-C62.9
+    label: Testis, NOS
+  examples:
+  - Additional - New Primary
+  - Primary Tumor
+  id: NCIT:C9015::pgx:icdom-90800::pgx:icdot-C62.9
+  note: TCGA-TGCT
+- code_group:
+  - id: NCIT:C9119
+    label: Medullary Breast Carcinoma
+  - id: pgx:icdom-85103
+    label: Medullary carcinoma, NOS
+  - id: pgx:icdot-C50.9
+    label: Breast, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C9119::pgx:icdom-85103::pgx:icdot-C50.9
+  note: TCGA-BRCA
+- code_group:
+  - id: NCIT:C9135
+    label: Tubular Breast Carcinoma
+  - id: pgx:icdom-82113
+    label: Tubular adenocarcinoma
+  - id: pgx:icdot-C50.9
+    label: Breast, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C9135::pgx:icdom-82113::pgx:icdot-C50.9
+  note: TCGA-BRCA
+- code_group:
+  - id: NCIT:C9151
+    label: Lentigo Maligna Melanoma
+  - id: pgx:icdom-87423
+    label: Lentigo maligna melanoma
+  - id: pgx:icdot-C44.2
+    label: External ear
+  examples:
+  - Primary Tumor
+  id: NCIT:C9151::pgx:icdom-87423::pgx:icdot-C44.2
+  note: TCGA-SKCM
+- code_group:
+  - id: NCIT:C9151
+    label: Lentigo Maligna Melanoma
+  - id: pgx:icdom-87423
+    label: Lentigo maligna melanoma
+  - id: pgx:icdot-C49.2
+    label: Connective, Subcutaneous and other soft tissues of lower limb and hip
+  examples:
+  - Metastatic
+  id: NCIT:C9151::pgx:icdom-87423::pgx:icdot-C49.2
+  note: TCGA-SKCM
+- code_group:
+  - id: NCIT:C9152
+    label: Superficial Spreading Melanoma
+  - id: pgx:icdom-87433
+    label: Superficial spreading melanoma
+  - id: pgx:icdot-C44.5
+    label: Skin of trunk
+  examples:
+  - Primary Tumor
+  id: NCIT:C9152::pgx:icdom-87433::pgx:icdot-C44.5
+  note: TCGA-SKCM
+- code_group:
+  - id: NCIT:C9152
+    label: Superficial Spreading Melanoma
+  - id: pgx:icdom-87433
+    label: Superficial spreading melanoma
+  - id: pgx:icdot-C44.6
+    label: Skin of upper limb and shoulder
+  examples:
+  - Primary Tumor
+  id: NCIT:C9152::pgx:icdom-87433::pgx:icdot-C44.6
+  note: TCGA-SKCM
+- code_group:
+  - id: NCIT:C9152
+    label: Superficial Spreading Melanoma
+  - id: pgx:icdom-87433
+    label: Superficial spreading melanoma
+  - id: pgx:icdot-C49.2
+    label: Connective, Subcutaneous and other soft tissues of lower limb and hip
+  examples:
+  - Metastatic
+  id: NCIT:C9152::pgx:icdom-87433::pgx:icdot-C49.2
+  note: TCGA-SKCM
+- code_group:
+  - id: NCIT:C9152
+    label: Superficial Spreading Melanoma
+  - id: pgx:icdom-87433
+    label: Superficial spreading melanoma
+  - id: pgx:icdot-C77.4
+    label: Lymph nodes of inguinal region or leg
+  examples:
+  - Metastatic
+  id: NCIT:C9152::pgx:icdom-87433::pgx:icdot-C77.4
+  note: TCGA-SKCM
+- code_group:
+  - id: NCIT:C9157
+    label: Gastric Intestinal Type Adenocarcinoma
+  - id: pgx:icdom-81443
+    label: Adenocarcinoma, intestinal type
+  - id: pgx:icdot-C16.0
+    label: Cardia, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C9157::pgx:icdom-81443::pgx:icdot-C16.0
+  note: TCGA-STAD
+- code_group:
+  - id: NCIT:C9157
+    label: Gastric Intestinal Type Adenocarcinoma
+  - id: pgx:icdom-81443
+    label: Adenocarcinoma, intestinal type
+  - id: pgx:icdot-C16.1
+    label: Fundus of stomach
+  examples:
+  - Primary Tumor
+  id: NCIT:C9157::pgx:icdom-81443::pgx:icdot-C16.1
+  note: TCGA-STAD
+- code_group:
+  - id: NCIT:C9157
+    label: Gastric Intestinal Type Adenocarcinoma
+  - id: pgx:icdom-81443
+    label: Adenocarcinoma, intestinal type
+  - id: pgx:icdot-C16.2
+    label: Body of stomach
+  examples:
+  - Primary Tumor
+  id: NCIT:C9157::pgx:icdom-81443::pgx:icdot-C16.2
+  note: TCGA-STAD
+- code_group:
+  - id: NCIT:C9157
+    label: Gastric Intestinal Type Adenocarcinoma
+  - id: pgx:icdom-81443
+    label: Adenocarcinoma, intestinal type
+  - id: pgx:icdot-C16.3
+    label: Gastric antrum
+  examples:
+  - Primary Tumor
+  id: NCIT:C9157::pgx:icdom-81443::pgx:icdot-C16.3
+  note: TCGA-STAD
+- code_group:
+  - id: NCIT:C9157
+    label: Gastric Intestinal Type Adenocarcinoma
+  - id: pgx:icdom-81443
+    label: Adenocarcinoma, intestinal type
+  - id: pgx:icdot-C16.9
+    label: Stomach, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C9157::pgx:icdom-81443::pgx:icdot-C16.9
+  note: TCGA-STAD
+- code_group:
+  - id: NCIT:C9159
+    label: Diffuse Gastric Adenocarcinoma
+  - id: pgx:icdom-81453
+    label: Carcinoma, diffuse type
+  - id: pgx:icdot-C16.0
+    label: Cardia, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C9159::pgx:icdom-81453::pgx:icdot-C16.0
+  note: TCGA-STAD
+- code_group:
+  - id: NCIT:C9159
+    label: Diffuse Gastric Adenocarcinoma
+  - id: pgx:icdom-81453
+    label: Carcinoma, diffuse type
+  - id: pgx:icdot-C16.1
+    label: Fundus of stomach
+  examples:
+  - Primary Tumor
+  id: NCIT:C9159::pgx:icdom-81453::pgx:icdot-C16.1
+  note: TCGA-STAD
+- code_group:
+  - id: NCIT:C9159
+    label: Diffuse Gastric Adenocarcinoma
+  - id: pgx:icdom-81453
+    label: Carcinoma, diffuse type
+  - id: pgx:icdot-C16.2
+    label: Body of stomach
+  examples:
+  - Primary Tumor
+  id: NCIT:C9159::pgx:icdom-81453::pgx:icdot-C16.2
+  note: TCGA-STAD
+- code_group:
+  - id: NCIT:C9159
+    label: Diffuse Gastric Adenocarcinoma
+  - id: pgx:icdom-81453
+    label: Carcinoma, diffuse type
+  - id: pgx:icdot-C16.3
+    label: Gastric antrum
+  examples:
+  - Primary Tumor
+  id: NCIT:C9159::pgx:icdom-81453::pgx:icdot-C16.3
+  note: TCGA-STAD
+- code_group:
+  - id: NCIT:C9159
+    label: Diffuse Gastric Adenocarcinoma
+  - id: pgx:icdom-81453
+    label: Carcinoma, diffuse type
+  - id: pgx:icdot-C16.9
+    label: Stomach, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C9159::pgx:icdom-81453::pgx:icdot-C16.9
+  note: TCGA-STAD
+- code_group:
+  - id: NCIT:C9180
+    label: Uterine Corpus Carcinosarcoma
+  - id: pgx:icdom-89803
+    label: Carcinosarcoma, NOS
+  - id: pgx:icdot-C54.0
+    label: Isthmus uteri
+  examples:
+  - Primary Tumor
+  id: NCIT:C9180::pgx:icdom-89803::pgx:icdot-C54.0
+  note: TCGA-UCS
+- code_group:
+  - id: NCIT:C9180
+    label: Uterine Corpus Carcinosarcoma
+  - id: pgx:icdom-89803
+    label: Carcinosarcoma, NOS
+  - id: pgx:icdot-C54.1
+    label: Endometrium
+  examples:
+  - Primary Tumor
+  id: NCIT:C9180::pgx:icdom-89803::pgx:icdot-C54.1
+  note: TCGA-UCS
+- code_group:
+  - id: NCIT:C9180
+    label: Uterine Corpus Carcinosarcoma
+  - id: pgx:icdom-89803
+    label: Carcinosarcoma, NOS
+  - id: pgx:icdot-C54.3
+    label: Fundus uteri
+  examples:
+  - Primary Tumor
+  id: NCIT:C9180::pgx:icdom-89803::pgx:icdot-C54.3
+  note: TCGA-UCS
+- code_group:
+  - id: NCIT:C9180
+    label: Uterine Corpus Carcinosarcoma
+  - id: pgx:icdom-89803
+    label: Carcinosarcoma, NOS
+  - id: pgx:icdot-C55.9
+    label: Uterus, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C9180::pgx:icdom-89803::pgx:icdot-C55.9
+  note: TCGA-UCS
+- code_group:
+  - id: NCIT:C9182
+    label: Desmoid-Type Fibromatosis
+  - id: pgx:icdom-88211
+    label: Aggressive fibromatosis
+  - id: pgx:icdot-C49.3
+    label: Connective, Subcutaneous and other soft tissues of thorax
+  examples:
+  - Primary Tumor
+  id: NCIT:C9182::pgx:icdom-88211::pgx:icdot-C49.3
+  note: TCGA-SARC
+- code_group:
+  - id: NCIT:C9306
+    label: Soft Tissue Sarcoma
+  - id: pgx:icdom-88003
+    label: Sarcoma, NOS
+  - id: pgx:icdot-C48.0
+    label: Retroperitoneum
+  examples:
+  - Primary Tumor
+  id: NCIT:C9306::pgx:icdom-88003::pgx:icdot-C48.0
+  note: TCGA-SARC
+- code_group:
+  - id: NCIT:C9309
+    label: Seminoma
+  - id: pgx:icdom-90613
+    label: Seminoma, NOS
+  - id: pgx:icdot-C62.9
+    label: Testis, NOS
+  examples:
+  - Additional - New Primary
+  - Primary Tumor
+  id: NCIT:C9309::pgx:icdom-90613::pgx:icdot-C62.9
+  note: TCGA-TGCT
+- code_group:
+  - id: NCIT:C9325
+    label: Adrenal Cortex Carcinoma
+  - id: pgx:icdom-83703
+    label: Adrenal cortical carcinoma
+  - id: pgx:icdot-C74.0
+    label: Cortex of adrenal gland
+  examples:
+  - Primary Tumor
+  id: NCIT:C9325::pgx:icdom-83703::pgx:icdot-C74.0
+  note: TCGA-ACC
+- code_group:
+  - id: NCIT:C9383
+    label: Rectal Adenocarcinoma
+  - id: pgx:icdom-81403
+    label: Adenocarcinoma, NOS
+  - id: pgx:icdot-C20.9
+    label: Rectum, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C9383::pgx:icdom-81403::pgx:icdot-C20.9
+  note: TCGA-READ
+- code_group:
+  - id: NCIT:C9385
+    label: Renal Cell Carcinoma
+  - id: pgx:icdom-83123
+    label: Renal cell carcinoma, NOS
+  - id: pgx:icdot-C64.9
+    label: Kidney, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C9385::pgx:icdom-83123::pgx:icdot-C64.9
+  note: TCGA-KIRC
+- code_group:
+  - id: NCIT:C9477
+    label: Anaplastic Astrocytoma
+  - id: pgx:icdom-94013
+    label: Astrocytoma, anaplastic
+  - id: pgx:icdot-C71.0
+    label: Cerebrum
+  examples:
+  - Primary Tumor
+  - Recurrent Tumor
+  id: NCIT:C9477::pgx:icdom-94013::pgx:icdot-C71.0
+  note: TCGA-LGG
+- code_group:
+  - id: NCIT:C9477
+    label: Anaplastic Astrocytoma
+  - id: pgx:icdom-94013
+    label: Astrocytoma, anaplastic
+  - id: pgx:icdot-C71.1
+    label: Frontal lobe
+  examples:
+  - Primary Tumor
+  id: NCIT:C9477::pgx:icdom-94013::pgx:icdot-C71.1
+  note: TCGA-LGG
+- code_group:
+  - id: NCIT:C9477
+    label: Anaplastic Astrocytoma
+  - id: pgx:icdom-94013
+    label: Astrocytoma, anaplastic
+  - id: pgx:icdot-C71.2
+    label: Temporal lobe
+  examples:
+  - Primary Tumor
+  id: NCIT:C9477::pgx:icdom-94013::pgx:icdot-C71.2
+  note: TCGA-LGG
+- code_group:
+  - id: NCIT:C9477
+    label: Anaplastic Astrocytoma
+  - id: pgx:icdom-94013
+    label: Astrocytoma, anaplastic
+  - id: pgx:icdot-C71.4
+    label: Occipital lobe
+  examples:
+  - Primary Tumor
+  id: NCIT:C9477::pgx:icdom-94013::pgx:icdot-C71.4
+  note: TCGA-LGG
+- code_group:
+  - id: NCIT:C9477
+    label: Anaplastic Astrocytoma
+  - id: pgx:icdom-94013
+    label: Astrocytoma, anaplastic
+  - id: pgx:icdot-C71.9
+    label: Brain, NOS
+  examples:
+  - Primary Tumor
+  id: NCIT:C9477::pgx:icdom-94013::pgx:icdot-C71.9
+  note: TCGA-LGG

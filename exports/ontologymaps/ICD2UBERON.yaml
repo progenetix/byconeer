@@ -6,6 +6,7 @@
   examples:
   - Primary Tumor
   id: pgx:icdot-C00.9::UBERON:0001833
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C01.9
     label: tongue
@@ -18,6 +19,7 @@
   - Mucinous adenocarcinoma [right ventral surface of the tongue]
   - squamous cell carcinoma [mouth]
   id: pgx:icdot-C01.9::UBERON:0001723
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C02.1
     label: Border of tongue
@@ -26,6 +28,7 @@
   examples:
   - Primary Tumor
   id: pgx:icdot-C02.1::UBERON:0015178
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C02.2
     label: Ventral surface of tongue, NOS
@@ -34,6 +37,7 @@
   examples:
   - Primary Tumor
   id: pgx:icdot-C02.2::UBERON:0007367
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C02.9
     label: Tongue, NOS
@@ -46,6 +50,7 @@
   - Tongue squamous cell carcinoma [cell line UT-SCC-25]
   - 'oral squamous cell carcinoma tumor [tongue, Stage: 2]'
   id: pgx:icdot-C02.9::UBERON:0001723
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C03.0
     label: Upper Gum
@@ -56,6 +61,7 @@
   - 'oral squamous cell carcinoma tumor [upper gingiva, Stage: 2, metastasis: lymph
     node]'
   id: pgx:icdot-C03.0::UBERON:0011601
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C03.1
     label: Lower gum
@@ -65,9 +71,10 @@
   - Primary Tumor
   - 'oral squamous cell carcinoma tumor [lower gingiva, Stage: 1]'
   - 'oral squamous cell carcinoma tumor [lower gingiva, Stage: 2]'
+  - 'oral squamous cell carcinoma tumor [lower gingiva, Stage: 3]'
   - 'oral squamous cell carcinoma tumor [lower gingiva, Stage: 4]'
-  - 'oral squamous cell carcinoma tumor [lower gingiva, Stage: 4a]'
   id: pgx:icdot-C03.1::UBERON:0011602
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C03.9
     label: Gum, NOS
@@ -78,6 +85,7 @@
   - Mixed Cancer Types
   - Primary Tumor
   id: pgx:icdot-C03.9::UBERON:0001828
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C04.0
     label: Anterior floor of mouth
@@ -86,6 +94,7 @@
   examples:
   - Primary Tumor
   id: pgx:icdot-C04.0::UBERON:0003679
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C04.9
     label: floor of mouth
@@ -98,6 +107,7 @@
   - oral cavity squamous cell carcinoma [cell line Ho-1-u-1l]
   - squamous cell carcinoma [mouth]
   id: pgx:icdot-C04.9::UBERON:0003679
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C05.0
     label: Hard palate
@@ -107,6 +117,7 @@
   - Primary Tumor
   - adenoid cystic carcinoma
   id: pgx:icdot-C05.0::UBERON:0003216
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C05.9
     label: Palate, NOS
@@ -116,6 +127,7 @@
   - Primary Tumor
   - 'oral squamous cell carcinoma tumor [pterygopalatine fossa, Stage: 3]'
   id: pgx:icdot-C05.9::UBERON:0007375
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C06.0
     label: Cheeck mucosa
@@ -124,6 +136,7 @@
   examples:
   - Primary Tumor
   id: pgx:icdot-C06.0::UBERON:0006956
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C06.2
     label: Retromolar area
@@ -132,6 +145,7 @@
   examples:
   - Primary Tumor
   id: pgx:icdot-C06.2::UBERON:0013471
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C06.9
     label: mouth, NOS
@@ -144,6 +158,7 @@
   - squamous cell carcinoma [head-neck, non-anemic]
   - squamous cell carcinoma [oral]
   id: pgx:icdot-C06.9::UBERON:0000165
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C07.9
     label: parotid gland
@@ -152,10 +167,11 @@
   examples:
   - Extranodal marginal zone B-cell lymphoma
   - Mucoepidermoid Carcinoma [cell line]
-  - Myoepithelial carcinoma [Parotid gland; epitheloid]
+  - Myoepithelial carcinoma [Parotid gland; epitheloid, ex PA]
   - Myoepithelial carcinoma [Parotid gland; plasmacytoid]
-  - Myoepithelioma [Parotid gland; spindled]
+  - Myoepithelial carcinoma [Parotid gland; spindled]
   id: pgx:icdot-C07.9::UBERON:0001831
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C08.0
     label: Submandibular gland
@@ -165,18 +181,20 @@
   - Primary Tumor
   - adenoid cystic carcinoma
   id: pgx:icdot-C08.0::UBERON:0001736
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C08.9
     label: salivary gland, NOS
   - id: UBERON:0004809
     label: salivary gland epithelium
   examples:
+  - adenoid cystic carcinoma [salivary gland, cribriform, Cheek]
+  - adenoid cystic carcinoma [salivary gland, cribriform, Hard palate]
   - adenoid cystic carcinoma [salivary gland, cribriform, Maxilla]
-  - adenoid cystic carcinoma [salivary gland, cribriform, Upper lip]
-  - adenoid cystic carcinoma [salivary gland, solid, Parotid gland]
-  - adenoid cystic carcinoma [salivary gland, solid, Upper lip]
-  - adenoid cystic carcinoma [salivary gland, tubular, Maxilla]
+  - adenoid cystic carcinoma [salivary gland, cribriform, Tongue]
+  - adenoid cystic carcinoma [salivary gland, tubular, Floor of mouth]
   id: pgx:icdot-C08.9::UBERON:0004809
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C09.9
     label: tonsil
@@ -189,6 +207,7 @@
   - Squamous cell carcinoma [HPVpos]
   - Squamous cell carcinoma [Tonsil, gradeII]
   id: pgx:icdot-C09.9::UBERON:0002372
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C10.3
     label: Posterior wall of oropharynx
@@ -197,6 +216,7 @@
   examples:
   - Primary Tumor
   id: pgx:icdot-C10.3::UBERON:0035240
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C10.9
     label: Oropharynx
@@ -209,6 +229,7 @@
   - squamous cell carcinoma [head-neck, anemic]
   - squamous cell carcinoma [head-neck, non-anemic]
   id: pgx:icdot-C10.9::UBERON:0001729
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C11.9
     label: nasopharynx
@@ -221,6 +242,7 @@
   - Juvenile nasopharyngeal angiofibroma [Fischl class. I]
   - Nasopharyngeal carcinoma
   id: pgx:icdot-C11.9::UBERON:0001728
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C13.1
     label: Hypopharyngeal aspect of aryepiglottic fold
@@ -229,18 +251,20 @@
   examples:
   - Hypopharynx Squamous Cell Carcinoma
   id: pgx:icdot-C13.1::UBERON:0014385
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C13.9
     label: Hypopharynx
   - id: UBERON:0001051
     label: hypopharynx
   examples:
+  - Carcinoma [hypopharynx, stage T1N0M0]
+  - Carcinoma [hypopharynx, stage T1N2M0]
   - Carcinoma [hypopharynx, stage T2N0M0]
-  - Carcinoma [hypopharynx, stage T2N1M0]
-  - Carcinoma [hypopharynx, stage T2N3M0]
   - squamous cell carcinoma [head-neck, anemic]
   - squamous cell carcinoma [head-neck, non-anemic]
   id: pgx:icdot-C13.9::UBERON:0001051
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C13
     label: Hypopharynx
@@ -250,6 +274,7 @@
   - C13;Carcinoma
   - Mixed Cancer Types
   id: pgx:icdot-C13::UBERON:0001051
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C14.0
     label: pharynx, NOS
@@ -257,11 +282,12 @@
     label: pharynx
   examples:
   - Anaplastic large cell lymphoma, systemic type [ALK neg.]
+  - Head and neck squamous cell carcinoma [Metastasis, T1N2cM0]
+  - Head and neck squamous cell carcinoma [Metastasis, T2N3M0]
   - Head and neck squamous cell carcinoma [Metastasis]
   - 'Head and neck squamous cell carcinoma [mucosa 1cm from tumor: CIS]'
-  - Head and neck squamous cell carcinoma [squamous cell carcinoma, T3N2b]
-  - Head and neck squamous cell carcinoma [squamous cell carcinoma, T3N2c]
   id: pgx:icdot-C14.0::UBERON:0006562
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C14.8
     label: Overlapping lesion of lip, oral cavity and pharynx
@@ -272,6 +298,7 @@
   - Primary Tumor
   - oral squamous cell carcinoma [HPV-negative]
   id: pgx:icdot-C14.8::UBERON:0001731
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C15.1
     label: Thoracic esophagus
@@ -280,6 +307,7 @@
   examples:
   - Primary Tumor
   id: pgx:icdot-C15.1::UBERON:0035216
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C15.3
     label: Upper third of esophagus
@@ -288,6 +316,7 @@
   examples:
   - Primary Tumor
   id: pgx:icdot-C15.3::UBERON:0013472
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C15.4
     label: Middle third of esophagus
@@ -297,6 +326,7 @@
   - Metastatic
   - Primary Tumor
   id: pgx:icdot-C15.4::UBERON:0013474
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C15.5
     label: Lower third of esophagus
@@ -305,6 +335,7 @@
   examples:
   - Primary Tumor
   id: pgx:icdot-C15.5::UBERON:0013473
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C15.9
     label: esophagus
@@ -313,10 +344,11 @@
   examples:
   - Esophageal squamous
   - Esophageal squamous [cell line HCE4]
+  - Esophageal squamous [cell line TE7]
   - Leiomyoma [Esophagus]
-  - Squamous cell carcinoma [esophageal]
   - esophageal carcinoma
   id: pgx:icdot-C15.9::UBERON:0001043
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C16.0
     label: Cardia, NOS
@@ -328,6 +360,7 @@
   - Primary Tumor
   - cardia cancer
   id: pgx:icdot-C16.0::UBERON:0001162
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C16.1
     label: Fundus of stomach
@@ -336,6 +369,7 @@
   examples:
   - Primary Tumor
   id: pgx:icdot-C16.1::UBERON:0001160
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C16.2
     label: Body of stomach
@@ -344,6 +378,7 @@
   examples:
   - Primary Tumor
   id: pgx:icdot-C16.2::UBERON:0001161
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C16.3
     label: Gastric antrum
@@ -352,6 +387,7 @@
   examples:
   - Primary Tumor
   id: pgx:icdot-C16.3::UBERON:0001165
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C16.5
     label: Lesser curvature of stomach, NOS
@@ -360,6 +396,7 @@
   examples:
   - Primary Tumor
   id: pgx:icdot-C16.5::UBERON:0001163
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C16.8
     label: Overlapping lesion of stomach
@@ -368,18 +405,20 @@
   examples:
   - Poorly Differentiated Carcinoma of the Stomach
   id: pgx:icdot-C16.8::UBERON:0000945
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C16.9
     label: stomach
   - id: UBERON:0000945
     label: stomach
   examples:
-  - Diffuse large B-cell lymphoma [gastrointestinal]
   - adenoma [gastric, moderate dysplasia]
   - adenoma [gastric, severe dysplasia]
-  - gastric carcinoma [sporadic, diffuse]
+  - gastric carcinoma [with HNPCC, adenosquamous]
+  - gastric carcinoma [with HNPCC, diffuse]
   - gastric carcinoma [with HNPCC, mucinous]
   id: pgx:icdot-C16.9::UBERON:0000945
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C17.0
     label: Duodenum
@@ -389,6 +428,7 @@
   - Duodenal Adenocarcinoma
   - Mixed Cancer Types
   id: pgx:icdot-C17.0::UBERON:0002114
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C17.1
     label: Jejunum
@@ -397,6 +437,7 @@
   examples:
   - Primary Tumor
   id: pgx:icdot-C17.1::UBERON:0002115
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C17.9
     label: Small intestine
@@ -409,6 +450,7 @@
   - Diffuse large B-cell lymphoma [gastrointestinal]
   - Marginal Zone B-cell Lymphoma [Ileum, Pleura, LN]
   id: pgx:icdot-C17.9::UBERON:0002108
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C18.0
     label: cecum
@@ -421,6 +463,7 @@
   - adenocarcinoma [cecum]
   - colon cancer
   id: pgx:icdot-C18.0::UBERON:0000314
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C18.1
     label: Appendix
@@ -433,6 +476,7 @@
   - Well-Differentiated Neuroendocrine Tumor of the Rectum
   - Well-Differentiated Neuroendocrine Tumors of the Stomach
   id: pgx:icdot-C18.1::UBERON:0001154
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C18.2
     label: Ascending colon
@@ -441,6 +485,7 @@
   examples:
   - Primary Tumor
   id: pgx:icdot-C18.2::UBERON:0001156
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C18.3
     label: Hepatic flexure of colon
@@ -449,6 +494,7 @@
   examples:
   - Primary Tumor
   id: pgx:icdot-C18.3::UBERON:0022277
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C18.4
     label: Transverse colon
@@ -459,6 +505,7 @@
   - colon cancer
   - metastatic colon cancer
   id: pgx:icdot-C18.4::UBERON:0001157
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C18.5
     label: Splenic flexure of colon
@@ -467,6 +514,7 @@
   examples:
   - Primary Tumor
   id: pgx:icdot-C18.5::UBERON:0022276
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C18.6
     label: Descending colon
@@ -475,6 +523,7 @@
   examples:
   - Primary Tumor
   id: pgx:icdot-C18.6::UBERON:0001158
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C18.7
     label: sigmoid incl. rectosigmoid junction
@@ -487,6 +536,7 @@
   - mismatch repair-proficient colorectal cancer [Rectosigmoid]
   - mismatch repair-proficient colorectal cancer [Sigmoid]
   id: pgx:icdot-C18.7::UBERON:0001155
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C18.9
     label: large intestine, excl. rectum and rectosigmoid junction
@@ -499,6 +549,7 @@
   - adenomacarcinoma [colorectal]
   - colon carcinoma [colitis ulcerosa related]
   id: pgx:icdot-C18.9::UBERON:0001155
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C19.9
     label: Rectosigmoid junction
@@ -511,6 +562,7 @@
   - Recurrent Tumor
   - rectosigmoid cancer [Partial Androgen Insensitivity Syndrome]
   id: pgx:icdot-C19.9::UBERON:0036214
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C20.9
     label: Rectum, NOS
@@ -523,6 +575,7 @@
   - adenomacarcinoma [colorectal]
   - colorectal cancer [sporadic microsatellite stable, rectum]
   id: pgx:icdot-C20.9::UBERON:0001052
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C21.8
     label: Overlapping lesion of rectum, anus and anal canal
@@ -533,6 +586,7 @@
   - Anorectal Mucosal Melanoma
   - Primary Tumor
   id: pgx:icdot-C21.8::UBERON:0001245
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C21.9
     label: anal canal and anus
@@ -543,6 +597,7 @@
   - Squamous Cell Carcinoma
   - anal intraepithelial neoplasia
   id: pgx:icdot-C21.9::UBERON:0001245
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C22.0
     label: Liver
@@ -555,6 +610,7 @@
   - hepatocellular carcinoma [epithelial, cell line HCC-1.2]
   - hepatocellular carcinoma [fibroblastoid, cell line HCC-1.1]
   id: pgx:icdot-C22.0::UBERON:0002107
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C22.1
     label: intrahepatic bile ducts
@@ -567,6 +623,7 @@
   - combined hepatocellular carcinoma and cholangiocarcinoma
   - combined hepatocellular carcinoma and cholangiocarcinoma [Chronic cholangitis]
   id: pgx:icdot-C22.1::UBERON:0003704
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C22.9
     label: liver
@@ -579,6 +636,7 @@
   - hepatocellular carcinoma [cell line PLC/PRF/5]
   - hepatocellular carcinoma [cell line SK-HEP-1]
   id: pgx:icdot-C22.9::UBERON:0003704
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C23.9
     label: gallbladder
@@ -591,6 +649,7 @@
   - biliary tract tumor [gallbladder adenocarcinoma, squamous cell carcinoma]
   - gallbladder carcinoma [cell line OCUG-1]
   id: pgx:icdot-C23.9::UBERON:0005033
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C24.0
     label: Extrahepatic bile duct
@@ -601,6 +660,7 @@
   - Perihilar Cholangiocarcinoma
   - Primary Tumor
   id: pgx:icdot-C24.0::UBERON:0003703
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C24.1
     label: Ampulla of Vater
@@ -611,6 +671,7 @@
   - Mixed Cancer Types
   - Pancreatobiliary Ampullary Carcinoma
   id: pgx:icdot-C24.1::UBERON:0004913
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C24.9
     label: extrahepatic and unspecified bile ducts
@@ -624,6 +685,7 @@
   - biliary tract tumor [commom bile duct adenocarcinoma, adenocarcinoma, poorly differentiated]
   - normal tissue
   id: pgx:icdot-C24.9::UBERON:0003703
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C25.0
     label: Head of pancreas
@@ -632,6 +694,7 @@
   examples:
   - Primary Tumor
   id: pgx:icdot-C25.0::UBERON:0001069
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C25.1
     label: Body of pancreas
@@ -640,6 +703,7 @@
   examples:
   - Primary Tumor
   id: pgx:icdot-C25.1::UBERON:0001150
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C25.2
     label: Tail of pancreas
@@ -649,6 +713,7 @@
   - Metastatic
   - Primary Tumor
   id: pgx:icdot-C25.2::UBERON:0001151
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C25.3
     label: Pancreatic duct
@@ -659,6 +724,7 @@
   - C25;Carcinoma
   - Mixed Cancer Types
   id: pgx:icdot-C25.3::UBERON:0007329
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C25.8
     label: Overlapping lesion of pancreas
@@ -667,6 +733,7 @@
   examples:
   - Primary Tumor
   id: pgx:icdot-C25.8::UBERON:0001264
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C25.9
     label: Pancreas, NOS
@@ -675,10 +742,11 @@
   examples:
   - Pancreatic adenocarcinoma [short term culture]
   - Pancreatic ductal Adenocarcinoma
+  - pancreas ductal adenocarcinoma [cell line Cfpac1, liver metastasis]
   - pancreas ductal adenocarcinoma [cell line MiaPaCa2, primary]
-  - pancreas ductal adenocarcinoma [cell line PaTu1, primary]
   - pancreatic adenocarcinoma
   id: pgx:icdot-C25.9::UBERON:0001264
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C26.0
     label: Intestinal tract, NOS
@@ -687,6 +755,7 @@
   examples:
   - Gastric adenocarcinoma
   id: pgx:icdot-C26.0::UBERON:0000160
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C26.9
     label: unspecified digest. Organs
@@ -699,18 +768,20 @@
   - Enteropathy-Type T-Cell Lymphoma [pleomorphic, medium and large cells]
   - Enteropathy-Type T-Cell Lymphoma [pleomorphic, small cells]
   id: pgx:icdot-C26.9::UBERON:0001007
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C30.0
     label: Nasal cavity
   - id: UBERON:0001707
     label: nasal cavity
   examples:
-  - ''
   - HANK-1 NK/T-cell lymphoma cell line
+  - NK-YS NK/T-cell lymphoma cell line
   - NK/T-cell lymphoma
   - Primary Tumor
-  - SNT8 NK/T-cell lymphoma cell line
+  - SNK-6 NK/T-cell lymphoma cell line
   id: pgx:icdot-C30.0::UBERON:0001707
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C30.1
     label: middle and inner ear
@@ -720,6 +791,7 @@
   - Adenoid cystic carcinoma
   - embryonal rhabdomyosarcoma
   id: pgx:icdot-C30.1::UBERON:0001756
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C30.9
     label: nasal cavity including nasal cartilage
@@ -732,6 +804,7 @@
   - Natural Killer Cell Lymphoma [nasal]
   - adenoid cystic carcinomas [nasal septum, grade II, stage II]
   id: pgx:icdot-C30.9::UBERON:0012355
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C32.1
     label: Supraglottis
@@ -740,6 +813,7 @@
   examples:
   - Primary Tumor
   id: pgx:icdot-C32.1::UBERON:0036263
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C32.9
     label: Larynx
@@ -748,10 +822,11 @@
   examples:
   - Carcinoma [larynx, stage T2N0M0]
   - Carcinoma [larynx, stage T3N0M0]
-  - Carcinoma [larynx, stage T3N1M0]
+  - Carcinoma [larynx, stage T3N2M0]
   - squamous cell carcinoma [head-neck, anemic]
   - squamous cell carcinoma [head-neck, non-anemic]
   id: pgx:icdot-C32.9::UBERON:0001737
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C33.9
     label: trachea
@@ -762,6 +837,7 @@
   - adenoid cystic carcinomas [trachea, grade I, stage I]
   - adenoid cystic carcinomas [trachea, grade II, stage III B]
   id: pgx:icdot-C33.9::UBERON:0003126
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C34.0
     label: Main bronchus
@@ -770,6 +846,7 @@
   examples:
   - Primary Tumor
   id: pgx:icdot-C34.0::UBERON:0002182
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C34.1
     label: Upper lobe, lung
@@ -780,6 +857,7 @@
   - Primary Tumor
   - Recurrent Tumor
   id: pgx:icdot-C34.1::UBERON:0008948
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C34.2
     label: Middle lobe, lung
@@ -788,6 +866,7 @@
   examples:
   - Primary Tumor
   id: pgx:icdot-C34.2::UBERON:0008955
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C34.3
     label: Lower lobe, lung
@@ -797,6 +876,7 @@
   - Metastatic
   - Primary Tumor
   id: pgx:icdot-C34.3::UBERON:0008949
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C34.8
     label: Overlapping lesion of lung
@@ -805,6 +885,7 @@
   examples:
   - Primary Tumor
   id: pgx:icdot-C34.8::UBERON:0002048
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C34.9
     label: lung and bronchus
@@ -817,6 +898,7 @@
   - small cell lung carcinoma
   - squamous cell carcinoma [lung]
   id: pgx:icdot-C34.9::UBERON:0002048
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C37.9
     label: Thymus
@@ -825,10 +907,11 @@
   examples:
   - thymic neoplasms with ACC-like features
   - thymic neuroendocrine carcinoma [Atypical, Masaoka stage pIVB]
-  - thymic neuroendocrine carcinoma [Atypical, Masaoka stage rIII]
   - thymic neuroendocrine carcinoma [Classic, Masaoka stage pIII]
   - thymic neuroendocrine carcinoma [Classic, Masaoka stage rIII]
+  - thymic neuroendocrine carcinoma [Spindle, Masaoka stage pIVB]
   id: pgx:icdot-C37.9::UBERON:0002370
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C38.0
     label: heart
@@ -839,6 +922,7 @@
   - Primary Tumor
   - cardiac lymphoma
   id: pgx:icdot-C38.0::UBERON:0000948
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C38.1
     label: Anterior mediastinum
@@ -847,6 +931,7 @@
   examples:
   - Primary Tumor
   id: pgx:icdot-C38.1::UBERON:0008820
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C38.3
     label: Mediastinum, NOS
@@ -859,6 +944,7 @@
   - primary mediastinal B-cell lymphoma
   - primary mediastinal B-cell lymphoma [cell line]
   id: pgx:icdot-C38.3::UBERON:0003728
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C38.4
     label: pleura
@@ -866,11 +952,12 @@
     label: pleura
   examples:
   - Epithelioid mesothelioma
-  - Smooth muscle tumour, malignant
+  - Spindle-cell carcinoma
   - fibromatous mesothelioma
   - malignant mesothelioma
   - mesothelioma [epithelioid]
   id: pgx:icdot-C38.4::UBERON:0000977
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C38.9
     label: mediastinum
@@ -881,21 +968,23 @@
     II]
   - Diffuse large B-cell lymphoma
   - germ cell tumor [yolk sac tumor]
+  - mediastinal germ cell tumor [immature teratoma, stage II]
   - mediastinal germ cell tumor [immature teratoma, stage I]
-  - mediastinal germ cell tumor [mature teratoma, stage I]
   id: pgx:icdot-C38.9::UBERON:0003728
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C40.0
     label: bones and joints
   - id: UBERON:0004765
     label: skeletal element
   examples:
-  - Ewing sarcoma
   - central osteosarcoma
   - osteochondroma [femur]
-  - osteochondroma [humerus]
+  - osteochondroma [fibula]
+  - osteochondroma [hand]
   - osteochondroma [tibia]
   id: pgx:icdot-C40.0::UBERON:0004765
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C40.1
     label: Short bones of upper limb and associated joints
@@ -905,6 +994,7 @@
   - Enchondroma [metacarpal]
   - Enchondroma [phalanx]
   id: pgx:icdot-C40.1::UBERON:0013630
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C40.2
     label: Long bones of lower limb and associated joints
@@ -915,6 +1005,7 @@
   - Enchondroma [tibia]
   - Primary Tumor
   id: pgx:icdot-C40.2::UBERON:0003606
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C40.3
     label: Short bones of lower limb and associated joints
@@ -923,6 +1014,7 @@
   examples:
   - Primary Tumor
   id: pgx:icdot-C40.3::UBERON:0013630
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C41.0
     label: Bones of skull and face and associated joints
@@ -933,6 +1025,7 @@
   - Primary Tumor
   - adenoid cystic carcinoma
   id: pgx:icdot-C41.0::UBERON:0003457
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C41.1
     label: Mandible
@@ -943,6 +1036,7 @@
   - Odontogenic Carcinoma
   - Primary Tumor
   id: pgx:icdot-C41.1::UBERON:0001684
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C41.4
     label: Pelvic bones, sacrum, coccyx and associated joints
@@ -952,6 +1046,7 @@
   - Enchondroma [iliac bone]
   - Enchondroma [ilium]
   id: pgx:icdot-C41.4::UBERON:0001270
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C41.9
     label: bone, NOS
@@ -964,6 +1059,7 @@
   - congenital sacrococcygeal teratoma
   - osteoblastoma
   id: pgx:icdot-C41.9::UBERON:0001474
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C41.9
     label: Bone, NOS
@@ -972,6 +1068,7 @@
   examples:
   - pseudarthrosis tissue from individual with neurofibromatosis 1
   id: pgx:icdot-C41.9::UBERON:0002384
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C42.0
     label: Blood
@@ -984,6 +1081,16 @@
   - normal tissue [prostate cancer]
   - normal tissue [white blood cells]
   id: pgx:icdot-C42.0::UBERON:0000178
+  note: progenetix
+- code_group:
+  - id: pgx:icdot-C42.0
+    label: Blood
+  - id: UBERON:0001016
+    label: nervous system
+  examples:
+  - Neurofibromatosis
+  id: pgx:icdot-C42.0::UBERON:0001016
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C42.1
     label: Bone marrow
@@ -992,35 +1099,37 @@
   examples:
   - Acute lymphoblastic leukemia
   - Acute lymphoblastic leukemia [also Down syndrome]
-  - Multiple Myeloma
+  - Acute lymphoblastic leukemia [child]
   - Small Lymphocytic Lymphoma
   - acute lymphoblastic leukemia
   id: pgx:icdot-C42.1::UBERON:0002371
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C42.2
     label: Spleen
   - id: UBERON:0002106
     label: spleen
   examples:
-  - Diffuse large B-cell lymphoma [spleen, IG-MYC maybe, 3q2 break neg., t(14;18)
-    neg.]
   - Marginal Zone B-cell Lymphoma [Spleen, BM, LN, PB]
   - Marginal Zone B-cell Lymphoma [Spleen, BM, PB]
   - Marginal Zone B-cell Lymphoma [Spleen, BM]
+  - Marginal Zone B-cell Lymphoma [Spleen, Liver, BM, PB]
   - Marginal Zone B-cell Lymphoma [Spleen, PB, BM]
   id: pgx:icdot-C42.2::UBERON:0002106
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C42.4
     label: Hematopoietic system, NOS
   - id: UBERON:0002390
     label: hematopoietic system
   examples:
+  - Burkitt like lymphoma
   - Burkitt lymphoma, NOS
   - Extranodal marginal zone B-cell lymphoma
   - Large B-cell lymphoma
-  - non-Hodgkins Lymphoma
-  - non-Hodgkins Lymphoma [B-cell, in myelodysplastic syndrome]
+  - non-Hodgkins Lymphoma [T-cell]
   id: pgx:icdot-C42.4::UBERON:0002390
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C44.2
     label: External ear
@@ -1029,6 +1138,7 @@
   examples:
   - Primary Tumor
   id: pgx:icdot-C44.2::UBERON:0001691
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C44.3
     label: Skin of other and unspecified parts of face
@@ -1037,6 +1147,7 @@
   examples:
   - Primary Tumor
   id: pgx:icdot-C44.3::UBERON:1000021
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C44.4
     label: Skin of scalp and neck
@@ -1047,6 +1158,7 @@
   - Normal tissue
   - Primary Tumor
   id: pgx:icdot-C44.4::UBERON:8300000
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C44.5
     label: Skin of trunk
@@ -1057,6 +1169,7 @@
   - Metastatic
   - Primary Tumor
   id: pgx:icdot-C44.5::UBERON:0001085
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C44.6
     label: Skin of upper limb and shoulder
@@ -1066,6 +1179,7 @@
   - Metastatic
   - Primary Tumor
   id: pgx:icdot-C44.6::UBERON:0001483
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C44.7
     label: Skin of lower limb and hip
@@ -1075,6 +1189,7 @@
   - Metastatic
   - Primary Tumor
   id: pgx:icdot-C44.7::UBERON:0001554
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C44.9
     label: Skin, NOS
@@ -1087,6 +1202,7 @@
   - malignant melanoma [high risk]
   - malignant melanoma [low risk]
   id: pgx:icdot-C44.9::UBERON:0000014
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C47.1
     label: Peripheral nerves and autonomic nervous system of upper limb and shoulder
@@ -1098,6 +1214,7 @@
   - Schwannoma
   - malignant peripheral nerve sheath tumours
   id: pgx:icdot-C47.1::UBERON:0002410
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C47.4
     label: autonomic nervous system
@@ -1108,6 +1225,7 @@
   - Mixed Cancer Types
   - neuroblastoma;C72
   id: pgx:icdot-C47.4::UBERON:0002410
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C47.9
     label: peripheral nervs incl. Autonomous
@@ -1116,10 +1234,11 @@
   examples:
   - Schwannoma [Stomach]
   - neuroblastoma [cell line GI-ME-N]
+  - neuroblastoma [cell line IMR32]
   - neuroblastoma [cell line NGP]
-  - neuroblastoma [cell line SMS-KCR]
-  - neuroblastoma [cell line UHG-NP]
+  - neuroblastoma [cell line SK-N-AS]
   id: pgx:icdot-C47.9::UBERON:0001780
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C48.0
     label: Retroperitoneum
@@ -1128,6 +1247,7 @@
   examples:
   - Primary Tumor
   id: pgx:icdot-C48.0::UBERON:0003693
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C48.1
     label: Specified parts of peritoneum
@@ -1136,6 +1256,7 @@
   examples:
   - Primary Tumor
   id: pgx:icdot-C48.1::UBERON:0003688
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C48.2
     label: Peritoneum, NOS
@@ -1147,6 +1268,7 @@
   - Primary Tumor
   - ovarian carcinoma
   id: pgx:icdot-C48.2::UBERON:0002358
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C48.9
     label: retroperitoneum and peritoneum
@@ -1160,6 +1282,7 @@
   - adult fibrosarcoma [grade 3, retroperitoneum]
   - germ cell tumor [mature teratoma]
   id: pgx:icdot-C48.9::UBERON:0003693
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C49.0
     label: Connective, Subcutaneous and other soft tissues of head, face, and neck
@@ -1170,6 +1293,7 @@
   - Mixed Cancer Types
   - Primary Tumor
   id: pgx:icdot-C49.0::UBERON:0003566
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C49.1
     label: Connective, Subcutaneous and other soft tissues of upper limb and shoulder
@@ -1179,6 +1303,7 @@
   - Metastatic
   - Primary Tumor
   id: pgx:icdot-C49.1::UBERON:0003579
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C49.2
     label: Connective, Subcutaneous and other soft tissues of lower limb and hip
@@ -1189,6 +1314,7 @@
   - Primary Tumor
   - Recurrent Tumor
   id: pgx:icdot-C49.2::UBERON:0003576
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C49.3
     label: Connective, Subcutaneous and other soft tissues of thorax
@@ -1200,6 +1326,7 @@
   - Mixed Cancer Types
   - Primary Tumor
   id: pgx:icdot-C49.3::UBERON:0003837
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C49.4
     label: Connective, Subcutaneous and other soft tissues of abdomen
@@ -1212,6 +1339,7 @@
   - Mixed Cancer Types
   - Primary Tumor
   id: pgx:icdot-C49.4::UBERON:0003567
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C49.5
     label: Connective, Subcutaneous and other soft tissues of pelvis
@@ -1221,6 +1349,7 @@
   - Metastatic
   - Primary Tumor
   id: pgx:icdot-C49.5::UBERON:0003594
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C49.6
     label: Connective, Subcutaneous and other soft tissues of trunk, NOS
@@ -1230,6 +1359,7 @@
   - Metastatic
   - Primary Tumor
   id: pgx:icdot-C49.6::UBERON:0003586
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C49.8
     label: Overlapping lesion of connective, subcutaneous and other soft tissues
@@ -1238,6 +1368,7 @@
   examples:
   - Primary Tumor
   id: pgx:icdot-C49.8::UBERON:0002384
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C49.9
     label: connective and soft tissue, NOS
@@ -1250,6 +1381,7 @@
   - Synovial sarcoma
   - Synovial sarcoma [poorly differentiated]
   id: pgx:icdot-C49.9::UBERON:0002384
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C50.2
     label: Upper-inner quadrant of breast
@@ -1258,6 +1390,7 @@
   examples:
   - Primary Tumor
   id: pgx:icdot-C50.2::UBERON:0035542
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C50.3
     label: Lower-inner quadrant of breast
@@ -1266,6 +1399,7 @@
   examples:
   - Primary Tumor
   id: pgx:icdot-C50.3::UBERON:0035477
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C50.4
     label: Upper-outer quadrant of breast
@@ -1275,6 +1409,7 @@
   - Metastatic
   - Primary Tumor
   id: pgx:icdot-C50.4::UBERON:0035328
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C50.5
     label: Lower-outer quadrant of breast
@@ -1283,6 +1418,7 @@
   examples:
   - Primary Tumor
   id: pgx:icdot-C50.5::UBERON:0035365
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C50.8
     label: Overlapping lesion of breast
@@ -1291,6 +1427,7 @@
   examples:
   - Primary Tumor
   id: pgx:icdot-C50.8::UBERON:0000310
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C50.9
     label: Breast, NOS
@@ -1304,6 +1441,7 @@
   - Marginal Zone B-cell Lymphoma [Breast]
   - breast carcinoma [ERpos, PRpos., ERBB2neg., Luminal A]
   id: pgx:icdot-C50.9::UBERON:0000310
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C51.0
     label: vagina and labia
@@ -1315,6 +1453,7 @@
   - Squamous cell carcinoma
   - gastrointestinal stromal tumor, low biological potential
   id: pgx:icdot-C51.0::UBERON:0004084
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C51.9
     label: vulva, nos
@@ -1327,6 +1466,7 @@
   - squamous cell carcinomas [HPVneg]
   - squamous cell carcinomas [HPVpos]
   id: pgx:icdot-C51.9::UBERON:0011387
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C52.9
     label: Vagina, NOS
@@ -1336,6 +1476,7 @@
   - Metastatic
   - Solid Pseudopapillary Neoplasm of the Pancreas
   id: pgx:icdot-C52.9::UBERON:0000996
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C53.0
     label: Endocervix
@@ -1345,6 +1486,7 @@
   - Endocervical Adenocarcinoma
   - Primary Tumor
   id: pgx:icdot-C53.0::UBERON:0000458
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C53.1
     label: Exocervix
@@ -1353,6 +1495,7 @@
   examples:
   - Primary Tumor
   id: pgx:icdot-C53.1::UBERON:0012249
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C53.9
     label: cervix uteri
@@ -1362,9 +1505,10 @@
   - Squamous cell carcinoma [cervix, I b]
   - Squamous cell carcinoma [cervix, II b]
   - Squamous cell carcinoma [cervix, III b]
-  - Squamous cell carcinoma [cervix, IV b]
   - Squamous cell carcinoma in situ [cervix]
+  - adenocarcinoma [cell line HeLa]
   id: pgx:icdot-C53.9::UBERON:0000002
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C54.0
     label: Isthmus uteri
@@ -1374,6 +1518,7 @@
   - Fallopian tube tumor
   - Primary Tumor
   id: pgx:icdot-C54.0::UBERON:0009853
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C54.1
     label: endometrium
@@ -1386,6 +1531,7 @@
   - Primary Tumor
   - Recurrent Tumor
   id: pgx:icdot-C54.1::UBERON:0001295
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C54.2
     label: Myometrium
@@ -1394,6 +1540,7 @@
   examples:
   - Primary Tumor
   id: pgx:icdot-C54.2::UBERON:0001296
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C54.3
     label: Fundus uteri
@@ -1402,6 +1549,7 @@
   examples:
   - Primary Tumor
   id: pgx:icdot-C54.3::UBERON:0009853
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C54.9
     label: Corpus uteri
@@ -1414,6 +1562,7 @@
   - Uterine Clear Cell Carcinoma
   - Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma
   id: pgx:icdot-C54.9::UBERON:0009853
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C55.9
     label: uterus, nos
@@ -1424,8 +1573,9 @@
   - clear cell adenocarcinoma
   - endometrioid adenocarcinoma [grade G1]
   - endometrioid adenocarcinoma [grade G2]
-  - endometrioid adenocarcinoma [grade G3]
+  - endometrioid adenocarcinoma [with squamous differentiation, grade G2]
   id: pgx:icdot-C55.9::UBERON:0000995
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C56.9
     label: ovary
@@ -1436,8 +1586,9 @@
   - ovarian carcinoma [mucinous, grade 2]
   - ovarian carcinoma [mucinous, grade LMP]
   - ovarian carcinoma [serous, grade 2]
-  - ovarian carcinoma [serous, grade NA]
+  - ovarian carcinoma [serous, grade 3]
   id: pgx:icdot-C56.9::UBERON:0000992
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C57.0
     label: fallopian tube
@@ -1449,6 +1600,7 @@
   - Serous Fallopian tube carcinoma
   - ovarian carcinoma
   id: pgx:icdot-C57.0::UBERON:0003889
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C57.9
     label: other female genital
@@ -1461,6 +1613,7 @@
   - Endometrial adenocarcinoma [squamous]
   - serous carcinoma [fallopian tube]
   id: pgx:icdot-C57.9::UBERON:0000474
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C58.9
     label: placenta
@@ -1471,6 +1624,7 @@
   - complete hydatidiform mole
   - normal tissue [placenta]
   id: pgx:icdot-C58.9::UBERON:0001987
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C60.9
     label: penis
@@ -1481,6 +1635,7 @@
   - Penile Squamous Cell Carcinoma
   - penile squamous cell carcinoma
   id: pgx:icdot-C60.9::UBERON:0000989
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C61.9
     label: prostate gland
@@ -1493,6 +1648,7 @@
   - prostate carcinoma [cell line DU-145]
   - prostate carcinoma [cell line LNCaP]
   id: pgx:icdot-C61.9::UBERON:0002367
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C62.9
     label: testis
@@ -1503,8 +1659,9 @@
   - germ cell tumor [testicular]
   - spermatocytic seminoma
   - testicular germ cell tumor [embryonal carcinoma, cell line]
-  - testicular germ cell tumor [seminoma]
+  - testicular germ cell tumor [yolk sac tumor, cell line]
   id: pgx:icdot-C62.9::UBERON:0000473
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C63.1
     label: Spermatic cord
@@ -1513,6 +1670,7 @@
   examples:
   - Primary Tumor
   id: pgx:icdot-C63.1::UBERON:0005352
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C63.9
     label: epididymis, spermatic cord, male genital, nos
@@ -1522,6 +1680,7 @@
   - Primary Nonseminoma Testicular Germ Cell Tumour
   - Primary Seminoma Testicular Germ Cell Tumour
   id: pgx:icdot-C63.9::UBERON:0005352
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C64.9
     label: Kidney, NOS
@@ -1530,6 +1689,7 @@
   examples:
   - non cancer
   id: pgx:icdot-C64.9::UBERON:0000178
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C64.9
     label: kidney
@@ -1537,11 +1697,12 @@
     label: kidney
   examples:
   - Wilms tumor
-  - Wilms tumor [histology n.d., stage I]
+  - Wilms tumor [epithelial with irregular blastema, stage III]
+  - Wilms tumor [epithelial with regular blastema, stage n.a.]
   - Wilms tumor [histology n.d., stage n.a.]
   - Wilms tumor [necrotic, stage I]
-  - Wilms tumor [with fibroadematous structures, stage I]
   id: pgx:icdot-C64.9::UBERON:0002113
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C65.9
     label: Renal pelvis, ureter
@@ -1554,6 +1715,7 @@
   - transitional cell carcinoma [pT3, G2-3] in Balkan endemic nephropathy]
   - transitional cell carcinoma [pT3, G3] in Balkan endemic nephropathy]
   id: pgx:icdot-C65.9::UBERON:0036295
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C65
     label: Renal pelvis
@@ -1562,6 +1724,7 @@
   examples:
   - Mixed Cancer Types
   id: pgx:icdot-C65::UBERON:0001224
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C67.0
     label: Urinary bladder
@@ -1570,10 +1733,11 @@
   examples:
   - Paraganglioma [urinary bladder]
   - bladder carcinoma
-  - urothelial tumor [stage pT1, G2]
+  - urothelial tumor [carcinoma in situ]
   - urothelial tumor [stage pT1, G3]
-  - urothelial tumor [stage pT2, G3]
+  - urothelial tumor [stage pT3a, G3]
   id: pgx:icdot-C67.0::UBERON:0001255
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C67.1
     label: Dome of bladder
@@ -1582,6 +1746,7 @@
   examples:
   - Primary Tumor
   id: pgx:icdot-C67.1::UBERON:0006082
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C67.2
     label: Lateral wall of bladder
@@ -1590,6 +1755,7 @@
   examples:
   - Primary Tumor
   id: pgx:icdot-C67.2::UBERON:0001256
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C67.3
     label: Anterior wall of bladder
@@ -1598,6 +1764,7 @@
   examples:
   - Primary Tumor
   id: pgx:icdot-C67.3::UBERON:0001256
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C67.4
     label: Posterior wall of bladder
@@ -1606,6 +1773,7 @@
   examples:
   - Primary Tumor
   id: pgx:icdot-C67.4::UBERON:0001256
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C67.5
     label: Bladder neck
@@ -1614,6 +1782,7 @@
   examples:
   - Primary Tumor
   id: pgx:icdot-C67.5::UBERON:0012303
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C67.6
     label: Ureteric orifice
@@ -1622,6 +1791,7 @@
   examples:
   - Primary Tumor
   id: pgx:icdot-C67.6::UBERON:0012303
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C67.9
     label: Bladder, NOS
@@ -1634,6 +1804,7 @@
   - embryonal rhabdomyosarcoma
   - urothelial carcinoma
   id: pgx:icdot-C67.9::UBERON:0018707
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C68.0
     label: other urinary organs
@@ -1644,6 +1815,7 @@
   - Urothelial carcinoma
   - Urothelial papilloma, NOS
   id: pgx:icdot-C68.0::UBERON:0001008
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C69.0
     label: orbit and lacrimal gland, excl. retina, eye, nos
@@ -1652,10 +1824,11 @@
   examples:
   - Cavernous hemangioma
   - MALT [ocular adnexal]
-  - Marginal zone lymphoma lymphoma of the orbit [Lacrimal gland]
+  - Marginal zone lymphoma lymphoma of the orbit [Orbit]
   - Pleomorphic adenoma
   - Schwannoma
   id: pgx:icdot-C69.0::UBERON:0001817
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C69.2
     label: Retina
@@ -1668,6 +1841,7 @@
   - Retinoblastoma [familial]
   - retinoblastoma
   id: pgx:icdot-C69.2::UBERON:0000966
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C69.3
     label: Choroid
@@ -1676,6 +1850,7 @@
   examples:
   - Primary Tumor
   id: pgx:icdot-C69.3::UBERON:0013398
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C69.4
     label: Ciliary body
@@ -1685,6 +1860,7 @@
   - Primary Tumor
   - Uveal Melanoma
   id: pgx:icdot-C69.4::UBERON:0001775
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C69.6
     label: Orbit, NOS
@@ -1693,6 +1869,7 @@
   examples:
   - adenoid cystic carcinoma
   id: pgx:icdot-C69.6::UBERON:0001697
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C69.8
     label: Overlapping lesion of eye and adnexa
@@ -1701,6 +1878,7 @@
   examples:
   - Primary Tumor
   id: pgx:icdot-C69.8::UBERON:0035639
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C69.9
     label: eye, nos
@@ -1713,18 +1891,20 @@
   - Marginal Zone B-cell Lymphoma [Orbita]
   - uveal melanoma
   id: pgx:icdot-C69.9::UBERON:0000970
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C70.0
     label: meninges cerebral, spinal
   - id: UBERON:0017641
     label: meningeal branch of spinal nerve
   examples:
-  - Meningioma [WHO grade III, Anaplastic]
-  - Meningioma [grade I, Diff. class.]
   - Meningioma [grade I, Fibroblastic]
   - Meningioma [grade I, Meningothelial]
+  - Meningioma [grade I, Psammomatous]
   - Meningioma [grade I, Transitional]
+  - Meningioma [grade III, Anaplastic]
   id: pgx:icdot-C70.0::UBERON:0017641
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C70.1
     label: Spinal meninges
@@ -1733,6 +1913,7 @@
   examples:
   - Primary Tumor
   id: pgx:icdot-C70.1::UBERON:0017641
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C70.9
     label: Meninges, NOS
@@ -1745,6 +1926,7 @@
   - meningioma [Li-Fraumeni Syndrome]
   - meningioma [cell line 1174]
   id: pgx:icdot-C70.9::UBERON:0010743
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C71.0
     label: cerebrum
@@ -1758,6 +1940,7 @@
   - Malignant glioma
   - glioblastoma
   id: pgx:icdot-C71.0::UBERON:0001869
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C71.1
     label: Frontal lobe
@@ -1769,6 +1952,7 @@
   - Primary Tumor
   - glioblastoma [frontal lobe]
   id: pgx:icdot-C71.1::UBERON:0016525
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C71.2
     label: Temporal lobe
@@ -1779,6 +1963,7 @@
   - Recurrent Tumor
   - glioblastoma [temporal lobe]
   id: pgx:icdot-C71.2::UBERON:0001871
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C71.3
     label: Parietal lobe
@@ -1789,6 +1974,7 @@
   - Primary Tumor
   - glioblastoma [parietal lobe]
   id: pgx:icdot-C71.3::UBERON:0001872
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C71.4
     label: Occipital lobe
@@ -1798,6 +1984,7 @@
   - Primary Tumor
   - glioblastoma [occipital lobe]
   id: pgx:icdot-C71.4::UBERON:0002021
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C71.5
     label: Ventricle
@@ -1810,6 +1997,7 @@
   - chordoid glioma
   - choroid plexus papillomas
   id: pgx:icdot-C71.5::UBERON:0002082
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C71.6
     label: cerebellum
@@ -1817,11 +2005,12 @@
     label: cerebellum
   examples:
   - Medulloblastoma
+  - astrocytoma [cerebellar]
   - classic medulloblastoma
-  - medulloblastoma
   - medulloblastoma [CSF metastasis]
   - medulloblastoma [p53 mut., Li-Fraumeni syndrome]
   id: pgx:icdot-C71.6::UBERON:0002037
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C71.7
     label: brain stem
@@ -1834,6 +2023,7 @@
   - Pilocytic astrocytoma
   - diffuse intrinsic pontine glioma [cell line]
   id: pgx:icdot-C71.7::UBERON:0002298
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C71.8
     label: Overlapping lesion of brain
@@ -1842,6 +2032,7 @@
   examples:
   - Primary Tumor
   id: pgx:icdot-C71.8::UBERON:0000955
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C71.9
     label: brain, NOS
@@ -1850,10 +2041,11 @@
   examples:
   - Astrocytoma [familial]
   - astrocytoma
-  - astrocytoma [parieto-occipital]
+  - astrocytoma [fronto-temporal]
   - oligoastrocytoma [familial]
   - oligodendroglioma [familial]
   id: pgx:icdot-C71.9::UBERON:0000955
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C71
     label: Brain
@@ -1862,6 +2054,7 @@
   examples:
   - Mixed Cancer Types
   id: pgx:icdot-C71::UBERON:0000955
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C72.0
     label: Spinal cord
@@ -1871,9 +2064,10 @@
   - Glioblastoma
   - chordoma [Spinal]
   - ependymoma [cauda equina]
-  - myxopapillary ependymoma [Conus]
+  - ependymoma [spinal cord]
   - myxopapillary ependymoma [cauda equina]
   id: pgx:icdot-C72.0::UBERON:0002240
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C72.2
     label: Olfactory nerve
@@ -1883,6 +2077,7 @@
   - Olfactory neuroblastoma
   - esthesioneuroblastoma
   id: pgx:icdot-C72.2::UBERON:0001579
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C72.3
     label: Optic chiasm
@@ -1892,6 +2087,7 @@
   - Glioblastoma
   - Pilocytic astrocytoma [Optic nerve]
   id: pgx:icdot-C72.3::UBERON:0000959
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C72.9
     label: Nervous system, NOS
@@ -1904,6 +2100,7 @@
   - Neuroblastoma [familial]
   - neuroblastoma
   id: pgx:icdot-C72.9::UBERON:0001016
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C73.9
     label: Thyroid gland
@@ -1914,8 +2111,9 @@
   - sporadic medullary thyroid carcinoma
   - sporadic medullary thyroid carcinoma [metastasis]
   - thyroid carcinoma
-  - thyroid carcinoma [cell line TH15]
+  - thyroid carcinoma [cell line TH1]
   id: pgx:icdot-C73.9::UBERON:0002046
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C74.0
     label: adrenal cortex
@@ -1928,6 +2126,7 @@
   - Adrenocortical tumor [carcinoma, left]
   - Adrenocortical tumor [carcinoma, right]
   id: pgx:icdot-C74.0::UBERON:0001235
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C74.1
     label: Medulla of adrenal gland
@@ -1936,6 +2135,7 @@
   examples:
   - Primary Tumor
   id: pgx:icdot-C74.1::UBERON:0001236
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C74.9
     label: adrenal glands
@@ -1944,34 +2144,37 @@
   examples:
   - Peripheral T-cell lymphoma [Adrenal]
   - Pheochromocytoma [multiple endocrine neoplasia type II]
-  - pheochromocytoma [bilateral, benign, sporadic]
+  - pheochromocytoma [benign, sporadic]
   - pheochromocytoma [malignant, sporadic]
   - pheochromocytoma [von Hippel-Lindau associated]
   id: pgx:icdot-C74.9::UBERON:0002369
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C75.0
     label: parathyroid gland
   - id: UBERON:0001132
     label: parathyroid gland
   examples:
-  - Parathyroid tumor [sporadic]
+  - Parathyroid tumor [lithium associated]
   - adenoma
   - carcinoma
   - parathyroid adenoma
   - parathyroid tumor [multiple, primary hyperparathyroidism]
   id: pgx:icdot-C75.0::UBERON:0001132
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C75.1
     label: pituitary gland
   - id: UBERON:0000007
     label: pituitary gland
   examples:
-  - ptituitary adenoma [Cushing disease, primary]
   - ptituitary adenoma [acromegaly, primary]
   - ptituitary adenoma [endocrinologically inactive, primary]
   - ptituitary adenoma [endocrinologically inactive, recurrent]
   - ptituitary adenoma [prolactinoma, primary]
+  - ptituitary adenoma [thyrotrophinoma, primary]
   id: pgx:icdot-C75.1::UBERON:0000007
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C75.3
     label: pineal gland
@@ -1984,6 +2187,7 @@
   - Pineocytoma
   - pineoblastoma
   id: pgx:icdot-C75.3::UBERON:0034715
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C75.5
     label: Aortic body and other paraganglia
@@ -1995,6 +2199,7 @@
   - Primary Tumor
   - paraganglioma [Benign]
   id: pgx:icdot-C75.5::UBERON:0034978
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C76.0
     label: Head, face or neck, NOS
@@ -2007,6 +2212,7 @@
   - Head and Neck Squamous Cell Carcinoma
   - Primary Tumor
   id: pgx:icdot-C76.0::UBERON:0000033
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C76.1
     label: thorax, NOS
@@ -2018,6 +2224,7 @@
   - leiomyosarcoma
   - pleuropulmonary blastoma
   id: pgx:icdot-C76.1::UBERON:0000915
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C76.2
     label: abdomen, NOS
@@ -2029,6 +2236,7 @@
   - Gastrointestinal stromal tumor, uncertain malignant potential
   - Metastatic
   id: pgx:icdot-C76.2::UBERON:0000916
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C76.3
     label: Pelvis, NOS
@@ -2037,18 +2245,20 @@
   examples:
   - Metastatic
   id: pgx:icdot-C76.3::UBERON:0008203
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C76.9
     label: ill-defined
   - id: UBERON:0001062
     label: anatomical entity
   examples:
+  - ''
   - Colorectal tissue
   - Peripheral blood
+  - choriocarcinoma
   - normal tissue
-  - peripheral blood
-  - remission sample [T-ALL]
   id: pgx:icdot-C76.9::UBERON:0001062
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C77.0
     label: Lymph nodes of head, face and neck
@@ -2058,6 +2268,7 @@
   - Metastatic
   - Primary Tumor
   id: pgx:icdot-C77.0::UBERON:0015870
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C77.1
     label: Intrathoracic lymph nodes
@@ -2066,6 +2277,7 @@
   examples:
   - Primary Tumor
   id: pgx:icdot-C77.1::UBERON:0007644
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C77.2
     label: Intra-abdominal lymph nodes
@@ -2075,6 +2287,7 @@
   - Metastatic
   - Primary Tumor
   id: pgx:icdot-C77.2::UBERON:0002507
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C77.3
     label: Lymph nodes of axilla or arm
@@ -2084,6 +2297,7 @@
   - Metastatic
   - Primary Tumor
   id: pgx:icdot-C77.3::UBERON:0016399
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C77.4
     label: Lymph nodes of inguinal region or leg
@@ -2093,6 +2307,7 @@
   - Metastatic
   - Primary Tumor
   id: pgx:icdot-C77.4::UBERON:0001542
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C77.5
     label: Pelvic lymph nodes
@@ -2102,18 +2317,20 @@
   - Metastatic
   - Primary Tumor
   id: pgx:icdot-C77.5::UBERON:0015876
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C77.9
     label: Lymph nodes, NOS
   - id: UBERON:0000029
     label: lymph node
   examples:
+  - Diffuse large B-cell lymphoma
   - Diffuse large B-cell lymphoma, NOS
+  - Follicular lymphoma
   - Mantle cell lymphoma
-  - Marginal Zone B-cell Lymphoma [LN]
-  - Marginal Zone B-cell Lymphoma [Soft tissue, LN]
   - follicular lymphoma [large cell]
   id: pgx:icdot-C77.9::UBERON:0000029
+  note: progenetix
 - code_group:
   - id: pgx:icdot-C80.9
     label: Unknown primary site
@@ -2126,3 +2343,4 @@
   - Solid Tissue Normal
   - Teratoma
   id: pgx:icdot-C80.9::UBERON:0001062
+  note: progenetix

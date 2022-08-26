@@ -1,0 +1,297 @@
+pgx:cohort-celllines	NCIT:C102872	Pharyngeal squamous cell carcinoma	pgx:icdom-80703	Squamous cell carcinoma, NOS	pgx:icdot-C11.9	Nasopharynx	C13;Carcinoma
+pgx:cohort-celllines	NCIT:C105555	High grade ovarian serous adenocarcinoma	pgx:icdom-84413	Serous adenocarcinoma	pgx:icdot-C56.9	Ovary, NOS	Adenocarcinoma;C56
+pgx:cohort-celllines	NCIT:C114656	Endometrial adenosquamous carcinoma	pgx:icdom-85603	Adenosquamous carcinoma	pgx:icdot-C54.1	Endometrium	C55;Carcinoma
+pgx:cohort-celllines	NCIT:C129857	Gingival squamous cell carcinoma	pgx:icdom-80703	Squamous cell carcinoma, NOS	pgx:icdot-C03.9	Gum, NOS	Mixed Cancer Types
+pgx:cohort-celllines	NCIT:C132256	Unspecified Tissue	pgx:icdom-00000	not in ICD-O (e.g. non-neoplastic, reference)	pgx:icdot-C10.9	Oropharynx	transformed cell line SVpgC2a-FOXM1B
+pgx:cohort-celllines	NCIT:C132256	Unspecified Tissue	pgx:icdom-00000	not in ICD-O (e.g. non-neoplastic, reference)	pgx:icdot-C11.9	nasopharynx	hybrid cell line CNE-1
+pgx:cohort-celllines	NCIT:C132256	Unspecified Tissue	pgx:icdom-00000	not in ICD-O (e.g. non-neoplastic, reference)	pgx:icdot-C34.9	lung and bronchus	Lung [cell line WI-38]
+pgx:cohort-celllines	NCIT:C132256	Unspecified Tissue	pgx:icdom-00000	not in ICD-O (e.g. non-neoplastic, reference)	pgx:icdot-C42.4	Hematopoietic system, NOS	normal blood [cell line HCC1143 BL]
+pgx:cohort-celllines	NCIT:C132256	Unspecified Tissue	pgx:icdom-00000	not in ICD-O (e.g. non-neoplastic, reference)	pgx:icdot-C44.9	Skin, NOS	transformed cell line LAU-Me246.M1-LCL
+pgx:cohort-celllines	NCIT:C132256	Unspecified Tissue	pgx:icdom-00000	not in ICD-O (e.g. non-neoplastic, reference)	pgx:icdot-C49.9	connective and soft tissue, nos	Transformed cell line UE6E7T-2
+pgx:cohort-celllines	NCIT:C132256	Unspecified Tissue	pgx:icdom-00000	not in ICD-O (e.g. non-neoplastic, reference)	pgx:icdot-C50.9	Breast, NOS	Transformed cell line 184A1
+pgx:cohort-celllines	NCIT:C132256	Unspecified Tissue	pgx:icdom-00000	not in ICD-O (e.g. non-neoplastic, reference)	pgx:icdot-C61.9	Prostate gland	transformed cell line CA-HPV-10
+pgx:cohort-celllines	NCIT:C132256	Unspecified Tissue	pgx:icdom-00000	not in ICD-O (e.g. non-neoplastic, reference)	pgx:icdot-C64.9	kidney	transformed cell line CCD-1103 KIDTr
+pgx:cohort-celllines	NCIT:C132256	Unspecified Tissue	pgx:icdom-00000	not in ICD-O (e.g. non-neoplastic, reference)	pgx:icdot-C73.9	thyroid gland	transformed cell line Nthy-ori 3-1
+pgx:cohort-celllines	NCIT:C132256	Unspecified Tissue	pgx:icdom-00000	not in ICD-O (e.g. non-neoplastic, reference)	pgx:icdot-C76.9	ill-defined	referernce [lymphoblastoid cell line HCC1395BL]
+pgx:cohort-celllines	NCIT:C159209	Kidney Leiomyoma	pgx:icdom-88910	Epithelioid leiomyoma	pgx:icdot-C64.9	kidney	leiomyoblastoma [cell line G-402]
+pgx:cohort-celllines	NCIT:C27243	High Risk Gastrointestinal Stromal Tumor	pgx:icdom-89363	Gastrointestinal stromal sarcoma	pgx:icdot-C16.9	stomach	gastrointestinal stromal tumor [cell line GIST430]
+pgx:cohort-celllines	NCIT:C27676	Human papillomavirus-related cervical squamous cell carcinoma	pgx:icdom-80703	Squamous cell carcinoma, NOS	pgx:icdot-C53.9	Cervix uteri	C53;Carcinoma
+pgx:cohort-celllines	NCIT:C27688	Hepatitis C Virus-Related Hepatocellular Carcinoma	pgx:icdom-81703	Hepatocellular carcinoma, NOS	pgx:icdot-C22.0	Liver	Mixed Cancer Types
+pgx:cohort-celllines	NCIT:C27694	EBV-related Burkitt lymphoma	pgx:icdom-96873	Burkitt lymphoma, NOS	pgx:icdot-C42.4	Hematopoietic system, NOS	C06;Burkitt Lymphoma
+pgx:cohort-celllines	NCIT:C27753	Acute Myeloid Leukemia Not Otherwise Specified	pgx:icdom-98613	Acute myeloid leukemia, NOS	pgx:icdot-C42.1	Bone marrow	Acute myeloid leukemia [Eos-HL-60]
+pgx:cohort-celllines	NCIT:C27893	Sarcomatoid Renal Cell Carcinoma	pgx:icdom-83183	Renal cell carcinoma, sarcomatoid	pgx:icdot-C64.9	kidney	clear cell renal carcinoma [cell line TK-10]
+pgx:cohort-celllines	NCIT:C27912	Therapy-Related Myeloid Neoplasm	pgx:icdom-99203	acute myeloid leukemia	pgx:icdot-C42.1	Bone marrow	Therapy related myeloid neoplasm [cell line OHN-GM]
+pgx:cohort-celllines	NCIT:C2855	Adenoma	pgx:icdom-83800	Endometroid adenoma, NOS	pgx:icdot-C56.9	ovary	Ovarian endometrioid adenocarcinoma [cell line A2780]
+pgx:cohort-celllines	NCIT:C2897	Benign prostatic hyperplasia	pgx:icdom-00000	not in ICD-O (e.g. non-neoplastic, reference)	pgx:icdot-C76.9	ill-defined	benign prostate hyperplasia [cell line BPH-1]
+pgx:cohort-celllines	NCIT:C2897	Benign prostatic hyperplasia	pgx:icdom-72000	Hyperplasia, NOS	pgx:icdot-C61.9	Prostate	Hyperplasia;C61
+pgx:cohort-celllines	NCIT:C2912	Burkitt Lymphoma	pgx:icdom-96873	Burkitt lymphoma, NOS	pgx:icdot-C42.4	Hematopoietic system, NOS	Burkitt Lymphoma [cell line BJAB]
+pgx:cohort-celllines	NCIT:C2912	Burkitt Lymphoma	pgx:icdom-96873	Burkitt lymphoma, NOS	pgx:icdot-C77.9	lymph nodes	Burkitt Lymphoma [cell line BJAB]
+pgx:cohort-celllines	NCIT:C2919	Prostate Adenocarcinoma	pgx:icdom-81403	Adenocarcinoma, NOS	pgx:icdot-C61.9	Prostate gland	prostate adenocarcinoma [cell line LNCaP]
+pgx:cohort-celllines	NCIT:C2923	Minimally invasive lung adenocarcinoma	pgx:icdom-82503	Bronchiolo-alveolar adenocarcinoma, NOS	pgx:icdot-C34.9	Lung and bronchus	C34;Carcinoma
+pgx:cohort-celllines	NCIT:C2923	Bronchioloalveolar carcinoma	pgx:icdom-82513	Alveolar adenocarcinoma	pgx:icdot-C34.9	lung and bronchus	Bronchioalveolar carcinoma [cell line NCI-H1650]
+pgx:cohort-celllines	NCIT:C2926	Lung Non-Small Cell Carcinoma	pgx:icdom-80463	Non-small cell carcinoma	pgx:icdot-C34.9	lung and bronchus	Large cell lung carcinoma [cell line NCI-H157]
+pgx:cohort-celllines	NCIT:C2929	Squamous Cell Carcinoma	pgx:icdom-80703	Squamous cell carcinoma, NOS	pgx:icdot-C61.9	Prostate gland	cervix squamous cell carcinoma [cell line ME-180]
+pgx:cohort-celllines	NCIT:C2946	Chondrosarcoma	pgx:icdom-92203	Chondrosarcoma, NOS	pgx:icdot-C40.0	bones and joints	chondrosarcoma [cell line H-EMC-SS]
+pgx:cohort-celllines	NCIT:C2946	Chondrosarcoma	pgx:icdom-92203	Chondrosarcoma, NOS	pgx:icdot-C41.9	Bone, NOS	Mixed Cancer Types
+pgx:cohort-celllines	NCIT:C2955	Colorectal carcinoma	pgx:icdom-80103	Carcinoma	pgx:icdot-C18.9	Colon, NOS	Mixed Cancer Types
+pgx:cohort-celllines	NCIT:C2996	Dysgerminoma	pgx:icdom-90603	Dysgerminoma	pgx:icdot-C56.9	ovary	Ovarian dysgerminoma [cell line OCI-D1p]
+pgx:cohort-celllines	NCIT:C3043	Fibrosarcoma	pgx:icdom-88103	Fibrosarcoma, NOS	pgx:icdot-C49.9	connective and soft tissue, nos	Fibrosarcoma [cell line A-204]
+pgx:cohort-celllines	NCIT:C3058	Glioblastoma	pgx:icdom-94403	Glioblastoma	pgx:icdot-C71.9	Brain, NOS	glioblastoma [cell line 42-MG-BA]
+pgx:cohort-celllines	NCIT:C3059	Glioma	pgx:icdom-93803	Glioma, malignant	pgx:icdot-C71.9	Brain, NOS	Malignant glioma [cell line U3017MG]
+pgx:cohort-celllines	NCIT:C3088	Angiosarcoma	pgx:icdom-91303	Hemangioendothelioma, malignant	pgx:icdot-C22.9	liver	Epithelioid hemangioendothelioma [cell line LI90]
+pgx:cohort-celllines	NCIT:C3099	Hepatocellular Carcinoma	pgx:icdom-81703	Hepatocellular carcinoma, NOS	pgx:icdot-C22.9	liver	hepatocellular carcinoma [cell line Hep 3B2.1-7]
+pgx:cohort-celllines	NCIT:C3153	Krukenberg tumor	pgx:icdom-84903	Metastatic signet ring cell carcinoma	pgx:icdot-C56.9	ovary	Krukenberg tumor [cell line KS-1]
+pgx:cohort-celllines	NCIT:C3158	Leiomyosarcoma	pgx:icdom-88903	Leiomyosarcoma, NOS	pgx:icdot-C49.9	connective and soft tissue, NOS	Leiomyosarcoma [cell line LMS05]
+pgx:cohort-celllines	NCIT:C3163	Chronic lymphocytic leukemia	pgx:icdom-98233	B-cell lymphocytic leukemia/small lymphocytic lymphoma	pgx:icdot-C42.4	Hematopoietic system, NOS	C42;Chronic Lymphocytic Leukemia
+pgx:cohort-celllines	NCIT:C3167	Acute Lymphoblastic Leukemia	pgx:icdom-98353	Precursor cell lymphoblastic leukemia, NOS	pgx:icdot-C42.1	Bone marrow	Acute lymphoblastic leukemia [cell line CCRF-CEM]
+pgx:cohort-celllines	NCIT:C3170	Acute Megakaryoblastic Leukemia	pgx:icdom-99103	Acute megakaryoblastic leukaemia	pgx:icdot-C42.1	Bone marrow	Acute megakaryoblastic leukemia [cell line UoC-M1]
+pgx:cohort-celllines	NCIT:C3171	Acute myeloid leukemia	pgx:icdom-98613	Acute myeloid leukemia, NOS	pgx:icdot-C42.1	Bone marrow	Acute Myeloid Leukemia;C42
+pgx:cohort-celllines	NCIT:C3172	Myeloid Leukemia	pgx:icdom-98603	Myeloid leukemia, NOS	pgx:icdot-C42.1	Bone marrow	acute monocytic leukemia [cell line NOMO-1/ADM]
+pgx:cohort-celllines	NCIT:C3174	Chronic Myelogenous Leukemia, BCR-ABL1 Positive	pgx:icdom-98633	Chronic myeloid leukemia, NOS	pgx:icdot-C42.1	Bone marrow	C42;Blast Phase Chronic Myelogenous Leukemia
+pgx:cohort-celllines	NCIT:C3174	Chronic Myelogenous Leukemia, BCR-ABL1 Positive	pgx:icdom-98753	Chronic myelogenous leukemia, BCR-ABL positive	pgx:icdot-C42.1	Bone marrow	Chronic myelogenous leukemia [cell line K-562]
+pgx:cohort-celllines	NCIT:C3182	Acute promyelocytic leukemia with PML-RARA	pgx:icdom-98663	Acute promyelocytic leukemia	pgx:icdot-C42.1	Bone marrow	Mixed Cancer Types
+pgx:cohort-celllines	NCIT:C3183	T Acute Lymphoblastic Leukemia	pgx:icdom-98373	Precursor T-cell lymphoblastic leukemia	pgx:icdot-C42.1	Bone marrow	T acute lymphoblastic leukemia [Jurkat E6.1]
+pgx:cohort-celllines	NCIT:C3194	Liposarcoma	pgx:icdom-88503	Liposarcoma, NOS	pgx:icdot-C49.9	connective and soft tissue, nos	C49;Liposarcoma
+pgx:cohort-celllines	NCIT:C3209	Follicular Lymphoma	pgx:icdom-96903	Follicular lymphoma, NOS	pgx:icdot-C77.9	lymph nodes	Follicular lymphoma [cell line SC-1]
+pgx:cohort-celllines	NCIT:C3211	Non-Hodgkin Lymphoma	pgx:icdom-95913	Malignant lymphoma, B-cell NOS	pgx:icdot-C42.4	Hematopoietic system, NOS	B acute lymphoblastic leukemia [cell line 380]
+pgx:cohort-celllines	NCIT:C3211	Non-Hodgkin Lymphoma	pgx:icdom-95913	Malignant lymphoma, B-cell NOS	pgx:icdot-C77.9	lymph nodes	B-cell non-Hodgkin lymphoma [cell line SCC-3]
+pgx:cohort-celllines	NCIT:C3222	Medulloblastoma	pgx:icdom-94703	Medulloblastoma, NOS	pgx:icdot-C71.6	cerebellum	medulloblastoma [cell line D283 Med]
+pgx:cohort-celllines	NCIT:C3224	Melanoma	pgx:icdom-87203	Malignant melanoma	pgx:icdot-C44.9	Skin, NOS	Melanoma;C44
+pgx:cohort-celllines	NCIT:C3224	Melanoma	pgx:icdom-87203	Malignant melanoma, NOS	pgx:icdot-C76.9	ill-defined	malignant melanoma [cell line CaCL 73-36]
+pgx:cohort-celllines	NCIT:C3230	Meningioma	pgx:icdom-95300	Meningioma, NOS	pgx:icdot-C70.9	Meninges, NOS	Mixed Cancer Types
+pgx:cohort-celllines	NCIT:C3234	Mesothelioma	pgx:icdom-90503	Mesothelioma, malignant	pgx:icdot-C34.9	lung and bronchus	mesothelioma [cell line NCI-H226]
+pgx:cohort-celllines	NCIT:C3242	Plasma Cell Myeloma	pgx:icdom-97323	Multiple myeloma	pgx:icdot-C42.1	Bone marrow	Plasma cell myeloma [cell line KMS-12-PE]
+pgx:cohort-celllines	NCIT:C3247	Myelodysplastic Syndrome	pgx:icdom-99893	Myelodysplastic syndrome, NOS	pgx:icdot-C42.1	Bone marrow	Mixed Cancer Types
+pgx:cohort-celllines	NCIT:C3270	Neuroblastoma	pgx:icdom-95003	Neuroblastoma, NOS	pgx:icdot-C34.9	lung and bronchus	Neuroblastoma [cell line STA-NB-10/dmin]
+pgx:cohort-celllines	NCIT:C3270	Neuroblastoma	pgx:icdom-95003	Neuroblastoma, NOS	pgx:icdot-C40.0	bones and joints	Neuroblastoma [cell line CHP100]
+pgx:cohort-celllines	NCIT:C3270	Neuroblastoma	pgx:icdom-95003	Neuroblastoma, NOS	pgx:icdot-C47.4	autonomic nervous system	C71;neuroblastoma
+pgx:cohort-celllines	NCIT:C3270	Neuroblastoma	pgx:icdom-95003	Neuroblastoma, NOS	pgx:icdot-C47.9	peripheral nervs incl. autonomous	Neuroblastoma [cell line CHP-134]
+pgx:cohort-celllines	NCIT:C3270	Neuroblastoma	pgx:icdom-95003	Neuroblastoma, NOS	pgx:icdot-C71.9	Brain, NOS	Neuroblastoma [cell line CLB-Ma]
+pgx:cohort-celllines	NCIT:C3270	Neuroblastoma	pgx:icdom-95003	Neuroblastoma, NOS	pgx:icdot-C76.9	adrenal gland	neuroblastoma [cell line NB(TU)1]
+pgx:cohort-celllines	NCIT:C3288	Oligodendroglioma	pgx:icdom-94503	Glioblastoma, NOS	pgx:icdot-C71.9	Brain, NOS	Mixed Cancer Types
+pgx:cohort-celllines	NCIT:C3359	Rhabdomyosarcoma	pgx:icdom-89003	Rhabdomyosarcoma, NOS	pgx:icdot-C49.9	connective and soft tissue, nos	Alveolar rhabdomyosarcoma [cell line Rh18c]
+pgx:cohort-celllines	NCIT:C34447	Head and neck squamous cell carcinoma	pgx:icdom-80703	Squamous cell carcinoma, NOS	pgx:icdot-C76.0	Head, face or neck, NOS	
+pgx:cohort-celllines	NCIT:C34447	Head and neck squamous cell carcinoma	pgx:icdom-80753	Squamous cell carcinoma	pgx:icdot-C49.0	Head, neck	Mixed Cancer Types
+pgx:cohort-celllines	NCIT:C34448	Carcinosarcoma	pgx:icdom-89803	Carcinosarcoma, NOS	pgx:icdot-C56.9	ovary	Ovarian carcinosarcoma [cell line OCI-U1a]
+pgx:cohort-celllines	NCIT:C3457	B-cell non-Hodgkin lymphoma	pgx:icdom-95913	Non-Hodgkin lymphoma, NOS	pgx:icdot-C77.9	Lymph nodes, NOS	B-Cell Neoplasm;C42
+pgx:cohort-celllines	NCIT:C3467	Primary cutaneous T-cell non-Hodgkin lymphoma	pgx:icdom-97093	Cutaneous T-cell lymphoma, NOS	pgx:icdot-C44.9	Skin, NOS	C42;T-Cell Lymphoma
+pgx:cohort-celllines	NCIT:C3468	Mature T-Cell and NK-Cell Non-Hodgkin Lymphoma	pgx:icdom-97143	Anaplastic large cell lymphoma, T cell and Null cell type	pgx:icdot-C42.4	Hematopoietic system, NOS	Anaplastic large cell lymphoma [cell line FE-PD]
+pgx:cohort-celllines	NCIT:C3486	Epithelioid cell type gastrointestinal stromal tumor	pgx:icdom-89363	Gastrointestinal stromal tumor, NOS	pgx:icdot-C16.9	Stomach	C64;Leiomyoblastoma
+pgx:cohort-celllines	NCIT:C3493	Squamous Cell Lung Carcinoma	pgx:icdom-80703	Squamous cell carcinoma, NOS	pgx:icdot-C34.9	lung and bronchus	Squamous cell lung carcinoma [cell line NCI-H520]
+pgx:cohort-celllines	NCIT:C3510	Cutaneous Melanoma	pgx:icdom-87203	Malignant melanoma, NOS	pgx:icdot-C44.9	Skin, NOS	malignant melanoma [cell line 1205Lu]
+pgx:cohort-celllines	NCIT:C3512	Lung Adenocarcinoma	pgx:icdom-81403	Adenocarcinoma, NOS	pgx:icdot-C34.9	lung and bronchus	Lung adenocarcinoma [cell line HCC1171]
+pgx:cohort-celllines	NCIT:C3513	Esophageal Carcinoma	pgx:icdom-80103	Carcinoma, NOS	pgx:icdot-C15.9	esophagus	Barret adenocarcinoma [cell line OE33]
+pgx:cohort-celllines	NCIT:C35417	Intrahepatic Cholangiocarcinoma	pgx:icdom-81603	Cholangiocarcinoma	pgx:icdot-C22.1	Intrahepatic bile duct	Intrahepatic cholangiocarcinoma [cell line HuCC-T1]
+pgx:cohort-celllines	NCIT:C35875	Bronchogenic carcinoma	pgx:icdom-80103	Carcinoma, NOS	pgx:icdot-C34.9	Bronchogenic 	Mixed Cancer Types
+pgx:cohort-celllines	NCIT:C36077	Hilar cholangiocarcinoma	pgx:icdom-81623	Klatskin tumor	pgx:icdot-C22.1	Bile duct	Mixed Cancer Types
+pgx:cohort-celllines	NCIT:C36080	Diffuse large B-cell lymphoma germinal center B-cell type	pgx:icdom-96803	Malignant lymphoma, large B-cell, diffuse, NOS	pgx:icdot-C42.1	Bone marrow	B-Cell Neoplasm;C42
+pgx:cohort-celllines	NCIT:C36081	Diffuse large B-cell lymphoma activated B-cell type	pgx:icdom-96803	Malignant lymphoma, large B-cell, diffuse, NOS	pgx:icdot-C42.1	Bone marrow	Mixed Cancer Types
+pgx:cohort-celllines	NCIT:C3704	Dedifferentiated Liposarcoma	pgx:icdom-88583	Dedifferentiated liposarcoma	pgx:icdot-C49.9	connective and soft tissue, NOS	Dedifferentiated Liposarcoma [cell line DDLS8817]
+pgx:cohort-celllines	NCIT:C3712	Squamous cell papilloma	pgx:icdom-80523	Squamous cell papilloma, NOS	pgx:icdot-C80.9	Unknown primary site	Mixed Cancer Types
+pgx:cohort-celllines	NCIT:C3716	Primitive neuroectodermal tumor	pgx:icdom-94733	CNS primitive neuroectodermal tumor (PNET)	pgx:icdot-C71	Brain	Mixed Cancer Types
+pgx:cohort-celllines	NCIT:C37193	Anaplastic Large Cell Lymphoma, ALK-Positive	pgx:icdom-97143	Anaplastic large cell lymphoma, ALK positive	pgx:icdot-C77.9	Lymph nodes, NOS	C42;Lymphoma
+pgx:cohort-celllines	NCIT:C3720	Anaplastic Large Cell Lymphoma	pgx:icdom-97143	Anaplastic large cell lymphoma, T cell and Null cell type	pgx:icdot-C77.9	lymph nodes	Anaplastic large cell lymphoma [cell line SR]
+pgx:cohort-celllines	NCIT:C3728	Hepatoblastoma	pgx:icdom-89703	hepatoblastoma	pgx:icdot-C22.0	Liver	C22;Carcinoma
+pgx:cohort-celllines	NCIT:C37290	Head and neck basaloid carcinoma	pgx:icdom-81233	Basaloid carcinoma	pgx:icdot-C80.9	Unknown primary site	Mixed Cancer Types
+pgx:cohort-celllines	NCIT:C3749	Alveolar rhabdomyosarcoma	pgx:icdom-89203	Alveolar rhabdomyosarcoma	pgx:icdot-C34.9	Lung and bronchus, NOS	C49;Rhabdomyosarcoma
+pgx:cohort-celllines	NCIT:C3749	Alveolar Rhabdomyosarcoma	pgx:icdom-89203	Alveolar Rhabdomyosarcoma, NOS	pgx:icdot-C49.9	connective and soft tissue, NOS	Alveolar rhabdomyosarcoma [cell line KYM-1]
+pgx:cohort-celllines	NCIT:C3756	Mixed Embryonal Carcinoma and Teratoma	pgx:icdom-90813	Teratocarcinoma	pgx:icdot-C56.9	ovary	Ovarian germ cell tumor [cell line PA-1]
+pgx:cohort-celllines	NCIT:C3769	Endometrioid Adenocarcinoma	pgx:icdom-83803	Endometrioid adenocarcinoma, NOS	pgx:icdot-C56.9	ovary	Ovarian endometrioid adenocarcinoma [cell line A2780]
+pgx:cohort-celllines	NCIT:C3769	Endometrioid Adenocarcinoma	pgx:icdom-83823	Endometrioid adenocarcinoma, secretory variant	pgx:icdot-C55.9	uterus, nos	Endometrial adenocarcinoma [cell line HEC-1]
+pgx:cohort-celllines	NCIT:C3771	Lobular Breast Carcinoma	pgx:icdom-85203	Lobular carcinoma, NOS	pgx:icdot-C50.9	Breast, NOS	Invasive lobular breast carcinoma [cell line SUM44PE]
+pgx:cohort-celllines	NCIT:C3792	Squamous Cell Neoplasm	pgx:icdom-80701	Premalignant squamous epithelium, NOS	pgx:icdot-C06.9	mouth, NOS	Oral dysplasia [cell line DOK]
+pgx:cohort-celllines	NCIT:C3796	Gliosarcoma	pgx:icdom-94423	Gliosarcoma	pgx:icdot-C71.9	Brain, NOS	Gliosarcoma  [cell line  SF-539]
+pgx:cohort-celllines	NCIT:C3802	Amelanotic Melanoma	pgx:icdom-87303	Amelanotic melanoma	pgx:icdot-C44.9	Skin, NOS	Amelanotic melanoma [cell line LOXIMVI]
+pgx:cohort-celllines	NCIT:C3812	Carcinoma of Unknown Primary	pgx:icdom-80103	Carcinoma, NOS	pgx:icdot-C80.9	Unknown primary site	Mixed Cancer Types
+pgx:cohort-celllines	NCIT:C3844	Gallbladder carcinoma	pgx:icdom-81403	Adenocarcinoma, NOS	pgx:icdot-C23.9	gallbladder	Mixed Cancer Types
+pgx:cohort-celllines	NCIT:C3850	Pancreatic carcinoma	pgx:icdom-80103	Carcinoma, NOS	pgx:icdot-C25.9	pancreas	C25;Carcinoma
+pgx:cohort-celllines	NCIT:C3871	Nasopharyngeal carcinoma	pgx:icdom-80723	Squamous cell carcinoma, large cell, nonkeratinizing, NOS	pgx:icdot-C11.9	nasopharynx	Nasopharyngeal carcinoma [cell line 5-8F]
+pgx:cohort-celllines	NCIT:C3878	Thyroid Gland Anaplastic Carcinoma	pgx:icdom-80213	Carcinoma, anaplastic, NOS	pgx:icdot-C73.9	thyroid gland	C73;Carcinoma
+pgx:cohort-celllines	NCIT:C39851	Bladder Urothelial Carcinoma	pgx:icdom-81203	Transitional cell carcinoma, NOS	pgx:icdot-C67.0	Urinary bladder	bladder carcinoma [cell line 5637]
+pgx:cohort-celllines	NCIT:C4001	Inflammatory breast carcinoma	pgx:icdom-85303	Inflammatory carcinoma	pgx:icdot-C50.9	Breast, NOS	Inflammatory breast carcinoma [cell line SUM149PT]
+pgx:cohort-celllines	NCIT:C4004	Gastric Adenocarcinoma	pgx:icdom-81403	Adenocarcinoma, NOS	pgx:icdot-C16.9	stomach	Gastric adenocarcinoma [cell line Hs 746T]
+pgx:cohort-celllines	NCIT:C40078	Ovarian Clear Cell Adenocarcinoma	pgx:icdom-83103	Clear cell adenocarcinoma, NOS	pgx:icdot-C56.9	ovary	ovarian carcinoma [cell line RMG-I]
+pgx:cohort-celllines	NCIT:C4017	Ductal Breast Carcinoma	pgx:icdom-85003	Infiltrating duct carcinoma, NOS	pgx:icdot-C50.9	Breast, NOS	Squamous cell breast carcinoma [cell line HCC1806]
+pgx:cohort-celllines	NCIT:C4022	Acral lentiginous melanoma	pgx:icdom-87443	Acral Lentiginous Melanoma 	pgx:icdot-C44.9	Skin, NOS	Acral lentiginous melanoma [cell line WM3211]
+pgx:cohort-celllines	NCIT:C4024	Esophageal Squamous Cell Carcinoma	pgx:icdom-80703	Squamous cell carcinoma, NOS	pgx:icdot-C15.9	esophagus	esophageal squamous cell carcinoma [cell line TE-1]
+pgx:cohort-celllines	NCIT:C4025	Esophageal Adenocarcinoma	pgx:icdom-81403	Adenocarcinoma, NOS	pgx:icdot-C15.9	esophagus	C15;Esophageal Carcinoma
+pgx:cohort-celllines	NCIT:C4026	Ovarian Mucinous Cystadenocarcinoma	pgx:icdom-84703	Mucinous Cystadenocarcinoma, NOS	pgx:icdot-C56.9	ovary	Mixed Cancer Types
+pgx:cohort-celllines	NCIT:C4028	Cervical Squamous Cell Carcinoma, Not Otherwise Specified	pgx:icdom-80703	Squamous cell carcinoma, NOS	pgx:icdot-C53.9	cervix uteri	cervix squamous carcinoma [cell line C-4-I]
+pgx:cohort-celllines	NCIT:C4029	Cervical Adenocarcinoma	pgx:icdom-81403	Adenocarcinoma, NOS	pgx:icdot-C53.9	cervix uteri	Cervix adenocarcinoma [cell line HeLa]
+pgx:cohort-celllines	NCIT:C40318	Vulvar leiomyosarcoma	pgx:icdom-88903	Leiomyosarcoma,NOS	pgx:icdot-C51.9	Vulva	C49;Sarcoma
+pgx:cohort-celllines	NCIT:C4031	Bladder squamous cell carcinoma	pgx:icdom-80703	Squamous cell carcinoma, NOS	pgx:icdot-C67.0	Urinary bladder	Mixed Cancer Types
+pgx:cohort-celllines	NCIT:C4033	Clear Cell Renal Cell Carcinoma	pgx:icdom-83103	Clear cell adenocarcinoma, NOS	pgx:icdot-C64.9	kidney	Clear cell renal carcinoma [cell line Caki-1]
+pgx:cohort-celllines	NCIT:C40359	Squamous cell breast carcinoma, acantholytic variant	pgx:icdom-80753	Acantholytic squamous cell carcinoma	pgx:icdot-C50.9	Breast, NOS	Mixed Cancer Types
+pgx:cohort-celllines	NCIT:C4035	Thyroid Gland Papillary Carcinoma	pgx:icdom-82603	Papillary adenocarcinoma, NOS	pgx:icdot-C73.9	thyroid gland	papillary thyroid carcinoma [cell line IHH-4]
+pgx:cohort-celllines	NCIT:C4038	Lung carcinoid tumor	pgx:icdom-82403	Carcinoid tumor, NOS	pgx:icdot-C34.9	Lung and bronchus	C34;Lung Atypical Carcinoid Tumor
+pgx:cohort-celllines	NCIT:C4041	Floor of Mouth Squamous Cell Carcinoma	pgx:icdom-80703	Squamous cell carcinoma, NOS	pgx:icdot-C04.9	floor of mouth	
+pgx:cohort-celllines	NCIT:C4043	Hypopharyngeal squamous cell carcinoma	pgx:icdom-80703	Squamous cell carcinoma	pgx:icdot-C13	Hypopharynx	C13;Carcinoma
+pgx:cohort-celllines	NCIT:C4043	Hypopharyngeal squamous cell carcinoma	pgx:icdom-80703	Squamous cell carcinoma, NOS	pgx:icdot-C13.9	Hypopharynx, NOS	
+pgx:cohort-celllines	NCIT:C4044	Laryngeal Squamous Cell Carcinoma	pgx:icdom-80703	Squamous cell carcinoma, NOS	pgx:icdot-C32.9	Larynx, NOS	
+pgx:cohort-celllines	NCIT:C4047	Pilocytic astrocytoma	pgx:icdom-94211	Pilocytic astrocytoma	pgx:icdot-C71.9	Brain, NOS	pilocytic astrocytoma
+pgx:cohort-celllines	NCIT:C4052	Vulvar squamous cell carcinoma	pgx:icdom-80703	Squamous cell carcinoma, NOS	pgx:icdot-C51.9	Vulva, NOS	C51;Carcinoma
+pgx:cohort-celllines	NCIT:C4190	Intraductal Papillary Breast Carcinoma	pgx:icdom-85032	Noninfiltrating intraductal papillary adenocarcinoma	pgx:icdot-C50.9	Breast, NOS	breast carcinoma [cell line BT-549]
+pgx:cohort-celllines	NCIT:C4194	Invasive Ductal Carcinoma, Not Otherwise Specified	pgx:icdom-85003	Infiltrating duct carcinoma, NOS	pgx:icdot-C50.9	Breast, NOS	C50;Carcinoma
+pgx:cohort-celllines	NCIT:C4247	Undifferentiated pleomorphic sarcoma	pgx:icdom-88303	Malignant fibrous histiocytoma	pgx:icdot-C49.9	connective and soft tissue, NOS	C49;Sarcoma
+pgx:cohort-celllines	NCIT:C42700	Uterine carcinosarcoma	pgx:icdom-89803	Carcinosarcoma, NOS	pgx:icdot-C55.9	Uterus, NOS	Mixed Cancer Types
+pgx:cohort-celllines	NCIT:C4270	Malignant ovarian Brenner tumor	pgx:icdom-90003	Brenner tumor, malignant	pgx:icdot-C56.9	Ovary, NOS	Mixed Cancer Types
+pgx:cohort-celllines	NCIT:C4277	Spindle Cell Synovial Sarcoma	pgx:icdom-90413	Synovial sarcoma, spindle cell	pgx:icdot-C49.9	connective and soft tissue, NOS	Monophasic synovial sarcoma [cell line HS-SY-2]
+pgx:cohort-celllines	NCIT:C4279	Biphasic synovial sarcoma	pgx:icdom-90433	Synovial sarcoma, biphasic	pgx:icdot-C49.9	connective and soft tissue, NOS	Biphasic synovial sarcoma [cell line SYO-1]
+pgx:cohort-celllines	NCIT:C4286	Immature Teratoma	pgx:icdom-90803	Teratoma, malignant. NOS	pgx:icdot-C62.9	testis	testicular teratoma [cell line GCT 27]
+pgx:cohort-celllines	NCIT:C4304	Malignancy in giant cell tumor of bone	pgx:icdom-92503	Giant cell tumor of bone, malignant	pgx:icdot-C41.9	Bone, NOS	Mixed Cancer Types
+pgx:cohort-celllines	NCIT:C43223	Myeloid Leukemia associated with Down syndrome	pgx:icdom-98983	Myeloid leukemia associated with Down syndrome	pgx:icdot-C42.1	Bone marrow	C16;Carcinoma
+pgx:cohort-celllines	NCIT:C4337	Mantle Cell Lymphoma	pgx:icdom-96733	Mantle cell lymphoma	pgx:icdot-C77.9	lymph nodes	Mantle cell lymphoma [cell line JVM-2]
+pgx:cohort-celllines	NCIT:C4341	Marginal Zone Lymphoma	pgx:icdom-96993	Marginal zone B-cell lymphoma, NOS	pgx:icdot-C42.4	Hematopoietic system, NOS	Marginal zone lymphoma [cell line SSK41]
+pgx:cohort-celllines	NCIT:C4349	Colon Adenocarcinoma	pgx:icdom-81403	Adenocarcinoma, NOS	pgx:icdot-C18.9	Colon, NOS	Colon carcinoma [cell line HCT 116]
+pgx:cohort-celllines	NCIT:C4436	Cholangiocarcinoma	pgx:icdom-81603	Cholangiocarcinoma	pgx:icdot-C24.9	Extrahepatic and unspecified bile ducts	Mixed Cancer Types
+pgx:cohort-celllines	NCIT:C4450	Large cell lung carcinoma	pgx:icdom-80123	Large cell carcinoma, NOS	pgx:icdot-C34.9	lung and bronchus	Large cell lung carcinoma [cell line LCLC-97TMI]
+pgx:cohort-celllines	NCIT:C4452	Lung giant cell carcinoma	pgx:icdom-80313	Giant cell carcinoma	pgx:icdot-C34.9	lung and bronchus	Lung giant cell carcinoma [cell line HCC1359]
+pgx:cohort-celllines	NCIT:C4456	Malignant Mesothelioma	pgx:icdom-90503	Mesothelioma, malignant	pgx:icdot-C34.9	lung and bronchus	Pleural biphasic mesothelioma [cell line MSTO-211H]
+pgx:cohort-celllines	NCIT:C4456	Malignant Mesothelioma	pgx:icdom-90503	Mesothelioma, malignant	pgx:icdot-C49.9	connective and soft tissue, NOS	Pleural malignant mesothelioma [cell line GAY2911]
+pgx:cohort-celllines	NCIT:C4519	Cervical adenosquamous carcinoma	pgx:icdom-85603	Adenosquamous carcinoma	pgx:icdot-C53.9	cervix uteri	Cervical adenosquamous carcinoma [cell line CC-10A]
+pgx:cohort-celllines	NCIT:C45544	Lung mucoepidermoid carcinoma	pgx:icdom-84303	Mucoepidermoid carcinoma	pgx:icdot-C34.9	lung and bronchus	Lung mucoepidermoid carcinoma [cell line EPLC-272H]
+pgx:cohort-celllines	NCIT:C4563	Chronic eosinophilic leukemia, not otherwise specified	pgx:icdom-99643	Chronic eosinophilic leukemia, NOS	pgx:icdot-C42.4	Hematopoietic system, NOS	Mixed Cancer Types
+pgx:cohort-celllines	NCIT:C45655	Sarcomatoid Mesothelioma	pgx:icdom-90513	Fibrous mesothelioma, malignant	pgx:icdot-C49.9	connective and soft tissue, NOS	Pleural sarcomatoid mesothelioma [cell line NCI-H2373]
+pgx:cohort-celllines	NCIT:C45662	Pleural epithelioid mesothelioma	pgx:icdom-90523	Epithelioid mesothelioma, NOS	pgx:icdot-C38.4	Pleura, Nos	Lung Carcinoma;C34
+pgx:cohort-celllines	NCIT:C45663	Pleural sarcomatoid mesothelioma	pgx:icdom-90513	Sarcomatoid mesothelioma	pgx:icdot-C38.4	Pleura, Nos	C34;Mesothelioma
+pgx:cohort-celllines	NCIT:C45665	Pleural biphasic mesothelioma	pgx:icdom-90533	Mesothelioma, biphasic, malignant	pgx:icdot-C38.4	pleura	Mixed Cancer Types
+pgx:cohort-celllines	NCIT:C46008	Thyroid gland squamous cell carcinoma	pgx:icdom-80703	Squamous cell carcinoma	pgx:icdot-C73.9	Thyroid gland	C73;Carcinoma
+pgx:cohort-celllines	NCIT:C46099	Hereditary thyroid gland medullary carcinoma	pgx:icdom-85103	Medullary carcinoma, NOS	pgx:icdot-C73.9	Thyroid gland	Mixed Cancer Types
+pgx:cohort-celllines	NCIT:C4646	Gestational choriocarcinoma	pgx:icdom-91003	Choriocarcinoma, NOS	pgx:icdot-C55.9	uterus, NOS	C58;Choriocarcinoma
+pgx:cohort-celllines	NCIT:C4648	Tongue Squamous Cell Carcinoma	pgx:icdom-80703	Squamous cell carcinoma, NOS	pgx:icdot-C01.9	tongue	salivary gland squamous cell carcinoma [cell line A-253]
+pgx:cohort-celllines	NCIT:C4648	Tongue Squamous Cell Carcinoma	pgx:icdom-80703	Squamous cell carcinoma, NOS	pgx:icdot-C02.9	Tongue, NOS	
+pgx:cohort-celllines	NCIT:C4663	Splenic Marginal Zone Lymphoma	pgx:icdom-96893	Splenic marginal zone B-cell lymphoma	pgx:icdot-C42.2	Spleen	Splenic marginal zone lymphoma [cell line VL51]
+pgx:cohort-celllines	NCIT:C4664	T-cell large granular lymphocyte leukemia	pgx:icdom-98313	T-cell large granular lymphocytic leukemia	pgx:icdot-C42.1	Bone marrow	Mixed Cancer Types
+pgx:cohort-celllines	NCIT:C4673	Acute Biphenotypic Leukemia	pgx:icdom-98053	Acute biphenotypic leukemia	pgx:icdot-C42.1	Bone marrow	acute biphenotypic leukemia [cell line MY]
+pgx:cohort-celllines	NCIT:C4684	Nasal type extranodal NK/T-cell lymphoma	pgx:icdom-97193	Extranodal NK-/T-cell lymphoma, nasal type	pgx:icdot-C30.0	Nasal cavity	HANK-1 NK/T-cell lymphoma cell line
+pgx:cohort-celllines	NCIT:C4753	B-cell prolymphocytic leukemia	pgx:icdom-98333	B-cell prolymphocytic leukemia	pgx:icdot-C42.1	Bone marrow	C25;Carcinoma
+pgx:cohort-celllines	NCIT:C4817	Ewing Sarcoma	pgx:icdom-92603	Ewing sarcoma	pgx:icdot-C40.0	bones and joints	Ewing sarcoma [cell line A-673]
+pgx:cohort-celllines	NCIT:C4817	Ewing Sarcoma	pgx:icdom-92603	EWING SARCOMA	pgx:icdot-C41.9	Bone, NOS	C25;Carcinoma
+pgx:cohort-celllines	NCIT:C4819	Skin Squamous Cell Carcinoma	pgx:icdom-80703	Squamous cell carcinoma, NOS	pgx:icdot-C44.9	Skin, NOS	Vulvar squamous cell carcinoma [cell line A-431]
+pgx:cohort-celllines	NCIT:C4827	Adrenal gland neuroblastoma	pgx:icdom-95003	Neuroblastoma, NOS	pgx:icdot-C74.9	Adrenal gland, NOS	Mixed Cancer Types
+pgx:cohort-celllines	NCIT:C4833	Oral Cavity Squamous Cell Carcinoma	pgx:icdom-80703	Squamous cell carcinoma, NOS	pgx:icdot-C06.9	mouth, NOS	Head and neck squamous cell carcinoma [cell line KOSC-2]
+pgx:cohort-celllines	NCIT:C4861	Acute Monocytic Leukemia	pgx:icdom-98913	acute monocytic leukemia	pgx:icdot-C42.1	Bone marrow	Acute monocytic leukemia [cell line U937]
+pgx:cohort-celllines	NCIT:C4863	Prostate carcinoma	pgx:icdom-80103	Carcinoma, NOS	pgx:icdot-C61.9	Prostate gland	Prostate carcinoma [cell line DU145 DTP]
+pgx:cohort-celllines	NCIT:C4866	Vulvar carcinoma	pgx:icdom-80103	Carcinoma	pgx:icdot-C51.9	Vulva	C51;Carcinoma
+pgx:cohort-celllines	NCIT:C4872	Breast carcinoma	pgx:icdom-80103	Carcinoma, NOS	pgx:icdot-C50.9	Breast, NOS	C50;Carcinoma
+pgx:cohort-celllines	NCIT:C4878	Lung Carcinoma	pgx:icdom-80103	Carcinoma, NOS	pgx:icdot-C34.9	lung and bronchus	Lung adenocarcinoma [cell line NCI-H2030]
+pgx:cohort-celllines	NCIT:C4908	Ovarian Carcinoma	pgx:icdom-80103	Carcinoma, NOS	pgx:icdot-C56.9	ovary	Ovarian carcinoma [cell line A-1847]
+pgx:cohort-celllines	NCIT:C4910	Colon Carcinoma	pgx:icdom-80103	Carcinoma, NOS	pgx:icdot-C18.9	Colon, NOS	Colon carcinoma [cell line HCT-116]
+pgx:cohort-celllines	NCIT:C4911	Gastric carcinoma	pgx:icdom-80103	Carcinoma, NOS	pgx:icdot-C16.9	stomach	Gastric carcinoma [cell line SNU-16]
+pgx:cohort-celllines	NCIT:C4912	Bladder Carcinoma	pgx:icdom-80103	Carcinoma, NOS	pgx:icdot-C67.0	Urinary bladder	C67;Carcinoma
+pgx:cohort-celllines	NCIT:C4917	Lung Small Cell Carcinoma	pgx:icdom-80413	Small cell carcinoma, NOS	pgx:icdot-C34.9	lung and bronchus	Small cell lung carcinoma [cell line NCI-H1417]
+pgx:cohort-celllines	NCIT:C5027	Malignant Testicular Non-Seminomatous Germ Cell Tumor	pgx:icdom-90653	Germ cell tumor, nonseminomatous	pgx:icdot-C62.9	testis	testicular embryonal carcinoma [cell line NEC8]
+pgx:cohort-celllines	NCIT:C5161	Pleomorphic breast carcinoma	pgx:icdom-80223	Pleomorphic carcinoma	pgx:icdot-C50.9	Breast, NOS	Pleomorphic breast carcinoma [cell line SUM159PT]
+pgx:cohort-celllines	NCIT:C5214	Breast Adenocarcinoma	pgx:icdom-81403	Adenocarcinoma, NOS	pgx:icdot-C50.9	Breast, NOS	Breast adenocarcinoma [cell line MDA-MB-231]
+pgx:cohort-celllines	NCIT:C5228	Ovarian Cystadenocarcinoma	pgx:icdom-84403	Cystadenocarcinoma, NOS	pgx:icdot-C56.9	ovary	Ovarian cystadenocarcinoma [cell line OAW42]
+pgx:cohort-celllines	NCIT:C5234	Ovarian leiomyosarcoma	pgx:icdom-88903	Leiomyosarcoma, NOS	pgx:icdot-C56.9	ovary	Mixed Cancer Types
+pgx:cohort-celllines	NCIT:C5243	Ovarian Mucinous Adenocarcinoma	pgx:icdom-84803	Mucinous adenocarcinoma	pgx:icdot-C56.9	ovary	Mixed Cancer Types
+pgx:cohort-celllines	NCIT:C5248	Gastric mucinous adenocarcinoma	pgx:icdom-84803	Mucinous adenocarcinoma, NOS	pgx:icdot-C16.9	Stomach	Mixed Cancer Types
+pgx:cohort-celllines	NCIT:C5250	Signet ring cell gastric adenocarcinoma	pgx:icdom-84903	Signet ring cell carcinoma	pgx:icdot-C16.9	stomach	Mixed Cancer Types
+pgx:cohort-celllines	NCIT:C5250	Signet ring cell gastric adenocarcinoma	pgx:icdom-89403	Signet ring cell carcinoma	pgx:icdot-C16.9	stomach	Mixed Cancer Types
+pgx:cohort-celllines	NCIT:C5473	Gastric tubular adenocarcinoma	pgx:icdom-82113	Tubular adenocarcinoma	pgx:icdot-C16.9	stomach	Gastric tubular adenocarcinoma [cell line MKN28]
+pgx:cohort-celllines	NCIT:C5474	Gastric adenosquamous carcinoma	pgx:icdom-85603	Adenosquamous carcinoma	pgx:icdot-C16.9	stomach	Gastric adenosquamous carcinoma [cell line MKN1]
+pgx:cohort-celllines	NCIT:C5543	Cecum adenocarcinoma	pgx:icdom-81403	Adenocarcinoma, NOS	pgx:icdot-C18.0	Cecum	C18;Carcinoma
+pgx:cohort-celllines	NCIT:C5650	Papillary lung adenocarcinoma	pgx:icdom-82603	Papillary adenocarcinoma, NOS	pgx:icdot-C34.9	lung and bronchus	C34;Adenocarcinoma
+pgx:cohort-celllines	NCIT:C5721	Pancreatic adenosquamous carcinoma	pgx:icdom-85603	Adenosquamous carcinoma	pgx:icdot-C25.9	pancreas	Mixed Cancer Types
+pgx:cohort-celllines	NCIT:C6040	Poorly differentiated thyroid gland carcinoma	pgx:icdom-80203	Carcinoma, undifferentiated, NOS	pgx:icdot-C73.9	Thyroid gland	Mixed Cancer Types
+pgx:cohort-celllines	NCIT:C6041	Thyroid gland sarcoma	pgx:icdom-88003	Sarcoma, NOS	pgx:icdot-C73.9	Thyroid gland	Mixed Cancer Types
+pgx:cohort-celllines	NCIT:C60781	Astrocytoma	pgx:icdom-94003	Astrocytoma, NOS	pgx:icdot-C71.9	Brain, NOS	Astrocytoma [cell line SNB-19]
+pgx:cohort-celllines	NCIT:C6261	Ovarian granulosa cell tumor	pgx:icdom-86203	Granulosa cell tumor	pgx:icdot-C56.9	ovary	Mixed Cancer Types
+pgx:cohort-celllines	NCIT:C6287	Endometrial Endometrioid Adenocarcinoma	pgx:icdom-83803	Endometrioid adenocarcinoma, NOS	pgx:icdot-C54.1	Endometrium	endometrial adenocarcinoma [cell line AN3-CA]
+pgx:cohort-celllines	NCIT:C6287	Endometrial Endometrioid Adenocarcinoma	pgx:icdom-83803	Endometrioid adenocarcinoma, NOS	pgx:icdot-C55.9	uterus, nos	endometrial adenocarcinoma [cell line SNG-M]
+pgx:cohort-celllines	NCIT:C6290	Endometrial endometrioid adenocarcinoma, variant with squamous differentiation	pgx:icdom-83803	Endometrioid adenocarcinoma, NOS	pgx:icdot-C54.1	Endometrium	Mixed Cancer Types
+pgx:cohort-celllines	NCIT:C6339	Uterine corpus sarcoma	pgx:icdom-88003	Sarcoma, NOS	pgx:icdot-C55.9	uterus, nos	C49;Sarcoma
+pgx:cohort-celllines	NCIT:C6340	Uterine corpus leiomyosarcoma	pgx:icdom-88903	Leiomyosarcoma, NOS	pgx:icdot-C54.9	Corpus uteri	C49;Leiomyosarcoma
+pgx:cohort-celllines	NCIT:C6340	Uterine Corpus Leiomyosarcoma	pgx:icdom-88903	Leiomyosarcoma, NOS	pgx:icdot-C55.9	uterus, nos	Uterine corpus leiomyosarcoma [cell line SK-UT-1B]
+pgx:cohort-celllines	NCIT:C6393	Invasive Ductal and Invasive Lobular Breast Carcinoma	pgx:icdom-85223	Infiltrating duct and lobular carcinoma	pgx:icdot-C50.9	Breast, NOS	breast carcinoma [cell line T-47D]
+pgx:cohort-celllines	NCIT:C6422	Midgut carcinoid tumor	pgx:icdom-82403	Carcinoid tumor, NOS	pgx:icdot-C17.9	Small intestine	midgut carcinoid tumor [cell line H-STS]
+pgx:cohort-celllines	NCIT:C6476	Dedifferentiated chondrosarcoma	pgx:icdom-92433	Dedifferentiated chondrosarcoma	pgx:icdot-C41.9	Bone, NOS	Mixed Cancer Types
+pgx:cohort-celllines	NCIT:C65200	Thyroid Gland Follicular Carcinoma, Minimally Invasive	pgx:icdom-83353	Follicular carcinoma, minimally invasive	pgx:icdot-C73.9	thyroid gland	Follicular carcinoma [cell line FTC-133]
+pgx:cohort-celllines	NCIT:C6650	Ampulla of Vater adenocarcinoma	pgx:icdom-81403	Adenocarcinoma, NOS	pgx:icdot-C24.1	Ampulla of Vater	Mixed Cancer Types
+pgx:cohort-celllines	NCIT:C66759	Giant Cell Sarcoma	pgx:icdom-88023	Giant cell sarcoma	pgx:icdot-C49.9	connective and soft tissue, nos	Giant cell sarcoma [cell line Hs 737.T]
+pgx:cohort-celllines	NCIT:C67369	Malignant Pancreatic Somatostatinoma	pgx:icdom-81563	somatostatinoma, malignant	pgx:icdot-C25.9	pancreas	Pancreatic somatostatinoma [cell line QGP-1]
+pgx:cohort-celllines	NCIT:C6764	Gastric small cell carcinoma	pgx:icdom-80413	Small cell carcinoma, NOS	pgx:icdot-C16.9	Stomach	Mixed Cancer Types
+pgx:cohort-celllines	NCIT:C6766	Prostate small cell carcinoma	pgx:icdom-80413	Small cell carcinoma, NOS	pgx:icdot-C61.9	Prostate gland	C61;Carcinoma
+pgx:cohort-celllines	NCIT:C6915	Primary effusion lymphoma	pgx:icdom-96783	Primary effusion lymphoma	pgx:icdot-C38.4	pleura	primary effusion lymphoma [cell line BC-2]
+pgx:cohort-celllines	NCIT:C6975	Papillary Renal Cell Carcinoma	pgx:icdom-82603	Papillary adenocarcinoma, NOS	pgx:icdot-C64.9	Kidney, NOS	C64;Carcinoma
+pgx:cohort-celllines	NCIT:C7027	Barrett adenocarcinoma	pgx:icdom-81403	Adenocarcinoma, NOS	pgx:icdot-C15.9	Esophagus, NOS	C15;Esophageal Carcinoma
+pgx:cohort-celllines	NCIT:C7152	Erythroleukemia	pgx:icdom-98403	Acute erythroid leukemia	pgx:icdot-C42.1	Bone marrow	Erythroleukemia;C42
+pgx:cohort-celllines	NCIT:C7155	Primary central chondrosarcoma	pgx:icdom-92203	Chondrosarcoma, NOS	pgx:icdot-C41.9	Bone, NOS	C49;Sarcoma
+pgx:cohort-celllines	NCIT:C7210	Childhood T lymphoblastic lymphoma	pgx:icdom-98373	T lymphoblastic leukemia/lymphoma	pgx:icdot-C77.9	Lymph nodes, NOS	Mixed Cancer Types
+pgx:cohort-celllines	NCIT:C7270	Mixed Mucinous and Non-Mucinous Bronchioloalveolar Carcinoma	pgx:icdom-82543	Bronchiolo-alveolar carcinoma, mixed mucinous and non-mucinous	pgx:icdot-C34.9	lung and bronchus	Bronchioalveolar carcinoma [cell line NCI-H358]
+pgx:cohort-celllines	NCIT:C7320	Childhood chronic myelogenous leukemia, BCR-ABL1 positive	pgx:icdom-98753	Chronic myelogenous leukemia, BCR/ABL positive	pgx:icdot-C42.1	Bone marrow	C42;Blast Phase Chronic Myelogenous Leukemia
+pgx:cohort-celllines	NCIT:C7359	Endometrial adenocarcinoma	pgx:icdom-81403	Adenocarcinoma, NOS	pgx:icdot-C54.1	Endometrium	C55;Carcinoma
+pgx:cohort-celllines	NCIT:C7359	Endometrial adenocarcinoma	pgx:icdom-81403	Adenocarcinoma, NOS	pgx:icdot-C55.9	uterus, nos	Endometrial adenocarcinoma [cell line COLO 684]
+pgx:cohort-celllines	NCIT:C7376	Pleural Malignant Mesothelioma	pgx:icdom-90503	Mesothelioma, malignant	pgx:icdot-C38.4	pleura	pleural malignant mesothelioma [cell line Y-MESO-12]
+pgx:cohort-celllines	NCIT:C7402	Hairy Cell Leukemia	pgx:icdom-99403	Hairy cell leukemia	pgx:icdot-C42.1	Bone marrow	hairy cell leukemia [cell line MLMA]
+pgx:cohort-celllines	NCIT:C7439	Intraductal Papillary Adenocarcinoma with Invasion	pgx:icdom-85033	Intraductal papillary adenocarcinoma with invasion	pgx:icdot-C50.9	Breast, NOS	breast carcinoma [cell line BT-549]
+pgx:cohort-celllines	NCIT:C7463	Acute myelomonocytic leukemia	pgx:icdom-98673	Acute myelomonocytic leukemia, NOS	pgx:icdot-C42.1	Bone marrow	Acute myelomonocytic leukemia [cell line KY821]
+pgx:cohort-celllines	NCIT:C7464	Acute Leukemia of Ambiguous Lineage	pgx:icdom-98013	Acute leukemia, NOS	pgx:icdot-C42.1	Bone marrow	acute myeloid leukemia [cell line OCI-AML3]
+pgx:cohort-celllines	NCIT:C7541	Retinoblastoma	pgx:icdom-95103	Retinoblastoma, NOS	pgx:icdot-C69.2	Retina	C69;Retinoblastoma
+pgx:cohort-celllines	NCIT:C7542	Askin tumor	pgx:icdom-93653	Askin tumor	pgx:icdot-C49.3	thoracic wall	C71;neuroblastoma
+pgx:cohort-celllines	NCIT:C7542	Askin Tumor	pgx:icdom-93653	Askin tumor	pgx:icdot-C71.9	Brain, NOS	Askin tumor [cell line SK-N-MC]
+pgx:cohort-celllines	NCIT:C7550	Ovarian serous adenocarcinoma	pgx:icdom-84413	Serous adenocarcinoma, NOS	pgx:icdot-C56.9	Ovary, NOS	Mixed Cancer Types
+pgx:cohort-celllines	NCIT:C7558	Endometrial carcinoma	pgx:icdom-80103	Carcinoma	pgx:icdot-C54.1	Endometrium	Mixed Cancer Types
+pgx:cohort-celllines	NCIT:C7700	Ovarian adenocarcinoma	pgx:icdom-81403	Adenocarcinoma, NOS	pgx:icdot-C56.9	ovary	Ovarian adenocarcinoma [cell line CAOV-1]
+pgx:cohort-celllines	NCIT:C7716	Renal pelvis and ureter urothelial carcinoma	pgx:icdom-81203	Urothelial carcinoma, NOS	pgx:icdot-C65	Renal pelvis	Mixed Cancer Types
+pgx:cohort-celllines	NCIT:C7889	Duodenal adenocarcinoma	pgx:icdom-81403	Adenocarcinoma, NOS	pgx:icdot-C17.0	Duodenum	Mixed Cancer Types
+pgx:cohort-celllines	NCIT:C7899	Recurrent bladder carcinoma	pgx:icdom-80103	Carcinoma	pgx:icdot-C67.9	Urinary bladder, NOS	C67;Carcinoma
+pgx:cohort-celllines	NCIT:C7950	Invasive lobular breast carcinoma	pgx:icdom-85203	Infiltrating lobular carcinoma, NOS	pgx:icdot-C50.9	Breast, NOS	Mixed Cancer Types
+pgx:cohort-celllines	NCIT:C7953	Childhood T acute lymphoblastic leukemia	pgx:icdom-98373	T lymphoblastic leukemia/lymphoma	pgx:icdot-C42.1	Bone marrow	Acute Lymphoblastic Leukemia;C42
+pgx:cohort-celllines	NCIT:C7954	Adult Burkitt leukemia	pgx:icdom-98263	Acute leukemia, Burkitt type	pgx:icdot-C42.1	Bone marrow	C42;Burkitt Lymphoma
+pgx:cohort-celllines	NCIT:C7955	Childhood hepatocellular carcinoma	pgx:icdom-81703	Hepatocellular carcinoma	pgx:icdot-C22.0	Liver	C22;Hepatocellular Carcinoma
+pgx:cohort-celllines	NCIT:C7956	Adult hepatocellular carcinoma	pgx:icdom-81703	Hepatocellular carcinoma	pgx:icdot-C22.0	Liver	C22;Carcinoma
+pgx:cohort-celllines	NCIT:C7965	Adult acute megakaryoblastic leukemia	pgx:icdom-99103	Acute megakaryoblastic leukemia	pgx:icdot-C42.1	Bone marrow	Mixed Cancer Types
+pgx:cohort-celllines	NCIT:C7972	Childhood acute megakaryoblastic leukemia	pgx:icdom-99103	Acute megakaryoblastic leukemia	pgx:icdot-C42.1	Bone marrow	Mixed Cancer Types
+pgx:cohort-celllines	NCIT:C7978	Ovarian Serous Cystadenocarcinoma	pgx:icdom-84413	serous cystadenocarcinoma	pgx:icdot-C56.9	ovary	Ovarian cystadenocarcinoma (Taxene treated) [cell line OV429/TxT50]
+pgx:cohort-celllines	NCIT:C7979	Ovarian endometrioid adenocarcinoma	pgx:icdom-83803	Endometrioid adenocarcinoma, NOS	pgx:icdot-C56.9	Ovary	Mixed Cancer Types
+pgx:cohort-celllines	NCIT:C7985	Epithelioid Mesothelioma	pgx:icdom-90523	Epithelioid mesothelioma, malignant	pgx:icdot-C38.4	pleura	Pleural epithelioid mesothelioma [cell line MM26]
+pgx:cohort-celllines	NCIT:C7985	Epithelioid Mesothelioma	pgx:icdom-90523	Epithelioid mesothelioma, malignant	pgx:icdot-C49.9	connective and soft tissue, NOS	pleural epithelioid mesothelioma [cell line Meso56]
+pgx:cohort-celllines	NCIT:C7991	Salivary gland squamous cell carcinoma	pgx:icdom-80703	Squamous cell carcinoma	pgx:icdot-C08.9	salivary, major, NOS	Mixed Cancer Types
+pgx:cohort-celllines	NCIT:C80280	Diffuse Large B-Cell Lymphoma, Not Otherwise Specified	pgx:icdom-96803	Malignant lymphoma, large B-cell, diffuse, NOS	pgx:icdot-C77.9	lymph nodes	Diffuse large B-cell lymphoma [cell line DB]
+pgx:cohort-celllines	NCIT:C80326	B Lymphoblastic Leukemia/Lymphoma, Not Otherwise Specified	pgx:icdom-98113	B lymphoblastic leukemia/lymphoma, NOS	pgx:icdot-C42.4	Hematopoietic system, NOS	B acute lymphoblastic leukemia [cell line BALM9]
+pgx:cohort-celllines	NCIT:C80347	B acute lymphoblastic leukemia with t(1;19)(q23;p13.3) E2A-PBX1 (TCF3-PBX1)	pgx:icdom-98263	Acute lymphoblastic leukemia, mature B-cell type	pgx:icdot-C42.1	Bone marrow	C42;Acute B Cell Lymphocytic Leukemia
+pgx:cohort-celllines	NCIT:C8054	Thyroid gland follicular carcinoma	pgx:icdom-83353	Follicular carcinoma, encapsulated	pgx:icdot-C73.9	Thyroid gland	Mixed Cancer Types
+pgx:cohort-celllines	NCIT:C8181	Oropharyngeal Squamous Cell Carcinoma	pgx:icdom-80703	Squamous cell carcinoma, NOS	pgx:icdot-C10.9	Oropharynx	Gingival squamous cell carcinoma [cell line Ca9-22]
+pgx:cohort-celllines	NCIT:C8183	Tonsillar squamous cell carcinoma	pgx:icdom-80703	Squamous cell carcinoma, NOS	pgx:icdot-C09.9	Tonsil, NOS	
+pgx:cohort-celllines	NCIT:C8192	Nasal cavity squamous cell carcinoma	pgx:icdom-80703	Squamous cell carcinoma, NOS	pgx:icdot-C30.0	Nasal cavity	
+pgx:cohort-celllines	NCIT:C8263	Adult acute monocytic leukemia	pgx:icdom-98913	Acute monocytic leukemia	pgx:icdot-C42.1	Bone marrow	Mixed Cancer Types
+pgx:cohort-celllines	NCIT:C8294	Pancreatic Adenocarcinoma	pgx:icdom-81403	Adenocarcinoma, NOS	pgx:icdot-C25.9	pancreas	Pancreas adenocarcinoma [cell line HPAF-II]
+pgx:cohort-celllines	NCIT:C8644	B Acute Lymphoblastic Leukemia	pgx:icdom-98263	Acute lymphoblastic leukemia, NOS	pgx:icdot-C42.1	Bone marrow	B acute lymphoblastic leukemia [cell line Granta-452]
+pgx:cohort-celllines	NCIT:C8644	B acute lymphoblastic leukemia	pgx:icdom-98263	Burkitt cell leukemia	pgx:icdot-C42.4	Hematopoietic system, NOS	Acute Lymphoblastic Leukemia;C42
+pgx:cohort-celllines	NCIT:C8715	Rhabdoid tumor of the kidney	pgx:icdom-89633	Malignant rhabdoid tumor	pgx:icdot-C64.9	kidney	Mixed Cancer Types
+pgx:cohort-celllines	NCIT:C8851	Diffuse large B-cell lymphoma	pgx:icdom-96803	Diffuse large B-cell lymphoma	pgx:icdot-C42.1	Bone marrow	Mixed Cancer Types
+pgx:cohort-celllines	NCIT:C8851	Diffuse Large B-Cell Lymphoma	pgx:icdom-96803	Malignant lymphoma, large B-cell, diffuse, NOS	pgx:icdot-C42.4	Hematopoietic system, NOS	Diffuse large B-cell lymphoma [cell line OCI-Ly10]
+pgx:cohort-celllines	NCIT:C8863	Nodal Marginal Zone Lymphoma	pgx:icdom-96993	Marginal zone B-cell lymphoma, NOS	pgx:icdot-C77.9	lymph nodes	Marginal zone lymphoma [cell line Karpas-1718]
+pgx:cohort-celllines	NCIT:C8923	Acute Erythroid Leukemia	pgx:icdom-98403	Acute myeloid leukemia	pgx:icdot-C42.1	Bone marrow	Erythroleukemia [cell line HEL]
+pgx:cohort-celllines	NCIT:C8971	Embryonal rhabdomyosarcoma	pgx:icdom-89103	Embryonal rhabdomyosarcoma, NOS	pgx:icdot-C49.4	Skeletal muscle	C49;Osteosarcoma
+pgx:cohort-celllines	NCIT:C8971	Embryonal Rhabdomyosarcoma	pgx:icdom-89103	embryonal rhabdomyosarcoma, NOS	pgx:icdot-C64.9	kidney	Embryonal rhabdomyosarcoma [cell line RD]
+pgx:cohort-celllines	NCIT:C8973	Endometrioid stromal sarcoma	pgx:icdom-89303	Endometrial stromal sarcoma, NOS	pgx:icdot-C54.1	Endometrium	Mixed Cancer Types
+pgx:cohort-celllines	NCIT:C9039	Cervical Carcinoma	pgx:icdom-80103	Carcinoma, NOS	pgx:icdot-C53.9	cervix uteri	C53;Carcinoma
+pgx:cohort-celllines	NCIT:C9120	Pancreatic ductal adenocarcinoma	pgx:icdom-81403	Adenocarcinoma, NOS	pgx:icdot-C25.3	Pancreatic duct	C25;Adenocarcinoma
+pgx:cohort-celllines	NCIT:C9133	Lung Adenosquamous Carcinoma	pgx:icdom-85603	Adenosquamous carcinoma	pgx:icdot-C34.9	lung and bronchus	Adenosquamous lung carcinoma [cell line HCC1195]
+pgx:cohort-celllines	NCIT:C9140	Childhood B acute lymphoblastic leukemia	pgx:icdom-98263	Acute lymphoblastic leukemia, mature B-cell type	pgx:icdot-C42.1	Bone marrow	Acute Lymphoblastic Leukemia;C42
+pgx:cohort-celllines	NCIT:C9142	Adult T acute lymphoblastic leukemia	pgx:icdom-98263	Acute lymphoblastic leukemia, mature B-cell type	pgx:icdot-C42.1	Bone marrow	Acute Lymphoblastic Leukemia;C42
+pgx:cohort-celllines	NCIT:C9143	Adult B acute lymphoblastic leukemia	pgx:icdom-98263	Acute lymphoblastic leukemia, mature B-cell type	pgx:icdot-C42.1	Bone marrow	Acute Lymphoblastic Leukemia;C42
+pgx:cohort-celllines	NCIT:C9145	Osteosarcoma	pgx:icdom-91803	Osteosarcoma, NOS	pgx:icdot-C40.0	bones and joints	Osteosarcoma [cell line 143B]
+pgx:cohort-celllines	NCIT:C9145	Osteosarcoma	pgx:icdom-91803	Osteosarcoma, NOS	pgx:icdot-C41.9	bone, NOS	Osteosarcoma [cell line KHOS-240S]
+pgx:cohort-celllines	NCIT:C9152	Superficial Spreading Melanoma	pgx:icdom-87433	Superficial spreading melanoma	pgx:icdot-C44.9	Skin, NOS	malignant melanoma [cell line WM1789]
+pgx:cohort-celllines	NCIT:C9154	Adult acute myeloid leukemia	pgx:icdom-98613	Acute myeloid leukemia, NOS	pgx:icdot-C42.1	Bone marrow	Acute Myeloid Leukemia;C42
+pgx:cohort-celllines	NCIT:C9160	Childhood acute myeloid leukemia	pgx:icdom-98613	Acute myeloid leukemia, NOS	pgx:icdot-C42.1	Bone marrow	Mixed Cancer Types
+pgx:cohort-celllines	NCIT:C9163	Childhood acute monocytic leukemia	pgx:icdom-98913	Acute monocytic leukemia	pgx:icdot-C42.1	Bone marrow	Acute Myeloid Leukemia;C42
+pgx:cohort-celllines	NCIT:C9231	Merkel Cell Carcinoma	pgx:icdom-82473	Merkel cell carcinoma	pgx:icdot-C44.9	Skin, NOS	Merkel cell carcinoma [cell line AlDo]
+pgx:cohort-celllines	NCIT:C9265	Mycosis fungoides and Sezary syndrome	pgx:icdom-97013	Sezary syndrome	pgx:icdot-C42.1	Bone marrow	Cutaneous T Cell Lymphoma;C42
+pgx:cohort-celllines	NCIT:C9280	Mediastinal (Thymic) Large B-Cell Lymphoma	pgx:icdom-96793	Mediastinal large B-cell lymphoma	pgx:icdot-C38.3	Mediastinum, NOS	Mediastinal (thymic) large B-cell lymphoma
+pgx:cohort-celllines	NCIT:C9280	Mediastinal (Thymic) Large B-Cell Lymphoma	pgx:icdom-96793	Mediastinal large B-cell lymphoma	pgx:icdot-C38.9	mediastinum	diffuse large B-cell lymphoma [cell line Karpas-231]
+pgx:cohort-celllines	NCIT:C9325	Adrenal cortex carcinoma	pgx:icdom-83703	Adrenal cortical carcinoma	pgx:icdot-C74.0	Adrenal cortex	C71;Carcinoma
+pgx:cohort-celllines	NCIT:C9325	Adrenal Cortex Carcinoma	pgx:icdom-83703	Adrenal cortical carcinoma	pgx:icdot-C74.9	adrenal glands	Adrenal cortex carcinoma [cell line SW13]
+pgx:cohort-celllines	NCIT:C9349	Plasmacytoma	pgx:icdom-97313	Multiple myeloma	pgx:icdot-C42.1	Bone marrow	Plasma cell myeloma [cell line KMS-28PE]
+pgx:cohort-celllines	NCIT:C9357	Hodgkin Lymphoma	pgx:icdom-96503	Hodgkin lymphoma, NOS	pgx:icdot-C77.9	lymph nodes	Hodgkin lymphoma [cell line HDLM-2]
+pgx:cohort-celllines	NCIT:C9381	Childhood acute myeloid leukemia with maturation�	pgx:icdom-98743	Acute�myeloid�leukemia�with maturation	pgx:icdot-C42.1	Bone marrow	acute myeloid leukemia
+pgx:cohort-celllines	NCIT:C9383	Rectal Adenocarcinoma	pgx:icdom-81403	Adenocarcinoma, NOS	pgx:icdot-C20.9	rectum	Rectal adenocarcinoma [cell line SW837]
+pgx:cohort-celllines	NCIT:C9384	Kidney Carcinoma	pgx:icdom-80103	Carcinoma, NOS	pgx:icdot-C64.9	kidney	transformed cell line HK-2
+pgx:cohort-celllines	NCIT:C9385	Renal Cell Carcinoma	pgx:icdom-83123	Renal cell carcinoma, NOS	pgx:icdot-C64.9	Kidney, NOS	Renal cell carcinoma [cell line A-498]
+pgx:cohort-celllines	NCIT:C9477	Anaplastic Astrocytoma	pgx:icdom-94013	Astrocytoma, anaplastic	pgx:icdot-C71.9	Brain, NOS	Anaplastic astrocytoma [cell line MOG-G-CCM]
+pgx:cohort-celllines	NCIT:C95595	Pancreatic somatostatinoma	pgx:icdom-81561	Somatostatinoma, NOS	pgx:icdot-C25.9	Pancreas, NOS	Mixed Cancer Types
+pgx:cohort-celllines	NCIT:C95749	Gastric choriocarcinoma	pgx:icdom-91003	Choriocarcinoma, NOS	pgx:icdot-C16.9	stomach	Gastric choriocarcinoma [cell line SCH]

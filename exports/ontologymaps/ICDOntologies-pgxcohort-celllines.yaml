@@ -1,0 +1,3773 @@
+- code_group:
+  - id: NCIT:C102872
+    label: Pharyngeal squamous cell carcinoma
+  - id: pgx:icdom-80703
+    label: Squamous cell carcinoma, NOS
+  - id: pgx:icdot-C11.9
+    label: Nasopharynx
+  examples:
+  - C13;Carcinoma
+  - Mixed Cancer Types
+  id: NCIT:C102872::pgx:icdom-80703::pgx:icdot-C11.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C105555
+    label: High grade ovarian serous adenocarcinoma
+  - id: pgx:icdom-84413
+    label: Serous adenocarcinoma
+  - id: pgx:icdot-C56.9
+    label: Ovary, NOS
+  examples:
+  - Adenocarcinoma;C56
+  - C56;Carcinoma
+  - Mixed Cancer Types
+  id: NCIT:C105555::pgx:icdom-84413::pgx:icdot-C56.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C114656
+    label: Endometrial adenosquamous carcinoma
+  - id: pgx:icdom-85603
+    label: Adenosquamous carcinoma
+  - id: pgx:icdot-C54.1
+    label: Endometrium
+  examples:
+  - C55;Carcinoma
+  - Mixed Cancer Types
+  - endometrial adenosquamous carcinoma [cell line MFE-319]
+  id: NCIT:C114656::pgx:icdom-85603::pgx:icdot-C54.1
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C129857
+    label: Gingival squamous cell carcinoma
+  - id: pgx:icdom-80703
+    label: Squamous cell carcinoma, NOS
+  - id: pgx:icdot-C03.9
+    label: Gum, NOS
+  examples:
+  - Mixed Cancer Types
+  id: NCIT:C129857::pgx:icdom-80703::pgx:icdot-C03.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C132256
+    label: Unspecified Tissue
+  - id: pgx:icdom-00000
+    label: not in ICD-O (e.g. non-neoplastic, reference)
+  - id: pgx:icdot-C10.9
+    label: Oropharynx
+  examples:
+  - transformed cell line SVpgC2a-FOXM1B
+  - transformed cell line SVpgC2a-FOXM1B/SVFN1
+  - transformed cell line SVpgC2a-FOXM1B/SVFN2
+  - transformed cell line SVpgC2a-FOXM1B/SVFN3
+  - transformed cell line SVpgC2a-FOXM1B/SVFN4
+  id: NCIT:C132256::pgx:icdom-00000::pgx:icdot-C10.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C132256
+    label: Unspecified Tissue
+  - id: pgx:icdom-00000
+    label: not in ICD-O (e.g. non-neoplastic, reference)
+  - id: pgx:icdot-C11.9
+    label: nasopharynx
+  examples:
+  - hybrid cell line CNE-1
+  - hybrid cell line CNE-2
+  - transformed cell line NP69SV40T
+  id: NCIT:C132256::pgx:icdom-00000::pgx:icdot-C11.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C132256
+    label: Unspecified Tissue
+  - id: pgx:icdom-00000
+    label: not in ICD-O (e.g. non-neoplastic, reference)
+  - id: pgx:icdot-C34.9
+    label: lung and bronchus
+  examples:
+  - Lung [cell line WI-38]
+  - normal diploid lung [cell line IMR-90]
+  - transformed cell line BEAS-2B
+  - transformed cell line HBE4-E6/E7
+  - transformed cell line WI-26 VA4
+  id: NCIT:C132256::pgx:icdom-00000::pgx:icdot-C34.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C132256
+    label: Unspecified Tissue
+  - id: pgx:icdom-00000
+    label: not in ICD-O (e.g. non-neoplastic, reference)
+  - id: pgx:icdot-C42.4
+    label: Hematopoietic system, NOS
+  examples:
+  - normal blood [cell line HCC1143 BL]
+  - normal blood [cell line HCC38 BL]
+  - transformed cell line C8166
+  id: NCIT:C132256::pgx:icdom-00000::pgx:icdot-C42.4
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C132256
+    label: Unspecified Tissue
+  - id: pgx:icdom-00000
+    label: not in ICD-O (e.g. non-neoplastic, reference)
+  - id: pgx:icdot-C44.9
+    label: Skin, NOS
+  examples:
+  - transformed cell line LAU-Me246.M1-LCL
+  id: NCIT:C132256::pgx:icdom-00000::pgx:icdot-C44.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C132256
+    label: Unspecified Tissue
+  - id: pgx:icdom-00000
+    label: not in ICD-O (e.g. non-neoplastic, reference)
+  - id: pgx:icdot-C49.9
+    label: connective and soft tissue, nos
+  examples:
+  - Transformed cell line UE6E7T-2
+  id: NCIT:C132256::pgx:icdom-00000::pgx:icdot-C49.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C132256
+    label: Unspecified Tissue
+  - id: pgx:icdom-00000
+    label: not in ICD-O (e.g. non-neoplastic, reference)
+  - id: pgx:icdot-C50.9
+    label: Breast, NOS
+  examples:
+  - Transformed cell line 184A1
+  - transformed cell line MCF-10AT
+  - transformed cell line MCF10CA1h
+  - transformed cell line PHMLEB
+  - transformed cell line PHMLER
+  id: NCIT:C132256::pgx:icdom-00000::pgx:icdot-C50.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C132256
+    label: Unspecified Tissue
+  - id: pgx:icdom-00000
+    label: not in ICD-O (e.g. non-neoplastic, reference)
+  - id: pgx:icdot-C61.9
+    label: Prostate gland
+  examples:
+  - transformed cell line CA-HPV-10
+  - transformed cell line PWR-1E
+  - transformed cell line PWRE-1
+  - transformed cell line PWRE-2
+  - transformed cell line WPE1-NB26
+  id: NCIT:C132256::pgx:icdom-00000::pgx:icdot-C61.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C132256
+    label: Unspecified Tissue
+  - id: pgx:icdom-00000
+    label: not in ICD-O (e.g. non-neoplastic, reference)
+  - id: pgx:icdot-C64.9
+    label: kidney
+  examples:
+  - transformed cell line CCD-1103 KIDTr
+  - transformed cell line CCD-1105 KIDTr
+  id: NCIT:C132256::pgx:icdom-00000::pgx:icdot-C64.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C132256
+    label: Unspecified Tissue
+  - id: pgx:icdom-00000
+    label: not in ICD-O (e.g. non-neoplastic, reference)
+  - id: pgx:icdot-C73.9
+    label: thyroid gland
+  examples:
+  - transformed cell line Nthy-ori 3-1
+  id: NCIT:C132256::pgx:icdom-00000::pgx:icdot-C73.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C132256
+    label: Unspecified Tissue
+  - id: pgx:icdom-00000
+    label: not in ICD-O (e.g. non-neoplastic, reference)
+  - id: pgx:icdot-C76.9
+    label: ill-defined
+  examples:
+  - referernce [lymphoblastoid cell line HCC1395BL]
+  id: NCIT:C132256::pgx:icdom-00000::pgx:icdot-C76.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C159209
+    label: Kidney Leiomyoma
+  - id: pgx:icdom-88910
+    label: Epithelioid leiomyoma
+  - id: pgx:icdot-C64.9
+    label: kidney
+  examples:
+  - leiomyoblastoma [cell line G-402]
+  id: NCIT:C159209::pgx:icdom-88910::pgx:icdot-C64.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C27243
+    label: High Risk Gastrointestinal Stromal Tumor
+  - id: pgx:icdom-89363
+    label: Gastrointestinal stromal sarcoma
+  - id: pgx:icdot-C16.9
+    label: stomach
+  examples:
+  - gastrointestinal stromal tumor [cell line GIST430]
+  - gastrointestinal stromal tumor [cell line GIST48]
+  - gastrointestinal stromal tumor [cell line GIST522]
+  - gastrointestinal stromal tumor [cell line GIST62]
+  - gastrointestinal stromal tumor [cell line GIST882]
+  id: NCIT:C27243::pgx:icdom-89363::pgx:icdot-C16.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C27676
+    label: Human papillomavirus-related cervical squamous cell carcinoma
+  - id: pgx:icdom-80703
+    label: Squamous cell carcinoma, NOS
+  - id: pgx:icdot-C53.9
+    label: Cervix uteri
+  examples:
+  - C53;Carcinoma
+  id: NCIT:C27676::pgx:icdom-80703::pgx:icdot-C53.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C27688
+    label: Hepatitis C Virus-Related Hepatocellular Carcinoma
+  - id: pgx:icdom-81703
+    label: Hepatocellular carcinoma, NOS
+  - id: pgx:icdot-C22.0
+    label: Liver
+  examples:
+  - Mixed Cancer Types
+  id: NCIT:C27688::pgx:icdom-81703::pgx:icdot-C22.0
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C27694
+    label: EBV-related Burkitt lymphoma
+  - id: pgx:icdom-96873
+    label: Burkitt lymphoma, NOS
+  - id: pgx:icdot-C42.4
+    label: Hematopoietic system, NOS
+  examples:
+  - C06;Burkitt Lymphoma
+  - C42;Burkitt Lymphoma
+  - Mixed Cancer Types
+  id: NCIT:C27694::pgx:icdom-96873::pgx:icdot-C42.4
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C27753
+    label: Acute Myeloid Leukemia Not Otherwise Specified
+  - id: pgx:icdom-98613
+    label: Acute myeloid leukemia, NOS
+  - id: pgx:icdot-C42.1
+    label: Bone marrow
+  examples:
+  - Acute myeloid leukemia [Eos-HL-60]
+  - Acute myeloid leukemia [cell line HL-60]
+  - Acute myeloid leukemia [cell line HL60RG]
+  - Acute myeloid leukemia [cell line Kasumi-1]
+  - acute myeloid leukemia [cell line P31/FUJ]
+  id: NCIT:C27753::pgx:icdom-98613::pgx:icdot-C42.1
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C27893
+    label: Sarcomatoid Renal Cell Carcinoma
+  - id: pgx:icdom-83183
+    label: Renal cell carcinoma, sarcomatoid
+  - id: pgx:icdot-C64.9
+    label: kidney
+  examples:
+  - clear cell renal carcinoma [cell line TK-10]
+  id: NCIT:C27893::pgx:icdom-83183::pgx:icdot-C64.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C27912
+    label: Therapy-Related Myeloid Neoplasm
+  - id: pgx:icdom-99203
+    label: acute myeloid leukemia
+  - id: pgx:icdot-C42.1
+    label: Bone marrow
+  examples:
+  - Therapy related myeloid neoplasm [cell line OHN-GM]
+  id: NCIT:C27912::pgx:icdom-99203::pgx:icdot-C42.1
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C2855
+    label: Adenoma
+  - id: pgx:icdom-83800
+    label: Endometroid adenoma, NOS
+  - id: pgx:icdot-C56.9
+    label: ovary
+  examples:
+  - Ovarian endometrioid adenocarcinoma [cell line A2780]
+  - Ovarian endometrioid adenocarcinoma [cell line OCI-E1p]
+  - Ovarian endometrioid adenocarcinoma [cell line OCI-E3x]
+  - Ovarian endometrioid adenocarcinoma [cell line OCI-EP1p]
+  - Ovarian endometrioid adenocarcinoma [cell line TOV-112D]
+  id: NCIT:C2855::pgx:icdom-83800::pgx:icdot-C56.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C2897
+    label: Benign prostatic hyperplasia
+  - id: pgx:icdom-00000
+    label: not in ICD-O (e.g. non-neoplastic, reference)
+  - id: pgx:icdot-C76.9
+    label: ill-defined
+  examples:
+  - benign prostate hyperplasia [cell line BPH-1]
+  id: NCIT:C2897::pgx:icdom-00000::pgx:icdot-C76.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C2897
+    label: Benign prostatic hyperplasia
+  - id: pgx:icdom-72000
+    label: Hyperplasia, NOS
+  - id: pgx:icdot-C61.9
+    label: Prostate
+  examples:
+  - Hyperplasia;C61
+  id: NCIT:C2897::pgx:icdom-72000::pgx:icdot-C61.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C2912
+    label: Burkitt Lymphoma
+  - id: pgx:icdom-96873
+    label: Burkitt lymphoma, NOS
+  - id: pgx:icdot-C42.4
+    label: Hematopoietic system, NOS
+  examples:
+  - Burkitt Lymphoma [cell line BJAB]
+  - Burkitt Lymphoma [cell line Wien 133]
+  - Burkitt lymphoma [cell line CA46]
+  - Burkitt lymphoma [cell line DG-75]
+  - Burkitt lymphoma [cell line Elijah]
+  id: NCIT:C2912::pgx:icdom-96873::pgx:icdot-C42.4
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C2912
+    label: Burkitt Lymphoma
+  - id: pgx:icdom-96873
+    label: Burkitt lymphoma, NOS
+  - id: pgx:icdot-C77.9
+    label: lymph nodes
+  examples:
+  - Burkitt Lymphoma [cell line BJAB]
+  - Burkitt lymphoma [cell line DG-75]
+  - Burkitt lymphoma [cell line EB1]
+  - Burkitt lymphoma [cell line GA-10]
+  - Burkitt lymphoma [cell line P32/ISH]
+  id: NCIT:C2912::pgx:icdom-96873::pgx:icdot-C77.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C2919
+    label: Prostate Adenocarcinoma
+  - id: pgx:icdom-81403
+    label: Adenocarcinoma, NOS
+  - id: pgx:icdot-C61.9
+    label: Prostate gland
+  examples:
+  - prostate adenocarcinoma [cell line LNCaP]
+  - prostate carcinoma [cell line MDA-PCa-2a]
+  - prostate carcinoma [cell line MDA-PCa-2b]
+  - prostate carcinoma [cell line PC-3]
+  - prostate carcinoma [cell line PPC-1]
+  id: NCIT:C2919::pgx:icdom-81403::pgx:icdot-C61.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C2923
+    label: Minimally invasive lung adenocarcinoma
+  - id: pgx:icdom-82503
+    label: Bronchiolo-alveolar adenocarcinoma, NOS
+  - id: pgx:icdot-C34.9
+    label: Lung and bronchus
+  examples:
+  - C34;Carcinoma
+  - C34;Lung Adenocarcinoma
+  - Mixed Cancer Types
+  id: NCIT:C2923::pgx:icdom-82503::pgx:icdot-C34.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C2923
+    label: Bronchioloalveolar carcinoma
+  - id: pgx:icdom-82513
+    label: Alveolar adenocarcinoma
+  - id: pgx:icdot-C34.9
+    label: lung and bronchus
+  examples:
+  - Bronchioalveolar carcinoma [cell line NCI-H1650]
+  - Bronchioalveolar carcinoma [cell line NCI-H1666]
+  - Bronchioalveolar carcinoma [cell line NCI-H1781]
+  - Minimally invasive lung adenocarcinoma [cell line NCI-H322M]
+  id: NCIT:C2923::pgx:icdom-82513::pgx:icdot-C34.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C2926
+    label: Lung Non-Small Cell Carcinoma
+  - id: pgx:icdom-80463
+    label: Non-small cell carcinoma
+  - id: pgx:icdot-C34.9
+    label: lung and bronchus
+  examples:
+  - Large cell lung carcinoma [cell line NCI-H157]
+  - lung adenocarcinoma [cell line NCI-H2122]
+  - lung adenocarcinoma [cell line NCI-H2347]
+  - non-small cell Lung carcinoma [cell line NCI-H2110]
+  - non-small cell Lung carcinoma [cell line NCI-H2887]
+  id: NCIT:C2926::pgx:icdom-80463::pgx:icdot-C34.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C2929
+    label: Squamous Cell Carcinoma
+  - id: pgx:icdom-80703
+    label: Squamous cell carcinoma, NOS
+  - id: pgx:icdot-C61.9
+    label: Prostate gland
+  examples:
+  - cervix squamous cell carcinoma [cell line ME-180]
+  id: NCIT:C2929::pgx:icdom-80703::pgx:icdot-C61.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C2946
+    label: Chondrosarcoma
+  - id: pgx:icdom-92203
+    label: Chondrosarcoma, NOS
+  - id: pgx:icdot-C40.0
+    label: bones and joints
+  examples:
+  - chondrosarcoma [cell line H-EMC-SS]
+  id: NCIT:C2946::pgx:icdom-92203::pgx:icdot-C40.0
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C2946
+    label: Chondrosarcoma
+  - id: pgx:icdom-92203
+    label: Chondrosarcoma, NOS
+  - id: pgx:icdot-C41.9
+    label: Bone, NOS
+  examples:
+  - Mixed Cancer Types
+  id: NCIT:C2946::pgx:icdom-92203::pgx:icdot-C41.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C2955
+    label: Colorectal carcinoma
+  - id: pgx:icdom-80103
+    label: Carcinoma
+  - id: pgx:icdot-C18.9
+    label: Colon, NOS
+  examples:
+  - Mixed Cancer Types
+  id: NCIT:C2955::pgx:icdom-80103::pgx:icdot-C18.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C2996
+    label: Dysgerminoma
+  - id: pgx:icdom-90603
+    label: Dysgerminoma
+  - id: pgx:icdot-C56.9
+    label: ovary
+  examples:
+  - Ovarian dysgerminoma [cell line OCI-D1p]
+  id: NCIT:C2996::pgx:icdom-90603::pgx:icdot-C56.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C3043
+    label: Fibrosarcoma
+  - id: pgx:icdom-88103
+    label: Fibrosarcoma, NOS
+  - id: pgx:icdot-C49.9
+    label: connective and soft tissue, nos
+  examples:
+  - Fibrosarcoma [cell line A-204]
+  - Fibrosarcoma [cell line FLYA13]
+  - Fibrosarcoma [cell line HT-1080]
+  - Fibrosarcoma [cell line SW684]
+  - fibrosarcoma [cell line Hs 633.T]
+  id: NCIT:C3043::pgx:icdom-88103::pgx:icdot-C49.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C3058
+    label: Glioblastoma
+  - id: pgx:icdom-94403
+    label: Glioblastoma
+  - id: pgx:icdot-C71.9
+    label: Brain, NOS
+  examples:
+  - glioblastoma [cell line 42-MG-BA]
+  - glioblastoma [cell line 8-MG-BA]
+  - glioblastoma [cell line LN-18]
+  - glioblastoma [cell line LN-229]
+  - glioblastoma [cell line T98G]
+  id: NCIT:C3058::pgx:icdom-94403::pgx:icdot-C71.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C3059
+    label: Glioma
+  - id: pgx:icdom-93803
+    label: Glioma, malignant
+  - id: pgx:icdot-C71.9
+    label: Brain, NOS
+  examples:
+  - Malignant glioma [cell line U3017MG]
+  - Malignant glioma [cell line U3065MG]
+  - Malignant glioma [cell line U3117MG]
+  - Malignant glioma [cell line U3118MG]
+  - Malignant glioma [cell line U3121MG]
+  id: NCIT:C3059::pgx:icdom-93803::pgx:icdot-C71.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C3088
+    label: Angiosarcoma
+  - id: pgx:icdom-91303
+    label: Hemangioendothelioma, malignant
+  - id: pgx:icdot-C22.9
+    label: liver
+  examples:
+  - Epithelioid hemangioendothelioma [cell line LI90]
+  id: NCIT:C3088::pgx:icdom-91303::pgx:icdot-C22.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C3099
+    label: Hepatocellular Carcinoma
+  - id: pgx:icdom-81703
+    label: Hepatocellular carcinoma, NOS
+  - id: pgx:icdot-C22.9
+    label: liver
+  examples:
+  - hepatocellular carcinoma [cell line Hep 3B2.1-7]
+  - hepatocellular carcinoma [cell line Hep-G2]
+  - hepatocellular carcinoma [cell line Huh-7]
+  - hepatocellular carcinoma [cell line PLC/PRF/5]
+  - hepatocellular carcinoma [cell line SK-HEP-1]
+  id: NCIT:C3099::pgx:icdom-81703::pgx:icdot-C22.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C3153
+    label: Krukenberg tumor
+  - id: pgx:icdom-84903
+    label: Metastatic signet ring cell carcinoma
+  - id: pgx:icdot-C56.9
+    label: ovary
+  examples:
+  - Krukenberg tumor [cell line KS-1]
+  id: NCIT:C3153::pgx:icdom-84903::pgx:icdot-C56.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C3158
+    label: Leiomyosarcoma
+  - id: pgx:icdom-88903
+    label: Leiomyosarcoma, NOS
+  - id: pgx:icdot-C49.9
+    label: connective and soft tissue, NOS
+  examples:
+  - Leiomyosarcoma [cell line LMS05]
+  id: NCIT:C3158::pgx:icdom-88903::pgx:icdot-C49.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C3163
+    label: Chronic lymphocytic leukemia
+  - id: pgx:icdom-98233
+    label: B-cell lymphocytic leukemia/small lymphocytic lymphoma
+  - id: pgx:icdot-C42.4
+    label: Hematopoietic system, NOS
+  examples:
+  - C42;Chronic Lymphocytic Leukemia
+  - Mixed Cancer Types
+  id: NCIT:C3163::pgx:icdom-98233::pgx:icdot-C42.4
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C3167
+    label: Acute Lymphoblastic Leukemia
+  - id: pgx:icdom-98353
+    label: Precursor cell lymphoblastic leukemia, NOS
+  - id: pgx:icdot-C42.1
+    label: Bone marrow
+  examples:
+  - Acute lymphoblastic leukemia [cell line CCRF-CEM]
+  - Acute lymphoblastic leukemia [cell line MOLT-4]
+  - B acute lymphoblastic leukemia [cell line LCA-1]
+  - T acute lymphoblastic leukemia [cell line H33HJ-JA1]
+  - acute lymphoblastic leukemia [cell line BALL-1]
+  id: NCIT:C3167::pgx:icdom-98353::pgx:icdot-C42.1
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C3170
+    label: Acute Megakaryoblastic Leukemia
+  - id: pgx:icdom-99103
+    label: Acute megakaryoblastic leukaemia
+  - id: pgx:icdot-C42.1
+    label: Bone marrow
+  examples:
+  - Acute megakaryoblastic leukemia [cell line UoC-M1]
+  id: NCIT:C3170::pgx:icdom-99103::pgx:icdot-C42.1
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C3171
+    label: Acute myeloid leukemia
+  - id: pgx:icdom-98613
+    label: Acute myeloid leukemia, NOS
+  - id: pgx:icdot-C42.1
+    label: Bone marrow
+  examples:
+  - Acute Myeloid Leukemia;C42
+  - Mixed Cancer Types
+  id: NCIT:C3171::pgx:icdom-98613::pgx:icdot-C42.1
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C3172
+    label: Myeloid Leukemia
+  - id: pgx:icdom-98603
+    label: Myeloid leukemia, NOS
+  - id: pgx:icdot-C42.1
+    label: Bone marrow
+  examples:
+  - acute monocytic leukemia [cell line NOMO-1/ADM]
+  id: NCIT:C3172::pgx:icdom-98603::pgx:icdot-C42.1
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C3174
+    label: Chronic Myelogenous Leukemia, BCR-ABL1 Positive
+  - id: pgx:icdom-98633
+    label: Chronic myeloid leukemia, NOS
+  - id: pgx:icdot-C42.1
+    label: Bone marrow
+  examples:
+  - C42;Blast Phase Chronic Myelogenous Leukemia
+  - C42;Chronic Myelogenous Leukemia
+  - Chronic myelogenous leukemia [cell line MEG-01]
+  - Mixed Cancer Types
+  id: NCIT:C3174::pgx:icdom-98633::pgx:icdot-C42.1
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C3174
+    label: Chronic Myelogenous Leukemia, BCR-ABL1 Positive
+  - id: pgx:icdom-98753
+    label: Chronic myelogenous leukemia, BCR-ABL positive
+  - id: pgx:icdot-C42.1
+    label: Bone marrow
+  examples:
+  - Chronic myelogenous leukemia [cell line K-562]
+  - Chronic myelogenous leukemia [cell line K562/Adr]
+  - Chronic myelogenous leukemia, BCR-ABL1 positive [cell line K-562]
+  id: NCIT:C3174::pgx:icdom-98753::pgx:icdot-C42.1
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C3182
+    label: Acute promyelocytic leukemia with PML-RARA
+  - id: pgx:icdom-98663
+    label: Acute promyelocytic leukemia
+  - id: pgx:icdot-C42.1
+    label: Bone marrow
+  examples:
+  - Mixed Cancer Types
+  id: NCIT:C3182::pgx:icdom-98663::pgx:icdot-C42.1
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C3183
+    label: T Acute Lymphoblastic Leukemia
+  - id: pgx:icdom-98373
+    label: Precursor T-cell lymphoblastic leukemia
+  - id: pgx:icdot-C42.1
+    label: Bone marrow
+  examples:
+  - T acute lymphoblastic leukemia [Jurkat E6.1]
+  - T acute lymphoblastic leukemia [cell line J.gamma1]
+  - T acute lymphoblastic leukemia [cell line Jurkat D1.1]
+  - T acute lymphoblastic leukemia [cell line MOLT-4F]
+  - T acute lymphoblastic leukemia [cell line P116]
+  id: NCIT:C3183::pgx:icdom-98373::pgx:icdot-C42.1
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C3194
+    label: Liposarcoma
+  - id: pgx:icdom-88503
+    label: Liposarcoma, NOS
+  - id: pgx:icdot-C49.9
+    label: connective and soft tissue, nos
+  examples:
+  - C49;Liposarcoma
+  - Liposarcoma NOS [cell line LS14]
+  - Liposarcoma [cell line SW872]
+  - Pleomorphic liposarcoma [cell line LiSa-2]
+  id: NCIT:C3194::pgx:icdom-88503::pgx:icdot-C49.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C3209
+    label: Follicular Lymphoma
+  - id: pgx:icdom-96903
+    label: Follicular lymphoma, NOS
+  - id: pgx:icdot-C77.9
+    label: lymph nodes
+  examples:
+  - Follicular lymphoma [cell line SC-1]
+  - Follicular lymphoma [cell line WSU-NHL]
+  id: NCIT:C3209::pgx:icdom-96903::pgx:icdot-C77.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C3211
+    label: Non-Hodgkin Lymphoma
+  - id: pgx:icdom-95913
+    label: Malignant lymphoma, B-cell NOS
+  - id: pgx:icdot-C42.4
+    label: Hematopoietic system, NOS
+  examples:
+  - B acute lymphoblastic leukemia [cell line 380]
+  - Burkitt lymphoma [cell line BL-41]
+  - Burkitt lymphoma [cell line NAMALWA]
+  - Non-Hodgkin Lymphoma [cell line HBL-2]
+  - T cell non-Hodgkin lymphoma [cell line Mac-1]
+  id: NCIT:C3211::pgx:icdom-95913::pgx:icdot-C42.4
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C3211
+    label: Non-Hodgkin Lymphoma
+  - id: pgx:icdom-95913
+    label: Malignant lymphoma, B-cell NOS
+  - id: pgx:icdot-C77.9
+    label: lymph nodes
+  examples:
+  - B-cell non-Hodgkin lymphoma [cell line SCC-3]
+  - B-cell non-Hodgkin lymphoma [cell line TK]
+  - Burkitt lymphoma [cell line NAMALWA]
+  - transformed cell line WIL2 NS
+  id: NCIT:C3211::pgx:icdom-95913::pgx:icdot-C77.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C3222
+    label: Medulloblastoma
+  - id: pgx:icdom-94703
+    label: Medulloblastoma, NOS
+  - id: pgx:icdot-C71.6
+    label: cerebellum
+  examples:
+  - medulloblastoma [cell line D283 Med]
+  - medulloblastoma [cell line D341 Med]
+  - medulloblastoma [cell line D425 Med]
+  - medulloblastoma [cell line D458 Med]
+  - medulloblastoma [cell line Daoy]
+  id: NCIT:C3222::pgx:icdom-94703::pgx:icdot-C71.6
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C3224
+    label: Melanoma
+  - id: pgx:icdom-87203
+    label: Malignant melanoma
+  - id: pgx:icdot-C44.9
+    label: Skin, NOS
+  examples:
+  - Melanoma;C44
+  - Mixed Cancer Types
+  id: NCIT:C3224::pgx:icdom-87203::pgx:icdot-C44.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C3224
+    label: Melanoma
+  - id: pgx:icdom-87203
+    label: Malignant melanoma, NOS
+  - id: pgx:icdot-C76.9
+    label: ill-defined
+  examples:
+  - malignant melanoma [cell line CaCL 73-36]
+  - malignant melanoma [cell line M34]
+  id: NCIT:C3224::pgx:icdom-87203::pgx:icdot-C76.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C3230
+    label: Meningioma
+  - id: pgx:icdom-95300
+    label: Meningioma, NOS
+  - id: pgx:icdot-C70.9
+    label: Meninges, NOS
+  examples:
+  - Mixed Cancer Types
+  - meningioma [cell line 1174]
+  id: NCIT:C3230::pgx:icdom-95300::pgx:icdot-C70.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C3234
+    label: Mesothelioma
+  - id: pgx:icdom-90503
+    label: Mesothelioma, malignant
+  - id: pgx:icdot-C34.9
+    label: lung and bronchus
+  examples:
+  - mesothelioma [cell line NCI-H226]
+  id: NCIT:C3234::pgx:icdom-90503::pgx:icdot-C34.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C3242
+    label: Plasma Cell Myeloma
+  - id: pgx:icdom-97323
+    label: Multiple myeloma
+  - id: pgx:icdot-C42.1
+    label: Bone marrow
+  examples:
+  - Plasma cell myeloma [cell line KMS-12-PE]
+  - Plasma cell myeloma [cell line RPMI-8226]
+  - Plasma cell myeloma [cell line U266B1]
+  - plasma cell myeloma [cell line EJM]
+  - plasma cell myeloma [cell line RPMI-8226]
+  id: NCIT:C3242::pgx:icdom-97323::pgx:icdot-C42.1
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C3247
+    label: Myelodysplastic Syndrome
+  - id: pgx:icdom-99893
+    label: Myelodysplastic syndrome, NOS
+  - id: pgx:icdot-C42.1
+    label: Bone marrow
+  examples:
+  - Mixed Cancer Types
+  - Myelodysplastic syndrome [cell line F-36P]
+  id: NCIT:C3247::pgx:icdom-99893::pgx:icdot-C42.1
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C3270
+    label: Neuroblastoma
+  - id: pgx:icdom-95003
+    label: Neuroblastoma, NOS
+  - id: pgx:icdot-C34.9
+    label: lung and bronchus
+  examples:
+  - Neuroblastoma [cell line STA-NB-10/dmin]
+  - Neuroblastoma [cell line STA-NB-10/hsr]
+  - Neuroblastoma [cell line STA-NB-8]
+  - neuroblastoma [cell line STA-NB-3]
+  - neuroblastoma [cell line STA-NB-4]
+  id: NCIT:C3270::pgx:icdom-95003::pgx:icdot-C34.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C3270
+    label: Neuroblastoma
+  - id: pgx:icdom-95003
+    label: Neuroblastoma, NOS
+  - id: pgx:icdot-C40.0
+    label: bones and joints
+  examples:
+  - Neuroblastoma [cell line CHP100]
+  - Neuroblastoma [cell line SK-N-LO]
+  id: NCIT:C3270::pgx:icdom-95003::pgx:icdot-C40.0
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C3270
+    label: Neuroblastoma
+  - id: pgx:icdom-95003
+    label: Neuroblastoma, NOS
+  - id: pgx:icdot-C47.4
+    label: autonomic nervous system
+  examples:
+  - C71;neuroblastoma
+  - Mixed Cancer Types
+  - neuroblastoma;C72
+  id: NCIT:C3270::pgx:icdom-95003::pgx:icdot-C47.4
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C3270
+    label: Neuroblastoma
+  - id: pgx:icdom-95003
+    label: Neuroblastoma, NOS
+  - id: pgx:icdot-C47.9
+    label: peripheral nervs incl. autonomous
+  examples:
+  - Neuroblastoma [cell line CHP-134]
+  - neuroblastoma [cell line GOTO]
+  - neuroblastoma [cell line LA-N-1]
+  - neuroblastoma [cell line LA-N-2]
+  - neuroblastoma [cell line LA-N-5]
+  id: NCIT:C3270::pgx:icdom-95003::pgx:icdot-C47.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C3270
+    label: Neuroblastoma
+  - id: pgx:icdom-95003
+    label: Neuroblastoma, NOS
+  - id: pgx:icdot-C71.9
+    label: Brain, NOS
+  examples:
+  - Neuroblastoma [cell line CLB-Ma]
+  - Neuroblastoma [cell line SH-EP]
+  - Neuroblastoma [cell line SH-SY5Y]
+  - Neuroblastoma [cell line SK-N-SH]
+  - Neuroblastoma [cell line STA-NB-10]
+  id: NCIT:C3270::pgx:icdom-95003::pgx:icdot-C71.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C3270
+    label: Neuroblastoma
+  - id: pgx:icdom-95003
+    label: Neuroblastoma, NOS
+  - id: pgx:icdot-C76.9
+    label: adrenal gland
+  examples:
+  - neuroblastoma [cell line NB(TU)1]
+  id: NCIT:C3270::pgx:icdom-95003::pgx:icdot-C76.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C3288
+    label: Oligodendroglioma
+  - id: pgx:icdom-94503
+    label: Glioblastoma, NOS
+  - id: pgx:icdot-C71.9
+    label: Brain, NOS
+  examples:
+  - Mixed Cancer Types
+  - Oligodendroglioma [cell line Hs 683]
+  - oilgodendroglioma [cell line KG-1-C]
+  id: NCIT:C3288::pgx:icdom-94503::pgx:icdot-C71.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C3359
+    label: Rhabdomyosarcoma
+  - id: pgx:icdom-89003
+    label: Rhabdomyosarcoma, NOS
+  - id: pgx:icdot-C49.9
+    label: connective and soft tissue, nos
+  examples:
+  - Alveolar rhabdomyosarcoma [cell line Rh18c]
+  - Embryonal rhabdomyosarcoma [cell line RH36]
+  - Rhabdomyosarcoma [cell line GCT]
+  - Rhabdomyosarcoma [cell line Rh30]
+  - embryonal rhabdomyosarcoma [cell line RMS]
+  id: NCIT:C3359::pgx:icdom-89003::pgx:icdot-C49.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C34447
+    label: Head and neck squamous cell carcinoma
+  - id: pgx:icdom-80703
+    label: Squamous cell carcinoma, NOS
+  - id: pgx:icdot-C76.0
+    label: Head, face or neck, NOS
+  examples:
+  - ''
+  id: NCIT:C34447::pgx:icdom-80703::pgx:icdot-C76.0
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C34447
+    label: Head and neck squamous cell carcinoma
+  - id: pgx:icdom-80753
+    label: Squamous cell carcinoma
+  - id: pgx:icdot-C49.0
+    label: Head, neck
+  examples:
+  - Mixed Cancer Types
+  id: NCIT:C34447::pgx:icdom-80753::pgx:icdot-C49.0
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C34448
+    label: Carcinosarcoma
+  - id: pgx:icdom-89803
+    label: Carcinosarcoma, NOS
+  - id: pgx:icdot-C56.9
+    label: ovary
+  examples:
+  - Ovarian carcinosarcoma [cell line OCI-U1a]
+  id: NCIT:C34448::pgx:icdom-89803::pgx:icdot-C56.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C3457
+    label: B-cell non-Hodgkin lymphoma
+  - id: pgx:icdom-95913
+    label: Non-Hodgkin lymphoma, NOS
+  - id: pgx:icdot-C77.9
+    label: Lymph nodes, NOS
+  examples:
+  - B-Cell Neoplasm;C42
+  - C42;Burkitt Lymphoma
+  - C42;Lymphoma
+  - Mixed Cancer Types
+  id: NCIT:C3457::pgx:icdom-95913::pgx:icdot-C77.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C3467
+    label: Primary cutaneous T-cell non-Hodgkin lymphoma
+  - id: pgx:icdom-97093
+    label: Cutaneous T-cell lymphoma, NOS
+  - id: pgx:icdot-C44.9
+    label: Skin, NOS
+  examples:
+  - C42;T-Cell Lymphoma
+  - Cutaneous T Cell Lymphoma;C42
+  - Mixed Cancer Types
+  id: NCIT:C3467::pgx:icdom-97093::pgx:icdot-C44.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C3468
+    label: Mature T-Cell and NK-Cell Non-Hodgkin Lymphoma
+  - id: pgx:icdom-97143
+    label: Anaplastic large cell lymphoma, T cell and Null cell type
+  - id: pgx:icdot-C42.4
+    label: Hematopoietic system, NOS
+  examples:
+  - Anaplastic large cell lymphoma [cell line FE-PD]
+  - Anaplastic large cell lymphoma [cell line JB6]
+  - Anaplastic large cell lymphoma [cell line Karpas-299]
+  - Anaplastic large cell lymphoma [cell line L-82]
+  - anaplastic large cell lymphoma [cell line SR]
+  id: NCIT:C3468::pgx:icdom-97143::pgx:icdot-C42.4
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C3486
+    label: Epithelioid cell type gastrointestinal stromal tumor
+  - id: pgx:icdom-89363
+    label: Gastrointestinal stromal tumor, NOS
+  - id: pgx:icdot-C16.9
+    label: Stomach
+  examples:
+  - C64;Leiomyoblastoma
+  - Mixed Cancer Types
+  id: NCIT:C3486::pgx:icdom-89363::pgx:icdot-C16.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C3493
+    label: Squamous Cell Lung Carcinoma
+  - id: pgx:icdom-80703
+    label: Squamous cell carcinoma, NOS
+  - id: pgx:icdot-C34.9
+    label: lung and bronchus
+  examples:
+  - Squamous cell lung carcinoma [cell line NCI-H520]
+  - non-small cell Lung carcinoma [cell line LouNH91]
+  - squamous cell Lung carcinoma [cell line NCI-H2882]
+  - squamous cell lung carcinoma [HCC15]
+  - squamous cell lung carcinoma [HCC44]
+  id: NCIT:C3493::pgx:icdom-80703::pgx:icdot-C34.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C3510
+    label: Cutaneous Melanoma
+  - id: pgx:icdom-87203
+    label: Malignant melanoma, NOS
+  - id: pgx:icdot-C44.9
+    label: Skin, NOS
+  examples:
+  - malignant melanoma [cell line 1205Lu]
+  - malignant melanoma [cell line WM1366]
+  - malignant melanoma [cell line WM3248]
+  - malignant melanoma [cell line WM35]
+  - malignant melanoma [cell line WM88]
+  id: NCIT:C3510::pgx:icdom-87203::pgx:icdot-C44.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C3512
+    label: Lung Adenocarcinoma
+  - id: pgx:icdom-81403
+    label: Adenocarcinoma, NOS
+  - id: pgx:icdot-C34.9
+    label: lung and bronchus
+  examples:
+  - Lung adenocarcinoma [cell line HCC1171]
+  - Lung adenocarcinoma [cell line HCC193]
+  - Lung adenocarcinoma [cell line HCC461]
+  - Lung adenocarcinoma [cell line HCC515]
+  - lung adenocarcinoma [cell line NCI-H1819]
+  id: NCIT:C3512::pgx:icdom-81403::pgx:icdot-C34.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C3513
+    label: Esophageal Carcinoma
+  - id: pgx:icdom-80103
+    label: Carcinoma, NOS
+  - id: pgx:icdot-C15.9
+    label: esophagus
+  examples:
+  - Barret adenocarcinoma [cell line OE33]
+  id: NCIT:C3513::pgx:icdom-80103::pgx:icdot-C15.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C35417
+    label: Intrahepatic Cholangiocarcinoma
+  - id: pgx:icdom-81603
+    label: Cholangiocarcinoma
+  - id: pgx:icdot-C22.1
+    label: Intrahepatic bile duct
+  examples:
+  - Intrahepatic cholangiocarcinoma [cell line HuCC-T1]
+  - Mixed Cancer Types
+  id: NCIT:C35417::pgx:icdom-81603::pgx:icdot-C22.1
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C35875
+    label: Bronchogenic carcinoma
+  - id: pgx:icdom-80103
+    label: Carcinoma, NOS
+  - id: pgx:icdot-C34.9
+    label: 'Bronchogenic '
+  examples:
+  - Mixed Cancer Types
+  id: NCIT:C35875::pgx:icdom-80103::pgx:icdot-C34.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C36077
+    label: Hilar cholangiocarcinoma
+  - id: pgx:icdom-81623
+    label: Klatskin tumor
+  - id: pgx:icdot-C22.1
+    label: Bile duct
+  examples:
+  - Mixed Cancer Types
+  id: NCIT:C36077::pgx:icdom-81623::pgx:icdot-C22.1
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C36080
+    label: Diffuse large B-cell lymphoma germinal center B-cell type
+  - id: pgx:icdom-96803
+    label: Malignant lymphoma, large B-cell, diffuse, NOS
+  - id: pgx:icdot-C42.1
+    label: Bone marrow
+  examples:
+  - B-Cell Neoplasm;C42
+  - C42;Lymphoma
+  - C42;Precursor B-Lymphoblastic Leukemia
+  - C48;Lymphoma
+  - Mixed Cancer Types
+  id: NCIT:C36080::pgx:icdom-96803::pgx:icdot-C42.1
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C36081
+    label: Diffuse large B-cell lymphoma activated B-cell type
+  - id: pgx:icdom-96803
+    label: Malignant lymphoma, large B-cell, diffuse, NOS
+  - id: pgx:icdot-C42.1
+    label: Bone marrow
+  examples:
+  - Mixed Cancer Types
+  id: NCIT:C36081::pgx:icdom-96803::pgx:icdot-C42.1
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C3704
+    label: Dedifferentiated Liposarcoma
+  - id: pgx:icdom-88583
+    label: Dedifferentiated liposarcoma
+  - id: pgx:icdot-C49.9
+    label: connective and soft tissue, NOS
+  examples:
+  - Dedifferentiated Liposarcoma [cell line DDLS8817]
+  - Dedifferentiated Liposarcoma [cell line FU-DDLS-1]
+  - Dedifferentiated Liposarcoma [cell line LPS141]
+  id: NCIT:C3704::pgx:icdom-88583::pgx:icdot-C49.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C3712
+    label: Squamous cell papilloma
+  - id: pgx:icdom-80523
+    label: Squamous cell papilloma, NOS
+  - id: pgx:icdot-C80.9
+    label: Unknown primary site
+  examples:
+  - Mixed Cancer Types
+  id: NCIT:C3712::pgx:icdom-80523::pgx:icdot-C80.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C3716
+    label: Primitive neuroectodermal tumor
+  - id: pgx:icdom-94733
+    label: CNS primitive neuroectodermal tumor (PNET)
+  - id: pgx:icdot-C71
+    label: Brain
+  examples:
+  - Mixed Cancer Types
+  id: NCIT:C3716::pgx:icdom-94733::pgx:icdot-C71
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C37193
+    label: Anaplastic Large Cell Lymphoma, ALK-Positive
+  - id: pgx:icdom-97143
+    label: Anaplastic large cell lymphoma, ALK positive
+  - id: pgx:icdot-C77.9
+    label: Lymph nodes, NOS
+  examples:
+  - C42;Lymphoma
+  - L82 anaplastic large cell lymphoma cell line
+  - Mixed Cancer Types
+  id: NCIT:C37193::pgx:icdom-97143::pgx:icdot-C77.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C3720
+    label: Anaplastic Large Cell Lymphoma
+  - id: pgx:icdom-97143
+    label: Anaplastic large cell lymphoma, T cell and Null cell type
+  - id: pgx:icdot-C77.9
+    label: lymph nodes
+  examples:
+  - Anaplastic large cell lymphoma [cell line SR]
+  - Anaplastic large cell lymphoma [cell line Sup-M2-TS]
+  - anaplastic large cell lymphoma [cell line SR]
+  id: NCIT:C3720::pgx:icdom-97143::pgx:icdot-C77.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C3728
+    label: Hepatoblastoma
+  - id: pgx:icdom-89703
+    label: hepatoblastoma
+  - id: pgx:icdot-C22.0
+    label: Liver
+  examples:
+  - C22;Carcinoma
+  - Mixed Cancer Types
+  id: NCIT:C3728::pgx:icdom-89703::pgx:icdot-C22.0
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C37290
+    label: Head and neck basaloid carcinoma
+  - id: pgx:icdom-81233
+    label: Basaloid carcinoma
+  - id: pgx:icdot-C80.9
+    label: Unknown primary site
+  examples:
+  - Mixed Cancer Types
+  id: NCIT:C37290::pgx:icdom-81233::pgx:icdot-C80.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C3749
+    label: Alveolar rhabdomyosarcoma
+  - id: pgx:icdom-89203
+    label: Alveolar rhabdomyosarcoma
+  - id: pgx:icdot-C34.9
+    label: Lung and bronchus, NOS
+  examples:
+  - C49;Rhabdomyosarcoma
+  - Mixed Cancer Types
+  id: NCIT:C3749::pgx:icdom-89203::pgx:icdot-C34.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C3749
+    label: Alveolar Rhabdomyosarcoma
+  - id: pgx:icdom-89203
+    label: Alveolar Rhabdomyosarcoma, NOS
+  - id: pgx:icdot-C49.9
+    label: connective and soft tissue, NOS
+  examples:
+  - Alveolar rhabdomyosarcoma [cell line KYM-1]
+  id: NCIT:C3749::pgx:icdom-89203::pgx:icdot-C49.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C3756
+    label: Mixed Embryonal Carcinoma and Teratoma
+  - id: pgx:icdom-90813
+    label: Teratocarcinoma
+  - id: pgx:icdot-C56.9
+    label: ovary
+  examples:
+  - Ovarian germ cell tumor [cell line PA-1]
+  id: NCIT:C3756::pgx:icdom-90813::pgx:icdot-C56.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C3769
+    label: Endometrioid Adenocarcinoma
+  - id: pgx:icdom-83803
+    label: Endometrioid adenocarcinoma, NOS
+  - id: pgx:icdot-C56.9
+    label: ovary
+  examples:
+  - Ovarian endometrioid adenocarcinoma [cell line A2780]
+  - Ovarian endometrioid adenocarcinoma [cell line TOV-112D]
+  - ovarian endometrioid adenocarcinoma (Taxene treated) [cell line 1A9/T80]
+  - ovarian endometrioid adenocarcinoma (taxene treated) [cell line 1A9]
+  - ovarian endometrioid adenocarcinoma [cell line A2780/C200]
+  id: NCIT:C3769::pgx:icdom-83803::pgx:icdot-C56.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C3769
+    label: Endometrioid Adenocarcinoma
+  - id: pgx:icdom-83823
+    label: Endometrioid adenocarcinoma, secretory variant
+  - id: pgx:icdot-C55.9
+    label: uterus, nos
+  examples:
+  - Endometrial adenocarcinoma [cell line HEC-1]
+  - Endometrial adenocarcinoma [cell line Ishikawa (Heraklio) 02 ER-]
+  - endometrial adenocarcinoma [cell line AN3-CA]
+  id: NCIT:C3769::pgx:icdom-83823::pgx:icdot-C55.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C3771
+    label: Lobular Breast Carcinoma
+  - id: pgx:icdom-85203
+    label: Lobular carcinoma, NOS
+  - id: pgx:icdot-C50.9
+    label: Breast, NOS
+  examples:
+  - Invasive lobular breast carcinoma [cell line SUM44PE]
+  - Metastatic lobular breast carcinoma [cell line HCC2185]
+  id: NCIT:C3771::pgx:icdom-85203::pgx:icdot-C50.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C3792
+    label: Squamous Cell Neoplasm
+  - id: pgx:icdom-80701
+    label: Premalignant squamous epithelium, NOS
+  - id: pgx:icdot-C06.9
+    label: mouth, NOS
+  examples:
+  - Oral dysplasia [cell line DOK]
+  id: NCIT:C3792::pgx:icdom-80701::pgx:icdot-C06.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C3796
+    label: Gliosarcoma
+  - id: pgx:icdom-94423
+    label: Gliosarcoma
+  - id: pgx:icdot-C71.9
+    label: Brain, NOS
+  examples:
+  - Gliosarcoma  [cell line  SF-539]
+  - Gliosarcoma [cell line SF-539]
+  - Gliosarcoma [cell line SF539]
+  - Mixed Cancer Types
+  id: NCIT:C3796::pgx:icdom-94423::pgx:icdot-C71.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C3802
+    label: Amelanotic Melanoma
+  - id: pgx:icdom-87303
+    label: Amelanotic melanoma
+  - id: pgx:icdot-C44.9
+    label: Skin, NOS
+  examples:
+  - Amelanotic melanoma [cell line LOXIMVI]
+  - Malignant amelanotic melanoma [cell line LOX-IMVI]
+  - amelanotic melanoma  [cell line MDA-MB-435S]
+  - amelanotic melanoma [cell line A-375]
+  - amelanotic melanoma [cell line A375.S2]
+  id: NCIT:C3802::pgx:icdom-87303::pgx:icdot-C44.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C3812
+    label: Carcinoma of Unknown Primary
+  - id: pgx:icdom-80103
+    label: Carcinoma, NOS
+  - id: pgx:icdot-C80.9
+    label: Unknown primary site
+  examples:
+  - Mixed Cancer Types
+  id: NCIT:C3812::pgx:icdom-80103::pgx:icdot-C80.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C3844
+    label: Gallbladder carcinoma
+  - id: pgx:icdom-81403
+    label: Adenocarcinoma, NOS
+  - id: pgx:icdot-C23.9
+    label: gallbladder
+  examples:
+  - Mixed Cancer Types
+  - gallbladder carcinoma [cell line OCUG-1]
+  id: NCIT:C3844::pgx:icdom-81403::pgx:icdot-C23.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C3850
+    label: Pancreatic carcinoma
+  - id: pgx:icdom-80103
+    label: Carcinoma, NOS
+  - id: pgx:icdot-C25.9
+    label: pancreas
+  examples:
+  - C25;Carcinoma
+  - Mixed Cancer Types
+  - Pancreatic carcinoma [cell line KP-4]
+  id: NCIT:C3850::pgx:icdom-80103::pgx:icdot-C25.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C3871
+    label: Nasopharyngeal carcinoma
+  - id: pgx:icdom-80723
+    label: Squamous cell carcinoma, large cell, nonkeratinizing, NOS
+  - id: pgx:icdot-C11.9
+    label: nasopharynx
+  examples:
+  - Nasopharyngeal carcinoma [cell line 5-8F]
+  - Nasopharyngeal carcinoma [cell line 6-10B]
+  - Nasopharyngeal carcinoma [cell line C666]
+  - Nasopharyngeal carcinoma [cell line HONE-1]
+  - Nasopharyngeal carcinoma [cell line NPC-TW01]
+  id: NCIT:C3871::pgx:icdom-80723::pgx:icdot-C11.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C3878
+    label: Thyroid Gland Anaplastic Carcinoma
+  - id: pgx:icdom-80213
+    label: Carcinoma, anaplastic, NOS
+  - id: pgx:icdot-C73.9
+    label: thyroid gland
+  examples:
+  - C73;Carcinoma
+  - Mixed Cancer Types
+  - anaplastic thyroid carcinoma [cell line ASH-3]
+  - anaplastic thyroid carcinoma [cell line KMH-2]
+  - anaplastic thyroid carcinoma [cell line TCO-1]
+  id: NCIT:C3878::pgx:icdom-80213::pgx:icdot-C73.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C39851
+    label: Bladder Urothelial Carcinoma
+  - id: pgx:icdom-81203
+    label: Transitional cell carcinoma, NOS
+  - id: pgx:icdot-C67.0
+    label: Urinary bladder
+  examples:
+  - bladder carcinoma [cell line 5637]
+  - bladder carcinoma [cell line BOY-12E]
+  - bladder carcinoma [cell line HT-1197]
+  - bladder carcinoma [cell line HT-1376]
+  - bladder carcinoma [cell line TCCSUP]
+  id: NCIT:C39851::pgx:icdom-81203::pgx:icdot-C67.0
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C4001
+    label: Inflammatory breast carcinoma
+  - id: pgx:icdom-85303
+    label: Inflammatory carcinoma
+  - id: pgx:icdot-C50.9
+    label: Breast, NOS
+  examples:
+  - Inflammatory breast carcinoma [cell line SUM149PT]
+  - Inflammatory breast carcinoma [cell line SUM190PT]
+  - inflammatory breast carcinoma [cell line KPL-4]
+  id: NCIT:C4001::pgx:icdom-85303::pgx:icdot-C50.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C4004
+    label: Gastric Adenocarcinoma
+  - id: pgx:icdom-81403
+    label: Adenocarcinoma, NOS
+  - id: pgx:icdot-C16.9
+    label: stomach
+  examples:
+  - Gastric adenocarcinoma [cell line Hs 746T]
+  - Signe ring gastric adenocarcinoma [cell line KATO III]
+  - gastric adenocarcinoma [cell line AGS]
+  - gastric adenocarcinoma [cell line Fu97]
+  - gastric adenocarcinoma [cell line RERF-GC-1B]
+  id: NCIT:C4004::pgx:icdom-81403::pgx:icdot-C16.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C40078
+    label: Ovarian Clear Cell Adenocarcinoma
+  - id: pgx:icdom-83103
+    label: Clear cell adenocarcinoma, NOS
+  - id: pgx:icdot-C56.9
+    label: ovary
+  examples:
+  - ovarian carcinoma [cell line RMG-I]
+  - ovarian clear cell adenocarcinoma [cell line ES-2]
+  - ovarian clear cell adenocarcinoma [cell line OVMANA]
+  - ovarian clear cell adenocarcinoma [cell line OVTOKO]
+  - ovarian clear cell adenocarcinoma [cell line TOV21G]
+  id: NCIT:C40078::pgx:icdom-83103::pgx:icdot-C56.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C4017
+    label: Ductal Breast Carcinoma
+  - id: pgx:icdom-85003
+    label: Infiltrating duct carcinoma, NOS
+  - id: pgx:icdot-C50.9
+    label: Breast, NOS
+  examples:
+  - Squamous cell breast carcinoma [cell line HCC1806]
+  - breast carcinoma [cell line AU565]
+  - breast carcinoma [cell line BT-474]
+  - breast carcinoma [cell line BT-483]
+  - breast carcinoma [cell line BT-549]
+  id: NCIT:C4017::pgx:icdom-85003::pgx:icdot-C50.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C4022
+    label: Acral lentiginous melanoma
+  - id: pgx:icdom-87443
+    label: 'Acral Lentiginous Melanoma '
+  - id: pgx:icdot-C44.9
+    label: Skin, NOS
+  examples:
+  - Acral lentiginous melanoma [cell line WM3211]
+  id: NCIT:C4022::pgx:icdom-87443::pgx:icdot-C44.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C4024
+    label: Esophageal Squamous Cell Carcinoma
+  - id: pgx:icdom-80703
+    label: Squamous cell carcinoma, NOS
+  - id: pgx:icdot-C15.9
+    label: esophagus
+  examples:
+  - esophageal squamous cell carcinoma [cell line TE-1]
+  - esophageal squamous cell carcinoma [cell line TE-2]
+  - esophageal squamous cell carcinoma [cell line TE-3]
+  - esophageal squamous cell carcinoma [cell line YES-1]
+  - esophageal squamous cell carcinoma [cell line YES-2]
+  id: NCIT:C4024::pgx:icdom-80703::pgx:icdot-C15.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C4025
+    label: Esophageal Adenocarcinoma
+  - id: pgx:icdom-81403
+    label: Adenocarcinoma, NOS
+  - id: pgx:icdot-C15.9
+    label: esophagus
+  examples:
+  - C15;Esophageal Carcinoma
+  - Esophageal adenocarcinoma [cell line OE19]
+  - Esophageal adenocarcinoma [cell line PT1590]
+  - Mixed Cancer Types
+  - cancer cell line;T3N1M0;esophageal adenocarcinoma
+  id: NCIT:C4025::pgx:icdom-81403::pgx:icdot-C15.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C4026
+    label: Ovarian Mucinous Cystadenocarcinoma
+  - id: pgx:icdom-84703
+    label: Mucinous Cystadenocarcinoma, NOS
+  - id: pgx:icdot-C56.9
+    label: ovary
+  examples:
+  - Mixed Cancer Types
+  - Ovarian mucinous cystadenocarcinoma [cell line MCAS]
+  id: NCIT:C4026::pgx:icdom-84703::pgx:icdot-C56.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C4028
+    label: Cervical Squamous Cell Carcinoma, Not Otherwise Specified
+  - id: pgx:icdom-80703
+    label: Squamous cell carcinoma, NOS
+  - id: pgx:icdot-C53.9
+    label: cervix uteri
+  examples:
+  - cervix squamous carcinoma [cell line C-4-I]
+  - cervix squamous cell carcinoma [cell line C-33 A]
+  - cervix squamous cell carcinoma [cell line C-4-II]
+  - cervix squamous cell carcinoma [cell line Ca Ski]
+  - cervix squamous cell carcinoma [cell line HT-3]
+  id: NCIT:C4028::pgx:icdom-80703::pgx:icdot-C53.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C4029
+    label: Cervical Adenocarcinoma
+  - id: pgx:icdom-81403
+    label: Adenocarcinoma, NOS
+  - id: pgx:icdot-C53.9
+    label: cervix uteri
+  examples:
+  - Cervix adenocarcinoma [cell line HeLa]
+  id: NCIT:C4029::pgx:icdom-81403::pgx:icdot-C53.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C40318
+    label: Vulvar leiomyosarcoma
+  - id: pgx:icdom-88903
+    label: Leiomyosarcoma,NOS
+  - id: pgx:icdot-C51.9
+    label: Vulva
+  examples:
+  - C49;Sarcoma
+  - Mixed Cancer Types
+  id: NCIT:C40318::pgx:icdom-88903::pgx:icdot-C51.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C4031
+    label: Bladder squamous cell carcinoma
+  - id: pgx:icdom-80703
+    label: Squamous cell carcinoma, NOS
+  - id: pgx:icdot-C67.0
+    label: Urinary bladder
+  examples:
+  - Mixed Cancer Types
+  - Squamous Cell Carcinoma;C67
+  id: NCIT:C4031::pgx:icdom-80703::pgx:icdot-C67.0
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C4033
+    label: Clear Cell Renal Cell Carcinoma
+  - id: pgx:icdom-83103
+    label: Clear cell adenocarcinoma, NOS
+  - id: pgx:icdot-C64.9
+    label: kidney
+  examples:
+  - Clear cell renal carcinoma [cell line Caki-1]
+  - Clear cell renal cell carcinoma [cell line CAKI-1]
+  - clear cell renal carcinoma [cell line KMRC-1]
+  - clear cell renal carcinoma [cell line KMRC-20]
+  - clear cell renal carcinoma [cell line KMRC-2]
+  id: NCIT:C4033::pgx:icdom-83103::pgx:icdot-C64.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C40359
+    label: Squamous cell breast carcinoma, acantholytic variant
+  - id: pgx:icdom-80753
+    label: Acantholytic squamous cell carcinoma
+  - id: pgx:icdot-C50.9
+    label: Breast, NOS
+  examples:
+  - Mixed Cancer Types
+  id: NCIT:C40359::pgx:icdom-80753::pgx:icdot-C50.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C4035
+    label: Thyroid Gland Papillary Carcinoma
+  - id: pgx:icdom-82603
+    label: Papillary adenocarcinoma, NOS
+  - id: pgx:icdot-C73.9
+    label: thyroid gland
+  examples:
+  - papillary thyroid carcinoma [cell line IHH-4]
+  id: NCIT:C4035::pgx:icdom-82603::pgx:icdot-C73.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C4038
+    label: Lung carcinoid tumor
+  - id: pgx:icdom-82403
+    label: Carcinoid tumor, NOS
+  - id: pgx:icdot-C34.9
+    label: Lung and bronchus
+  examples:
+  - C34;Lung Atypical Carcinoid Tumor
+  - Mixed Cancer Types
+  id: NCIT:C4038::pgx:icdom-82403::pgx:icdot-C34.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C4041
+    label: Floor of Mouth Squamous Cell Carcinoma
+  - id: pgx:icdom-80703
+    label: Squamous cell carcinoma, NOS
+  - id: pgx:icdot-C04.9
+    label: floor of mouth
+  examples:
+  - ''
+  - Floor of mouth squamous cell carcinoma [cell line UT-SCC-47]
+  - oral cavity squamous cell carcinoma [cell line Ho-1-u-1l]
+  id: NCIT:C4041::pgx:icdom-80703::pgx:icdot-C04.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C4043
+    label: Hypopharyngeal squamous cell carcinoma
+  - id: pgx:icdom-80703
+    label: Squamous cell carcinoma
+  - id: pgx:icdot-C13
+    label: Hypopharynx
+  examples:
+  - C13;Carcinoma
+  - Mixed Cancer Types
+  id: NCIT:C4043::pgx:icdom-80703::pgx:icdot-C13
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C4043
+    label: Hypopharyngeal squamous cell carcinoma
+  - id: pgx:icdom-80703
+    label: Squamous cell carcinoma, NOS
+  - id: pgx:icdot-C13.9
+    label: Hypopharynx, NOS
+  examples:
+  - ''
+  id: NCIT:C4043::pgx:icdom-80703::pgx:icdot-C13.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C4044
+    label: Laryngeal Squamous Cell Carcinoma
+  - id: pgx:icdom-80703
+    label: Squamous cell carcinoma, NOS
+  - id: pgx:icdot-C32.9
+    label: Larynx, NOS
+  examples:
+  - ''
+  - Laryngeal squamous cell carcinoma [cell line UT-SCC-17]
+  - Laryngeal squamous cell carcinoma [cell line UT-SCC-23]
+  - Laryngeal squamous cell carcinoma [cell line UT-SCC-29]
+  - Mixed Cancer Types
+  id: NCIT:C4044::pgx:icdom-80703::pgx:icdot-C32.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C4047
+    label: Pilocytic astrocytoma
+  - id: pgx:icdom-94211
+    label: Pilocytic astrocytoma
+  - id: pgx:icdot-C71.9
+    label: Brain, NOS
+  examples:
+  - pilocytic astrocytoma
+  id: NCIT:C4047::pgx:icdom-94211::pgx:icdot-C71.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C4052
+    label: Vulvar squamous cell carcinoma
+  - id: pgx:icdom-80703
+    label: Squamous cell carcinoma, NOS
+  - id: pgx:icdot-C51.9
+    label: Vulva, NOS
+  examples:
+  - C51;Carcinoma
+  id: NCIT:C4052::pgx:icdom-80703::pgx:icdot-C51.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C4190
+    label: Intraductal Papillary Breast Carcinoma
+  - id: pgx:icdom-85032
+    label: Noninfiltrating intraductal papillary adenocarcinoma
+  - id: pgx:icdot-C50.9
+    label: Breast, NOS
+  examples:
+  - breast carcinoma [cell line BT-549]
+  id: NCIT:C4190::pgx:icdom-85032::pgx:icdot-C50.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C4194
+    label: Invasive Ductal Carcinoma, Not Otherwise Specified
+  - id: pgx:icdom-85003
+    label: Infiltrating duct carcinoma, NOS
+  - id: pgx:icdot-C50.9
+    label: Breast, NOS
+  examples:
+  - C50;Carcinoma
+  - Mixed Cancer Types
+  - breast adenocarcinoma [cell line MDA-MB-231]
+  id: NCIT:C4194::pgx:icdom-85003::pgx:icdot-C50.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C4247
+    label: Undifferentiated pleomorphic sarcoma
+  - id: pgx:icdom-88303
+    label: Malignant fibrous histiocytoma
+  - id: pgx:icdot-C49.9
+    label: connective and soft tissue, NOS
+  examples:
+  - C49;Sarcoma
+  - Mixed Cancer Types
+  id: NCIT:C4247::pgx:icdom-88303::pgx:icdot-C49.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C42700
+    label: Uterine carcinosarcoma
+  - id: pgx:icdom-89803
+    label: Carcinosarcoma, NOS
+  - id: pgx:icdot-C55.9
+    label: Uterus, NOS
+  examples:
+  - Mixed Cancer Types
+  id: NCIT:C42700::pgx:icdom-89803::pgx:icdot-C55.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C4270
+    label: Malignant ovarian Brenner tumor
+  - id: pgx:icdom-90003
+    label: Brenner tumor, malignant
+  - id: pgx:icdot-C56.9
+    label: Ovary, NOS
+  examples:
+  - Mixed Cancer Types
+  id: NCIT:C4270::pgx:icdom-90003::pgx:icdot-C56.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C4277
+    label: Spindle Cell Synovial Sarcoma
+  - id: pgx:icdom-90413
+    label: Synovial sarcoma, spindle cell
+  - id: pgx:icdot-C49.9
+    label: connective and soft tissue, NOS
+  examples:
+  - Monophasic synovial sarcoma [cell line HS-SY-2]
+  - Synovial sarcoma [cell line Fuji]
+  id: NCIT:C4277::pgx:icdom-90413::pgx:icdot-C49.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C4279
+    label: Biphasic synovial sarcoma
+  - id: pgx:icdom-90433
+    label: Synovial sarcoma, biphasic
+  - id: pgx:icdot-C49.9
+    label: connective and soft tissue, NOS
+  examples:
+  - Biphasic synovial sarcoma [cell line SYO-1]
+  - C49;Synovial Sarcoma
+  id: NCIT:C4279::pgx:icdom-90433::pgx:icdot-C49.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C4286
+    label: Immature Teratoma
+  - id: pgx:icdom-90803
+    label: Teratoma, malignant. NOS
+  - id: pgx:icdot-C62.9
+    label: testis
+  examples:
+  - testicular teratoma [cell line GCT 27]
+  id: NCIT:C4286::pgx:icdom-90803::pgx:icdot-C62.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C4304
+    label: Malignancy in giant cell tumor of bone
+  - id: pgx:icdom-92503
+    label: Giant cell tumor of bone, malignant
+  - id: pgx:icdot-C41.9
+    label: Bone, NOS
+  examples:
+  - Mixed Cancer Types
+  id: NCIT:C4304::pgx:icdom-92503::pgx:icdot-C41.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C43223
+    label: Myeloid Leukemia associated with Down syndrome
+  - id: pgx:icdom-98983
+    label: Myeloid leukemia associated with Down syndrome
+  - id: pgx:icdot-C42.1
+    label: Bone marrow
+  examples:
+  - C16;Carcinoma
+  - Mixed Cancer Types
+  id: NCIT:C43223::pgx:icdom-98983::pgx:icdot-C42.1
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C4337
+    label: Mantle Cell Lymphoma
+  - id: pgx:icdom-96733
+    label: Mantle cell lymphoma
+  - id: pgx:icdot-C77.9
+    label: lymph nodes
+  examples:
+  - Mantle cell lymphoma [cell line JVM-2]
+  - Mantle cell lymphoma [cell line UPN2]
+  - mantle cell lymphoma [cell line Granta-519]
+  - mantle cell lymphoma [cell line JeKo-1]
+  - mantle cell lymphoma [cell line Mino]
+  id: NCIT:C4337::pgx:icdom-96733::pgx:icdot-C77.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C4341
+    label: Marginal Zone Lymphoma
+  - id: pgx:icdom-96993
+    label: Marginal zone B-cell lymphoma, NOS
+  - id: pgx:icdot-C42.4
+    label: Hematopoietic system, NOS
+  examples:
+  - Marginal zone lymphoma [cell line SSK41]
+  id: NCIT:C4341::pgx:icdom-96993::pgx:icdot-C42.4
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C4349
+    label: Colon Adenocarcinoma
+  - id: pgx:icdom-81403
+    label: Adenocarcinoma, NOS
+  - id: pgx:icdot-C18.9
+    label: Colon, NOS
+  examples:
+  - Colon carcinoma [cell line HCT 116]
+  - colorectal adenocarcinoma [cell line COLO 320]
+  - colorectal adenocarcinoma [cell line MT-3]
+  - colorectal adenocarcinoma [cell line SW626]
+  - rectosigmoid adenocarcinoma [cell line HT-29]
+  id: NCIT:C4349::pgx:icdom-81403::pgx:icdot-C18.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C4436
+    label: Cholangiocarcinoma
+  - id: pgx:icdom-81603
+    label: Cholangiocarcinoma
+  - id: pgx:icdot-C24.9
+    label: Extrahepatic and unspecified bile ducts
+  examples:
+  - Mixed Cancer Types
+  id: NCIT:C4436::pgx:icdom-81603::pgx:icdot-C24.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C4450
+    label: Large cell lung carcinoma
+  - id: pgx:icdom-80123
+    label: Large cell carcinoma, NOS
+  - id: pgx:icdot-C34.9
+    label: lung and bronchus
+  examples:
+  - Large cell lung carcinoma [cell line LCLC-97TMI]
+  - Large cell lung carcinoma [cell line NCI-H1299]
+  - large cell lung carcinoma [cell line LCLC-103-H]
+  - large cell lung carcinoma [cell line NCI-H1155]
+  - large cell lung carcinoma [cell line NCI-H661]
+  id: NCIT:C4450::pgx:icdom-80123::pgx:icdot-C34.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C4452
+    label: Lung giant cell carcinoma
+  - id: pgx:icdom-80313
+    label: Giant cell carcinoma
+  - id: pgx:icdot-C34.9
+    label: lung and bronchus
+  examples:
+  - Lung giant cell carcinoma [cell line HCC1359]
+  - Lung giant cell carcinoma [cell line LU-65A]
+  - Lung giant cell carcinoma [cell line LU-65B]
+  - Lung giant cell carcinoma [cell line Lu-65]
+  - Lung giant cell carcinoma [cell line Lu-99A]
+  id: NCIT:C4452::pgx:icdom-80313::pgx:icdot-C34.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C4456
+    label: Malignant Mesothelioma
+  - id: pgx:icdom-90503
+    label: Mesothelioma, malignant
+  - id: pgx:icdot-C34.9
+    label: lung and bronchus
+  examples:
+  - Pleural biphasic mesothelioma [cell line MSTO-211H]
+  - Pleural biphasic mesothelioma [cell line NCI-H2452]
+  - Pleural sarcomatoid mesothelioma [cell line NCI-H2052]
+  - Pleural sarcomatoid mesothelioma [cell line NCI-H28]
+  - mesothelioma [cell line NCI-H226]
+  id: NCIT:C4456::pgx:icdom-90503::pgx:icdot-C34.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C4456
+    label: Malignant Mesothelioma
+  - id: pgx:icdom-90503
+    label: Mesothelioma, malignant
+  - id: pgx:icdot-C49.9
+    label: connective and soft tissue, NOS
+  examples:
+  - Pleural malignant mesothelioma [cell line GAY2911]
+  - Pleural malignant mesothelioma [cell line JU77]
+  - pleural biphasic mesothelioma [cell line JMN]
+  - pleural malignant mesothelioma [cell line HO275]
+  - pleural malignant mesothelioma [cell line LO68]
+  id: NCIT:C4456::pgx:icdom-90503::pgx:icdot-C49.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C4519
+    label: Cervical adenosquamous carcinoma
+  - id: pgx:icdom-85603
+    label: Adenosquamous carcinoma
+  - id: pgx:icdot-C53.9
+    label: cervix uteri
+  examples:
+  - Cervical adenosquamous carcinoma [cell line CC-10A]
+  - Cervical adenosquamous carcinoma [cell line CC-10B]
+  - Cervical adenosquamous carcinoma [cell line CC-11+]
+  - Cervical adenosquamous carcinoma [cell line CC-11-]
+  - Cervical adenosquamous carcinoma [cell line CC-8]
+  id: NCIT:C4519::pgx:icdom-85603::pgx:icdot-C53.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C45544
+    label: Lung mucoepidermoid carcinoma
+  - id: pgx:icdom-84303
+    label: Mucoepidermoid carcinoma
+  - id: pgx:icdot-C34.9
+    label: lung and bronchus
+  examples:
+  - Lung mucoepidermoid carcinoma [cell line EPLC-272H]
+  - Mixed Cancer Types
+  id: NCIT:C45544::pgx:icdom-84303::pgx:icdot-C34.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C4563
+    label: Chronic eosinophilic leukemia, not otherwise specified
+  - id: pgx:icdom-99643
+    label: Chronic eosinophilic leukemia, NOS
+  - id: pgx:icdot-C42.4
+    label: Hematopoietic system, NOS
+  examples:
+  - Mixed Cancer Types
+  id: NCIT:C4563::pgx:icdom-99643::pgx:icdot-C42.4
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C45655
+    label: Sarcomatoid Mesothelioma
+  - id: pgx:icdom-90513
+    label: Fibrous mesothelioma, malignant
+  - id: pgx:icdot-C49.9
+    label: connective and soft tissue, NOS
+  examples:
+  - Pleural sarcomatoid mesothelioma [cell line NCI-H2373]
+  - Pleural sarcomatoid mesothelioma [cell line VAMT-1]
+  id: NCIT:C45655::pgx:icdom-90513::pgx:icdot-C49.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C45662
+    label: Pleural epithelioid mesothelioma
+  - id: pgx:icdom-90523
+    label: Epithelioid mesothelioma, NOS
+  - id: pgx:icdot-C38.4
+    label: Pleura, Nos
+  examples:
+  - Lung Carcinoma;C34
+  - Mixed Cancer Types
+  id: NCIT:C45662::pgx:icdom-90523::pgx:icdot-C38.4
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C45663
+    label: Pleural sarcomatoid mesothelioma
+  - id: pgx:icdom-90513
+    label: Sarcomatoid mesothelioma
+  - id: pgx:icdot-C38.4
+    label: Pleura, Nos
+  examples:
+  - C34;Mesothelioma
+  - Mixed Cancer Types
+  id: NCIT:C45663::pgx:icdom-90513::pgx:icdot-C38.4
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C45665
+    label: Pleural biphasic mesothelioma
+  - id: pgx:icdom-90533
+    label: Mesothelioma, biphasic, malignant
+  - id: pgx:icdot-C38.4
+    label: pleura
+  examples:
+  - Mixed Cancer Types
+  - pleural biphasic mesothelioma [cell line H-MESO-1A]
+  - pleural biphasic mesothelioma [cell line H-MESO-1]
+  - pleural biphasic mesothelioma [cell line Y-MESO-8D
+  id: NCIT:C45665::pgx:icdom-90533::pgx:icdot-C38.4
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C46008
+    label: Thyroid gland squamous cell carcinoma
+  - id: pgx:icdom-80703
+    label: Squamous cell carcinoma
+  - id: pgx:icdot-C73.9
+    label: Thyroid gland
+  examples:
+  - C73;Carcinoma
+  - Mixed Cancer Types
+  id: NCIT:C46008::pgx:icdom-80703::pgx:icdot-C73.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C46099
+    label: Hereditary thyroid gland medullary carcinoma
+  - id: pgx:icdom-85103
+    label: Medullary carcinoma, NOS
+  - id: pgx:icdot-C73.9
+    label: Thyroid gland
+  examples:
+  - Mixed Cancer Types
+  id: NCIT:C46099::pgx:icdom-85103::pgx:icdot-C73.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C4646
+    label: Gestational choriocarcinoma
+  - id: pgx:icdom-91003
+    label: Choriocarcinoma, NOS
+  - id: pgx:icdot-C55.9
+    label: uterus, NOS
+  examples:
+  - C58;Choriocarcinoma
+  - Gastational choriocarcinoma [cell line JAR]
+  id: NCIT:C4646::pgx:icdom-91003::pgx:icdot-C55.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C4648
+    label: Tongue Squamous Cell Carcinoma
+  - id: pgx:icdom-80703
+    label: Squamous cell carcinoma, NOS
+  - id: pgx:icdot-C01.9
+    label: tongue
+  examples:
+  - salivary gland squamous cell carcinoma [cell line A-253]
+  - tongue squamous cell carcinoma [cell line CAL-27]
+  - tongue squamous cell carcinoma [cell line SCC-15]
+  - tongue squamous cell carcinoma [cell line SCC-4]
+  - tongue squamous cell carcinoma [cell line SCC-9]
+  id: NCIT:C4648::pgx:icdom-80703::pgx:icdot-C01.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C4648
+    label: Tongue Squamous Cell Carcinoma
+  - id: pgx:icdom-80703
+    label: Squamous cell carcinoma, NOS
+  - id: pgx:icdot-C02.9
+    label: Tongue, NOS
+  examples:
+  - ''
+  - Mixed Cancer Types
+  - Tongue squamous cell carcinoma [cell line UT-SCC-15]
+  - Tongue squamous cell carcinoma [cell line UT-SCC-25]
+  id: NCIT:C4648::pgx:icdom-80703::pgx:icdot-C02.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C4663
+    label: Splenic Marginal Zone Lymphoma
+  - id: pgx:icdom-96893
+    label: Splenic marginal zone B-cell lymphoma
+  - id: pgx:icdot-C42.2
+    label: Spleen
+  examples:
+  - Splenic marginal zone lymphoma [cell line VL51]
+  id: NCIT:C4663::pgx:icdom-96893::pgx:icdot-C42.2
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C4664
+    label: T-cell large granular lymphocyte leukemia
+  - id: pgx:icdom-98313
+    label: T-cell large granular lymphocytic leukemia
+  - id: pgx:icdot-C42.1
+    label: Bone marrow
+  examples:
+  - Mixed Cancer Types
+  id: NCIT:C4664::pgx:icdom-98313::pgx:icdot-C42.1
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C4673
+    label: Acute Biphenotypic Leukemia
+  - id: pgx:icdom-98053
+    label: Acute biphenotypic leukemia
+  - id: pgx:icdot-C42.1
+    label: Bone marrow
+  examples:
+  - acute biphenotypic leukemia [cell line MY]
+  id: NCIT:C4673::pgx:icdom-98053::pgx:icdot-C42.1
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C4684
+    label: Nasal type extranodal NK/T-cell lymphoma
+  - id: pgx:icdom-97193
+    label: Extranodal NK-/T-cell lymphoma, nasal type
+  - id: pgx:icdot-C30.0
+    label: Nasal cavity
+  examples:
+  - HANK-1 NK/T-cell lymphoma cell line
+  - NK-YS NK/T-cell lymphoma cell line
+  - SNK-6 NK/T-cell lymphoma cell line
+  - SNT8 NK/T-cell lymphoma cell line
+  id: NCIT:C4684::pgx:icdom-97193::pgx:icdot-C30.0
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C4753
+    label: B-cell prolymphocytic leukemia
+  - id: pgx:icdom-98333
+    label: B-cell prolymphocytic leukemia
+  - id: pgx:icdot-C42.1
+    label: Bone marrow
+  examples:
+  - C25;Carcinoma
+  - C42;Acute B Cell Lymphocytic Leukemia
+  - Mixed Cancer Types
+  id: NCIT:C4753::pgx:icdom-98333::pgx:icdot-C42.1
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C4817
+    label: Ewing Sarcoma
+  - id: pgx:icdom-92603
+    label: Ewing sarcoma
+  - id: pgx:icdot-C40.0
+    label: bones and joints
+  examples:
+  - Ewing sarcoma [cell line A-673]
+  - Ewing sarcoma [cell line A4573]
+  - Ewing sarcoma [cell line CADO-ES1]
+  - Ewing sarcoma [cell line SK-ES-1]
+  - Ewing sarcoma [cell line SK-NEP-1]
+  id: NCIT:C4817::pgx:icdom-92603::pgx:icdot-C40.0
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C4817
+    label: Ewing Sarcoma
+  - id: pgx:icdom-92603
+    label: EWING SARCOMA
+  - id: pgx:icdot-C41.9
+    label: Bone, NOS
+  examples:
+  - C25;Carcinoma
+  - C49;Rhabdomyosarcoma
+  - C49;Sarcoma
+  - C64;Wilms tumour
+  - Ewing's Sarcoma [cell line SKES1]
+  id: NCIT:C4817::pgx:icdom-92603::pgx:icdot-C41.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C4819
+    label: Skin Squamous Cell Carcinoma
+  - id: pgx:icdom-80703
+    label: Squamous cell carcinoma, NOS
+  - id: pgx:icdot-C44.9
+    label: Skin, NOS
+  examples:
+  - Vulvar squamous cell carcinoma [cell line A-431]
+  id: NCIT:C4819::pgx:icdom-80703::pgx:icdot-C44.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C4827
+    label: Adrenal gland neuroblastoma
+  - id: pgx:icdom-95003
+    label: Neuroblastoma, NOS
+  - id: pgx:icdot-C74.9
+    label: Adrenal gland, NOS
+  examples:
+  - Mixed Cancer Types
+  id: NCIT:C4827::pgx:icdom-95003::pgx:icdot-C74.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C4833
+    label: Oral Cavity Squamous Cell Carcinoma
+  - id: pgx:icdom-80703
+    label: Squamous cell carcinoma, NOS
+  - id: pgx:icdot-C06.9
+    label: mouth, NOS
+  examples:
+  - Head and neck squamous cell carcinoma [cell line KOSC-2]
+  - Head and neck squamous cell carcinoma [cell line SAT]
+  - Head and neck squamous cell carcinoma [cell line SKN-3]
+  - Oral cavity squamous cell carcinoma [cell line HO-1-N-1]
+  - oral cavity squamous cell carcinoma [cell line KONl]
+  id: NCIT:C4833::pgx:icdom-80703::pgx:icdot-C06.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C4861
+    label: Acute Monocytic Leukemia
+  - id: pgx:icdom-98913
+    label: acute monocytic leukemia
+  - id: pgx:icdot-C42.1
+    label: Bone marrow
+  examples:
+  - Acute monocytic leukemia [cell line U937]
+  - Childhood acute monocytic leukemia
+  - acute monocytic leukemia [cell line Mono-Mac-1]
+  - acute monocytic leukemia [cell line TUR]
+  id: NCIT:C4861::pgx:icdom-98913::pgx:icdot-C42.1
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C4863
+    label: Prostate carcinoma
+  - id: pgx:icdom-80103
+    label: Carcinoma, NOS
+  - id: pgx:icdot-C61.9
+    label: Prostate gland
+  examples:
+  - Prostate carcinoma [cell line DU145 DTP]
+  - Prostate carcinoma [cell line DU145/RC0.1]
+  - Prostate carcinoma [cell line LNCaP clone FGC]
+  - prostate carcinoma [cell line 22Rv1]
+  - prostate carcinoma [cell line DU145]
+  id: NCIT:C4863::pgx:icdom-80103::pgx:icdot-C61.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C4866
+    label: Vulvar carcinoma
+  - id: pgx:icdom-80103
+    label: Carcinoma
+  - id: pgx:icdot-C51.9
+    label: Vulva
+  examples:
+  - C51;Carcinoma
+  id: NCIT:C4866::pgx:icdom-80103::pgx:icdot-C51.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C4872
+    label: Breast carcinoma
+  - id: pgx:icdom-80103
+    label: Carcinoma, NOS
+  - id: pgx:icdot-C50.9
+    label: Breast, NOS
+  examples:
+  - C50;Carcinoma
+  - Mixed Cancer Types
+  id: NCIT:C4872::pgx:icdom-80103::pgx:icdot-C50.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C4878
+    label: Lung Carcinoma
+  - id: pgx:icdom-80103
+    label: Carcinoma, NOS
+  - id: pgx:icdot-C34.9
+    label: lung and bronchus
+  examples:
+  - Lung adenocarcinoma [cell line NCI-H2030]
+  - Lung carcinoma [cell line MB-9812]
+  - Lung carcinoma [cell line UMC-11]
+  - lung carcinoma [cell line Hs573.T]
+  - small cell lung carcinoma [cell line NCI-H211]
+  id: NCIT:C4878::pgx:icdom-80103::pgx:icdot-C34.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C4908
+    label: Ovarian Carcinoma
+  - id: pgx:icdom-80103
+    label: Carcinoma, NOS
+  - id: pgx:icdot-C56.9
+    label: ovary
+  examples:
+  - Ovarian carcinoma [cell line A-1847]
+  - Ovarian carcinoma [cell line ACC-OV68A]
+  - Ovarian carcinoma [cell line OV-2008]
+  - Ovarian clear cell adenocarcinoma (Taxene treated) [cell line ES-2/T80]
+  - Ovarian clear cell adenocarcinoma (Taxene treated) [cell line ES-2/TxT50]
+  id: NCIT:C4908::pgx:icdom-80103::pgx:icdot-C56.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C4910
+    label: Colon Carcinoma
+  - id: pgx:icdom-80103
+    label: Carcinoma, NOS
+  - id: pgx:icdot-C18.9
+    label: Colon, NOS
+  examples:
+  - Colon carcinoma [cell line HCT-116]
+  - Colon carcinoma [cell line KM12]
+  - Colorectal carcinoma [cell line VACO 394]
+  - Colorectal carcinoma [cell line VACO 410]
+  - colon cancer [cell line Colo320DM]
+  id: NCIT:C4910::pgx:icdom-80103::pgx:icdot-C18.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C4911
+    label: Gastric carcinoma
+  - id: pgx:icdom-80103
+    label: Carcinoma, NOS
+  - id: pgx:icdot-C16.9
+    label: stomach
+  examples:
+  - Gastric carcinoma [cell line SNU-16]
+  - Gastric carcinoma [cell line SNU-1]
+  - Gastric carcinoma [cell line SNU-5]
+  - Mixed Cancer Types
+  - gastric carcinoma [cell line HGC-27]
+  id: NCIT:C4911::pgx:icdom-80103::pgx:icdot-C16.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C4912
+    label: Bladder Carcinoma
+  - id: pgx:icdom-80103
+    label: Carcinoma, NOS
+  - id: pgx:icdot-C67.0
+    label: Urinary bladder
+  examples:
+  - C67;Carcinoma
+  - Mixed Cancer Types
+  - bladder carcinoma [cell line 1A6]
+  id: NCIT:C4912::pgx:icdom-80103::pgx:icdot-C67.0
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C4917
+    label: Lung Small Cell Carcinoma
+  - id: pgx:icdom-80413
+    label: Small cell carcinoma, NOS
+  - id: pgx:icdot-C34.9
+    label: lung and bronchus
+  examples:
+  - Small cell lung carcinoma [cell line NCI-H1417]
+  - Small cell lung carcinoma [cell line NCI-H1963]
+  - Small cell lung carcinoma [cell line NCI-H748]
+  - Small cell lung carcinoma [cell line NCI-H889]
+  - small cell Lung carcinoma [cell line NCI-H146]
+  id: NCIT:C4917::pgx:icdom-80413::pgx:icdot-C34.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C5027
+    label: Malignant Testicular Non-Seminomatous Germ Cell Tumor
+  - id: pgx:icdom-90653
+    label: Germ cell tumor, nonseminomatous
+  - id: pgx:icdot-C62.9
+    label: testis
+  examples:
+  - testicular embryonal carcinoma [cell line NEC8]
+  - testicular teratoma [cell line SuSA]
+  id: NCIT:C5027::pgx:icdom-90653::pgx:icdot-C62.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C5161
+    label: Pleomorphic breast carcinoma
+  - id: pgx:icdom-80223
+    label: Pleomorphic carcinoma
+  - id: pgx:icdot-C50.9
+    label: Breast, NOS
+  examples:
+  - Pleomorphic breast carcinoma [cell line SUM159PT]
+  id: NCIT:C5161::pgx:icdom-80223::pgx:icdot-C50.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C5214
+    label: Breast Adenocarcinoma
+  - id: pgx:icdom-81403
+    label: Adenocarcinoma, NOS
+  - id: pgx:icdot-C50.9
+    label: Breast, NOS
+  examples:
+  - Breast adenocarcinoma [cell line MDA-MB-231]
+  - C50;Carcinoma
+  - Mixed Cancer Types
+  - breast cancer [cell line IMR90]
+  - breast cancer [cell line MCF7]
+  id: NCIT:C5214::pgx:icdom-81403::pgx:icdot-C50.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C5228
+    label: Ovarian Cystadenocarcinoma
+  - id: pgx:icdom-84403
+    label: Cystadenocarcinoma, NOS
+  - id: pgx:icdot-C56.9
+    label: ovary
+  examples:
+  - Ovarian cystadenocarcinoma [cell line OAW42]
+  - Ovarian cystadenocarcinoma [cell line PEO6]
+  - Ovarian cystoadenocarcinoma [cell line IGROV-1]
+  id: NCIT:C5228::pgx:icdom-84403::pgx:icdot-C56.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C5234
+    label: Ovarian leiomyosarcoma
+  - id: pgx:icdom-88903
+    label: Leiomyosarcoma, NOS
+  - id: pgx:icdot-C56.9
+    label: ovary
+  examples:
+  - Mixed Cancer Types
+  - ovarian leiomyosarcoma [cell line RKN]
+  id: NCIT:C5234::pgx:icdom-88903::pgx:icdot-C56.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C5243
+    label: Ovarian Mucinous Adenocarcinoma
+  - id: pgx:icdom-84803
+    label: Mucinous adenocarcinoma
+  - id: pgx:icdot-C56.9
+    label: ovary
+  examples:
+  - Mixed Cancer Types
+  - Ovarian mucinous adenocarcinoma [cell line OCI-M1p]
+  id: NCIT:C5243::pgx:icdom-84803::pgx:icdot-C56.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C5248
+    label: Gastric mucinous adenocarcinoma
+  - id: pgx:icdom-84803
+    label: Mucinous adenocarcinoma, NOS
+  - id: pgx:icdot-C16.9
+    label: Stomach
+  examples:
+  - Mixed Cancer Types
+  id: NCIT:C5248::pgx:icdom-84803::pgx:icdot-C16.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C5250
+    label: Signet ring cell gastric adenocarcinoma
+  - id: pgx:icdom-84903
+    label: Signet ring cell carcinoma
+  - id: pgx:icdot-C16.9
+    label: stomach
+  examples:
+  - Mixed Cancer Types
+  - signet ring gastric adenocarcinoma [cell line NUGC-4]
+  - signet ring gastric adenocarcinoma [cell line OCUM-1]
+  id: NCIT:C5250::pgx:icdom-84903::pgx:icdot-C16.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C5250
+    label: Signet ring cell gastric adenocarcinoma
+  - id: pgx:icdom-89403
+    label: Signet ring cell carcinoma
+  - id: pgx:icdot-C16.9
+    label: stomach
+  examples:
+  - Mixed Cancer Types
+  - Signet ring cell gastric adenocarcinoma [cell line GP202]
+  - Signet ring cell gastric adenocarcinoma [cell line GP220]
+  id: NCIT:C5250::pgx:icdom-89403::pgx:icdot-C16.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C5473
+    label: Gastric tubular adenocarcinoma
+  - id: pgx:icdom-82113
+    label: Tubular adenocarcinoma
+  - id: pgx:icdot-C16.9
+    label: stomach
+  examples:
+  - Gastric tubular adenocarcinoma [cell line MKN28]
+  - Gastric tubular adenocarcinoma [cell line MKN74]
+  - Gastric tubular adenocarcinoma [cell line MKN7]
+  - gastric tubular adenocarcinoma [cell line MKN7]
+  - gastric tubular adenocarcinoma [cell line NCI-N87]
+  id: NCIT:C5473::pgx:icdom-82113::pgx:icdot-C16.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C5474
+    label: Gastric adenosquamous carcinoma
+  - id: pgx:icdom-85603
+    label: Adenosquamous carcinoma
+  - id: pgx:icdot-C16.9
+    label: stomach
+  examples:
+  - Gastric adenosquamous carcinoma [cell line MKN1]
+  - Mixed Cancer Types
+  id: NCIT:C5474::pgx:icdom-85603::pgx:icdot-C16.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C5543
+    label: Cecum adenocarcinoma
+  - id: pgx:icdom-81403
+    label: Adenocarcinoma, NOS
+  - id: pgx:icdot-C18.0
+    label: Cecum
+  examples:
+  - C18;Carcinoma
+  - Mixed Cancer Types
+  id: NCIT:C5543::pgx:icdom-81403::pgx:icdot-C18.0
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C5650
+    label: Papillary lung adenocarcinoma
+  - id: pgx:icdom-82603
+    label: Papillary adenocarcinoma, NOS
+  - id: pgx:icdot-C34.9
+    label: lung and bronchus
+  examples:
+  - C34;Adenocarcinoma
+  - C34;Papillary Lung Adenocarcinoma
+  - Mixed Cancer Types
+  - papillary lung adenocarcinoma [cell line NCI-H441]
+  - papillary lung adenocarcinoma [cell line NCI-H820]
+  id: NCIT:C5650::pgx:icdom-82603::pgx:icdot-C34.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C5721
+    label: Pancreatic adenosquamous carcinoma
+  - id: pgx:icdom-85603
+    label: Adenosquamous carcinoma
+  - id: pgx:icdot-C25.9
+    label: pancreas
+  examples:
+  - Mixed Cancer Types
+  - Pancreatic adenosquamous carcinoma [cell line KP-3]
+  id: NCIT:C5721::pgx:icdom-85603::pgx:icdot-C25.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C6040
+    label: Poorly differentiated thyroid gland carcinoma
+  - id: pgx:icdom-80203
+    label: Carcinoma, undifferentiated, NOS
+  - id: pgx:icdot-C73.9
+    label: Thyroid gland
+  examples:
+  - Mixed Cancer Types
+  id: NCIT:C6040::pgx:icdom-80203::pgx:icdot-C73.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C6041
+    label: Thyroid gland sarcoma
+  - id: pgx:icdom-88003
+    label: Sarcoma, NOS
+  - id: pgx:icdot-C73.9
+    label: Thyroid gland
+  examples:
+  - Mixed Cancer Types
+  id: NCIT:C6041::pgx:icdom-88003::pgx:icdot-C73.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C60781
+    label: Astrocytoma
+  - id: pgx:icdom-94003
+    label: Astrocytoma, NOS
+  - id: pgx:icdot-C71.9
+    label: Brain, NOS
+  examples:
+  - Astrocytoma [cell line SNB-19]
+  - astrocystoma [cell line U-138MG]
+  - astrocytoma [cell line CCF-STTG1]
+  - astrocytoma [cell line NMC-G1]
+  - glioblastoma [cell line H4]
+  id: NCIT:C60781::pgx:icdom-94003::pgx:icdot-C71.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C6261
+    label: Ovarian granulosa cell tumor
+  - id: pgx:icdom-86203
+    label: Granulosa cell tumor
+  - id: pgx:icdot-C56.9
+    label: ovary
+  examples:
+  - Mixed Cancer Types
+  - Ovarian granulosa cell tumor [cell line COV434]
+  id: NCIT:C6261::pgx:icdom-86203::pgx:icdot-C56.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C6287
+    label: Endometrial Endometrioid Adenocarcinoma
+  - id: pgx:icdom-83803
+    label: Endometrioid adenocarcinoma, NOS
+  - id: pgx:icdot-C54.1
+    label: Endometrium
+  examples:
+  - endometrial adenocarcinoma [cell line AN3-CA]
+  - endometrial adenocarcinoma [cell line Ischikawa]
+  - endometrial adenocarcinoma [cell line KLE]
+  - endometrial carcinoma [cell line EFE-184]
+  - endometrial carcinoma [cell line MFE-280]
+  id: NCIT:C6287::pgx:icdom-83803::pgx:icdot-C54.1
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C6287
+    label: Endometrial Endometrioid Adenocarcinoma
+  - id: pgx:icdom-83803
+    label: Endometrioid adenocarcinoma, NOS
+  - id: pgx:icdot-C55.9
+    label: uterus, nos
+  examples:
+  - endometrial adenocarcinoma [cell line SNG-M]
+  id: NCIT:C6287::pgx:icdom-83803::pgx:icdot-C55.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C6290
+    label: Endometrial endometrioid adenocarcinoma, variant with squamous differentiation
+  - id: pgx:icdom-83803
+    label: Endometrioid adenocarcinoma, NOS
+  - id: pgx:icdot-C54.1
+    label: Endometrium
+  examples:
+  - Mixed Cancer Types
+  id: NCIT:C6290::pgx:icdom-83803::pgx:icdot-C54.1
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C6339
+    label: Uterine corpus sarcoma
+  - id: pgx:icdom-88003
+    label: Sarcoma, NOS
+  - id: pgx:icdot-C55.9
+    label: uterus, nos
+  examples:
+  - C49;Sarcoma
+  - Mixed Cancer Types
+  - Uterine corpus sarcoma [cell line MES-SA/Dx5]
+  - uterus sarcoma [cell line MES-SA]
+  id: NCIT:C6339::pgx:icdom-88003::pgx:icdot-C55.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C6340
+    label: Uterine corpus leiomyosarcoma
+  - id: pgx:icdom-88903
+    label: Leiomyosarcoma, NOS
+  - id: pgx:icdot-C54.9
+    label: Corpus uteri
+  examples:
+  - C49;Leiomyosarcoma
+  - Mixed Cancer Types
+  id: NCIT:C6340::pgx:icdom-88903::pgx:icdot-C54.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C6340
+    label: Uterine Corpus Leiomyosarcoma
+  - id: pgx:icdom-88903
+    label: Leiomyosarcoma, NOS
+  - id: pgx:icdot-C55.9
+    label: uterus, nos
+  examples:
+  - Uterine corpus leiomyosarcoma [cell line SK-UT-1B]
+  - uterine corpus sarcoma [cell line SKN]
+  id: NCIT:C6340::pgx:icdom-88903::pgx:icdot-C55.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C6393
+    label: Invasive Ductal and Invasive Lobular Breast Carcinoma
+  - id: pgx:icdom-85223
+    label: Infiltrating duct and lobular carcinoma
+  - id: pgx:icdot-C50.9
+    label: Breast, NOS
+  examples:
+  - breast carcinoma [cell line T-47D]
+  id: NCIT:C6393::pgx:icdom-85223::pgx:icdot-C50.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C6422
+    label: Midgut carcinoid tumor
+  - id: pgx:icdom-82403
+    label: Carcinoid tumor, NOS
+  - id: pgx:icdot-C17.9
+    label: Small intestine
+  examples:
+  - midgut carcinoid tumor [cell line H-STS]
+  - midgut carcinoid tumor [cell line L-STS]
+  - midgut carcinoid tumor [cell line P-STS]
+  id: NCIT:C6422::pgx:icdom-82403::pgx:icdot-C17.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C6476
+    label: Dedifferentiated chondrosarcoma
+  - id: pgx:icdom-92433
+    label: Dedifferentiated chondrosarcoma
+  - id: pgx:icdot-C41.9
+    label: Bone, NOS
+  examples:
+  - Mixed Cancer Types
+  id: NCIT:C6476::pgx:icdom-92433::pgx:icdot-C41.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C65200
+    label: Thyroid Gland Follicular Carcinoma, Minimally Invasive
+  - id: pgx:icdom-83353
+    label: Follicular carcinoma, minimally invasive
+  - id: pgx:icdot-C73.9
+    label: thyroid gland
+  examples:
+  - Follicular carcinoma [cell line FTC-133]
+  - Follicular carcinoma [cell line WRO]
+  - Thyroid gland follicular carcinoma [cell line FTC-238]
+  id: NCIT:C65200::pgx:icdom-83353::pgx:icdot-C73.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C6650
+    label: Ampulla of Vater adenocarcinoma
+  - id: pgx:icdom-81403
+    label: Adenocarcinoma, NOS
+  - id: pgx:icdot-C24.1
+    label: Ampulla of Vater
+  examples:
+  - Mixed Cancer Types
+  id: NCIT:C6650::pgx:icdom-81403::pgx:icdot-C24.1
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C66759
+    label: Giant Cell Sarcoma
+  - id: pgx:icdom-88023
+    label: Giant cell sarcoma
+  - id: pgx:icdot-C49.9
+    label: connective and soft tissue, nos
+  examples:
+  - Giant cell sarcoma [cell line Hs 737.T]
+  id: NCIT:C66759::pgx:icdom-88023::pgx:icdot-C49.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C67369
+    label: Malignant Pancreatic Somatostatinoma
+  - id: pgx:icdom-81563
+    label: somatostatinoma, malignant
+  - id: pgx:icdot-C25.9
+    label: pancreas
+  examples:
+  - Pancreatic somatostatinoma [cell line QGP-1]
+  id: NCIT:C67369::pgx:icdom-81563::pgx:icdot-C25.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C6764
+    label: Gastric small cell carcinoma
+  - id: pgx:icdom-80413
+    label: Small cell carcinoma, NOS
+  - id: pgx:icdot-C16.9
+    label: Stomach
+  examples:
+  - Mixed Cancer Types
+  id: NCIT:C6764::pgx:icdom-80413::pgx:icdot-C16.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C6766
+    label: Prostate small cell carcinoma
+  - id: pgx:icdom-80413
+    label: Small cell carcinoma, NOS
+  - id: pgx:icdot-C61.9
+    label: Prostate gland
+  examples:
+  - C61;Carcinoma
+  - Mixed Cancer Types
+  - prostate small cell carcinoma [cell line NCI-H660]
+  id: NCIT:C6766::pgx:icdom-80413::pgx:icdot-C61.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C6915
+    label: Primary effusion lymphoma
+  - id: pgx:icdom-96783
+    label: Primary effusion lymphoma
+  - id: pgx:icdot-C38.4
+    label: pleura
+  examples:
+  - primary effusion lymphoma [cell line BC-2]
+  - primary effusion lymphoma [cell line BC-3]
+  - primary effusion lymphoma [cell line CRO-AP2]
+  - primary effusion lymphoma [cell line CRO-AP5]
+  - primary effusion lymphoma [cell line JSC-1]
+  id: NCIT:C6915::pgx:icdom-96783::pgx:icdot-C38.4
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C6975
+    label: Papillary Renal Cell Carcinoma
+  - id: pgx:icdom-82603
+    label: Papillary adenocarcinoma, NOS
+  - id: pgx:icdot-C64.9
+    label: Kidney, NOS
+  examples:
+  - C64;Carcinoma
+  - C64;Choriocarcinoma
+  - Mixed Cancer Types
+  - Papillary renal cell carcinoma [cell line ACHN]
+  id: NCIT:C6975::pgx:icdom-82603::pgx:icdot-C64.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C7027
+    label: Barrett adenocarcinoma
+  - id: pgx:icdom-81403
+    label: Adenocarcinoma, NOS
+  - id: pgx:icdot-C15.9
+    label: Esophagus, NOS
+  examples:
+  - C15;Esophageal Carcinoma
+  - Mixed Cancer Types
+  id: NCIT:C7027::pgx:icdom-81403::pgx:icdot-C15.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C7152
+    label: Erythroleukemia
+  - id: pgx:icdom-98403
+    label: Acute erythroid leukemia
+  - id: pgx:icdot-C42.1
+    label: Bone marrow
+  examples:
+  - Erythroleukemia;C42
+  - Mixed Cancer Types
+  id: NCIT:C7152::pgx:icdom-98403::pgx:icdot-C42.1
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C7155
+    label: Primary central chondrosarcoma
+  - id: pgx:icdom-92203
+    label: Chondrosarcoma, NOS
+  - id: pgx:icdot-C41.9
+    label: Bone, NOS
+  examples:
+  - C49;Sarcoma
+  - Mixed Cancer Types
+  id: NCIT:C7155::pgx:icdom-92203::pgx:icdot-C41.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C7210
+    label: Childhood T lymphoblastic lymphoma
+  - id: pgx:icdom-98373
+    label: T lymphoblastic leukemia/lymphoma
+  - id: pgx:icdot-C77.9
+    label: Lymph nodes, NOS
+  examples:
+  - Mixed Cancer Types
+  id: NCIT:C7210::pgx:icdom-98373::pgx:icdot-C77.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C7270
+    label: Mixed Mucinous and Non-Mucinous Bronchioloalveolar Carcinoma
+  - id: pgx:icdom-82543
+    label: Bronchiolo-alveolar carcinoma, mixed mucinous and non-mucinous
+  - id: pgx:icdot-C34.9
+    label: lung and bronchus
+  examples:
+  - Bronchioalveolar carcinoma [cell line NCI-H358]
+  - Bronchioalveolar carcinoma [cell line SW1573]
+  - bronchioalveolar carcinoma [cell line NCI-H322M]
+  - bronchioalveolar carcinoma [cell line NCI-H322]
+  id: NCIT:C7270::pgx:icdom-82543::pgx:icdot-C34.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C7320
+    label: Childhood chronic myelogenous leukemia, BCR-ABL1 positive
+  - id: pgx:icdom-98753
+    label: Chronic myelogenous leukemia, BCR/ABL positive
+  - id: pgx:icdot-C42.1
+    label: Bone marrow
+  examples:
+  - C42;Blast Phase Chronic Myelogenous Leukemia
+  - Mixed Cancer Types
+  id: NCIT:C7320::pgx:icdom-98753::pgx:icdot-C42.1
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C7359
+    label: Endometrial adenocarcinoma
+  - id: pgx:icdom-81403
+    label: Adenocarcinoma, NOS
+  - id: pgx:icdot-C54.1
+    label: Endometrium
+  examples:
+  - C55;Carcinoma
+  - Mixed Cancer Types
+  id: NCIT:C7359::pgx:icdom-81403::pgx:icdot-C54.1
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C7359
+    label: Endometrial adenocarcinoma
+  - id: pgx:icdom-81403
+    label: Adenocarcinoma, NOS
+  - id: pgx:icdot-C55.9
+    label: uterus, nos
+  examples:
+  - Endometrial adenocarcinoma [cell line COLO 684]
+  - endometrial adenocarcinoma [cell line COLO 685]
+  id: NCIT:C7359::pgx:icdom-81403::pgx:icdot-C55.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C7376
+    label: Pleural Malignant Mesothelioma
+  - id: pgx:icdom-90503
+    label: Mesothelioma, malignant
+  - id: pgx:icdot-C38.4
+    label: pleura
+  examples:
+  - pleural malignant mesothelioma [cell line Y-MESO-12]
+  - pleural malignant mesothelioma [cell line Y-MESO-14]
+  - pleural malignant mesothelioma [cell line Y-MESO-21]
+  - pleural malignant mesothelioma [cell line Y-MESO-22]
+  - pleural malignant mesothelioma [cell line Y-MESO-9]
+  id: NCIT:C7376::pgx:icdom-90503::pgx:icdot-C38.4
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C7402
+    label: Hairy Cell Leukemia
+  - id: pgx:icdom-99403
+    label: Hairy cell leukemia
+  - id: pgx:icdot-C42.1
+    label: Bone marrow
+  examples:
+  - hairy cell leukemia [cell line MLMA]
+  id: NCIT:C7402::pgx:icdom-99403::pgx:icdot-C42.1
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C7439
+    label: Intraductal Papillary Adenocarcinoma with Invasion
+  - id: pgx:icdom-85033
+    label: Intraductal papillary adenocarcinoma with invasion
+  - id: pgx:icdot-C50.9
+    label: Breast, NOS
+  examples:
+  - breast carcinoma [cell line BT-549]
+  id: NCIT:C7439::pgx:icdom-85033::pgx:icdot-C50.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C7463
+    label: Acute myelomonocytic leukemia
+  - id: pgx:icdom-98673
+    label: Acute myelomonocytic leukemia, NOS
+  - id: pgx:icdot-C42.1
+    label: Bone marrow
+  examples:
+  - Acute myelomonocytic leukemia [cell line KY821]
+  id: NCIT:C7463::pgx:icdom-98673::pgx:icdot-C42.1
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C7464
+    label: Acute Leukemia of Ambiguous Lineage
+  - id: pgx:icdom-98013
+    label: Acute leukemia, NOS
+  - id: pgx:icdot-C42.1
+    label: Bone marrow
+  examples:
+  - acute myeloid leukemia [cell line OCI-AML3]
+  id: NCIT:C7464::pgx:icdom-98013::pgx:icdot-C42.1
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C7541
+    label: Retinoblastoma
+  - id: pgx:icdom-95103
+    label: Retinoblastoma, NOS
+  - id: pgx:icdot-C69.2
+    label: Retina
+  examples:
+  - C69;Retinoblastoma
+  - Retinoblastoma [cell line WERI]
+  - Retinoblastoma [cell line Y79]
+  id: NCIT:C7541::pgx:icdom-95103::pgx:icdot-C69.2
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C7542
+    label: Askin tumor
+  - id: pgx:icdom-93653
+    label: Askin tumor
+  - id: pgx:icdot-C49.3
+    label: thoracic wall
+  examples:
+  - C71;neuroblastoma
+  - Mixed Cancer Types
+  id: NCIT:C7542::pgx:icdom-93653::pgx:icdot-C49.3
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C7542
+    label: Askin Tumor
+  - id: pgx:icdom-93653
+    label: Askin tumor
+  - id: pgx:icdot-C71.9
+    label: Brain, NOS
+  examples:
+  - Askin tumor [cell line SK-N-MC]
+  - askin tumor [cell line TASK1]
+  id: NCIT:C7542::pgx:icdom-93653::pgx:icdot-C71.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C7550
+    label: Ovarian serous adenocarcinoma
+  - id: pgx:icdom-84413
+    label: Serous adenocarcinoma, NOS
+  - id: pgx:icdot-C56.9
+    label: Ovary, NOS
+  examples:
+  - Mixed Cancer Types
+  id: NCIT:C7550::pgx:icdom-84413::pgx:icdot-C56.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C7558
+    label: Endometrial carcinoma
+  - id: pgx:icdom-80103
+    label: Carcinoma
+  - id: pgx:icdot-C54.1
+    label: Endometrium
+  examples:
+  - Mixed Cancer Types
+  id: NCIT:C7558::pgx:icdom-80103::pgx:icdot-C54.1
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C7700
+    label: Ovarian adenocarcinoma
+  - id: pgx:icdom-81403
+    label: Adenocarcinoma, NOS
+  - id: pgx:icdot-C56.9
+    label: ovary
+  examples:
+  - Ovarian adenocarcinoma [cell line CAOV-1]
+  - Ovarian adenocarcinoma [cell line ES2]
+  - Ovarian adenocarcinoma [cell line OV90]
+  - ovarian endometrioid adenocarcinoma [cell line A2780ADR]
+  - ovarian endometrioid adenocarcinoma [cell line A2780cis]
+  id: NCIT:C7700::pgx:icdom-81403::pgx:icdot-C56.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C7716
+    label: Renal pelvis and ureter urothelial carcinoma
+  - id: pgx:icdom-81203
+    label: Urothelial carcinoma, NOS
+  - id: pgx:icdot-C65
+    label: Renal pelvis
+  examples:
+  - Mixed Cancer Types
+  id: NCIT:C7716::pgx:icdom-81203::pgx:icdot-C65
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C7889
+    label: Duodenal adenocarcinoma
+  - id: pgx:icdom-81403
+    label: Adenocarcinoma, NOS
+  - id: pgx:icdot-C17.0
+    label: Duodenum
+  examples:
+  - Mixed Cancer Types
+  id: NCIT:C7889::pgx:icdom-81403::pgx:icdot-C17.0
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C7899
+    label: Recurrent bladder carcinoma
+  - id: pgx:icdom-80103
+    label: Carcinoma
+  - id: pgx:icdot-C67.9
+    label: Urinary bladder, NOS
+  examples:
+  - C67;Carcinoma
+  - Mixed Cancer Types
+  id: NCIT:C7899::pgx:icdom-80103::pgx:icdot-C67.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C7950
+    label: Invasive lobular breast carcinoma
+  - id: pgx:icdom-85203
+    label: Infiltrating lobular carcinoma, NOS
+  - id: pgx:icdot-C50.9
+    label: Breast, NOS
+  examples:
+  - Mixed Cancer Types
+  id: NCIT:C7950::pgx:icdom-85203::pgx:icdot-C50.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C7953
+    label: Childhood T acute lymphoblastic leukemia
+  - id: pgx:icdom-98373
+    label: T lymphoblastic leukemia/lymphoma
+  - id: pgx:icdot-C42.1
+    label: Bone marrow
+  examples:
+  - Acute Lymphoblastic Leukemia;C42
+  - C42;Acute T Cell Lymphoblastic Leukemia
+  - C42;Burkitt Lymphoma
+  - Mixed Cancer Types
+  - acute lymphoblastic leukemia
+  id: NCIT:C7953::pgx:icdom-98373::pgx:icdot-C42.1
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C7954
+    label: Adult Burkitt leukemia
+  - id: pgx:icdom-98263
+    label: Acute leukemia, Burkitt type
+  - id: pgx:icdot-C42.1
+    label: Bone marrow
+  examples:
+  - C42;Burkitt Lymphoma
+  - Mixed Cancer Types
+  id: NCIT:C7954::pgx:icdom-98263::pgx:icdot-C42.1
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C7955
+    label: Childhood hepatocellular carcinoma
+  - id: pgx:icdom-81703
+    label: Hepatocellular carcinoma
+  - id: pgx:icdot-C22.0
+    label: Liver
+  examples:
+  - C22;Hepatocellular Carcinoma
+  - Mixed Cancer Types
+  id: NCIT:C7955::pgx:icdom-81703::pgx:icdot-C22.0
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C7956
+    label: Adult hepatocellular carcinoma
+  - id: pgx:icdom-81703
+    label: Hepatocellular carcinoma
+  - id: pgx:icdot-C22.0
+    label: Liver
+  examples:
+  - C22;Carcinoma
+  - Mixed Cancer Types
+  id: NCIT:C7956::pgx:icdom-81703::pgx:icdot-C22.0
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C7965
+    label: Adult acute megakaryoblastic leukemia
+  - id: pgx:icdom-99103
+    label: Acute megakaryoblastic leukemia
+  - id: pgx:icdot-C42.1
+    label: Bone marrow
+  examples:
+  - Mixed Cancer Types
+  id: NCIT:C7965::pgx:icdom-99103::pgx:icdot-C42.1
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C7972
+    label: Childhood acute megakaryoblastic leukemia
+  - id: pgx:icdom-99103
+    label: Acute megakaryoblastic leukemia
+  - id: pgx:icdot-C42.1
+    label: Bone marrow
+  examples:
+  - Mixed Cancer Types
+  id: NCIT:C7972::pgx:icdom-99103::pgx:icdot-C42.1
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C7978
+    label: Ovarian Serous Cystadenocarcinoma
+  - id: pgx:icdom-84413
+    label: serous cystadenocarcinoma
+  - id: pgx:icdot-C56.9
+    label: ovary
+  examples:
+  - Ovarian cystadenocarcinoma (Taxene treated) [cell line OV429/TxT50]
+  - Ovarian cystadenocarcinoma [cell line OVCA429]
+  - Ovarian serous adenocarcinoma (taxene treated) [cell line OV433/TxT50]
+  - serous adenocarcinoma of the ovary (taxene treated) [cell line OVCAR-3]/T40
+  - serous adenocarcinoma of the ovary [cell line 433]
+  id: NCIT:C7978::pgx:icdom-84413::pgx:icdot-C56.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C7979
+    label: Ovarian endometrioid adenocarcinoma
+  - id: pgx:icdom-83803
+    label: Endometrioid adenocarcinoma, NOS
+  - id: pgx:icdot-C56.9
+    label: Ovary
+  examples:
+  - Mixed Cancer Types
+  id: NCIT:C7979::pgx:icdom-83803::pgx:icdot-C56.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C7985
+    label: Epithelioid Mesothelioma
+  - id: pgx:icdom-90523
+    label: Epithelioid mesothelioma, malignant
+  - id: pgx:icdot-C38.4
+    label: pleura
+  examples:
+  - Pleural epithelioid mesothelioma [cell line MM26]
+  - Pleural epithelioid mesothelioma [cell line NCI-H226]
+  - pleural epithelioid mesothelioma [cell line ACC-MESO-1]
+  - pleural epithelioid mesothelioma [cell line ACC-MESO-4]
+  id: NCIT:C7985::pgx:icdom-90523::pgx:icdot-C38.4
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C7985
+    label: Epithelioid Mesothelioma
+  - id: pgx:icdom-90523
+    label: Epithelioid mesothelioma, malignant
+  - id: pgx:icdot-C49.9
+    label: connective and soft tissue, NOS
+  examples:
+  - pleural epithelioid mesothelioma [cell line Meso56]
+  id: NCIT:C7985::pgx:icdom-90523::pgx:icdot-C49.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C7991
+    label: Salivary gland squamous cell carcinoma
+  - id: pgx:icdom-80703
+    label: Squamous cell carcinoma
+  - id: pgx:icdot-C08.9
+    label: salivary, major, NOS
+  examples:
+  - Mixed Cancer Types
+  id: NCIT:C7991::pgx:icdom-80703::pgx:icdot-C08.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C80280
+    label: Diffuse Large B-Cell Lymphoma, Not Otherwise Specified
+  - id: pgx:icdom-96803
+    label: Malignant lymphoma, large B-cell, diffuse, NOS
+  - id: pgx:icdot-C77.9
+    label: lymph nodes
+  examples:
+  - Diffuse large B-cell lymphoma [cell line DB]
+  - Diffuse large B-cell lymphoma [cell line HT]
+  - Diffuse large B-cell lymphoma [cell line RL]
+  - Diffuse large B-cell lymphoma [cell line SU-DHL-5]
+  - diffuse large B-cell lymphoma [cell line Sci-1]
+  id: NCIT:C80280::pgx:icdom-96803::pgx:icdot-C77.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C80326
+    label: B Lymphoblastic Leukemia/Lymphoma, Not Otherwise Specified
+  - id: pgx:icdom-98113
+    label: B lymphoblastic leukemia/lymphoma, NOS
+  - id: pgx:icdot-C42.4
+    label: Hematopoietic system, NOS
+  examples:
+  - B acute lymphoblastic leukemia [cell line BALM9]
+  id: NCIT:C80326::pgx:icdom-98113::pgx:icdot-C42.4
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C80347
+    label: B acute lymphoblastic leukemia with t(1;19)(q23;p13.3) E2A-PBX1 (TCF3-PBX1)
+  - id: pgx:icdom-98263
+    label: Acute lymphoblastic leukemia, mature B-cell type
+  - id: pgx:icdot-C42.1
+    label: Bone marrow
+  examples:
+  - C42;Acute B Cell Lymphocytic Leukemia
+  - C42;Precursor B-Lymphoblastic Leukemia
+  - Mixed Cancer Types
+  id: NCIT:C80347::pgx:icdom-98263::pgx:icdot-C42.1
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C8054
+    label: Thyroid gland follicular carcinoma
+  - id: pgx:icdom-83353
+    label: Follicular carcinoma, encapsulated
+  - id: pgx:icdot-C73.9
+    label: Thyroid gland
+  examples:
+  - Mixed Cancer Types
+  id: NCIT:C8054::pgx:icdom-83353::pgx:icdot-C73.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C8181
+    label: Oropharyngeal Squamous Cell Carcinoma
+  - id: pgx:icdom-80703
+    label: Squamous cell carcinoma, NOS
+  - id: pgx:icdot-C10.9
+    label: Oropharynx
+  examples:
+  - Gingival squamous cell carcinoma [cell line Ca9-22]
+  - Laryngeal squamous cell carcinoma [cell line PCI-04B]
+  - Oral cavity squamous cell carcinoma [cell line HSC-2]
+  - Pharyngeal squamous cell carcinoma [cell line Detroit 562]
+  - Tongue squamous cell carcinoma [cell line HSC-3]
+  id: NCIT:C8181::pgx:icdom-80703::pgx:icdot-C10.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C8183
+    label: Tonsillar squamous cell carcinoma
+  - id: pgx:icdom-80703
+    label: Squamous cell carcinoma, NOS
+  - id: pgx:icdot-C09.9
+    label: Tonsil, NOS
+  examples:
+  - ''
+  id: NCIT:C8183::pgx:icdom-80703::pgx:icdot-C09.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C8192
+    label: Nasal cavity squamous cell carcinoma
+  - id: pgx:icdom-80703
+    label: Squamous cell carcinoma, NOS
+  - id: pgx:icdot-C30.0
+    label: Nasal cavity
+  examples:
+  - ''
+  id: NCIT:C8192::pgx:icdom-80703::pgx:icdot-C30.0
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C8263
+    label: Adult acute monocytic leukemia
+  - id: pgx:icdom-98913
+    label: Acute monocytic leukemia
+  - id: pgx:icdot-C42.1
+    label: Bone marrow
+  examples:
+  - Mixed Cancer Types
+  id: NCIT:C8263::pgx:icdom-98913::pgx:icdot-C42.1
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C8294
+    label: Pancreatic Adenocarcinoma
+  - id: pgx:icdom-81403
+    label: Adenocarcinoma, NOS
+  - id: pgx:icdot-C25.9
+    label: pancreas
+  examples:
+  - Pancreas adenocarcinoma [cell line HPAF-II]
+  - Pancreatic adenocarcinoma [cell line HuP-T3]
+  - Pancreatic adenocarcinoma [cell line HuP-T4]]
+  - Pancreatic adenocarcinoma [cell line Pa Tu 8988t]
+  - pancreatic ductal adenocarcinoma [cell line KP-1N]
+  id: NCIT:C8294::pgx:icdom-81403::pgx:icdot-C25.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C8644
+    label: B Acute Lymphoblastic Leukemia
+  - id: pgx:icdom-98263
+    label: Acute lymphoblastic leukemia, NOS
+  - id: pgx:icdot-C42.1
+    label: Bone marrow
+  examples:
+  - B acute lymphoblastic leukemia [cell line Granta-452]
+  - B acute lymphoblastic leukemia [cell line P30/OHK]
+  - B acute lymphoblastic leukemia [cell line Reh]
+  - Burkitt leukemia [cell line KHM-10B]
+  id: NCIT:C8644::pgx:icdom-98263::pgx:icdot-C42.1
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C8644
+    label: B acute lymphoblastic leukemia
+  - id: pgx:icdom-98263
+    label: Burkitt cell leukemia
+  - id: pgx:icdot-C42.4
+    label: Hematopoietic system, NOS
+  examples:
+  - Acute Lymphoblastic Leukemia;C42
+  - Mixed Cancer Types
+  id: NCIT:C8644::pgx:icdom-98263::pgx:icdot-C42.4
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C8715
+    label: Rhabdoid tumor of the kidney
+  - id: pgx:icdom-89633
+    label: Malignant rhabdoid tumor
+  - id: pgx:icdot-C64.9
+    label: kidney
+  examples:
+  - Mixed Cancer Types
+  - Rhabdoid tumor of the kidney [cell line G-401]
+  - Wilms Tumor;C64
+  id: NCIT:C8715::pgx:icdom-89633::pgx:icdot-C64.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C8851
+    label: Diffuse large B-cell lymphoma
+  - id: pgx:icdom-96803
+    label: Diffuse large B-cell lymphoma
+  - id: pgx:icdot-C42.1
+    label: Bone marrow
+  examples:
+  - Mixed Cancer Types
+  - Non-Hodgkin Lymphoma;C42
+  id: NCIT:C8851::pgx:icdom-96803::pgx:icdot-C42.1
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C8851
+    label: Diffuse Large B-Cell Lymphoma
+  - id: pgx:icdom-96803
+    label: Malignant lymphoma, large B-cell, diffuse, NOS
+  - id: pgx:icdot-C42.4
+    label: Hematopoietic system, NOS
+  examples:
+  - Diffuse large B-cell lymphoma [cell line OCI-Ly10]
+  - Diffuse large B-cell lymphoma [cell line OCI-Ly2]
+  - diffuse large B-cell lymphoma [cell line CTB-1]
+  - diffuse large B-cell lymphoma [cell line DoHH2]
+  - diffuse large B-cell lymphoma [cell line Oz]
+  id: NCIT:C8851::pgx:icdom-96803::pgx:icdot-C42.4
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C8863
+    label: Nodal Marginal Zone Lymphoma
+  - id: pgx:icdom-96993
+    label: Marginal zone B-cell lymphoma, NOS
+  - id: pgx:icdot-C77.9
+    label: lymph nodes
+  examples:
+  - Marginal zone lymphoma [cell line Karpas-1718]
+  - Marginal zone lymphoma [cell line SSK41]
+  - Marginal zone lymphoma [cell line-SL-15]
+  id: NCIT:C8863::pgx:icdom-96993::pgx:icdot-C77.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C8923
+    label: Acute Erythroid Leukemia
+  - id: pgx:icdom-98403
+    label: Acute myeloid leukemia
+  - id: pgx:icdot-C42.1
+    label: Bone marrow
+  examples:
+  - Erythroleukemia [cell line HEL]
+  - acute myeloid leukemia [cell line KO52]
+  - acute myeloid leukemia [cell line MOLM-13]
+  - acute myeloid leukemia [cell line OCI-AML2]
+  id: NCIT:C8923::pgx:icdom-98403::pgx:icdot-C42.1
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C8971
+    label: Embryonal rhabdomyosarcoma
+  - id: pgx:icdom-89103
+    label: Embryonal rhabdomyosarcoma, NOS
+  - id: pgx:icdot-C49.4
+    label: Skeletal muscle
+  examples:
+  - C49;Osteosarcoma
+  - C49;Rhabdomyosarcoma
+  - Mixed Cancer Types
+  id: NCIT:C8971::pgx:icdom-89103::pgx:icdot-C49.4
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C8971
+    label: Embryonal Rhabdomyosarcoma
+  - id: pgx:icdom-89103
+    label: embryonal rhabdomyosarcoma, NOS
+  - id: pgx:icdot-C64.9
+    label: kidney
+  examples:
+  - Embryonal rhabdomyosarcoma [cell line RD]
+  id: NCIT:C8971::pgx:icdom-89103::pgx:icdot-C64.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C8973
+    label: Endometrioid stromal sarcoma
+  - id: pgx:icdom-89303
+    label: Endometrial stromal sarcoma, NOS
+  - id: pgx:icdot-C54.1
+    label: Endometrium
+  examples:
+  - Mixed Cancer Types
+  id: NCIT:C8973::pgx:icdom-89303::pgx:icdot-C54.1
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C9039
+    label: Cervical Carcinoma
+  - id: pgx:icdom-80103
+    label: Carcinoma, NOS
+  - id: pgx:icdot-C53.9
+    label: cervix uteri
+  examples:
+  - C53;Carcinoma
+  - cervix carcinoma [cell line DoTc2 4510]
+  id: NCIT:C9039::pgx:icdom-80103::pgx:icdot-C53.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C9120
+    label: Pancreatic ductal adenocarcinoma
+  - id: pgx:icdom-81403
+    label: Adenocarcinoma, NOS
+  - id: pgx:icdot-C25.3
+    label: Pancreatic duct
+  examples:
+  - C25;Adenocarcinoma
+  - C25;Carcinoma
+  - Mixed Cancer Types
+  id: NCIT:C9120::pgx:icdom-81403::pgx:icdot-C25.3
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C9133
+    label: Lung Adenosquamous Carcinoma
+  - id: pgx:icdom-85603
+    label: Adenosquamous carcinoma
+  - id: pgx:icdot-C34.9
+    label: lung and bronchus
+  examples:
+  - Adenosquamous lung carcinoma [cell line HCC1195]
+  - Adenosquamous lung carcinoma [cell line NCI-H596]
+  - Adenosquamous lung carcinoma [cell line NCI-H647]
+  - adenosquamous lung carcinoma [cell line HCC2279]
+  - adenosquamous lung carcinoma [cell line HCC366]
+  id: NCIT:C9133::pgx:icdom-85603::pgx:icdot-C34.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C9140
+    label: Childhood B acute lymphoblastic leukemia
+  - id: pgx:icdom-98263
+    label: Acute lymphoblastic leukemia, mature B-cell type
+  - id: pgx:icdot-C42.1
+    label: Bone marrow
+  examples:
+  - Acute Lymphoblastic Leukemia;C42
+  - C42;Precursor B-Lymphoblastic Leukemia
+  - Mixed Cancer Types
+  id: NCIT:C9140::pgx:icdom-98263::pgx:icdot-C42.1
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C9142
+    label: Adult T acute lymphoblastic leukemia
+  - id: pgx:icdom-98263
+    label: Acute lymphoblastic leukemia, mature B-cell type
+  - id: pgx:icdot-C42.1
+    label: Bone marrow
+  examples:
+  - Acute Lymphoblastic Leukemia;C42
+  - C42;Acute T Cell Lymphoblastic Leukemia
+  - Mixed Cancer Types
+  - acute lymphoblastic leukemia
+  id: NCIT:C9142::pgx:icdom-98263::pgx:icdot-C42.1
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C9143
+    label: Adult B acute lymphoblastic leukemia
+  - id: pgx:icdom-98263
+    label: Acute lymphoblastic leukemia, mature B-cell type
+  - id: pgx:icdot-C42.1
+    label: Bone marrow
+  examples:
+  - Acute Lymphoblastic Leukemia;C42
+  - Mixed Cancer Types
+  id: NCIT:C9143::pgx:icdom-98263::pgx:icdot-C42.1
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C9145
+    label: Osteosarcoma
+  - id: pgx:icdom-91803
+    label: Osteosarcoma, NOS
+  - id: pgx:icdot-C40.0
+    label: bones and joints
+  examples:
+  - Osteosarcoma [cell line 143B]
+  - Osteosarcoma [cell line IOR/OS10]
+  - Osteosarcoma [cell line KPD]
+  - 'Osteosarcoma [cell line MNNG/HOS CI #5]'
+  - osteosarcoma [cell line HOS]
+  id: NCIT:C9145::pgx:icdom-91803::pgx:icdot-C40.0
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C9145
+    label: Osteosarcoma
+  - id: pgx:icdom-91803
+    label: Osteosarcoma, NOS
+  - id: pgx:icdot-C41.9
+    label: bone, NOS
+  examples:
+  - Osteosarcoma [cell line KHOS-240S]
+  - Osteosarcoma [cell line Saos-2]
+  - Osteosarcoma [cell line TI-73]
+  - Osteosarcoma [cell line U2OS]
+  - osteosarcoma [cell line HOS]
+  id: NCIT:C9145::pgx:icdom-91803::pgx:icdot-C41.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C9152
+    label: Superficial Spreading Melanoma
+  - id: pgx:icdom-87433
+    label: Superficial spreading melanoma
+  - id: pgx:icdot-C44.9
+    label: Skin, NOS
+  examples:
+  - malignant melanoma [cell line WM1789]
+  - malignant melanoma [cell line WM35]
+  id: NCIT:C9152::pgx:icdom-87433::pgx:icdot-C44.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C9154
+    label: Adult acute myeloid leukemia
+  - id: pgx:icdom-98613
+    label: Acute myeloid leukemia, NOS
+  - id: pgx:icdot-C42.1
+    label: Bone marrow
+  examples:
+  - Acute Myeloid Leukemia;C42
+  - Hodgkin Lymphoma;C42
+  - Mixed Cancer Types
+  id: NCIT:C9154::pgx:icdom-98613::pgx:icdot-C42.1
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C9160
+    label: Childhood acute myeloid leukemia
+  - id: pgx:icdom-98613
+    label: Acute myeloid leukemia, NOS
+  - id: pgx:icdot-C42.1
+    label: Bone marrow
+  examples:
+  - Mixed Cancer Types
+  id: NCIT:C9160::pgx:icdom-98613::pgx:icdot-C42.1
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C9163
+    label: Childhood acute monocytic leukemia
+  - id: pgx:icdom-98913
+    label: Acute monocytic leukemia
+  - id: pgx:icdot-C42.1
+    label: Bone marrow
+  examples:
+  - Acute Myeloid Leukemia;C42
+  - C42;Myeloid Leukemia
+  - Mixed Cancer Types
+  id: NCIT:C9163::pgx:icdom-98913::pgx:icdot-C42.1
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C9231
+    label: Merkel Cell Carcinoma
+  - id: pgx:icdom-82473
+    label: Merkel cell carcinoma
+  - id: pgx:icdot-C44.9
+    label: Skin, NOS
+  examples:
+  - Merkel cell carcinoma [cell line AlDo]
+  - Merkel cell carcinoma [cell line Broli]
+  - Merkel cell carcinoma [cell line Loke]
+  - Merkel cell carcinoma [cell line Wowe]
+  id: NCIT:C9231::pgx:icdom-82473::pgx:icdot-C44.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C9265
+    label: Mycosis fungoides and Sezary syndrome
+  - id: pgx:icdom-97013
+    label: Sezary syndrome
+  - id: pgx:icdot-C42.1
+    label: Bone marrow
+  examples:
+  - Cutaneous T Cell Lymphoma;C42
+  - Mixed Cancer Types
+  id: NCIT:C9265::pgx:icdom-97013::pgx:icdot-C42.1
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C9280
+    label: Mediastinal (Thymic) Large B-Cell Lymphoma
+  - id: pgx:icdom-96793
+    label: Mediastinal large B-cell lymphoma
+  - id: pgx:icdot-C38.3
+    label: Mediastinum, NOS
+  examples:
+  - Mediastinal (thymic) large B-cell lymphoma
+  - Mediastinal large B-cell lymphoma [cell line MedB-1]
+  - mediastinal B-cell lymphoma [cell line Karpas-1106P]
+  id: NCIT:C9280::pgx:icdom-96793::pgx:icdot-C38.3
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C9280
+    label: Mediastinal (Thymic) Large B-Cell Lymphoma
+  - id: pgx:icdom-96793
+    label: Mediastinal large B-cell lymphoma
+  - id: pgx:icdot-C38.9
+    label: mediastinum
+  examples:
+  - diffuse large B-cell lymphoma [cell line Karpas-231]
+  id: NCIT:C9280::pgx:icdom-96793::pgx:icdot-C38.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C9325
+    label: Adrenal cortex carcinoma
+  - id: pgx:icdom-83703
+    label: Adrenal cortical carcinoma
+  - id: pgx:icdot-C74.0
+    label: Adrenal cortex
+  examples:
+  - C71;Carcinoma
+  id: NCIT:C9325::pgx:icdom-83703::pgx:icdot-C74.0
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C9325
+    label: Adrenal Cortex Carcinoma
+  - id: pgx:icdom-83703
+    label: Adrenal cortical carcinoma
+  - id: pgx:icdot-C74.9
+    label: adrenal glands
+  examples:
+  - Adrenal cortex carcinoma [cell line SW13]
+  id: NCIT:C9325::pgx:icdom-83703::pgx:icdot-C74.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C9349
+    label: Plasmacytoma
+  - id: pgx:icdom-97313
+    label: Multiple myeloma
+  - id: pgx:icdot-C42.1
+    label: Bone marrow
+  examples:
+  - Plasma cell myeloma [cell line KMS-28PE]
+  - plasma cell myeloma [cell line RPMI-8226]
+  id: NCIT:C9349::pgx:icdom-97313::pgx:icdot-C42.1
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C9357
+    label: Hodgkin Lymphoma
+  - id: pgx:icdom-96503
+    label: Hodgkin lymphoma, NOS
+  - id: pgx:icdot-C77.9
+    label: lymph nodes
+  examples:
+  - Hodgkin lymphoma [cell line HDLM-2]
+  - Hodgkin lymphoma [cell line KM-H2]
+  - Hodgkin lymphoma [cell line L-1236]
+  - Hodgkin lymphoma [cell line L-428]
+  - Hodgkin lymphoma [cell line U-HO1]
+  id: NCIT:C9357::pgx:icdom-96503::pgx:icdot-C77.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C9381
+    label: "Childhood acute myeloid leukemia with maturation\uFFFD"
+  - id: pgx:icdom-98743
+    label: "Acute\uFFFDmyeloid\uFFFDleukemia\uFFFDwith maturation"
+  - id: pgx:icdot-C42.1
+    label: Bone marrow
+  examples:
+  - acute myeloid leukemia
+  id: NCIT:C9381::pgx:icdom-98743::pgx:icdot-C42.1
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C9383
+    label: Rectal Adenocarcinoma
+  - id: pgx:icdom-81403
+    label: Adenocarcinoma, NOS
+  - id: pgx:icdot-C20.9
+    label: rectum
+  examples:
+  - Rectal adenocarcinoma [cell line SW837]
+  - colorectal adenocarcinoma [cell line HRT-18]
+  - rectal adenocarcinoma [cell line Car-1]
+  - rectal adenocarcinoma [cell line RCM-1]
+  - rectal adenocarcinoma [cell line SW1463]
+  id: NCIT:C9383::pgx:icdom-81403::pgx:icdot-C20.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C9384
+    label: Kidney Carcinoma
+  - id: pgx:icdom-80103
+    label: Carcinoma, NOS
+  - id: pgx:icdot-C64.9
+    label: kidney
+  examples:
+  - transformed cell line HK-2
+  id: NCIT:C9384::pgx:icdom-80103::pgx:icdot-C64.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C9385
+    label: Renal Cell Carcinoma
+  - id: pgx:icdom-83123
+    label: Renal cell carcinoma, NOS
+  - id: pgx:icdot-C64.9
+    label: Kidney, NOS
+  examples:
+  - Renal cell carcinoma [cell line A-498]
+  - Renal cell carcinoma [cell line ACHN]
+  - Renal cell carcinoma [cell line SN12C]
+  - clear cell renal carcinoma [cell line TK-10]
+  - renal cell carcinoma [cell line 786-O]
+  id: NCIT:C9385::pgx:icdom-83123::pgx:icdot-C64.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C9477
+    label: Anaplastic Astrocytoma
+  - id: pgx:icdom-94013
+    label: Astrocytoma, anaplastic
+  - id: pgx:icdot-C71.9
+    label: Brain, NOS
+  examples:
+  - Anaplastic astrocytoma [cell line MOG-G-CCM]
+  - Anaplastic astrocytoma [cell line MOG-G-UVW]
+  - Glioblastoma;C71
+  - Mixed Cancer Types
+  - anaplastic astrocytoma
+  id: NCIT:C9477::pgx:icdom-94013::pgx:icdot-C71.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C95595
+    label: Pancreatic somatostatinoma
+  - id: pgx:icdom-81561
+    label: Somatostatinoma, NOS
+  - id: pgx:icdot-C25.9
+    label: Pancreas, NOS
+  examples:
+  - Mixed Cancer Types
+  id: NCIT:C95595::pgx:icdom-81561::pgx:icdot-C25.9
+  note: pgx:cohort-celllines
+- code_group:
+  - id: NCIT:C95749
+    label: Gastric choriocarcinoma
+  - id: pgx:icdom-91003
+    label: Choriocarcinoma, NOS
+  - id: pgx:icdot-C16.9
+    label: stomach
+  examples:
+  - Gastric choriocarcinoma [cell line SCH]
+  id: NCIT:C95749::pgx:icdom-91003::pgx:icdot-C16.9
+  note: pgx:cohort-celllines

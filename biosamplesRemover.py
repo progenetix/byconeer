@@ -59,7 +59,7 @@ def biosamples_remover():
         exit()
 
     ds_id =  byc["dataset_ids"][0]
-    junk_id = byc["config"]["dataset_junk"]
+    junk_id = "{}_junk".format(ds_id)
 
     counts = {
         "biosamples": 0,

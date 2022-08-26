@@ -1,0 +1,789 @@
+- code_group:
+  - id: pgx:icdot-C01.9
+    label: tongue
+  - id: UBERON:0001723
+    label: tongue
+  examples:
+  - salivary gland squamous cell carcinoma [cell line A-253]
+  - tongue squamous cell carcinoma [cell line CAL-27]
+  - tongue squamous cell carcinoma [cell line SCC-15]
+  - tongue squamous cell carcinoma [cell line SCC-4]
+  - tongue squamous cell carcinoma [cell line SCC-9]
+  id: pgx:icdot-C01.9::UBERON:0001723
+  note: pgx:cohort-celllines
+- code_group:
+  - id: pgx:icdot-C02.9
+    label: Tongue, NOS
+  - id: UBERON:0001723
+    label: tongue
+  examples:
+  - ''
+  - Mixed Cancer Types
+  - Tongue squamous cell carcinoma [cell line UT-SCC-15]
+  - Tongue squamous cell carcinoma [cell line UT-SCC-25]
+  id: pgx:icdot-C02.9::UBERON:0001723
+  note: pgx:cohort-celllines
+- code_group:
+  - id: pgx:icdot-C03.9
+    label: Gum, NOS
+  - id: UBERON:0001828
+    label: gingiva
+  examples:
+  - Mixed Cancer Types
+  id: pgx:icdot-C03.9::UBERON:0001828
+  note: pgx:cohort-celllines
+- code_group:
+  - id: pgx:icdot-C04.9
+    label: floor of mouth
+  - id: UBERON:0003679
+    label: mouth floor
+  examples:
+  - ''
+  - Floor of mouth squamous cell carcinoma [cell line UT-SCC-47]
+  - oral cavity squamous cell carcinoma [cell line Ho-1-u-1l]
+  id: pgx:icdot-C04.9::UBERON:0003679
+  note: pgx:cohort-celllines
+- code_group:
+  - id: pgx:icdot-C06.9
+    label: mouth, NOS
+  - id: UBERON:0000165
+    label: mouth
+  examples:
+  - Head and neck squamous cell carcinoma [cell line KOSC-2]
+  - Head and neck squamous cell carcinoma [cell line SAT]
+  - Head and neck squamous cell carcinoma [cell line SKN-3]
+  - Oral cavity squamous cell carcinoma [cell line HO-1-N-1]
+  - oral cavity squamous cell carcinoma [cell line KONl]
+  id: pgx:icdot-C06.9::UBERON:0000165
+  note: pgx:cohort-celllines
+- code_group:
+  - id: pgx:icdot-C08.9
+    label: salivary, major, NOS
+  - id: UBERON:0004809
+    label: salivary gland epithelium
+  examples:
+  - Mixed Cancer Types
+  id: pgx:icdot-C08.9::UBERON:0004809
+  note: pgx:cohort-celllines
+- code_group:
+  - id: pgx:icdot-C09.9
+    label: Tonsil, NOS
+  - id: UBERON:0002372
+    label: tonsil
+  examples:
+  - ''
+  id: pgx:icdot-C09.9::UBERON:0002372
+  note: pgx:cohort-celllines
+- code_group:
+  - id: pgx:icdot-C10.9
+    label: Oropharynx
+  - id: UBERON:0001729
+    label: oropharynx
+  examples:
+  - Gingival squamous cell carcinoma [cell line Ca9-22]
+  - Oral cavity squamous cell carcinoma [cell line HSC-2]
+  - Pharyngeal squamous cell carcinoma [cell line Detroit 562]
+  - Tongue squamous cell carcinoma [cell line HSC-3]
+  - transformed cell line SVpgC2a-FOXM1B
+  id: pgx:icdot-C10.9::UBERON:0001729
+  note: pgx:cohort-celllines
+- code_group:
+  - id: pgx:icdot-C11.9
+    label: nasopharynx
+  - id: UBERON:0001728
+    label: nasopharynx
+  examples:
+  - Nasopharyngeal carcinoma [cell line C666]
+  - Nasopharyngeal carcinoma [cell line HONE-1]
+  - Nasopharyngeal carcinoma [cell line NPC-TW01]
+  - hybrid cell line CNE-1
+  - transformed cell line NP69SV40T
+  id: pgx:icdot-C11.9::UBERON:0001728
+  note: pgx:cohort-celllines
+- code_group:
+  - id: pgx:icdot-C13.9
+    label: Hypopharynx, NOS
+  - id: UBERON:0001051
+    label: hypopharynx
+  examples:
+  - ''
+  id: pgx:icdot-C13.9::UBERON:0001051
+  note: pgx:cohort-celllines
+- code_group:
+  - id: pgx:icdot-C13
+    label: Hypopharynx
+  - id: UBERON:0001051
+    label: hypopharynx
+  examples:
+  - C13;Carcinoma
+  - Mixed Cancer Types
+  id: pgx:icdot-C13::UBERON:0001051
+  note: pgx:cohort-celllines
+- code_group:
+  - id: pgx:icdot-C15.9
+    label: esophagus
+  - id: UBERON:0001043
+    label: esophagus
+  examples:
+  - esophageal squamous cell carcinoma [cell line TE-1]
+  - esophageal squamous cell carcinoma [cell line TE-2]
+  - esophageal squamous cell carcinoma [cell line TE-3]
+  - esophageal squamous cell carcinoma [cell line YES-1]
+  - esophageal squamous cell carcinoma [cell line YES-2]
+  id: pgx:icdot-C15.9::UBERON:0001043
+  note: pgx:cohort-celllines
+- code_group:
+  - id: pgx:icdot-C16.9
+    label: stomach
+  - id: UBERON:0000945
+    label: stomach
+  examples:
+  - Gastric adenocarcinoma [cell line Hs 746T]
+  - Gastric carcinoma [cell line SNU-1]
+  - Signe ring gastric adenocarcinoma [cell line KATO III]
+  - gastric adenocarcinoma [cell line AGS]
+  - gastric tubular adenocarcinoma [cell line NCI-N87]
+  id: pgx:icdot-C16.9::UBERON:0000945
+  note: pgx:cohort-celllines
+- code_group:
+  - id: pgx:icdot-C17.0
+    label: Duodenum
+  - id: UBERON:0002114
+    label: duodenum
+  examples:
+  - Mixed Cancer Types
+  id: pgx:icdot-C17.0::UBERON:0002114
+  note: pgx:cohort-celllines
+- code_group:
+  - id: pgx:icdot-C17.9
+    label: Small intestine
+  - id: UBERON:0002108
+    label: small intestine
+  examples:
+  - midgut carcinoid tumor [cell line H-STS]
+  - midgut carcinoid tumor [cell line L-STS]
+  - midgut carcinoid tumor [cell line P-STS]
+  id: pgx:icdot-C17.9::UBERON:0002108
+  note: pgx:cohort-celllines
+- code_group:
+  - id: pgx:icdot-C18.0
+    label: Cecum
+  - id: UBERON:0000314
+    label: cecum mucosa
+  examples:
+  - C18;Carcinoma
+  - Mixed Cancer Types
+  id: pgx:icdot-C18.0::UBERON:0000314
+  note: pgx:cohort-celllines
+- code_group:
+  - id: pgx:icdot-C18.9
+    label: Colon, NOS
+  - id: UBERON:0001155
+    label: colon
+  examples:
+  - Colon carcinoma [cell line HCT 116]
+  - colorectal adenocarcinoma [cell line COLO 320]
+  - colorectal adenocarcinoma [cell line MT-3]
+  - colorectal adenocarcinoma [cell line SW626]
+  - rectosigmoid adenocarcinoma [cell line HT-29]
+  id: pgx:icdot-C18.9::UBERON:0001155
+  note: pgx:cohort-celllines
+- code_group:
+  - id: pgx:icdot-C20.9
+    label: rectum
+  - id: UBERON:0001052
+    label: rectum
+  examples:
+  - Rectal adenocarcinoma [cell line SW837]
+  - colorectal adenocarcinoma [cell line HRT-18]
+  - rectal adenocarcinoma [cell line Car-1]
+  - rectal adenocarcinoma [cell line RCM-1]
+  - rectal adenocarcinoma [cell line SW1463]
+  id: pgx:icdot-C20.9::UBERON:0001052
+  note: pgx:cohort-celllines
+- code_group:
+  - id: pgx:icdot-C22.0
+    label: Liver
+  - id: UBERON:0002107
+    label: liver
+  examples:
+  - C22;Carcinoma
+  - C22;Hepatocellular Carcinoma
+  - Mixed Cancer Types
+  id: pgx:icdot-C22.0::UBERON:0002107
+  note: pgx:cohort-celllines
+- code_group:
+  - id: pgx:icdot-C22.1
+    label: Intrahepatic bile duct
+  - id: UBERON:0003704
+    label: intrahepatic bile duct
+  examples:
+  - Intrahepatic cholangiocarcinoma [cell line HuCC-T1]
+  - Mixed Cancer Types
+  id: pgx:icdot-C22.1::UBERON:0003704
+  note: pgx:cohort-celllines
+- code_group:
+  - id: pgx:icdot-C22.9
+    label: liver
+  - id: UBERON:0003704
+    label: intrahepatic bile duct
+  examples:
+  - hepatocellular carcinoma [cell line Hep 3B2.1-7]
+  - hepatocellular carcinoma [cell line Hep-G2]
+  - hepatocellular carcinoma [cell line Huh-7]
+  - hepatocellular carcinoma [cell line PLC/PRF/5]
+  - hepatocellular carcinoma [cell line SK-HEP-1]
+  id: pgx:icdot-C22.9::UBERON:0003704
+  note: pgx:cohort-celllines
+- code_group:
+  - id: pgx:icdot-C23.9
+    label: gallbladder
+  - id: UBERON:0005033
+    label: mucosa of gallbladder
+  examples:
+  - Mixed Cancer Types
+  - gallbladder carcinoma [cell line OCUG-1]
+  id: pgx:icdot-C23.9::UBERON:0005033
+  note: pgx:cohort-celllines
+- code_group:
+  - id: pgx:icdot-C24.1
+    label: Ampulla of Vater
+  - id: UBERON:0004913
+    label: hepatopancreatic ampulla
+  examples:
+  - Mixed Cancer Types
+  id: pgx:icdot-C24.1::UBERON:0004913
+  note: pgx:cohort-celllines
+- code_group:
+  - id: pgx:icdot-C24.9
+    label: Extrahepatic and unspecified bile ducts
+  - id: UBERON:0003703
+    label: extrahepatic bile duct
+  examples:
+  - Mixed Cancer Types
+  id: pgx:icdot-C24.9::UBERON:0003703
+  note: pgx:cohort-celllines
+- code_group:
+  - id: pgx:icdot-C25.3
+    label: Pancreatic duct
+  - id: UBERON:0007329
+    label: pancreatic duct
+  examples:
+  - C25;Adenocarcinoma
+  - C25;Carcinoma
+  - Mixed Cancer Types
+  id: pgx:icdot-C25.3::UBERON:0007329
+  note: pgx:cohort-celllines
+- code_group:
+  - id: pgx:icdot-C25.9
+    label: pancreas
+  - id: UBERON:0001264
+    label: pancreas
+  examples:
+  - Pancreas adenocarcinoma [cell line HPAF-II]
+  - Pancreatic adenocarcinoma [cell line HuP-T3]
+  - Pancreatic adenocarcinoma [cell line HuP-T4]]
+  - Pancreatic adenocarcinoma [cell line Pa Tu 8988t]
+  - pancreatic ductal adenocarcinoma [cell line KP-1N]
+  id: pgx:icdot-C25.9::UBERON:0001264
+  note: pgx:cohort-celllines
+- code_group:
+  - id: pgx:icdot-C30.0
+    label: Nasal cavity
+  - id: UBERON:0001707
+    label: nasal cavity
+  examples:
+  - ''
+  - HANK-1 NK/T-cell lymphoma cell line
+  - NK-YS NK/T-cell lymphoma cell line
+  - SNK-6 NK/T-cell lymphoma cell line
+  - SNT8 NK/T-cell lymphoma cell line
+  id: pgx:icdot-C30.0::UBERON:0001707
+  note: pgx:cohort-celllines
+- code_group:
+  - id: pgx:icdot-C32.9
+    label: Larynx, NOS
+  - id: UBERON:0001737
+    label: larynx
+  examples:
+  - ''
+  - Laryngeal squamous cell carcinoma [cell line UT-SCC-17]
+  - Laryngeal squamous cell carcinoma [cell line UT-SCC-23]
+  - Laryngeal squamous cell carcinoma [cell line UT-SCC-29]
+  - Mixed Cancer Types
+  id: pgx:icdot-C32.9::UBERON:0001737
+  note: pgx:cohort-celllines
+- code_group:
+  - id: pgx:icdot-C34.9
+    label: lung and bronchus
+  - id: UBERON:0002048
+    label: lung
+  examples:
+  - lung adenocarcinoma [cell line NCI-H1819]
+  - lung adenocarcinoma [cell line NCI-H2122]
+  - lung adenocarcinoma [cell line NCI-H2347]
+  - non-small cell Lung carcinoma [cell line NCI-H2887]
+  - squamous cell Lung carcinoma [cell line NCI-H2882]
+  id: pgx:icdot-C34.9::UBERON:0002048
+  note: pgx:cohort-celllines
+- code_group:
+  - id: pgx:icdot-C38.3
+    label: Mediastinum, NOS
+  - id: UBERON:0003728
+    label: mediastinum
+  examples:
+  - Mediastinal (thymic) large B-cell lymphoma
+  - Mediastinal large B-cell lymphoma [cell line MedB-1]
+  - mediastinal B-cell lymphoma [cell line Karpas-1106P]
+  id: pgx:icdot-C38.3::UBERON:0003728
+  note: pgx:cohort-celllines
+- code_group:
+  - id: pgx:icdot-C38.4
+    label: pleura
+  - id: UBERON:0000977
+    label: pleura
+  examples:
+  - pleural biphasic mesothelioma [cell line Y-MESO-8D
+  - pleural epithelioid mesothelioma [cell line ACC-MESO-1]
+  - pleural epithelioid mesothelioma [cell line ACC-MESO-4]
+  - pleural malignant mesothelioma [cell line Y-MESO-12]
+  - pleural malignant mesothelioma [cell line Y-MESO-9]
+  id: pgx:icdot-C38.4::UBERON:0000977
+  note: pgx:cohort-celllines
+- code_group:
+  - id: pgx:icdot-C38.9
+    label: mediastinum
+  - id: UBERON:0003728
+    label: mediastinum
+  examples:
+  - diffuse large B-cell lymphoma [cell line Karpas-231]
+  id: pgx:icdot-C38.9::UBERON:0003728
+  note: pgx:cohort-celllines
+- code_group:
+  - id: pgx:icdot-C40.0
+    label: bones and joints
+  - id: UBERON:0004765
+    label: skeletal element
+  examples:
+  - Ewing sarcoma [cell line A-673]
+  - Ewing sarcoma [cell line SK-ES-1]
+  - Ewing sarcoma [cell line SK-NEP-1]
+  - Osteosarcoma [cell line 143B]
+  - chondrosarcoma [cell line H-EMC-SS]
+  id: pgx:icdot-C40.0::UBERON:0004765
+  note: pgx:cohort-celllines
+- code_group:
+  - id: pgx:icdot-C41.9
+    label: bone, NOS
+  - id: UBERON:0001474
+    label: bone element
+  examples:
+  - Osteosarcoma [cell line KHOS-240S]
+  - Osteosarcoma [cell line Saos-2]
+  - Osteosarcoma [cell line TI-73]
+  - Osteosarcoma [cell line U2OS]
+  - osteosarcoma [cell line HOS]
+  id: pgx:icdot-C41.9::UBERON:0001474
+  note: pgx:cohort-celllines
+- code_group:
+  - id: pgx:icdot-C42.1
+    label: Bone marrow
+  - id: UBERON:0002371
+    label: bone marrow
+  examples:
+  - Acute lymphoblastic leukemia [cell line CCRF-CEM]
+  - Acute lymphoblastic leukemia [cell line MOLT-4]
+  - Acute myeloid leukemia [cell line HL-60]
+  - Chronic myelogenous leukemia [cell line K-562]
+  - acute monocytic leukemia [cell line TUR]
+  id: pgx:icdot-C42.1::UBERON:0002371
+  note: pgx:cohort-celllines
+- code_group:
+  - id: pgx:icdot-C42.2
+    label: Spleen
+  - id: UBERON:0002106
+    label: spleen
+  examples:
+  - Splenic marginal zone lymphoma [cell line VL51]
+  id: pgx:icdot-C42.2::UBERON:0002106
+  note: pgx:cohort-celllines
+- code_group:
+  - id: pgx:icdot-C42.4
+    label: Hematopoietic system, NOS
+  - id: UBERON:0002390
+    label: hematopoietic system
+  examples:
+  - B acute lymphoblastic leukemia [cell line 380]
+  - Burkitt Lymphoma [cell line BJAB]
+  - Burkitt lymphoma [cell line DG-75]
+  - anaplastic large cell lymphoma [cell line SR]
+  - transformed cell line C8166
+  id: pgx:icdot-C42.4::UBERON:0002390
+  note: pgx:cohort-celllines
+- code_group:
+  - id: pgx:icdot-C44.9
+    label: Skin, NOS
+  - id: UBERON:0000014
+    label: zone of skin
+  examples:
+  - malignant melanoma [cell line 1205Lu]
+  - malignant melanoma [cell line WM1366]
+  - malignant melanoma [cell line WM3248]
+  - malignant melanoma [cell line WM35]
+  - malignant melanoma [cell line WM88]
+  id: pgx:icdot-C44.9::UBERON:0000014
+  note: pgx:cohort-celllines
+- code_group:
+  - id: pgx:icdot-C47.4
+    label: autonomic nervous system
+  - id: UBERON:0002410
+    label: autonomic nervous system
+  examples:
+  - C71;neuroblastoma
+  - Mixed Cancer Types
+  - neuroblastoma;C72
+  id: pgx:icdot-C47.4::UBERON:0002410
+  note: pgx:cohort-celllines
+- code_group:
+  - id: pgx:icdot-C47.9
+    label: peripheral nervs incl. autonomous
+  - id: UBERON:0001780
+    label: spinal nerve
+  examples:
+  - Neuroblastoma [cell line CHP-134]
+  - neuroblastoma [cell line GOTO]
+  - neuroblastoma [cell line LA-N-1]
+  - neuroblastoma [cell line LA-N-2]
+  - neuroblastoma [cell line LA-N-5]
+  id: pgx:icdot-C47.9::UBERON:0001780
+  note: pgx:cohort-celllines
+- code_group:
+  - id: pgx:icdot-C49.0
+    label: Head, neck
+  - id: UBERON:0003566
+    label: head connective tissue
+  examples:
+  - Mixed Cancer Types
+  id: pgx:icdot-C49.0::UBERON:0003566
+  note: pgx:cohort-celllines
+- code_group:
+  - id: pgx:icdot-C49.3
+    label: thoracic wall
+  - id: UBERON:0003837
+    label: thoracic segment connective tissue
+  examples:
+  - C71;neuroblastoma
+  - Mixed Cancer Types
+  id: pgx:icdot-C49.3::UBERON:0003837
+  note: pgx:cohort-celllines
+- code_group:
+  - id: pgx:icdot-C49.4
+    label: Skeletal muscle
+  - id: UBERON:0003567
+    label: abdomen connective tissue
+  examples:
+  - C49;Osteosarcoma
+  - C49;Rhabdomyosarcoma
+  - Mixed Cancer Types
+  id: pgx:icdot-C49.4::UBERON:0003567
+  note: pgx:cohort-celllines
+- code_group:
+  - id: pgx:icdot-C49.9
+    label: connective and soft tissue, nos
+  - id: UBERON:0002384
+    label: connective tissue
+  examples:
+  - Fibrosarcoma [cell line A-204]
+  - Fibrosarcoma [cell line HT-1080]
+  - Fibrosarcoma [cell line SW684]
+  - Liposarcoma [cell line SW872]
+  - Rhabdomyosarcoma [cell line GCT]
+  id: pgx:icdot-C49.9::UBERON:0002384
+  note: pgx:cohort-celllines
+- code_group:
+  - id: pgx:icdot-C50.9
+    label: Breast, NOS
+  - id: UBERON:0000310
+    label: breast
+  examples:
+  - Squamous cell breast carcinoma [cell line HCC1806]
+  - breast carcinoma [cell line AU565]
+  - breast carcinoma [cell line BT-474]
+  - breast carcinoma [cell line BT-483]
+  - breast carcinoma [cell line BT-549]
+  id: pgx:icdot-C50.9::UBERON:0000310
+  note: pgx:cohort-celllines
+- code_group:
+  - id: pgx:icdot-C51.9
+    label: Vulva
+  - id: UBERON:0011387
+    label: constrictor vulvae muscle
+  examples:
+  - C49;Sarcoma
+  - C51;Carcinoma
+  - Mixed Cancer Types
+  id: pgx:icdot-C51.9::UBERON:0011387
+  note: pgx:cohort-celllines
+- code_group:
+  - id: pgx:icdot-C53.9
+    label: cervix uteri
+  - id: UBERON:0000002
+    label: uterine cervix
+  examples:
+  - cervix carcinoma [cell line DoTc2 4510]
+  - cervix squamous carcinoma [cell line C-4-I]
+  - cervix squamous cell carcinoma [cell line C-33 A]
+  - cervix squamous cell carcinoma [cell line C-4-II]
+  - cervix squamous cell carcinoma [cell line Ca Ski]
+  id: pgx:icdot-C53.9::UBERON:0000002
+  note: pgx:cohort-celllines
+- code_group:
+  - id: pgx:icdot-C54.1
+    label: Endometrium
+  - id: UBERON:0001295
+    label: endometrium
+  examples:
+  - endometrial adenocarcinoma [cell line AN3-CA]
+  - endometrial adenocarcinoma [cell line Ischikawa]
+  - endometrial adenocarcinoma [cell line KLE]
+  - endometrial carcinoma [cell line EFE-184]
+  - endometrial carcinoma [cell line MFE-280]
+  id: pgx:icdot-C54.1::UBERON:0001295
+  note: pgx:cohort-celllines
+- code_group:
+  - id: pgx:icdot-C54.9
+    label: Corpus uteri
+  - id: UBERON:0009853
+    label: body of uterus
+  examples:
+  - C49;Leiomyosarcoma
+  - Mixed Cancer Types
+  id: pgx:icdot-C54.9::UBERON:0009853
+  note: pgx:cohort-celllines
+- code_group:
+  - id: pgx:icdot-C55.9
+    label: uterus, nos
+  - id: UBERON:0000995
+    label: uterus
+  examples:
+  - Endometrial adenocarcinoma [cell line HEC-1]
+  - Gastational choriocarcinoma [cell line JAR]
+  - Uterine corpus leiomyosarcoma [cell line SK-UT-1B]
+  - endometrial adenocarcinoma [cell line SNG-M]
+  - uterine corpus sarcoma [cell line SKN]
+  id: pgx:icdot-C55.9::UBERON:0000995
+  note: pgx:cohort-celllines
+- code_group:
+  - id: pgx:icdot-C56.9
+    label: ovary
+  - id: UBERON:0000992
+    label: ovary
+  examples:
+  - Ovarian clear cell adenocarcinoma (Taxene treated) [cell line ES-2/TxT50]
+  - Ovarian cystadenocarcinoma (Taxene treated) [cell line OV429/TxT50]
+  - Ovarian endometrioid adenocarcinoma [cell line TOV-112D]
+  - Ovarian serous adenocarcinoma (taxene treated) [cell line OV433/TxT50]
+  - ovarian clear cell adenocarcinoma [cell line TOV21G]
+  id: pgx:icdot-C56.9::UBERON:0000992
+  note: pgx:cohort-celllines
+- code_group:
+  - id: pgx:icdot-C61.9
+    label: Prostate gland
+  - id: UBERON:0002367
+    label: prostate gland
+  examples:
+  - prostate adenocarcinoma [cell line LNCaP]
+  - prostate carcinoma [cell line 22Rv1]
+  - prostate carcinoma [cell line DU145]
+  - prostate carcinoma [cell line MDA-PCa-2a]
+  - prostate carcinoma [cell line MDA-PCa-2b]
+  id: pgx:icdot-C61.9::UBERON:0002367
+  note: pgx:cohort-celllines
+- code_group:
+  - id: pgx:icdot-C62.9
+    label: testis
+  - id: UBERON:0000473
+    label: testis
+  examples:
+  - testicular embryonal carcinoma [cell line NEC8]
+  - testicular teratoma [cell line GCT 27]
+  - testicular teratoma [cell line SuSA]
+  id: pgx:icdot-C62.9::UBERON:0000473
+  note: pgx:cohort-celllines
+- code_group:
+  - id: pgx:icdot-C64.9
+    label: kidney
+  - id: UBERON:0002113
+    label: kidney
+  examples:
+  - Clear cell renal carcinoma [cell line Caki-1]
+  - Embryonal rhabdomyosarcoma [cell line RD]
+  - Renal cell carcinoma [cell line A-498]
+  - Renal cell carcinoma [cell line ACHN]
+  - renal cell carcinoma [cell line 786-O]
+  id: pgx:icdot-C64.9::UBERON:0002113
+  note: pgx:cohort-celllines
+- code_group:
+  - id: pgx:icdot-C65
+    label: Renal pelvis
+  - id: UBERON:0001224
+    label: renal pelvis
+  examples:
+  - Mixed Cancer Types
+  id: pgx:icdot-C65::UBERON:0001224
+  note: pgx:cohort-celllines
+- code_group:
+  - id: pgx:icdot-C67.0
+    label: Urinary bladder
+  - id: UBERON:0001255
+    label: urinary bladder
+  examples:
+  - bladder carcinoma [cell line 5637]
+  - bladder carcinoma [cell line BOY-12E]
+  - bladder carcinoma [cell line HT-1197]
+  - bladder carcinoma [cell line HT-1376]
+  - bladder carcinoma [cell line TCCSUP]
+  id: pgx:icdot-C67.0::UBERON:0001255
+  note: pgx:cohort-celllines
+- code_group:
+  - id: pgx:icdot-C67.9
+    label: Urinary bladder, NOS
+  - id: UBERON:0018707
+    label: bladder organ
+  examples:
+  - C67;Carcinoma
+  - Mixed Cancer Types
+  id: pgx:icdot-C67.9::UBERON:0018707
+  note: pgx:cohort-celllines
+- code_group:
+  - id: pgx:icdot-C69.2
+    label: Retina
+  - id: UBERON:0000966
+    label: retina
+  examples:
+  - C69;Retinoblastoma
+  - Retinoblastoma [cell line WERI]
+  - Retinoblastoma [cell line Y79]
+  id: pgx:icdot-C69.2::UBERON:0000966
+  note: pgx:cohort-celllines
+- code_group:
+  - id: pgx:icdot-C70.9
+    label: Meninges, NOS
+  - id: UBERON:0010743
+    label: meningeal cluster
+  examples:
+  - Mixed Cancer Types
+  - meningioma [cell line 1174]
+  id: pgx:icdot-C70.9::UBERON:0010743
+  note: pgx:cohort-celllines
+- code_group:
+  - id: pgx:icdot-C71.6
+    label: cerebellum
+  - id: UBERON:0002037
+    label: cerebellum
+  examples:
+  - medulloblastoma [cell line D283 Med]
+  - medulloblastoma [cell line D341 Med]
+  - medulloblastoma [cell line D425 Med]
+  - medulloblastoma [cell line D458 Med]
+  - medulloblastoma [cell line Daoy]
+  id: pgx:icdot-C71.6::UBERON:0002037
+  note: pgx:cohort-celllines
+- code_group:
+  - id: pgx:icdot-C71.9
+    label: Brain, NOS
+  - id: UBERON:0000955
+    label: brain
+  examples:
+  - astrocytoma [cell line NMC-G1]
+  - glioblastoma [cell line 8-MG-BA]
+  - glioblastoma [cell line LN-18]
+  - glioblastoma [cell line LN-229]
+  - glioblastoma [cell line T98G]
+  id: pgx:icdot-C71.9::UBERON:0000955
+  note: pgx:cohort-celllines
+- code_group:
+  - id: pgx:icdot-C71
+    label: Brain
+  - id: UBERON:0000955
+    label: brain
+  examples:
+  - Mixed Cancer Types
+  id: pgx:icdot-C71::UBERON:0000955
+  note: pgx:cohort-celllines
+- code_group:
+  - id: pgx:icdot-C73.9
+    label: thyroid gland
+  - id: UBERON:0002046
+    label: thyroid gland
+  examples:
+  - Follicular carcinoma [cell line FTC-133]
+  - anaplastic thyroid carcinoma [cell line ASH-3]
+  - anaplastic thyroid carcinoma [cell line KMH-2]
+  - anaplastic thyroid carcinoma [cell line TCO-1]
+  - papillary thyroid carcinoma [cell line IHH-4]
+  id: pgx:icdot-C73.9::UBERON:0002046
+  note: pgx:cohort-celllines
+- code_group:
+  - id: pgx:icdot-C74.0
+    label: Adrenal cortex
+  - id: UBERON:0001235
+    label: adrenal cortex
+  examples:
+  - C71;Carcinoma
+  id: pgx:icdot-C74.0::UBERON:0001235
+  note: pgx:cohort-celllines
+- code_group:
+  - id: pgx:icdot-C74.9
+    label: adrenal glands
+  - id: UBERON:0002369
+    label: adrenal gland
+  examples:
+  - Adrenal cortex carcinoma [cell line SW13]
+  - Mixed Cancer Types
+  id: pgx:icdot-C74.9::UBERON:0002369
+  note: pgx:cohort-celllines
+- code_group:
+  - id: pgx:icdot-C76.0
+    label: Head, face or neck, NOS
+  - id: UBERON:0000033
+    label: head
+  examples:
+  - ''
+  id: pgx:icdot-C76.0::UBERON:0000033
+  note: pgx:cohort-celllines
+- code_group:
+  - id: pgx:icdot-C76.9
+    label: ill-defined
+  - id: UBERON:0001062
+    label: anatomical entity
+  examples:
+  - benign prostate hyperplasia [cell line BPH-1]
+  - malignant melanoma [cell line CaCL 73-36]
+  - malignant melanoma [cell line M34]
+  - neuroblastoma [cell line NB(TU)1]
+  - referernce [lymphoblastoid cell line HCC1395BL]
+  id: pgx:icdot-C76.9::UBERON:0001062
+  note: pgx:cohort-celllines
+- code_group:
+  - id: pgx:icdot-C77.9
+    label: lymph nodes
+  - id: UBERON:0000029
+    label: lymph node
+  examples:
+  - Hodgkin lymphoma [cell line HDLM-2]
+  - Hodgkin lymphoma [cell line KM-H2]
+  - Hodgkin lymphoma [cell line L-1236]
+  - Hodgkin lymphoma [cell line L-428]
+  - Hodgkin lymphoma [cell line U-HO1]
+  id: pgx:icdot-C77.9::UBERON:0000029
+  note: pgx:cohort-celllines
+- code_group:
+  - id: pgx:icdot-C80.9
+    label: Unknown primary site
+  - id: UBERON:0001062
+    label: anatomical entity
+  examples:
+  - Mixed Cancer Types
+  id: pgx:icdot-C80.9::UBERON:0001062
+  note: pgx:cohort-celllines

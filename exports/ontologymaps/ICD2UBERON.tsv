@@ -1,0 +1,211 @@
+progenetix	pgx:icdot-C00.9	Lip, NOS	UBERON:0001833	lip	Primary Tumor
+progenetix	pgx:icdot-C01.9	tongue	UBERON:0001723	tongue	Head and neck squamous cell carcinoma [tongue, pT1, not metastasized]
+progenetix	pgx:icdot-C02.1	Border of tongue	UBERON:0015178	somite border	Primary Tumor
+progenetix	pgx:icdot-C02.2	Ventral surface of tongue, NOS	UBERON:0007367	surface of tongue	Primary Tumor
+progenetix	pgx:icdot-C02.9	Tongue, NOS	UBERON:0001723	tongue	Head and Neck carcinoma [cell line UT-SCC-16]
+progenetix	pgx:icdot-C03.0	Upper Gum	UBERON:0011601	gingiva of upper jaw	Primary Tumor
+progenetix	pgx:icdot-C03.1	Lower gum	UBERON:0011602	gingiva of lower jaw	Primary Tumor
+progenetix	pgx:icdot-C03.9	Gum, NOS	UBERON:0001828	gingiva	Head and Neck carcinoma [cell line UT-SCC-46]
+progenetix	pgx:icdot-C04.0	Anterior floor of mouth	UBERON:0003679	mouth floor	Primary Tumor
+progenetix	pgx:icdot-C04.9	floor of mouth	UBERON:0003679	mouth floor	Floor of mouth squamous cell carcinoma [cell line UT-SCC-47]
+progenetix	pgx:icdot-C05.0	Hard palate	UBERON:0003216	hard palate	Primary Tumor
+progenetix	pgx:icdot-C05.9	Palate, NOS	UBERON:0007375	roof of mouth	Primary Tumor
+progenetix	pgx:icdot-C06.0	Cheeck mucosa	UBERON:0006956	buccal mucosa	Primary Tumor
+progenetix	pgx:icdot-C06.2	Retromolar area	UBERON:0013471	retromolar space	Primary Tumor
+progenetix	pgx:icdot-C06.9	mouth, NOS	UBERON:0000165	mouth	Squamous cell carcinoma [oral]
+progenetix	pgx:icdot-C07.9	parotid gland	UBERON:0001831	parotid gland	Extranodal marginal zone B-cell lymphoma
+progenetix	pgx:icdot-C08.0	Submandibular gland	UBERON:0001736	submandibular gland	Primary Tumor
+progenetix	pgx:icdot-C08.9	salivary gland, NOS	UBERON:0004809	salivary gland epithelium	adenoid cystic carcinoma [salivary gland, cribriform, Cheek]
+progenetix	pgx:icdot-C09.9	tonsil	UBERON:0002372	tonsil	Head and neck squamous cell carcinoma [Tonsil, stage II, T3N2M0]
+progenetix	pgx:icdot-C10.3	Posterior wall of oropharynx	UBERON:0035240	posterior wall of oropharynx	Primary Tumor
+progenetix	pgx:icdot-C10.9	Oropharynx	UBERON:0001729	oropharynx	Head and neck squamous cell carcinoma [Oropharynx, stage I, T4NoMo]
+progenetix	pgx:icdot-C11.9	nasopharynx	UBERON:0001728	nasopharynx	Juvenile nasopharyngeal angiofibroma [Fischl class. III]
+progenetix	pgx:icdot-C13.1	Hypopharyngeal aspect of aryepiglottic fold	UBERON:0014385	aryepiglottic fold	Hypopharynx Squamous Cell Carcinoma
+progenetix	pgx:icdot-C13.9	Hypopharynx	UBERON:0001051	hypopharynx	Carcinoma [hypopharynx, stage T1N0M0]
+progenetix	pgx:icdot-C13	Hypopharynx	UBERON:0001051	hypopharynx	C13;Carcinoma
+progenetix	pgx:icdot-C14.0	pharynx, NOS	UBERON:0006562	pharynx	Anaplastic large cell lymphoma, systemic type [ALK neg.]
+progenetix	pgx:icdot-C14.8	Overlapping lesion of lip, oral cavity and pharynx	UBERON:0001731	cavity of pharynx	Oral Cavity Squamous Cell Carcinoma
+progenetix	pgx:icdot-C15.1	Thoracic esophagus	UBERON:0035216	thoracic part of esophagus	Primary Tumor
+progenetix	pgx:icdot-C15.3	Upper third of esophagus	UBERON:0013472	upper esophagus	Primary Tumor
+progenetix	pgx:icdot-C15.4	Middle third of esophagus	UBERON:0013474	middle part of esophagus	Metastatic
+progenetix	pgx:icdot-C15.5	Lower third of esophagus	UBERON:0013473	lower esophagus	Primary Tumor
+progenetix	pgx:icdot-C15.9	esophagus	UBERON:0001043	esophagus	Esophageal squamous
+progenetix	pgx:icdot-C16.0	Cardia, NOS	UBERON:0001162	cardia of stomach	Adenocarcinoma of the Gastroesophageal Junction
+progenetix	pgx:icdot-C16.1	Fundus of stomach	UBERON:0001160	fundus of stomach	Primary Tumor
+progenetix	pgx:icdot-C16.2	Body of stomach	UBERON:0001161	body of stomach	Primary Tumor
+progenetix	pgx:icdot-C16.3	Gastric antrum	UBERON:0001165	pyloric antrum	Primary Tumor
+progenetix	pgx:icdot-C16.5	Lesser curvature of stomach, NOS	UBERON:0001163	lesser curvature of stomach	Primary Tumor
+progenetix	pgx:icdot-C16.8	Overlapping lesion of stomach	UBERON:0000945	stomach	Poorly Differentiated Carcinoma of the Stomach
+progenetix	pgx:icdot-C16.9	stomach	UBERON:0000945	stomach	adenoma [gastric, moderate dysplasia]
+progenetix	pgx:icdot-C17.0	Duodenum	UBERON:0002114	duodenum	Duodenal Adenocarcinoma
+progenetix	pgx:icdot-C17.1	Jejunum	UBERON:0002115	jejunum	Primary Tumor
+progenetix	pgx:icdot-C17.9	Small intestine	UBERON:0002108	small intestine	Adenocarcinoma [colorectal]
+progenetix	pgx:icdot-C18.0	cecum	UBERON:0000314	cecum mucosa	Mucinous colorectal carcinoma [Cecum, pT3N0M0, stage I]
+progenetix	pgx:icdot-C18.1	Appendix	UBERON:0001154	vermiform appendix	Appendiceal Adenocarcinoma
+progenetix	pgx:icdot-C18.2	Ascending colon	UBERON:0001156	ascending colon	Primary Tumor
+progenetix	pgx:icdot-C18.3	Hepatic flexure of colon	UBERON:0022277	hepatic flexure of colon	Primary Tumor
+progenetix	pgx:icdot-C18.4	Transverse colon	UBERON:0001157	transverse colon	Primary Tumor
+progenetix	pgx:icdot-C18.5	Splenic flexure of colon	UBERON:0022276	splenic flexure of colon	Primary Tumor
+progenetix	pgx:icdot-C18.6	Descending colon	UBERON:0001158	descending colon	Primary Tumor
+progenetix	pgx:icdot-C18.7	sigmoid incl. rectosigmoid junction	UBERON:0001155	colon	adenocarcinoma [sigma, liver metastasis]
+progenetix	pgx:icdot-C18.9	large intestine, excl. rectum and rectosigmoid junction	UBERON:0001155	colon	Diffuse large B-cell lymphoma [gastrointestinal]
+progenetix	pgx:icdot-C19.9	Rectosigmoid junction	UBERON:0036214	rectosigmoid junction	Colorectal Adenocarcinoma
+progenetix	pgx:icdot-C20.9	Rectum, NOS	UBERON:0001052	rectum	Adenocarcinoma [colorectal]
+progenetix	pgx:icdot-C21.8	Overlapping lesion of rectum, anus and anal canal	UBERON:0001245	anus	Anal Squamous Cell Carcinoma
+progenetix	pgx:icdot-C21.9	anal canal and anus	UBERON:0001245	anus	Carcinoma
+progenetix	pgx:icdot-C22.0	Liver	UBERON:0002107	liver	Hepatocellular carcinoma
+progenetix	pgx:icdot-C22.1	intrahepatic bile ducts	UBERON:0003704	intrahepatic bile duct	cholangiocarcinoma
+progenetix	pgx:icdot-C22.9	liver	UBERON:0003704	intrahepatic bile duct	hepatocellular carcinoma [cell line Hep 3B2.1-7]
+progenetix	pgx:icdot-C23.9	gallbladder	UBERON:0005033	mucosa of gallbladder	Diffuse large B-cell lymphoma [Gallbladder]
+progenetix	pgx:icdot-C24.0	Extrahepatic bile duct	UBERON:0003703	extrahepatic bile duct	Extrahepatic Cholangiocarcinoma
+progenetix	pgx:icdot-C24.1	Ampulla of Vater	UBERON:0004913	hepatopancreatic ampulla	Ampullary Carcinoma
+progenetix	pgx:icdot-C24.9	extrahepatic and unspecified bile ducts	UBERON:0003703	extrahepatic bile duct	Cholangiocarcinoma
+progenetix	pgx:icdot-C25.0	Head of pancreas	UBERON:0001069	head of pancreas	Primary Tumor
+progenetix	pgx:icdot-C25.1	Body of pancreas	UBERON:0001150	body of pancreas	Primary Tumor
+progenetix	pgx:icdot-C25.2	Tail of pancreas	UBERON:0001151	tail of pancreas	Metastatic
+progenetix	pgx:icdot-C25.3	Pancreatic duct	UBERON:0007329	pancreatic duct	C25;Adenocarcinoma
+progenetix	pgx:icdot-C25.8	Overlapping lesion of pancreas	UBERON:0001264	pancreas	Primary Tumor
+progenetix	pgx:icdot-C25.9	Pancreas, NOS	UBERON:0001264	pancreas	Pancreatic adenocarcinoma [short term culture]
+progenetix	pgx:icdot-C26.0	Intestinal tract, NOS	UBERON:0000160	intestine	Gastric adenocarcinoma
+progenetix	pgx:icdot-C26.9	unspecified digest. Organs	UBERON:0001007	digestive system	Enteropathy-Type T-Cell Lymphoma [ALCL]
+progenetix	pgx:icdot-C30.0	Nasal cavity	UBERON:0001707	nasal cavity	HANK-1 NK/T-cell lymphoma cell line
+progenetix	pgx:icdot-C30.1	middle and inner ear	UBERON:0001756	middle ear	Adenoid cystic carcinoma
+progenetix	pgx:icdot-C30.9	nasal cavity including nasal cartilage	UBERON:0012355	manual acropodium region	Angiofibroma [juvenile]
+progenetix	pgx:icdot-C32.1	Supraglottis	UBERON:0036263	supraglottic part of larynx	Primary Tumor
+progenetix	pgx:icdot-C32.9	Larynx	UBERON:0001737	larynx	Carcinoma [larynx, stage T2N0M0]
+progenetix	pgx:icdot-C33.9	trachea	UBERON:0003126	trachea	Adenoid cystic carcinoma
+progenetix	pgx:icdot-C34.0	Main bronchus	UBERON:0002182	main bronchus	Primary Tumor
+progenetix	pgx:icdot-C34.1	Upper lobe, lung	UBERON:0008948	upper lobe of lung	Metastatic
+progenetix	pgx:icdot-C34.2	Middle lobe, lung	UBERON:0008955	middle lobe of lung	Primary Tumor
+progenetix	pgx:icdot-C34.3	Lower lobe, lung	UBERON:0008949	lower lobe of lung	Metastatic
+progenetix	pgx:icdot-C34.8	Overlapping lesion of lung	UBERON:0002048	lung	Primary Tumor
+progenetix	pgx:icdot-C34.9	lung and bronchus	UBERON:0002048	lung	Carcinoid tumor
+progenetix	pgx:icdot-C37.9	Thymus	UBERON:0002370	thymus	thymic neoplasms with ACC-like features
+progenetix	pgx:icdot-C38.0	heart	UBERON:0000948	heart	Effusion Lymphoma [Pericard]
+progenetix	pgx:icdot-C38.1	Anterior mediastinum	UBERON:0008820	anterior mediastinum	Primary Tumor
+progenetix	pgx:icdot-C38.3	Mediastinum, NOS	UBERON:0003728	mediastinum	Primary Tumor
+progenetix	pgx:icdot-C38.4	pleura	UBERON:0000977	pleura	Epithelioid mesothelioma
+progenetix	pgx:icdot-C38.9	mediastinum	UBERON:0003728	mediastinum	Combined germ cell tumor [mediastinal, immature teratoma, yolk sac tumor, stage II]
+progenetix	pgx:icdot-C40.0	bones and joints	UBERON:0004765	skeletal element	central osteosarcoma
+progenetix	pgx:icdot-C40.1	Short bones of upper limb and associated joints	UBERON:0013630	short bone	Enchondroma [metacarpal]
+progenetix	pgx:icdot-C40.2	Long bones of lower limb and associated joints	UBERON:0003606	limb long bone	Enchondroma [femur]
+progenetix	pgx:icdot-C40.3	Short bones of lower limb and associated joints	UBERON:0013630	short bone	Primary Tumor
+progenetix	pgx:icdot-C41.0	Bones of skull and face and associated joints	UBERON:0003457	head bone	Metastatic
+progenetix	pgx:icdot-C41.1	Mandible	UBERON:0001684	mandible	Clear Cell Odontogenic Carcinoma
+progenetix	pgx:icdot-C41.4	Pelvic bones, sacrum, coccyx and associated joints	UBERON:0001270	bony pelvis	Enchondroma [iliac bone]
+progenetix	pgx:icdot-C41.9	bone, NOS	UBERON:0001474	bone element	Giant cell tumor of bone
+progenetix	pgx:icdot-C41.9	Bone, NOS	UBERON:0002384	connective tissue	pseudarthrosis tissue from individual with neurofibromatosis 1
+progenetix	pgx:icdot-C42.0	Blood	UBERON:0000178	blood	Blood Derived Normal
+progenetix	pgx:icdot-C42.0	Blood	UBERON:0001016	nervous system	Neurofibromatosis
+progenetix	pgx:icdot-C42.1	Bone marrow	UBERON:0002371	bone marrow	Acute lymphoblastic leukemia
+progenetix	pgx:icdot-C42.2	Spleen	UBERON:0002106	spleen	Marginal Zone B-cell Lymphoma [Spleen, BM, LN, PB]
+progenetix	pgx:icdot-C42.4	Hematopoietic system, NOS	UBERON:0002390	hematopoietic system	Burkitt like lymphoma
+progenetix	pgx:icdot-C44.2	External ear	UBERON:0001691	external ear	Primary Tumor
+progenetix	pgx:icdot-C44.3	Skin of other and unspecified parts of face	UBERON:1000021	skin of face	Primary Tumor
+progenetix	pgx:icdot-C44.4	Skin of scalp and neck	UBERON:8300000	skin of scalp	Metastatic
+progenetix	pgx:icdot-C44.5	Skin of trunk	UBERON:0001085	skin of trunk	Melanoma
+progenetix	pgx:icdot-C44.6	Skin of upper limb and shoulder	UBERON:0001483	skin of shoulder	Metastatic
+progenetix	pgx:icdot-C44.7	Skin of lower limb and hip	UBERON:0001554	skin of hip	Metastatic
+progenetix	pgx:icdot-C44.9	Skin, NOS	UBERON:0000014	zone of skin	Merkel cell carcinoma
+progenetix	pgx:icdot-C47.1	Peripheral nerves and autonomic nervous system of upper limb and shoulder	UBERON:0002410	autonomic nervous system	Malignant Peripheral Nerve Sheath Tumor
+progenetix	pgx:icdot-C47.4	autonomic nervous system	UBERON:0002410	autonomic nervous system	C71;neuroblastoma
+progenetix	pgx:icdot-C47.9	peripheral nervs incl. Autonomous	UBERON:0001780	spinal nerve	Schwannoma [Stomach]
+progenetix	pgx:icdot-C48.0	Retroperitoneum	UBERON:0003693	retroperitoneal space	Primary Tumor
+progenetix	pgx:icdot-C48.1	Specified parts of peritoneum	UBERON:0003688	omentum	Primary Tumor
+progenetix	pgx:icdot-C48.2	Peritoneum, NOS	UBERON:0002358	peritoneum	Metastatic
+progenetix	pgx:icdot-C48.9	retroperitoneum and peritoneum	UBERON:0003693	retroperitoneal space	Diffuse Large B-cell Lymphoma [extranodal, mesentery, 3q2 break neg., t(14;18) neg.]
+progenetix	pgx:icdot-C49.0	Connective, Subcutaneous and other soft tissues of head, face, and neck	UBERON:0003566	head connective tissue	Metastatic
+progenetix	pgx:icdot-C49.1	Connective, Subcutaneous and other soft tissues of upper limb and shoulder	UBERON:0003579	shoulder connective tissue	Metastatic
+progenetix	pgx:icdot-C49.2	Connective, Subcutaneous and other soft tissues of lower limb and hip	UBERON:0003576	hip connective tissue	Metastatic
+progenetix	pgx:icdot-C49.3	Connective, Subcutaneous and other soft tissues of thorax	UBERON:0003837	thoracic segment connective tissue	C71;neuroblastoma
+progenetix	pgx:icdot-C49.4	Connective, Subcutaneous and other soft tissues of abdomen	UBERON:0003567	abdomen connective tissue	C49;Osteosarcoma
+progenetix	pgx:icdot-C49.5	Connective, Subcutaneous and other soft tissues of pelvis	UBERON:0003594	pelvis connective tissue	Metastatic
+progenetix	pgx:icdot-C49.6	Connective, Subcutaneous and other soft tissues of trunk, NOS	UBERON:0003586	trunk connective tissue	Metastatic
+progenetix	pgx:icdot-C49.8	Overlapping lesion of connective, subcutaneous and other soft tissues	UBERON:0002384	connective tissue	Primary Tumor
+progenetix	pgx:icdot-C49.9	connective and soft tissue, NOS	UBERON:0002384	connective tissue	Desmoid tumor
+progenetix	pgx:icdot-C50.2	Upper-inner quadrant of breast	UBERON:0035542	upper inner quadrant of breast	Primary Tumor
+progenetix	pgx:icdot-C50.3	Lower-inner quadrant of breast	UBERON:0035477	lower inner quadrant of breast	Primary Tumor
+progenetix	pgx:icdot-C50.4	Upper-outer quadrant of breast	UBERON:0035328	upper outer quadrant of breast	Metastatic
+progenetix	pgx:icdot-C50.5	Lower-outer quadrant of breast	UBERON:0035365	lower outer quadrant of breast	Primary Tumor
+progenetix	pgx:icdot-C50.8	Overlapping lesion of breast	UBERON:0000310	breast	Primary Tumor
+progenetix	pgx:icdot-C50.9	Breast, NOS	UBERON:0000310	breast	Diffuse Large B-cell Lymphoma [extranodal, breast, IG-MYC neg., 3q2 break neg., t(14;18) neg.]
+progenetix	pgx:icdot-C51.0	vagina and labia	UBERON:0004084	genital labium	Adenocarcinoma
+progenetix	pgx:icdot-C51.9	vulva, nos	UBERON:0011387	constrictor vulvae muscle	squamous cell carcinoma [vulva, stage 3B, HPV16neg, HPV18neg]
+progenetix	pgx:icdot-C52.9	Vagina, NOS	UBERON:0000996	vagina	Metastatic
+progenetix	pgx:icdot-C53.0	Endocervix	UBERON:0000458	endocervix	Endocervical Adenocarcinoma
+progenetix	pgx:icdot-C53.1	Exocervix	UBERON:0012249	ectocervix	Primary Tumor
+progenetix	pgx:icdot-C53.9	cervix uteri	UBERON:0000002	uterine cervix	Squamous cell carcinoma [cervix, I b]
+progenetix	pgx:icdot-C54.0	Isthmus uteri	UBERON:0009853	body of uterus	Fallopian tube tumor
+progenetix	pgx:icdot-C54.1	endometrium	UBERON:0001295	endometrium	Endometrial stromal sarcoma [low grade]
+progenetix	pgx:icdot-C54.2	Myometrium	UBERON:0001296	myometrium	Primary Tumor
+progenetix	pgx:icdot-C54.3	Fundus uteri	UBERON:0009853	body of uterus	Primary Tumor
+progenetix	pgx:icdot-C54.9	Corpus uteri	UBERON:0009853	body of uterus	C49;Leiomyosarcoma
+progenetix	pgx:icdot-C55.9	uterus, nos	UBERON:0000995	uterus	Leiomyoma [Uterus]
+progenetix	pgx:icdot-C56.9	ovary	UBERON:0000992	ovary	ovarian carcinoma [clear cell, grade NA]
+progenetix	pgx:icdot-C57.0	fallopian tube	UBERON:0003889	fallopian tube	Fallopian tube carcinoma
+progenetix	pgx:icdot-C57.9	other female genital	UBERON:0000474	female reproductive system	Carcinoma
+progenetix	pgx:icdot-C58.9	placenta	UBERON:0001987	placenta	choriocarcinoma
+progenetix	pgx:icdot-C60.9	penis	UBERON:0000989	penis	Basaloid Penile Squamous Cell Carcinoma
+progenetix	pgx:icdot-C61.9	prostate gland	UBERON:0002367	prostate gland	Prostate adenocarcinoma [recurrent, hormon-refractory]
+progenetix	pgx:icdot-C62.9	testis	UBERON:0000473	testis	Diffuse large B-cell lymphoma, NOS
+progenetix	pgx:icdot-C63.1	Spermatic cord	UBERON:0005352	spermatic cord	Primary Tumor
+progenetix	pgx:icdot-C63.9	epididymis, spermatic cord, male genital, nos	UBERON:0005352	spermatic cord	Primary Nonseminoma Testicular Germ Cell Tumour
+progenetix	pgx:icdot-C64.9	Kidney, NOS	UBERON:0000178	blood	non cancer
+progenetix	pgx:icdot-C64.9	kidney	UBERON:0002113	kidney	Wilms tumor
+progenetix	pgx:icdot-C65.9	Renal pelvis, ureter	UBERON:0036295	renal pelvis/ureter	Unclassified Renal Cell Carcinoma
+progenetix	pgx:icdot-C65	Renal pelvis	UBERON:0001224	renal pelvis	Mixed Cancer Types
+progenetix	pgx:icdot-C67.0	Urinary bladder	UBERON:0001255	urinary bladder	Paraganglioma [urinary bladder]
+progenetix	pgx:icdot-C67.1	Dome of bladder	UBERON:0006082	fundus of urinary bladder	Primary Tumor
+progenetix	pgx:icdot-C67.2	Lateral wall of bladder	UBERON:0001256	wall of urinary bladder	Primary Tumor
+progenetix	pgx:icdot-C67.3	Anterior wall of bladder	UBERON:0001256	wall of urinary bladder	Primary Tumor
+progenetix	pgx:icdot-C67.4	Posterior wall of bladder	UBERON:0001256	wall of urinary bladder	Primary Tumor
+progenetix	pgx:icdot-C67.5	Bladder neck	UBERON:0012303	ureteral orifice	Primary Tumor
+progenetix	pgx:icdot-C67.6	Ureteric orifice	UBERON:0012303	ureteral orifice	Primary Tumor
+progenetix	pgx:icdot-C67.9	Bladder, NOS	UBERON:0018707	bladder organ	Metastatic
+progenetix	pgx:icdot-C68.0	other urinary organs	UBERON:0001008	renal system	Mucosal Melanoma of the Urethra
+progenetix	pgx:icdot-C69.0	orbit and lacrimal gland, excl. retina, eye, nos	UBERON:0001817	lacrimal gland	Cavernous hemangioma
+progenetix	pgx:icdot-C69.2	Retina	UBERON:0000966	retina	Retinoblastoma
+progenetix	pgx:icdot-C69.3	Choroid	UBERON:0013398	choroidal gland	Primary Tumor
+progenetix	pgx:icdot-C69.4	Ciliary body	UBERON:0001775	ciliary body	Primary Tumor
+progenetix	pgx:icdot-C69.6	Orbit, NOS	UBERON:0001697	orbit of skull	adenoid cystic carcinoma
+progenetix	pgx:icdot-C69.8	Overlapping lesion of eye and adnexa	UBERON:0035639	ocular adnexa	Primary Tumor
+progenetix	pgx:icdot-C69.9	eye, nos	UBERON:0000970	eye	Choroidal melanoma
+progenetix	pgx:icdot-C70.0	meninges cerebral, spinal	UBERON:0017641	meningeal branch of spinal nerve	Meningioma [grade I, Fibroblastic]
+progenetix	pgx:icdot-C70.1	Spinal meninges	UBERON:0017641	meningeal branch of spinal nerve	Primary Tumor
+progenetix	pgx:icdot-C70.9	Meninges, NOS	UBERON:0010743	meningeal cluster	Meningioma
+progenetix	pgx:icdot-C71.0	cerebrum	UBERON:0001869	cerebral hemisphere	Central nervous system primitive neuroectodermal tumor [cerebral region   frontal lobe]
+progenetix	pgx:icdot-C71.1	Frontal lobe	UBERON:0016525	frontal lobe	Metastatic
+progenetix	pgx:icdot-C71.2	Temporal lobe	UBERON:0001871	temporal lobe	Primary Tumor
+progenetix	pgx:icdot-C71.3	Parietal lobe	UBERON:0001872	parietal lobe	Metastatic
+progenetix	pgx:icdot-C71.4	Occipital lobe	UBERON:0002021	occipital lobe	Primary Tumor
+progenetix	pgx:icdot-C71.5	Ventricle	UBERON:0002082	cardiac ventricle	Astrocytoma [3rd ventricle]
+progenetix	pgx:icdot-C71.6	cerebellum	UBERON:0002037	cerebellum	Medulloblastoma
+progenetix	pgx:icdot-C71.7	brain stem	UBERON:0002298	brainstem	Diffusely infiltrating astrocytoma
+progenetix	pgx:icdot-C71.8	Overlapping lesion of brain	UBERON:0000955	brain	Primary Tumor
+progenetix	pgx:icdot-C71.9	brain, NOS	UBERON:0000955	brain	Astrocytoma [familial]
+progenetix	pgx:icdot-C71	Brain	UBERON:0000955	brain	Mixed Cancer Types
+progenetix	pgx:icdot-C72.0	Spinal cord	UBERON:0002240	spinal cord	Glioblastoma
+progenetix	pgx:icdot-C72.2	Olfactory nerve	UBERON:0001579	olfactory nerve	Olfactory neuroblastoma
+progenetix	pgx:icdot-C72.3	Optic chiasm	UBERON:0000959	optic chiasma	Glioblastoma
+progenetix	pgx:icdot-C72.9	Nervous system, NOS	UBERON:0001016	nervous system	ML, large B-cell, diffuse, immunoblastic, NOS [CNS, AIDS related]
+progenetix	pgx:icdot-C73.9	Thyroid gland	UBERON:0002046	thyroid gland	Carcinoma showing thymus-like elements
+progenetix	pgx:icdot-C74.0	adrenal cortex	UBERON:0001235	adrenal cortex	Adrenal cortical carcinoma [pediatric]
+progenetix	pgx:icdot-C74.1	Medulla of adrenal gland	UBERON:0001236	adrenal medulla	Primary Tumor
+progenetix	pgx:icdot-C74.9	adrenal glands	UBERON:0002369	adrenal gland	Peripheral T-cell lymphoma [Adrenal]
+progenetix	pgx:icdot-C75.0	parathyroid gland	UBERON:0001132	parathyroid gland	Parathyroid tumor [lithium associated]
+progenetix	pgx:icdot-C75.1	pituitary gland	UBERON:0000007	pituitary gland	ptituitary adenoma [acromegaly, primary]
+progenetix	pgx:icdot-C75.3	pineal gland	UBERON:0034715	pineal tract	CNS germ cell tumor [germinoma and teratoma]
+progenetix	pgx:icdot-C75.5	Aortic body and other paraganglia	UBERON:0034978	paraganglion (generic)	Glomangiosarcoma
+progenetix	pgx:icdot-C76.0	Head, face or neck, NOS	UBERON:0000033	head	
+progenetix	pgx:icdot-C76.1	thorax, NOS	UBERON:0000915	thoracic segment of trunk	Metastatic
+progenetix	pgx:icdot-C76.2	abdomen, NOS	UBERON:0000916	abdomen	Diffuse large B-cell lymphoma [Abdominal cavity]
+progenetix	pgx:icdot-C76.3	Pelvis, NOS	UBERON:0008203	pelvic cavity	Metastatic
+progenetix	pgx:icdot-C76.9	ill-defined	UBERON:0001062	anatomical entity	
+progenetix	pgx:icdot-C77.0	Lymph nodes of head, face and neck	UBERON:0015870	lymph node of head	Metastatic
+progenetix	pgx:icdot-C77.1	Intrathoracic lymph nodes	UBERON:0007644	thoracic lymph node	Primary Tumor
+progenetix	pgx:icdot-C77.2	Intra-abdominal lymph nodes	UBERON:0002507	abdominal lymph node	Metastatic
+progenetix	pgx:icdot-C77.3	Lymph nodes of axilla or arm	UBERON:0016399	lymph node of upper limb	Metastatic
+progenetix	pgx:icdot-C77.4	Lymph nodes of inguinal region or leg	UBERON:0001542	inguinal lymph node	Metastatic
+progenetix	pgx:icdot-C77.5	Pelvic lymph nodes	UBERON:0015876	pelvic lymph node	Metastatic
+progenetix	pgx:icdot-C77.9	Lymph nodes, NOS	UBERON:0000029	lymph node	Diffuse large B-cell lymphoma
+progenetix	pgx:icdot-C80.9	Unknown primary site	UBERON:0001062	anatomical entity	Chondrosarcoma, NOS

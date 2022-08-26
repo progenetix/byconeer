@@ -1,0 +1,69 @@
+pgx:cohort-celllines	pgx:icdot-C01.9	tongue	UBERON:0001723	tongue	salivary gland squamous cell carcinoma [cell line A-253]
+pgx:cohort-celllines	pgx:icdot-C02.9	Tongue, NOS	UBERON:0001723	tongue	
+pgx:cohort-celllines	pgx:icdot-C03.9	Gum, NOS	UBERON:0001828	gingiva	Mixed Cancer Types
+pgx:cohort-celllines	pgx:icdot-C04.9	floor of mouth	UBERON:0003679	mouth floor	
+pgx:cohort-celllines	pgx:icdot-C06.9	mouth, NOS	UBERON:0000165	mouth	Head and neck squamous cell carcinoma [cell line KOSC-2]
+pgx:cohort-celllines	pgx:icdot-C08.9	salivary, major, NOS	UBERON:0004809	salivary gland epithelium	Mixed Cancer Types
+pgx:cohort-celllines	pgx:icdot-C09.9	Tonsil, NOS	UBERON:0002372	tonsil	
+pgx:cohort-celllines	pgx:icdot-C10.9	Oropharynx	UBERON:0001729	oropharynx	Gingival squamous cell carcinoma [cell line Ca9-22]
+pgx:cohort-celllines	pgx:icdot-C11.9	nasopharynx	UBERON:0001728	nasopharynx	Nasopharyngeal carcinoma [cell line C666]
+pgx:cohort-celllines	pgx:icdot-C13.9	Hypopharynx, NOS	UBERON:0001051	hypopharynx	
+pgx:cohort-celllines	pgx:icdot-C13	Hypopharynx	UBERON:0001051	hypopharynx	C13;Carcinoma
+pgx:cohort-celllines	pgx:icdot-C15.9	esophagus	UBERON:0001043	esophagus	esophageal squamous cell carcinoma [cell line TE-1]
+pgx:cohort-celllines	pgx:icdot-C16.9	stomach	UBERON:0000945	stomach	Gastric adenocarcinoma [cell line Hs 746T]
+pgx:cohort-celllines	pgx:icdot-C17.0	Duodenum	UBERON:0002114	duodenum	Mixed Cancer Types
+pgx:cohort-celllines	pgx:icdot-C17.9	Small intestine	UBERON:0002108	small intestine	midgut carcinoid tumor [cell line H-STS]
+pgx:cohort-celllines	pgx:icdot-C18.0	Cecum	UBERON:0000314	cecum mucosa	C18;Carcinoma
+pgx:cohort-celllines	pgx:icdot-C18.9	Colon, NOS	UBERON:0001155	colon	Colon carcinoma [cell line HCT 116]
+pgx:cohort-celllines	pgx:icdot-C20.9	rectum	UBERON:0001052	rectum	Rectal adenocarcinoma [cell line SW837]
+pgx:cohort-celllines	pgx:icdot-C22.0	Liver	UBERON:0002107	liver	C22;Carcinoma
+pgx:cohort-celllines	pgx:icdot-C22.1	Intrahepatic bile duct	UBERON:0003704	intrahepatic bile duct	Intrahepatic cholangiocarcinoma [cell line HuCC-T1]
+pgx:cohort-celllines	pgx:icdot-C22.9	liver	UBERON:0003704	intrahepatic bile duct	hepatocellular carcinoma [cell line Hep 3B2.1-7]
+pgx:cohort-celllines	pgx:icdot-C23.9	gallbladder	UBERON:0005033	mucosa of gallbladder	Mixed Cancer Types
+pgx:cohort-celllines	pgx:icdot-C24.1	Ampulla of Vater	UBERON:0004913	hepatopancreatic ampulla	Mixed Cancer Types
+pgx:cohort-celllines	pgx:icdot-C24.9	Extrahepatic and unspecified bile ducts	UBERON:0003703	extrahepatic bile duct	Mixed Cancer Types
+pgx:cohort-celllines	pgx:icdot-C25.3	Pancreatic duct	UBERON:0007329	pancreatic duct	C25;Adenocarcinoma
+pgx:cohort-celllines	pgx:icdot-C25.9	pancreas	UBERON:0001264	pancreas	Pancreas adenocarcinoma [cell line HPAF-II]
+pgx:cohort-celllines	pgx:icdot-C30.0	Nasal cavity	UBERON:0001707	nasal cavity	
+pgx:cohort-celllines	pgx:icdot-C32.9	Larynx, NOS	UBERON:0001737	larynx	
+pgx:cohort-celllines	pgx:icdot-C34.9	lung and bronchus	UBERON:0002048	lung	lung adenocarcinoma [cell line NCI-H1819]
+pgx:cohort-celllines	pgx:icdot-C38.3	Mediastinum, NOS	UBERON:0003728	mediastinum	Mediastinal (thymic) large B-cell lymphoma
+pgx:cohort-celllines	pgx:icdot-C38.4	pleura	UBERON:0000977	pleura	pleural biphasic mesothelioma [cell line Y-MESO-8D
+pgx:cohort-celllines	pgx:icdot-C38.9	mediastinum	UBERON:0003728	mediastinum	diffuse large B-cell lymphoma [cell line Karpas-231]
+pgx:cohort-celllines	pgx:icdot-C40.0	bones and joints	UBERON:0004765	skeletal element	Ewing sarcoma [cell line A-673]
+pgx:cohort-celllines	pgx:icdot-C41.9	bone, NOS	UBERON:0001474	bone element	Osteosarcoma [cell line KHOS-240S]
+pgx:cohort-celllines	pgx:icdot-C42.1	Bone marrow	UBERON:0002371	bone marrow	Acute lymphoblastic leukemia [cell line CCRF-CEM]
+pgx:cohort-celllines	pgx:icdot-C42.2	Spleen	UBERON:0002106	spleen	Splenic marginal zone lymphoma [cell line VL51]
+pgx:cohort-celllines	pgx:icdot-C42.4	Hematopoietic system, NOS	UBERON:0002390	hematopoietic system	B acute lymphoblastic leukemia [cell line 380]
+pgx:cohort-celllines	pgx:icdot-C44.9	Skin, NOS	UBERON:0000014	zone of skin	malignant melanoma [cell line 1205Lu]
+pgx:cohort-celllines	pgx:icdot-C47.4	autonomic nervous system	UBERON:0002410	autonomic nervous system	C71;neuroblastoma
+pgx:cohort-celllines	pgx:icdot-C47.9	peripheral nervs incl. autonomous	UBERON:0001780	spinal nerve	Neuroblastoma [cell line CHP-134]
+pgx:cohort-celllines	pgx:icdot-C49.0	Head, neck	UBERON:0003566	head connective tissue	Mixed Cancer Types
+pgx:cohort-celllines	pgx:icdot-C49.3	thoracic wall	UBERON:0003837	thoracic segment connective tissue	C71;neuroblastoma
+pgx:cohort-celllines	pgx:icdot-C49.4	Skeletal muscle	UBERON:0003567	abdomen connective tissue	C49;Osteosarcoma
+pgx:cohort-celllines	pgx:icdot-C49.9	connective and soft tissue, nos	UBERON:0002384	connective tissue	Fibrosarcoma [cell line A-204]
+pgx:cohort-celllines	pgx:icdot-C50.9	Breast, NOS	UBERON:0000310	breast	Squamous cell breast carcinoma [cell line HCC1806]
+pgx:cohort-celllines	pgx:icdot-C51.9	Vulva	UBERON:0011387	constrictor vulvae muscle	C49;Sarcoma
+pgx:cohort-celllines	pgx:icdot-C53.9	cervix uteri	UBERON:0000002	uterine cervix	cervix carcinoma [cell line DoTc2 4510]
+pgx:cohort-celllines	pgx:icdot-C54.1	Endometrium	UBERON:0001295	endometrium	endometrial adenocarcinoma [cell line AN3-CA]
+pgx:cohort-celllines	pgx:icdot-C54.9	Corpus uteri	UBERON:0009853	body of uterus	C49;Leiomyosarcoma
+pgx:cohort-celllines	pgx:icdot-C55.9	uterus, nos	UBERON:0000995	uterus	Endometrial adenocarcinoma [cell line HEC-1]
+pgx:cohort-celllines	pgx:icdot-C56.9	ovary	UBERON:0000992	ovary	Ovarian clear cell adenocarcinoma (Taxene treated) [cell line ES-2/TxT50]
+pgx:cohort-celllines	pgx:icdot-C61.9	Prostate gland	UBERON:0002367	prostate gland	prostate adenocarcinoma [cell line LNCaP]
+pgx:cohort-celllines	pgx:icdot-C62.9	testis	UBERON:0000473	testis	testicular embryonal carcinoma [cell line NEC8]
+pgx:cohort-celllines	pgx:icdot-C64.9	kidney	UBERON:0002113	kidney	Clear cell renal carcinoma [cell line Caki-1]
+pgx:cohort-celllines	pgx:icdot-C65	Renal pelvis	UBERON:0001224	renal pelvis	Mixed Cancer Types
+pgx:cohort-celllines	pgx:icdot-C67.0	Urinary bladder	UBERON:0001255	urinary bladder	bladder carcinoma [cell line 5637]
+pgx:cohort-celllines	pgx:icdot-C67.9	Urinary bladder, NOS	UBERON:0018707	bladder organ	C67;Carcinoma
+pgx:cohort-celllines	pgx:icdot-C69.2	Retina	UBERON:0000966	retina	C69;Retinoblastoma
+pgx:cohort-celllines	pgx:icdot-C70.9	Meninges, NOS	UBERON:0010743	meningeal cluster	Mixed Cancer Types
+pgx:cohort-celllines	pgx:icdot-C71.6	cerebellum	UBERON:0002037	cerebellum	medulloblastoma [cell line D283 Med]
+pgx:cohort-celllines	pgx:icdot-C71.9	Brain, NOS	UBERON:0000955	brain	astrocytoma [cell line NMC-G1]
+pgx:cohort-celllines	pgx:icdot-C71	Brain	UBERON:0000955	brain	Mixed Cancer Types
+pgx:cohort-celllines	pgx:icdot-C73.9	thyroid gland	UBERON:0002046	thyroid gland	Follicular carcinoma [cell line FTC-133]
+pgx:cohort-celllines	pgx:icdot-C74.0	Adrenal cortex	UBERON:0001235	adrenal cortex	C71;Carcinoma
+pgx:cohort-celllines	pgx:icdot-C74.9	adrenal glands	UBERON:0002369	adrenal gland	Adrenal cortex carcinoma [cell line SW13]
+pgx:cohort-celllines	pgx:icdot-C76.0	Head, face or neck, NOS	UBERON:0000033	head	
+pgx:cohort-celllines	pgx:icdot-C76.9	ill-defined	UBERON:0001062	anatomical entity	benign prostate hyperplasia [cell line BPH-1]
+pgx:cohort-celllines	pgx:icdot-C77.9	lymph nodes	UBERON:0000029	lymph node	Hodgkin lymphoma [cell line HDLM-2]
+pgx:cohort-celllines	pgx:icdot-C80.9	Unknown primary site	UBERON:0001062	anatomical entity	Mixed Cancer Types

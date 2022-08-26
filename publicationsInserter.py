@@ -77,17 +77,17 @@ def publications_inserter():
         for pub in in_pubs:
 
             l_i += 1
-            pmid = str(pub.get("pubmedid", "empty")).strip()
-            if not re.match(r'^\d{6,9}$', pmid):
-                print('¡¡¡ Line {}: skipped due to empty or strange pubmedid entry ("{}") !!!'.format(l_i, pmid))
-                continue
 
-            skip_mark = pub.get("SKIP", "")
+            pmid = str(pub.get("pubmedid", "empty")).strip()
+            skip_mark = pub.get("SKIP", "").strip()
+
             if len(skip_mark) > 0:
                 print('¡¡¡ Line {} ({}): skipped due to non-empty skip field ("{}") !!!'.format(l_i, pmid, skip_mark))
                 continue
 
-            include = False
+            if not re.match(r'^\d{6,9}$', pmid):
+                print('¡¡¡ Line {}: skipped due to empty or strange pubmedid entry ("{}") !!!'.format(l_i, pmid))
+                continue
 
             p_k = "PMID:"+pmid
 
@@ -106,9 +106,14 @@ def publications_inserter():
                 n_p.update({"id":p_k})
 
             for k, v in pub.items():
+                v = v.strip()
                 if k:
                     if k in skip_cols:
                         continue
+                    if len(str(v)) < 1:
+                        continue
+                    if v == "DELETE":
+                        v = ""
                     assign_nested_value(n_p, k, v)
 
             try:
