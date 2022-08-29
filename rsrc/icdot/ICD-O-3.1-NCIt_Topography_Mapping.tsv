@@ -1,3 +1,4 @@
+# downloaded from https://evs.nci.nih.gov/ftp1/NCI_Thesaurus/Mappings/ICD-O-3_Mappings/About.html
 ICD-O Code	Level	Term Type	Term type Desc	ICD-O string	NCIm CUI	NCIt Code (if present)	NCIt PT String (Preferred term)
 T	1	HT	Hierarchical term	TOPOGRAPHY	C1522605	C38034	Topography
 C00-C14	2	HT	Hierarchical term	LIP, ORAL CAVITY AND PHARYNX	CL018645		

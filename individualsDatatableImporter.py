@@ -48,7 +48,7 @@ def individuals_refresher():
     bios_coll = data_db[ "biosamples" ]
     ind_coll = data_db[ "individuals" ]
 
-    ind_table, bs_ids, fieldnames = read_inputtable(byc, max_count)
+    ind_table, bs_ids, fieldnames = read_inputtable(byc, "biosample_id", max_count)
     ind_no = len(ind_table)
 
     for t_ind in ind_table:

@@ -51,31 +51,31 @@ def read_tsv_to_dictlist(filepath, max_count=0):
 
 ################################################################################
 
-def read_inputtable(byc, max_count=0):
+def read_inputtable(byc, id_field="biosample_id", max_count=0):
 
-    ind_data = []
-    bs_ids = set()
+    t_data = []
+    ids = set()
     fieldnames = []
 
     with open(byc["args"].inputfile, newline='') as csvfile:
         
-        fmp_in = csv.DictReader(csvfile, delimiter="\t", quotechar='"')
+        t_in = csv.DictReader(csvfile, delimiter="\t", quotechar='"')
 
-        fieldnames += fmp_in.fieldnames
+        fieldnames += t_in.fieldnames
 
-        for fmp_s in fmp_in:
+        for t_s in t_in:
 
-            fmp_s = dict(fmp_s)
+            t_s = dict(t_s)
 
-            bsid = fmp_s["biosample_id"]
-            bs_ids.add(bsid)
-            ind_data.append(dict(fmp_s))
+            l_id = t_s[id_field]
+            ids.add(l_id)
+            t_data.append(dict(t_s))
 
     if max_count >0:
-        if max_count < len(ind_data):
-            ind_data = randomSamples(ind_data, k=max_count)
+        if max_count < len(t_data):
+            t_data = randomSamples(t_data, k=max_count)
 
-    return ind_data, list(bs_ids), fieldnames
+    return t_data, list(ids), fieldnames
 
 ################################################################################
 

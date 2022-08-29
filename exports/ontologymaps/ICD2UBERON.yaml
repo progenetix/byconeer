@@ -9,7 +9,7 @@
   note: progenetix
 - code_group:
   - id: pgx:icdot-C01.9
-    label: tongue
+    label: Base of tongue, NOS
   - id: UBERON:0001723
     label: tongue
   examples:
@@ -97,7 +97,7 @@
   note: progenetix
 - code_group:
   - id: pgx:icdot-C04.9
-    label: floor of mouth
+    label: Floor of mouth, NOS
   - id: UBERON:0003679
     label: mouth floor
   examples:
@@ -148,7 +148,7 @@
   note: progenetix
 - code_group:
   - id: pgx:icdot-C06.9
-    label: mouth, NOS
+    label: Mouth, NOS
   - id: UBERON:0000165
     label: mouth
   examples:
@@ -184,7 +184,7 @@
   note: progenetix
 - code_group:
   - id: pgx:icdot-C08.9
-    label: salivary gland, NOS
+    label: Major salivary gland, NOS
   - id: UBERON:0004809
     label: salivary gland epithelium
   examples:
@@ -197,7 +197,7 @@
   note: progenetix
 - code_group:
   - id: pgx:icdot-C09.9
-    label: tonsil
+    label: Tonsil, NOS
   - id: UBERON:0002372
     label: tonsil
   examples:
@@ -219,7 +219,7 @@
   note: progenetix
 - code_group:
   - id: pgx:icdot-C10.9
-    label: Oropharynx
+    label: Oropharynx, NOS
   - id: UBERON:0001729
     label: oropharynx
   examples:
@@ -277,7 +277,16 @@
   note: progenetix
 - code_group:
   - id: pgx:icdot-C14.0
-    label: pharynx, NOS
+    label: Pharynx, NOS
+  - id: UBERON:0003566
+    label: head connective tissue
+  examples:
+  - Mixed Cancer Types
+  id: pgx:icdot-C14.0::UBERON:0003566
+  note: progenetix
+- code_group:
+  - id: pgx:icdot-C14.0
+    label: Pharynx, NOS
   - id: UBERON:0006562
     label: pharynx
   examples:
@@ -338,7 +347,7 @@
   note: progenetix
 - code_group:
   - id: pgx:icdot-C15.9
-    label: esophagus
+    label: Esophagus, NOS
   - id: UBERON:0001043
     label: esophagus
   examples:
@@ -408,7 +417,7 @@
   note: progenetix
 - code_group:
   - id: pgx:icdot-C16.9
-    label: stomach
+    label: Stomach, NOS
   - id: UBERON:0000945
     label: stomach
   examples:
@@ -440,7 +449,7 @@
   note: progenetix
 - code_group:
   - id: pgx:icdot-C17.9
-    label: Small intestine
+    label: Small intestine, NOS
   - id: UBERON:0002108
     label: small intestine
   examples:
@@ -526,7 +535,7 @@
   note: progenetix
 - code_group:
   - id: pgx:icdot-C18.7
-    label: sigmoid incl. rectosigmoid junction
+    label: Sigmoid colon
   - id: UBERON:0001155
     label: colon
   examples:
@@ -539,7 +548,7 @@
   note: progenetix
 - code_group:
   - id: pgx:icdot-C18.9
-    label: large intestine, excl. rectum and rectosigmoid junction
+    label: Colon, NOS
   - id: UBERON:0001155
     label: colon
   examples:
@@ -612,8 +621,21 @@
   id: pgx:icdot-C22.0::UBERON:0002107
   note: progenetix
 - code_group:
+  - id: pgx:icdot-C22.0
+    label: Liver
+  - id: UBERON:0003704
+    label: intrahepatic bile duct
+  examples:
+  - hepatocellular carcinoma [cell line Hep 3B2.1-7]
+  - hepatocellular carcinoma [cell line Hep-G2]
+  - hepatocellular carcinoma [cell line Huh-7]
+  - hepatocellular carcinoma [cell line PLC/PRF/5]
+  - hepatocellular carcinoma [cell line SK-HEP-1]
+  id: pgx:icdot-C22.0::UBERON:0003704
+  note: progenetix
+- code_group:
   - id: pgx:icdot-C22.1
-    label: intrahepatic bile ducts
+    label: Intrahepatic bile duct
   - id: UBERON:0003704
     label: intrahepatic bile duct
   examples:
@@ -625,21 +647,8 @@
   id: pgx:icdot-C22.1::UBERON:0003704
   note: progenetix
 - code_group:
-  - id: pgx:icdot-C22.9
-    label: liver
-  - id: UBERON:0003704
-    label: intrahepatic bile duct
-  examples:
-  - hepatocellular carcinoma [cell line Hep 3B2.1-7]
-  - hepatocellular carcinoma [cell line Hep-G2]
-  - hepatocellular carcinoma [cell line Huh-7]
-  - hepatocellular carcinoma [cell line PLC/PRF/5]
-  - hepatocellular carcinoma [cell line SK-HEP-1]
-  id: pgx:icdot-C22.9::UBERON:0003704
-  note: progenetix
-- code_group:
   - id: pgx:icdot-C23.9
-    label: gallbladder
+    label: Gallbladder
   - id: UBERON:0005033
     label: mucosa of gallbladder
   examples:
@@ -674,7 +683,7 @@
   note: progenetix
 - code_group:
   - id: pgx:icdot-C24.9
-    label: extrahepatic and unspecified bile ducts
+    label: Billiary tract, NOS
   - id: UBERON:0003703
     label: extrahepatic bile duct
   examples:
@@ -888,7 +897,7 @@
   note: progenetix
 - code_group:
   - id: pgx:icdot-C34.9
-    label: lung and bronchus
+    label: Lung, NOS
   - id: UBERON:0002048
     label: lung
   examples:
@@ -938,16 +947,17 @@
   - id: UBERON:0003728
     label: mediastinum
   examples:
-  - Primary Tumor
-  - Primary mediastinal B-cell lymphoma
-  - mediastinal B-cell lymphoma [cell line Karpas-1106P]
-  - primary mediastinal B-cell lymphoma
-  - primary mediastinal B-cell lymphoma [cell line]
+  - Combined germ cell tumor [mediastinal, immature teratoma, yolk sac tumor, stage
+    II]
+  - Diffuse large B-cell lymphoma
+  - germ cell tumor [yolk sac tumor]
+  - mediastinal germ cell tumor [immature teratoma, stage II]
+  - mediastinal germ cell tumor [immature teratoma, stage I]
   id: pgx:icdot-C38.3::UBERON:0003728
   note: progenetix
 - code_group:
   - id: pgx:icdot-C38.4
-    label: pleura
+    label: Pleura, NOS
   - id: UBERON:0000977
     label: pleura
   examples:
@@ -957,33 +967,6 @@
   - malignant mesothelioma
   - mesothelioma [epithelioid]
   id: pgx:icdot-C38.4::UBERON:0000977
-  note: progenetix
-- code_group:
-  - id: pgx:icdot-C38.9
-    label: mediastinum
-  - id: UBERON:0003728
-    label: mediastinum
-  examples:
-  - Combined germ cell tumor [mediastinal, immature teratoma, yolk sac tumor, stage
-    II]
-  - Diffuse large B-cell lymphoma
-  - germ cell tumor [yolk sac tumor]
-  - mediastinal germ cell tumor [immature teratoma, stage II]
-  - mediastinal germ cell tumor [immature teratoma, stage I]
-  id: pgx:icdot-C38.9::UBERON:0003728
-  note: progenetix
-- code_group:
-  - id: pgx:icdot-C40.0
-    label: bones and joints
-  - id: UBERON:0004765
-    label: skeletal element
-  examples:
-  - central osteosarcoma
-  - osteochondroma [femur]
-  - osteochondroma [fibula]
-  - osteochondroma [hand]
-  - osteochondroma [tibia]
-  id: pgx:icdot-C40.0::UBERON:0004765
   note: progenetix
 - code_group:
   - id: pgx:icdot-C40.1
@@ -1070,6 +1053,19 @@
   id: pgx:icdot-C41.9::UBERON:0002384
   note: progenetix
 - code_group:
+  - id: pgx:icdot-C41.9
+    label: Bone, NOS
+  - id: UBERON:0004765
+    label: skeletal element
+  examples:
+  - central osteosarcoma
+  - osteochondroma [femur]
+  - osteochondroma [fibula]
+  - osteochondroma [hand]
+  - osteochondroma [tibia]
+  id: pgx:icdot-C41.9::UBERON:0004765
+  note: progenetix
+- code_group:
   - id: pgx:icdot-C42.0
     label: Blood
   - id: UBERON:0000178
@@ -1094,6 +1090,26 @@
 - code_group:
   - id: pgx:icdot-C42.1
     label: Bone marrow
+  - id: UBERON:0000029
+    label: lymph node
+  examples:
+  - Myeloid Neoplasm
+  id: pgx:icdot-C42.1::UBERON:0000029
+  note: progenetix
+- code_group:
+  - id: pgx:icdot-C42.1
+    label: Bone marrow
+  - id: UBERON:0000178
+    label: blood
+  examples:
+  - Infant Acute Lymphoblastic Leukaemia
+  - Juvenile Acute Monocytic Leukemia
+  - Waldenstrom Macroglobulinemia
+  id: pgx:icdot-C42.1::UBERON:0000178
+  note: progenetix
+- code_group:
+  - id: pgx:icdot-C42.1
+    label: Bone marrow
   - id: UBERON:0002371
     label: bone marrow
   examples:
@@ -1103,6 +1119,17 @@
   - Small Lymphocytic Lymphoma
   - acute lymphoblastic leukemia
   id: pgx:icdot-C42.1::UBERON:0002371
+  note: progenetix
+- code_group:
+  - id: pgx:icdot-C42.1
+    label: Bone marrow
+  - id: UBERON:0002390
+    label: hematopoietic system
+  examples:
+  - diagnosis;acute lymphoblastic leukaemia
+  - in remission of acute lymphoblastic leukemia
+  - relapse;acute lymphoblastic leukaemia
+  id: pgx:icdot-C42.1::UBERON:0002390
   note: progenetix
 - code_group:
   - id: pgx:icdot-C42.2
@@ -1216,19 +1243,8 @@
   id: pgx:icdot-C47.1::UBERON:0002410
   note: progenetix
 - code_group:
-  - id: pgx:icdot-C47.4
-    label: autonomic nervous system
-  - id: UBERON:0002410
-    label: autonomic nervous system
-  examples:
-  - C71;neuroblastoma
-  - Mixed Cancer Types
-  - neuroblastoma;C72
-  id: pgx:icdot-C47.4::UBERON:0002410
-  note: progenetix
-- code_group:
   - id: pgx:icdot-C47.9
-    label: peripheral nervs incl. Autonomous
+    label: Autonomic nervous system, NOS
   - id: UBERON:0001780
     label: spinal nerve
   examples:
@@ -1238,6 +1254,17 @@
   - neuroblastoma [cell line NGP]
   - neuroblastoma [cell line SK-N-AS]
   id: pgx:icdot-C47.9::UBERON:0001780
+  note: progenetix
+- code_group:
+  - id: pgx:icdot-C47.9
+    label: Autonomic nervous system, NOS
+  - id: UBERON:0002410
+    label: autonomic nervous system
+  examples:
+  - C71;neuroblastoma
+  - Mixed Cancer Types
+  - neuroblastoma;C72
+  id: pgx:icdot-C47.9::UBERON:0002410
   note: progenetix
 - code_group:
   - id: pgx:icdot-C48.0
@@ -1290,7 +1317,6 @@
     label: head connective tissue
   examples:
   - Metastatic
-  - Mixed Cancer Types
   - Primary Tumor
   id: pgx:icdot-C49.0::UBERON:0003566
   note: progenetix
@@ -1371,7 +1397,7 @@
   note: progenetix
 - code_group:
   - id: pgx:icdot-C49.9
-    label: connective and soft tissue, NOS
+    label: Connective, subcutaneous and other soft tissues, NOS
   - id: UBERON:0002384
     label: connective tissue
   examples:

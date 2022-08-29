@@ -226,7 +226,7 @@
   - id: NCIT:C132256
     label: Unspecified Tissue
   - id: pgx:icdom-00000
-    label: Normal
+    label: not in ICD-O (e.g. non-neoplastic tissue or reference)
   - id: pgx:icdot-C06.9
     label: Mouth, NOS
   examples:
@@ -241,9 +241,9 @@
   - id: NCIT:C132256
     label: Unspecified Tissue
   - id: pgx:icdom-00000
-    label: not in ICD-O (e.g. non-neoplastic, reference)
+    label: not in ICD-O (e.g. non-neoplastic tissue or reference)
   - id: pgx:icdot-C08.9
-    label: salivary gland, NOS
+    label: Major salivary gland, NOS
   examples:
   - normal tissue
   id: NCIT:C132256::pgx:icdom-00000::pgx:icdot-C08.9
@@ -252,9 +252,9 @@
   - id: NCIT:C132256
     label: Unspecified Tissue
   - id: pgx:icdom-00000
-    label: not in ICD-O (e.g. non-neoplastic, reference)
+    label: not in ICD-O (e.g. non-neoplastic tissue or reference)
   - id: pgx:icdot-C09.9
-    label: tonsil
+    label: Tonsil, NOS
   examples:
   - normal tissue
   id: NCIT:C132256::pgx:icdom-00000::pgx:icdot-C09.9
@@ -263,9 +263,9 @@
   - id: NCIT:C132256
     label: Unspecified Tissue
   - id: pgx:icdom-00000
-    label: not in ICD-O (e.g. non-neoplastic, reference)
+    label: not in ICD-O (e.g. non-neoplastic tissue or reference)
   - id: pgx:icdot-C10.9
-    label: Oropharynx
+    label: Oropharynx, NOS
   examples:
   - transformed cell line SVpgC2a-FOXM1B
   - transformed cell line SVpgC2a-FOXM1B/SVFN1
@@ -278,7 +278,7 @@
   - id: NCIT:C132256
     label: Unspecified Tissue
   - id: pgx:icdom-00000
-    label: not in ICD-O (e.g. non-neoplastic, reference)
+    label: not in ICD-O (e.g. non-neoplastic tissue or reference)
   - id: pgx:icdot-C11.9
     label: nasopharynx
   examples:
@@ -291,9 +291,9 @@
   - id: NCIT:C132256
     label: Unspecified Tissue
   - id: pgx:icdom-00000
-    label: not classified in ICD-O 3 [e.g. non-neoplastic or benign]
+    label: not in ICD-O (e.g. non-neoplastic tissue or reference)
   - id: pgx:icdot-C14.0
-    label: pharynx, NOS
+    label: Pharynx, NOS
   examples:
   - 'Head and neck squamous cell carcinoma [mucosa 1cm from tumor: D1]'
   - 'Head and neck squamous cell carcinoma [mucosa 1cm from tumor: severe dysplasia]'
@@ -304,9 +304,9 @@
   - id: NCIT:C132256
     label: Unspecified Tissue
   - id: pgx:icdom-00000
-    label: not in ICD-O (e.g. non-neoplastic, reference)
+    label: not in ICD-O (e.g. non-neoplastic tissue or reference)
   - id: pgx:icdot-C15.9
-    label: esophagus
+    label: Esophagus, NOS
   examples:
   - Intestinal metaplasia in Barrett esophagus
   - normal
@@ -318,9 +318,9 @@
   - id: NCIT:C132256
     label: Unspecified Tissue
   - id: pgx:icdom-00000
-    label: not in ICD-O (e.g. non-neoplastic, reference)
+    label: not in ICD-O (e.g. non-neoplastic tissue or reference)
   - id: pgx:icdot-C16.9
-    label: stomach
+    label: Stomach, NOS
   examples:
   - Metaplasia of the cardia
   - Normal tissue [gastric]
@@ -333,9 +333,9 @@
   - id: NCIT:C132256
     label: Unspecified Tissue
   - id: pgx:icdom-00000
-    label: Not in ICD-O
+    label: not in ICD-O (e.g. non-neoplastic tissue or reference)
   - id: pgx:icdot-C17.9
-    label: small intesine, NOS
+    label: Small intestine, NOS
   examples:
   - normal tissue [GI tract mixed cells]
   - normal tissue [GI tract smooth muscle cells]
@@ -345,7 +345,7 @@
   - id: NCIT:C132256
     label: Unspecified Tissue
   - id: pgx:icdom-00000
-    label: not in ICD-O (e.g. non-neoplastic, reference)
+    label: not in ICD-O (e.g. non-neoplastic tissue or reference)
   - id: pgx:icdot-C18.9
     label: Colon, NOS
   examples:
@@ -360,9 +360,9 @@
   - id: NCIT:C132256
     label: Unspecified Tissue
   - id: pgx:icdom-00000
-    label: Not in ICD-O
+    label: not in ICD-O (e.g. non-neoplastic tissue or reference)
   - id: pgx:icdot-C20.9
-    label: rectum, NOS
+    label: Rectum, NOS
   examples:
   - normal tissue [rectum]
   - ulcerative colitis, non-dysplastic tissue [microsatellite stable]
@@ -372,10 +372,12 @@
   - id: NCIT:C132256
     label: Unspecified Tissue
   - id: pgx:icdom-00000
-    label: not in ICD-O (e.g. non-neoplastic, reference)
+    label: not in ICD-O (e.g. non-neoplastic tissue or reference)
   - id: pgx:icdot-C22.0
     label: Liver
   examples:
+  - 'hepatic dysplasia [virus: HBV]'
+  - 'hepatic dysplasia [virus: HCV]'
   - normal tissue
   - normal tissue [liver]
   - normal tissue [non-tumoral cirrhotic liver]
@@ -385,24 +387,9 @@
   - id: NCIT:C132256
     label: Unspecified Tissue
   - id: pgx:icdom-00000
-    label: not classified in ICD-O 3 [e.g. non-neoplastic or benign]
-  - id: pgx:icdot-C22.9
-    label: liver
-  examples:
-  - Hepatic cirrhosis [HBV]
-  - focal nodular hyperplasia
-  - 'hepatic dysplasia [virus: HBV]'
-  - 'hepatic dysplasia [virus: HCV]'
-  - 'hepatic dysplasia [virus: NEG]'
-  id: NCIT:C132256::pgx:icdom-00000::pgx:icdot-C22.9
-  note: progenetix
-- code_group:
-  - id: NCIT:C132256
-    label: Unspecified Tissue
-  - id: pgx:icdom-00000
-    label: not in ICD-O (e.g. non-neoplastic, reference)
+    label: not in ICD-O (e.g. non-neoplastic tissue or reference)
   - id: pgx:icdot-C24.9
-    label: extrahepatic and unspecified bile ducts
+    label: Billiary tract, NOS
   examples:
   - normal tissue
   id: NCIT:C132256::pgx:icdom-00000::pgx:icdot-C24.9
@@ -411,7 +398,7 @@
   - id: NCIT:C132256
     label: Unspecified Tissue
   - id: pgx:icdom-00000
-    label: not in ICD-O (e.g. non-neoplastic, reference)
+    label: not in ICD-O (e.g. non-neoplastic tissue or reference)
   - id: pgx:icdot-C25.9
     label: Pancreas, NOS
   examples:
@@ -422,9 +409,9 @@
   - id: NCIT:C132256
     label: Unspecified Tissue
   - id: pgx:icdom-00000
-    label: not in ICD-O (e.g. non-neoplastic, reference)
+    label: not in ICD-O (e.g. non-neoplastic tissue or reference)
   - id: pgx:icdot-C34.9
-    label: lung and bronchus
+    label: Lung, NOS
   examples:
   - Lung [cell line WI-38]
   - normal diploid lung [cell line IMR-90]
@@ -437,7 +424,7 @@
   - id: NCIT:C132256
     label: Unspecified Tissue
   - id: pgx:icdom-00000
-    label: Normal
+    label: not in ICD-O (e.g. non-neoplastic tissue or reference)
   - id: pgx:icdot-C42.0
     label: Blood
   examples:
@@ -452,7 +439,7 @@
   - id: NCIT:C132256
     label: Unspecified Tissue
   - id: pgx:icdom-00000
-    label: Normal
+    label: not in ICD-O (e.g. non-neoplastic tissue or reference)
   - id: pgx:icdot-C42.1
     label: Bone Marrow
   examples:
@@ -465,7 +452,7 @@
   - id: NCIT:C132256
     label: Unspecified Tissue
   - id: pgx:icdom-00000
-    label: not in ICD-O (e.g. non-neoplastic, reference)
+    label: not in ICD-O (e.g. non-neoplastic tissue or reference)
   - id: pgx:icdot-C42.2
     label: Spleen
   examples:
@@ -476,7 +463,7 @@
   - id: NCIT:C132256
     label: Unspecified Tissue
   - id: pgx:icdom-00000
-    label: not in ICD-O (e.g. non-neoplastic, reference)
+    label: not in ICD-O (e.g. non-neoplastic tissue or reference)
   - id: pgx:icdot-C42.4
     label: Hematopoietic system, NOS
   examples:
@@ -491,7 +478,7 @@
   - id: NCIT:C132256
     label: Unspecified Tissue
   - id: pgx:icdom-00000
-    label: Not in ICD-O
+    label: not in ICD-O (e.g. non-neoplastic tissue or reference)
   - id: pgx:icdot-C44.4
     label: Hair
   examples:
@@ -502,7 +489,7 @@
   - id: NCIT:C132256
     label: Unspecified Tissue
   - id: pgx:icdom-00000
-    label: not in ICD-O (e.g. non-neoplastic, reference)
+    label: not in ICD-O (e.g. non-neoplastic tissue or reference)
   - id: pgx:icdot-C44.9
     label: Skin, NOS
   examples:
@@ -517,9 +504,9 @@
   - id: NCIT:C132256
     label: Unspecified Tissue
   - id: pgx:icdom-00000
-    label: not in ICD-O (e.g. non-neoplastic, reference)
+    label: not in ICD-O (e.g. non-neoplastic tissue or reference)
   - id: pgx:icdot-C49.9
-    label: connective and soft tissue, nos
+    label: Connective, subcutaneous and other soft tissues, NOS
   examples:
   - Transformed cell line UE6E7T-2
   - normal tissue
@@ -529,7 +516,7 @@
   - id: NCIT:C132256
     label: Unspecified Tissue
   - id: pgx:icdom-00000
-    label: not in ICD-O (e.g. non-neoplastic, reference)
+    label: not in ICD-O (e.g. non-neoplastic tissue or reference)
   - id: pgx:icdot-C50.9
     label: Breast, NOS
   examples:
@@ -544,7 +531,7 @@
   - id: NCIT:C132256
     label: Unspecified Tissue
   - id: pgx:icdom-00000
-    label: not classified in ICD-O 3 [e.g. non-neoplastic or benign]
+    label: not in ICD-O (e.g. non-neoplastic tissue or reference)
   - id: pgx:icdot-C53.9
     label: cervix uteri
   examples:
@@ -555,7 +542,7 @@
   - id: NCIT:C132256
     label: Unspecified Tissue
   - id: pgx:icdom-00000
-    label: not classified in ICD-O 3 [e.g. non-neoplastic or benign]
+    label: not in ICD-O (e.g. non-neoplastic tissue or reference)
   - id: pgx:icdot-C55.9
     label: uterus, nos
   examples:
@@ -566,7 +553,7 @@
   - id: NCIT:C132256
     label: Unspecified Tissue
   - id: pgx:icdom-00000
-    label: not in ICD-O (e.g. non-neoplastic, reference)
+    label: not in ICD-O (e.g. non-neoplastic tissue or reference)
   - id: pgx:icdot-C56.9
     label: ovary
   examples:
@@ -577,7 +564,7 @@
   - id: NCIT:C132256
     label: Unspecified Tissue
   - id: pgx:icdom-00000
-    label: Not in ICD-O
+    label: not in ICD-O (e.g. non-neoplastic tissue or reference)
   - id: pgx:icdot-C58.9
     label: placenta
   examples:
@@ -588,7 +575,7 @@
   - id: NCIT:C132256
     label: Unspecified Tissue
   - id: pgx:icdom-00000
-    label: not in ICD-O (e.g. non-neoplastic, reference)
+    label: not in ICD-O (e.g. non-neoplastic tissue or reference)
   - id: pgx:icdot-C61.9
     label: Prostate gland
   examples:
@@ -603,7 +590,7 @@
   - id: NCIT:C132256
     label: Unspecified Tissue
   - id: pgx:icdom-00000
-    label: not in ICD-O (e.g. non-neoplastic, reference)
+    label: not in ICD-O (e.g. non-neoplastic tissue or reference)
   - id: pgx:icdot-C62.9
     label: testis
   examples:
@@ -614,7 +601,7 @@
   - id: NCIT:C132256
     label: Unspecified Tissue
   - id: pgx:icdom-00000
-    label: not in ICD-O (e.g. non-neoplastic, reference)
+    label: not in ICD-O (e.g. non-neoplastic tissue or reference)
   - id: pgx:icdot-C64.9
     label: kidney
   examples:
@@ -629,7 +616,7 @@
   - id: NCIT:C132256
     label: Unspecified Tissue
   - id: pgx:icdom-00000
-    label: not classified in ICD-O 3 [e.g. non-neoplastic or benign]
+    label: not in ICD-O (e.g. non-neoplastic tissue or reference)
   - id: pgx:icdot-C67.0
     label: urinary bladder
   examples:
@@ -644,7 +631,7 @@
   - id: NCIT:C132256
     label: Unspecified Tissue
   - id: pgx:icdom-00000
-    label: Not in ICD-O
+    label: not in ICD-O (e.g. non-neoplastic tissue or reference)
   - id: pgx:icdot-C71.9
     label: brain, NOS
   examples:
@@ -656,7 +643,7 @@
   - id: NCIT:C132256
     label: Unspecified Tissue
   - id: pgx:icdom-00000
-    label: not in ICD-O (e.g. non-neoplastic, reference)
+    label: not in ICD-O (e.g. non-neoplastic tissue or reference)
   - id: pgx:icdot-C73.9
     label: thyroid gland
   examples:
@@ -668,7 +655,7 @@
   - id: NCIT:C132256
     label: Unspecified Tissue
   - id: pgx:icdom-00000
-    label: not classified in ICD-O 3 [e.g. non-neoplastic or benign]
+    label: not in ICD-O (e.g. non-neoplastic tissue or reference)
   - id: pgx:icdot-C75.0
     label: parathyroid gland
   examples:
@@ -681,7 +668,7 @@
   - id: NCIT:C132256
     label: Unspecified Tissue
   - id: pgx:icdom-00000
-    label: not in ICD-O (e.g. non-neoplastic, reference)
+    label: not in ICD-O (e.g. non-neoplastic tissue or reference)
   - id: pgx:icdot-C76.9
     label: ill-defined
   examples:
@@ -696,7 +683,7 @@
   - id: NCIT:C132256
     label: Unspecified Tissue
   - id: pgx:icdom-00000
-    label: not in ICD-O (e.g. non-neoplastic, reference)
+    label: not in ICD-O (e.g. non-neoplastic tissue or reference)
   - id: pgx:icdot-C77.9
     label: Lymph nodes, NOS
   examples:
@@ -709,7 +696,7 @@
   - id: NCIT:C132256
     label: Unspecified Tissue
   - id: pgx:icdom-00000
-    label: Normal
+    label: not in ICD-O (e.g. non-neoplastic tissue or reference)
   - id: pgx:icdot-C80.9
     label: Unknown primary site
   examples:
@@ -726,7 +713,7 @@
   - id: pgx:icdom-80770
     label: Intraepithelial neoplasia (dysplasia), low grade
   - id: pgx:icdot-C14.0
-    label: pharynx, NOS
+    label: Pharynx, NOS
   examples:
   - 'Head and neck squamous cell carcinoma [mucosa 1cm from tumor: moderate dysplasia]'
   id: NCIT:C132256::pgx:icdom-80770::pgx:icdot-C14.0
@@ -737,7 +724,7 @@
   - id: pgx:icdom-80770
     label: Intraepithelial neoplasia (dysplasia), low grade
   - id: pgx:icdot-C15.9
-    label: esophagus
+    label: Esophagus, NOS
   examples:
   - Barett's esophagus [low-grade dysplasia]
   - Low grade dysplasia in Barrett esophagus
@@ -749,7 +736,7 @@
   - id: pgx:icdom-80772
     label: Intraepithelial neoplasia (dysplasia), high grade
   - id: pgx:icdot-C14.0
-    label: pharynx, NOS
+    label: Pharynx, NOS
   examples:
   - 'Head and neck squamous cell carcinoma [mucosa 1cm from tumor: severe dysplasia]'
   id: NCIT:C132256::pgx:icdom-80772::pgx:icdot-C14.0
@@ -760,7 +747,7 @@
   - id: pgx:icdom-80772
     label: Intraepithelial neoplasia (dysplasia), high grade
   - id: pgx:icdot-C15.9
-    label: esophagus
+    label: Esophagus, NOS
   examples:
   - Barett's esophagus [high-grade dysplasia]
   - High grade dysplasia [Barrett esophagus]
@@ -772,7 +759,7 @@
   - id: pgx:icdom-81482
     label: Dysplasia (intraepithelial neoplasia), high grade
   - id: pgx:icdot-C16.9
-    label: stomach
+    label: Stomach, NOS
   examples:
   - High grade dysplasia [cardia]
   id: NCIT:C132256::pgx:icdom-81482::pgx:icdot-C16.9
@@ -863,7 +850,7 @@
   - id: pgx:icdom-89363
     label: Gastrointestinal stromal tumor, malignant
   - id: pgx:icdot-C17.9
-    label: small intestine
+    label: Small intestine, NOS
   examples:
   - gastrointestinal stroma tumor [Malignant, metastasized]
   id: NCIT:C150738::pgx:icdom-89363::pgx:icdot-C17.9
@@ -974,7 +961,7 @@
   - id: pgx:icdom-81553
     label: Vipoma
   - id: pgx:icdot-C25.9
-    label: pancreas
+    label: Pancreas, NOS
   examples:
   - endocrine pancreatic tumor [VIPoma, metastasizing, metastasis]
   - endocrine pancreatic tumor [VIPoma, metastasizing, primary]
@@ -1075,7 +1062,7 @@
   - id: pgx:icdom-80710
     label: Squamous cell keratosis, NOS
   - id: pgx:icdot-C44.9
-    label: skin
+    label: Skin, NOS
   examples:
   - Solar keratosis
   id: NCIT:C165485::pgx:icdom-80710::pgx:icdot-C44.9
@@ -1130,7 +1117,7 @@
   - id: pgx:icdom-84803
     label: Mucinous adenocarcinoma
   - id: pgx:icdot-C01.9
-    label: tongue
+    label: Base of tongue, NOS
   examples:
   - Mucinous adenocarcinoma [right ventral surface of the tongue]
   id: NCIT:C26712::pgx:icdom-84803::pgx:icdot-C01.9
@@ -1152,7 +1139,7 @@
   - id: pgx:icdom-84803
     label: Mucinous adenocarcinoma
   - id: pgx:icdot-C17.9
-    label: small intestine
+    label: Small intestine, NOS
   examples:
   - Adenocarcinoma [small intestine, sporadic]
   - Mucinous carcinoma [sporadic, duodenum]
@@ -1197,7 +1184,7 @@
   - id: pgx:icdom-84803
     label: Mucinous adenocarcinoma
   - id: pgx:icdot-C49.9
-    label: connective and soft tissue, NOS
+    label: Connective, subcutaneous and other soft tissues, NOS
   examples:
   - Mucinous adenocarcinoma [right palate]
   id: NCIT:C26712::pgx:icdom-84803::pgx:icdot-C49.9
@@ -1268,7 +1255,7 @@
   - id: pgx:icdom-81553
     label: Vipoma
   - id: pgx:icdot-C25.9
-    label: pancreas
+    label: Pancreas, NOS
   examples:
   - endocrine pancreatic tumor [Vipoma]
   id: NCIT:C26749::pgx:icdom-81553::pgx:icdot-C25.9
@@ -1279,7 +1266,7 @@
   - id: pgx:icdom-80323
     label: Spindle cell carcinoma, NOS
   - id: pgx:icdot-C38.4
-    label: pleura
+    label: Pleura, NOS
   examples:
   - Spindle-cell carcinoma
   id: NCIT:C27004::pgx:icdom-80323::pgx:icdot-C38.4
@@ -1290,7 +1277,7 @@
   - id: pgx:icdom-80333
     label: Pseudosarcomatous carcinoma
   - id: pgx:icdot-C34.9
-    label: lung and bronchus
+    label: Lung, NOS
   examples:
   - sarcomatoid carcinoma [lung]
   id: NCIT:C27004::pgx:icdom-80333::pgx:icdot-C34.9
@@ -1301,7 +1288,7 @@
   - id: pgx:icdom-80333
     label: Pseudosarcomatous carcinoma
   - id: pgx:icdot-C49.9
-    label: connective and soft tissue, NOS
+    label: Connective, subcutaneous and other soft tissues, NOS
   examples:
   - Sarcomatoid carcinoma
   id: NCIT:C27004::pgx:icdom-80333::pgx:icdot-C49.9
@@ -1362,7 +1349,7 @@
   - id: pgx:icdom-80702
     label: Squamous cell carcinoma in situ, NOS
   - id: pgx:icdot-C06.9
-    label: mouth, NOS
+    label: Mouth, NOS
   examples:
   - carcinoma in situ [oral]
   id: NCIT:C27093::pgx:icdom-80702::pgx:icdot-C06.9
@@ -1373,7 +1360,7 @@
   - id: pgx:icdom-80702
     label: Squamous cell carcinoma in situ, NOS
   - id: pgx:icdot-C14.0
-    label: pharynx, NOS
+    label: Pharynx, NOS
   examples:
   - 'Head and neck squamous cell carcinoma [mucosa 1cm from tumor: CIS]'
   id: NCIT:C27093::pgx:icdom-80702::pgx:icdot-C14.0
@@ -1384,7 +1371,7 @@
   - id: pgx:icdom-80702
     label: Squamous cell carcinoma in situ, NOS
   - id: pgx:icdot-C34.9
-    label: lung and bronchus
+    label: Lung, NOS
   examples:
   - Lung precursor metaplasia
   - squamous cell lung carcinoma
@@ -1485,7 +1472,7 @@
   - id: pgx:icdom-88053
     label: Undifferentiated sarcoma
   - id: pgx:icdot-C49.9
-    label: connective and soft tissue, NOS
+    label: Connective, subcutaneous and other soft tissues, NOS
   examples:
   - Pediatric undifferentiated sarcoma [head and neck]
   - Pediatric undifferentiated sarcoma [trunk]
@@ -1511,7 +1498,7 @@
   - id: pgx:icdom-89363
     label: Gastrointestinal stromal sarcoma
   - id: pgx:icdot-C16.9
-    label: stomach
+    label: Stomach, NOS
   examples:
   - Gastrointestinal Stromal Tumor
   - Gastrointestinal stromal tumor
@@ -1526,7 +1513,7 @@
   - id: pgx:icdom-89363
     label: Gastrointestinal stromal sarcoma
   - id: pgx:icdot-C49.9
-    label: connective and soft tissue, NOS
+    label: Connective, subcutaneous and other soft tissues, NOS
   examples:
   - Gastrointestinal stroma tumor [high risk]
   - Gastrointestinal stromal tumor
@@ -1585,7 +1572,7 @@
   - id: pgx:icdom-89013
     label: Pleomorphic rhabdomyosarcoma, adult type
   - id: pgx:icdot-C49.9
-    label: connective and soft tissue, NOS
+    label: Connective, subcutaneous and other soft tissues, NOS
   examples:
   - Pleomorphic rhabdomyosarcoma [PAX3-FKHR ND]
   - Pleomorphic rhabdomyosarcoma [PAX3-FKHR pos.]
@@ -1600,7 +1587,7 @@
   - id: pgx:icdom-84813
     label: Mucin-producing adenocarcinoma
   - id: pgx:icdot-C16.9
-    label: stomach
+    label: Stomach, NOS
   examples:
   - gastric carcinoma [Mucin-producing adenocarcinoma, Moderate differentiation]
   - gastric carcinoma [Mucin-producing adenocarcinoma, Poor differentiation]
@@ -1634,7 +1621,7 @@
   - id: pgx:icdom-93103
     label: Ameloblastoma, malignant
   - id: pgx:icdot-C06.9
-    label: mouth, NOS
+    label: Mouth, NOS
   examples:
   - Ameloblastoma [Follicular]
   id: NCIT:C27397::pgx:icdom-93103::pgx:icdot-C06.9
@@ -1645,7 +1632,7 @@
   - id: pgx:icdom-93103
     label: Ameloblastoma, malignant
   - id: pgx:icdot-C06.9
-    label: mouth, NOS
+    label: Mouth, NOS
   examples:
   - Ameloblastoma [Follicular/granularcell]
   id: NCIT:C27398::pgx:icdom-93103::pgx:icdot-C06.9
@@ -1656,7 +1643,7 @@
   - id: pgx:icdom-80102
     label: Carcinoma in situ, NOS
   - id: pgx:icdot-C34.9
-    label: lung and bronchus
+    label: Lung, NOS
   examples:
   - Carcinoma in situ [left main bronchus]
   id: NCIT:C27467::pgx:icdom-80102::pgx:icdot-C34.9
@@ -1776,7 +1763,7 @@
   - id: pgx:icdom-88523
     label: Myxoid liposarcoma
   - id: pgx:icdot-C49.9
-    label: connective and soft tissue, NOS
+    label: Connective, subcutaneous and other soft tissues, NOS
   examples:
   - Liposarcoma, myxoid
   - Myxoid liposarcoma
@@ -1943,7 +1930,7 @@
   - id: pgx:icdom-81403
     label: Adenocarcinoma, NOS
   - id: pgx:icdot-C17.9
-    label: small intestine
+    label: Small intestine, NOS
   examples:
   - Adenocarcinoma [colorectal]
   - Adenocarcinoma [in FAP, duodenum, Moderate differentiated]
@@ -1972,7 +1959,7 @@
   - id: pgx:icdom-81403
     label: Adenocarcinoma, NOS
   - id: pgx:icdot-C24.9
-    label: extrahepatic and unspecified bile ducts
+    label: Billiary tract, NOS
   examples:
   - biliary tract tumor [commom bile duct adenocarcinoma, adenocarcinoma, moderately
     differentiated]
@@ -2183,7 +2170,7 @@
   - id: pgx:icdom-81400
     label: Adenoma, NOS
   - id: pgx:icdot-C08.9
-    label: salivary gland, NOS
+    label: Major salivary gland, NOS
   examples:
   - Pleomorphic adenoma/adenomatous type [palatal gland]
   - Pleomorphic adenoma/plasmacytoid type [palatal gland]
@@ -2196,7 +2183,7 @@
   - id: pgx:icdom-81400
     label: Adenoma, NOS
   - id: pgx:icdot-C15.9
-    label: esophagus
+    label: Esophagus, NOS
   examples:
   - Adenoma [Pyloric gland adenoma in Barrett esophagus]
   id: NCIT:C2855::pgx:icdom-81400::pgx:icdot-C15.9
@@ -2270,7 +2257,7 @@
   - id: NCIT:C2897
     label: Benign prostatic hyperplasia
   - id: pgx:icdom-00000
-    label: not in ICD-O (e.g. non-neoplastic, reference)
+    label: not in ICD-O (e.g. non-neoplastic tissue or reference)
   - id: pgx:icdot-C76.9
     label: ill-defined
   examples:
@@ -2447,7 +2434,7 @@
   - id: pgx:icdom-82503
     label: Bronchiolo-alveolar adenocarcinoma, NOS
   - id: pgx:icdot-C34.9
-    label: lung and bronchus
+    label: Lung, NOS
   examples:
   - Bronchiolo-alveolar adenocarcinoma
   - C34;Carcinoma
@@ -2462,7 +2449,7 @@
   - id: pgx:icdom-82513
     label: Alveolar adenocarcinoma
   - id: pgx:icdot-C34.9
-    label: lung and bronchus
+    label: Lung, NOS
   examples:
   - Bronchioalveolar carcinoma [cell line NCI-H1650]
   - Bronchioalveolar carcinoma [cell line NCI-H1666]
@@ -2491,7 +2478,7 @@
   - id: pgx:icdom-80463
     label: Non-small cell carcinoma
   - id: pgx:icdot-C34.9
-    label: lung and bronchus
+    label: Lung, NOS
   examples:
   - Non-Small Cell Lung Cancer
   - Non-small cell carcinoma [lung]
@@ -2539,7 +2526,7 @@
   - id: pgx:icdom-80703
     label: Squamous cell carcinoma, NOS
   - id: pgx:icdot-C09.9
-    label: tonsil
+    label: Tonsil, NOS
   examples:
   - Head and neck squamous cell carcinoma [Tonsil, stage II, T3N2M0]
   - Primary Tumor
@@ -2569,7 +2556,7 @@
   - id: pgx:icdom-80703
     label: Squamous cell carcinoma, NOS
   - id: pgx:icdot-C14.0
-    label: pharynx, NOS
+    label: Pharynx, NOS
   examples:
   - Head and neck squamous cell carcinoma [Metastasis, T1N2cM0]
   - Head and neck squamous cell carcinoma [Metastasis, T2N3M0]
@@ -2618,7 +2605,7 @@
   - id: pgx:icdom-80703
     label: Squamous cell carcinoma, NOS
   - id: pgx:icdot-C23.9
-    label: gallbladder
+    label: Gallbladder
   examples:
   - biliary tract tumor [gallbladder adenocarcinoma, squamous cell carcinoma]
   id: NCIT:C2929::pgx:icdom-80703::pgx:icdot-C23.9
@@ -2729,29 +2716,14 @@
     label: Chondrosarcoma
   - id: pgx:icdom-92203
     label: Chondrosarcoma, NOS
-  - id: pgx:icdot-C40.0
-    label: bones and joints
+  - id: pgx:icdot-C41.9
+    label: Bone, NOS
   examples:
   - Chondrosarcoma [grade I, femur]
   - Chondrosarcoma [grade I, pelvis]
   - Chondrosarcoma [grade I, sacrum]
   - Chondrosarcoma [grade I, talus]
   - Chondrosarcoma [grade I, ulna]
-  id: NCIT:C2946::pgx:icdom-92203::pgx:icdot-C40.0
-  note: progenetix
-- code_group:
-  - id: NCIT:C2946
-    label: Chondrosarcoma
-  - id: pgx:icdom-92203
-    label: Chondrosarcoma, NOS
-  - id: pgx:icdot-C41.9
-    label: Bone, NOS
-  examples:
-  - Chondrosarcoma grade I [Ollier patient]
-  - Chondrosarcoma grade II [Ollier patient]
-  - Chondrosarcoma grade III [Ollier patient]
-  - Mixed Cancer Types
-  - chondrosarcoma
   id: NCIT:C2946::pgx:icdom-92203::pgx:icdot-C41.9
   note: progenetix
 - code_group:
@@ -2760,7 +2732,7 @@
   - id: pgx:icdom-92203
     label: Chondrosarcoma, NOS
   - id: pgx:icdot-C49.9
-    label: connective and soft tissue, NOS
+    label: Connective, subcutaneous and other soft tissues, NOS
   examples:
   - Chondrosarcoma
   - Chondrosarcoma [grade II, soft tissue]
@@ -2785,28 +2757,14 @@
     label: Chordoma
   - id: pgx:icdom-93703
     label: Chordoma, NOS
-  - id: pgx:icdot-C40.0
-    label: bones and joints
-  examples:
-  - Chordoma
-  - Chordoma [recurrent]
-  - Chordoma [sakral, primary]
-  - Chordoma [sakral, recurrence]
-  id: NCIT:C2947::pgx:icdom-93703::pgx:icdot-C40.0
-  note: progenetix
-- code_group:
-  - id: NCIT:C2947
-    label: Chordoma
-  - id: pgx:icdom-93703
-    label: Chordoma, NOS
   - id: pgx:icdot-C41.9
     label: bone, NOS
   examples:
-  - Chordoma [Sacrum]
+  - Chordoma [recurrent]
+  - Chordoma [sakral, primary]
+  - Chordoma [sakral, recurrence]
   - chordoma [Coccyx]
   - chordoma [Sacrum]
-  - chordoma [cell line p5]
-  - chordoma tumor
   id: NCIT:C2947::pgx:icdom-93703::pgx:icdot-C41.9
   note: progenetix
 - code_group:
@@ -2815,7 +2773,7 @@
   - id: pgx:icdom-93703
     label: Chordoma, NOS
   - id: pgx:icdot-C49.9
-    label: connective and soft tissue, NOS
+    label: Connective, subcutaneous and other soft tissues, NOS
   examples:
   - Chordoma [Sacrococcygeal region]
   - Chordoma [Sacrum]
@@ -2851,11 +2809,11 @@
     label: Choriocarcinoma
   - id: pgx:icdom-91003
     label: Choriocarcinoma, NOS
-  - id: pgx:icdot-C38.9
-    label: mediastinum
+  - id: pgx:icdot-C38.3
+    label: Mediastinum, NOS
   examples:
   - mediastinal germ cell tumor [chorioncarcinoma, stage IV]
-  id: NCIT:C2948::pgx:icdom-91003::pgx:icdot-C38.9
+  id: NCIT:C2948::pgx:icdom-91003::pgx:icdot-C38.3
   note: progenetix
 - code_group:
   - id: NCIT:C2948
@@ -2897,7 +2855,7 @@
   - id: pgx:icdom-82003
     label: Adenoid cystic carcinoma
   - id: pgx:icdot-C01.9
-    label: tongue
+    label: Base of tongue, NOS
   examples:
   - adenoid cystic carcinomas [tongue base, grade II, stage IV A]
   - adenoid cystic carcinomas [tongue, grade II, stage unknown]
@@ -2909,7 +2867,7 @@
   - id: pgx:icdom-82003
     label: Adenoid cystic carcinoma
   - id: pgx:icdot-C06.9
-    label: mouth, NOS
+    label: Mouth, NOS
   examples:
   - adenoid cystic carcinomas [maxilla, grade I, stage III]
   - adenoid cystic carcinomas [maxilla, grade I, stage IV]
@@ -2924,7 +2882,7 @@
   - id: pgx:icdom-82003
     label: Adenoid cystic carcinoma
   - id: pgx:icdot-C10.9
-    label: Oropharynx
+    label: Oropharynx, NOS
   examples:
   - Adenoid cystic carcinoma
   - adenoid cystic carcinoma
@@ -2991,7 +2949,7 @@
   - id: pgx:icdom-82003
     label: Adenoid cystic carcinoma
   - id: pgx:icdot-C34.9
-    label: lung and bronchus
+    label: Lung, NOS
   examples:
   - adenoid cystic carcinomas [bronchus, grade II, stage I A]
   id: NCIT:C2970::pgx:icdom-82003::pgx:icdot-C34.9
@@ -3129,7 +3087,7 @@
   - id: pgx:icdom-90713
     label: Yolk sac tumor
   - id: pgx:icdot-C34.9
-    label: lung and bronchus
+    label: Lung, NOS
   examples:
   - yolk sac tumour
   id: NCIT:C3011::pgx:icdom-90713::pgx:icdot-C34.9
@@ -3139,26 +3097,26 @@
     label: Yolk Sac Tumor
   - id: pgx:icdom-90713
     label: Yolk sac tumor
-  - id: pgx:icdot-C38.9
-    label: mediastinum
+  - id: pgx:icdot-C38.3
+    label: Mediastinum, NOS
   examples:
   - germ cell tumor [yolk sac tumor]
   - mediastinal germ cell tumor [yolk sac tumor, stage II]
   - mediastinal germ cell tumor [yolk sac tumor, stage IV]
   - mediastinal germ cell tumor [yolk sac tumor, stage n.d.]
   - yolk sac tumour
-  id: NCIT:C3011::pgx:icdom-90713::pgx:icdot-C38.9
+  id: NCIT:C3011::pgx:icdom-90713::pgx:icdot-C38.3
   note: progenetix
 - code_group:
   - id: NCIT:C3011
     label: Yolk Sac Tumor
   - id: pgx:icdom-90713
     label: Yolk sac tumor
-  - id: pgx:icdot-C40.0
-    label: bones and joints
+  - id: pgx:icdot-C41.9
+    label: Bone, NOS
   examples:
   - germ cell tumor [yolk sac tumor]
-  id: NCIT:C3011::pgx:icdom-90713::pgx:icdot-C40.0
+  id: NCIT:C3011::pgx:icdom-90713::pgx:icdot-C41.9
   note: progenetix
 - code_group:
   - id: NCIT:C3011
@@ -3301,7 +3259,7 @@
   - id: pgx:icdom-88100
     label: Fibroma, NOS
   - id: pgx:icdot-C49.9
-    label: connective and soft tissue, NOS
+    label: Connective, subcutaneous and other soft tissues, NOS
   examples:
   - Fibromatosis
   id: NCIT:C3041::pgx:icdom-88100::pgx:icdot-C49.9
@@ -3324,7 +3282,7 @@
   - id: pgx:icdom-88103
     label: Fibrosarcoma, NOS
   - id: pgx:icdot-C49.9
-    label: connective and soft tissue, NOS
+    label: Connective, subcutaneous and other soft tissues, NOS
   examples:
   - adult fibrosarcoma [grade 1, head]
   - adult fibrosarcoma [grade 2, thorax]
@@ -3339,7 +3297,7 @@
   - id: pgx:icdom-94900
     label: Ganglioneuroma
   - id: pgx:icdot-C47.9
-    label: peripheral nervs incl. Autonomous
+    label: Autonomic nervous system, NOS
   examples:
   - Ganglioneuroma
   id: NCIT:C3049::pgx:icdom-94900::pgx:icdot-C47.9
@@ -3542,7 +3500,7 @@
   - id: pgx:icdom-91301
     label: Hemangioendothelioma, NOS
   - id: pgx:icdot-C49.9
-    label: blood vessel, NOS
+    label: Connective, subcutaneous and other soft tissues, NOS
   examples:
   - Epithelioid hemangioendothelioma
   - Epithelioid hemangioendothelioma [multicentric]
@@ -3555,7 +3513,7 @@
   - id: pgx:icdom-91200
     label: Hemangioma, NOS
   - id: pgx:icdot-C49.9
-    label: connective and soft tissue, NOS
+    label: Connective, subcutaneous and other soft tissues, NOS
   examples:
   - Hemangioma
   - Hemangiosarcoma
@@ -3578,7 +3536,7 @@
   - id: pgx:icdom-91501
     label: Hemangiopericytoma, NOS
   - id: pgx:icdot-C49.9
-    label: connective and soft tissue, NOS
+    label: Connective, subcutaneous and other soft tissues, NOS
   examples:
   - Hemangiopericytoma
   - hemangiopericytoma
@@ -3589,12 +3547,12 @@
     label: Angiosarcoma
   - id: pgx:icdom-91203
     label: Hemangiosarcoma
-  - id: pgx:icdot-C40.0
-    label: bones and joints
+  - id: pgx:icdot-C41.9
+    label: Bone, NOS
   examples:
   - Primary multicentric angiosarcoma of bone [post chemotherapy and total body irradiation
     for AML]
-  id: NCIT:C3088::pgx:icdom-91203::pgx:icdot-C40.0
+  id: NCIT:C3088::pgx:icdom-91203::pgx:icdot-C41.9
   note: progenetix
 - code_group:
   - id: NCIT:C3088
@@ -3613,7 +3571,7 @@
   - id: pgx:icdom-91203
     label: Hemangiosarcoma
   - id: pgx:icdot-C49.9
-    label: connective and soft tissue, NOS
+    label: Connective, subcutaneous and other soft tissues, NOS
   examples:
   - Angiosarcoma
   - Angiosarcoma [postirradiation, Abdominal wall]
@@ -3641,11 +3599,11 @@
     label: Angiosarcoma
   - id: pgx:icdom-91303
     label: Hemangioendothelioma, malignant
-  - id: pgx:icdot-C22.9
-    label: liver
+  - id: pgx:icdot-C22.0
+    label: Liver
   examples:
   - Epithelioid hemangioendothelioma [cell line LI90]
-  id: NCIT:C3088::pgx:icdom-91303::pgx:icdot-C22.9
+  id: NCIT:C3088::pgx:icdom-91303::pgx:icdot-C22.0
   note: progenetix
 - code_group:
   - id: NCIT:C3088
@@ -3676,21 +3634,6 @@
 - code_group:
   - id: NCIT:C3099
     label: Hepatocellular Carcinoma
-  - id: pgx:icdom-81703
-    label: Hepatocellular carcinoma, NOS
-  - id: pgx:icdot-C22.9
-    label: liver
-  examples:
-  - hepatocellular carcinoma [cell line Hep 3B2.1-7]
-  - hepatocellular carcinoma [cell line Hep-G2]
-  - hepatocellular carcinoma [cell line Huh-7]
-  - hepatocellular carcinoma [cell line PLC/PRF/5]
-  - hepatocellular carcinoma [cell line SK-HEP-1]
-  id: NCIT:C3099::pgx:icdom-81703::pgx:icdot-C22.9
-  note: progenetix
-- code_group:
-  - id: NCIT:C3099
-    label: Hepatocellular Carcinoma
   - id: pgx:icdom-81733
     label: Hepatocellular carcinoma, spindle cell variant
   - id: pgx:icdot-C22.0
@@ -3715,11 +3658,11 @@
     label: Langerhans Cell Histiocytosis
   - id: pgx:icdom-97511
     label: Langerhans cell histiocytosis, NOS
-  - id: pgx:icdot-C40.0
-    label: bones and joints
+  - id: pgx:icdot-C41.9
+    label: Bone, NOS
   examples:
   - Langerhans cell histiocytosis
-  id: NCIT:C3107::pgx:icdom-97511::pgx:icdot-C40.0
+  id: NCIT:C3107::pgx:icdom-97511::pgx:icdot-C41.9
   note: progenetix
 - code_group:
   - id: NCIT:C3107
@@ -3773,7 +3716,7 @@
   - id: pgx:icdom-88900
     label: Leiomyoma, NOS
   - id: pgx:icdot-C34.9
-    label: lung and bronchus
+    label: Lung, NOS
   examples:
   - leiomyoma [lung]
   id: NCIT:C3157::pgx:icdom-88900::pgx:icdot-C34.9
@@ -3962,7 +3905,7 @@
   - id: pgx:icdom-88903
     label: Leiomyosarcoma, NOS
   - id: pgx:icdot-C49.9
-    label: connective and soft tissue, NOS
+    label: Connective, subcutaneous and other soft tissues, NOS
   examples:
   - Leiomyosarcoma [Large tumor, between 5 and 20 cm]
   - Leiomyosarcoma [Lower leg, subcutaneous]
@@ -3999,7 +3942,7 @@
   - id: pgx:icdom-98233
     label: B-cell chronic lymphocytic leukemia/small lymphocytic lymphoma
   - id: pgx:icdot-C18.9
-    label: large intestine, excl. rectum and rectosigmoid junction
+    label: Colon, NOS
   examples:
   - Chronic lymphocytic leukemia [Richter syndrome, colon]
   id: NCIT:C3163::pgx:icdom-98233::pgx:icdot-C18.9
@@ -4075,28 +4018,15 @@
   id: NCIT:C3167::pgx:icdom-98353::pgx:icdot-C42.1
   note: progenetix
 - code_group:
-  - id: NCIT:C3167
-    label: Acute Lymphoblastic Leukemia
-  - id: pgx:icdom-98353
-    label: 'Precursor cell lymphoblastic leukemia, NOS '
-  - id: pgx:icdot-C42.4
-    label: Hematopoietic system, NOS
-  examples:
-  - diagnosis;acute lymphoblastic leukaemia
-  - in remission of acute lymphoblastic leukemia
-  - relapse;acute lymphoblastic leukaemia
-  id: NCIT:C3167::pgx:icdom-98353::pgx:icdot-C42.4
-  note: progenetix
-- code_group:
   - id: NCIT:C3168
     label: Childhood Acute Lymphoblastic Leukemia
   - id: pgx:icdom-98353
     label: Precursor cell lymphoblastic leukemia, NOS
-  - id: pgx:icdot-C42.0
-    label: Blood, NOS
+  - id: pgx:icdot-C42.1
+    label: Bone marrow
   examples:
   - Infant Acute Lymphoblastic Leukaemia
-  id: NCIT:C3168::pgx:icdom-98353::pgx:icdot-C42.0
+  id: NCIT:C3168::pgx:icdom-98353::pgx:icdot-C42.1
   note: progenetix
 - code_group:
   - id: NCIT:C3170
@@ -4201,12 +4131,12 @@
     label: Chronic Myelogenous Leukemia, BCR-ABL1 Positive
   - id: pgx:icdom-98753
     label: Chronic myelogenous leukemia
-  - id: pgx:icdot-C42.9
-    label: hematopoietic and reticuloendothelial systems
+  - id: pgx:icdot-C42.4
+    label: Hematopoietic system, NOS
   examples:
   - Chronic myelogeneous leukemia [megakaryocytic blast crisis]
   - Chronic myelogeneous leukemia [megekaryocytic blast crisis]
-  id: NCIT:C3174::pgx:icdom-98753::pgx:icdot-C42.9
+  id: NCIT:C3174::pgx:icdom-98753::pgx:icdot-C42.4
   note: progenetix
 - code_group:
   - id: NCIT:C3178
@@ -4271,23 +4201,12 @@
   - id: pgx:icdot-C42.4
     label: 'Hematopoietic system, NOS '
   examples:
-  - T-cell acute lymphoblastic leukemia
-  id: NCIT:C3183::pgx:icdom-98373::pgx:icdot-C42.4
-  note: progenetix
-- code_group:
-  - id: NCIT:C3183
-    label: T Acute Lymphoblastic Leukemia
-  - id: pgx:icdom-98373
-    label: Precursor T-cell lymphoblastic leukemia
-  - id: pgx:icdot-C42.9
-    label: hematopoietic and reticuloendothelial systems
-  examples:
   - Precursor T-cell lymphoblastic leukemia
+  - T-cell acute lymphoblastic leukemia
   - T-cell acute lymphoblastic leukemia [cell line CCRFCEM1]
   - T-cell acute lymphoblastic leukemia [cell line CCRFCEM2]
   - T-cell acute lymphoblastic leukemia [cell line CEM-ADR5000]
-  - T-cell acute lymphoblastic leukemia [cell line CEM-MTX140]
-  id: NCIT:C3183::pgx:icdom-98373::pgx:icdot-C42.9
+  id: NCIT:C3183::pgx:icdom-98373::pgx:icdot-C42.4
   note: progenetix
 - code_group:
   - id: NCIT:C3184
@@ -4310,7 +4229,7 @@
   - id: pgx:icdom-88500
     label: Lipoma, NOS
   - id: pgx:icdot-C49.9
-    label: connective and soft tissue, NOS
+    label: Connective, subcutaneous and other soft tissues, NOS
   examples:
   - Atypical lipomatous tumor/atypical lipoma/well-differentiated liposarcoma
   - Lipoma
@@ -4324,7 +4243,7 @@
   - id: pgx:icdom-88503
     label: Liposarcoma, NOS
   - id: pgx:icdot-C49.9
-    label: connective and soft tissue, NOS
+    label: Connective, subcutaneous and other soft tissues, NOS
   examples:
   - Liposarcoma NOS [cell line LiSa-2]
   - Liposarcoma NOS [cell line SW872]
@@ -4608,7 +4527,7 @@
   - id: pgx:icdom-90503
     label: Mesothelioma, malignant
   - id: pgx:icdot-C34.9
-    label: lung and bronchus
+    label: Lung, NOS
   examples:
   - mesothelioma [cell line NCI-H226]
   id: NCIT:C3234::pgx:icdom-90503::pgx:icdot-C34.9
@@ -4726,7 +4645,7 @@
   - id: pgx:icdom-95600
     label: Neurilemoma, NOS
   - id: pgx:icdot-C47.9
-    label: peripheral nervs incl. Autonomous
+    label: Autonomic nervous system, NOS
   examples:
   - Schwannoma
   - Schwannoma [Stomach]
@@ -4763,7 +4682,7 @@
   - id: pgx:icdom-95003
     label: Neuroblastoma, NOS
   - id: pgx:icdot-C34.9
-    label: lung and bronchus
+    label: Lung, NOS
   examples:
   - Neuroblastoma [cell line STA-NB-10/dmin]
   - Neuroblastoma [cell line STA-NB-10/hsr]
@@ -4777,25 +4696,12 @@
     label: Neuroblastoma
   - id: pgx:icdom-95003
     label: Neuroblastoma, NOS
-  - id: pgx:icdot-C40.0
-    label: bones and joints
+  - id: pgx:icdot-C41.9
+    label: Bone, NOS
   examples:
   - Neuroblastoma [cell line CHP100]
   - Neuroblastoma [cell line SK-N-LO]
-  id: NCIT:C3270::pgx:icdom-95003::pgx:icdot-C40.0
-  note: progenetix
-- code_group:
-  - id: NCIT:C3270
-    label: Neuroblastoma
-  - id: pgx:icdom-95003
-    label: Neuroblastoma, NOS
-  - id: pgx:icdot-C47.4
-    label: autonomic nervous system
-  examples:
-  - C71;neuroblastoma
-  - Mixed Cancer Types
-  - neuroblastoma;C72
-  id: NCIT:C3270::pgx:icdom-95003::pgx:icdot-C47.4
+  id: NCIT:C3270::pgx:icdom-95003::pgx:icdot-C41.9
   note: progenetix
 - code_group:
   - id: NCIT:C3270
@@ -4803,7 +4709,7 @@
   - id: pgx:icdom-95003
     label: Neuroblastoma, NOS
   - id: pgx:icdot-C47.9
-    label: peripheral nervs incl. autonomous
+    label: Autonomic nervous system, NOS
   examples:
   - neuroblastoma [cell line GI-ME-N]
   - neuroblastoma [cell line IMR32]
@@ -4884,7 +4790,7 @@
   - id: pgx:icdom-95400
     label: Neurofibroma, NOS
   - id: pgx:icdot-C47.9
-    label: peripheral nervs incl. autonomous
+    label: Autonomic nervous system, NOS
   examples:
   - Neurofibroma
   - Neurofibroma [NF1-associated]
@@ -4899,7 +4805,7 @@
   - id: pgx:icdom-95400
     label: Neurofibroma, NOS
   - id: pgx:icdot-C49.9
-    label: connective and soft tissue, NOS
+    label: Connective, subcutaneous and other soft tissues, NOS
   examples:
   - Neurofibroma
   id: NCIT:C3272::pgx:icdom-95400::pgx:icdot-C49.9
@@ -4971,15 +4877,15 @@
     label: Osteochondroma
   - id: pgx:icdom-92100
     label: Osteochondroma
-  - id: pgx:icdot-C40.0
-    label: bones and joints
+  - id: pgx:icdot-C41.9
+    label: Bone, NOS
   examples:
   - osteochondroma [femur]
   - osteochondroma [fibula]
   - osteochondroma [hand]
   - osteochondroma [humerus]
   - osteochondroma [tibia]
-  id: NCIT:C3295::pgx:icdom-92100::pgx:icdot-C40.0
+  id: NCIT:C3295::pgx:icdom-92100::pgx:icdot-C41.9
   note: progenetix
 - code_group:
   - id: NCIT:C3297
@@ -5009,7 +4915,7 @@
   - id: pgx:icdom-86801
     label: Paraganglioma, NOS
   - id: pgx:icdot-C47.9
-    label: peripheral nervs incl. Autonomous
+    label: Autonomic nervous system, NOS
   examples:
   - paraganglioma
   id: NCIT:C3308::pgx:icdom-86801::pgx:icdot-C47.9
@@ -5163,7 +5069,7 @@
   - id: pgx:icdom-87000
     label: Pheochromocytoma, NOS
   - id: pgx:icdot-C47.9
-    label: peripheral nervs incl. Autonomous
+    label: Autonomic nervous system, NOS
   examples:
   - pheochromocytoma [extra-adrenal, benign, sporadic]
   id: NCIT:C3326::pgx:icdom-87000::pgx:icdot-C47.9
@@ -5315,7 +5221,7 @@
   - id: pgx:icdom-89003
     label: Rhabdomyosarcoma, NOS
   - id: pgx:icdot-C38.4
-    label: pleura
+    label: Pleura, NOS
   examples:
   - Smooth muscle tumour, malignant
   id: NCIT:C3359::pgx:icdom-89003::pgx:icdot-C38.4
@@ -5326,7 +5232,7 @@
   - id: pgx:icdom-89003
     label: Rhabdomyosarcoma, NOS
   - id: pgx:icdot-C49.9
-    label: connective and soft tissue, NOS
+    label: Connective, subcutaneous and other soft tissues, NOS
   examples:
   - Alveolar rhabdomyosarcoma [cell line Rh18c]
   - Rhabdomyosarcoma
@@ -5400,7 +5306,7 @@
   - id: pgx:icdom-90403
     label: Synovial sarcoma, NOS
   - id: pgx:icdot-C49.9
-    label: connective and soft tissue, NOS
+    label: Connective, subcutaneous and other soft tissues, NOS
   examples:
   - Synovial sarcoma
   - Synovial sarcoma [cell line Fuji]
@@ -5488,11 +5394,11 @@
     label: Head and neck squamous cell carcinoma
   - id: pgx:icdom-80753
     label: Squamous cell carcinoma
-  - id: pgx:icdot-C49.0
-    label: Head, neck
+  - id: pgx:icdot-C14.0
+    label: Pharynx, NOS
   examples:
   - Mixed Cancer Types
-  id: NCIT:C34447::pgx:icdom-80753::pgx:icdot-C49.0
+  id: NCIT:C34447::pgx:icdom-80753::pgx:icdot-C14.0
   note: progenetix
 - code_group:
   - id: NCIT:C34448
@@ -5500,7 +5406,7 @@
   - id: pgx:icdom-89803
     label: Carcinosarcoma, NOS
   - id: pgx:icdot-C49.9
-    label: connective and soft tissue, NOS
+    label: Connective, subcutaneous and other soft tissues, NOS
   examples:
   - carcinosarcoma
   id: NCIT:C34448::pgx:icdom-89803::pgx:icdot-C49.9
@@ -5604,7 +5510,7 @@
   - id: pgx:icdom-97143
     label: Anaplastic large cell lymphoma, T cell and Null cell type
   - id: pgx:icdot-C14.0
-    label: pharynx, NOS
+    label: Pharynx, NOS
   examples:
   - Anaplastic large cell lymphoma, systemic type [ALK neg.]
   id: NCIT:C3468::pgx:icdom-97143::pgx:icdot-C14.0
@@ -5614,11 +5520,11 @@
     label: Mature T-Cell and NK-Cell Non-Hodgkin Lymphoma
   - id: pgx:icdom-97143
     label: Anaplastic large cell lymphoma, T cell and Null cell type
-  - id: pgx:icdot-C40.0
-    label: bones and joints
+  - id: pgx:icdot-C41.9
+    label: Bone, NOS
   examples:
   - Anaplastic large cell lymphoma, systemic type [ALK neg.]
-  id: NCIT:C3468::pgx:icdom-97143::pgx:icdot-C40.0
+  id: NCIT:C3468::pgx:icdom-97143::pgx:icdot-C41.9
   note: progenetix
 - code_group:
   - id: NCIT:C3468
@@ -5641,7 +5547,7 @@
   - id: pgx:icdom-97143
     label: Anaplastic large cell lymphoma, T cell and Null cell type
   - id: pgx:icdot-C49.9
-    label: connective and soft tissue, NOS
+    label: Connective, subcutaneous and other soft tissues, NOS
   examples:
   - Anaplastic large cell lymphoma, systemic type [ALK neg.]
   id: NCIT:C3468::pgx:icdom-97143::pgx:icdot-C49.9
@@ -5722,7 +5628,7 @@
   - id: pgx:icdom-89363
     label: Gastrointestinal stromal tumor, NOS
   - id: pgx:icdot-C16.9
-    label: Stomach
+    label: Stomach, NOS
   examples:
   - C64;Leiomyoblastoma
   - Mixed Cancer Types
@@ -5800,7 +5706,7 @@
   - id: pgx:icdom-80703
     label: Squamous cell carcinoma, NOS
   - id: pgx:icdot-C34.9
-    label: lung and bronchus
+    label: Lung, NOS
   examples:
   - Squamous cell carcinoma
   - Squamous cell carcinoma [stage III]
@@ -5945,7 +5851,7 @@
   - id: pgx:icdom-81403
     label: Adenocarcinoma, NOS
   - id: pgx:icdot-C34.9
-    label: lung and bronchus
+    label: Lung, NOS
   examples:
   - Adenocarcinoma [lung, stage III]
   - Adenocarcinoma [lung, stage IV]
@@ -5960,7 +5866,7 @@
   - id: pgx:icdom-80103
     label: Carcinoma, NOS
   - id: pgx:icdot-C15.9
-    label: esophagus
+    label: Esophagus, NOS
   examples:
   - Barret adenocarcinoma [cell line OE33]
   - Esophageal Cancer
@@ -6007,7 +5913,7 @@
   - id: pgx:icdom-81603
     label: Cholangiocarcinoma
   - id: pgx:icdot-C22.1
-    label: intrahepatic bile ducts
+    label: Intrahepatic bile duct
   examples:
   - Cholangiocarcinoma [intrahepatic, moderately differentiated]
   - Cholangiocarcinoma [intrahepatic, poorly differentiated]
@@ -6022,7 +5928,7 @@
   - id: pgx:icdom-85623
     label: Epithelial-myoepithelial carcinoma
   - id: pgx:icdot-C08.9
-    label: salivary gland, NOS
+    label: Major salivary gland, NOS
   examples:
   - salivary gland myoepitheliomas
   id: NCIT:C35700::pgx:icdom-85623::pgx:icdot-C08.9
@@ -6065,11 +5971,11 @@
     label: Conventional Osteosarcoma
   - id: pgx:icdom-91863
     label: Central osteosarcoma
-  - id: pgx:icdot-C40.0
-    label: bones and joints
+  - id: pgx:icdot-C41.9
+    label: Bone, NOS
   examples:
   - central osteosarcoma
-  id: NCIT:C35870::pgx:icdom-91863::pgx:icdot-C40.0
+  id: NCIT:C35870::pgx:icdom-91863::pgx:icdot-C41.9
   note: progenetix
 - code_group:
   - id: NCIT:C35875
@@ -6077,7 +5983,7 @@
   - id: pgx:icdom-80103
     label: Carcinoma, NOS
   - id: pgx:icdot-C34.9
-    label: 'Bronchogenic '
+    label: Lung, NOS
   examples:
   - Mixed Cancer Types
   id: NCIT:C35875::pgx:icdom-80103::pgx:icdot-C34.9
@@ -6088,7 +5994,7 @@
   - id: pgx:icdom-81623
     label: Klatskin tumor
   - id: pgx:icdot-C22.1
-    label: Bile duct
+    label: Intrahepatic bile duct
   examples:
   - Mixed Cancer Types
   id: NCIT:C36077::pgx:icdom-81623::pgx:icdot-C22.1
@@ -6252,7 +6158,7 @@
   - id: pgx:icdom-88913
     label: Epithelioid leiomyosarcoma
   - id: pgx:icdot-C49.9
-    label: connective and soft tissue, NOS
+    label: Connective, subcutaneous and other soft tissues, NOS
   examples:
   - Epitheliod Leiomyosarcoma [grade III, primary]
   id: NCIT:C3700::pgx:icdom-88913::pgx:icdot-C49.9
@@ -6384,7 +6290,7 @@
   - id: pgx:icdom-88583
     label: Dedifferentiated liposarcoma
   - id: pgx:icdot-C49.9
-    label: connective and soft tissue, NOS
+    label: Connective, subcutaneous and other soft tissues, NOS
   examples:
   - Dedifferentiated liposarcoma
   - Dedifferentiated liposarcoma [relapsed]
@@ -6432,7 +6338,7 @@
   - id: pgx:icdom-88543
     label: Pleomorphic liposarcoma
   - id: pgx:icdot-C49.9
-    label: connective and soft tissue, NOS
+    label: Connective, subcutaneous and other soft tissues, NOS
   examples:
   - Liposarcoma, pleomorphic
   - Pleomorphic Liposarcoma
@@ -6478,11 +6384,11 @@
     label: Primitive Neuroectodermal Tumor
   - id: pgx:icdom-94733
     label: Primitive neuroectodermal tumor, NOS
-  - id: pgx:icdot-C40.0
-    label: bones and joints
+  - id: pgx:icdot-C41.9
+    label: Bone, NOS
   examples:
   - primitive neuroectodermal tumor [Tibia]
-  id: NCIT:C3716::pgx:icdom-94733::pgx:icdot-C40.0
+  id: NCIT:C3716::pgx:icdom-94733::pgx:icdot-C41.9
   note: progenetix
 - code_group:
   - id: NCIT:C3716
@@ -6490,7 +6396,7 @@
   - id: pgx:icdom-94733
     label: Primitive neuroectodermal tumor, NOS
   - id: pgx:icdot-C49.9
-    label: connective and soft tissue, NOS
+    label: Connective, subcutaneous and other soft tissues, NOS
   examples:
   - primitive neuroectodermal tumor [Back]
   - primitive neuroectodermal tumor [Hand]
@@ -6567,7 +6473,7 @@
   - id: pgx:icdom-95033
     label: Neuroepithelioma, NOS
   - id: pgx:icdot-C49.9
-    label: connective and soft tissue, NOS
+    label: Connective, subcutaneous and other soft tissues, NOS
   examples:
   - Neuroepithelioma
   id: NCIT:C3716::pgx:icdom-95033::pgx:icdot-C49.9
@@ -6790,7 +6696,7 @@
   - id: pgx:icdom-88230
     label: Desmoplastic fibroma
   - id: pgx:icdot-C49.9
-    label: connective and soft tissue, NOS
+    label: Connective, subcutaneous and other soft tissues, NOS
   examples:
   - Desmoid tumor [abdomen]
   - Desmoid tumor [shoulder]
@@ -6836,7 +6742,7 @@
   - id: pgx:icdom-88940
     label: Angiomyoma
   - id: pgx:icdot-C49.9
-    label: connective and soft tissue, NOS
+    label: Connective, subcutaneous and other soft tissues, NOS
   examples:
   - Angioleiomyoma
   id: NCIT:C3747::pgx:icdom-88940::pgx:icdot-C49.9
@@ -6847,7 +6753,7 @@
   - id: pgx:icdom-89203
     label: Alveolar rhabdomyosarcoma
   - id: pgx:icdot-C34.9
-    label: Lung and bronchus, NOS
+    label: Lung, NOS
   examples:
   - C49;Rhabdomyosarcoma
   - Mixed Cancer Types
@@ -6859,7 +6765,7 @@
   - id: pgx:icdom-89203
     label: Alveolar rhabdomyosarcoma
   - id: pgx:icdot-C49.9
-    label: connective and soft tissue, NOS
+    label: Connective, subcutaneous and other soft tissues, NOS
   examples:
   - Alveolar Rhabdomyosarcoma
   - Alveolar rhabdomyosarcoma
@@ -6873,7 +6779,7 @@
   - id: pgx:icdom-95813
     label: Alveolar soft part sarcoma
   - id: pgx:icdot-C49.9
-    label: connective and soft tissue, NOS
+    label: Connective, subcutaneous and other soft tissues, NOS
   examples:
   - Alveolar Soft Part Sarcoma
   - Alveolar soft part sarcoma
@@ -6886,7 +6792,7 @@
   - id: pgx:icdom-90703
     label: Embryonal carcinoma, NOS
   - id: pgx:icdot-C34.9
-    label: lung and bronchus
+    label: Lung, NOS
   examples:
   - embryonal carcinoma
   id: NCIT:C3752::pgx:icdom-90703::pgx:icdot-C34.9
@@ -6983,7 +6889,7 @@
   - id: pgx:icdom-90813
     label: Teratocarcinoma
   - id: pgx:icdot-C17.9
-    label: small intestine
+    label: Small intestine, NOS
   examples:
   - Teratocarcinoma
   id: NCIT:C3756::pgx:icdom-90813::pgx:icdot-C17.9
@@ -6994,7 +6900,7 @@
   - id: pgx:icdom-90813
     label: Teratocarcinoma
   - id: pgx:icdot-C49.9
-    label: connective and soft tissue, nos
+    label: Connective, subcutaneous and other soft tissues, NOS
   examples:
   - Teratocarcinoma
   id: NCIT:C3756::pgx:icdom-90813::pgx:icdot-C49.9
@@ -7210,7 +7116,7 @@
   - id: pgx:icdom-81553
     label: Vipoma
   - id: pgx:icdot-C25.9
-    label: pancreas
+    label: Pancreas, NOS
   examples:
   - Malignant PP-oma
   id: NCIT:C3770::pgx:icdom-81553::pgx:icdot-C25.9
@@ -7295,7 +7201,7 @@
   - id: pgx:icdom-82463
     label: Neuroendocrine carcinoma, NOS
   - id: pgx:icdot-C34.9
-    label: lung and bronchus
+    label: Lung, NOS
   examples:
   - neuroendocrine tumour [bronchial system, Liver, pleura metastasis, functional]
   id: NCIT:C3773::pgx:icdom-82463::pgx:icdot-C34.9
@@ -7376,7 +7282,7 @@
   - id: pgx:icdom-84903
     label: Signet ring cell carcinoma
   - id: pgx:icdot-C18.9
-    label: large intestine, excl. rectum and rectosigmoid junction
+    label: Colon, NOS
   examples:
   - Signet ring cell carcinoma
   id: NCIT:C3774::pgx:icdom-84903::pgx:icdot-C18.9
@@ -7567,7 +7473,7 @@
   - id: pgx:icdom-94903
     label: Ganglioneuroblastoma
   - id: pgx:icdot-C47.9
-    label: peripheral nervs incl. autonomous
+    label: Autonomic nervous system, NOS
   examples:
   - Ganglioneuroblastoma [atypical nodular, Abdominal, grade 2]
   - Ganglioneuroblastoma [nodular, atypical, 2a, Abdominal]
@@ -7639,7 +7545,7 @@
   - id: pgx:icdom-80701
     label: Premalignant squamous epithelium, NOS
   - id: pgx:icdot-C06.9
-    label: mouth, NOS
+    label: Mouth, NOS
   examples:
   - Oral dysplasia [cell line DOK]
   - Premalignant oral epithelium [cell line]
@@ -7653,7 +7559,7 @@
   - id: pgx:icdom-80701
     label: Premalignant squamous epithelium, NOS
   - id: pgx:icdot-C15.9
-    label: esophagus
+    label: Esophagus, NOS
   examples:
   - Esophageal Dysplasia
   id: NCIT:C3792::pgx:icdom-80701::pgx:icdot-C15.9
@@ -7664,7 +7570,7 @@
   - id: pgx:icdom-80701
     label: Premalignant squamous epithelium, NOS
   - id: pgx:icdot-C34.9
-    label: lung and bronchus
+    label: Lung, NOS
   examples:
   - premalignant endobronchial cancer
   id: NCIT:C3792::pgx:icdom-80701::pgx:icdot-C34.9
@@ -7675,7 +7581,7 @@
   - id: pgx:icdom-80701
     label: Premalignant squamous epithelium, NOS
   - id: pgx:icdot-C44.9
-    label: skin
+    label: Skin, NOS
   examples:
   - Kerathoacanthoma
   id: NCIT:C3792::pgx:icdom-80701::pgx:icdot-C44.9
@@ -7709,7 +7615,7 @@
   - id: pgx:icdom-80770
     label: Intraepithelial neoplasia (dysplasia), low grade
   - id: pgx:icdot-C06.9
-    label: mouth, NOS
+    label: Mouth, NOS
   examples:
   - oral squamous dysplasia
   id: NCIT:C3792::pgx:icdom-80770::pgx:icdot-C06.9
@@ -7808,7 +7714,7 @@
   - id: pgx:icdom-95403
     label: Malignant peripheral nerve sheath tumor
   - id: pgx:icdot-C47.9
-    label: peripheral nervs incl. autonomous
+    label: Autonomic nervous system, NOS
   examples:
   - Malignant peripheral nerve sheath tumor [Retroperitoneum]
   - Malignant peripheral nerve sheath tumor [Thigh]
@@ -7879,7 +7785,7 @@
   - id: pgx:icdom-95403
     label: Malignant peripheral nerve sheath tumor
   - id: pgx:icdot-C49.9
-    label: connective and soft tissue, NOS
+    label: Connective, subcutaneous and other soft tissues, NOS
   examples:
   - Malignant peripheral nerve sheath tumor [metastasis]
   - Malignant peripheral nerve sheath tumor [metastasized]
@@ -7938,7 +7844,7 @@
   - id: pgx:icdom-91600
     label: Angiofibroma, NOS
   - id: pgx:icdot-C49.9
-    label: connective and soft tissue, NOS
+    label: Connective, subcutaneous and other soft tissues, NOS
   examples:
   - Angiofibroma
   id: NCIT:C3799::pgx:icdom-91600::pgx:icdot-C49.9
@@ -7960,7 +7866,7 @@
   - id: pgx:icdom-91333
     label: Epithelioid hemangioendothelioma, malignant
   - id: pgx:icdot-C38.4
-    label: pleura
+    label: Pleura, NOS
   examples:
   - Epithelioid hemangioendothelioma
   id: NCIT:C3800::pgx:icdom-91333::pgx:icdot-C38.4
@@ -8053,7 +7959,7 @@
   - id: pgx:icdom-80003
     label: Neoplasm, malignant
   - id: pgx:icdot-C49.9
-    label: connective and soft tissue, NOS
+    label: Connective, subcutaneous and other soft tissues, NOS
   examples:
   - cancer [Omentum]
   id: NCIT:C3810::pgx:icdom-80003::pgx:icdot-C49.9
@@ -8086,7 +7992,7 @@
   - id: pgx:icdom-81803
     label: Combined hepatocellular carcinoma and cholangiocarcinoma
   - id: pgx:icdot-C22.1
-    label: intrahepatic bile ducts
+    label: Intrahepatic bile duct
   examples:
   - combined hepatocellular carcinoma and cholangiocarcinoma
   - combined hepatocellular carcinoma and cholangiocarcinoma [Chronic cholangitis]
@@ -8145,7 +8051,7 @@
   - id: pgx:icdom-81403
     label: Adenocarcinoma, NOS
   - id: pgx:icdot-C23.9
-    label: gallbladder
+    label: Gallbladder
   examples:
   - Mixed Cancer Types
   - biliary tract tumor [gallbladder adenocarcinoma, adenocarcinoma, moderately differentiated]
@@ -8173,7 +8079,7 @@
   - id: pgx:icdom-81400
     label: Adenoma, NOS
   - id: pgx:icdot-C18.9
-    label: large intestine, excl. rectum and rectosigmoid junction
+    label: Colon, NOS
   examples:
   - Adenoma [colorectal]
   - adenoma [colorectal, low-grade]
@@ -8188,7 +8094,7 @@
   - id: pgx:icdom-88900
     label: Leiomyoma, NOS
   - id: pgx:icdot-C15.9
-    label: esophagus
+    label: Esophagus, NOS
   examples:
   - Leiomyoma [Esophagus]
   id: NCIT:C3866::pgx:icdom-88900::pgx:icdot-C15.9
@@ -8211,7 +8117,7 @@
   - id: pgx:icdom-89361
     label: Gastrointestinal stromal tumor, NOS
   - id: pgx:icdot-C16.9
-    label: stomach
+    label: Stomach, NOS
   examples:
   - Gastrointestinal stromal tumor, borderline
   - Gastrointestinal stromal tumor, uncertain malignant potential
@@ -8226,7 +8132,7 @@
   - id: pgx:icdom-89361
     label: Gastrointestinal stromal tumor, NOS
   - id: pgx:icdot-C18.9
-    label: large intestine, excl. rectum and rectosigmoid junction
+    label: Colon, NOS
   examples:
   - Gastrointestinal stromal tumor, uncertain malignant potential
   id: NCIT:C3868::pgx:icdom-89361::pgx:icdot-C18.9
@@ -8247,8 +8153,19 @@
     label: Gastrointestinal Stromal Tumor
   - id: pgx:icdom-89361
     label: Gastrointestinal stromal tumor, NOS
+  - id: pgx:icdot-C38.3
+    label: Mediastinum, NOS
+  examples:
+  - gastrointestinal stroma tumor
+  id: NCIT:C3868::pgx:icdom-89361::pgx:icdot-C38.3
+  note: progenetix
+- code_group:
+  - id: NCIT:C3868
+    label: Gastrointestinal Stromal Tumor
+  - id: pgx:icdom-89361
+    label: Gastrointestinal stromal tumor, NOS
   - id: pgx:icdot-C38.4
-    label: pleura
+    label: Pleura, NOS
   examples:
   - gastrointestinal stroma tumor
   id: NCIT:C3868::pgx:icdom-89361::pgx:icdot-C38.4
@@ -8258,19 +8175,8 @@
     label: Gastrointestinal Stromal Tumor
   - id: pgx:icdom-89361
     label: Gastrointestinal stromal tumor, NOS
-  - id: pgx:icdot-C38.9
-    label: mediastinum
-  examples:
-  - gastrointestinal stroma tumor
-  id: NCIT:C3868::pgx:icdom-89361::pgx:icdot-C38.9
-  note: progenetix
-- code_group:
-  - id: NCIT:C3868
-    label: Gastrointestinal Stromal Tumor
-  - id: pgx:icdom-89361
-    label: Gastrointestinal stromal tumor, NOS
   - id: pgx:icdot-C47.9
-    label: peripheral nervs incl. Autonomous
+    label: Autonomic nervous system, NOS
   examples:
   - gastrointestinal autonomic nerve tumor
   id: NCIT:C3868::pgx:icdom-89361::pgx:icdot-C47.9
@@ -8281,7 +8187,7 @@
   - id: pgx:icdom-89361
     label: Gastrointestinal stromal tumor, NOS
   - id: pgx:icdot-C49.9
-    label: connective and soft tissue, NOS
+    label: Connective, subcutaneous and other soft tissues, NOS
   examples:
   - Gastrointestinal stromal tumor, uncertain malignant potential
   id: NCIT:C3868::pgx:icdom-89361::pgx:icdot-C49.9
@@ -8340,7 +8246,7 @@
   - id: pgx:icdom-80213
     label: Carcinoma, anaplastic type, NOS
   - id: pgx:icdot-C09.9
-    label: tonsil
+    label: Tonsil, NOS
   examples:
   - anaplastic carcinoma [palatine tonsil]
   id: NCIT:C3878::pgx:icdom-80213::pgx:icdot-C09.9
@@ -8415,12 +8321,12 @@
     label: Telangiectatic Osteosarcoma
   - id: pgx:icdom-91833
     label: Telangiectatic osteosarcoma
-  - id: pgx:icdot-C40.0
-    label: bones and joints
+  - id: pgx:icdot-C41.9
+    label: Bone, NOS
   examples:
   - Osteosarcoma [telangiectatic]
   - osteosarcoma [high-grade, pre-chemotherapy]
-  id: NCIT:C3902::pgx:icdom-91833::pgx:icdot-C40.0
+  id: NCIT:C3902::pgx:icdom-91833::pgx:icdot-C41.9
   note: progenetix
 - code_group:
   - id: NCIT:C3903
@@ -8548,7 +8454,7 @@
   - id: pgx:icdom-87610
     label: Congenital melanocytic nevus
   - id: pgx:icdot-C44.9
-    label: skin
+    label: Skin, NOS
   examples:
   - Congenital nevus
   - Congenital nevus with nodular proliferation
@@ -8563,7 +8469,7 @@
   - id: pgx:icdom-88251
     label: Myofibroblastic tumor, NOS
   - id: pgx:icdot-C34.9
-    label: lung and bronchus
+    label: Lung, NOS
   examples:
   - Inflammatory myofibroblastic tumour [pulmonary]
   id: NCIT:C39740::pgx:icdom-88251::pgx:icdot-C34.9
@@ -8574,7 +8480,7 @@
   - id: pgx:icdom-93103
     label: Ameloblastoma, malignant
   - id: pgx:icdot-C06.9
-    label: mouth, NOS
+    label: Mouth, NOS
   examples:
   - Ameloblastoma [Plexiform]
   id: NCIT:C39753::pgx:icdom-93103::pgx:icdot-C06.9
@@ -8585,7 +8491,7 @@
   - id: pgx:icdom-93103
     label: Ameloblastoma, malignant
   - id: pgx:icdot-C06.9
-    label: mouth, NOS
+    label: Mouth, NOS
   examples:
   - Ameloblastoma [Acanthomatous]
   id: NCIT:C39754::pgx:icdom-93103::pgx:icdot-C06.9
@@ -8788,7 +8694,7 @@
   - id: pgx:icdom-97343
     label: Plasmacytoma, extramedullary
   - id: pgx:icdot-C06.9
-    label: mouth, NOS
+    label: Mouth, NOS
   examples:
   - Plasmacytoma [Mouth]
   id: NCIT:C4002::pgx:icdom-97343::pgx:icdot-C06.9
@@ -8810,7 +8716,7 @@
   - id: pgx:icdom-97343
     label: Plasmacytoma, extramedullary
   - id: pgx:icdot-C16.9
-    label: stomach
+    label: Stomach, NOS
   examples:
   - Plasmacytoma [gastric]
   id: NCIT:C4002::pgx:icdom-97343::pgx:icdot-C16.9
@@ -8832,7 +8738,7 @@
   - id: pgx:icdom-97343
     label: Plasmacytoma, extramedullary
   - id: pgx:icdot-C44.9
-    label: skin
+    label: Skin, NOS
   examples:
   - Plasmacytoma [Skin]
   id: NCIT:C4002::pgx:icdom-97343::pgx:icdot-C44.9
@@ -8843,7 +8749,7 @@
   - id: pgx:icdom-97343
     label: Plasmacytoma, extramedullary
   - id: pgx:icdot-C49.9
-    label: connective and soft tissue, NOS
+    label: Connective, subcutaneous and other soft tissues, NOS
   examples:
   - Plasmacytoma [Muscle]
   - Plasmacytoma [Subcutis, head]
@@ -8957,7 +8863,7 @@
   - id: pgx:icdom-81403
     label: Adenocarcinoma, NOS
   - id: pgx:icdot-C16.9
-    label: stomach
+    label: Stomach, NOS
   examples:
   - gastric adenocarcinoma [Antrum, Diffuse]
   - gastric adenocarcinoma [Cardia, Diffuse]
@@ -9140,7 +9046,7 @@
   - id: NCIT:C4017
     label: Ductal Breast Carcinoma
   - id: pgx:icdom-00000
-    label: not in ICD-O (e.g. non-neoplastic, reference)
+    label: not in ICD-O (e.g. non-neoplastic tissue or reference)
   - id: pgx:icdot-C50.9
     label: Breast, NOS
   examples:
@@ -9251,23 +9157,11 @@
     label: Fibroblastic Osteosarcoma
   - id: pgx:icdom-91823
     label: Fibroblastic osteosarcoma
-  - id: pgx:icdot-C40.0
-    label: bones and joints
+  - id: pgx:icdot-C41.9
+    label: Bone, NOS
   examples:
   - Osteosarcoma, Fibroblastic
-  id: NCIT:C4020::pgx:icdom-91823::pgx:icdot-C40.0
-  note: progenetix
-- code_group:
-  - id: NCIT:C4021
-    label: Chondroblastic Osteosarcoma
-  - id: pgx:icdom-91813
-    label: Chondroblastic osteosarcoma
-  - id: pgx:icdot-C40.0
-    label: bones and joints
-  examples:
-  - Chondroblastic osteosarcoma
-  - osteosarcoma [high-grade, pre-chemotherapy]
-  id: NCIT:C4021::pgx:icdom-91813::pgx:icdot-C40.0
+  id: NCIT:C4020::pgx:icdom-91823::pgx:icdot-C41.9
   note: progenetix
 - code_group:
   - id: NCIT:C4021
@@ -9280,6 +9174,7 @@
   - Chondroblastic Osteosarcoma
   - Chondroblastic osteosarcoma
   - Osteosarcoma
+  - osteosarcoma [high-grade, pre-chemotherapy]
   id: NCIT:C4021::pgx:icdom-91813::pgx:icdot-C41.9
   note: progenetix
 - code_group:
@@ -9358,7 +9253,7 @@
   - id: pgx:icdom-80703
     label: Squamous cell carcinoma, NOS
   - id: pgx:icdot-C15.9
-    label: esophagus
+    label: Esophagus, NOS
   examples:
   - Esophageal squamous
   - Esophageal squamous [cell line HCE4]
@@ -9406,7 +9301,7 @@
   - id: pgx:icdom-81403
     label: Adenocarcinoma, NOS
   - id: pgx:icdot-C15.9
-    label: Esophagus
+    label: Esophagus, NOS
   examples:
   - adenocarcinoma
   - adenocarcinoma [esophagus, cell line BIC]
@@ -9651,7 +9546,7 @@
   - id: pgx:icdom-82403
     label: Carcinoid tumor, NOS
   - id: pgx:icdot-C34.9
-    label: lung and bronchus
+    label: Lung, NOS
   examples:
   - Bronchial carcinoid
   - C34;Lung Atypical Carcinoid Tumor
@@ -9678,7 +9573,7 @@
   - id: pgx:icdom-89820
     label: Myoepithelioma
   - id: pgx:icdot-C08.9
-    label: salivary gland, NOS
+    label: Major salivary gland, NOS
   examples:
   - Myoepithelioma [Hard palate; epitheloid]
   - Myoepithelioma [Palate; plasmacytoid]
@@ -9693,7 +9588,7 @@
   - id: pgx:icdom-89820
     label: Myoepithelioma
   - id: pgx:icdot-C49.9
-    label: connective and soft tissue, NOS
+    label: Connective, subcutaneous and other soft tissues, NOS
   examples:
   - myoepithelioma
   id: NCIT:C40392::pgx:icdom-89820::pgx:icdot-C49.9
@@ -9741,7 +9636,7 @@
   - id: pgx:icdom-80703
     label: Squamous cell carcinoma, NOS
   - id: pgx:icdot-C04.9
-    label: floor of mouth
+    label: Floor of mouth, NOS
   examples:
   - Floor of mouth squamous cell carcinoma [cell line UT-SCC-47]
   - Metastatic
@@ -10037,7 +9932,7 @@
   - id: pgx:icdom-80223
     label: Pleomorphic carcinoma
   - id: pgx:icdot-C38.4
-    label: pleura
+    label: Pleura, NOS
   examples:
   - Pleomorphic carcinoma
   id: NCIT:C4094::pgx:icdom-80223::pgx:icdot-C38.4
@@ -10364,7 +10259,7 @@
   - id: pgx:icdom-81402
     label: Adenocarcinoma in situ, NOS
   - id: pgx:icdot-C16.9
-    label: stomach
+    label: Stomach, NOS
   examples:
   - gastric carcinoma in situ
   id: NCIT:C4123::pgx:icdom-81402::pgx:icdot-C16.9
@@ -10397,7 +10292,7 @@
   - id: pgx:icdom-81443
     label: Adenocarcinoma, intestinal type
   - id: pgx:icdot-C15.9
-    label: esophagus
+    label: Esophagus, NOS
   examples:
   - gastric adenocarcinoma [Barrett, intestinal, Esophagus, lower third]
   - gastric adenocarcinoma [Barrett, intestinal, gastro-esophagic junction]
@@ -10440,18 +10335,8 @@
   examples:
   - Fibrolamellar Carcinoma
   - Primary Tumor
-  id: NCIT:C4131::pgx:icdom-81713::pgx:icdot-C22.0
-  note: progenetix
-- code_group:
-  - id: NCIT:C4131
-    label: Fibrolamellar Carcinoma
-  - id: pgx:icdom-81713
-    label: Hepatocellular carcinoma, fibrolamellar
-  - id: pgx:icdot-C22.9
-    label: liver
-  examples:
   - fibrolamellar carcinoma [non-viral]
-  id: NCIT:C4131::pgx:icdom-81713::pgx:icdot-C22.9
+  id: NCIT:C4131::pgx:icdom-81713::pgx:icdot-C22.0
   note: progenetix
 - code_group:
   - id: NCIT:C4133
@@ -10459,7 +10344,7 @@
   - id: pgx:icdom-82110
     label: Tubular adenoma, NOS
   - id: pgx:icdot-C18.9
-    label: large intestine, excl. rectum and rectosigmoid junction
+    label: Colon, NOS
   examples:
   - tubular adenoma [colorectal]
   id: NCIT:C4133::pgx:icdom-82110::pgx:icdot-C18.9
@@ -10470,7 +10355,7 @@
   - id: pgx:icdom-82203
     label: Adenocarcinoma in adenomatous polyposis coli
   - id: pgx:icdot-C18.9
-    label: large intestine, excl. rectum and rectosigmoid junction
+    label: Colon, NOS
   examples:
   - Familial adenomatous polyposis
   id: NCIT:C4134::pgx:icdom-82203::pgx:icdot-C18.9
@@ -10492,7 +10377,7 @@
   - id: pgx:icdom-82630
     label: Tubulovillous adenoma, NOS
   - id: pgx:icdot-C18.9
-    label: large intestine, excl. rectum and rectosigmoid junction
+    label: Colon, NOS
   examples:
   - tubullovillous adenoma [colorectal]
   id: NCIT:C4143::pgx:icdom-82630::pgx:icdot-C18.9
@@ -10655,7 +10540,7 @@
   - id: pgx:icdom-85003
     label: Infiltrating duct carcinoma, NOS
   - id: pgx:icdot-C08.9
-    label: salivary gland, NOS
+    label: Major salivary gland, NOS
   examples:
   - ductal carcinoma of the salivary glands
   id: NCIT:C4194::pgx:icdom-85003::pgx:icdot-C08.9
@@ -10780,7 +10665,7 @@
   - id: pgx:icdom-86821
     label: Parasympathetic paraganglioma
   - id: pgx:icdot-C47.9
-    label: peripheral nervs incl. Autonomous
+    label: Autonomic nervous system, NOS
   examples:
   - parasympathetic paraganglioma [carotid body]
   - parasympathetic paraganglioma [jugular]
@@ -10817,7 +10702,7 @@
   - id: pgx:icdom-86933
     label: Extra-adrenal paraganglioma, malignant
   - id: pgx:icdot-C47.9
-    label: peripheral nervs incl. Autonomous
+    label: Autonomic nervous system, NOS
   examples:
   - malignant paraganglioma
   id: NCIT:C4219::pgx:icdom-86933::pgx:icdot-C47.9
@@ -10850,7 +10735,7 @@
   - id: pgx:icdom-87003
     label: Pheochromocytoma, malignant
   - id: pgx:icdot-C47.9
-    label: peripheral nervs incl. Autonomous
+    label: Autonomic nervous system, NOS
   examples:
   - pheochromocytoma [extra-adrenal, malignant, sporadic]
   id: NCIT:C4220::pgx:icdom-87003::pgx:icdot-C47.9
@@ -10989,7 +10874,7 @@
   - id: pgx:icdom-87613
     label: Melanoma arising in giant congenital naevi
   - id: pgx:icdot-C44.9
-    label: skin
+    label: Skin, NOS
   examples:
   - malignant melanoma [arising in giant congenital nevus]
   id: NCIT:C4235::pgx:icdom-87613::pgx:icdot-C44.9
@@ -11165,7 +11050,7 @@
   - id: pgx:icdom-87803
     label: Blue nevus, malignant
   - id: pgx:icdot-C44.9
-    label: skin
+    label: Skin, NOS
   examples:
   - Malignant blue nevus
   id: NCIT:C4240::pgx:icdom-87803::pgx:icdot-C44.9
@@ -11176,7 +11061,7 @@
   - id: pgx:icdom-88200
     label: Elastofibroma
   - id: pgx:icdot-C49.9
-    label: connective and soft tissue, NOS
+    label: Connective, subcutaneous and other soft tissues, NOS
   examples:
   - Elastofibroma
   id: NCIT:C4245::pgx:icdom-88200::pgx:icdot-C49.9
@@ -11186,14 +11071,14 @@
     label: Undifferentiated Pleomorphic Sarcoma
   - id: pgx:icdom-88303
     label: Malignant fibrous histiocytoma
-  - id: pgx:icdot-C40.0
-    label: bones and joints
+  - id: pgx:icdot-C41.9
+    label: Bone, NOS
   examples:
   - Malignant fibrous histiocytoma [bone]
   - Sarcoma [postirradiation, MFH G4, Subcutis of proximal humerus]
   - malignant fibrous histiocytoma [bone, metastasis]
   - malignant fibrous histiocytoma [bone, primary tumor]
-  id: NCIT:C4247::pgx:icdom-88303::pgx:icdot-C40.0
+  id: NCIT:C4247::pgx:icdom-88303::pgx:icdot-C41.9
   note: progenetix
 - code_group:
   - id: NCIT:C4247
@@ -11256,7 +11141,7 @@
   - id: pgx:icdom-88303
     label: Malignant fibrous histiocytoma
   - id: pgx:icdot-C49.9
-    label: connective and soft tissue, NOS
+    label: Connective, subcutaneous and other soft tissues, NOS
   examples:
   - Desmoplastic fibroma [malignant fibrous histiocytoma-like component]
   - Malignant fibrous histiocytoma
@@ -11282,7 +11167,7 @@
   - id: pgx:icdom-88513
     label: Liposarcoma, well differentiated
   - id: pgx:icdot-C49.9
-    label: connective and soft tissue, NOS
+    label: Connective, subcutaneous and other soft tissues, NOS
   examples:
   - Liposarcoma, well differentiated
   - lipoma-like liposarcoma [shoulder, deep]
@@ -11297,7 +11182,7 @@
   - id: pgx:icdom-88553
     label: Mixed liposarcoma
   - id: pgx:icdot-C49.9
-    label: connective and soft tissue, NOS
+    label: Connective, subcutaneous and other soft tissues, NOS
   examples:
   - double-component liposarcoma
   id: NCIT:C4253::pgx:icdom-88553::pgx:icdot-C49.9
@@ -11354,7 +11239,7 @@
   - id: pgx:icdom-89903
     label: Mesenchymoma, malignant
   - id: pgx:icdot-C49.9
-    label: connective and soft tissue, NOS
+    label: Connective, subcutaneous and other soft tissues, NOS
   examples:
   - Malignant mesenchymoma [grade IV, primary]
   id: NCIT:C4268::pgx:icdom-89903::pgx:icdot-C49.9
@@ -11433,7 +11318,7 @@
   - id: pgx:icdom-90413
     label: Synovial sarcoma, spindle cell
   - id: pgx:icdot-C49.9
-    label: connective and soft tissue, NOS
+    label: Connective, subcutaneous and other soft tissues, NOS
   examples:
   - Monophasic synovial sarcoma [cell line HS-SY-2]
   - Synovial sarcoma [cell line Fuji]
@@ -11480,7 +11365,7 @@
   - id: pgx:icdom-90433
     label: Synovial sarcoma, biphasic
   - id: pgx:icdot-C49.9
-    label: connective and soft tissue, NOS
+    label: Connective, subcutaneous and other soft tissues, NOS
   examples:
   - Biphasic synovial sarcoma [cell line SYO-1]
   - C49;Synovial Sarcoma
@@ -11494,25 +11379,13 @@
     label: Immature Teratoma
   - id: pgx:icdom-90803
     label: Teratoma, malignant, NOS
-  - id: pgx:icdot-C38.9
-    label: mediastinum
+  - id: pgx:icdot-C38.3
+    label: Mediastinum, NOS
   examples:
   - mediastinal germ cell tumor [immature teratoma, stage II]
   - mediastinal germ cell tumor [immature teratoma, stage I]
   - mediastinal germ cell tumor [mature teratoma, stage I]
-  id: NCIT:C4286::pgx:icdom-90803::pgx:icdot-C38.9
-  note: progenetix
-- code_group:
-  - id: NCIT:C4286
-    label: Immature Teratoma
-  - id: pgx:icdom-90803
-    label: Teratoma, malignant, NOS
-  - id: pgx:icdot-C40.0
-    label: bones and joints
-  examples:
-  - germ cell tumor [immature teratoma]
-  - germ cell tumor [mature and immature teratoma]
-  id: NCIT:C4286::pgx:icdom-90803::pgx:icdot-C40.0
+  id: NCIT:C4286::pgx:icdom-90803::pgx:icdot-C38.3
   note: progenetix
 - code_group:
   - id: NCIT:C4286
@@ -11523,6 +11396,8 @@
     label: bone, NOS
   examples:
   - congenital sacrococcygeal teratoma
+  - germ cell tumor [immature teratoma]
+  - germ cell tumor [mature and immature teratoma]
   id: NCIT:C4286::pgx:icdom-90803::pgx:icdot-C41.9
   note: progenetix
 - code_group:
@@ -11531,7 +11406,7 @@
   - id: pgx:icdom-90803
     label: Teratoma, malignant, NOS
   - id: pgx:icdot-C49.9
-    label: connective and soft tissue, NOS
+    label: Connective, subcutaneous and other soft tissues, NOS
   examples:
   - Teratoma [Sacrococcygeal region]
   - Teratoma [Sacrococcygeal]
@@ -11641,7 +11516,7 @@
   - id: pgx:icdom-90853
     label: Mixed germ cell tumor
   - id: pgx:icdot-C34.9
-    label: lung and bronchus
+    label: Lung, NOS
   examples:
   - Mixed germ cell tumor [Teratocarcinoma,Teratoma with malignant transformation]
   - Mixed germ cell tumor [yolk sac tumour,Teratocarcinoma]
@@ -11652,8 +11527,8 @@
     label: Mixed Germ Cell Tumor
   - id: pgx:icdom-90853
     label: Mixed germ cell tumor
-  - id: pgx:icdot-C38.9
-    label: mediastinum
+  - id: pgx:icdot-C38.3
+    label: Mediastinum, NOS
   examples:
   - Combined germ cell tumor [mediastinal, immature teratoma, chorioncarcinoma, yolk
     sac tumor, stage III]
@@ -11665,7 +11540,7 @@
     IV]
   - Combined germ cell tumor [mediastinal, yolk sac tumor, mature teratoma, stage
     n.d.]
-  id: NCIT:C4290::pgx:icdom-90853::pgx:icdot-C38.9
+  id: NCIT:C4290::pgx:icdom-90853::pgx:icdot-C38.3
   note: progenetix
 - code_group:
   - id: NCIT:C4290
@@ -11673,7 +11548,7 @@
   - id: pgx:icdom-90853
     label: Mixed germ cell tumor
   - id: pgx:icdot-C49.9
-    label: connective and soft tissue, nos
+    label: Connective, subcutaneous and other soft tissues, NOS
   examples:
   - Mixed germ cell tumor [Teratocarcinoma,yolk sac tumour]
   - Mixed germ cell tumor [embryonal carcinoma,Teratocarcinoma]
@@ -11903,7 +11778,7 @@
   - id: pgx:icdom-96733
     label: Mantle cell lymphoma
   - id: pgx:icdot-C18.9
-    label: large intestine, excl. rectum and rectosigmoid junction
+    label: Colon, NOS
   examples:
   - mantle cell lymphoma [classic]
   id: NCIT:C4337::pgx:icdom-96733::pgx:icdot-C18.9
@@ -11951,7 +11826,7 @@
   - id: pgx:icdom-97023
     label: Mature T-cell lymphoma, NOS
   - id: pgx:icdot-C49.9
-    label: connective and soft tissue, NOS
+    label: Connective, subcutaneous and other soft tissues, NOS
   examples:
   - Peripheral T-cell lymphoma [Soft tissue]
   id: NCIT:C4340::pgx:icdom-97023::pgx:icdot-C49.9
@@ -11999,7 +11874,7 @@
   - id: pgx:icdom-96993
     label: Marginal zone B-cell lymphoma, NOS
   - id: pgx:icdot-C08.9
-    label: salivary gland, NOS
+    label: Major salivary gland, NOS
   examples:
   - MALT lymphoma
   id: NCIT:C4341::pgx:icdom-96993::pgx:icdot-C08.9
@@ -12010,7 +11885,7 @@
   - id: pgx:icdom-96993
     label: Marginal zone B-cell lymphoma, NOS
   - id: pgx:icdot-C17.9
-    label: small intestine
+    label: Small intestine, NOS
   examples:
   - Marginal Zone B-cell Lymphoma [Ileum, Pleura, LN]
   id: NCIT:C4341::pgx:icdom-96993::pgx:icdot-C17.9
@@ -12021,7 +11896,7 @@
   - id: pgx:icdom-96993
     label: Marginal zone B-cell lymphoma, NOS
   - id: pgx:icdot-C34.9
-    label: lung and bronchus
+    label: Lung, NOS
   examples:
   - Extranodal marginal zone B-cell lymphoma
   - MALT lymphoma
@@ -12203,7 +12078,7 @@
   - id: pgx:icdom-81403
     label: Adenocarcinoma, NOS
   - id: pgx:icdot-C18.9
-    label: large intestine, excl. rectum and rectosigmoid junction
+    label: Colon, NOS
   examples:
   - Adenocarcinoma [colorectal]
   - adenomacarcinoma [colorectal]
@@ -12240,7 +12115,7 @@
   - id: pgx:icdom-81403
     label: Adenocarcinoma, NOS
   - id: pgx:icdot-C18.7
-    label: sigmoid incl. rectosigmoid junction
+    label: Sigmoid colon
   examples:
   - adenocarcinoma [sigma, liver metastasis]
   - adenocarcinoma [sigma]
@@ -12290,7 +12165,7 @@
   - id: pgx:icdom-84803
     label: Mucinous adenocarcinoma
   - id: pgx:icdot-C18.7
-    label: sigmoid incl. rectosigmoid junction
+    label: Sigmoid colon
   examples:
   - Mucinous colorectal carcinoma [Sigmoid colon, pT3N0M0, stage I]
   - Mucinous colorectal carcinoma [Sigmoid colon, pT3N0M1, stage V]
@@ -12351,7 +12226,7 @@
   - id: pgx:icdom-81603
     label: Cholangiocarcinoma
   - id: pgx:icdot-C24.9
-    label: extrahepatic and unspecified bile ducts
+    label: Billiary tract, NOS
   examples:
   - Cholangiocarcinoma
   - Mixed Cancer Types
@@ -12363,7 +12238,7 @@
   - id: pgx:icdom-80123
     label: Large cell carcinoma, NOS
   - id: pgx:icdot-C34.9
-    label: lung and bronchus
+    label: Lung, NOS
   examples:
   - Large cell carcinoma [anaplastic]
   - Large cell lung carcinoma [cell line NCI-H1299]
@@ -12378,7 +12253,7 @@
   - id: pgx:icdom-80313
     label: Giant cell carcinoma
   - id: pgx:icdot-C34.9
-    label: lung and bronchus
+    label: Lung, NOS
   examples:
   - Lung giant cell carcinoma [cell line HCC1359]
   - Lung giant cell carcinoma [cell line LU-65A]
@@ -12393,7 +12268,7 @@
   - id: pgx:icdom-90503
     label: Mesothelioma, malignant
   - id: pgx:icdot-C34.9
-    label: lung and bronchus
+    label: Lung, NOS
   examples:
   - Pleural biphasic mesothelioma [cell line MSTO-211H]
   - Pleural biphasic mesothelioma [cell line NCI-H2452]
@@ -12408,7 +12283,7 @@
   - id: pgx:icdom-90503
     label: Mesothelioma, malignant
   - id: pgx:icdot-C49.9
-    label: connective and soft tissue, NOS
+    label: Connective, subcutaneous and other soft tissues, NOS
   examples:
   - Pleural malignant mesothelioma [cell line GAY2911]
   - Pleural malignant mesothelioma [cell line JU77]
@@ -12580,7 +12455,7 @@
   - id: pgx:icdom-84303
     label: Mucoepidermoid carcinoma
   - id: pgx:icdot-C34.9
-    label: lung and bronchus
+    label: Lung, NOS
   examples:
   - Lung mucoepidermoid carcinoma [cell line EPLC-272H]
   - Mixed Cancer Types
@@ -12593,7 +12468,7 @@
   - id: pgx:icdom-82493
     label: Atypical carcinoid tumor
   - id: pgx:icdot-C34.9
-    label: lung and bronchus
+    label: Lung, NOS
   examples:
   - Atypical Lung Carcinoid
   - atypical carcinoid tumor [lung]
@@ -12627,7 +12502,7 @@
   - id: pgx:icdom-90513
     label: Fibrous mesothelioma, malignant
   - id: pgx:icdot-C49.9
-    label: connective and soft tissue, NOS
+    label: Connective, subcutaneous and other soft tissues, NOS
   examples:
   - Pleural sarcomatoid mesothelioma [cell line NCI-H2373]
   - Pleural sarcomatoid mesothelioma [cell line VAMT-1]
@@ -12640,7 +12515,7 @@
   - id: pgx:icdom-90523
     label: Epithelioid mesothelioma, NOS
   - id: pgx:icdot-C38.4
-    label: Pleura, Nos
+    label: Pleura, NOS
   examples:
   - Lung Carcinoma;C34
   - Mixed Cancer Types
@@ -12654,7 +12529,7 @@
   - id: pgx:icdom-90513
     label: Sarcomatoid mesothelioma
   - id: pgx:icdot-C38.4
-    label: Pleura, Nos
+    label: Pleura, NOS
   examples:
   - C34;Mesothelioma
   - Mixed Cancer Types
@@ -12682,7 +12557,7 @@
   - id: pgx:icdom-90533
     label: Mesothelioma, biphasic, malignant
   - id: pgx:icdot-C49.9
-    label: connective and soft tissue, NOS
+    label: Connective, subcutaneous and other soft tissues, NOS
   examples:
   - mesothelioma [biphasic]
   id: NCIT:C45665::pgx:icdom-90533::pgx:icdot-C49.9
@@ -12762,7 +12637,7 @@
   - id: pgx:icdom-80703
     label: Squamous cell carcinoma, NOS
   - id: pgx:icdot-C01.9
-    label: tongue
+    label: Base of tongue, NOS
   examples:
   - Head and neck squamous cell carcinoma [tongue, pT1, not metastasized]
   - Head and neck squamous cell carcinoma [tongue, pT2, not metastasized]
@@ -13046,7 +12921,7 @@
   - id: pgx:icdom-97173
     label: Intestinal T-cell lymphoma
   - id: pgx:icdot-C17.9
-    label: small intestine
+    label: Small intestine, NOS
   examples:
   - Enteropathy type T-cell lymphoma
   - Enteropathy-associated T-cell lymphoma [Type II]
@@ -13083,14 +12958,14 @@
     label: T-Cell Prolymphocytic Leukemia
   - id: pgx:icdom-98343
     label: Prolymphocytic leukemia, T-cell type
-  - id: pgx:icdot-C42.9
-    label: hematopoietic and reticuloendothelial systems
+  - id: pgx:icdot-C42.4
+    label: Hematopoietic system, NOS
   examples:
   - Prolymphocytic leukemia, T-cell type
   - Prolymphocytic leukemia, T-cell type [small-cell variant]
   - T-cell prolymphocytic leukemia
   - T-prolymphocytic leukemia
-  id: NCIT:C4752::pgx:icdom-98343::pgx:icdot-C42.9
+  id: NCIT:C4752::pgx:icdom-98343::pgx:icdot-C42.4
   note: progenetix
 - code_group:
   - id: NCIT:C4753
@@ -13110,11 +12985,11 @@
     label: B-Cell Prolymphocytic Leukemia
   - id: pgx:icdom-98333
     label: Prolymphocytic leukemia, B-cell type
-  - id: pgx:icdot-C42.9
-    label: hematopoietic and reticuloendothelial systems
+  - id: pgx:icdot-C42.4
+    label: Hematopoietic system, NOS
   examples:
   - Prolymphocytic leukemia, B-cell type
-  id: NCIT:C4753::pgx:icdom-98333::pgx:icdot-C42.9
+  id: NCIT:C4753::pgx:icdom-98333::pgx:icdot-C42.4
   note: progenetix
 - code_group:
   - id: NCIT:C47857
@@ -13133,7 +13008,7 @@
   - id: pgx:icdom-92703
     label: Odontogenic tumor, malignant
   - id: pgx:icdot-C06.9
-    label: mouth, NOS
+    label: Mouth, NOS
   examples:
   - Clear-cell odontogenic carcinoma, primary tumor
   id: NCIT:C4812::pgx:icdom-92703::pgx:icdot-C06.9
@@ -13169,29 +13044,14 @@
     label: Ewing Sarcoma
   - id: pgx:icdom-92603
     label: Ewing sarcoma
-  - id: pgx:icdot-C40.0
-    label: bones and joints
+  - id: pgx:icdot-C41.9
+    label: Bone, NOS
   examples:
   - Ewing sarcoma
   - Ewing sarcoma [Iliac]
   - Ewing sarcoma [Pelvis]
   - Ewing sarcoma [Sacrum]
   - Ewing sarcoma [Vertebra]
-  id: NCIT:C4817::pgx:icdom-92603::pgx:icdot-C40.0
-  note: progenetix
-- code_group:
-  - id: NCIT:C4817
-    label: Ewing Sarcoma
-  - id: pgx:icdom-92603
-    label: EWING SARCOMA
-  - id: pgx:icdot-C41.9
-    label: Bone, NOS
-  examples:
-  - C25;Carcinoma
-  - C49;Sarcoma
-  - C64;Wilms tumour
-  - Ewing tumor
-  - Ewing's Sarcoma [cell line SKES1]
   id: NCIT:C4817::pgx:icdom-92603::pgx:icdot-C41.9
   note: progenetix
 - code_group:
@@ -13200,7 +13060,7 @@
   - id: pgx:icdom-92603
     label: Ewing sarcoma
   - id: pgx:icdot-C49.9
-    label: connective and soft tissue, NOS
+    label: Connective, subcutaneous and other soft tissues, NOS
   examples:
   - Ewing sarcoma
   id: NCIT:C4817::pgx:icdom-92603::pgx:icdot-C49.9
@@ -13308,7 +13168,7 @@
   - id: pgx:icdom-80703
     label: Squamous cell carcinoma, NOS
   - id: pgx:icdot-C06.9
-    label: mouth, NOS
+    label: Mouth, NOS
   examples:
   - Head and neck squamous cell carcinoma [Floor of the mouth, stage I, T4NoMo]
   - Squamous cell carcinoma [oral]
@@ -13334,7 +13194,7 @@
   - id: pgx:icdom-87613
     label: Melanoma arising in giant congenital naevi
   - id: pgx:icdot-C44.9
-    label: skin
+    label: Skin, NOS
   examples:
   - melanoma arising in congenital nevus
   id: NCIT:C48613::pgx:icdom-87613::pgx:icdot-C44.9
@@ -13401,7 +13261,7 @@
   - id: pgx:icdom-80103
     label: Carcinoma, NOS
   - id: pgx:icdot-C34.9
-    label: lung and bronchus
+    label: Lung, NOS
   examples:
   - Carcinoma [bronchial, after carcinoma in situ of left main bronchus]
   - bronchoalveolar carcinoma
@@ -13416,7 +13276,7 @@
   - id: pgx:icdom-88953
     label: Myosarcoma
   - id: pgx:icdot-C49.9
-    label: connective and soft tissue, NOS
+    label: Connective, subcutaneous and other soft tissues, NOS
   examples:
   - Myosarcoma NOS [grade III, primary]
   - Myosarcoma NOS [grade IV, primary]
@@ -13428,7 +13288,7 @@
   - id: pgx:icdom-88250
     label: Myofibroblastoma
   - id: pgx:icdot-C49.9
-    label: connective and soft tissue, NOS
+    label: Connective, subcutaneous and other soft tissues, NOS
   examples:
   - Myofibroblastoma
   id: NCIT:C49012::pgx:icdom-88250::pgx:icdot-C49.9
@@ -13510,7 +13370,7 @@
   - id: pgx:icdom-80103
     label: Carcinoma, NOS
   - id: pgx:icdot-C18.9
-    label: large intestine, excl. rectum and rectosigmoid junction
+    label: Colon, NOS
   examples:
   - colorectal cancer [Distal,Descending colon]
   - colorectal cancer [Proximal,Ascending colon]
@@ -13525,7 +13385,7 @@
   - id: pgx:icdom-80103
     label: Carcinoma, NOS
   - id: pgx:icdot-C16.9
-    label: stomach
+    label: Stomach, NOS
   examples:
   - Carcinoma [gastric carcinoma, unclassified, poor differentiation, distal]
   - Gastric carcinoma [cell line SNU-16]
@@ -13564,7 +13424,7 @@
   - id: pgx:icdom-80413
     label: Small cell carcinoma, NOS
   - id: pgx:icdot-C34.9
-    label: lung and bronchus
+    label: Lung, NOS
   examples:
   - Small Cell Carcinoma
   - Small cell carcinoma
@@ -13936,7 +13796,7 @@
   - id: pgx:icdom-84803
     label: Mucinous adenocarcinoma
   - id: pgx:icdot-C16.9
-    label: stomach
+    label: Stomach, NOS
   examples:
   - Gastric Type Mucinous Carcinoma
   - Mixed Cancer Types
@@ -13951,7 +13811,7 @@
   - id: pgx:icdom-84903
     label: Signet ring cell carcinoma
   - id: pgx:icdot-C16.9
-    label: stomach
+    label: Stomach, NOS
   examples:
   - Carcinoma [gastric, diffuse-type, mucosa]
   - Carcinoma [gastric, diffuse-type, muscularis propria]
@@ -13966,7 +13826,7 @@
   - id: pgx:icdom-89403
     label: Signet ring cell carcinoma
   - id: pgx:icdot-C16.9
-    label: stomach
+    label: Stomach, NOS
   examples:
   - Mixed Cancer Types
   - Signet ring cell gastric adenocarcinoma [cell line GP202]
@@ -13979,7 +13839,7 @@
   - id: pgx:icdom-96993
     label: Marginal zone B-cell lymphoma, NOS
   - id: pgx:icdot-C16.9
-    label: stomach
+    label: Stomach, NOS
   examples:
   - Extranodal marginal zone B-cell lymphoma
   - Extranodal marginal zone B-cell lymphoma [large cell]
@@ -13994,7 +13854,7 @@
   - id: pgx:icdom-81400
     label: Adenoma, NOS
   - id: pgx:icdot-C17.9
-    label: small intestine
+    label: Small intestine, NOS
   examples:
   - Small bowel juvenile polyps
   id: NCIT:C5340::pgx:icdom-81400::pgx:icdot-C17.9
@@ -14053,7 +13913,7 @@
   - id: pgx:icdom-92200
     label: Chondroma, NOS
   - id: pgx:icdot-C49.9
-    label: connective and soft tissue, NOS
+    label: Connective, subcutaneous and other soft tissues, NOS
   examples:
   - enchondroma [Mafucci syndrome]
   id: NCIT:C53459::pgx:icdom-92200::pgx:icdot-C49.9
@@ -14135,7 +13995,7 @@
   - id: pgx:icdom-89360
     label: gastrointestinal stromal tumor, benign
   - id: pgx:icdot-C16.9
-    label: stomach
+    label: Stomach, NOS
   examples:
   - Gastrointestinal stromal tumor, benign
   - gastrointestinal stroma tumor [Probably Benign]
@@ -14148,7 +14008,7 @@
   - id: pgx:icdom-89360
     label: gastrointestinal stromal tumor, benign
   - id: pgx:icdot-C17.9
-    label: small intestine
+    label: Small intestine, NOS
   examples:
   - gastrointestinal stroma tumor [Probably Benign]
   - gastrointestinal stromal tumor [benign]
@@ -14171,7 +14031,7 @@
   - id: pgx:icdom-89360
     label: Gastrointestinal stromal tumor, benign
   - id: pgx:icdot-C20.9
-    label: Rectum
+    label: Rectum, NOS
   examples:
   - gastrointestinal stroma tumor [Probably Benign]
   id: NCIT:C53998::pgx:icdom-89360::pgx:icdot-C20.9
@@ -14182,7 +14042,7 @@
   - id: pgx:icdom-89360
     label: Gastrointestinal stromal tumor, benign
   - id: pgx:icdot-C49.9
-    label: connective and soft tissue, NOS
+    label: Connective, subcutaneous and other soft tissues, NOS
   examples:
   - Gastrointestinal stroma tumor [benign, epithelioid, jejunum]
   - Gastrointestinal stroma tumor [benign, epithelioid, stomach]
@@ -14196,7 +14056,7 @@
   - id: pgx:icdom-89363
     label: Gastrointestinal stromal tumor, malignant
   - id: pgx:icdot-C15.9
-    label: Esophagus
+    label: Esophagus, NOS
   examples:
   - gastrointestinal stroma tumor [Probably Malignant]
   id: NCIT:C53999::pgx:icdom-89363::pgx:icdot-C15.9
@@ -14207,7 +14067,7 @@
   - id: pgx:icdom-89363
     label: gastrointestinal stromal tumor, malignant
   - id: pgx:icdot-C17.9
-    label: small intestine
+    label: Small intestine, NOS
   examples:
   - Gastrointestinal stromal tumor, malignant
   - gastrointestinal stroma tumor [Probably Malignant]
@@ -14222,7 +14082,7 @@
   - id: pgx:icdom-89363
     label: Gastrointestinal stromal tumor, malignant
   - id: pgx:icdot-C18.7
-    label: sigmoid incl. rectosigmoid junction
+    label: Sigmoid colon
   examples:
   - Gastrointestinal stroma tumor [malignant, epithelioid, sigmoid colon]
   id: NCIT:C53999::pgx:icdom-89363::pgx:icdot-C18.7
@@ -14233,7 +14093,7 @@
   - id: pgx:icdom-89363
     label: gastrointestinal stromal tumor, malignant
   - id: pgx:icdot-C18.9
-    label: large intestine, excl. rectum and rectosigmoid junction
+    label: Colon, NOS
   examples:
   - Gastrointestinal stromal tumor, malignant
   - gastrointestinal stromal tumor [colon]
@@ -14246,7 +14106,7 @@
   - id: pgx:icdom-89363
     label: gastrointestinal stromal tumor, malignant
   - id: pgx:icdot-C20.9
-    label: rectum
+    label: Rectum, NOS
   examples:
   - Gastrointestinal stroma tumor [malignant, spindle cell, rectum]
   - Gastrointestinal stromal tumor, malignant
@@ -14260,11 +14120,11 @@
     label: Malignant Gastrointestinal Stromal Tumor
   - id: pgx:icdom-89363
     label: gastrointestinal stromal tumor, malignant
-  - id: pgx:icdot-C22.9
-    label: liver
+  - id: pgx:icdot-C22.0
+    label: Liver
   examples:
   - gastrointestinal stromal tumor [malignant, metastasis]
-  id: NCIT:C53999::pgx:icdom-89363::pgx:icdot-C22.9
+  id: NCIT:C53999::pgx:icdom-89363::pgx:icdot-C22.0
   note: progenetix
 - code_group:
   - id: NCIT:C53999
@@ -14406,7 +14266,7 @@
   - id: pgx:icdom-93103
     label: Ameloblastoma, malignant
   - id: pgx:icdot-C06.9
-    label: mouth, NOS
+    label: Mouth, NOS
   examples:
   - Ameloblastoma [Atypical]
   id: NCIT:C54297::pgx:icdom-93103::pgx:icdot-C06.9
@@ -14483,7 +14343,7 @@
   - id: pgx:icdom-82113
     label: Tubular adenocarcinoma
   - id: pgx:icdot-C16.9
-    label: stomach
+    label: Stomach, NOS
   examples:
   - Gastric tubular adenocarcinoma [cell line MKN28]
   - Gastric tubular adenocarcinoma [cell line MKN74]
@@ -14498,7 +14358,7 @@
   - id: pgx:icdom-85603
     label: Adenosquamous carcinoma
   - id: pgx:icdot-C16.9
-    label: stomach
+    label: Stomach, NOS
   examples:
   - Gastric adenosquamous carcinoma [cell line MKN1]
   - Mixed Cancer Types
@@ -14607,7 +14467,7 @@
   - id: pgx:icdom-89733
     label: Pleuropulmonary blastoma
   - id: pgx:icdot-C34.9
-    label: lung and bronchus
+    label: Lung, NOS
   examples:
   - Pleuropulmonary blastoma [rhabdomyoblastic and chondroid differentiation; right
     lung]
@@ -14642,7 +14502,7 @@
   - id: pgx:icdom-80133
     label: Large cell neuroendocrine carcinoma
   - id: pgx:icdot-C34.9
-    label: lung and bronchus
+    label: Lung, NOS
   examples:
   - Large cell neuroendocrine carcinoma
   - large cell neuroendocrine carcinoma [lung]
@@ -14703,7 +14563,7 @@
   - id: pgx:icdom-85603
     label: Adenosquamous carcinoma
   - id: pgx:icdot-C25.9
-    label: pancreas
+    label: Pancreas, NOS
   examples:
   - Adenosquamous Carcinoma of the Pancreas
   - Mixed Cancer Types
@@ -14739,7 +14599,7 @@
   - id: pgx:icdom-89361
     label: Gastrointestinal stromal tumor, NOS
   - id: pgx:icdot-C17.9
-    label: small intestine
+    label: Small intestine, NOS
   examples:
   - Gastrointestinal stromal tumor, uncertain malignant potential
   - gastrointestinal stroma tumor [Low Malignant Potential]
@@ -14774,7 +14634,7 @@
   - id: pgx:icdom-84303
     label: Mucoepidermoid carcinoma
   - id: pgx:icdot-C08.9
-    label: salivary gland, NOS
+    label: Major salivary gland, NOS
   examples:
   - Mucoepidermoid carcinoma
   id: NCIT:C5908::pgx:icdom-84303::pgx:icdot-C08.9
@@ -15262,7 +15122,7 @@
   - id: pgx:icdom-82403
     label: Carcinoid tumor, NOS
   - id: pgx:icdot-C17.9
-    label: Small intestine
+    label: Small intestine, NOS
   examples:
   - midgut carcinoid tumor [cell line H-STS]
   - midgut carcinoid tumor [cell line L-STS]
@@ -15375,7 +15235,7 @@
   - id: pgx:icdom-88113
     label: Fibromyxosarcoma
   - id: pgx:icdot-C49.9
-    label: connective and soft tissue, NOS
+    label: Connective, subcutaneous and other soft tissues, NOS
   examples:
   - Fibromyxoid sarcoma [low grade]
   - Myxofibrosarcoma
@@ -15503,7 +15363,7 @@
   - id: pgx:icdom-81513
     label: Insulinoma, malignant
   - id: pgx:icdot-C25.9
-    label: pancreas
+    label: Pancreas, NOS
   examples:
   - Malignant insulinoma
   - endocrine pancreatic tumor [Insulinoma, metastasizing, metastasis]
@@ -15517,7 +15377,7 @@
   - id: pgx:icdom-81523
     label: Glucagonoma, malignant
   - id: pgx:icdot-C25.9
-    label: pancreas
+    label: Pancreas, NOS
   examples:
   - Malignant glucagonoma
   - endocrine pancreatic tumor [Glucagonoma, metastasizing, metastasis]
@@ -15530,7 +15390,7 @@
   - id: pgx:icdom-81533
     label: Gastrinoma, malignant
   - id: pgx:icdot-C17.9
-    label: small intestine
+    label: Small intestine, NOS
   examples:
   - neuroendocrine tumour [duodenum/jejunum, gastrinoma, Liver, lymphnode metastasis,
     functional]
@@ -15542,7 +15402,7 @@
   - id: pgx:icdom-81533
     label: Gastrinoma, malignant
   - id: pgx:icdot-C25.9
-    label: pancreas
+    label: Pancreas, NOS
   examples:
   - endocrine pancreatic tumor [Gastrinoma, metastasizing, metastasis]
   - endocrine pancreatic tumor [Gastrinoma, metastasizing, primary]
@@ -15835,7 +15695,7 @@
   - id: pgx:icdom-88023
     label: Giant cell sarcoma
   - id: pgx:icdot-C49.9
-    label: connective and soft tissue, nos
+    label: Connective, subcutaneous and other soft tissues, NOS
   examples:
   - Giant cell sarcoma [cell line Hs 737.T]
   id: NCIT:C66759::pgx:icdom-88023::pgx:icdot-C49.9
@@ -15857,7 +15717,7 @@
   - id: pgx:icdom-88110
     label: Fibromyxoma
   - id: pgx:icdot-C49.9
-    label: connective and soft tissue, NOS
+    label: Connective, subcutaneous and other soft tissues, NOS
   examples:
   - Fibromyxoid tumor
   id: NCIT:C66760::pgx:icdom-88110::pgx:icdot-C49.9
@@ -15868,7 +15728,7 @@
   - id: pgx:icdom-85763
     label: Hepatoid adenocarcinoma
   - id: pgx:icdot-C16.9
-    label: stomach
+    label: Stomach, NOS
   examples:
   - hepatoid adenocarcinoma
   id: NCIT:C66950::pgx:icdom-85763::pgx:icdot-C16.9
@@ -15959,7 +15819,7 @@
   - id: pgx:icdom-81563
     label: somatostatinoma, malignant
   - id: pgx:icdot-C25.9
-    label: pancreas
+    label: Pancreas, NOS
   examples:
   - Pancreatic somatostatinoma [cell line QGP-1]
   id: NCIT:C67369::pgx:icdom-81563::pgx:icdot-C25.9
@@ -15970,7 +15830,7 @@
   - id: pgx:icdom-81533
     label: Gastrinoma, malignant
   - id: pgx:icdot-C25.9
-    label: pancreas
+    label: Pancreas, NOS
   examples:
   - neuroendocrine tumour [pancreas, gastrinoma, Liver metastasis, functional]
   id: NCIT:C67458::pgx:icdom-81533::pgx:icdot-C25.9
@@ -15981,7 +15841,7 @@
   - id: pgx:icdom-90513
     label: Fibrous mesothelioma, malignant
   - id: pgx:icdot-C38.4
-    label: pleura
+    label: Pleura, NOS
   examples:
   - Sarcomatoid mesothelioma
   - Sarcomatoid mesothelioma [familial occurence]
@@ -16007,7 +15867,7 @@
   - id: pgx:icdom-80413
     label: Small cell carcinoma, NOS
   - id: pgx:icdot-C16.9
-    label: Stomach
+    label: Stomach, NOS
   examples:
   - Mixed Cancer Types
   id: NCIT:C6764::pgx:icdom-80413::pgx:icdot-C16.9
@@ -16032,7 +15892,7 @@
   - id: pgx:icdom-80103
     label: Carcinoma, NOS
   - id: pgx:icdot-C16.0
-    label: cardia, NOS
+    label: Cardia, NOS
   examples:
   - cardia cancer
   id: NCIT:C6794::pgx:icdom-80103::pgx:icdot-C16.0
@@ -16075,7 +15935,7 @@
   - id: NCIT:C6867
     label: Myelodysplastic Syndrome with Isolated del(5q)
   - id: pgx:icdom-99863
-    label: Myelodyplastic syndrome, NOS
+    label: Myelodysplastic syndrome with 5q deletion
   - id: pgx:icdot-C42.1
     label: Bone marrow
   examples:
@@ -16086,12 +15946,12 @@
   - id: NCIT:C6867
     label: Myelodysplastic Syndrome with Isolated del(5q)
   - id: pgx:icdom-99863
-    label: Myelodysplastic syndrome with 5q- syndrome
-  - id: pgx:icdot-C42.9
-    label: hematopoietic and reticuloendothelial systems
+    label: Myelodysplastic syndrome with 5q deletion
+  - id: pgx:icdot-C42.4
+    label: Hematopoietic system, NOS
   examples:
   - myelodysplastic syndrome [5q-]
-  id: NCIT:C6867::pgx:icdom-99863::pgx:icdot-C42.9
+  id: NCIT:C6867::pgx:icdom-99863::pgx:icdot-C42.4
   note: progenetix
 - code_group:
   - id: NCIT:C6875
@@ -16231,7 +16091,7 @@
   - id: pgx:icdom-88153
     label: Solitary fibrous tumor, malignant
   - id: pgx:icdot-C38.4
-    label: pleura
+    label: Pleura, NOS
   examples:
   - Solitary fibrous tumour, malignant
   id: NCIT:C6894::pgx:icdom-88153::pgx:icdot-C38.4
@@ -16242,7 +16102,7 @@
   - id: pgx:icdom-88153
     label: Solitary fibrous tumor, malignant
   - id: pgx:icdot-C49.9
-    label: connective and soft tissue, NOS
+    label: Connective, subcutaneous and other soft tissues, NOS
   examples:
   - solitary fibrous tumor
   id: NCIT:C6894::pgx:icdom-88153::pgx:icdot-C49.9
@@ -16268,7 +16128,7 @@
   - id: pgx:icdom-89633
     label: Malignant rhabdoid tumor
   - id: pgx:icdot-C49.9
-    label: connective and soft tissue, NOS
+    label: Connective, subcutaneous and other soft tissues, NOS
   examples:
   - extra-renal rhabdoid tumour [p53mut, Li-Fraumeni syndrome]
   - rhabdoid tumor [extrarenal]
@@ -16387,7 +16247,7 @@
   - id: pgx:icdom-96783
     label: Primary effusion lymphoma
   - id: pgx:icdot-C38.4
-    label: pleura
+    label: Pleura, NOS
   examples:
   - Effusion Lymphoma [Pleura]
   - Effusion Lymphoma [Pleural]
@@ -16601,7 +16461,7 @@
   - id: pgx:icdom-81400
     label: Adenoma, NOS
   - id: pgx:icdot-C22.1
-    label: intrahepatic bile ducts
+    label: Intrahepatic bile duct
   examples:
   - Intrahepatic cile duct adenoma
   id: NCIT:C7126::pgx:icdom-81400::pgx:icdot-C22.1
@@ -16798,7 +16658,7 @@
   - id: pgx:icdom-82543
     label: Bronchiolo-alveolar carcinoma, mixed mucinous and non-mucinous
   - id: pgx:icdot-C34.9
-    label: lung and bronchus
+    label: Lung, NOS
   examples:
   - Bronchioalveolar carcinoma [cell line NCI-H358]
   - Bronchioalveolar carcinoma [cell line SW1573]
@@ -16899,7 +16759,7 @@
   - id: pgx:icdom-90503
     label: Mesothelioma, malignant
   - id: pgx:icdot-C38.4
-    label: pleura
+    label: Pleura, NOS
   examples:
   - Malignant mesothelioma [familial, pleural, environmental asbestos exposure]
   - fibromatous mesothelioma
@@ -17011,17 +16871,6 @@
   - Primary Tumor
   - breast carcinoma [cell line BT-549]
   id: NCIT:C7439::pgx:icdom-85033::pgx:icdot-C50.9
-  note: progenetix
-- code_group:
-  - id: NCIT:C7463
-    label: Acute Myelomonocytic Leukemia
-  - id: pgx:icdom-98673
-    label: Acute myelomonocytic leukemia
-  - id: pgx:icdot-C42.0
-    label: Blood, NOS
-  examples:
-  - Juvenile Acute Monocytic Leukemia
-  id: NCIT:C7463::pgx:icdom-98673::pgx:icdot-C42.0
   note: progenetix
 - code_group:
   - id: NCIT:C7463
@@ -17187,7 +17036,7 @@
   - id: pgx:icdom-81401
     label: Atypical adenoma
   - id: pgx:icdot-C18.9
-    label: large intestine, excl. rectum and rectosigmoid junction
+    label: Colon, NOS
   examples:
   - adenoma [colon, mild dysplasia in FAP]
   - adenoma [colon, moderate dysplasia in FAP]
@@ -17264,7 +17113,7 @@
   - id: pgx:icdom-89823
     label: Malignant myoepithelioma
   - id: pgx:icdot-C08.9
-    label: salivary gland, NOS
+    label: Major salivary gland, NOS
   examples:
   - Myoepithelial carcinoma [Lower lip; clear cell]
   - Myoepithelial carcinoma [Neck; spindled, ex PA]
@@ -17279,7 +17128,7 @@
   - id: pgx:icdom-89823
     label: Malignant myoepithelioma
   - id: pgx:icdot-C49.9
-    label: connective and soft tissue, NOS
+    label: Connective, subcutaneous and other soft tissues, NOS
   examples:
   - Soft tissue malignant myoepithelioma
   id: NCIT:C7596::pgx:icdom-89823::pgx:icdot-C49.9
@@ -17301,7 +17150,7 @@
   - id: pgx:icdom-88150
     label: Solitary fibrous tumor
   - id: pgx:icdot-C49.9
-    label: connective and soft tissue, NOS
+    label: Connective, subcutaneous and other soft tissues, NOS
   examples:
   - Solitary Fibrous Tumor/Hemangiopericytoma
   - solitary fibrous tumor
@@ -17336,7 +17185,7 @@
   - id: pgx:icdom-81400
     label: Adenoma, NOS
   - id: pgx:icdot-C16.9
-    label: stomach
+    label: Stomach, NOS
   examples:
   - adenoma [gastric, moderate dysplasia]
   - adenoma [gastric, severe dysplasia]
@@ -17366,7 +17215,7 @@
   - id: pgx:icdom-82403
     label: Carcinoid tumor, NOS
   - id: pgx:icdot-C16.9
-    label: stomach
+    label: Stomach, NOS
   examples:
   - Gastrointestinal carcinoid
   id: NCIT:C7709::pgx:icdom-82403::pgx:icdot-C16.9
@@ -17634,7 +17483,7 @@
   - id: pgx:icdom-84803
     label: Mucinous adenocarcinoma
   - id: pgx:icdot-C18.9
-    label: large intestine, excl. rectum and rectosigmoid junction
+    label: Colon, NOS
   examples:
   - Mucinous carcinoma [colorectal]
   - Mucinous colorectal carcinoma [Ascending colon, pT3N0M0, stage I]
@@ -17760,7 +17609,7 @@
   - id: pgx:icdom-90523
     label: Epithelioid mesothelioma, malignant
   - id: pgx:icdot-C38.4
-    label: pleura
+    label: Pleura, NOS
   examples:
   - Epithelioid mesothelioma
   - Epithelioid mesothelioma [familial occurence]
@@ -17775,7 +17624,7 @@
   - id: pgx:icdom-90523
     label: Epithelioid mesothelioma, malignant
   - id: pgx:icdot-C49.9
-    label: connective and soft tissue, NOS
+    label: Connective, subcutaneous and other soft tissues, NOS
   examples:
   - pleural epithelioid mesothelioma [cell line Meso56]
   id: NCIT:C7985::pgx:icdom-90523::pgx:icdot-C49.9
@@ -17786,7 +17635,7 @@
   - id: pgx:icdom-80703
     label: Squamous cell carcinoma
   - id: pgx:icdot-C08.9
-    label: salivary, major, NOS
+    label: Major salivary gland, NOS
   examples:
   - Mixed Cancer Types
   id: NCIT:C7991::pgx:icdom-80703::pgx:icdot-C08.9
@@ -17877,7 +17726,7 @@
   - id: pgx:icdom-81403
     label: Adenocarcinoma, NOS
   - id: pgx:icdot-C08.9
-    label: salivary gland, NOS
+    label: Major salivary gland, NOS
   examples:
   - Adenocarcinoma [Basal cell adenocarcinoma, membranous type, palatal gland]]
   - Salivary Adenocarcinoma
@@ -17891,7 +17740,7 @@
   - id: pgx:icdom-82003
     label: Adenoid cystic carcinoma
   - id: pgx:icdot-C08.9
-    label: salivary gland, NOS
+    label: Major salivary gland, NOS
   examples:
   - adenoid cystic carcinoma [salivary gland, cribriform, Cheek]
   - adenoid cystic carcinoma [salivary gland, cribriform, Hard palate]
@@ -17936,17 +17785,6 @@
   examples:
   - pediatric-type follicular lymphoma
   id: NCIT:C80297::pgx:icdom-96903::pgx:icdot-C77.9
-  note: progenetix
-- code_group:
-  - id: NCIT:C80307
-    label: Waldenstrom Macroglobulinemia
-  - id: pgx:icdom-97613
-    label: 'Waldenstrom macroglobulinemia '
-  - id: pgx:icdot-C42.0
-    label: Blood
-  examples:
-  - Waldenstrom Macroglobulinemia
-  id: NCIT:C80307::pgx:icdom-97613::pgx:icdot-C42.0
   note: progenetix
 - code_group:
   - id: NCIT:C80307
@@ -18050,7 +17888,7 @@
   - id: pgx:icdom-82003
     label: 'Adenoid cystic carcinoma '
   - id: pgx:icdot-C04.9
-    label: floor of mouth, NOS
+    label: Floor of mouth, NOS
   examples:
   - adenoid cystic carcinoma
   id: NCIT:C8180::pgx:icdom-82003::pgx:icdot-C04.9
@@ -18061,7 +17899,7 @@
   - id: pgx:icdom-80703
     label: Squamous cell carcinoma, NOS
   - id: pgx:icdot-C10.9
-    label: Oropharynx
+    label: Oropharynx, NOS
   examples:
   - Head and neck squamous cell carcinoma [Oropharynx, stage I, T4NoMo]
   - Head and neck squamous cell carcinoma [primary tumor, Oropharynx, T4N2cM0]
@@ -18180,7 +18018,7 @@
   - id: pgx:icdom-80500
     label: Papilloma, NOS
   - id: pgx:icdot-C34.9
-    label: lung and bronchus
+    label: Lung, NOS
   examples:
   - flat ductal intraepithelial neoplasia
   id: NCIT:C8295::pgx:icdom-80500::pgx:icdot-C34.9
@@ -18422,15 +18260,15 @@
     label: B Acute Lymphoblastic Leukemia
   - id: pgx:icdom-98363
     label: Precursor B-cell lymphoblastic leukemia
-  - id: pgx:icdot-C42.9
-    label: hematopoietic and reticuloendothelial systems
+  - id: pgx:icdot-C42.4
+    label: Hematopoietic system, NOS
   examples:
   - Acute Lymphoblastic Leukemia [c-ALL]
   - Precursor B-cell lymphoblastic leukemia [child, TEL deletion]
   - Precursor B-cell lymphoblastic leukemia [child, cALL, FAB-L1, CD10pos]
   - Precursor B-cell lymphoblastic leukemia [child, common ALL, FAB-L1]
   - Precursor B-cell lymphoblastic leukemia [child, common ALL, FAB-L2]
-  id: NCIT:C8644::pgx:icdom-98363::pgx:icdot-C42.9
+  id: NCIT:C8644::pgx:icdom-98363::pgx:icdot-C42.4
   note: progenetix
 - code_group:
   - id: NCIT:C8647
@@ -18651,7 +18489,7 @@
   - id: pgx:icdom-87203
     label: Malignant melanoma, NOS
   - id: pgx:icdot-C49.9
-    label: connective and soft tissue, NOS
+    label: Connective, subcutaneous and other soft tissues, NOS
   examples:
   - Malignant melanoma [soft tissue]
   - Metastatic
@@ -18936,7 +18774,7 @@
   - id: pgx:icdom-96803
     label: Malignant lymphoma, large B-cell, diffuse, NOS
   - id: pgx:icdot-C09.9
-    label: Tonsil
+    label: Tonsil, NOS
   examples:
   - Diffuse large B-cell lymphoma
   id: NCIT:C8851::pgx:icdom-96803::pgx:icdot-C09.9
@@ -18947,7 +18785,7 @@
   - id: pgx:icdom-96803
     label: Malignant lymphoma, large B-cell, diffuse, NOS
   - id: pgx:icdot-C16.9
-    label: stomach
+    label: Stomach, NOS
   examples:
   - Diffuse Large B-cell Lymphoma [extranodal, stomach]
   - Diffuse large B-cell lymphoma [gastrointestinal]
@@ -18973,7 +18811,7 @@
   - id: pgx:icdom-96803
     label: Malignant lymphoma, large B-cell, diffuse, NOS
   - id: pgx:icdot-C17.9
-    label: Small intestine
+    label: Small intestine, NOS
   examples:
   - Diffuse Large B-cell Lymphoma [extranodal, small bowel]
   - Diffuse large B-cell lymphoma [Duodenum]
@@ -18988,7 +18826,7 @@
   - id: pgx:icdom-96803
     label: Malignant lymphoma, large B-cell, diffuse, NOS
   - id: pgx:icdot-C18.9
-    label: large intestine, excl. rectum and rectosigmoid junction
+    label: Colon, NOS
   examples:
   - Diffuse large B-cell lymphoma [Colon(Cecum)]
   - Diffuse large B-cell lymphoma [gastrointestinal]
@@ -19023,7 +18861,7 @@
   - id: pgx:icdom-96803
     label: Malignant lymphoma, large B-cell, diffuse, NOS
   - id: pgx:icdot-C22.1
-    label: intrahepatic bile ducts
+    label: Intrahepatic bile duct
   examples:
   - Diffuse large B-cell lymphoma [Common bile duct]
   id: NCIT:C8851::pgx:icdom-96803::pgx:icdot-C22.1
@@ -19034,7 +18872,7 @@
   - id: pgx:icdom-96803
     label: Malignant lymphoma, large B-cell, diffuse, NOS
   - id: pgx:icdot-C23.9
-    label: gallbladder
+    label: Gallbladder
   examples:
   - Diffuse large B-cell lymphoma [Gallbladder]
   id: NCIT:C8851::pgx:icdom-96803::pgx:icdot-C23.9
@@ -19067,7 +18905,7 @@
   - id: pgx:icdom-96803
     label: Malignant lymphoma, large B-cell, diffuse, NOS
   - id: pgx:icdot-C38.4
-    label: pleura
+    label: Pleura, NOS
   examples:
   - Malignant lymphoma, histiocytic, diffuse [cell line]
   id: NCIT:C8851::pgx:icdom-96803::pgx:icdot-C38.4
@@ -19176,7 +19014,7 @@
   - id: pgx:icdom-96803
     label: Malignant lymphoma, large B-cell, diffuse, NOS
   - id: pgx:icdot-C49.9
-    label: connective and soft tissue, NOS
+    label: Connective, subcutaneous and other soft tissues, NOS
   examples:
   - Diffuse Large B-cell Lymphoma [extranodal, abdominal wall, IG-MYC maybe, 3q2 break
     neg., t(14;18) pos.]
@@ -19498,7 +19336,7 @@
   - id: pgx:icdom-89103
     label: Embryonal rhabdomyosarcoma, NOS
   - id: pgx:icdot-C49.9
-    label: connective and soft tissue, nos
+    label: Connective, subcutaneous and other soft tissues, NOS
   examples:
   - Embryonal Rhabdomyosarcoma
   - Embryonal rhabdomyosarcoma
@@ -19601,7 +19439,7 @@
   - id: pgx:icdom-80103
     label: Carcinoma, NOS
   - id: pgx:icdot-C06.9
-    label: mouth, NOS
+    label: Mouth, NOS
   examples:
   - Spindle-cell ameloblastic carcinoma
   id: NCIT:C8990::pgx:icdom-80103::pgx:icdot-C06.9
@@ -19648,11 +19486,11 @@
     label: Mature Teratoma
   - id: pgx:icdom-90800
     label: Teratoma, benign
-  - id: pgx:icdot-C40.0
-    label: bones and joints
+  - id: pgx:icdot-C41.9
+    label: Bone, NOS
   examples:
   - germ cell tumor [mature teratoma]
-  id: NCIT:C9015::pgx:icdom-90800::pgx:icdot-C40.0
+  id: NCIT:C9015::pgx:icdom-90800::pgx:icdot-C41.9
   note: progenetix
 - code_group:
   - id: NCIT:C9015
@@ -19745,7 +19583,7 @@
   - id: pgx:icdom-91403
     label: Kaposi sarcoma
   - id: pgx:icdot-C49.9
-    label: connective and soft tissue, NOS
+    label: Connective, subcutaneous and other soft tissues, NOS
   examples:
   - Kaposi sarcoma
   id: NCIT:C9087::pgx:icdom-91403::pgx:icdot-C49.9
@@ -19755,11 +19593,11 @@
     label: Sarcoma
   - id: pgx:icdom-88003
     label: Sarcoma, NOS
-  - id: pgx:icdot-C40.0
-    label: bones and joints
+  - id: pgx:icdot-C41.9
+    label: Bone, NOS
   examples:
   - Osteosarcoma [grade high, primary]
-  id: NCIT:C9118::pgx:icdom-88003::pgx:icdot-C40.0
+  id: NCIT:C9118::pgx:icdom-88003::pgx:icdot-C41.9
   note: progenetix
 - code_group:
   - id: NCIT:C9118
@@ -19818,7 +19656,7 @@
   - id: pgx:icdom-85603
     label: Adenosquamous carcinoma
   - id: pgx:icdot-C34.9
-    label: lung and bronchus
+    label: Lung, NOS
   examples:
   - Adenosquamous lung carcinoma [cell line HCC1195]
   - Adenosquamous lung carcinoma [cell line NCI-H596]
@@ -19886,11 +19724,11 @@
     label: Adult T acute lymphoblastic leukemia
   - id: pgx:icdom-98353
     label: 'Precursor cell lymphoblastic leukemia, NOS '
-  - id: pgx:icdot-C77.9
-    label: Lymph node, NOS
+  - id: pgx:icdot-C42.1
+    label: Bone marrow
   examples:
   - Myeloid Neoplasm
-  id: NCIT:C9142::pgx:icdom-98353::pgx:icdot-C77.9
+  id: NCIT:C9142::pgx:icdom-98353::pgx:icdot-C42.1
   note: progenetix
 - code_group:
   - id: NCIT:C9143
@@ -19910,7 +19748,7 @@
   - id: pgx:icdom-91803
     label: Osteosarcoma, NOS
   - id: pgx:icdot-C38.4
-    label: pleura
+    label: Pleura, NOS
   examples:
   - Osteosarcoma [Extraskeletal]
   id: NCIT:C9145::pgx:icdom-91803::pgx:icdot-C38.4
@@ -19920,29 +19758,14 @@
     label: Osteosarcoma
   - id: pgx:icdom-91803
     label: Osteosarcoma, NOS
-  - id: pgx:icdot-C40.0
-    label: bones and joints
+  - id: pgx:icdot-C41.9
+    label: Bone, NOS
   examples:
-  - Osteosarcoma [Osteoblastic]
+  - osteosarcoma [IOR/OS9 cell line, osteoblastic, metastasis]
   - osteosarcoma [cell line HOS]
   - osteosarcoma [cell line MG-63]
   - osteosarcoma [cell line SAOS-2]
   - osteosarcoma [cell line U-2OS]
-  id: NCIT:C9145::pgx:icdom-91803::pgx:icdot-C40.0
-  note: progenetix
-- code_group:
-  - id: NCIT:C9145
-    label: Osteosarcoma
-  - id: pgx:icdom-91803
-    label: Osteosarcoma, NOS
-  - id: pgx:icdot-C41.9
-    label: bone, NOS
-  examples:
-  - osteosarcoma [IOR/OS9 cell line, osteoblastic, metastasis]
-  - osteosarcoma [primary tumor, femur, small cell]
-  - osteosarcoma [primary tumor, femur]
-  - osteosarcoma [primary tumor, tibia, fibrohistiocytic]
-  - osteosarcoma [primary tumor, tibia]
   id: NCIT:C9145::pgx:icdom-91803::pgx:icdot-C41.9
   note: progenetix
 - code_group:
@@ -19951,7 +19774,7 @@
   - id: pgx:icdom-91803
     label: Osteosarcoma, NOS
   - id: pgx:icdot-C49.9
-    label: connective and soft tissue, NOS
+    label: Connective, subcutaneous and other soft tissues, NOS
   examples:
   - Osteosarcoma [metastasis]
   - Sarcoma [postirradiation, Extraskeletal osteosarcoma CB G4, Armpit]
@@ -20324,7 +20147,7 @@
   - id: pgx:icdom-88211
     label: Aggressive fibromatosis
   - id: pgx:icdot-C49.9
-    label: connective and soft tissue, NOS
+    label: Connective, subcutaneous and other soft tissues, NOS
   examples:
   - Desmoid tumor
   - Desmoid tumor [ass. with Gardner syndrome]
@@ -20470,28 +20293,12 @@
   - id: pgx:icdot-C38.3
     label: Mediastinum, NOS
   examples:
-  - Primary Mediastinal B-cell Lymphoma
+  - Diffuse large B-cell lymphoma
   - Primary mediastinal B-cell lymphoma
   - mediastinal B-cell lymphoma [cell line Karpas-1106P]
   - primary mediastinal B-cell lymphoma
   - primary mediastinal B-cell lymphoma [cell line]
   id: NCIT:C9280::pgx:icdom-96793::pgx:icdot-C38.3
-  note: progenetix
-- code_group:
-  - id: NCIT:C9280
-    label: Mediastinal (Thymic) Large B-Cell Lymphoma
-  - id: pgx:icdom-96793
-    label: Mediastinal large B-cell lymphoma
-  - id: pgx:icdot-C38.9
-    label: mediastinum
-  examples:
-  - Diffuse Large B-cell Lymphoma [extranodal, mediastinal, maybe primary mediastinal
-    B-NHL,  G-MYC neg., 3q2 break neg., t(14;18) neg.]
-  - Diffuse large B-cell lymphoma
-  - Mediastinal large B-cell lymphoma
-  - Primary mediastinal B-NHL
-  - diffuse large B-cell lymphoma [cell line Karpas-231]
-  id: NCIT:C9280::pgx:icdom-96793::pgx:icdot-C38.9
   note: progenetix
 - code_group:
   - id: NCIT:C9281
@@ -20635,7 +20442,7 @@
   - id: pgx:icdom-88003
     label: Sarcoma, NOS
   - id: pgx:icdot-C49.9
-    label: connective and soft tissue, NOS
+    label: Connective, subcutaneous and other soft tissues, NOS
   examples:
   - Intimal sarcoma [Aorta]
   - Pulmonary artery intimal sarcoma
@@ -20713,7 +20520,7 @@
   - id: pgx:icdom-93643
     label: Peripheral neuroectodermal tumor
   - id: pgx:icdot-C47.9
-    label: peripheral nervs incl. autonomous
+    label: Autonomic nervous system, NOS
   examples:
   - peripheral primitive neuroectodermal tumor
   id: NCIT:C9341::pgx:icdom-93643::pgx:icdot-C47.9
@@ -21038,7 +20845,7 @@
   - id: pgx:icdom-84530
     label: Intraductal papillary-mucinous adenoma [C25._]
   - id: pgx:icdot-C25.9
-    label: pancreas
+    label: Pancreas, NOS
   examples:
   - intraductal papillary mucinous neoplasms of the pancreas [Low-grade]
   id: NCIT:C95514::pgx:icdom-84530::pgx:icdot-C25.9
@@ -21074,7 +20881,7 @@
   - id: pgx:icdom-81510
     label: Insulinoma, NOS
   - id: pgx:icdot-C25.9
-    label: pancreas
+    label: Pancreas, NOS
   examples:
   - Insulinoma
   - endocrine pancreatic tumor [Insulinoma ]
@@ -21098,7 +20905,7 @@
   - id: pgx:icdom-91003
     label: Choriocarcinoma, NOS
   - id: pgx:icdot-C16.9
-    label: stomach
+    label: Stomach, NOS
   examples:
   - Gastric choriocarcinoma [cell line SCH]
   id: NCIT:C95749::pgx:icdom-91003::pgx:icdot-C16.9
@@ -21120,7 +20927,7 @@
   - id: pgx:icdom-82463
     label: Neuroendocrine carcinoma, NOS
   - id: pgx:icdot-C17.9
-    label: small intestine
+    label: Small intestine, NOS
   examples:
   - Neuroendocrine gastroenteropancreatic tumour [caecum, Lymph nodes metastasis,
     functional]

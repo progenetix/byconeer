@@ -21,6 +21,8 @@ def hierarchy_from_file(ds_id, coll_type, pre_h_f, byc):
 
         bar.next()
 
+        # print(c_l)
+
         c, l, d, i = re.split("\t", c_l.rstrip() )
         d = int(d)
 
