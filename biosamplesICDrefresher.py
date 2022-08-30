@@ -179,7 +179,7 @@ def _rewrite_icdo_ncit_mapping_file(input_file, icdo_ncit_mapping_file, modes):
     id_p = modes[mode]["parameter"]+".id"
     icdoms = modes[mode]["codes"]
 
-    h_lines.append("mapping_type\ticd_code_mix\ticdom_id\ticdom_label\ticdot_id\ticdot_label\tncit_id\tncit_label\tpgx_sample_example\tpgx_example_link\tpgx_sample_count")
+    h_lines.append("mapping_type\ticdo_code_mix\ticdo_label_mix\tncit_id\tncit_label\ticdom_id\ticdom_label\ticdot_id\ticdot_label\tpgx_sample_example\tpgx_example_link\tpgx_sample_count")
 
     with open(input_file) as f:
         lines = f.readlines()
@@ -199,7 +199,7 @@ def _rewrite_icdo_ncit_mapping_file(input_file, icdo_ncit_mapping_file, modes):
 
             if "C" in ncit_c:
                 ncit_c = "NCIT:"+ncit_c
-            h_lines.append("primary ICD-O M\t{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}".format(re.sub("pgx:", "",icd_k), icd_k, icd_l, "", "", ncit_c, ncit_l, "", "", i_no))
+            h_lines.append("primary ICD-O M\t{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}".format(re.sub("pgx:", "",icd_k), icd_l, ncit_c, ncit_l, "", "", icd_k, icd_l, "", "", i_no))
 
             ncits = {}
 
@@ -216,7 +216,7 @@ def _rewrite_icdo_ncit_mapping_file(input_file, icdo_ncit_mapping_file, modes):
                 i_v = ncits[i_k]
                 c_q = { id_p: icd_k, "icdo_topography.id":i_v["icdot"]["id"], "histological_diagnosis.id":i_v["ncit"]["id"] }
                 c_no = bios_coll.count_documents(c_q)
-                h_lines.append("pgx code mix\t{}~{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}".format(re.sub("pgx:", "", icd_k), re.sub("pgx:", "", i_v["icdot"]["id"]), icd_k, icd_l, i_v["icdot"]["id"], i_v["icdot"]["label"], i_v["ncit"]["id"], i_v["ncit"]["label"], i_v["example_description"], i_v["example_id"], c_no))
+                h_lines.append("pgx code mix\t{}~{}\t{} ({})\t{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}".format(re.sub("pgx:", "", icd_k), re.sub("pgx:", "", i_v["icdot"]["id"]), icd_l, i_v["icdot"]["label"], i_v["ncit"]["id"], i_v["ncit"]["label"], icd_k, icd_l, i_v["icdot"]["id"], i_v["icdot"]["label"], i_v["example_description"], i_v["example_id"], c_no))
 
     h_f = open(icdo_ncit_mapping_file, 'w')
     for l in h_lines:
