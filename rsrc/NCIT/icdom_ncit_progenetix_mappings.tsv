@@ -1,4 +1,4 @@
-mapping_type	icdo_code_mix	icdo_label_mix	ncit_id	ncit_label	icdom_id	icdom_label	icdot_id	icdot_label	pgx_sample_example	pgx_example_link	pgx_sample_count
+mapping_type    icdo_code_mix   icdo_label_mix    ncit_id ncit_label  icdom_id    icdom_label icdot_id    icdot_label pgx_sample_example  pgx_example_link  pgx_sample_count
 primary ICD-O M	icdom-80000	Neoplasm, benign	NCIT:C3677	Benign Neoplasm			pgx:icdom-80000	Neoplasm, benign			5
 pgx code mix	icdom-80000~icdot-C25.9	Neoplasm, benign (Pancreas, NOS)	NCIT:C4612	Benign Pancreatic Neoplasm	pgx:icdom-80000	Neoplasm, benign	pgx:icdot-C25.9	Pancreas, NOS	Non-malignant pancreas	https://progenetix.org/services/ids/pgxbs-kftvkfia	5
 primary ICD-O M	icdom-80001	Neoplasm, uncertain whether benign or malignant	NCIT:C65157	Neoplasm, Uncertain Whether Benign or Malignant			pgx:icdom-80001	Neoplasm, uncertain whether benign or malignant			11

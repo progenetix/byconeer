@@ -19,7 +19,7 @@ from byconeer import *
 
 ## `biosamplesRefresher`
 
-* `biosamplesICDrefresher.py -d progenetix
+* `biosamplesICDrefresher.py
 
 """
 
@@ -179,7 +179,7 @@ def _rewrite_icdo_ncit_mapping_file(input_file, icdo_ncit_mapping_file, modes):
     id_p = modes[mode]["parameter"]+".id"
     icdoms = modes[mode]["codes"]
 
-    h_lines.append("mapping_type\ticdo_code_mix\ticdo_label_mix\tncit_id\tncit_label\ticdom_id\ticdom_label\ticdot_id\ticdot_label\tpgx_sample_example\tpgx_example_link\tpgx_sample_count")
+    h_lines.append("""mapping_type    icdo_code_mix   icdo_label_mix    ncit_id ncit_label  icdom_id    icdom_label icdot_id    icdot_label pgx_sample_example  pgx_example_link  pgx_sample_count""")
 
     with open(input_file) as f:
         lines = f.readlines()
@@ -199,7 +199,7 @@ def _rewrite_icdo_ncit_mapping_file(input_file, icdo_ncit_mapping_file, modes):
 
             if "C" in ncit_c:
                 ncit_c = "NCIT:"+ncit_c
-            h_lines.append("primary ICD-O M\t{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}".format(re.sub("pgx:", "",icd_k), icd_l, ncit_c, ncit_l, "", "", icd_k, icd_l, "", "", i_no))
+            h_lines.append("\t".join(map(str, ["primary ICD-O M", re.sub("pgx:", "",icd_k), icd_l, ncit_c, ncit_l, "", "", icd_k, icd_l, "", "", i_no])))
 
             ncits = {}
 
