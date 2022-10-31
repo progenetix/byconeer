@@ -346,26 +346,6 @@ def _ind_update_sex(ind, fmp_s, ind_coll, byc):
         ind_coll.update_one({"_id": ind["_id"]}, {"$set": ind_up })
 
 ################################################################################
-
-def _deparse_rev_ish_CGH(bs_id, cs_id, technique, iscn):
-
-    v_s, v_e = deparse_ISCN_to_variants(iscn, technique, byc)
-    variants = []
-
-    for v in v_s:
-
-        v.update({
-            "variant_internal_id": variant_create_digest(v),
-            "biosample_id": bs_id,
-            "callset_id": cs_id,
-            "updated": datetime.datetime.now().isoformat()
-        })
-
-        variants.append(v)
-
-    return variants, v_e
-
-################################################################################
 ################################################################################
 ################################################################################
 

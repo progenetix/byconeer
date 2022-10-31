@@ -90,7 +90,7 @@ def variants_refresher():
 
             update_obj = vrsify_variant(v_p, v_d)
             update_obj.update({
-                "variant_internal_id": variant_create_digest(v_p),
+                "variant_internal_id": variant_create_digest(v_p, byc),
                 "updated": datetime.datetime.now().isoformat()
             })
 

@@ -30,14 +30,14 @@ def main():
 def biosamples_tagger():
 
     initialize_service(byc)
-
-
     select_dataset_ids(byc)
     parse_filters(byc)
     parse_variant_parameters(byc)
     initialize_beacon_queries(byc)
-
     generate_genomic_intervals(byc)
+    set_processing_modes(byc)
+
+    byc["dataset_ids"] = ['progenetix']
 
     if len(byc["dataset_ids"]) != 1:
         print("No single, existing dataset was provided with -d ...")
@@ -45,9 +45,6 @@ def biosamples_tagger():
 
     ds_id = byc["dataset_ids"][0]
 
-    if not byc["args"].mode:
-        print("No update modus specified => quitting ...")
-        exit()
     if not byc["args"].inputfile:
         print("No inputfile file specified => quitting ...")
         exit()
@@ -61,43 +58,38 @@ def biosamples_tagger():
            if i > 0:
                i_t.append(row)
 
-
     row_no = len(i_t)
-
     not_found = []
 
     data_client = MongoClient( )
     bios_coll = data_client[ ds_id ][ "biosamples" ]
 
-    if byc["args"].mode == "cohorttag":
-
-        cohort = {
-            "id": "pgxcohort-carriocordo2021heterogeneity",
-            "label": "Carrio-Cordo and Baudis - Genomic Heterogeneity in Cancer Types (2021)"
-        }
+    if byc["args"].mode == "description":
  
         bar = Bar("Reading in metadata table", max = row_no, suffix="%(percent)d%%"+" of "+str(row_no) )
         for row in i_t:
             if row[0].startswith('#'):
                 continue
 
-            bs = bios_coll.find_one({"info.legacy_ids":row[0]})
+            bs = bios_coll.find_one({"id":row[0]})
 
             if not bs:
                 not_found.append(row[0])
                 bar.next()
                 continue
 
-            if not byc["test_mode"]:
+            if byc["update_mode"] is True:
                 bios_coll.update_one(
-                    {"info.legacy_ids":row[0]},
-                    {"$addToSet": { "cohorts": cohort} }
+                    {"_id":bs["_id"]},
+                    {"$set": { "description": row[2]} }
                 )
+                bar.next()
+            else:
+                print("{} - {}".format(row[0], row[2]))
 
-            bar.next()
         bar.finish()
 
-        print(" biosamples could not be found and tagged".format(len(not_found)))
+        print("{} biosamples could not be found and tagged".format(len(not_found)))
 
 ################################################################################
 ################################################################################

@@ -37,7 +37,6 @@ def callsets_variants_importer():
 	get_args(byc)
 	set_processing_modes(byc)
 	select_dataset_ids(byc)
-	filters_from_args(byc)
 	parse_variant_parameters(byc)
 	generate_genomic_intervals(byc)
 

@@ -177,7 +177,7 @@ def _recreate_all_variants_from_ISCN(sample, cs, v_coll, byc):
     cs["info"].update( { "provenance": technique+" ISCN conversion" } )
 
     # print("\n{} ({}): {} - {}".format(bs_id, cs_id, technique, sample[iscn_field]))
-    variants, variant_error = _deparse_rev_ish_CGH(bs_id, cs_id, technique, sample[iscn_field])
+    variants, variant_error = deparse_rev_ish_CGH(bs_id, cs_id, technique, sample[iscn_field], byc)
 
     if not byc["test_mode"]:
 
@@ -220,7 +220,7 @@ def _read_samplefile(byc, max_count=0):
             fmp_s.update({"external_references__id___PMID":pmid})
 
             fmp_pmids.add(pmid)
-            fmp_samples.append(dict(fmp_s))
+            fmp_samples.append(fmp_s)
 
     if max_count >0:
         if max_count < len(fmp_samples):
@@ -242,26 +242,6 @@ def _get_pmids_samples(fmp_pmids, bios_coll, byc):
             pgx_samples.append(bios)
 
     return pgx_samples, pgx_pmids
-
-################################################################################
-
-def _deparse_rev_ish_CGH(bs_id, cs_id, technique, iscn):
-
-    v_s, v_e = deparse_ISCN_to_variants(iscn, technique, byc)
-    variants = []
-
-    for v in v_s:
-
-        v.update({
-            "variant_internal_id": variant_create_digest(v),
-            "biosample_id": bs_id,
-            "callset_id": cs_id,
-            "updated": datetime.datetime.now().isoformat()
-        })
-
-        variants.append(v)
-
-    return variants, v_e
 
 ################################################################################
 ################################################################################

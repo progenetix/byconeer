@@ -51,20 +51,6 @@ def biosamples_refresher():
     # TODO: Clean solution?
 
     initialize_service(byc)
-    _get_args(byc)
-
-    if not byc["args"].scopes:
-        print( "You have to provide at least one of the scopes in `-s {}`".format(",".join(supported_scopes)))
-        exit()
-
-    s_scopes = byc["this_config"]["text_processing_scopes"]
-    sel_scopes = []
-
-    for scope in re.split(",", byc["args"].scopes):
-        if scope in s_scopes.keys():
-            sel_scopes.append(scope)
-        else:
-            print("{} is not a supported scope".format(scope))
 
     byc["dataset_ids"] = ["progenetix"]
 
@@ -72,8 +58,6 @@ def biosamples_refresher():
     parse_variant_parameters(byc)
     initialize_beacon_queries(byc)
     generate_genomic_intervals(byc)
-
-    print("Running progenetix ...")
 
     no_cs_no = 0
     no_stats_no = 0
@@ -85,7 +69,8 @@ def biosamples_refresher():
 
     bios_query = { "$or": [
         { "external_references.id": { "$regex": id_filter } },
-        { "info.legacy_ids": { "$regex": id_filter } }
+        # { "info.legacy_ids": { "$regex": id_filter } },
+        { "analysis_info.experiment_id": { "$regex": id_filter } }
     ] }
 
     data_client = MongoClient( )
@@ -106,31 +91,20 @@ def biosamples_refresher():
     experiment_re = re.compile(r'^.*?(GSM\d+?)(:?[^\d]|$)', re.IGNORECASE)
     platform_re = re.compile(r'^.*?(GPL\d+?)(:?[^\d]|$)', re.IGNORECASE)
 
-    missing_ids = []
-    coll_lines = []
-    coll_objs = []
-
-    header = ["id", "analysis_info.experiment_id", "analysis_info.series_id", "analysis_info.platform_id"]
-    for scp in sel_scopes:
-        header.append(s_scopes[scp]["db_key"])
-        header.append("_old_"+scp)
-        header.append("_input_"+scp)
-        header.append("_note_"+scp)
-
-    coll_lines.append("\t".join(header))
+    gsm_d_n = 0
+    gse_d_n = 0
+    gpl_d_n = 0
 
     for bsid in bs_ids:
 
         get_geosoft = True
-        gsm = ""
-        gse = ""
-        gpl = ""
+        gsm = None
+        gse = None
+        gpl = None
         gsm_soft = False
 
-        # TODO: Read in files if existing ... 
-        # To be added after some collection exists
-
-        s = bios_coll.find_one({ "id":bsid })
+        s = bios_coll.find_one({ "id": bsid })
+        a_i = s.get("analysis_info", {})
 
         e_r_s = s.get("external_references", [])
         for e_r in e_r_s:
@@ -141,95 +115,252 @@ def biosamples_refresher():
             if "GPL" in e_r["id"]:
                 gpl = platform_re.match(e_r["id"]).group(1)
 
-        if len(gse) < 5 or len(gsm) < 5:
+        n_e_r_s = []
+        for e_r in e_r_s:
+            e_r_id = e_r.get("id", "")
+            if not "geo:" in e_r_id:
+                n_e_r_s.append(e_r)
 
-            # print("\n{} did not have GEO ids in external_references!!".format(bsid))
-            missing_ids.append("\t".join([bsid, gse, gsm, gpl]))
+        a_i = s.get("analysis_info", {})
+        if gsm is None:
+            gsm = a_i.get("experiment_id", None)
+        if gse is None:
+            gse = a_i.get("series_id", None)
+        if gpl is None:
+            gpl = a_i.get("platform_id", None)
+
+        if gsm is None:
+            print("\n!!!! No gsm file for {}".format(bsid))
+            # missing_ids.append("\t".join([bsid, gse, gsm, gpl]))
             bar.next()
             continue
 
-        gsm_soft = _read_retrieve_save_gsm_soft(gsm, gse, byc)
+        gsm_soft, gsm_dl = _read_retrieve_save_gsm_soft(gsm, gse, byc)
+        gsm_d_n += gsm_dl
 
         if not gsm_soft:
             print("\n!!!! No soft file for {}".format(gsm))
             bar.next()
             continue
 
-        _filter_gsm_soft(gsm_soft)
+        if gse is None:
+            gse = _return_gse_from_gsm_soft_list(gsm_soft)
+        if gpl is None:
+            gpl = _return_gpl_from_gsm_soft_list(gsm_soft)
 
-        updating_scopes = False
+        gse_soft, gse_dl = _read_retrieve_save_gse_soft(gse, byc)
+        gse_d_n += gse_dl
+        gpl_soft, gpl_dl = _read_retrieve_save_gpl_soft(gpl, byc)
+        gpl_d_n += gpl_dl
 
-        line_coll = {}
-        for h_i in header:
-            line_coll.update({h_i:""})
-        line_coll.update({
-            "id": bsid,
-            "analysis_info.experiment_id": gsm,
-            "analysis_info.series_id": gse,
-            "analysis_info.platform_id": gpl
-        })
+        gsm_e_r = _gsm_external_ref_from_gsm_soft(gsm_soft, gsm)
+        gse_e_r = _gse_external_ref_from_gse_soft(gse_soft, gse)
+        gpl_e_r = _gpl_external_ref_from_gse_soft(gpl_soft, gpl)
 
-        new_info = s["info"].copy()
+        n_e_r_s.append(gsm_e_r)
+        n_e_r_s.append(gse_e_r)
+        n_e_r_s.append(gpl_e_r)
 
-        sample_characteristics = geosoft_preclean_sample_characteristics(gsm_soft, byc)
+        update_obj = {
+            "external_references": n_e_r_s,
+            "analysis_info": {
+                "experiment_id": gsm_e_r.get("id", None),
+                "series_id": gse_e_r.get("id", None),
+                "platform_id": gpl_e_r.get("id", None),
+            }
+        }
 
-        for scp in sel_scopes:
 
-            line_coll.update({"_old_"+scp: s["info"].get(s_scopes[scp]["info_parameter"], "")})
-            # scope_update_f = "geosoft_extract_tumor_"+scp
-            # globals()[scope_update_f](sample_characteristics, line_coll, s_scopes[scp], byc)
-            geosoft_extract_geo_meta(sample_characteristics, line_coll, s_scopes[scp], byc)
-            if len(line_coll[s_scopes[scp]["db_key"]]) > 0 or len(line_coll["_note_"+scp]) > 0:
-                new_info.update({scope:line_coll[s_scopes[scp]["db_key"]]})
-                updating_scopes = True
-
-        coll_line = ""
-        if updating_scopes:
-            line = []
-            for h_k in header:
-                line.append(line_coll.get(h_k, ""))
-            coll_line = "\t".join(line)
-            coll_lines.append(coll_line)
-            coll_objs.append(line_coll)
-            bar.next()
+        if not byc["test_mode"]:
+            bios_coll.update_one({"_id": s["_id"]}, {"$set": update_obj })
         else:
-            bar.next()
-            continue
+            prjsoncam(update_obj)
+
+
+        bar.next()
 
     bar.finish()
 
-    tmp_path = _save_tmp_file("gsm-metadata_"+"_".join(sel_scopes)+".tsv", coll_lines, byc)
-    print("=> Wrote {}".format(tmp_path))
-    print("=> metadata for {} samples".format(len(coll_lines) - 1))
-
-    for scp in sel_scopes:
-        scp_dists = {}
-        for c in coll_objs:
-            if len(c[ s_scopes[scp]["db_key"] ]) > 0:
-                scp_dists.update({ c[ s_scopes[scp]["db_key"] ] :1})
-        print("=> Values in scope \"{}\":\n{}".format(s_scopes[scp]["id"], "\n".join(list(scp_dists.keys()))))
+    print("Downloaded files:\n* {} GSM\n* {} GSE\n* {} GPL".format(gsm_d_n, gse_d_n, gpl_d_n))
 
 ################################################################################
 
 def _read_retrieve_save_gsm_soft(gsm, gse, byc):
 
-    gse_path = path.join( dir_path, *byc["config"]["paths"]["geosoft_file_root"], gse )
-    gsm_path = path.join( gse_path, gsm+".txt" )
+    i_d = re.sub("geo:", "", gsm)
+    i_d_s = re.sub("geo:", "", gse)
 
-    if path.isfile(gsm_path):               
-        gsm_soft = open(gsm_path).read().splitlines()
-        return gsm_soft
+    gsm_soft = None
+
+    if gse is None:
+        gsm_soft = retrieve_geosoft_file(i_d, byc)
+        gse = _return_gse_from_gsm_soft_list(gsm_soft)
+
+    gse_path = path.join( dir_path, *byc["geosoft_file_root"], "GSE", i_d_s )
+    gse_file_path = path.join( gse_path, i_d_s+".txt" )
+    gsm_file_path = path.join( gse_path, i_d+".txt" )
+
+    if path.isfile(gsm_file_path):
+        if gsm_soft is None:            
+            gsm_soft = open(gsm_file_path).read().splitlines()
+        return gsm_soft, 0
     else:
-        gsm_soft = retrieve_geosoft_file(gsm, byc)
+        if gsm_soft is None:
+            gsm_soft = retrieve_geosoft_file(i_d, byc)
         if not path.isdir(gse_path):
             mkdir(gse_path)
-        s_f = open(gsm_path, 'w')
+        s_f = open(gsm_file_path, 'w')
         for l in gsm_soft:
             s_f.write(l)
+            n = 1
         s_f.close()
-        return gsm_soft
+        return gsm_soft, 1
 
-    return False
+    return False, 0
+
+################################################################################
+
+def _return_gse_from_gsm_soft_list(gsm_soft):
+
+    gse_l = list(filter(lambda x:'Sample_series_id' in x, gsm_soft))
+    gse = re.sub("!Sample_series_id = ", "", ges_l[0])
+    gse = gse.strip()
+
+    return gse
+
+################################################################################
+
+def _return_gpl_from_gsm_soft_list(gsm_soft):
+
+    gpl_l = list(filter(lambda x:'Sample_platform_id' in x, gsm_soft))
+    gpl = re.sub("!Sample_platform_id = ", "", gpl_l[0])
+    gpl = gpl.strip()
+
+    return gpl
+
+################################################################################
+
+def _gse_external_ref_from_gse_soft(gse_soft, gse):
+
+    gse_e_r = {}
+
+    gse_m = {
+        "id": "!Series_geo_accession = ",
+        "label": "!Series_title = "
+    }
+
+    for k, m in gse_m.items():
+        for gse_l in gse_soft:
+            if m in gse_l:
+                gse_l = re.sub(m, "", gse_l)
+                v = gse_l.strip()
+                gse_e_r.update({k: v})
+                continue
+
+    gse_e_r.update({"reference":byc["filter_definitions"]["GEOseries"]["reference"]["root"]+gse_e_r["id"]})
+    gse_e_r.update({"id":"geo:"+gse_e_r["id"]})
+
+    return gse_e_r
+
+################################################################################
+
+def _gsm_external_ref_from_gsm_soft(gsm_soft, gsm):
+
+    gsm_e_r = {}
+
+    gsm_m = {
+        "id": "!Sample_geo_accession = ",
+        "label": "!Sample_title = "
+    }
+
+    for k, m in gsm_m.items():
+        for gsm_l in gsm_soft:
+            if m in gsm_l:
+                gsm_l = re.sub(m, "", gsm_l)
+                v = gsm_l.strip()
+                gsm_e_r.update({k: v})
+                continue
+
+    if not "id" in gsm_e_r:
+        print(gsm)
+        print(gsm_soft)
+
+    gsm_e_r.update({"reference":byc["filter_definitions"]["GEOseries"]["reference"]["root"]+gsm_e_r["id"]})
+    gsm_e_r.update({"id":"geo:"+gsm_e_r["id"]})
+
+    return gsm_e_r
+
+################################################################################
+
+def _gpl_external_ref_from_gse_soft(gpl_soft, gpl):
+
+    gpl_e_r = {}
+
+    gpl_m = {
+        "id": "!Platform_geo_accession = ",
+        "label": "!Platform_title = "
+    }
+
+    for k, m in gpl_m.items():
+        for gpl_l in gpl_soft:
+            if m in gpl_l:
+                gpl_l = re.sub(m, "", gpl_l)
+                v = gpl_l.strip()
+                gpl_e_r.update({k: v})
+                continue
+
+    gpl_e_r.update({"reference":byc["filter_definitions"]["GEOseries"]["reference"]["root"]+gpl_e_r["id"]})
+    gpl_e_r.update({"id":"geo:"+gpl_e_r["id"]})
+
+    return gpl_e_r
+
+################################################################################
+
+def _read_retrieve_save_gse_soft(gse, byc):
+
+    i_d = re.sub("geo:", "", gse)
+
+    gse_path = path.join( dir_path, *byc["geosoft_file_root"], "GSE", i_d )
+    gse_file_path = path.join( gse_path, i_d+".txt" )
+
+    if path.isfile(gse_file_path):               
+        gse_soft = open(gse_file_path).read().splitlines()
+        return gse_soft, 0
+    else:
+        gse_soft = retrieve_geosoft_file(i_d, byc)
+        if not path.isdir(gse_path):
+            mkdir(gse_path)
+        s_f = open(gse_file_path, 'w')
+        for l in gse_soft:
+            s_f.write(l)
+        s_f.close()
+        return gse_soft, 1
+
+    return False, 0
+
+################################################################################
+
+def _read_retrieve_save_gpl_soft(gpl, byc):
+
+    i_d = re.sub("geo:", "", gpl)
+
+    gpl_path = path.join( dir_path, *byc["geosoft_file_root"], "GPL" )
+    gpl_file_path = path.join( gpl_path, i_d+".txt" )
+
+    if path.isfile(gpl_file_path):               
+        gpl_soft = open(gpl_file_path).read().splitlines()
+        return gpl_soft, 0
+    else:
+        gpl_soft = retrieve_geosoft_file(i_d, byc)
+        if not path.isdir(gpl_path):
+            mkdir(gpl_path)
+        s_f = open(gpl_file_path, 'w')
+        for l in gpl_soft:
+            s_f.write(l)
+        s_f.close()
+        return gpl_soft, 1
+
+    return False, 0
 
 ################################################################################
 

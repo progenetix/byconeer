@@ -95,7 +95,7 @@ def variants_exporter():
 
     print("=> Writing header data for {} samples with variants...".format(used_bs_no))
 
-    f = open(byc["args"].outfile, "w")
+    f = open(byc["args"].outputfile, "w")
 
     for bs_id in used_bs_ids:
         bs = mongo_client[ ds_id ][ "biosamples" ].find_one( { "id": bs_id } )
