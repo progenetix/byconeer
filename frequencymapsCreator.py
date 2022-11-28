@@ -193,7 +193,8 @@ def _cs_cursor_from_bios_query(bios_coll, ind_coll, cs_coll, coll_id, scope, que
     if pre_b > bios_no:
         print("WARNING: {} samples for {}, while {} after excluding normals by EFO:0009654".format(pre_b, coll_id, bios_no))
        
-    cs_query = { "biosample_id": { "$in": bios_ids } }
+    cs_query = { "biosample_id": { "$in": bios_ids } , "variant_class": { "$ne": "SNV" } }
+
     cs_cursor = cs_coll.find(cs_query)
 
     return bios_no, cs_cursor

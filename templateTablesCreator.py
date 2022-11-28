@@ -37,15 +37,25 @@ def templates_creator():
 
     initialize_service(byc)
     dt_m = byc["datatable_mappings"]
+    b_rt_s = byc["beacon_mappings"]["response_types"]
 
     rsrc_p = path.join(parent_path, "byconaut", "rsrc", "templates")
+
+    added = []
+
+    if byc["args"].parse:
+        added = re.split(",", byc["args"].parse)
 
     for r_t in ["biosample", "individual", "variant", "analysis"]:
 
         io_params = dt_m["io_params"][ r_t ]
         io_prefixes = dt_m["io_prefixes"][ r_t ]
 
+        coll = b_rt_s["biosample"].get("collection")
+
         header = create_table_header(io_params, io_prefixes)
+        if len(added) > 0:
+            header[1:1] = added
 
         f_p = path.join(rsrc_p, r_t+"s_template.tsv")
         f_p = re.sub("analysiss", "analyses", f_p)
@@ -71,9 +81,10 @@ def templates_creator():
                         io_prefixes[io_p]["pres"].pop(io_pre, None)
 
         header = create_table_header(io_params, io_prefixes)
+        if len(added) > 0:
+            header[1:1] = added
 
-        f_p = path.join(rsrc_p, r_t+"s_compact_template.tsv")
-        f_p = re.sub("analysiss", "analyses", f_p)
+        f_p = path.join(rsrc_p, coll+"_compact_template.tsv")
         f = open(f_p, "w")
         f.write("\t".join(header)+"\n")
         f.close()

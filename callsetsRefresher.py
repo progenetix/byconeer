@@ -56,6 +56,8 @@ def callsets_refresher():
 
     ds_results = byc["dataset_results"][ds_id]
 
+    no_cnv_type = 0
+
     if not "callsets._id" in ds_results.keys():
         cs_ids = cs_coll.distinct("_id", {})
         print("¡¡¡ Using all {} callsets from {} !!!".format(len(cs_ids), ds_id))
@@ -74,10 +76,14 @@ def callsets_refresher():
 
         bar.next()
 
+        if not "CNV" in cs.get("variant_class", "CNV"):
+            no_cnv_type += 1
+            continue
+
         # only the defined parameters will be overwritten
         cs_update_obj = { "info": cs.get("info", {}) }
-        cs["info"].pop("statusmaps", None)
-        cs["info"].pop("cnvstatistics", None)
+        cs_update_obj["info"].pop("statusmaps", None)
+        cs_update_obj["info"].pop("cnvstatistics", None)
 
         maps, cs_cnv_stats, cs_chro_stats = interval_cnv_arrays(v_coll, { "callset_id": csid }, byc)
         cs_update_obj.update({"cnv_statusmaps": maps})
@@ -95,6 +101,8 @@ def callsets_refresher():
         ####################################################################
 
     bar.finish()
+
+    print("{} callsets were not from CNV calling".format(no_cnv_type))
 
 ################################################################################
 ################################################################################
