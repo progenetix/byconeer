@@ -68,5 +68,5 @@ def genome_binning_from_args(byc):
     if byc["args"].key:
         byc.update({"genome_binning": byc["args"].key})
 
-    return(byc)
+    return byc
 

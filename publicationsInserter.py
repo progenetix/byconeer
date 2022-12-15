@@ -124,7 +124,11 @@ def publications_inserter():
             except KeyError:
                 pass
 
-            epmc = retrieve_epmc_publications(pmid)
+            epmc, e = retrieve_epmc_publications(pmid)
+            if e is not False:
+                print(e)
+                continue
+
             update_from_epmc_publication(n_p, epmc)            
             publication_update_label(n_p)
             get_ncit_tumor_types(n_p, pub)
