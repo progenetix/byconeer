@@ -1,0 +1,5 @@
+defaults:
+  genome_binning: 1Mb
+keep_normals:
+  - EFO:0009654
+  - oneKgenomes

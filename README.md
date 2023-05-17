@@ -30,13 +30,13 @@ The maps are generated with the [callsetsRefresher](callsetsRefresher.py)
 collecting all variants for each callset & then matching overlaps to the intervals.
 
 ```
-byconeer/callsetsRefresher.py -d progenetix 
+byconeer/bin/callsetsRefresher.py -d progenetix 
 ```
 
 This also allows just to add statusmaps and statistics for single series which have beed added / fixed:
 
 ```
-byconeer/callsetsRefresher.py -d progenetix -t 1 -f "icdom-85002"
+byconeer/bin/callsetsRefresher.py -d progenetix -t 1 -f "icdom-85002"
 ```
 
 4. Import / refresh `biosamples`
@@ -51,7 +51,7 @@ other collections. This is a utility scriopt hich needs occasional adjustments
 depending on the use cases and changing data schemas.
 
 ```
-byconeer/biosamplesRefresher.py -d progenetix
+byconeer/bin/biosamplesRefresher.py -d progenetix
 ```
 
 5. Import / refresh `individuals`
@@ -63,7 +63,7 @@ re-created right now and not just updated for individual matches. This may
 change...
 
 ```
-byconeer/collationsCreator.py -d progenetix
+byconeer/bin/collationsCreator.py -d progenetix
 ```
 
 7. Generate `frequencymaps`
@@ -75,5 +75,5 @@ byconeer/collationsCreator.py -d progenetix
 10. Update the statistics database
 
 ```
-byconeer/beaconinfoCreator.py
+byconeer/bin/beaconinfoCreator.py
 ```

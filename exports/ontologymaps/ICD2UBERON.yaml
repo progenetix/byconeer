@@ -53,7 +53,7 @@
   note: progenetix
 - code_group:
   - id: pgx:icdot-C03.0
-    label: Upper Gum
+    label: Upper gum
   - id: UBERON:0011601
     label: gingiva of upper jaw
   examples:
@@ -130,7 +130,7 @@
   note: progenetix
 - code_group:
   - id: pgx:icdot-C06.0
-    label: Cheeck mucosa
+    label: Cheek mucosa
   - id: UBERON:0006956
     label: buccal mucosa
   examples:
@@ -161,7 +161,7 @@
   note: progenetix
 - code_group:
   - id: pgx:icdot-C07.9
-    label: parotid gland
+    label: Parotid gland
   - id: UBERON:0001831
     label: parotid gland
   examples:
@@ -232,7 +232,7 @@
   note: progenetix
 - code_group:
   - id: pgx:icdot-C11.9
-    label: nasopharynx
+    label: Nasopharynx, NOS
   - id: UBERON:0001728
     label: nasopharynx
   examples:
@@ -254,7 +254,7 @@
   note: progenetix
 - code_group:
   - id: pgx:icdot-C13.9
-    label: Hypopharynx
+    label: Hypopharynx, NOS
   - id: UBERON:0001051
     label: hypopharynx
   examples:
@@ -272,7 +272,8 @@
     label: hypopharynx
   examples:
   - C13;Carcinoma
-  - Mixed Cancer Types
+  - Hypopharyngeal squamous cell carcinoma [cell line BICR 6]
+  - Hypopharyngeal squamous cell carcinoma [cell line FaDu]
   id: pgx:icdot-C13::UBERON:0001051
   note: progenetix
 - code_group:
@@ -281,7 +282,7 @@
   - id: UBERON:0003566
     label: head connective tissue
   examples:
-  - Mixed Cancer Types
+  - Head and neck squamous cell carcinoma [cell line BHY]
   id: pgx:icdot-C14.0::UBERON:0003566
   note: progenetix
 - code_group:
@@ -435,7 +436,8 @@
     label: duodenum
   examples:
   - Duodenal Adenocarcinoma
-  - Mixed Cancer Types
+  - Duodenal adenocarcinoma [cell line AZ-521]
+  - Duodenal adenocarcinoma [cell line HuTu 80]
   id: pgx:icdot-C17.0::UBERON:0002114
   note: progenetix
 - code_group:
@@ -462,7 +464,7 @@
   note: progenetix
 - code_group:
   - id: pgx:icdot-C18.0
-    label: cecum
+    label: Cecum
   - id: UBERON:0000314
     label: cecum mucosa
   examples:
@@ -676,19 +678,19 @@
   - id: UBERON:0004913
     label: hepatopancreatic ampulla
   examples:
+  - Ampulla of Vater adenocarcinoma [cell line SNU-478]
   - Ampullary Carcinoma
-  - Mixed Cancer Types
   - Pancreatobiliary Ampullary Carcinoma
   id: pgx:icdot-C24.1::UBERON:0004913
   note: progenetix
 - code_group:
   - id: pgx:icdot-C24.9
-    label: Billiary tract, NOS
+    label: Biliary tract, NOS
   - id: UBERON:0003703
     label: extrahepatic bile duct
   examples:
   - Cholangiocarcinoma
-  - Mixed Cancer Types
+  - Cholangiocarcinoma [cell line SNU-245]
   - biliary tract tumor [commom bile duct adenocarcinoma, adenocarcinoma, moderately
     differentiated]
   - biliary tract tumor [commom bile duct adenocarcinoma, adenocarcinoma, poorly differentiated]
@@ -731,7 +733,9 @@
   examples:
   - C25;Adenocarcinoma
   - C25;Carcinoma
-  - Mixed Cancer Types
+  - Pancreatic ductal adenocarcinoma [cell line AsPC-1]
+  - Pancreatic ductal adenocarcinoma [cell line BxPC-3]
+  - Pancreatic ductal adenocarcinoma [cell line Capan-1]
   id: pgx:icdot-C25.3::UBERON:0007329
   note: progenetix
 - code_group:
@@ -767,7 +771,7 @@
   note: progenetix
 - code_group:
   - id: pgx:icdot-C26.9
-    label: unspecified digest. Organs
+    label: Gastrointestinal tract, NOS
   - id: UBERON:0001007
     label: digestive system
   examples:
@@ -793,7 +797,7 @@
   note: progenetix
 - code_group:
   - id: pgx:icdot-C30.1
-    label: middle and inner ear
+    label: Middle ear
   - id: UBERON:0001756
     label: middle ear
   examples:
@@ -825,7 +829,7 @@
   note: progenetix
 - code_group:
   - id: pgx:icdot-C32.9
-    label: Larynx
+    label: Larynx, NOS
   - id: UBERON:0001737
     label: larynx
   examples:
@@ -838,7 +842,7 @@
   note: progenetix
 - code_group:
   - id: pgx:icdot-C33.9
-    label: trachea
+    label: Trachea
   - id: UBERON:0003126
     label: trachea
   examples:
@@ -923,7 +927,7 @@
   note: progenetix
 - code_group:
   - id: pgx:icdot-C38.0
-    label: heart
+    label: Heart
   - id: UBERON:0000948
     label: heart
   examples:
@@ -1032,7 +1036,7 @@
   note: progenetix
 - code_group:
   - id: pgx:icdot-C41.9
-    label: bone, NOS
+    label: Bone, NOS
   - id: UBERON:0001474
     label: bone element
   examples:
@@ -1262,7 +1266,9 @@
     label: autonomic nervous system
   examples:
   - C71;neuroblastoma
-  - Mixed Cancer Types
+  - Neuroblastoma [cell line CHP-126]
+  - Neuroblastoma [cell line CHP-212]
+  - Neuroblastoma [cell line IMR-32]
   - neuroblastoma;C72
   id: pgx:icdot-C47.9::UBERON:0002410
   note: progenetix
@@ -1312,7 +1318,7 @@
   note: progenetix
 - code_group:
   - id: pgx:icdot-C49.0
-    label: Connective, Subcutaneous and other soft tissues of head, face, and neck
+    label: Connective, subcutaneous and other soft tissues of head, face, and neck
   - id: UBERON:0003566
     label: head connective tissue
   examples:
@@ -1322,7 +1328,7 @@
   note: progenetix
 - code_group:
   - id: pgx:icdot-C49.1
-    label: Connective, Subcutaneous and other soft tissues of upper limb and shoulder
+    label: Connective, subcutaneous and other soft tissues of upper limb and shoulder
   - id: UBERON:0003579
     label: shoulder connective tissue
   examples:
@@ -1332,7 +1338,7 @@
   note: progenetix
 - code_group:
   - id: pgx:icdot-C49.2
-    label: Connective, Subcutaneous and other soft tissues of lower limb and hip
+    label: Connective, subcutaneous and other soft tissues of lower limb and hip
   - id: UBERON:0003576
     label: hip connective tissue
   examples:
@@ -1343,32 +1349,32 @@
   note: progenetix
 - code_group:
   - id: pgx:icdot-C49.3
-    label: Connective, Subcutaneous and other soft tissues of thorax
+    label: Connective, subcutaneous and other soft tissues of thorax
   - id: UBERON:0003837
     label: thoracic segment connective tissue
   examples:
+  - Askin tumor [cell line SK-N-MC]
   - C71;neuroblastoma
   - Metastatic
-  - Mixed Cancer Types
   - Primary Tumor
   id: pgx:icdot-C49.3::UBERON:0003837
   note: progenetix
 - code_group:
   - id: pgx:icdot-C49.4
-    label: Connective, Subcutaneous and other soft tissues of abdomen
+    label: Connective, subcutaneous and other soft tissues of abdomen
   - id: UBERON:0003567
     label: abdomen connective tissue
   examples:
   - C49;Osteosarcoma
   - C49;Rhabdomyosarcoma
+  - Embryonal rhabdomyosarcoma [cell line A-204]
   - Metastatic
-  - Mixed Cancer Types
   - Primary Tumor
   id: pgx:icdot-C49.4::UBERON:0003567
   note: progenetix
 - code_group:
   - id: pgx:icdot-C49.5
-    label: Connective, Subcutaneous and other soft tissues of pelvis
+    label: Connective, subcutaneous and other soft tissues of pelvis
   - id: UBERON:0003594
     label: pelvis connective tissue
   examples:
@@ -1378,7 +1384,7 @@
   note: progenetix
 - code_group:
   - id: pgx:icdot-C49.6
-    label: Connective, Subcutaneous and other soft tissues of trunk, NOS
+    label: Connective, subcutaneous and other soft tissues of trunk NOS
   - id: UBERON:0003586
     label: trunk connective tissue
   examples:
@@ -1470,7 +1476,7 @@
   note: progenetix
 - code_group:
   - id: pgx:icdot-C51.0
-    label: vagina and labia
+    label: Labium majus
   - id: UBERON:0004084
     label: genital labium
   examples:
@@ -1482,7 +1488,7 @@
   note: progenetix
 - code_group:
   - id: pgx:icdot-C51.9
-    label: vulva, nos
+    label: Vulva, NOS
   - id: UBERON:0011387
     label: constrictor vulvae muscle
   examples:
@@ -1524,7 +1530,7 @@
   note: progenetix
 - code_group:
   - id: pgx:icdot-C53.9
-    label: cervix uteri
+    label: Cervix uteri
   - id: UBERON:0000002
     label: uterine cervix
   examples:
@@ -1547,7 +1553,7 @@
   note: progenetix
 - code_group:
   - id: pgx:icdot-C54.1
-    label: endometrium
+    label: Endometrium
   - id: UBERON:0001295
     label: endometrium
   examples:
@@ -1583,15 +1589,15 @@
     label: body of uterus
   examples:
   - C49;Leiomyosarcoma
-  - Mixed Cancer Types
   - Primary Tumor
   - Uterine Clear Cell Carcinoma
   - Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma
+  - Uterine corpus leiomyosarcoma [cell line SK-UT-1]
   id: pgx:icdot-C54.9::UBERON:0009853
   note: progenetix
 - code_group:
   - id: pgx:icdot-C55.9
-    label: uterus, nos
+    label: Uterus, NOS
   - id: UBERON:0000995
     label: uterus
   examples:
@@ -1604,7 +1610,7 @@
   note: progenetix
 - code_group:
   - id: pgx:icdot-C56.9
-    label: ovary
+    label: Ovary
   - id: UBERON:0000992
     label: ovary
   examples:
@@ -1617,7 +1623,7 @@
   note: progenetix
 - code_group:
   - id: pgx:icdot-C57.0
-    label: fallopian tube
+    label: Fallopian tube
   - id: UBERON:0003889
     label: fallopian tube
   examples:
@@ -1629,7 +1635,7 @@
   note: progenetix
 - code_group:
   - id: pgx:icdot-C57.9
-    label: other female genital
+    label: Female genital tract, NOS
   - id: UBERON:0000474
     label: female reproductive system
   examples:
@@ -1642,7 +1648,7 @@
   note: progenetix
 - code_group:
   - id: pgx:icdot-C58.9
-    label: placenta
+    label: Placenta
   - id: UBERON:0001987
     label: placenta
   examples:
@@ -1653,7 +1659,7 @@
   note: progenetix
 - code_group:
   - id: pgx:icdot-C60.9
-    label: penis
+    label: Penis, NOS
   - id: UBERON:0000989
     label: penis
   examples:
@@ -1664,7 +1670,7 @@
   note: progenetix
 - code_group:
   - id: pgx:icdot-C61.9
-    label: prostate gland
+    label: Prostate gland
   - id: UBERON:0002367
     label: prostate gland
   examples:
@@ -1677,7 +1683,7 @@
   note: progenetix
 - code_group:
   - id: pgx:icdot-C62.9
-    label: testis
+    label: Testis, NOS
   - id: UBERON:0000473
     label: testis
   examples:
@@ -1699,7 +1705,7 @@
   note: progenetix
 - code_group:
   - id: pgx:icdot-C63.9
-    label: epididymis, spermatic cord, male genital, nos
+    label: Male genital organs, NOS
   - id: UBERON:0005352
     label: spermatic cord
   examples:
@@ -1718,7 +1724,7 @@
   note: progenetix
 - code_group:
   - id: pgx:icdot-C64.9
-    label: kidney
+    label: Kidney, NOS
   - id: UBERON:0002113
     label: kidney
   examples:
@@ -1731,7 +1737,7 @@
   note: progenetix
 - code_group:
   - id: pgx:icdot-C65.9
-    label: Renal pelvis, ureter
+    label: Renal pelvis
   - id: UBERON:0036295
     label: renal pelvis/ureter
   examples:
@@ -1748,12 +1754,12 @@
   - id: UBERON:0001224
     label: renal pelvis
   examples:
-  - Mixed Cancer Types
+  - Renal pelvis and ureter urothelial carcinoma [cell line BFTC-909]
   id: pgx:icdot-C65::UBERON:0001224
   note: progenetix
 - code_group:
   - id: pgx:icdot-C67.0
-    label: Urinary bladder
+    label: Trigone of bladder
   - id: UBERON:0001255
     label: urinary bladder
   examples:
@@ -1833,7 +1839,7 @@
   note: progenetix
 - code_group:
   - id: pgx:icdot-C68.0
-    label: other urinary organs
+    label: Urethra
   - id: UBERON:0001008
     label: renal system
   examples:
@@ -1844,7 +1850,7 @@
   note: progenetix
 - code_group:
   - id: pgx:icdot-C69.0
-    label: orbit and lacrimal gland, excl. retina, eye, nos
+    label: Conjunctiva
   - id: UBERON:0001817
     label: lacrimal gland
   examples:
@@ -1907,7 +1913,7 @@
   note: progenetix
 - code_group:
   - id: pgx:icdot-C69.9
-    label: eye, nos
+    label: Eye, NOS
   - id: UBERON:0000970
     label: eye
   examples:
@@ -1920,7 +1926,7 @@
   note: progenetix
 - code_group:
   - id: pgx:icdot-C70.0
-    label: meninges cerebral, spinal
+    label: Cerebral meninges
   - id: UBERON:0017641
     label: meningeal branch of spinal nerve
   examples:
@@ -1955,7 +1961,7 @@
   note: progenetix
 - code_group:
   - id: pgx:icdot-C71.0
-    label: cerebrum
+    label: Cerebrum
   - id: UBERON:0001869
     label: cerebral hemisphere
   examples:
@@ -2013,7 +2019,7 @@
   note: progenetix
 - code_group:
   - id: pgx:icdot-C71.5
-    label: Ventricle
+    label: Ventricle, NOS
   - id: UBERON:0002082
     label: cardiac ventricle
   examples:
@@ -2026,7 +2032,7 @@
   note: progenetix
 - code_group:
   - id: pgx:icdot-C71.6
-    label: cerebellum
+    label: Cerebellum, NOS
   - id: UBERON:0002037
     label: cerebellum
   examples:
@@ -2039,7 +2045,7 @@
   note: progenetix
 - code_group:
   - id: pgx:icdot-C71.7
-    label: brain stem
+    label: Brain stem
   - id: UBERON:0002298
     label: brainstem
   examples:
@@ -2061,7 +2067,7 @@
   note: progenetix
 - code_group:
   - id: pgx:icdot-C71.9
-    label: brain, NOS
+    label: Brain, NOS
   - id: UBERON:0000955
     label: brain
   examples:
@@ -2078,7 +2084,7 @@
   - id: UBERON:0000955
     label: brain
   examples:
-  - Mixed Cancer Types
+  - Primitive neuroectodermal tumor [cell line TC-32]
   id: pgx:icdot-C71::UBERON:0000955
   note: progenetix
 - code_group:
@@ -2106,7 +2112,7 @@
   note: progenetix
 - code_group:
   - id: pgx:icdot-C72.3
-    label: Optic chiasm
+    label: Optic nerve
   - id: UBERON:0000959
     label: optic chiasma
   examples:
@@ -2142,7 +2148,7 @@
   note: progenetix
 - code_group:
   - id: pgx:icdot-C74.0
-    label: adrenal cortex
+    label: Cortex of adrenal gland
   - id: UBERON:0001235
     label: adrenal cortex
   examples:
@@ -2164,7 +2170,7 @@
   note: progenetix
 - code_group:
   - id: pgx:icdot-C74.9
-    label: adrenal glands
+    label: Adrenal gland, NOS
   - id: UBERON:0002369
     label: adrenal gland
   examples:
@@ -2177,7 +2183,7 @@
   note: progenetix
 - code_group:
   - id: pgx:icdot-C75.0
-    label: parathyroid gland
+    label: Parathyroid gland
   - id: UBERON:0001132
     label: parathyroid gland
   examples:
@@ -2190,7 +2196,7 @@
   note: progenetix
 - code_group:
   - id: pgx:icdot-C75.1
-    label: pituitary gland
+    label: Pituitary gland
   - id: UBERON:0000007
     label: pituitary gland
   examples:
@@ -2203,7 +2209,7 @@
   note: progenetix
 - code_group:
   - id: pgx:icdot-C75.3
-    label: pineal gland
+    label: Pineal gland
   - id: UBERON:0034715
     label: pineal tract
   examples:
@@ -2241,7 +2247,7 @@
   note: progenetix
 - code_group:
   - id: pgx:icdot-C76.1
-    label: thorax, NOS
+    label: Thorax, NOS
   - id: UBERON:0000915
     label: thoracic segment of trunk
   examples:
@@ -2253,7 +2259,7 @@
   note: progenetix
 - code_group:
   - id: pgx:icdot-C76.2
-    label: abdomen, NOS
+    label: Abdomen, NOS
   - id: UBERON:0000916
     label: abdomen
   examples:
@@ -2346,7 +2352,7 @@
   note: progenetix
 - code_group:
   - id: pgx:icdot-C77.9
-    label: Lymph nodes, NOS
+    label: Lymph node, NOS
   - id: UBERON:0000029
     label: lymph node
   examples:

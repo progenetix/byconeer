@@ -50,7 +50,7 @@ def biosamples_refresher():
 
     # TODO: Clean solution?
 
-    initialize_service(byc)
+    initialize_bycon_service(byc)
     _get_args(byc)
 
     byc["dataset_ids"] = ["progenetix"]

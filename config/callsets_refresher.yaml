@@ -1,5 +1,0 @@
-defaults:
-    genome_binning: 1Mb
-dataset_ids:
-  - progenetix
-  - cellosaurus

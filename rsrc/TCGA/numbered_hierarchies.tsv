@@ -1,0 +1,34 @@
+pgx:TCGA-samples	TCGA (all samples)	0	1	
+pgx:TCGA-ACC	Adrenocortical carcinoma	1	2	
+pgx:TCGA-BLCA	Bladder Urothelial Carcinoma	1	3	
+pgx:TCGA-BRCA	Breast Invasive carcinoma	1	4	
+pgx:TCGA-CESC	Cervical squamous cell carcinoma and endocervical adenocarcinoma	1	5	
+pgx:TCGA-CHOL	Cholangiocarcinoma	1	6	
+pgx:TCGA-COAD	Colon adenocarcinoma	1	7	
+pgx:TCGA-DLBC	Lymphoid Neoplasm Diffuse Large B-cell Lymphoma	1	8	
+pgx:TCGA-ESCA	Esophageal carcinoma	1	9	
+pgx:TCGA-GBM	Glioblastoma multiforme	1	10	
+pgx:TCGA-HNSC	Head and Neck squamous cell carcinoma	1	11	
+pgx:TCGA-KICH	Kidney Chromophobe	1	12	
+pgx:TCGA-KIRC	Kidney renal clear cell carcinoma	1	13	
+pgx:TCGA-KIRP	Kidney renal papillary cell carcinoma	1	14	
+pgx:TCGA-LAML	Acute Myeloid Leukemia	1	15	
+pgx:TCGA-LGG	Brain Lower Grade Glioma	1	16	
+pgx:TCGA-LIHC	Liver hepatocellular carcinoma	1	17	
+pgx:TCGA-LUAD	Lung adenocarcinoma	1	18	
+pgx:TCGA-LUSC	Lung squamous cell carcinoma	1	19	
+pgx:TCGA-MESO	Mesothelioma	1	20	
+pgx:TCGA-OV	Ovarian serous cystadenocarcinoma	1	21	
+pgx:TCGA-PAAD	Pancreatic adenocarcinoma	1	22	
+pgx:TCGA-PCPG	Pheochromocytoma and Paraganglioma	1	23	
+pgx:TCGA-PRAD	Prostate adenocarcinoma	1	24	
+pgx:TCGA-READ	Rectum adenocarcinoma	1	25	
+pgx:TCGA-SARC	Sarcoma	1	26	
+pgx:TCGA-SKCM	Skin Cutaneous Melanoma	1	27	
+pgx:TCGA-STAD	Stomach adenocarcinoma	1	28	
+pgx:TCGA-TGCT	Testicular Germ Cell Tumors	1	29	
+pgx:TCGA-THCA	Thyroid carcinoma	1	30	
+pgx:TCGA-THYM	Thymoma	1	31	
+pgx:TCGA-UCEC	Uterine Corpus Endometrial Carcinoma	1	32	
+pgx:TCGA-UCS	Uterine Carcinosarcoma	1	33	
+pgx:TCGA-UVM	Uveal Melanoma	1	34	

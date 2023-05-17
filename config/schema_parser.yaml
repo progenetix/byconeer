@@ -1,6 +1,0 @@
-defaults:
-  script_args:
-    - testMode
-    - parse
-    - key
-    - mode

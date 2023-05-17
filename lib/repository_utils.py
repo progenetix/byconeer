@@ -35,6 +35,8 @@ def retrieve_geosoft_file(geo_acc, byc):
 
 def geosoft_preclean_sample_characteristics(gsm_soft, byc):
 
+    # TODO: text_patterns is now in rsrc & not read in -> method ...
+
     s_c_f = []
 
     s_c = list(filter(lambda x:'Sample_characteristics' in x, gsm_soft))
