@@ -41,7 +41,7 @@ def beaconinfo_creator():
 
     b_info = { "date": date_isoformat(datetime.datetime.now()), "datasets": { } }
 
-    print("=> updating entry {} in {}.{}".format(b_info[ "date" ], byc[ "config" ][ "info_db" ], byc[ "config" ][ "beacon_info_coll"]) )
+    print("=> updating entry {} in {}.{}".format(b_info[ "date" ], byc[ "config" ][ "services_db" ], byc[ "config" ][ "beacon_info_coll"]) )
 
     mongo_client = MongoClient( )
     dbs = MongoClient().list_database_names()
@@ -56,12 +56,12 @@ def beaconinfo_creator():
             } )
         # else:
         #     continue
-    info_db = mongo_client[ byc[ "config" ][ "info_db" ] ]
-    info_coll = info_db[ byc[ "config" ][ "beacon_info_coll"] ]
+    services_db = mongo_client[ byc[ "config" ][ "services_db" ] ]
+    info_coll = services_db[ byc[ "config" ][ "beacon_info_coll"] ]
     info_coll.delete_many( { "date": b_info["date"] } ) #, upsert=True
     info_coll.insert_one( b_info ) #, upsert=True 
     
-    print("=> updated entry {} in {}.{}".format(b_info["date"], byc[ "config" ][ "info_db" ], byc[ "config" ][ "beacon_info_coll"]) )
+    print("=> updated entry {} in {}.{}".format(b_info["date"], byc[ "config" ][ "services_db" ], byc[ "config" ][ "beacon_info_coll"]) )
 
 ################################################################################
 ################################################################################

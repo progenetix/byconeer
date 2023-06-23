@@ -169,10 +169,10 @@ def ontologymaps_creator():
 
 
         if not byc["args"].filters:
-            om_coll = mongo_client[ byc["config"]["info_db"] ][ byc["config"]["ontologymaps_coll"] ]
+            om_coll = mongo_client[ byc["config"]["services_db"] ][ byc["config"]["ontologymaps_coll"] ]
             om_coll.drop()
             om_coll.insert_many( o_m_all.values() )
-            print("==> Rewrote {}.{} collection".format(byc["config"]["info_db"], byc["config"]["ontologymaps_coll"]))
+            print("==> Rewrote {}.{} collection".format(byc["config"]["services_db"], byc["config"]["ontologymaps_coll"]))
 
 ################################################################################
 ################################################################################

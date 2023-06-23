@@ -278,7 +278,7 @@ def _make_dummy_publication_hierarchy(byc):
 
     coll_type = "PMID"
     coll_defs = byc["filter_definitions"][coll_type]
-    data_db = byc["config"]["info_db"]
+    data_db = byc["config"]["services_db"]
     data_coll = MongoClient( )[ data_db ][ "publications" ]
     query = { "id": { "$regex": coll_defs["pattern"] } }
 

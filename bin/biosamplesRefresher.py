@@ -158,7 +158,7 @@ def _map_publication_labels(byc):
 
     pub_client = MongoClient( )
     pub_labels = { }
-    pub_db = byc["config"]["info_db"]
+    pub_db = byc["config"]["services_db"]
     pub_coll = pub_client[ pub_db ][ "publications" ]
     for pub in pub_coll.find( { "label": { "$regex": "..." } }, { "_id": 0, "id": 1, "label": 1 } ):
         pub_labels.update( { pub["id"] : pub["label"] } )
