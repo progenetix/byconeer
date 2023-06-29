@@ -50,7 +50,7 @@ def fmp_refresher():
     parse_filters(byc)
     parse_variant_parameters(byc)
     initialize_beacon_queries(byc)
-    generate_genomic_intervals(byc)
+    generate_genomic_mappings(byc)
 
     io_params = byc["datatable_mappings"]["io_params"][ "biosample" ]
     io_prefixes = byc["datatable_mappings"]["io_prefixes"][ "biosample" ]

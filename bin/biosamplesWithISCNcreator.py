@@ -39,7 +39,7 @@ def biosamples_ISCN_updater():
     parse_filters(byc)
     parse_variant_parameters(byc)
     initialize_beacon_queries(byc)
-    generate_genomic_intervals(byc)
+    generate_genomic_mappings(byc)
 
     io_params = byc["datatable_mappings"]["io_params"]
     io_prefixes = byc["datatable_mappings"]["io_prefixes"]

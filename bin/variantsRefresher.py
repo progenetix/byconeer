@@ -66,7 +66,7 @@ def variants_refresher():
 
     # exit()
 
-    v_d = byc["variant_definitions"]
+    v_d = byc["variant_parameters"]
 
     for ds_id in byc["dataset_ids"]:
 

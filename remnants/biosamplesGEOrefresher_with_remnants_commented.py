@@ -58,7 +58,7 @@ def biosamples_refresher():
     parse_filters(byc)
     parse_variant_parameters(byc)
     initialize_beacon_queries(byc)
-    generate_genomic_intervals(byc)
+    generate_genomic_mappings(byc)
 
     print("Running progenetix ...")
 

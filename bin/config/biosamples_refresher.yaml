@@ -4,7 +4,7 @@ bycon_definition_files:
   - dataset_definitions
   - interval_definitions
   - handover_definitions
-  - variant_definitions
+  - variant_parameters
   - remap_definitions
   - datatable_mappings
 defaults:

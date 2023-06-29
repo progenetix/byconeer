@@ -45,7 +45,7 @@ def biosamples_refresher():
         print("No existing dataset was provided with -d ...")
         exit()
 
-    generate_genomic_intervals(byc)
+    generate_genomic_mappings(byc)
     pub_labels = _map_publication_labels(byc)
 
     for ds_id in byc["dataset_ids"]:

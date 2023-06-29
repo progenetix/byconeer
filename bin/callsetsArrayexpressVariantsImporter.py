@@ -38,7 +38,7 @@ def callsets_variants_importer():
 	set_processing_modes(byc)
 	select_dataset_ids(byc)
 	parse_variant_parameters(byc)
-	generate_genomic_intervals(byc)
+	generate_genomic_mappings(byc)
 
 	processsed_root = byc["args"].source # "~/switchdrive/baudisgroup/2022-arrayexpress-reimport"
 	var_temp = object_instance_from_schema_name(byc, "pgxVariant", "properties")
@@ -51,7 +51,7 @@ def callsets_variants_importer():
 		print("No source directory specified => quitting ...")
 		exit()
 
-	v_defs = byc["variant_definitions"]
+	v_defs = byc["variant_parameters"]
 
 	if byc["test_mode"]:
 		max_count = 10

@@ -34,7 +34,7 @@ def biosamples_tagger():
     parse_filters(byc)
     parse_variant_parameters(byc)
     initialize_beacon_queries(byc)
-    generate_genomic_intervals(byc)
+    generate_genomic_mappings(byc)
     set_processing_modes(byc)
 
     byc["dataset_ids"] = ['progenetix']

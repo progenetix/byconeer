@@ -78,7 +78,7 @@ def variants_refresher():
 
 def v23(v):
 
-    v_d = byc["variant_definitions"]
+    v_d = byc["variant_parameters"]
 
     if "M:" in v.get("variant_internal_id", ""):
         v.update({"variant_internal_id": re.sub("M:", "MT:", v["variant_internal_id"])})
